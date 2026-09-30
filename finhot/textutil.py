@@ -24,19 +24,24 @@ def strip_html(s: str | None) -> str:
 
 
 def split_title(text: str, title: str = "", max_len: int = 60) -> tuple[str, str]:
-    """快讯没有独立标题时，从正文里取【标题】或首句作为标题。返回 (title, content)。"""
-    text = text.strip()
-    title = (title or "").strip()
+    """整理快讯的标题与正文，返回 (title, content)。
+
+    - 正文开头的【标题】会被剥离（没有独立标题时用它作标题）；
+    - 正文开头的"财联社9月30日电，"之类前缀会被去掉；
+    - 仍没有标题时取正文首句。
+    """
+    text = _WS_RE.sub(" ", text).strip()
+    title = _WS_RE.sub(" ", title or "").strip()
+    m = _TITLE_RE.match(text)
+    if m:
+        title = title or m.group(1)
+        text = text[m.end():].strip()
+    text = _PREFIX_RE.sub("", text).strip() or title
     if not title:
-        m = _TITLE_RE.match(text)
-        if m:
-            title = m.group(1)
-            text = text[m.end():].strip() or title
-    if not title:
-        body = _PREFIX_RE.sub("", text)
-        first = re.split(r"(?<=[。！？!?；;])", body, maxsplit=1)[0]
+        first = re.split(r"(?<=[。！？!?；;])", text, maxsplit=1)[0]
         title = first if len(first) <= max_len else first[:max_len] + "…"
-    return title.strip(), text
+    title = title.rstrip("。；; ")
+    return title, text
 
 
 def normalize(s: str) -> str:

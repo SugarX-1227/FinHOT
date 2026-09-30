@@ -7,6 +7,7 @@
 #   url       rss/json 类信源需要
 #   tier      official（官方一手）| media（媒体）
 #   weight    信源权重 0.5~2.0，影响重要性打分和去重时"谁当代表"
+#   important_weight  该源"加红/重要"标记的可信度 0~1.5（标得越滥越低），默认 1.0
 #   lang      zh | en
 #   enabled   false 则跳过
 #   max_pages 单次最多翻几页（快讯源每页 50~100 条）
@@ -19,6 +20,7 @@ sources:
     type: wallstreetcn
     tier: media
     weight: 1.3
+    important_weight: 1.0
     max_pages: 10
     options: {channel: global-channel}
 
@@ -27,6 +29,7 @@ sources:
     type: cls
     tier: media
     weight: 1.5
+    important_weight: 1.2
     max_pages: 30
 
   - id: jin10
@@ -34,6 +37,7 @@ sources:
     type: jin10
     tier: media
     weight: 1.1
+    important_weight: 0.4
     max_pages: 40
 
   - id: eastmoney
@@ -41,6 +45,7 @@ sources:
     type: eastmoney
     tier: media
     weight: 1.0
+    important_weight: 1.0
     max_pages: 10
 
   - id: sina
@@ -48,6 +53,7 @@ sources:
     type: sina
     tier: media
     weight: 0.9
+    important_weight: 1.0
     max_pages: 15
 
   - id: ths
@@ -55,6 +61,7 @@ sources:
     type: ths
     tier: media
     weight: 0.9
+    important_weight: 0.5
     max_pages: 10
 
   - id: stcn
@@ -69,6 +76,7 @@ sources:
     type: yicai
     tier: media
     weight: 1.2
+    important_weight: 0.6
     max_pages: 10
 
   # ---------- 官方政策 ----------

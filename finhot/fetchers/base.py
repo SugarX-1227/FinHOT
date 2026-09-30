@@ -49,6 +49,7 @@ class FetchContext:
         kw.setdefault("lang", self.source.get("lang", "zh"))
         kw.setdefault("tier", self.source.get("tier", "media"))
         kw.setdefault("weight", float(self.source.get("weight", 1.0)))
+        kw.setdefault("imp_weight", float(self.source.get("important_weight", 1.0)))
         return NewsItem(**kw)
 
 

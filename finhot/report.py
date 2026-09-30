@@ -39,11 +39,12 @@ class ReportContext:
 def _brief(it: NewsItem, limit: int = 140) -> str:
     if it.llm.get("summary"):
         return it.llm["summary"]
-    text = it.content
-    if text.startswith(it.title.rstrip("…")):
-        text = text[len(it.title.rstrip("…")):].lstrip("，,。：: ")
+    text = " ".join(it.content.split())
+    head = it.title.rstrip("…")
+    if text.startswith(head):
+        text = text[len(head):].lstrip("，,。：:；; ")
     text = text.strip()
-    if not text or text == it.title:
+    if len(text) < 15 or text == it.title:
         return ""
     return text if len(text) <= limit else text[:limit] + "…"
 
@@ -51,7 +52,8 @@ def _brief(it: NewsItem, limit: int = 140) -> str:
 def _entry(it: NewsItem, idx: int | None = None) -> str:
     title = it.llm.get("title") or it.title
     head = f"{idx}. " if idx is not None else "- "
-    flag = " 🔴" if it.important else ""
+    # 🔴：被多家信源同时标为重要（加权票数 ≥ 2）
+    flag = " 🔴" if it.imp_votes >= 2 else ""
     lines = [f"{head}**{title}**{flag}"]
     brief = _brief(it)
     if brief:

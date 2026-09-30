@@ -3,8 +3,9 @@
 同一事件往往被 5~8 家快讯同时报道。做法：
 1. 规范化正文前 N 个字（去掉"财联社X月X日电"等前缀、标点）；
 2. 中文取字符 2-gram、英文取单词作为特征集合；
-3. 用倒排索引找候选对，重叠系数 |A∩B| / min(|A|,|B|) ≥ 阈值且发布时间相近 → 合并为一簇；
-4. 每簇选一条代表（信源标记重要 > 信源权重高 > 正文更长），记录其余信源。
+3. "领头条目"聚类：按时间顺序遍历，与已有簇的领头条目足够相似（重叠系数 ≥ 阈值、时间相近）就并入，
+   否则自成一簇。只和领头条目比较，避免 A~B~C 链式传递把不相关的新闻串成一个大簇；
+4. 每簇选一条代表（信源标记重要 > 官方 > 信源权重高 > 正文更长），记录其余信源。
 """
 
 from __future__ import annotations
@@ -18,31 +19,20 @@ from .textutil import normalize
 WINDOW_CHARS = 80
 THRESHOLD = 0.55
 MAX_HOURS = 12
-MAX_DF = 150  # 出现过于频繁的特征不参与找候选
+MAX_DF = 200  # 出现过于频繁的特征不参与找候选
 
 
 def _features(it: NewsItem) -> set[str]:
     if it.lang == "en":
-        words = re.findall(r"[a-z0-9]+", f"{it.title}".lower())
+        words = re.findall(r"[a-z0-9]+", it.title.lower())
         return {w for w in words if len(w) > 2}
     text = normalize(f"{it.title}{it.content}")[:WINDOW_CHARS]
     return {text[i:i + 2] for i in range(len(text) - 1)}
 
 
-class _UF:
-    def __init__(self, n: int):
-        self.p = list(range(n))
-
-    def find(self, x: int) -> int:
-        while self.p[x] != x:
-            self.p[x] = self.p[self.p[x]]
-            x = self.p[x]
-        return x
-
-    def union(self, a: int, b: int) -> None:
-        ra, rb = self.find(a), self.find(b)
-        if ra != rb:
-            self.p[max(ra, rb)] = min(ra, rb)
+def _similar(a: set[str], b: set[str], threshold: float) -> bool:
+    denom = min(len(a), len(b))
+    return denom >= 4 and len(a & b) / denom >= threshold
 
 
 def _rep_key(it: NewsItem):
@@ -54,54 +44,60 @@ def dedup(items: list[NewsItem], threshold: float = THRESHOLD) -> list[NewsItem]
     uniq: dict[str, NewsItem] = {}
     for it in items:
         uniq.setdefault(it.uid, it)
-    items = list(uniq.values())
+    items = sorted(uniq.values(), key=lambda x: x.published)
 
     feats = [_features(it) for it in items]
-    index: dict[str, list[int]] = defaultdict(list)
-    for i, fs in enumerate(feats):
+    df: dict[str, int] = defaultdict(int)
+    for fs in feats:
         for f in fs:
-            index[f].append(i)
+            df[f] += 1
 
-    uf = _UF(len(items))
+    leaders: list[int] = []                       # 每个簇的领头条目下标
+    members: dict[int, list[int]] = {}
+    index: dict[str, list[int]] = defaultdict(list)  # 特征 → 领头条目
+
     for i, fs in enumerate(feats):
-        if len(fs) < 4:
-            continue
-        shared: dict[int, int] = defaultdict(int)
-        for f in fs:
-            posting = index[f]
-            if len(posting) > MAX_DF:
-                continue
-            for j in posting:
-                if j > i:
-                    shared[j] += 1
-        for j, c in shared.items():
-            denom = min(len(fs), len(feats[j]))
-            if c < 2 or denom < 4:
-                continue
-            # 倒排阶段跳过了高频特征，这里用完整集合计算重叠系数
-            if len(fs & feats[j]) / denom < threshold:
-                continue
-            if abs((items[i].published - items[j].published).total_seconds()) > MAX_HOURS * 3600:
-                continue
-            uf.union(i, j)
-
-    clusters: dict[int, list[NewsItem]] = defaultdict(list)
-    for i, it in enumerate(items):
-        clusters[uf.find(i)].append(it)
+        best, best_sim = -1, 0.0
+        if len(fs) >= 4:
+            cand: dict[int, int] = defaultdict(int)
+            for f in fs:
+                if df[f] <= MAX_DF:
+                    for L in index[f]:
+                        cand[L] += 1
+            for L, c in cand.items():
+                if c < 2:
+                    continue
+                if (items[i].published - items[L].published).total_seconds() > MAX_HOURS * 3600:
+                    continue
+                if _similar(fs, feats[L], threshold):
+                    sim = len(fs & feats[L]) / min(len(fs), len(feats[L]))
+                    if sim > best_sim:
+                        best, best_sim = L, sim
+        if best >= 0:
+            members[best].append(i)
+        else:
+            leaders.append(i)
+            members[i] = [i]
+            for f in fs:
+                if df[f] <= MAX_DF:
+                    index[f].append(i)
 
     out = []
-    for members in clusters.values():
-        rep = max(members, key=_rep_key)
-        others = [m for m in members if m is not rep]
-        rep.dup_count = len(members)
+    for L in leaders:
+        group = [items[k] for k in members[L]]
+        rep = max(group, key=_rep_key)
+        others = [m for m in group if m is not rep]
+        rep.dup_count = len(group)
         rep.dup_sources = sorted({m.source_name for m in others} - {rep.source_name})
-        rep.imp_votes = sum(1 for m in members if m.important)
+        imp = {m.source: m.imp_weight for m in group if m.important}
+        rep.imp_votes = round(sum(imp.values()), 2)
         rep.important = rep.imp_votes > 0
-        rep.published = min(m.published for m in members)  # 取最早报道时间
-        rep.tags = list(dict.fromkeys(t for m in members for t in m.tags))[:6]
-        rep.stocks = list(dict.fromkeys(s for m in members for s in m.stocks))[:8]
-        if any(m.tier == "official" for m in members):
+        rep.published = min(m.published for m in group)  # 取最早报道时间
+        rep.tags = list(dict.fromkeys(t for m in group for t in m.tags))[:6]
+        rep.stocks = list(dict.fromkeys(s for m in group for s in m.stocks))[:8]
+        if any(m.tier == "official" for m in group):
             rep.tier = "official"
+        rep.imp_sources = sorted(imp)
         out.append(rep)
     out.sort(key=lambda x: x.published, reverse=True)
     return out

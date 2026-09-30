@@ -25,13 +25,15 @@ class NewsItem:
     lang: str = "zh"
     tier: str = "media"         # official | media
     weight: float = 1.0         # 信源权重（配置文件给出）
+    imp_weight: float = 1.0     # 该信源"重要"标记的可信度（有的源标得太多，要打折）
 
     # ---- 后处理阶段填充 ----
     category: str = ""          # 宏观 / 政策 / 海外 / 行业 / 公司 / 市场
     score: float = 0.0          # 重要性 0-10
     dup_sources: list[str] = field(default_factory=list)  # 被合并进来的其他信源
     dup_count: int = 1          # 聚簇大小（多少条相似报道）
-    imp_votes: int = 0          # 簇内被信源标记为"重要"的条数
+    imp_votes: float = 0.0      # 簇内"重要"标记的加权票数（每个信源按 imp_weight 计一次）
+    imp_sources: list[str] = field(default_factory=list)  # 标记"重要"的信源 id
     llm: dict[str, Any] = field(default_factory=dict)     # LLM 输出（可选）
 
     @property

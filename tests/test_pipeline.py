@@ -18,7 +18,7 @@ def item(src, title, content="", minutes=0, **kw):
 def test_split_title():
     assert split_title("【央行：降准0.5个百分点】财联社9月30日电，……")[0] == "央行：降准0.5个百分点"
     t, _ = split_title("财联社9月30日电，美国9月非农就业人口增加25万人。失业率4.1%。")
-    assert t == "美国9月非农就业人口增加25万人。"
+    assert t == "美国9月非农就业人口增加25万人"
 
 
 def test_dedup_merges_same_event_across_sources():
@@ -79,3 +79,8 @@ def test_rule_edge_cases():
     real = item("c", "财政部：1-8月全国国有企业营业总收入同比下降2.7%", important=True)
     score_all([digest, minor, real])
     assert real.score > minor.score and real.score > digest.score
+
+
+def test_split_title_strips_bracket_and_prefix_even_with_given_title():
+    t, c = split_title("【央行：降准】财联社9月30日电，中国人民银行决定下调存款准备金率。", "央行：降准")
+    assert t == "央行：降准" and c == "中国人民银行决定下调存款准备金率。"
