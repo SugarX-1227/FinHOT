@@ -6,6 +6,9 @@
   LLM_MODEL      默认 deepseek-chat
   LLM_MAX_ITEMS  进入 LLM 的最大条目数（预算熔断），默认 80
   LLM_MAX_CALLS  单次运行最多调用次数（预算熔断），默认 10
+  LLM_TIMEOUT    单次请求超时秒数，默认 120
+  LLM_TRUST_ENV  设为 0 时忽略系统代理（本机挂代理软件访问国内 API 时用），默认 1
+  LLM_BODY_EXTRA JSON 字符串，合并进请求体（供应商特有参数，如 GLM 关闭深度思考）
 """
 
 from __future__ import annotations
@@ -13,16 +16,19 @@ from __future__ import annotations
 import json
 import logging
 import re
+import time
 from dataclasses import dataclass, field
 
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 from .config import PROMPTS_DIR, env
 from .models import NewsItem
 from .scoring import CATEGORIES
 
 log = logging.getLogger(__name__)
-BATCH = 15
+BATCH = 10
 
 
 @dataclass
@@ -35,6 +41,15 @@ class LLMClient:
     calls: int = 0
     usage: dict = field(default_factory=lambda: {"prompt_tokens": 0, "completion_tokens": 0})
 
+    def __post_init__(self) -> None:
+        retry = Retry(total=3, backoff_factor=2, respect_retry_after_header=True,
+                      status_forcelist=(429, 500, 502, 503, 504), allowed_methods=frozenset({"POST"}))
+        self.session = requests.Session()
+        for scheme in ("https://", "http://"):
+            self.session.mount(scheme, HTTPAdapter(max_retries=retry))
+        if env("LLM_TRUST_ENV", "1") == "0":
+            self.session.trust_env = False
+
     @classmethod
     def from_env(cls) -> "LLMClient | None":
         key = env("LLM_API_KEY")
@@ -45,9 +60,10 @@ class LLMClient:
             base_url=env("LLM_BASE_URL", "https://api.deepseek.com/v1").rstrip("/"),
             model=env("LLM_MODEL", "deepseek-chat"),
             max_calls=int(env("LLM_MAX_CALLS", "10")),
+            timeout=int(env("LLM_TIMEOUT", "120")),
         )
 
-    def chat(self, system: str, user: str, json_mode: bool = False, max_tokens: int = 4000) -> str:
+    def chat(self, system: str, user: str, json_mode: bool = False, max_tokens: int = 8000) -> str:
         if self.calls >= self.max_calls:
             raise RuntimeError("LLM 调用次数达到预算上限")
         self.calls += 1
@@ -59,18 +75,27 @@ class LLMClient:
         }
         if json_mode:
             body["response_format"] = {"type": "json_object"}
-        r = requests.post(f"{self.base_url}/chat/completions", json=body, timeout=self.timeout,
-                          headers={"Authorization": f"Bearer {self.api_key}"})
+        extra = env("LLM_BODY_EXTRA")
+        if extra:
+            try:
+                body.update(json.loads(extra))
+            except ValueError:
+                log.warning("LLM_BODY_EXTRA 不是合法 JSON，已忽略: %r", extra)
+        r = self.session.post(f"{self.base_url}/chat/completions", json=body, timeout=self.timeout,
+                              headers={"Authorization": f"Bearer {self.api_key}"})
         if r.status_code >= 400 and json_mode:
             # 部分兼容接口不支持 response_format，去掉重试一次
             body.pop("response_format", None)
-            r = requests.post(f"{self.base_url}/chat/completions", json=body, timeout=self.timeout,
-                              headers={"Authorization": f"Bearer {self.api_key}"})
+            r = self.session.post(f"{self.base_url}/chat/completions", json=body, timeout=self.timeout,
+                                  headers={"Authorization": f"Bearer {self.api_key}"})
         r.raise_for_status()
         data = r.json()
         for k in self.usage:
             self.usage[k] += int((data.get("usage") or {}).get(k, 0))
-        return data["choices"][0]["message"]["content"]
+        content = data["choices"][0]["message"].get("content") or ""
+        if not content.strip():
+            raise RuntimeError("LLM 返回空内容（可能被 max_tokens 截断或参数不被支持）")
+        return content
 
 
 def _load_prompt(name: str) -> str:
@@ -122,6 +147,8 @@ def enrich(items: list[NewsItem], client: LLMClient, max_items: int | None = Non
     system = _load_prompt("analyze.md")
     done = failed = 0
     for i in range(0, len(cands), BATCH):
+        if i:
+            time.sleep(1)  # 批次间隔，降低触发限流的概率
         batch = cands[i:i + BATCH]
         payload = [
             {"id": str(k), "title": it.title, "content": it.content[:400],

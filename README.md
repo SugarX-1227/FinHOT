@@ -42,6 +42,19 @@ export LLM_BASE_URL=https://api.deepseek.com/v1   # 可选，默认即此
 export LLM_MODEL=deepseek-chat                    # 可选
 export LLM_MAX_ITEMS=80                           # 可选，最多分析多少条（预算熔断）
 export LLM_MAX_CALLS=10                           # 可选，单次运行最多调用次数
+export LLM_TIMEOUT=120                            # 可选，单次请求超时秒数
+export LLM_TRUST_ENV=0                            # 可选，忽略系统代理（见下）
+export LLM_BODY_EXTRA='{"thinking":{"type":"low"}}'  # 可选，供应商特有参数
+```
+
+智谱 GLM 配置示例（本机挂了代理软件时务必加 `LLM_TRUST_ENV=0`，否则国内 API 走代理会超时）：
+
+```bash
+export LLM_API_KEY=xxx
+export LLM_BASE_URL=https://open.bigmodel.cn/api/paas/v4
+export LLM_MODEL=glm-5.3-flash
+export LLM_BODY_EXTRA='{"thinking":{"type":"low"}}'        # GLM-5 系列始终思考，可调 low/high/max
+export LLM_TRUST_ENV=0
 ```
 
 ### GitHub Actions 自动运行
