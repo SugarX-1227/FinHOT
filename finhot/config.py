@@ -22,4 +22,5 @@ def load_sources(path: Path = SOURCES_FILE) -> dict[str, Any]:
 
 
 def env(name: str, default: str = "") -> str:
-    return os.environ.get(name, default).strip()
+    """读取环境变量；未设置或为空字符串都返回默认值（GitHub Actions 中未配置的变量会是空串）。"""
+    return os.environ.get(name, "").strip() or default

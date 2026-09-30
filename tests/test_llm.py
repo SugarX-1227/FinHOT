@@ -55,3 +55,11 @@ def test_overview_keeps_only_bullets():
 def test_from_env_requires_key(monkeypatch):
     monkeypatch.delenv("LLM_API_KEY", raising=False)
     assert llm.LLMClient.from_env() is None
+
+
+def test_from_env_empty_vars_fall_back_to_defaults(monkeypatch):
+    monkeypatch.setenv("LLM_API_KEY", "sk-test")
+    monkeypatch.setenv("LLM_BASE_URL", "")
+    monkeypatch.setenv("LLM_MODEL", "")
+    c = llm.LLMClient.from_env()
+    assert c.base_url == "https://api.deepseek.com/v1" and c.model == "deepseek-chat"
