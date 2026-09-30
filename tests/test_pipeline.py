@@ -67,3 +67,15 @@ def test_render_contains_sections():
     assert "今日必读" in md and "央行宣布降准" in md
     assert "坏源 | ❌" in md
     assert "不构成任何投资建议" in md
+
+
+def test_rule_edge_cases():
+    # 地方政府政策不应被当成公司公告
+    assert classify(item("a", "四川：新一轮以旧换新补贴10月1日起实施")) == "政策"
+    assert classify(item("a", "上清所公布债券业务费用阶段性减免安排")) == "宏观"
+    # 汇总/提醒类帖子、次要海外数据要降分
+    digest = item("a", "财联社9月30日午间新闻精选", important=True)
+    minor = item("b", "意大利9月CPI同比初值 4.2%，预期 3.7%，前值 3.3%。", important=True)
+    real = item("c", "财政部：1-8月全国国有企业营业总收入同比下降2.7%", important=True)
+    score_all([digest, minor, real])
+    assert real.score > minor.score and real.score > digest.score

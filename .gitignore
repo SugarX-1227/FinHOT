@@ -16,3 +16,6 @@ data/cache/
 .DS_Store
 .idea/
 .vscode/
+
+# 测试
+.pytest_cache/

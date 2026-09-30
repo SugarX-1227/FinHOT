@@ -31,6 +31,7 @@ class NewsItem:
     score: float = 0.0          # 重要性 0-10
     dup_sources: list[str] = field(default_factory=list)  # 被合并进来的其他信源
     dup_count: int = 1          # 聚簇大小（多少条相似报道）
+    imp_votes: int = 0          # 簇内被信源标记为"重要"的条数
     llm: dict[str, Any] = field(default_factory=dict)     # LLM 输出（可选）
 
     @property
