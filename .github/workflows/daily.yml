@@ -1,0 +1,60 @@
+name: daily-report
+
+on:
+  schedule:
+    - cron: "30 23 * * *"   # 北京时间 07:30 盘前版（采集过去 24 小时）
+    - cron: "35 7 * * 1-5"  # 北京时间 15:35 盘后版（工作日，采集过去 8 小时）
+  workflow_dispatch:
+    inputs:
+      hours:
+        description: "采集最近多少小时"
+        default: "24"
+      no_llm:
+        description: "不使用 LLM（true/false）"
+        default: "false"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-report
+  cancel-in-progress: false
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      - name: Generate report
+        env:
+          # 在仓库 Settings → Secrets and variables → Actions 中配置；不配置则只用规则生成日报
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
+        run: |
+          HOURS="${{ github.event.inputs.hours }}"
+          if [ -z "$HOURS" ]; then
+            if [ "${{ github.event.schedule }}" = "35 7 * * 1-5" ]; then HOURS=8; else HOURS=24; fi
+          fi
+          ARGS="--hours $HOURS"
+          if [ "${{ github.event.inputs.no_llm }}" = "true" ]; then ARGS="$ARGS --no-llm"; fi
+          python -m finhot run $ARGS
+
+      - name: Commit report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports data
+          if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
+          git commit -m "report: $(TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M')"
+          for i in 1 2 3; do
+            git pull --rebase origin "${GITHUB_REF_NAME}" && git push && break
+            sleep $((i * 5))
+          done

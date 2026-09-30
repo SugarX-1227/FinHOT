@@ -1,0 +1,129 @@
+# FinHOT 信源配置 —— 加源/停源只改这里，不用动代码。
+#
+# 字段说明：
+#   id        唯一标识（英文）
+#   name      显示名
+#   type      适配器类型，对应 finhot/fetchers/ 中 @register 的名字
+#   url       rss/json 类信源需要
+#   tier      official（官方一手）| media（媒体）
+#   weight    信源权重 0.5~2.0，影响重要性打分和去重时"谁当代表"
+#   lang      zh | en
+#   enabled   false 则跳过
+#   max_pages 单次最多翻几页（快讯源每页 50~100 条）
+#   options   适配器专用参数
+
+sources:
+  # ---------- 7x24 快讯（主力，覆盖面最广） ----------
+  - id: wallstreetcn
+    name: 华尔街见闻
+    type: wallstreetcn
+    tier: media
+    weight: 1.3
+    max_pages: 10
+    options: {channel: global-channel}
+
+  - id: cls
+    name: 财联社电报
+    type: cls
+    tier: media
+    weight: 1.5
+    max_pages: 30
+
+  - id: jin10
+    name: 金十数据
+    type: jin10
+    tier: media
+    weight: 1.1
+    max_pages: 40
+
+  - id: eastmoney
+    name: 东方财富7x24
+    type: eastmoney
+    tier: media
+    weight: 1.0
+    max_pages: 10
+
+  - id: sina
+    name: 新浪财经7x24
+    type: sina
+    tier: media
+    weight: 0.9
+    max_pages: 15
+
+  - id: ths
+    name: 同花顺快讯
+    type: ths
+    tier: media
+    weight: 0.9
+    max_pages: 10
+
+  - id: stcn
+    name: 证券时报快讯
+    type: stcn
+    tier: media
+    weight: 1.2
+    max_pages: 15
+
+  - id: yicai
+    name: 第一财经
+    type: yicai
+    tier: media
+    weight: 1.2
+    max_pages: 5
+
+  # ---------- 官方政策 ----------
+  - id: govcn
+    name: 中国政府网·最新政策
+    type: govcn
+    tier: official
+    weight: 1.6
+    url: https://www.gov.cn/zhengce/zuixin/ZUIXINZHENGCE.json
+
+  # ---------- 海外（英文 RSS） ----------
+  - id: fed
+    name: 美联储
+    type: rss
+    tier: official
+    weight: 1.5
+    lang: en
+    url: https://www.federalreserve.gov/feeds/press_all.xml
+
+  - id: cnbc
+    name: CNBC
+    type: rss
+    tier: media
+    weight: 0.8
+    lang: en
+    url: https://www.cnbc.com/id/100003114/device/rss/rss.html
+
+  - id: wsj-markets
+    name: WSJ Markets
+    type: rss
+    tier: media
+    weight: 0.8
+    lang: en
+    url: https://feeds.a.dj.com/rss/RSSMarketsMain.xml
+
+  - id: marketwatch
+    name: MarketWatch
+    type: rss
+    tier: media
+    weight: 0.7
+    lang: en
+    url: https://feeds.content.dowjones.io/public/rss/mw_topstories
+
+# 隔夜/实时行情（东方财富行情接口，secid 格式：市场号.代码）
+markets:
+  - {secid: "100.DJIA",   name: 道琼斯}
+  - {secid: "100.SPX",    name: 标普500}
+  - {secid: "100.NDX",    name: 纳斯达克}
+  - {secid: "100.HXC",    name: 纳斯达克中国金龙}
+  - {secid: "100.HSI",    name: 恒生指数}
+  - {secid: "100.N225",   name: 日经225}
+  - {secid: "104.CN00Y",  name: 富时A50期指}
+  - {secid: "100.UDI",    name: 美元指数}
+  - {secid: "133.USDCNH", name: 离岸人民币}
+  - {secid: "171.US10Y",  name: 美国10年期国债收益率}
+  - {secid: "101.GC00Y",  name: COMEX黄金}
+  - {secid: "102.CL00Y",  name: NYMEX原油}
+  - {secid: "101.HG00Y",  name: COMEX铜}
