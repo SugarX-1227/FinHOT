@@ -1,19 +1,25 @@
-"""临时探测脚本 v3：证券时报 / 第一财经翻页参数。"""
-import requests
-S = requests.Session(); S.headers["User-Agent"] = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0 Safari/537.36"
-H = {"X-Requested-With": "XMLHttpRequest", "Referer": "https://www.stcn.com/article/list/kx.html"}
-first = S.get("https://www.stcn.com/article/list/kx.html", headers=H, timeout=20).json()["data"]
-last = first[-1]
-print("stcn first page", len(first), last["id"], last["pageTime"], last["show_time"])
-for params in [{"page_time": last["pageTime"]}, {"type": "kx", "page_time": last["pageTime"]}, {"last_time": last["show_time"]},
-               {"page": 2}, {"p": 2}, {"page_time": last["show_time"]}, {"pageTime": last["pageTime"]}, {"last_id": last["id"]}]:
-    try:
-        r = S.get("https://www.stcn.com/article/list/kx.html", params=params, headers=H, timeout=20)
-        d = r.json().get("data") or []
-        print("stcn", params, r.status_code, len(d), d[0]["show_time"] if d else None, d[0]["id"] if d else None)
-    except Exception as e:
-        print("stcn", params, "ERR", e, r.text[:200])
-for size in (30, 50, 100):
-    r = S.get(f"https://www.yicai.com/api/ajax/getbrieflist?page=2&pagesize={size}", headers={"Referer": "https://www.yicai.com/brief/"}, timeout=20)
-    j = r.json()
-    print("yicai", size, type(j).__name__, len(j) if isinstance(j, list) else str(j)[:200], j[0]["CreateDate"] if isinstance(j, list) and j else None)
+"""临时分析脚本：统计各源"重要"标记比例，打印排名，便于校准打分规则。"""
+import collections, logging
+from datetime import timedelta
+from finhot.collect import collect
+from finhot.config import load_sources
+from finhot.dedup import dedup
+from finhot.scoring import score_all
+from finhot.timeutil import now
+
+logging.basicConfig(level=logging.WARNING)
+res = collect(load_sources()["sources"], now() - timedelta(hours=12))
+raw = [it for r in res for it in r.items]
+for r in res:
+    imp = sum(it.important for it in r.items)
+    print(f"{r.source_id:14} n={len(r.items):4} important={imp:4} ({imp / max(1, len(r.items)):.0%})")
+items = score_all(dedup(raw))
+print("clusters", len(items), "dup>1", sum(it.dup_count > 1 for it in items), "important", sum(it.important for it in items))
+print("dup_count hist", sorted(collections.Counter(min(it.dup_count, 8) for it in items).items()))
+print("cat hist", collections.Counter(it.category for it in items).most_common())
+print("score hist", sorted(collections.Counter(int(it.score) for it in items).items()))
+for it in items[:120]:
+    print(f"{it.score:4.1f} {'!' if it.important else ' '} d{it.dup_count} [{it.category}] {it.source}: {it.title[:70]}")
+print("---- random mid (score 4-6) ----")
+for it in [x for x in items if 4 <= x.score < 6][:60]:
+    print(f"{it.score:4.1f} {'!' if it.important else ' '} d{it.dup_count} [{it.category}] {it.source}: {it.title[:70]}")

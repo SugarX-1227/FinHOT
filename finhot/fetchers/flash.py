@@ -278,21 +278,11 @@ def parse_stcn(ctx: FetchContext, data: dict):
 
 @register("stcn")
 def fetch_stcn(ctx: FetchContext):
-    page_time = ""
-    for _ in range(ctx.max_pages):
-        params = {"type": "kx"}
-        if page_time:
-            params["page_time"] = page_time
-        data = ctx.session.get_json("https://www.stcn.com/article/list/kx.html", params=params,
-                                    headers={"X-Requested-With": "XMLHttpRequest",
-                                             "Referer": "https://www.stcn.com/article/list/kx.html"})
-        items = parse_stcn(ctx, data)
-        yield items
-        raw = data.get("data") or []
-        nxt = str(raw[-1].get("pageTime") or "") if raw else ""
-        if not items or not nxt or nxt == page_time:
-            return
-        page_time = nxt
+    # 该接口目前没有可用的翻页参数，只能拿到最新约 30 条（约 1 小时）
+    data = ctx.session.get_json("https://www.stcn.com/article/list/kx.html",
+                                headers={"X-Requested-With": "XMLHttpRequest",
+                                         "Referer": "https://www.stcn.com/article/list/kx.html"})
+    yield parse_stcn(ctx, data)
 
 
 # ---------------------------------------------------------------- 第一财经
@@ -317,7 +307,7 @@ def parse_yicai(ctx: FetchContext, data):
 @register("yicai")
 def fetch_yicai(ctx: FetchContext):
     for page in range(1, ctx.max_pages + 1):
-        r = ctx.session.get(f"https://www.yicai.com/api/ajax/getbrieflist?page={page}&pagesize=30",
+        r = ctx.session.get(f"https://www.yicai.com/api/ajax/getbrieflist?page={page}&pagesize=50",
                             headers={"Referer": "https://www.yicai.com/brief/"})
         r.raise_for_status()
         items = parse_yicai(ctx, r.json())

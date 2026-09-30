@@ -62,14 +62,14 @@ sources:
     type: stcn
     tier: media
     weight: 1.2
-    max_pages: 15
+    max_pages: 1   # 接口无翻页，只取最新约 30 条
 
   - id: yicai
     name: 第一财经
     type: yicai
     tier: media
     weight: 1.2
-    max_pages: 5
+    max_pages: 10
 
   # ---------- 官方政策 ----------
   - id: govcn
@@ -95,14 +95,6 @@ sources:
     weight: 0.8
     lang: en
     url: https://www.cnbc.com/id/100003114/device/rss/rss.html
-
-  - id: wsj-markets
-    name: WSJ Markets
-    type: rss
-    tier: media
-    weight: 0.8
-    lang: en
-    url: https://feeds.a.dj.com/rss/RSSMarketsMain.xml
 
   - id: marketwatch
     name: MarketWatch
