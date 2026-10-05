@@ -1,0 +1,217 @@
+{
+  "date": "2026-10-05",
+  "edition": "盘中版",
+  "since": "2026-10-04T10:12:35.083488+08:00",
+  "until": "2026-10-05T10:12:35.083488+08:00",
+  "raw_count": 1222,
+  "dedup_count": 556,
+  "quotes": [
+    {
+      "code": "DJIA",
+      "name": "道琼斯",
+      "price": 51176.96,
+      "change": 250.4,
+      "pct": 0.49,
+      "time": "10-03 03:59"
+    },
+    {
+      "code": "SPX",
+      "name": "标普500",
+      "price": 7722.72,
+      "change": 56.27,
+      "pct": 0.73,
+      "time": "10-03 03:59"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克",
+      "price": 27190.86,
+      "change": 319.26,
+      "pct": 1.19,
+      "time": "10-03 04:00"
+    },
+    {
+      "code": "HSI",
+      "name": "恒生指数",
+      "price": 23918.77,
+      "change": -53.52,
+      "pct": -0.22,
+      "time": "10-05 10:12"
+    },
+    {
+      "code": "N225",
+      "name": "日经225",
+      "price": 70024.2,
+      "change": 1714.74,
+      "pct": 2.51,
+      "time": "10-05 10:12"
+    },
+    {
+      "code": "CN00Y",
+      "name": "富时A50期指",
+      "price": 13820.0,
+      "change": 10.0,
+      "pct": 0.07,
+      "time": "10-05 10:12"
+    },
+    {
+      "code": "UDI",
+      "name": "美元指数",
+      "price": 102.1,
+      "change": 0.17,
+      "pct": 0.17,
+      "time": "10-05 10:12"
+    },
+    {
+      "code": "USDCNH",
+      "name": "离岸人民币",
+      "price": 6.7083,
+      "change": 0.0017,
+      "pct": 0.03,
+      "time": "10-05 10:12"
+    },
+    {
+      "code": "US10Y",
+      "name": "美国10年期国债收益率",
+      "price": 5.2559,
+      "change": -0.0189,
+      "pct": -0.36,
+      "time": "10-05 10:12"
+    },
+    {
+      "code": "GC00Y",
+      "name": "COMEX黄金",
+      "price": 4188.0,
+      "change": 25.7,
+      "pct": 0.62,
+      "time": "10-05 10:02"
+    },
+    {
+      "code": "CL00Y",
+      "name": "NYMEX原油",
+      "price": 90.14,
+      "change": -0.97,
+      "pct": -1.06,
+      "time": "10-05 10:02"
+    },
+    {
+      "code": "HG00Y",
+      "name": "COMEX铜",
+      "price": 6.6205,
+      "change": 0.0715,
+      "pct": 1.09,
+      "time": "10-05 10:02"
+    }
+  ],
+  "llm": {},
+  "sources": [
+    {
+      "id": "wallstreetcn",
+      "name": "华尔街见闻",
+      "ok": true,
+      "count": 100,
+      "pages": 2,
+      "seconds": 3.19,
+      "error": ""
+    },
+    {
+      "id": "cls",
+      "name": "财联社电报",
+      "ok": true,
+      "count": 124,
+      "pages": 7,
+      "seconds": 6.96,
+      "error": ""
+    },
+    {
+      "id": "jin10",
+      "name": "金十数据",
+      "ok": true,
+      "count": 213,
+      "pages": 12,
+      "seconds": 11.06,
+      "error": ""
+    },
+    {
+      "id": "eastmoney",
+      "name": "东方财富7x24",
+      "ok": true,
+      "count": 151,
+      "pages": 1,
+      "seconds": 2.05,
+      "error": ""
+    },
+    {
+      "id": "sina",
+      "name": "新浪财经7x24",
+      "ok": true,
+      "count": 406,
+      "pages": 5,
+      "seconds": 6.18,
+      "error": ""
+    },
+    {
+      "id": "ths",
+      "name": "同花顺快讯",
+      "ok": true,
+      "count": 70,
+      "pages": 1,
+      "seconds": 3.58,
+      "error": ""
+    },
+    {
+      "id": "stcn",
+      "name": "证券时报快讯",
+      "ok": true,
+      "count": 30,
+      "pages": 1,
+      "seconds": 2.6,
+      "error": ""
+    },
+    {
+      "id": "yicai",
+      "name": "第一财经",
+      "ok": true,
+      "count": 103,
+      "pages": 3,
+      "seconds": 4.34,
+      "error": ""
+    },
+    {
+      "id": "govcn",
+      "name": "中国政府网·最新政策",
+      "ok": true,
+      "count": 0,
+      "pages": 1,
+      "seconds": 0.85,
+      "error": ""
+    },
+    {
+      "id": "fed",
+      "name": "美联储",
+      "ok": true,
+      "count": 0,
+      "pages": 1,
+      "seconds": 0.08,
+      "error": ""
+    },
+    {
+      "id": "cnbc",
+      "name": "CNBC",
+      "ok": true,
+      "count": 18,
+      "pages": 1,
+      "seconds": 0.09,
+      "error": ""
+    },
+    {
+      "id": "marketwatch",
+      "name": "MarketWatch",
+      "ok": true,
+      "count": 7,
+      "pages": 1,
+      "seconds": 0.08,
+      "error": ""
+    }
+  ]
+}
