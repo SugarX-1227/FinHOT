@@ -1,0 +1,224 @@
+{
+  "date": "2026-10-09",
+  "edition": "盘后版",
+  "since": "2026-10-08T15:32:45.502419+08:00",
+  "until": "2026-10-09T15:32:45.502419+08:00",
+  "raw_count": 5038,
+  "dedup_count": 2545,
+  "quotes": [
+    {
+      "code": "DJIA",
+      "name": "道琼斯",
+      "price": 51231.64,
+      "change": 51.77,
+      "pct": 0.1,
+      "time": "10-09 03:59"
+    },
+    {
+      "code": "SPX",
+      "name": "标普500",
+      "price": 7765.36,
+      "change": -36.41,
+      "pct": -0.47,
+      "time": "10-09 03:59"
+    },
+    {
+      "code": "NDX",
+      "name": "纳斯达克",
+      "price": 27193.34,
+      "change": -345.35,
+      "pct": -1.25,
+      "time": "10-09 04:00"
+    },
+    {
+      "code": "HSI",
+      "name": "恒生指数",
+      "price": 24149.15,
+      "change": 363.36,
+      "pct": 1.53,
+      "time": "10-09 15:33"
+    },
+    {
+      "code": "N225",
+      "name": "日经225",
+      "price": 69030.92,
+      "change": -11.19,
+      "pct": -0.02,
+      "time": "10-09 14:30"
+    },
+    {
+      "code": "CN00Y",
+      "name": "富时A50期指",
+      "price": 13764.0,
+      "change": 47.0,
+      "pct": 0.34,
+      "time": "10-09 15:33"
+    },
+    {
+      "code": "UDI",
+      "name": "美元指数",
+      "price": 102.03,
+      "change": -0.1,
+      "pct": -0.1,
+      "time": "10-09 15:33"
+    },
+    {
+      "code": "USDCNH",
+      "name": "离岸人民币",
+      "price": 6.694,
+      "change": -0.0094,
+      "pct": -0.14,
+      "time": "10-09 15:33"
+    },
+    {
+      "code": "US10Y",
+      "name": "美国10年期国债收益率",
+      "price": 5.242,
+      "change": 0.0131,
+      "pct": 0.25,
+      "time": "10-09 15:33"
+    },
+    {
+      "code": "GC00Y",
+      "name": "COMEX黄金",
+      "price": 4216.9,
+      "change": 59.9,
+      "pct": 1.44,
+      "time": "10-09 15:23"
+    },
+    {
+      "code": "CL00Y",
+      "name": "NYMEX原油",
+      "price": 90.87,
+      "change": -0.62,
+      "pct": -0.68,
+      "time": "10-09 15:23"
+    },
+    {
+      "code": "HG00Y",
+      "name": "COMEX铜",
+      "price": 6.667,
+      "change": 0.0985,
+      "pct": 1.5,
+      "time": "10-09 15:23"
+    }
+  ],
+  "llm": {
+    "analyzed": 40,
+    "failed": 0,
+    "prompt_tokens": 13595,
+    "completion_tokens": 21238,
+    "calls": 9,
+    "model": "glm-5.3-flash"
+  },
+  "sources": [
+    {
+      "id": "wallstreetcn",
+      "name": "华尔街见闻",
+      "ok": true,
+      "count": 501,
+      "pages": 6,
+      "seconds": 5.92,
+      "error": ""
+    },
+    {
+      "id": "cls",
+      "name": "财联社电报",
+      "ok": true,
+      "count": 596,
+      "pages": 30,
+      "seconds": 20.48,
+      "error": ""
+    },
+    {
+      "id": "jin10",
+      "name": "金十数据",
+      "ok": true,
+      "count": 728,
+      "pages": 40,
+      "seconds": 27.25,
+      "error": ""
+    },
+    {
+      "id": "eastmoney",
+      "name": "东方财富7x24",
+      "ok": true,
+      "count": 762,
+      "pages": 4,
+      "seconds": 2.67,
+      "error": ""
+    },
+    {
+      "id": "sina",
+      "name": "新浪财经7x24",
+      "ok": true,
+      "count": 1500,
+      "pages": 15,
+      "seconds": 14.99,
+      "error": ""
+    },
+    {
+      "id": "ths",
+      "name": "同花顺快讯",
+      "ok": true,
+      "count": 541,
+      "pages": 6,
+      "seconds": 5.19,
+      "error": ""
+    },
+    {
+      "id": "stcn",
+      "name": "证券时报快讯",
+      "ok": true,
+      "count": 30,
+      "pages": 1,
+      "seconds": 1.05,
+      "error": ""
+    },
+    {
+      "id": "yicai",
+      "name": "第一财经",
+      "ok": true,
+      "count": 338,
+      "pages": 7,
+      "seconds": 5.25,
+      "error": ""
+    },
+    {
+      "id": "govcn",
+      "name": "中国政府网·最新政策",
+      "ok": true,
+      "count": 1,
+      "pages": 1,
+      "seconds": 0.22,
+      "error": ""
+    },
+    {
+      "id": "fed",
+      "name": "美联储",
+      "ok": true,
+      "count": 1,
+      "pages": 1,
+      "seconds": 0.27,
+      "error": ""
+    },
+    {
+      "id": "cnbc",
+      "name": "CNBC",
+      "ok": true,
+      "count": 30,
+      "pages": 1,
+      "seconds": 1.05,
+      "error": ""
+    },
+    {
+      "id": "marketwatch",
+      "name": "MarketWatch",
+      "ok": true,
+      "count": 10,
+      "pages": 1,
+      "seconds": 1.37,
+      "error": ""
+    }
+  ]
+}

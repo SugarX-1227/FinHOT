@@ -15,7 +15,7 @@ if [[ -z "${LLM_API_KEY:-}" ]]; then
   echo "未设置 LLM_API_KEY（环境变量或 .env），将以规则模式运行。"
 fi
 
-export LLM_BASE_URL="${LLM_BASE_URL:-https://open.bigmodel.cn/api/paas/v4}"
+export LLM_BASE_URL="${LLM_BASE_URL:-https://open.bigmodel.cn/api/coding/paas/v4}"
 export LLM_MODEL="${LLM_MODEL:-glm-5.3-flash}"
 export LLM_BODY_EXTRA="${LLM_BODY_EXTRA:-{\"thinking\":{\"type\":\"low\"}}}"
 export LLM_TRUST_ENV="${LLM_TRUST_ENV:-0}"   # GLM API 直连，不走本机代理

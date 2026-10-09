@@ -5,8 +5,8 @@
   LLM_BASE_URL   默认 https://api.deepseek.com/v1
   LLM_MODEL      默认 deepseek-chat
   LLM_MAX_ITEMS  进入 LLM 的最大条目数（预算熔断），默认 80
-  LLM_MAX_CALLS  单次运行最多调用次数（预算熔断），默认 10
-  LLM_TIMEOUT    单次请求超时秒数，默认 120
+  LLM_MAX_CALLS  单次运行最多调用次数（预算熔断），默认 18
+  LLM_TIMEOUT    单次请求超时秒数，默认 300
   LLM_TRUST_ENV  设为 0 时忽略系统代理（本机挂代理软件访问国内 API 时用），默认 1
   LLM_BODY_EXTRA JSON 字符串，合并进请求体（供应商特有参数，如 GLM 关闭深度思考）
 """
@@ -28,7 +28,7 @@ from .models import NewsItem
 from .scoring import CATEGORIES
 
 log = logging.getLogger(__name__)
-BATCH = 10
+BATCH = 5
 
 
 @dataclass
@@ -36,8 +36,8 @@ class LLMClient:
     api_key: str
     base_url: str = "https://api.deepseek.com/v1"
     model: str = "deepseek-chat"
-    max_calls: int = 10
-    timeout: int = 120
+    max_calls: int = 18
+    timeout: int = 300
     calls: int = 0
     usage: dict = field(default_factory=lambda: {"prompt_tokens": 0, "completion_tokens": 0})
 
@@ -59,8 +59,8 @@ class LLMClient:
             api_key=key,
             base_url=env("LLM_BASE_URL", "https://api.deepseek.com/v1").rstrip("/"),
             model=env("LLM_MODEL", "deepseek-chat"),
-            max_calls=int(env("LLM_MAX_CALLS", "10")),
-            timeout=int(env("LLM_TIMEOUT", "120")),
+            max_calls=int(env("LLM_MAX_CALLS", "18")),
+            timeout=int(env("LLM_TIMEOUT", "300")),
         )
 
     def chat(self, system: str, user: str, json_mode: bool = False, max_tokens: int = 8000) -> str:
@@ -183,7 +183,7 @@ def overview(items: list[NewsItem], market_rows: list[dict], client: LLMClient, 
         "markets": [{"name": m["name"], "pct": m.get("pct")} for m in market_rows],
     }
     try:
-        text = client.chat(_load_prompt("overview.md"), json.dumps(payload, ensure_ascii=False), max_tokens=800)
+        text = client.chat(_load_prompt("overview.md"), json.dumps(payload, ensure_ascii=False), max_tokens=3000)
     except Exception as e:  # noqa: BLE001
         log.warning("LLM 盘前要点生成失败: %s", e)
         return ""

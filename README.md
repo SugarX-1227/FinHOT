@@ -41,8 +41,8 @@ export LLM_API_KEY=sk-xxx
 export LLM_BASE_URL=https://api.deepseek.com/v1   # 可选，默认即此
 export LLM_MODEL=deepseek-chat                    # 可选
 export LLM_MAX_ITEMS=80                           # 可选，最多分析多少条（预算熔断）
-export LLM_MAX_CALLS=10                           # 可选，单次运行最多调用次数
-export LLM_TIMEOUT=120                            # 可选，单次请求超时秒数
+export LLM_MAX_CALLS=18                           # 可选，单次运行最多调用次数
+export LLM_TIMEOUT=300                            # 可选，单次请求超时秒数
 export LLM_TRUST_ENV=0                            # 可选，忽略系统代理（见下）
 export LLM_BODY_EXTRA='{"thinking":{"type":"low"}}'  # 可选，供应商特有参数
 ```
@@ -51,7 +51,9 @@ export LLM_BODY_EXTRA='{"thinking":{"type":"low"}}'  # 可选，供应商特有�
 
 ```bash
 export LLM_API_KEY=xxx
-export LLM_BASE_URL=https://open.bigmodel.cn/api/paas/v4
+# 重要：Token Plan / GLM 编码套餐的额度只在 Coding 端点生效；
+# 普通端点 /api/paas/v4 走按量付费余额，用套餐 key 会报 1113 余额不足
+export LLM_BASE_URL=https://open.bigmodel.cn/api/coding/paas/v4
 export LLM_MODEL=glm-5.3-flash
 export LLM_BODY_EXTRA='{"thinking":{"type":"low"}}'        # GLM-5 系列始终思考，可调 low/high/max
 export LLM_TRUST_ENV=0
