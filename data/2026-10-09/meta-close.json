@@ -1,42 +1,42 @@
 {
   "date": "2026-10-09",
   "edition": "盘后版",
-  "since": "2026-10-09T07:46:33.440210+08:00",
-  "until": "2026-10-09T15:46:33.440210+08:00",
-  "raw_count": 2116,
-  "dedup_count": 1015,
+  "since": "2026-10-09T14:36:34.964872+08:00",
+  "until": "2026-10-09T22:36:34.964872+08:00",
+  "raw_count": 2665,
+  "dedup_count": 1312,
   "quotes": [
     {
       "code": "DJIA",
       "name": "道琼斯",
-      "price": 51231.64,
-      "change": 51.77,
-      "pct": 0.1,
-      "time": "10-09 03:59"
+      "price": 51384.32,
+      "change": 152.68,
+      "pct": 0.3,
+      "time": "10-09 22:36"
     },
     {
       "code": "SPX",
       "name": "标普500",
-      "price": 7765.36,
-      "change": -36.41,
-      "pct": -0.47,
-      "time": "10-09 03:59"
+      "price": 7790.82,
+      "change": 25.46,
+      "pct": 0.33,
+      "time": "10-09 22:36"
     },
     {
       "code": "NDX",
       "name": "纳斯达克",
-      "price": 27193.34,
-      "change": -345.35,
-      "pct": -1.25,
-      "time": "10-09 04:00"
+      "price": 27309.69,
+      "change": 116.35,
+      "pct": 0.43,
+      "time": "10-09 22:37"
     },
     {
       "code": "HSI",
       "name": "恒生指数",
-      "price": 24151.62,
-      "change": 365.83,
-      "pct": 1.54,
-      "time": "10-09 15:47"
+      "price": 24211.35,
+      "change": 425.56,
+      "pct": 1.79,
+      "time": "10-09 16:08"
     },
     {
       "code": "N225",
@@ -49,65 +49,65 @@
     {
       "code": "CN00Y",
       "name": "富时A50期指",
-      "price": 13763.0,
-      "change": 46.0,
-      "pct": 0.34,
-      "time": "10-09 15:47"
+      "price": 13753.0,
+      "change": 0.0,
+      "pct": 0.0,
+      "time": "10-09 22:37"
     },
     {
       "code": "UDI",
       "name": "美元指数",
-      "price": 102.04,
-      "change": -0.09,
-      "pct": -0.09,
-      "time": "10-09 15:47"
+      "price": 102.26,
+      "change": 0.13,
+      "pct": 0.13,
+      "time": "10-09 22:36"
     },
     {
       "code": "USDCNH",
       "name": "离岸人民币",
-      "price": 6.6936,
-      "change": -0.0098,
+      "price": 6.6933,
+      "change": -0.0101,
       "pct": -0.15,
-      "time": "10-09 15:47"
+      "time": "10-09 22:37"
     },
     {
       "code": "US10Y",
       "name": "美国10年期国债收益率",
-      "price": 5.2399,
-      "change": 0.011,
-      "pct": 0.21,
-      "time": "10-09 15:47"
+      "price": 5.2759,
+      "change": 0.047,
+      "pct": 0.9,
+      "time": "10-09 22:36"
     },
     {
       "code": "GC00Y",
       "name": "COMEX黄金",
-      "price": 4219.0,
-      "change": 62.0,
-      "pct": 1.49,
-      "time": "10-09 15:37"
+      "price": 4208.2,
+      "change": 51.2,
+      "pct": 1.23,
+      "time": "10-09 22:27"
     },
     {
       "code": "CL00Y",
       "name": "NYMEX原油",
-      "price": 90.61,
-      "change": -0.88,
-      "pct": -0.96,
-      "time": "10-09 15:37"
+      "price": 91.38,
+      "change": -0.11,
+      "pct": -0.12,
+      "time": "10-09 22:27"
     },
     {
       "code": "HG00Y",
       "name": "COMEX铜",
-      "price": 6.667,
-      "change": 0.0985,
-      "pct": 1.5,
-      "time": "10-09 15:37"
+      "price": 6.6995,
+      "change": 0.131,
+      "pct": 1.99,
+      "time": "10-09 22:27"
     }
   ],
   "llm": {
     "analyzed": 80,
     "failed": 0,
-    "prompt_tokens": 24171,
-    "completion_tokens": 43192,
+    "prompt_tokens": 25949,
+    "completion_tokens": 40763,
     "calls": 17,
     "model": "glm-5.3-flash"
   },
@@ -116,54 +116,54 @@
       "id": "wallstreetcn",
       "name": "华尔街见闻",
       "ok": true,
-      "count": 124,
+      "count": 150,
       "pages": 2,
-      "seconds": 3.01,
+      "seconds": 5.07,
       "error": ""
     },
     {
       "id": "cls",
       "name": "财联社电报",
       "ok": true,
-      "count": 228,
-      "pages": 12,
-      "seconds": 10.96,
+      "count": 273,
+      "pages": 14,
+      "seconds": 12.35,
       "error": ""
     },
     {
       "id": "jin10",
       "name": "金十数据",
       "ok": true,
-      "count": 388,
-      "pages": 23,
-      "seconds": 21.27,
+      "count": 494,
+      "pages": 29,
+      "seconds": 25.57,
       "error": ""
     },
     {
       "id": "eastmoney",
       "name": "东方财富7x24",
       "ok": true,
-      "count": 333,
+      "count": 299,
       "pages": 2,
-      "seconds": 30.03,
+      "seconds": 4.57,
       "error": ""
     },
     {
       "id": "sina",
       "name": "新浪财经7x24",
       "ok": true,
-      "count": 657,
-      "pages": 7,
-      "seconds": 8.35,
+      "count": 963,
+      "pages": 10,
+      "seconds": 13.33,
       "error": ""
     },
     {
       "id": "ths",
       "name": "同花顺快讯",
       "ok": true,
-      "count": 200,
+      "count": 272,
       "pages": 3,
-      "seconds": 5.54,
+      "seconds": 10.43,
       "error": ""
     },
     {
@@ -172,7 +172,7 @@
       "ok": true,
       "count": 30,
       "pages": 1,
-      "seconds": 3.24,
+      "seconds": 2.8,
       "error": ""
     },
     {
@@ -181,43 +181,43 @@
       "ok": true,
       "count": 148,
       "pages": 3,
-      "seconds": 6.42,
+      "seconds": 5.31,
       "error": ""
     },
     {
       "id": "govcn",
       "name": "中国政府网·最新政策",
       "ok": true,
-      "count": 0,
+      "count": 1,
       "pages": 1,
-      "seconds": 0.48,
+      "seconds": 0.45,
       "error": ""
     },
     {
       "id": "fed",
       "name": "美联储",
       "ok": true,
-      "count": 0,
+      "count": 1,
       "pages": 1,
-      "seconds": 0.07,
+      "seconds": 0.11,
       "error": ""
     },
     {
       "id": "cnbc",
       "name": "CNBC",
       "ok": true,
-      "count": 6,
+      "count": 24,
       "pages": 1,
-      "seconds": 0.16,
+      "seconds": 0.19,
       "error": ""
     },
     {
       "id": "marketwatch",
       "name": "MarketWatch",
       "ok": true,
-      "count": 2,
+      "count": 10,
       "pages": 1,
-      "seconds": 0.08,
+      "seconds": 0.65,
       "error": ""
     }
   ]
