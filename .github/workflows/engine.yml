@@ -1,0 +1,129 @@
+# 网站引擎（web/）与整套部署的检查。
+# - engine：引擎自己的检查（类型、网页构建、网页测试、后端测试、空库冒烟），和上游 web/.github/workflows/check.yml 一致
+# - deploy：按服务器的方式（根目录 docker-compose.yml + deploy/init_env.py）构建并启动整套服务，
+#   推送进程真实抓取快讯、推给引擎，确认条目带着全文入库。不调用模型。
+name: engine
+
+on:
+  push:
+    paths:
+      - "web/**"
+      - "docker-compose.yml"
+      - "Dockerfile"
+      - "deploy/**"
+      - "finhot/push.py"
+      - "finhot/dedup.py"
+      - "finhot/fetchers/**"
+      - ".github/workflows/engine.yml"
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: engine-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  engine:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    defaults:
+      run:
+        working-directory: web
+    services:
+      postgres:
+        image: postgres:17-alpine
+        env:
+          POSTGRES_PASSWORD: ci
+          POSTGRES_DB: finhot_ci
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U postgres" --health-interval 2s --health-timeout 5s --health-retries 30
+    env:
+      DATABASE_URL: postgres://postgres:ci@127.0.0.1:5432/finhot_ci
+      SITE_URL: http://127.0.0.1:3000
+      API_BASE_URL: http://127.0.0.1:3001
+      SESSION_SECRET: ci-session-secret-0123456789abcdef
+      IMG_PROXY_SIGN_SECRET: ci-img-secret-0123456789abcdef
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: 24
+          package-manager-cache: false
+      - name: Install
+        run: npm ci --no-audit --no-fund
+      - name: PostgreSQL 17 client (backup tests)
+        run: |
+          sudo install -d /usr/share/postgresql-common/pgdg
+          sudo curl --fail --silent --show-error -o /usr/share/postgresql-common/pgdg/apt.postgresql.org.asc https://www.postgresql.org/media/keys/ACCC4CF8.asc
+          . /etc/os-release
+          echo "deb [signed-by=/usr/share/postgresql-common/pgdg/apt.postgresql.org.asc] https://apt.postgresql.org/pub/repos/apt ${VERSION_CODENAME}-pgdg main" | sudo tee /etc/apt/sources.list.d/pgdg.list
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends postgresql-client-17
+          echo "/usr/lib/postgresql/17/bin" >> "$GITHUB_PATH"
+      - name: Typecheck
+        run: npm run typecheck
+      - name: Build web
+        run: npm run build -w @aihot/web
+      - name: Browser test engines
+        run: npx playwright install --with-deps chromium webkit
+      - name: Web tests
+        run: node --test apps/web/tests/*.test.ts
+      - name: Backend tests
+        run: npm test
+      - name: Smoke check of the built site
+        env:
+          COLLECT_ENABLED: "false"
+          MODEL_CALLS_ENABLED: "false"
+        run: |
+          node apps/api/src/main.ts > "$RUNNER_TEMP/api.log" 2>&1 &
+          (cd apps/web && NODE_ENV=production exec node server.ts) > "$RUNNER_TEMP/web.log" 2>&1 &
+          for i in $(seq 1 60); do curl -fsS -o /dev/null http://127.0.0.1:3000/api/health 2>/dev/null && break; sleep 1; done
+          node scripts/smoke.ts --base http://127.0.0.1:3000
+          node scripts/mcp-check.ts http://127.0.0.1:3000/api/mcp
+      - name: Server logs
+        if: failure()
+        run: tail -n 60 "$RUNNER_TEMP/api.log" "$RUNNER_TEMP/web.log" 2>/dev/null || true
+
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Configure a throwaway server
+        run: |
+          python3 deploy/init_env.py --ip 127.0.0.1 --llm-key ci-not-a-real-key
+          # 不抓引擎自己的信源、不调模型；推送进程照常抓快讯。门槛设成 0，只验证链路，不验证精选。
+          sed -i 's/^COLLECT_ENABLED=.*/COLLECT_ENABLED=false/; s/^MODEL_CALLS_ENABLED=.*/MODEL_CALLS_ENABLED=false/' web/.env
+          sed -i 's/^FINHOT_PUSH_MIN_SCORE=.*/FINHOT_PUSH_MIN_SCORE=0/; s/^FINHOT_PUSH_INTERVAL=.*/FINHOT_PUSH_INTERVAL=30/' web/.env
+          echo "MCP_ALLOWED_HOSTS=web" >> web/.env
+      - name: Build and start (deploy/finhot.sh up, without the mainland mirrors)
+        run: docker compose --env-file web/.env up -d --build
+      - name: Site is up and seeded with the finance sources
+        run: |
+          for i in $(seq 1 90); do curl -fsS -o /dev/null http://127.0.0.1:3000/api/health 2>/dev/null && break; sleep 2; done
+          docker compose --env-file web/.env ps
+          docker compose --env-file web/.env run --rm --no-deps --entrypoint node setup scripts/smoke.ts --base http://web:3000
+          want=$(python3 -c "import json;print(len(json.load(open('web/industry/sources.json'))['sources']))")
+          docker compose --env-file web/.env exec -T db psql -U aihot -d aihot -Atc "select count(*) from sources" | grep -qx "$want"
+      - name: Flash items reach the engine with their full text
+        run: |
+          q() { docker compose --env-file web/.env exec -T db psql -U aihot -d aihot -Atc "$1"; }
+          for i in $(seq 1 30); do
+            n=$(q "select count(*) from articles where via = 'ingest' and body_status = 'ok'")
+            [ "${n:-0}" -gt 0 ] && break
+            sleep 10
+          done
+          docker compose --env-file web/.env logs --no-log-prefix pusher | tail -20
+          q "select source_id, count(*), count(*) filter (where body_status = 'ok') from articles group by 1 order by 1"
+          q "select source_id, left(title, 50), left(body_text, 60) from articles order by published_at desc limit 10"
+          [ "${n:-0}" -gt 0 ]
+      - name: Logs
+        if: failure()
+        run: docker compose --env-file web/.env logs --tail 80
+      - name: Stop
+        if: always()
+        run: docker compose --env-file web/.env down -v

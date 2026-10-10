@@ -1,0 +1,11 @@
+# 根目录镜像只要 Python 代码；网站引擎（web/）有自己的镜像
+web/
+data/
+reports/
+_site/
+backups/
+.git/
+.github/
+**/__pycache__/
+.pytest_cache/
+.env
