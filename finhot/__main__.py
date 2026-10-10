@@ -10,6 +10,7 @@
   python -m finhot collect --hours 2   # 只采集并打印，不生成日报
   python -m finhot push                # 常驻：每 90 秒把快讯推给网站引擎（web/），见 finhot/push.py
   python -m finhot push --once --dry-run   # 只跑一轮、打印会推哪些，不真的推
+  python -m finhot gold --n 200        # 抽金标样本，生成标注页 data/gold/label.html（见 finhot/gold.py）
 """
 
 from __future__ import annotations
@@ -144,6 +145,30 @@ def cmd_push(args) -> int:
     return loop(cfg, once=args.once, dry_run=args.dry_run)
 
 
+def cmd_gold(args) -> int:
+    from . import gold
+
+    out = Path(args.out)
+    cand = out / "candidates.jsonl"
+    if args.labels:
+        labels = json.loads(Path(args.labels).read_text(encoding="utf-8"))
+        rows = gold.with_labels(gold.read_jsonl(cand), labels)
+        gold.write_jsonl(rows, out / "gold.jsonl")
+        print(f"写入 {out / 'gold.jsonl'}：{len(rows)} 条")
+        return 0
+    if cand.exists() and not args.force:
+        cases = gold.read_jsonl(cand)
+        print(f"沿用已有样本 {cand}（{len(cases)} 条；重新抽样加 --force，已有标注会对不上）")
+    else:
+        cases = gold.build_cases(gold.sample(gold.load_pool(), args.n))
+        gold.write_jsonl(cases, cand)
+        print(f"抽样 {len(cases)} 条 → {cand}")
+    page = out / "label.html"
+    page.write_text(gold.render_page(cases), encoding="utf-8")
+    print(f"标注页 → {page}（用浏览器打开）")
+    return 0
+
+
 def main(argv: list[str] | None = None) -> int:
     p = argparse.ArgumentParser(prog="finhot", description="FinHOT 财经热点采集与日报")
     p.add_argument("-v", "--verbose", action="store_true")
@@ -197,6 +222,13 @@ def main(argv: list[str] | None = None) -> int:
     pu.add_argument("--min-score", type=float, help="簇的规则分门槛（默认 FINHOT_PUSH_MIN_SCORE 或 6）")
     pu.add_argument("--only", help="只推指定信源，逗号分隔")
     pu.set_defaults(func=cmd_push)
+
+    g = sub.add_parser("gold", help="抽金标样本、生成标注页、合成 gold.jsonl")
+    g.add_argument("--n", type=int, default=200, help="抽多少条")
+    g.add_argument("--out", default=str(DATA_DIR / "gold"))
+    g.add_argument("--force", action="store_true", help="重新抽样（覆盖已有样本）")
+    g.add_argument("--labels", help="标注结果 JSON（{caseId: select|reject|either}），合成 gold.jsonl")
+    g.set_defaults(func=cmd_gold)
 
     args = p.parse_args(argv)
     logging.basicConfig(level=logging.DEBUG if args.verbose else logging.INFO,
