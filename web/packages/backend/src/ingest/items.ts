@@ -21,6 +21,8 @@ interface ItemIn {
   url?: unknown;
   publishedAt?: unknown;
   author?: unknown;
+  /** The full text when the pusher already has it (e.g. a newswire flash with no article page): stored as the body, so the URL is not fetched. */
+  body?: unknown;
   raw?: { _aihot?: { backfill?: boolean; baseline?: boolean } } & Record<string, unknown>;
 }
 
@@ -49,6 +51,7 @@ export async function ingestItems(body: { sourceId?: unknown; sourceName?: unkno
     if (!url || seen.has(url)) continue;
     seen.add(url);
     const published = typeof it.publishedAt === "string" ? new Date(it.publishedAt) : null;
+    const body = typeof it.body === "string" ? it.body.trim() : "";
     const flags = it.raw?._aihot ?? {};
     const res = await upsertMaterial({
       sourceId: source!.id,
@@ -58,6 +61,7 @@ export async function ingestItems(body: { sourceId?: unknown; sourceName?: unkno
       title,
       author: typeof it.author === "string" ? it.author.slice(0, 200) : null,
       publishedAt: published && Number.isFinite(published.getTime()) ? published : null,
+      bodyText: body || null,
       raw: it.raw ?? null,
       via: "ingest",
       backfill: flags.backfill ? "reported-backfill" : flags.baseline ? "reported-baseline" : null,

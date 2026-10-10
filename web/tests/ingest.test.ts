@@ -32,3 +32,20 @@ test("a paused external source rejects pushed items without recording a successf
   await sql`UPDATE sources SET enabled = true WHERE id = ${sourceId}`;
   assert.deepEqual(await ingestItems({ sourceId, items: [{ title: "New report", url: `https://example.org/${sourceId}` }] }), { ok: true, created: 1 });
 });
+
+test("a pushed body is stored as the article text, so the URL is not fetched", async () => {
+  const sourceId = `test-ingest-body-${tag()}`;
+  await sql`
+    INSERT INTO sources (id, name, kind, config, tier, participation_mode, enabled, health)
+    VALUES (${sourceId}, 'Flash wire', 'external', '{}'::jsonb, 'T2', 'editorial', true, 'ok')`;
+  await ingestItems({ sourceId, items: [
+    { title: "With body", url: `https://example.org/${sourceId}/a`, body: "  The full flash text.  " },
+    { title: "Without body", url: `https://example.org/${sourceId}/b` },
+  ] });
+  const rows = await sql<{ title: string; body_text: string | null; body_status: string }[]>`
+    SELECT title, body_text, body_status FROM articles WHERE source_id = ${sourceId} ORDER BY title`;
+  assert.deepEqual(rows.map(r => ({ ...r })), [
+    { title: "With body", body_text: "The full flash text.", body_status: "ok" },
+    { title: "Without body", body_text: null, body_status: "pending" },
+  ]);
+});
