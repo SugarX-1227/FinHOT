@@ -1,7 +1,11 @@
 """命令行入口。
 
-  python -m finhot run                 # 采集过去 24 小时 → 生成日报
-  python -m finhot run --hours 12 --no-llm
+  python -m finhot run                 # 生成日报（窗口：上一份日报截止 → 现在；无历史则 24 小时）
+  python -m finhot run --hours 12 --no-llm --edition close
+  python -m finhot auto                # 定时任务入口：判断该出哪一版，已出过则跳过；周六顺带出周报
+  python -m finhot weekly              # 生成本周周报
+  python -m finhot site                # 生成静态网站到 _site/
+  python -m finhot market              # 在终端打印 A 股盘面快照与今日关注
   python -m finhot sources             # 信源健康检查（每个源只抓一页）
   python -m finhot collect --hours 2   # 只采集并打印，不生成日报
 """
@@ -61,8 +65,63 @@ def cmd_collect(args) -> int:
 def cmd_run(args) -> int:
     from .pipeline import run
     path = run(hours=args.hours, use_llm=not args.no_llm, only=_only(args.only), keep=args.keep,
-               out_dir=Path(args.out) if args.out else None)
+               out_dir=Path(args.out) if args.out else None, edition=args.edition, market=not args.no_market)
     print(path)
+    return 0
+
+
+def cmd_auto(args) -> int:
+    """定时任务入口。GitHub Actions 定时触发常延迟数小时，所以每个时段放多个触发点，由这里去重。"""
+    from .editions import scheduled_slot
+    from .pipeline import run
+    from .weekly import run_weekly, weekly_exists
+
+    t = now()
+    did = False
+    ed = scheduled_slot(t)
+    if ed:
+        print(f"[auto] {t:%m-%d %H:%M} 生成{ed.name}")
+        print(run(use_llm=not args.no_llm, edition=ed.key))
+        did = True
+    # 周六/周日：本周周报还没出就出一份
+    if t.weekday() >= 5 and t.hour >= 6 and not weekly_exists(t.date()):
+        print(f"[auto] 生成本周周报")
+        print(run_weekly(t.date(), use_llm=not args.no_llm))
+        did = True
+    if not did:
+        print(f"[auto] {t:%m-%d %H:%M} 当前时段无需生成（已生成或不在时段内）")
+    return 0
+
+
+def cmd_weekly(args) -> int:
+    from datetime import date
+
+    from .weekly import run_weekly
+    day = date.fromisoformat(args.date) if args.date else None
+    print(run_weekly(day, use_llm=not args.no_llm, out_dir=Path(args.out) if args.out else None))
+    return 0
+
+
+def cmd_site(args) -> int:
+    from .site import build_site
+    print(build_site(Path(args.out), base_url=args.base_url))
+    return 0
+
+
+def cmd_market(args) -> int:
+    from datetime import timedelta as td
+
+    from .ashare import fetch_snapshot
+    from .calendar_watch import fetch_watchlist
+    from .report import _render_ashare, _render_watch
+    snap = fetch_snapshot()
+    print(f"# A股盘面（{snap.trade_date}）\n")
+    print("\n".join(_render_ashare(snap)))
+    w = fetch_watchlist(now() + td(days=args.days_ahead))
+    print(f"# 关注（{w.day}）\n")
+    print("\n".join(_render_watch(w)) or "（无）")
+    for e in [*snap.errors, *w.errors]:
+        print("⚠️", e)
     return 0
 
 
@@ -84,12 +143,34 @@ def main(argv: list[str] | None = None) -> int:
     c.set_defaults(func=cmd_collect)
 
     r = sub.add_parser("run", help="完整流程：生成日报")
-    r.add_argument("--hours", type=float, default=24, help="采集最近多少小时（默认 24）")
+    r.add_argument("--hours", type=float, default=None,
+                   help="采集最近多少小时（默认：接着上一份日报，夹在 6~72 小时之间；无历史则 24 小时）")
+    r.add_argument("--edition", choices=["pre", "noon", "close"], help="版次（默认按当前时间）")
     r.add_argument("--no-llm", action="store_true", help="不调用 LLM，只用规则")
+    r.add_argument("--no-market", action="store_true", help="不抓 A 股盘面与今日关注")
     r.add_argument("--only")
     r.add_argument("--keep", type=int, default=400, help="items.jsonl 最多保存多少条")
     r.add_argument("--out", help="输出目录（默认写入仓库 reports/ 和 data/）")
     r.set_defaults(func=cmd_run)
+
+    a = sub.add_parser("auto", help="定时任务入口：按时段生成日报/周报，已生成则跳过")
+    a.add_argument("--no-llm", action="store_true")
+    a.set_defaults(func=cmd_auto)
+
+    w = sub.add_parser("weekly", help="生成周报")
+    w.add_argument("--date", help="周内任意一天 YYYY-MM-DD（默认今天所在周）")
+    w.add_argument("--no-llm", action="store_true")
+    w.add_argument("--out", help="输出目录（默认 reports/）")
+    w.set_defaults(func=cmd_weekly)
+
+    st = sub.add_parser("site", help="生成静态网站")
+    st.add_argument("--out", default="_site")
+    st.add_argument("--base-url", default="", help="站点根路径，如 /FinHOT（用于 RSS 绝对链接，可留空）")
+    st.set_defaults(func=cmd_site)
+
+    m = sub.add_parser("market", help="打印 A 股盘面快照与今日关注")
+    m.add_argument("--days-ahead", type=int, default=0, help="关注日期偏移（1=明天）")
+    m.set_defaults(func=cmd_market)
 
     args = p.parse_args(argv)
     logging.basicConfig(level=logging.DEBUG if args.verbose else logging.INFO,

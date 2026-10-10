@@ -191,9 +191,9 @@ def parse_sina(ctx: FetchContext, data: dict):
         try:
             ext = json.loads(d.get("ext") or "{}")
             url = ext.get("docurl") or url
-            stocks = [s.get("key", "") for s in ext.get("stocks", []) if s.get("key")]
         except (ValueError, TypeError):
-            stocks = []
+            pass
+        # 注：ext.stocks 里的 key 是正文命中的关键词（常见"投资""欧元"等泛词），不是公司名，不采用
         items.append(ctx.make(
             title=title,
             content=content,
@@ -202,7 +202,6 @@ def parse_sina(ctx: FetchContext, data: dict):
             source_id=str(d["id"]),
             important=bool(d.get("is_focus")) or "焦点" in tags,
             tags=[t for t in tags if t != "其他"][:5],
-            stocks=list(dict.fromkeys(stocks))[:8],
         ))
     return items
 

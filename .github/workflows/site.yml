@@ -1,0 +1,58 @@
+name: site
+
+# 把 reports/ 渲染成静态网站发布到 GitHub Pages。
+# 首次使用需在仓库 Settings → Pages → Build and deployment → Source 选择 "GitHub Actions"；
+# 未开启时本工作流只给出提示，不会报错。
+on:
+  push:
+    branches: [main]
+    paths: ["reports/**", "finhot/site.py", ".github/workflows/site.yml"]
+  workflow_dispatch:
+  workflow_call:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    outputs:
+      enabled: ${{ steps.pages.outcome == 'success' }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}   # 被日报工作流调用时取刚提交的最新内容
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - id: pages
+        uses: actions/configure-pages@v5
+        continue-on-error: true
+      - name: Pages not enabled
+        if: steps.pages.outcome != 'success'
+        run: echo "::notice::GitHub Pages 未开启：Settings → Pages → Source 选择 GitHub Actions 后即可自动发布网站"
+      - name: Build site
+        run: python -m finhot site --out _site --base-url "${{ steps.pages.outputs.base_url }}"
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.pages.outcome == 'success'
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    if: needs.build.outputs.enabled == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

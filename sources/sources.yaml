@@ -5,6 +5,7 @@
 #   name      显示名
 #   type      适配器类型，对应 finhot/fetchers/ 中 @register 的名字
 #   url       rss/json 类信源需要
+#   fallback_urls  rss 备用地址列表，主地址失败（如 404）时依次尝试
 #   tier      official（官方一手）| media（媒体）
 #   weight    信源权重 0.5~2.0，影响重要性打分和去重时"谁当代表"
 #   important_weight  该源"加红/重要"标记的可信度 0~1.5（标得越滥越低），默认 1.0
@@ -95,6 +96,17 @@ sources:
     weight: 1.5
     lang: en
     url: https://www.federalreserve.gov/feeds/press_all.xml
+    fallback_urls:
+      - https://www.federalreserve.gov/feeds/press_monetary.xml
+      - https://www.federalreserve.gov/feeds/press_bcreg.xml
+
+  - id: fed-speeches
+    name: 美联储讲话
+    type: rss
+    tier: official
+    weight: 1.2
+    lang: en
+    url: https://www.federalreserve.gov/feeds/speeches.xml
 
   - id: cnbc
     name: CNBC

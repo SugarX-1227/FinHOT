@@ -171,7 +171,9 @@ def enrich(items: list[NewsItem], client: LLMClient, max_items: int | None = Non
     return {"analyzed": done, "failed": failed}
 
 
-def overview(items: list[NewsItem], market_rows: list[dict], client: LLMClient, top: int = 25) -> str:
+def overview(items: list[NewsItem], market_rows: list[dict], client: LLMClient, top: int = 25,
+             extra: dict | None = None) -> str:
+    """生成要点。extra 可附带 A 股盘面摘要、新闻×资金结果、今日关注等（均为程序生成的事实数据）。"""
     payload = {
         "news": [
             {"title": it.llm.get("title") or it.title,
@@ -181,6 +183,7 @@ def overview(items: list[NewsItem], market_rows: list[dict], client: LLMClient, 
             for it in items[:top]
         ],
         "markets": [{"name": m["name"], "pct": m.get("pct")} for m in market_rows],
+        **(extra or {}),
     }
     try:
         text = client.chat(_load_prompt("overview.md"), json.dumps(payload, ensure_ascii=False), max_tokens=3000)

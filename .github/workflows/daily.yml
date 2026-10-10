@@ -1,20 +1,27 @@
 name: daily-report
 
+# GitHub 定时任务经常延迟数小时，所以每个时段放多个触发点；
+# `python -m finhot auto` 会判断当前时段、已生成过的就跳过，不会重复出报告。
 on:
   schedule:
-    - cron: "30 23 * * *"   # 北京时间 07:30 盘前版（采集过去 24 小时）
-    - cron: "35 7 * * 1-5"  # 北京时间 15:35 盘后版（工作日，采集过去 8 小时）
+    - cron: "17 21-23 * * *"   # 北京时间 05:17 / 06:17 / 07:17 —— 盘前版（每天）
+    - cron: "17 0 * * *"       # 北京时间 08:17 —— 盘前版兜底
+    - cron: "47 7-9 * * 1-5"   # 北京时间 15:47 / 16:47 / 17:47 —— 盘后版（工作日）
+    - cron: "23 1 * * 6,0"     # 北京时间 周六/周日 09:23 —— 周报兜底（周六盘前那次通常已顺带生成）
   workflow_dispatch:
     inputs:
+      mode:
+        description: "auto=按时段自动；或指定 pre/noon/close/weekly"
+        type: choice
+        options: [auto, pre, noon, close, weekly]
+        default: auto
       hours:
-        description: "采集最近多少小时"
-        default: "24"
+        description: "采集最近多少小时（留空=接着上一份日报）"
+        default: ""
       no_llm:
-        description: "不使用 LLM（true/false）"
-        default: "false"
-
-permissions:
-  contents: write
+        description: "不使用 LLM"
+        type: boolean
+        default: false
 
 concurrency:
   group: daily-report
@@ -23,32 +30,42 @@ concurrency:
 jobs:
   report:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 40
+    permissions:
+      contents: write
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}   # 取分支最新提交（排队的触发也能看到前一次刚生成的日报）
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
           cache: pip
       - run: pip install -r requirements.txt
 
-      - name: Generate report
+      - name: Generate
         env:
           # 在仓库 Settings → Secrets and variables → Actions 中配置；不配置则只用规则生成日报
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
           LLM_MODEL: ${{ vars.LLM_MODEL }}
           LLM_BODY_EXTRA: ${{ vars.LLM_BODY_EXTRA }}
+          MODE: ${{ github.event.inputs.mode || 'auto' }}
+          HOURS: ${{ github.event.inputs.hours }}
+          NO_LLM: ${{ github.event.inputs.no_llm }}
         run: |
-          HOURS="${{ github.event.inputs.hours }}"
-          if [ -z "$HOURS" ]; then
-            if [ "${{ github.event.schedule }}" = "35 7 * * 1-5" ]; then HOURS=8; else HOURS=24; fi
-          fi
-          ARGS="--hours $HOURS"
-          if [ "${{ github.event.inputs.no_llm }}" = "true" ]; then ARGS="$ARGS --no-llm"; fi
-          python -m finhot run $ARGS
+          FLAGS=""
+          if [ "$NO_LLM" = "true" ]; then FLAGS="--no-llm"; fi
+          case "$MODE" in
+            auto)   python -m finhot auto $FLAGS ;;
+            weekly) python -m finhot weekly $FLAGS ;;
+            *)      python -m finhot run --edition "$MODE" ${HOURS:+--hours "$HOURS"} $FLAGS ;;
+          esac
 
-      - name: Commit report
+      - name: Commit
+        id: commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -59,3 +76,13 @@ jobs:
             git pull --rebase origin "${GITHUB_REF_NAME}" && git push && break
             sleep $((i * 5))
           done
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+  site:
+    needs: report
+    if: needs.report.outputs.changed == 'true'
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/site.yml

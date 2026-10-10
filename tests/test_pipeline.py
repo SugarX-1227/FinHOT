@@ -84,3 +84,11 @@ def test_rule_edge_cases():
 def test_split_title_strips_bracket_and_prefix_even_with_given_title():
     t, c = split_title("【央行：降准】财联社9月30日电，中国人民银行决定下调存款准备金率。", "央行：降准")
     assert t == "央行：降准" and c == "中国人民银行决定下调存款准备金率。"
+
+
+def test_dedup_keeps_templated_data_releases_apart():
+    a = item("jin10", "美国9月CPI年率 公布值:3.6 预期:3.5 前值:3.4")
+    b = item("jin10b", "美国9月核心CPI年率 公布值:3.1 预期:3.0 前值:3.0")
+    c = item("wscn", "美国9月CPI年率 3.6%，预期3.5%，前值3.4%", minutes=1)
+    out = dedup([a, b, c])
+    assert len(out) == 2   # CPI 两条合并，核心 CPI 单独

@@ -67,7 +67,7 @@ def test_sina_ext_docurl_and_stocks():
         "docurl": "https://finance.sina.cn/x"}]}}}}
     [it] = flash.parse_sina(ctx(), data)
     assert it.url == "https://finance.sina.com.cn/7x24/doc-x.shtml"
-    assert it.stocks == ["香港交易所", "贝莱德"] and it.tags == []
+    assert it.stocks == [] and it.tags == []  # ext.stocks 是关键词而非公司名，不采用
 
 
 def test_ths_important_color():

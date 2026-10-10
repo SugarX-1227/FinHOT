@@ -25,6 +25,12 @@ jobs:
         run: |
           python -m finhot run --no-llm --hours 6 --out "$RUNNER_TEMP/out"
           cat "$RUNNER_TEMP/out/latest.md"
+      - name: Weekly + site smoke
+        run: |
+          python -m finhot weekly --no-llm --out "$RUNNER_TEMP/out"
+          cat "$RUNNER_TEMP/out/weekly/latest.md"
+          python -m finhot site --out "$RUNNER_TEMP/out/site"
+          ls "$RUNNER_TEMP/out/site" "$RUNNER_TEMP/out/site/daily" | head -40
       - uses: actions/upload-artifact@v4
         with:
           name: report-preview

@@ -35,6 +35,21 @@ def _similar(a: set[str], b: set[str], threshold: float) -> bool:
     return denom >= 4 and len(a & b) / denom >= threshold
 
 
+_NUM_RE = re.compile(r"\d+(?:\.\d+)?")
+
+
+def _numbers_compatible(a: str, b: str) -> bool:
+    """两条标题都带多个数字、且数字集合差异很大时，视为不同事件。
+
+    防止模板化快讯被误合并，如"美国9月CPI 公布值:3.6 预期:3.5"与"美国9月核心CPI 公布值:3.1 预期:3.0"。
+    只有一边有数字（如"1.2万亿"与"12000亿"写法不同）时不判断。
+    """
+    na, nb = set(_NUM_RE.findall(a)), set(_NUM_RE.findall(b))
+    if len(na) < 2 or len(nb) < 2:
+        return True
+    return len(na & nb) / len(na | nb) >= 0.5
+
+
 def _rep_key(it: NewsItem):
     return (it.important, it.tier == "official", it.weight, len(it.content))
 
@@ -69,7 +84,7 @@ def dedup(items: list[NewsItem], threshold: float = THRESHOLD) -> list[NewsItem]
                     continue
                 if (items[i].published - items[L].published).total_seconds() > MAX_HOURS * 3600:
                     continue
-                if _similar(fs, feats[L], threshold):
+                if _similar(fs, feats[L], threshold) and _numbers_compatible(items[i].title, items[L].title):
                     sim = len(fs & feats[L]) / min(len(fs), len(feats[L]))
                     if sim > best_sim:
                         best, best_sim = L, sim
@@ -87,17 +102,19 @@ def dedup(items: list[NewsItem], threshold: float = THRESHOLD) -> list[NewsItem]
         group = [items[k] for k in members[L]]
         rep = max(group, key=_rep_key)
         others = [m for m in group if m is not rep]
-        rep.dup_count = len(group)
-        rep.dup_sources = sorted({m.source_name for m in others} - {rep.source_name})
+        # 再次去重（如周报合并多天数据）时保留各条已有的聚簇信息
+        rep.dup_count = sum(max(1, m.dup_count) for m in group)
+        prior = {s for m in group for s in m.dup_sources}
+        rep.dup_sources = sorted(({m.source_name for m in others} | prior) - {rep.source_name})
         imp = {m.source: m.imp_weight for m in group if m.important}
-        rep.imp_votes = round(sum(imp.values()), 2)
+        rep.imp_votes = round(max(sum(imp.values()), max(m.imp_votes for m in group)), 2)
         rep.important = rep.imp_votes > 0
         rep.published = min(m.published for m in group)  # 取最早报道时间
         rep.tags = list(dict.fromkeys(t for m in group for t in m.tags))[:6]
         rep.stocks = list(dict.fromkeys(s for m in group for s in m.stocks))[:8]
         if any(m.tier == "official" for m in group):
             rep.tier = "official"
-        rep.imp_sources = sorted(imp)
+        rep.imp_sources = sorted(set(imp) | {s for m in group for s in m.imp_sources})
         out.append(rep)
     out.sort(key=lambda x: x.published, reverse=True)
     return out

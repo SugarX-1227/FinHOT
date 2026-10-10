@@ -19,3 +19,6 @@ data/cache/
 
 # 测试
 .pytest_cache/
+
+# 网站构建输出
+_site/
