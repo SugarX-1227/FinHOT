@@ -8,6 +8,8 @@
   python -m finhot market              # 在终端打印 A 股盘面快照与今日关注
   python -m finhot sources             # 信源健康检查（每个源只抓一页）
   python -m finhot collect --hours 2   # 只采集并打印，不生成日报
+  python -m finhot push                # 常驻：每 90 秒把快讯推给网站引擎（web/），见 finhot/push.py
+  python -m finhot push --once --dry-run   # 只跑一轮、打印会推哪些，不真的推
 """
 
 from __future__ import annotations
@@ -129,6 +131,19 @@ def cmd_market(args) -> int:
     return 0
 
 
+def cmd_push(args) -> int:
+    from .push import PushConfig, loop
+
+    if not args.verbose:
+        logging.getLogger("finhot.collect").setLevel(logging.WARNING)  # 每轮每个信源一行，常驻时太吵
+    cfg = PushConfig.from_env()
+    if args.min_score is not None:
+        cfg.min_score = args.min_score
+    if args.only:
+        cfg.sources = _only(args.only)
+    return loop(cfg, once=args.once, dry_run=args.dry_run)
+
+
 def main(argv: list[str] | None = None) -> int:
     p = argparse.ArgumentParser(prog="finhot", description="FinHOT 财经热点采集与日报")
     p.add_argument("-v", "--verbose", action="store_true")
@@ -175,6 +190,13 @@ def main(argv: list[str] | None = None) -> int:
     m = sub.add_parser("market", help="打印 A 股盘面快照与今日关注")
     m.add_argument("--days-ahead", type=int, default=0, help="关注日期偏移（1=明天）")
     m.set_defaults(func=cmd_market)
+
+    pu = sub.add_parser("push", help="常驻：把快讯推给网站引擎")
+    pu.add_argument("--once", action="store_true", help="只跑一轮")
+    pu.add_argument("--dry-run", action="store_true", help="只打印会推哪些，不推送")
+    pu.add_argument("--min-score", type=float, help="簇的规则分门槛（默认 FINHOT_PUSH_MIN_SCORE 或 6）")
+    pu.add_argument("--only", help="只推指定信源，逗号分隔")
+    pu.set_defaults(func=cmd_push)
 
     args = p.parse_args(argv)
     logging.basicConfig(level=logging.DEBUG if args.verbose else logging.INFO,
