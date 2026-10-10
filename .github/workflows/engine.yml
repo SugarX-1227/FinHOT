@@ -113,7 +113,7 @@ jobs:
         run: |
           q() { docker compose --env-file web/.env exec -T db psql -U aihot -d aihot -Atc "$1"; }
           for i in $(seq 1 30); do
-            n=$(q "select count(*) from articles where via = 'ingest' and body_status = 'ok'")
+            n=$(q "select count(*) from articles a join sources s on s.id = a.source_id where s.kind = 'external' and a.body_status = 'ok'")
             [ "${n:-0}" -gt 0 ] && break
             sleep 10
           done
