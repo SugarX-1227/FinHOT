@@ -77,18 +77,22 @@ def cmd_auto(args) -> int:
     from .weekly import run_weekly, weekly_exists
 
     t = now()
-    did = False
+    did, failed = False, False
     ed = scheduled_slot(t)
     if ed:
         print(f"[auto] {t:%m-%d %H:%M} 生成{ed.name}")
         print(run(use_llm=not args.no_llm, edition=ed.key))
         did = True
-    # 周六/周日：本周周报还没出就出一份
+    # 周六/周日：本周周报还没出就出一份。周报失败不能影响已生成的日报被提交，所以单独兜住
     if t.weekday() >= 5 and t.hour >= 6 and not weekly_exists(t.date()):
-        print(f"[auto] 生成本周周报")
-        print(run_weekly(t.date(), use_llm=not args.no_llm))
-        did = True
-    if not did:
+        print("[auto] 生成本周周报")
+        try:
+            print(run_weekly(t.date(), use_llm=not args.no_llm))
+            did = True
+        except (Exception, SystemExit) as e:  # noqa: BLE001
+            print(f"::warning::周报生成失败：{e}")
+            failed = True
+    if not did and not failed:
         print(f"[auto] {t:%m-%d %H:%M} 当前时段无需生成（已生成或不在时段内）")
     return 0
 

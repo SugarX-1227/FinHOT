@@ -100,3 +100,21 @@ def test_overseas_news_only_counts_global_themes():
     nvda = item("英伟达发布新一代GPU")
     nvda.category = "海外"
     assert item_themes(nvda) == ["算力"]
+
+
+def test_auto_weekly_failure_does_not_block_daily(monkeypatch, capsys):
+    import finhot.__main__ as cli
+    import finhot.editions as editions
+    import finhot.pipeline as pipeline
+    import finhot.weekly as weekly
+    monkeypatch.setattr(cli, "now", lambda: datetime(2026, 10, 10, 7, 0, tzinfo=TZ))   # 周六 07:00
+    monkeypatch.setattr(editions, "scheduled_slot", lambda t: EDITIONS["pre"])
+    monkeypatch.setattr(pipeline, "run", lambda **kw: "reports/2026-10-10.md")
+    monkeypatch.setattr(weekly, "weekly_exists", lambda d: False)
+
+    def boom(*a, **k):
+        raise SystemExit("没有数据")
+    monkeypatch.setattr(weekly, "run_weekly", boom)
+    assert cli.main(["auto", "--no-llm"]) == 0
+    out = capsys.readouterr().out
+    assert "reports/2026-10-10.md" in out and "周报生成失败" in out
