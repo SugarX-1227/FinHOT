@@ -192,9 +192,11 @@ def _render_ashare(s: MarketSnapshot) -> list[str]:
     if s.industries:
         top = s.industries[:5]
         out.append("- **领涨行业**：" + "、".join(f"{x.name} {x.pct:+.2f}%（{x.leader}）" for x in top))
-        inflow = sorted(s.industries, key=lambda x: -x.inflow)[:5]
-        out.append("- **主力净流入**：" + "、".join(f"{x.name} {x.inflow:+.1f}亿" for x in inflow))
-        outflow = [x for x in sorted(s.industries, key=lambda x: x.inflow) if x.inflow < 0][:3]
+        with_flow = [x for x in s.industries if x.inflow is not None]
+        inflow = [x for x in sorted(with_flow, key=lambda x: -x.inflow) if x.inflow > 0][:5]
+        if inflow:
+            out.append("- **主力净流入**：" + "、".join(f"{x.name} {x.inflow:+.1f}亿" for x in inflow))
+        outflow = [x for x in sorted(with_flow, key=lambda x: x.inflow) if x.inflow < 0][:3]
         if outflow:
             out.append("- **主力净流出**：" + "、".join(f"{x.name} {x.inflow:+.1f}亿" for x in outflow))
     if s.concepts:

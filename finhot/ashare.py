@@ -41,7 +41,7 @@ class Board:
     code: str
     name: str
     pct: float
-    inflow: float          # 主力净流入（亿元）
+    inflow: float | None   # 主力净流入（亿元）；新浪备用数据源没有资金数据时为 None
     up: int = 0
     down: int = 0
     leader: str = ""       # 领涨股
@@ -158,6 +158,29 @@ def parse_boards(data: dict, kind: str) -> list[Board]:
     return out
 
 
+def parse_sina_boards(text: str, kind: str) -> list[Board]:
+    """新浪板块（东财不可用时的备用）：var X = {"code":"code,名称,家数,均价,涨跌额,涨跌幅,成交量,成交额,领涨代码,领涨幅,..,..,领涨名"}"""
+    m = re.search(r"=\s*(\{.*\})", text, re.S)
+    if not m:
+        return []
+    import json
+    out = []
+    for v in json.loads(m.group(1)).values():
+        f = v.split(",")
+        if len(f) < 13:
+            continue
+        name = f[1]
+        if kind == "concept" and _JUNK_CONCEPT.search(name):
+            continue
+        try:
+            out.append(Board(code=f[0], name=name, pct=round(float(f[5]), 2), inflow=None,
+                             leader=f[12], leader_pct=round(float(f[9]), 2), kind=kind))
+        except ValueError:
+            continue
+    out.sort(key=lambda b: -b.pct)
+    return out
+
+
 def parse_lhb(data: dict) -> tuple[str, list[dict]]:
     rows = ((data.get("result") or {}).get("data")) or []
     if not rows:
@@ -231,6 +254,18 @@ def _boards(session: Session, fs: str, kind: str) -> list[Board]:
     return out
 
 
+SINA_BOARDS = {
+    "industry": "https://vip.stock.finance.sina.com.cn/q/view/newSinaHy.php",
+    "concept": "https://money.finance.sina.com.cn/q/view/newFLJK.php?param=class",
+}
+
+
+def _sina_boards(session: Session, kind: str) -> list[Board]:
+    r = session.get(SINA_BOARDS[kind], headers={"Referer": "https://finance.sina.com.cn/"})
+    r.raise_for_status()
+    return parse_sina_boards(r.content.decode("gbk", "replace"), kind)
+
+
 def fetch_snapshot(session: Session | None = None, today: datetime | None = None) -> MarketSnapshot:
     session = session or Session()
     today = today or now()
@@ -269,11 +304,21 @@ def fetch_snapshot(session: Session | None = None, today: datetime | None = None
         data = session.get_json(f"{PUSH2EX}/getTopicZDFenBu", params={"ut": UT_POOL, "dpt": "wz.ztzt"})
         snap.breadth.update(parse_fenbu(data))
 
+    def boards_with_fallback(fs: str, kind: str) -> list[Board]:
+        try:
+            return _boards(session, fs, kind)
+        except Exception as e:  # noqa: BLE001
+            # 东财板块接口在海外服务器上经常 502，改用新浪（没有主力资金数据）
+            log.warning("东财%s板块不可用（%s），改用新浪", kind, e)
+            rows = _sina_boards(session, kind)
+            snap.errors.append(f"{'行业' if kind == 'industry' else '概念'}板块：东财不可用，已改用新浪数据（无主力资金）")
+            return rows
+
     def industries():
-        snap.industries = _boards(session, "m:90+t:2", "industry")
+        snap.industries = boards_with_fallback("m:90+t:2", "industry")
 
     def concepts():
-        snap.concepts = _boards(session, "m:90+t:3", "concept")
+        snap.concepts = boards_with_fallback("m:90+t:3", "concept")
 
     def lhb():
         start = (today - timedelta(days=10)).strftime("%Y-%m-%d")

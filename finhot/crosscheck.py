@@ -57,9 +57,10 @@ def cross_check(items: list[NewsItem], snap: MarketSnapshot, min_score: float = 
     for t, boards in board_map.items():
         r = row(t)
         r.pct = round(median(b.pct for b in boards), 2)
-        ind = [b for b in boards if b.kind == "industry"]
-        src = ind or sorted(boards, key=lambda b: -abs(b.inflow))[:3]
-        r.inflow = round(sum(b.inflow for b in src), 1)
+        flows = [b for b in boards if b.inflow is not None]
+        ind = [b for b in flows if b.kind == "industry"]
+        src = ind or sorted(flows, key=lambda b: -abs(b.inflow))[:3]
+        r.inflow = round(sum(b.inflow for b in src), 1) if src else None
         best = max(boards, key=lambda b: b.pct)
         r.top_board, r.top_board_pct = best.name, best.pct
 
@@ -72,12 +73,14 @@ def cross_check(items: list[NewsItem], snap: MarketSnapshot, min_score: float = 
 
     for r in rows.values():
         pct = r.pct if r.pct is not None else 0.0
-        inflow = r.inflow if r.inflow is not None else 0.0
-        if r.news_count >= 2 and (pct >= 1 or r.zt >= 3) and inflow >= 0:
+        # 没有资金数据（备用数据源）时只看涨幅与涨停
+        flow_ok = r.inflow is None or r.inflow >= 0
+        flow_out = r.inflow is None or r.inflow < 0
+        if r.news_count >= 2 and (pct >= 1 or r.zt >= 3) and flow_ok:
             r.verdict = "共振"
         elif r.news_count <= 1 and (pct >= 2 or r.zt >= 3):
             r.verdict = "资金先行"
-        elif r.news_count >= 3 and pct < 0 and inflow < 0:
+        elif r.news_count >= 3 and pct < 0 and flow_out:
             r.verdict = "新闻热·资金冷"
 
     order = {"共振": 0, "资金先行": 1, "新闻热·资金冷": 2}

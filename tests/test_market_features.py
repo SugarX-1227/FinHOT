@@ -118,3 +118,15 @@ def test_auto_weekly_failure_does_not_block_daily(monkeypatch, capsys):
     assert cli.main(["auto", "--no-llm"]) == 0
     out = capsys.readouterr().out
     assert "reports/2026-10-10.md" in out and "周报生成失败" in out
+
+
+def test_sina_board_fallback_and_crosscheck_without_flows():
+    from fixtures import SINA_HY
+    rows = ashare.parse_sina_boards(SINA_HY, "industry")
+    assert [b.name for b in rows] == ["电子器件", "玻璃行业"] and rows[0].pct == 1.23 and rows[0].inflow is None
+    assert rows[1].leader == "华建集团" and rows[1].leader_pct == 10.01
+    s = snapshot()
+    s.industries = [ashare.Board("x", "电池", 2.5, None, kind="industry")]
+    s.concepts = []
+    r = {r.theme: r for r in cross_check([item("宁德时代发布固态电池"), item("储能电池扩产")], s)}["锂电储能"]
+    assert r.inflow is None and r.verdict == "共振"

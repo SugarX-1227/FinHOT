@@ -60,3 +60,6 @@ LIFTS = {"result": {"data": [
     {"SECURITY_CODE": "688197", "SECURITY_NAME_ABBR": "首药控股", "FREE_DATE": "2026-10-12 00:00:00",
      "LIFT_MARKET_CAP": 300821.05, "FREE_RATIO": 1.3236, "FREE_SHARES_TYPE": "追加承诺限售股份上市流通"},
 ]}}
+
+SINA_HY = ('var S_Finance_bankuai_sinaindustry = {"new_blhy":"new_blhy,玻璃行业,19,15.91,-0.44,-2.6998,598418073,13674354096,'
+           'sh600629,10.012,18.020,1.640,华建集团","new_dzqj":"new_dzqj,电子器件,180,30.1,0.3,1.2345,1,1,sz000001,9.99,1,1,某电子"}')
