@@ -92,3 +92,12 @@ def test_dedup_keeps_templated_data_releases_apart():
     c = item("wscn", "美国9月CPI年率 3.6%，预期3.5%，前值3.4%", minutes=1)
     out = dedup([a, b, c])
     assert len(out) == 2   # CPI 两条合并，核心 CPI 单独
+
+
+def test_routine_operations_are_capped():
+    routine = item("a", "中国央行：根据公开市场业务一级交易商的需求，2026年10月10日7天期逆回购操作量为零", important=True)
+    routine.dup_sources = ["B", "C", "D", "E", "F", "G", "H"]
+    big = item("b", "央行：10月8日将开展12000亿元买断式逆回购操作 期限为3个月", important=True)
+    big.dup_sources = ["B", "C"]
+    score_all([routine, big])
+    assert routine.score <= 5.5 < big.score

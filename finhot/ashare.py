@@ -17,7 +17,8 @@ from .timeutil import now
 
 log = logging.getLogger(__name__)
 
-PUSH2 = "https://push2.eastmoney.com"
+# push2 在海外（如 GitHub Actions）偶尔连续 502，依次尝试备用域名
+PUSH2_HOSTS = ("https://push2.eastmoney.com", "https://push2delay.eastmoney.com", "https://82.push2.eastmoney.com")
 PUSH2EX = "https://push2ex.eastmoney.com"
 DATACENTER = "https://datacenter-web.eastmoney.com/api/data/v1/get"
 UT_POOL = "7eea3edcaed734bea9cbfc24409ed989"
@@ -187,6 +188,19 @@ def parse_hsgt(data: dict) -> dict:
 
 
 # ------------------------------------------------------------------ 抓取
+def push2_json(session: Session, path: str, params: dict) -> dict:
+    last: Exception | None = None
+    for host in PUSH2_HOSTS:
+        try:
+            data = session.get_json(f"{host}{path}", params=params)
+            if data.get("data") is not None:
+                return data
+            last = RuntimeError(f"{host} 返回空数据")
+        except Exception as e:  # noqa: BLE001
+            last = e
+    raise last or RuntimeError("push2 不可用")
+
+
 def _pool(session: Session, api: str, date: str, sort: str = "fbt:asc") -> dict:
     return session.get_json(f"{PUSH2EX}/{api}", params={
         "ut": UT_POOL, "dpt": "wz.ztzt", "Pageindex": "0", "pagesize": "1000", "sort": sort, "date": date})
@@ -195,7 +209,7 @@ def _pool(session: Session, api: str, date: str, sort: str = "fbt:asc") -> dict:
 def _boards(session: Session, fs: str, kind: str) -> list[Board]:
     out: list[Board] = []
     for pn in range(1, 8):
-        data = session.get_json(f"{PUSH2}/api/qt/clist/get", params={
+        data = push2_json(session, "/api/qt/clist/get", {
             "pn": str(pn), "pz": "100", "po": "1", "np": "1", "fltt": "2", "invt": "2", "fid": "f3", "fs": fs,
             "fields": "f12,f14,f3,f62,f104,f105,f128,f136"})
         page = parse_boards(data, kind)
@@ -220,7 +234,7 @@ def fetch_snapshot(session: Session | None = None, today: datetime | None = None
             log.warning("行情快照 %s 失败: %s", name, e)
 
     def indices():
-        data = session.get_json(f"{PUSH2}/api/qt/ulist.np/get", params={
+        data = push2_json(session, "/api/qt/ulist.np/get", {
             "fltt": "2", "secids": ",".join(s for s, _ in INDICES), "fields": "f12,f14,f2,f3,f4,f6,f124"})
         snap.indices, snap.turnover = parse_indices(data)
 
@@ -260,7 +274,7 @@ def fetch_snapshot(session: Session | None = None, today: datetime | None = None
         snap.lhb_sell = sorted((r for r in rows if r["net"] < 0), key=lambda r: r["net"])[:5]
 
     def hsgt():
-        data = session.get_json(f"{PUSH2}/api/qt/kamt/get", params={
+        data = push2_json(session, "/api/qt/kamt/get", {
             "fields1": "f1,f2,f3,f4", "fields2": "f51,f52,f53,f54,f56,f62,f63,f65,f66"})
         snap.hsgt = parse_hsgt(data)
 

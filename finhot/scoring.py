@@ -78,10 +78,14 @@ _NOISE_RULES: list[tuple[float, re.Pattern]] = [
                      r"巴西|墨西哥|印度|南非|欧元区|Istat|葡萄牙|荷兰|比利时|奥地利|爱尔兰|希腊|芬兰|丹麦|捷克|匈牙利)"
                      r".{0,20}(?:CPI|PPI|GDP|PMI|失业|零售|信心指数|贸易帐|通胀|物价|工业产出|央行)")),
     (1.5, re.compile(r"公布值.{0,20}预期.{0,20}前值|将于.{0,6}分钟后公布")),
-    # 例行操作/例行数据
-    (2.0, re.compile(r"隔夜逆回购|7天期逆回购|操作量为零|RRP|国库券|投标倍数|中标利率|图示|行情一览|异常波动|"
-                     r"低开|高开|欧股|收盘行情|开盘行情")),
+    (2.0, re.compile(r"图示|行情一览|异常波动|低开|高开|欧股|收盘行情|开盘行情")),
 ]
+
+
+# 例行操作/例行数据：信源都会转载（多源加分会把它们推得很高），直接封顶
+_ROUTINE_RE = re.compile(r"隔夜逆回购|天期逆回购|操作量为零|公开市场操作|RRP|国库券|投标倍数|中标利率|中间价报|中间价较上日|"
+                         r"中间价调[升降]|储蓄国债.{0,6}开售|凭证式国债")
+ROUTINE_CAP = 5.5
 
 
 def classify(it: NewsItem) -> str:
@@ -112,6 +116,8 @@ def rule_score(it: NewsItem) -> float:
         s -= 1.0
     if it.lang == "en":
         s -= 0.5  # 英文源作补充，默认略降权
+    if _ROUTINE_RE.search(it.title) and not re.search(r"\d+万亿|买断式|降准|降息|MLF|PSL", it.title):
+        s = min(s, ROUTINE_CAP)
     return round(max(0.0, min(10.0, s)), 2)
 
 

@@ -35,11 +35,12 @@ def fetch_quotes(markets: list[dict], session: Session | None = None) -> list[di
         return []
     session = session or Session()
     try:
-        data = session.get_json(URL, params={
+        from .ashare import push2_json
+        data = push2_json(session, "/api/qt/ulist.np/get", {
             "fltt": "2",
             "secids": ",".join(m["secid"] for m in markets),
             "fields": "f12,f13,f14,f2,f3,f4,f124",
-        }, headers={"Referer": "https://quote.eastmoney.com/"})
+        })
         return parse_quotes(data, markets)
     except Exception as e:  # noqa: BLE001
         log.warning("行情获取失败: %s", e)
