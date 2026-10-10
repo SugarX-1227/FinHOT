@@ -20,6 +20,11 @@ git subtree pull --prefix web https://github.com/KKKKhazix/aihot main --squash
 | 改动 | 文件 | 原因 |
 |---|---|---|
 | 推送接口 `/api/ingest/items` 支持可选的 `body` 字段，作为正文保存、不再抓原文页 | `packages/backend/src/ingest/items.ts`、`tests/ingest.test.ts`、`docs/sources.md` | 快讯没有独立的文章页，FinHOT 推送时已经有全文 |
+| 测试里的示例行业（AI 的分类、标签、公司、主题）换成财经的对应项 | `tests/*.test.ts`、`apps/web/tests/*.test.ts` | 上游要求改了 `industry/taxonomy.ts` 后同步换掉测试例子；合并上游时这些文件最容易冲突，冲突时保留上游的测试逻辑、换回财经的例子 |
+
+财经定制本身（不算引擎改动）：`site/site.ts`（站名文案、“A股影响”）、`site/brand/nameplates/`（财经日报报头字）、`site/changelog.json`、
+`industry/taxonomy.ts`（7 个分类、标签、公司）、`industry/topics.json`（公司 / 题材 / 政策与数据 三组主题）、`industry/sources.json`、
+`industry/prompts/`（预筛、注意力评分、内容理解、写作规则）。`industry/selection.ts` 的门槛暂用上游默认值，等标注样本后再校准。
 
 ## 名称与许可
 
