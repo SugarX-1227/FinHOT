@@ -114,6 +114,18 @@ GitHub 的定时任务实测经常延迟 3~7 小时（原来 07:30 的任务 10~
 网站包含：首页（最新一期 + 近期列表）、往期日报（按月日历）、周报、RSS 订阅（`feed.xml`），手机和深色模式均可阅读，
 涨跌按 A 股习惯红涨绿跌。未开启 Pages 时 `site` 工作流只给出提示，不会报错。
 
+## 网站版（实时精选，内测中）
+
+在上面的日报之外，仓库里还有一套实时网站：`web/` 是引入的 [AIHOT](https://github.com/KKKKhazix/AIHOT) 开源引擎（MIT），
+改成了财经版（分类、题材、公司、信源、评分标准、“A股影响”一栏）；FinHOT 的推送进程 `python -m finhot push`
+每 90 秒抓一轮快讯，把够门槛的事件带全文推给引擎，由模型精选、归组成事件、算热度，出日报周报，并提供 RSS / API / MCP。
+
+- 部署到自己的服务器：[docs/SERVER_SETUP.md](docs/SERVER_SETUP.md)（`deploy/finhot.sh` 一套命令）
+- 引擎的同步与本地改动：[docs/ENGINE.md](docs/ENGINE.md)
+- 产品规划与进度：[docs/PRODUCT_PLAN.md](docs/PRODUCT_PLAN.md)
+- 精选质量校准：`python -m finhot gold` 抽 200 条样本、生成标注页 `data/gold/label.html`，标完导出 `gold.jsonl`，
+  用 `web/scripts/eval-selection.ts` 校准门槛（见 `web/docs/selection.md`）
+
 ## 处理流程
 
 ```
@@ -150,7 +162,12 @@ finhot/
   pipeline.py   串起日报完整流程
   weekly.py     周报
   site.py       静态网站
+  push.py       常驻推送进程：快讯 → 网站引擎
+  gold.py       金标样本抽样与标注页
 sources/sources.yaml   信源与行情品种配置
+web/                   网站引擎（AIHOT，git subtree），财经定制在 web/industry/ 和 web/site/
+deploy/                服务器部署脚本（装机、生成配置、日常命令）
+docker-compose.yml     网站引擎 + 推送进程一起启动
 prompts/               LLM 提示词
 reports/               生成的日报（weekly/ 为周报）
 data/                  结构化数据（data/raw/ 不入库）
@@ -173,6 +190,7 @@ docs/DESIGN.md         设计文档
 - [x] 接入涨停池/龙虎榜/板块资金/沪深港通，做"新闻 × 资金"交叉验证
 - [x] 经济数据日历、重要事件、新股申购/上市、限售解禁等"今日关注"
 - [x] 做成网站（GitHub Pages + RSS）
+- [x] 实时网站版：引入 AIHOT 引擎做精选、事件、热度；推送进程；一键部署（内测中）
 - [ ] 回测：高分新闻/共振题材 → 次日、5 日板块表现，用结果反过来校准打分与题材词典
 - [ ] 题材词典自动扩充（用 LLM 从板块成分与新闻中归纳新题材）
 

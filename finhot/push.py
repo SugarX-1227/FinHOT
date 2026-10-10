@@ -241,10 +241,11 @@ def run_once(cfg: PushConfig, state: PushState, pusher: Pusher | None, sources: 
     state.prune(at)
     chosen = select(state, cfg)
     stats = {"fetched": len(fetched), "new": added, "buffer": len(state.buffer), "chosen": len(chosen)}
-    if dry_run:
+    if dry_run:  # 只看不推，也不改状态文件（常驻进程可能正在用它）
         for it, score in chosen:
             log.info("[%.1f] %-12s %s", score, it.source, it.title[:60])
-    elif chosen and pusher:
+        return stats
+    if chosen and pusher:
         stats.update(pusher.push(chosen, state))
     state.save()
     return stats
