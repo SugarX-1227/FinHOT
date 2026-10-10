@@ -138,15 +138,40 @@ def capital_review(metas: list[dict]) -> list[dict]:
     return rows[:10]
 
 
+def indices_from_metas(wd: WeekData) -> list[dict]:
+    """用每期日报 meta 里存的 A 股指数日涨跌幅复利出周涨跌幅（周 K 接口不可用时的兜底）。"""
+    by_day: dict[str, dict] = {}
+    for m in wd.metas:
+        a = m.get("ashare") or {}
+        td = a.get("trade_date") or ""
+        if td and wd.start.isoformat() <= td <= wd.end.isoformat():
+            by_day[td] = {r["name"]: r for r in a.get("indices") or []}
+    if not by_day:
+        return []
+    names = [n for _, n in WEEK_INDICES if any(n in d for d in by_day.values())]
+    out = []
+    for n in names:
+        acc, close = 1.0, None
+        for td in sorted(by_day):
+            r = by_day[td].get(n)
+            if r and r.get("pct") is not None:
+                acc *= 1 + float(r["pct"]) / 100
+                close = r.get("price")
+        if close is not None:
+            out.append({"name": n, "close": float(close), "pct": round((acc - 1) * 100, 2)})
+    return out
+
+
 def fetch_week_indices(wd: WeekData, session: Session | None = None) -> list[dict]:
+    from .ashare import PUSH2HIS_HOSTS, push2_json
     session = session or Session()
     out = []
     for secid, name in WEEK_INDICES:
         try:
-            data = session.get_json("https://push2his.eastmoney.com/api/qt/stock/kline/get", params={
+            data = push2_json(session, "/api/qt/stock/kline/get", {
                 "secid": secid, "fields1": "f1,f2,f3", "fields2": "f51,f52,f53,f54,f55,f56,f57,f59",
                 "klt": "102", "fqt": "1", "end": (wd.end + timedelta(days=1)).strftime("%Y%m%d"), "lmt": "2",
-                "ut": "fa5fd1943c7b386f172d6893dbfba10b"})
+                "ut": "fa5fd1943c7b386f172d6893dbfba10b"}, hosts=PUSH2HIS_HOSTS)
             for k in reversed(((data.get("data") or {}).get("klines")) or []):
                 f = k.split(",")
                 if wd.start.isoformat() <= f[0] <= wd.end.isoformat():
@@ -154,6 +179,10 @@ def fetch_week_indices(wd: WeekData, session: Session | None = None) -> list[dic
                     break
         except Exception as e:  # noqa: BLE001
             log.warning("周 K 获取失败 %s: %s", name, e)
+    if not out:
+        out = indices_from_metas(wd)
+        if out:
+            log.info("周 K 接口不可用，改用日报数据复利计算 A 股指数周涨跌幅")
     return out
 
 

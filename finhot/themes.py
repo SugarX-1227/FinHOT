@@ -75,6 +75,11 @@ def board_themes(board_name: str) -> list[str]:
     return [t for t in THEMES if t == name or _pattern(t).search(name)]
 
 
+# 海外新闻只计入全球联动的题材（美国银行存款不该算进 A 股"银行"的热度）
+GLOBAL_THEMES = {"人工智能", "算力", "半导体", "消费电子", "通信", "机器人", "汽车", "锂电储能", "光伏", "油气",
+                 "有色金属", "黄金", "稀土", "军工", "商业航天", "医药", "航运物流", "前沿科技", "贸易摩擦"}
+
+
 def item_themes(it) -> list[str]:
     """新闻条目的题材：LLM 给出的板块 + 标题/信源标签命中，去重。
 
@@ -85,7 +90,10 @@ def item_themes(it) -> list[str]:
         found += board_themes(s)
     title = (it.llm or {}).get("title") or it.title
     found += themes_in(" ".join([title, *it.tags]))
-    return list(dict.fromkeys(found))
+    found = list(dict.fromkeys(found))
+    if getattr(it, "category", "") == "海外" or getattr(it, "lang", "zh") == "en":
+        found = [t for t in found if t in GLOBAL_THEMES]
+    return found
 
 
 _GENERIC = set(

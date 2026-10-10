@@ -90,3 +90,13 @@ def test_editions_and_window(tmp_path):
     assert since == datetime(2026, 10, 9, 16, tzinfo=TZ)              # 接着上一份
     assert window_since(t, 12, data) == t - timedelta(hours=12)
     assert EDITIONS["close"].suffix == "-close"
+
+
+def test_overseas_news_only_counts_global_themes():
+    from finhot.themes import item_themes
+    us_bank = item("美国银行存款升至19.69万亿美元")
+    us_bank.category = "海外"
+    assert item_themes(us_bank) == []
+    nvda = item("英伟达发布新一代GPU")
+    nvda.category = "海外"
+    assert item_themes(nvda) == ["算力"]

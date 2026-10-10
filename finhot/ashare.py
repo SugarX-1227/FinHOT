@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import logging
 import re
+import time
 from collections import Counter, defaultdict
 from dataclasses import asdict, dataclass, field
 from datetime import datetime, timedelta
@@ -19,6 +20,7 @@ log = logging.getLogger(__name__)
 
 # push2 在海外（如 GitHub Actions）偶尔连续 502，依次尝试备用域名
 PUSH2_HOSTS = ("https://push2.eastmoney.com", "https://push2delay.eastmoney.com", "https://82.push2.eastmoney.com")
+PUSH2HIS_HOSTS = ("https://push2his.eastmoney.com", "https://61.push2his.eastmoney.com", "https://33.push2his.eastmoney.com")
 PUSH2EX = "https://push2ex.eastmoney.com"
 DATACENTER = "https://datacenter-web.eastmoney.com/api/data/v1/get"
 UT_POOL = "7eea3edcaed734bea9cbfc24409ed989"
@@ -188,9 +190,9 @@ def parse_hsgt(data: dict) -> dict:
 
 
 # ------------------------------------------------------------------ 抓取
-def push2_json(session: Session, path: str, params: dict) -> dict:
+def push2_json(session: Session, path: str, params: dict, hosts: tuple[str, ...] = PUSH2_HOSTS) -> dict:
     last: Exception | None = None
-    for host in PUSH2_HOSTS:
+    for host in hosts:
         try:
             data = session.get_json(f"{host}{path}", params=params)
             if data.get("data") is not None:
@@ -207,13 +209,21 @@ def _pool(session: Session, api: str, date: str, sort: str = "fbt:asc") -> dict:
 
 
 def _boards(session: Session, fs: str, kind: str) -> list[Board]:
+    """按涨幅排序分页拉取全部板块。第 1 页之后某页失败就保留已拿到的（前几页即涨幅靠前的板块）。"""
     out: list[Board] = []
     for pn in range(1, 8):
-        data = push2_json(session, "/api/qt/clist/get", {
-            "pn": str(pn), "pz": "100", "po": "1", "np": "1", "fltt": "2", "invt": "2", "fid": "f3", "fs": fs,
-            "fields": "f12,f14,f3,f62,f104,f105,f128,f136"})
-        page = parse_boards(data, kind)
-        out.extend(page)
+        if pn > 1:
+            time.sleep(0.5)
+        try:
+            data = push2_json(session, "/api/qt/clist/get", {
+                "pn": str(pn), "pz": "100", "po": "1", "np": "1", "fltt": "2", "invt": "2", "fid": "f3", "fs": fs,
+                "fields": "f12,f14,f3,f62,f104,f105,f128,f136"})
+        except Exception as e:  # noqa: BLE001
+            if pn == 1:
+                raise
+            log.warning("%s板块第 %d 页获取失败，保留前 %d 个: %s", kind, pn, len(out), e)
+            break
+        out.extend(parse_boards(data, kind))
         total = int(((data.get("data") or {}).get("total")) or 0)
         if not (data.get("data") or {}).get("diff") or pn * 100 >= total:
             break
@@ -259,8 +269,10 @@ def fetch_snapshot(session: Session | None = None, today: datetime | None = None
         data = session.get_json(f"{PUSH2EX}/getTopicZDFenBu", params={"ut": UT_POOL, "dpt": "wz.ztzt"})
         snap.breadth.update(parse_fenbu(data))
 
-    def boards():
+    def industries():
         snap.industries = _boards(session, "m:90+t:2", "industry")
+
+    def concepts():
         snap.concepts = _boards(session, "m:90+t:3", "concept")
 
     def lhb():
@@ -278,7 +290,7 @@ def fetch_snapshot(session: Session | None = None, today: datetime | None = None
             "fields1": "f1,f2,f3,f4", "fields2": "f51,f52,f53,f54,f56,f62,f63,f65,f66"})
         snap.hsgt = parse_hsgt(data)
 
-    for name, fn in (("指数", indices), ("涨停池", zt), ("涨跌分布", fenbu), ("板块", boards),
+    for name, fn in (("指数", indices), ("涨停池", zt), ("涨跌分布", fenbu), ("行业板块", industries), ("概念板块", concepts),
                      ("龙虎榜", lhb), ("沪深港通", hsgt)):
         step(name, fn)
     return snap

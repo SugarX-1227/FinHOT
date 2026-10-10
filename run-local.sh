@@ -20,6 +20,6 @@ export LLM_MODEL="${LLM_MODEL:-glm-5.3-flash}"
 export LLM_BODY_EXTRA="${LLM_BODY_EXTRA:-{\"thinking\":{\"type\":\"low\"}}}"
 export LLM_TRUST_ENV="${LLM_TRUST_ENV:-0}"   # GLM API 直连，不走本机代理
 # 国内信源与行情接口直连；海外源（CNBC/MarketWatch/美联储）继续走系统代理
-export NO_PROXY="${NO_PROXY:-cls.cn,eastmoney.com,sina.com.cn,jin10.com,10jqka.com.cn,yicai.cn,stcn.com,wallstreetcn.com,gov.cn,bigmodel.cn}"
+export NO_PROXY="${NO_PROXY:-cls.cn,eastmoney.com,sina.com.cn,jin10.com,10jqka.com.cn,yicai.cn,yicai.com,stcn.com,wallstreetcn.com,awtmt.com,gov.cn,bigmodel.cn}"
 
 exec .venv/bin/python -m finhot run "$@"

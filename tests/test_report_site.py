@@ -84,3 +84,13 @@ def test_weekly_and_site(tmp_path):
     feed = (out / "feed.xml").read_text(encoding="utf-8")
     assert "https://example.github.io/FinHOT/daily/2026-10-09-close.html" in feed and "要点一" in feed
     assert "10-09 周五" in (out / "archive.html").read_text(encoding="utf-8")
+
+
+def test_weekly_indices_fallback_from_metas():
+    from finhot.weekly import WeekData, indices_from_metas
+    wd = WeekData(2026, 41, date(2026, 10, 5), date(2026, 10, 11))
+    wd.metas = [{"ashare": {"trade_date": "2026-10-08", "indices": [{"name": "上证指数", "price": 3800.0, "pct": 1.0}]}},
+                {"ashare": {"trade_date": "2026-10-09", "indices": [{"name": "上证指数", "price": 3762.0, "pct": -1.0}]}},
+                {"ashare": {"trade_date": "2026-09-30", "indices": [{"name": "上证指数", "price": 1.0, "pct": 50}]}}]
+    [r] = indices_from_metas(wd)
+    assert r["name"] == "上证指数" and r["close"] == 3762.0 and r["pct"] == -0.01
