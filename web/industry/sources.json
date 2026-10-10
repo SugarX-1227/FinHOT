@@ -1,0 +1,218 @@
+{
+  "$comment": "FinHOT 的信源。kind=external 的由仓库根目录的 FinHOT 采集后通过 /api/ingest/items 推送（带全文），其余由引擎自己抓取。首次启动时导入，已存在的不覆盖；之后在后台“信源”页管理。",
+  "sources": [
+    {
+      "id": "cls",
+      "name": "财联社电报",
+      "kind": "external",
+      "config": {},
+      "tier": "T2",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "FinHOT 推送",
+        "快讯"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "wallstreetcn",
+      "name": "华尔街见闻",
+      "kind": "external",
+      "config": {},
+      "tier": "T2",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "FinHOT 推送",
+        "快讯"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "jin10",
+      "name": "金十数据",
+      "kind": "external",
+      "config": {},
+      "tier": "T2",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "FinHOT 推送",
+        "快讯"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "eastmoney",
+      "name": "东方财富7x24",
+      "kind": "external",
+      "config": {},
+      "tier": "T2",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "FinHOT 推送",
+        "快讯"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "sina",
+      "name": "新浪财经7x24",
+      "kind": "external",
+      "config": {},
+      "tier": "T2",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "FinHOT 推送",
+        "快讯"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "ths",
+      "name": "同花顺快讯",
+      "kind": "external",
+      "config": {},
+      "tier": "T2",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "FinHOT 推送",
+        "快讯"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "stcn",
+      "name": "证券时报快讯",
+      "kind": "external",
+      "config": {},
+      "tier": "T2",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "FinHOT 推送",
+        "快讯"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "yicai",
+      "name": "第一财经",
+      "kind": "external",
+      "config": {},
+      "tier": "T2",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "FinHOT 推送",
+        "快讯"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "govcn",
+      "name": "中国政府网·最新政策",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "FinHOT 推送",
+        "官方"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "rss-fed",
+      "name": "美联储新闻稿",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.federalreserve.gov/feeds/press_all.xml",
+        "_aihot": {
+          "initialBackfillLimit": 5
+        }
+      },
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 60,
+      "tags": [
+        "官方",
+        "海外"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "rss-fed-speeches",
+      "name": "美联储讲话",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.federalreserve.gov/feeds/speeches.xml",
+        "_aihot": {
+          "initialBackfillLimit": 5
+        }
+      },
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 120,
+      "tags": [
+        "官方",
+        "海外"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "rss-cnbc",
+      "name": "CNBC",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+        "_aihot": {
+          "initialBackfillLimit": 5
+        }
+      },
+      "tier": "T2",
+      "participation_mode": "editorial",
+      "interval_minutes": 30,
+      "tags": [
+        "海外媒体"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "rss-marketwatch",
+      "name": "MarketWatch",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
+        "_aihot": {
+          "initialBackfillLimit": 5
+        }
+      },
+      "tier": "T2",
+      "participation_mode": "editorial",
+      "interval_minutes": 60,
+      "tags": [
+        "海外媒体"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    }
+  ]
+}

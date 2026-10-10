@@ -54,7 +54,8 @@ def _rep_key(it: NewsItem):
     return (it.important, it.tier == "official", it.weight, len(it.content))
 
 
-def dedup(items: list[NewsItem], threshold: float = THRESHOLD) -> list[NewsItem]:
+def clusters(items: list[NewsItem], threshold: float = THRESHOLD) -> list[list[NewsItem]]:
+    """只聚簇、不改动条目：返回每个簇的成员（簇按领头条目的时间先后，成员按时间先后）。"""
     # 先按 uid 精确去重（多次运行合并时会有完全相同的条目）
     uniq: dict[str, NewsItem] = {}
     for it in items:
@@ -97,24 +98,30 @@ def dedup(items: list[NewsItem], threshold: float = THRESHOLD) -> list[NewsItem]
                 if df[f] <= MAX_DF:
                     index[f].append(i)
 
-    out = []
-    for L in leaders:
-        group = [items[k] for k in members[L]]
-        rep = max(group, key=_rep_key)
-        others = [m for m in group if m is not rep]
-        # 再次去重（如周报合并多天数据）时保留各条已有的聚簇信息
-        rep.dup_count = sum(max(1, m.dup_count) for m in group)
-        prior = {s for m in group for s in m.dup_sources}
-        rep.dup_sources = sorted(({m.source_name for m in others} | prior) - {rep.source_name})
-        imp = {m.source: m.imp_weight for m in group if m.important}
-        rep.imp_votes = round(max(sum(imp.values()), max(m.imp_votes for m in group)), 2)
-        rep.important = rep.imp_votes > 0
-        rep.published = min(m.published for m in group)  # 取最早报道时间
-        rep.tags = list(dict.fromkeys(t for m in group for t in m.tags))[:6]
-        rep.stocks = list(dict.fromkeys(s for m in group for s in m.stocks))[:8]
-        if any(m.tier == "official" for m in group):
-            rep.tier = "official"
-        rep.imp_sources = sorted(set(imp) | {s for m in group for s in m.imp_sources})
-        out.append(rep)
+    return [[items[k] for k in members[L]] for L in leaders]
+
+
+def merge(group: list[NewsItem]) -> NewsItem:
+    """选出一簇的代表条目，把其余成员的信源、重要标记、标签等并到代表上（会修改代表条目）。"""
+    rep = max(group, key=_rep_key)
+    others = [m for m in group if m is not rep]
+    # 再次去重（如周报合并多天数据）时保留各条已有的聚簇信息
+    rep.dup_count = sum(max(1, m.dup_count) for m in group)
+    prior = {s for m in group for s in m.dup_sources}
+    rep.dup_sources = sorted(({m.source_name for m in others} | prior) - {rep.source_name})
+    imp = {m.source: m.imp_weight for m in group if m.important}
+    rep.imp_votes = round(max(sum(imp.values()), max(m.imp_votes for m in group)), 2)
+    rep.important = rep.imp_votes > 0
+    rep.published = min(m.published for m in group)  # 取最早报道时间
+    rep.tags = list(dict.fromkeys(t for m in group for t in m.tags))[:6]
+    rep.stocks = list(dict.fromkeys(s for m in group for s in m.stocks))[:8]
+    if any(m.tier == "official" for m in group):
+        rep.tier = "official"
+    rep.imp_sources = sorted(set(imp) | {s for m in group for s in m.imp_sources})
+    return rep
+
+
+def dedup(items: list[NewsItem], threshold: float = THRESHOLD) -> list[NewsItem]:
+    out = [merge(group) for group in clusters(items, threshold)]
     out.sort(key=lambda x: x.published, reverse=True)
     return out

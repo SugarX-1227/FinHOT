@@ -1,0 +1,29 @@
+# FinHOT 一键部署：网站引擎（web/ 里的 db、setup、api、worker、web）+ 快讯推送进程（pusher）。
+# 配置只有一份：web/.env（deploy/finhot.sh init 生成）。日常用 deploy/finhot.sh 操作，等价于：
+#   docker compose --env-file web/.env up -d --build
+# 部署步骤见 docs/SERVER_SETUP.md。
+name: finhot
+
+include:
+  - web/docker-compose.yml
+
+services:
+  pusher:
+    build: .
+    image: finhot-pusher
+    restart: unless-stopped
+    environment:
+      FINHOT_ENGINE_URL: http://api:3001
+      INGEST_TOKEN: ${INGEST_TOKEN:?请在 web/.env 里设置 INGEST_TOKEN}
+      FINHOT_PUSH_MIN_SCORE: ${FINHOT_PUSH_MIN_SCORE:-6}
+      FINHOT_PUSH_MAX_PER_EVENT: ${FINHOT_PUSH_MAX_PER_EVENT:-4}
+      FINHOT_PUSH_INTERVAL: ${FINHOT_PUSH_INTERVAL:-90}
+      FINHOT_PUSH_SOURCES: ${FINHOT_PUSH_SOURCES:-}
+    volumes:
+      - pusher:/app/data
+    depends_on:
+      api:
+        condition: service_started
+
+volumes:
+  pusher: {}

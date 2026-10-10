@@ -22,3 +22,7 @@ data/cache/
 
 # 网站构建输出
 _site/
+
+# 推送常驻进程的状态（只在服务器上）
+data/push-state.json
+data/push-state.tmp

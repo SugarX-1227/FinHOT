@@ -1,0 +1,554 @@
+{
+  "groups": [
+    {
+      "key": "company",
+      "name": "公司",
+      "blurb": "按公司追踪公告、经营与市场关注点"
+    },
+    {
+      "key": "field",
+      "name": "题材",
+      "blurb": "按 A 股题材追踪：人工智能、半导体、锂电、军工……"
+    },
+    {
+      "key": "genre",
+      "name": "政策与数据",
+      "blurb": "按信息类型浏览：货币政策、经济数据、业绩、并购重组……"
+    }
+  ],
+  "topics": [
+    {
+      "slug": "catl",
+      "name": "宁德时代",
+      "group": "company",
+      "entityId": "catl",
+      "definition": "宁德时代的全部动态：公告、经营与业绩、产品与订单、相关政策和市场关注点的持续追踪。"
+    },
+    {
+      "slug": "byd",
+      "name": "比亚迪",
+      "group": "company",
+      "entityId": "byd",
+      "definition": "比亚迪的全部动态：公告、经营与业绩、产品与订单、相关政策和市场关注点的持续追踪。"
+    },
+    {
+      "slug": "moutai",
+      "name": "贵州茅台",
+      "group": "company",
+      "entityId": "moutai",
+      "definition": "贵州茅台的全部动态：公告、经营与业绩、产品与订单、相关政策和市场关注点的持续追踪。"
+    },
+    {
+      "slug": "smic",
+      "name": "中芯国际",
+      "group": "company",
+      "entityId": "smic",
+      "definition": "中芯国际的全部动态：公告、经营与业绩、产品与订单、相关政策和市场关注点的持续追踪。"
+    },
+    {
+      "slug": "huawei",
+      "name": "华为",
+      "group": "company",
+      "entityId": "huawei",
+      "definition": "华为的全部动态：公告、经营与业绩、产品与订单、相关政策和市场关注点的持续追踪。"
+    },
+    {
+      "slug": "xiaomi",
+      "name": "小米",
+      "group": "company",
+      "entityId": "xiaomi",
+      "definition": "小米的全部动态：公告、经营与业绩、产品与订单、相关政策和市场关注点的持续追踪。"
+    },
+    {
+      "slug": "tencent",
+      "name": "腾讯",
+      "group": "company",
+      "entityId": "tencent",
+      "definition": "腾讯的全部动态：公告、经营与业绩、产品与订单、相关政策和市场关注点的持续追踪。"
+    },
+    {
+      "slug": "alibaba",
+      "name": "阿里巴巴",
+      "group": "company",
+      "entityId": "alibaba",
+      "definition": "阿里巴巴的全部动态：公告、经营与业绩、产品与订单、相关政策和市场关注点的持续追踪。"
+    },
+    {
+      "slug": "bytedance",
+      "name": "字节跳动",
+      "group": "company",
+      "entityId": "bytedance",
+      "definition": "字节跳动的全部动态：公告、经营与业绩、产品与订单、相关政策和市场关注点的持续追踪。"
+    },
+    {
+      "slug": "ping-an",
+      "name": "中国平安",
+      "group": "company",
+      "entityId": "ping-an",
+      "definition": "中国平安的全部动态：公告、经营与业绩、产品与订单、相关政策和市场关注点的持续追踪。"
+    },
+    {
+      "slug": "cmb",
+      "name": "招商银行",
+      "group": "company",
+      "entityId": "cmb",
+      "definition": "招商银行的全部动态：公告、经营与业绩、产品与订单、相关政策和市场关注点的持续追踪。"
+    },
+    {
+      "slug": "industrial-fii",
+      "name": "工业富联",
+      "group": "company",
+      "entityId": "industrial-fii",
+      "definition": "工业富联的全部动态：公告、经营与业绩、产品与订单、相关政策和市场关注点的持续追踪。"
+    },
+    {
+      "slug": "cambricon",
+      "name": "寒武纪",
+      "group": "company",
+      "entityId": "cambricon",
+      "definition": "寒武纪的全部动态：公告、经营与业绩、产品与订单、相关政策和市场关注点的持续追踪。"
+    },
+    {
+      "slug": "nvidia",
+      "name": "英伟达",
+      "group": "company",
+      "entityId": "nvidia",
+      "definition": "英伟达的全部动态：公告、经营与业绩、产品与订单、相关政策和市场关注点的持续追踪。"
+    },
+    {
+      "slug": "apple",
+      "name": "苹果",
+      "group": "company",
+      "entityId": "apple",
+      "definition": "苹果的全部动态：公告、经营与业绩、产品与订单、相关政策和市场关注点的持续追踪。"
+    },
+    {
+      "slug": "tesla",
+      "name": "特斯拉",
+      "group": "company",
+      "entityId": "tesla",
+      "definition": "特斯拉的全部动态：公告、经营与业绩、产品与订单、相关政策和市场关注点的持续追踪。"
+    },
+    {
+      "slug": "tsmc",
+      "name": "台积电",
+      "group": "company",
+      "entityId": "tsmc",
+      "definition": "台积电的全部动态：公告、经营与业绩、产品与订单、相关政策和市场关注点的持续追踪。"
+    },
+    {
+      "slug": "ai",
+      "name": "人工智能",
+      "group": "field",
+      "tags": [
+        "人工智能"
+      ],
+      "definition": "大模型、AI 应用与智能体：国内外 AI 公司动态、产品发布、政策支持与 A 股 AI 应用题材的持续追踪。"
+    },
+    {
+      "slug": "compute",
+      "name": "算力",
+      "group": "field",
+      "tags": [
+        "算力"
+      ],
+      "definition": "数据中心、服务器、光模块、液冷与 AI 芯片供应链：算力需求、资本开支与订单变化。"
+    },
+    {
+      "slug": "semiconductor",
+      "name": "半导体",
+      "group": "field",
+      "tags": [
+        "半导体"
+      ],
+      "definition": "芯片设计、制造、设备材料与存储：国产替代、出口管制、价格周期与龙头公司进展。"
+    },
+    {
+      "slug": "consumer-electronics",
+      "name": "消费电子",
+      "group": "field",
+      "tags": [
+        "消费电子"
+      ],
+      "definition": "手机、PC、可穿戴与 AI 终端：新品发布、出货数据与供应链变化。"
+    },
+    {
+      "slug": "telecom",
+      "name": "通信",
+      "group": "field",
+      "tags": [
+        "通信"
+      ],
+      "definition": "5G/6G、运营商、光通信与卫星互联网：建设投资、技术进展与订单。"
+    },
+    {
+      "slug": "robotics",
+      "name": "机器人",
+      "group": "field",
+      "tags": [
+        "机器人"
+      ],
+      "definition": "人形机器人、工业机器人与核心零部件：产品落地、量产节奏与产业政策。"
+    },
+    {
+      "slug": "auto",
+      "name": "汽车",
+      "group": "field",
+      "tags": [
+        "汽车"
+      ],
+      "definition": "整车、新能源汽车、智能驾驶与零部件：销量数据、价格战、政策与出海。"
+    },
+    {
+      "slug": "battery",
+      "name": "锂电储能",
+      "group": "field",
+      "tags": [
+        "锂电储能"
+      ],
+      "definition": "锂电池、储能、固态电池与锂资源：技术路线、产能、价格与订单。"
+    },
+    {
+      "slug": "solar",
+      "name": "光伏",
+      "group": "field",
+      "tags": [
+        "光伏"
+      ],
+      "definition": "硅料、硅片、电池片、组件与逆变器：价格、产能出清、反内卷政策与海外贸易。"
+    },
+    {
+      "slug": "wind",
+      "name": "风电",
+      "group": "field",
+      "tags": [
+        "风电"
+      ],
+      "definition": "陆上与海上风电：招标装机、整机价格与出口。"
+    },
+    {
+      "slug": "power",
+      "name": "电力",
+      "group": "field",
+      "tags": [
+        "电力"
+      ],
+      "definition": "电网投资、电价改革、核电水电火电与绿电：电力供需与政策变化。"
+    },
+    {
+      "slug": "oil-gas",
+      "name": "油气",
+      "group": "field",
+      "tags": [
+        "油气"
+      ],
+      "definition": "原油、天然气与炼化：OPEC+ 决策、地缘冲突、库存数据与油价走势。"
+    },
+    {
+      "slug": "coal",
+      "name": "煤炭",
+      "group": "field",
+      "tags": [
+        "煤炭"
+      ],
+      "definition": "动力煤、焦煤与焦炭：供需、价格与产能政策。"
+    },
+    {
+      "slug": "metals",
+      "name": "有色金属",
+      "group": "field",
+      "tags": [
+        "有色金属"
+      ],
+      "definition": "铜、铝、锌、镍、钨、锑等工业金属与小金属：价格、库存与供给扰动。"
+    },
+    {
+      "slug": "gold",
+      "name": "黄金",
+      "group": "field",
+      "tags": [
+        "黄金"
+      ],
+      "definition": "黄金白银与贵金属：央行购金、美元利率、避险需求与金价走势。"
+    },
+    {
+      "slug": "rare-earth",
+      "name": "稀土",
+      "group": "field",
+      "tags": [
+        "稀土"
+      ],
+      "definition": "稀土与永磁材料：出口管制、价格与下游需求。"
+    },
+    {
+      "slug": "steel",
+      "name": "钢铁",
+      "group": "field",
+      "tags": [
+        "钢铁"
+      ],
+      "definition": "钢材、铁矿石与特钢：产量调控、价格与需求。"
+    },
+    {
+      "slug": "chemicals",
+      "name": "化工",
+      "group": "field",
+      "tags": [
+        "化工"
+      ],
+      "definition": "基础化工、化肥农药、氟化工与有机硅：产品价格、供需与反内卷。"
+    },
+    {
+      "slug": "defense",
+      "name": "军工",
+      "group": "field",
+      "tags": [
+        "军工"
+      ],
+      "definition": "国防装备、军贸与航空航天装备：订单、列装与地缘局势。"
+    },
+    {
+      "slug": "low-altitude",
+      "name": "低空经济",
+      "group": "field",
+      "tags": [
+        "低空经济"
+      ],
+      "definition": "eVTOL、无人机与通用航空：试点政策、适航认证与商业化进展。"
+    },
+    {
+      "slug": "space",
+      "name": "商业航天",
+      "group": "field",
+      "tags": [
+        "商业航天"
+      ],
+      "definition": "卫星、火箭、北斗与卫星互联网：发射计划、星座建设与订单。"
+    },
+    {
+      "slug": "pharma",
+      "name": "医药",
+      "group": "field",
+      "tags": [
+        "医药"
+      ],
+      "definition": "创新药、医疗器械、CXO 与集采：出海授权、临床数据与医保政策。"
+    },
+    {
+      "slug": "brokers",
+      "name": "券商",
+      "group": "field",
+      "tags": [
+        "券商"
+      ],
+      "definition": "证券公司与资本市场改革：交易量、注册制、并购重组与监管政策。"
+    },
+    {
+      "slug": "banks",
+      "name": "银行",
+      "group": "field",
+      "tags": [
+        "银行"
+      ],
+      "definition": "银行业：息差、信贷投放、存款利率、资本补充与中期分红。"
+    },
+    {
+      "slug": "insurance",
+      "name": "保险",
+      "group": "field",
+      "tags": [
+        "保险"
+      ],
+      "definition": "保险业：保费、险资入市、预定利率与监管政策。"
+    },
+    {
+      "slug": "real-estate",
+      "name": "房地产",
+      "group": "field",
+      "tags": [
+        "房地产"
+      ],
+      "definition": "楼市政策、房企风险化解、销售数据与城中村改造。"
+    },
+    {
+      "slug": "infrastructure",
+      "name": "基建建材",
+      "group": "field",
+      "tags": [
+        "基建建材"
+      ],
+      "definition": "基建投资、专项债、水利铁路与建材价格。"
+    },
+    {
+      "slug": "consumption",
+      "name": "消费",
+      "group": "field",
+      "tags": [
+        "消费"
+      ],
+      "definition": "以旧换新、零售社零、白酒食品饮料与家电：消费数据与促消费政策。"
+    },
+    {
+      "slug": "tourism",
+      "name": "文旅",
+      "group": "field",
+      "tags": [
+        "文旅"
+      ],
+      "definition": "旅游出行、景区酒店与航空客运：假期数据与文旅政策。"
+    },
+    {
+      "slug": "agriculture",
+      "name": "农业",
+      "group": "field",
+      "tags": [
+        "农业"
+      ],
+      "definition": "种业、粮食、生猪养殖与农产品价格：供需与农业政策。"
+    },
+    {
+      "slug": "media-gaming",
+      "name": "传媒游戏",
+      "group": "field",
+      "tags": [
+        "传媒游戏"
+      ],
+      "definition": "游戏版号、影视票房、短剧与出版：内容监管、新品上线与 AI 应用。"
+    },
+    {
+      "slug": "shipping",
+      "name": "航运物流",
+      "group": "field",
+      "tags": [
+        "航运物流"
+      ],
+      "definition": "集运、油运、港口与快递：运价指数、航线扰动与贸易流。"
+    },
+    {
+      "slug": "digital-economy",
+      "name": "数字经济",
+      "group": "field",
+      "tags": [
+        "数字经济"
+      ],
+      "definition": "数据要素、信创、软件与网络安全：政策与订单。"
+    },
+    {
+      "slug": "frontier-tech",
+      "name": "前沿科技",
+      "group": "field",
+      "tags": [
+        "前沿科技"
+      ],
+      "definition": "量子计算、可控核聚变、脑机接口等前沿技术的重要进展。"
+    },
+    {
+      "slug": "trade",
+      "name": "贸易摩擦",
+      "group": "field",
+      "tags": [
+        "贸易摩擦"
+      ],
+      "definition": "关税、出口管制、实体清单与反倾销：中外贸易政策变化及对产业链的影响。"
+    },
+    {
+      "slug": "monetary-policy",
+      "name": "货币政策",
+      "group": "genre",
+      "tags": [
+        "货币政策"
+      ],
+      "definition": "降准降息、公开市场操作与结构性工具：人民银行的货币政策动作与表态。"
+    },
+    {
+      "slug": "fiscal-policy",
+      "name": "财政政策",
+      "group": "genre",
+      "tags": [
+        "财政政策"
+      ],
+      "definition": "国债与专项债、财政收支、减税降费：积极财政政策的力度与节奏。"
+    },
+    {
+      "slug": "industrial-policy",
+      "name": "产业政策",
+      "group": "genre",
+      "tags": [
+        "产业政策"
+      ],
+      "definition": "国务院与部委的产业政策文件、规划与补贴：政策出台与落地。"
+    },
+    {
+      "slug": "market-regulation",
+      "name": "资本市场监管",
+      "group": "genre",
+      "tags": [
+        "资本市场监管"
+      ],
+      "definition": "证监会与交易所的规则、监管动作与处罚：资本市场制度变化。"
+    },
+    {
+      "slug": "macro-data",
+      "name": "经济数据",
+      "group": "genre",
+      "tags": [
+        "经济数据"
+      ],
+      "definition": "GDP、CPI、PPI、PMI、社融等国内宏观数据的发布与解读。"
+    },
+    {
+      "slug": "global-macro",
+      "name": "海外宏观",
+      "group": "genre",
+      "tags": [
+        "海外宏观"
+      ],
+      "definition": "美联储等海外央行、海外经济数据与海外市场的重要变化。"
+    },
+    {
+      "slug": "geopolitics",
+      "name": "地缘政治",
+      "group": "genre",
+      "tags": [
+        "地缘政治"
+      ],
+      "definition": "国际冲突、制裁与外交事件，以及对能源、航运和风险偏好的影响。"
+    },
+    {
+      "slug": "earnings",
+      "name": "业绩",
+      "group": "genre",
+      "tags": [
+        "业绩"
+      ],
+      "definition": "上市公司业绩预告、快报与财报：超预期与不及预期的公司。"
+    },
+    {
+      "slug": "mna",
+      "name": "并购重组",
+      "group": "genre",
+      "tags": [
+        "并购重组"
+      ],
+      "definition": "上市公司并购、重组与资产注入：交易进展与监管审核。"
+    },
+    {
+      "slug": "buyback",
+      "name": "增减持回购",
+      "group": "genre",
+      "tags": [
+        "增减持回购"
+      ],
+      "definition": "股东增减持、公司回购与举牌：资金动向与市值管理。"
+    },
+    {
+      "slug": "research",
+      "name": "机构观点",
+      "group": "genre",
+      "tags": [
+        "机构观点"
+      ],
+      "definition": "券商研报、外资投行与经济学家的观点、预测与策略。"
+    }
+  ]
+}

@@ -1,0 +1,378 @@
+<title>FinHOT 金标标注</title>
+<style>
+/* Layout: a triage desk. The flash being judged sits large on the left; a 200-cell progress board and the criteria sit on the right; on phones they stack and the three decision buttons dock to the bottom. */
+:root {
+  --bg: #eef1f5;
+  --panel: #ffffff;
+  --ink: #18202c;
+  --muted: #5b6575;
+  --line: #d9dee6;
+  --accent: #2c4a8a;
+  --sel: #c4302b;
+  --rej: #4a5566;
+  --either: #b4761a;
+  --empty: #e3e7ee;
+  --font-ui: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", system-ui, sans-serif;
+  --font-read: "Noto Serif SC", "Songti SC", "STSong", "SimSun", serif;
+  --font-num: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0e1218; --panel: #161c25; --ink: #e5e9f0; --muted: #98a2b3; --line: #29313d;
+    --accent: #8ea8ea; --sel: #ef6a61; --rej: #a4adbb; --either: #e2ad4f; --empty: #232a35; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0e1218; --panel: #161c25; --ink: #e5e9f0; --muted: #98a2b3; --line: #29313d;
+  --accent: #8ea8ea; --sel: #ef6a61; --rej: #a4adbb; --either: #e2ad4f; --empty: #232a35; color-scheme: dark;
+}
+body { background: var(--bg); color: var(--ink); font-family: var(--font-ui); font-size: 15px; line-height: 1.6; }
+.wrap { max-width: 1120px; margin: 0 auto; padding-inline: 16px; padding-block: 20px 120px; display: grid; gap: 20px; }
+header.top { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 20px; }
+h1 { font-size: 20px; margin: 0; letter-spacing: 0.02em; text-wrap: balance; }
+.store { font-size: 12px; color: var(--muted); }
+.store b { color: var(--ink); font-weight: 600; }
+.desk { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 20px; align-items: start; }
+@media (max-width: 860px) { .desk { grid-template-columns: minmax(0, 1fr); } }
+
+.case { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 22px 24px; display: grid; gap: 14px; min-width: 0; }
+.meta { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 13px; color: var(--muted); align-items: center; }
+.meta .num { font-family: var(--font-num); font-variant-numeric: tabular-nums; }
+.chip { font-size: 12px; padding: 1px 8px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); }
+.case h2 { font-family: var(--font-read); font-size: 22px; line-height: 1.45; margin: 0; text-wrap: balance; }
+.case .body { font-family: var(--font-read); font-size: 16px; line-height: 1.85; margin: 0; white-space: pre-wrap; overflow-wrap: anywhere; max-width: 65ch; }
+.verdict { font-size: 13px; color: var(--muted); }
+.verdict b[data-d="select"] { color: var(--sel); }
+.verdict b[data-d="reject"] { color: var(--rej); }
+.verdict b[data-d="either"] { color: var(--either); }
+label.note { display: grid; gap: 4px; font-size: 13px; color: var(--muted); }
+textarea { font: inherit; font-size: 14px; color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; min-height: 52px; resize: vertical; }
+
+.actions { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)) auto auto; gap: 8px; }
+button { font: inherit; cursor: pointer; border-radius: 8px; border: 1px solid var(--line); background: var(--panel); color: var(--ink); padding: 10px 12px; }
+button:focus-visible, textarea:focus-visible, .cell:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+button:disabled { opacity: 0.45; cursor: not-allowed; }
+.decide { font-weight: 600; display: flex; justify-content: center; align-items: baseline; gap: 6px; }
+.decide kbd { font-family: var(--font-num); font-size: 11px; color: var(--muted); font-weight: 400; }
+.decide[data-d="select"] { color: var(--sel); border-color: color-mix(in srgb, var(--sel) 45%, var(--line)); }
+.decide[data-d="reject"] { color: var(--rej); }
+.decide[data-d="either"] { color: var(--either); border-color: color-mix(in srgb, var(--either) 45%, var(--line)); }
+.decide[aria-pressed="true"][data-d="select"] { background: var(--sel); color: var(--panel); border-color: var(--sel); }
+.decide[aria-pressed="true"][data-d="reject"] { background: var(--rej); color: var(--panel); border-color: var(--rej); }
+.decide[aria-pressed="true"][data-d="either"] { background: var(--either); color: var(--panel); border-color: var(--either); }
+.decide[aria-pressed="true"] kbd { color: inherit; }
+@media (max-width: 860px) {
+  .actions { position: fixed; left: 0; right: 0; bottom: 0; z-index: 5; background: var(--panel); border-top: 1px solid var(--line);
+    padding: 10px 16px calc(10px + env(safe-area-inset-bottom, 0px)); grid-template-columns: repeat(3, minmax(0, 1fr)) auto auto; }
+  .decide kbd { display: none; }
+}
+
+aside { display: grid; gap: 16px; min-width: 0; }
+.panel { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 16px; display: grid; gap: 12px; }
+.panel h3 { margin: 0; font-size: 13px; letter-spacing: 0.06em; color: var(--muted); font-weight: 600; }
+.tally { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; }
+.tally div { display: grid; gap: 0; }
+.tally .n { font-family: var(--font-num); font-variant-numeric: tabular-nums; font-size: 20px; font-weight: 600; }
+.tally .l { font-size: 12px; color: var(--muted); }
+.tally .s .n { color: var(--sel); } .tally .r .n { color: var(--rej); } .tally .e .n { color: var(--either); }
+.board { display: grid; grid-template-columns: repeat(20, minmax(0, 1fr)); gap: 3px; }
+.cell { aspect-ratio: 1; max-width: 100%; border-radius: 2px; background: var(--empty); border: 0; padding: 0; cursor: pointer; }
+.cell[data-d="select"] { background: var(--sel); } .cell[data-d="reject"] { background: var(--rej); } .cell[data-d="either"] { background: var(--either); }
+.cell[aria-current="true"] { outline: 2px solid var(--accent); outline-offset: 1px; }
+.legend { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: 12px; color: var(--muted); }
+.legend i { display: inline-block; width: 9px; height: 9px; border-radius: 2px; margin-right: 4px; vertical-align: -1px; }
+.rules { margin: 0; padding-left: 18px; display: grid; gap: 6px; font-size: 13px; color: var(--ink); }
+.rules b { font-weight: 600; }
+.keys { font-size: 12px; color: var(--muted); }
+.keys kbd { font-family: var(--font-num); border: 1px solid var(--line); border-radius: 4px; padding: 0 4px; }
+.export { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.msg { font-size: 12px; color: var(--muted); min-height: 1.2em; }
+.msg[data-kind="error"] { color: var(--sel); }
+@media (prefers-reduced-motion: no-preference) { .cell, .decide { transition: background-color .12s ease, color .12s ease; } }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <h1>FinHOT 金标标注</h1>
+    <div class="store" id="store">结果保存在：<b>这台设备的浏览器</b></div>
+  </header>
+
+  <div class="desk">
+    <main class="case" id="case" aria-live="polite">
+      <div class="meta">
+        <span class="num" id="pos">第 1 / 200 条</span>
+        <span id="source">—</span>
+        <span class="num" id="time">—</span>
+        <span class="chip" id="stratum">—</span>
+      </div>
+      <h2 id="title">正在载入样本…</h2>
+      <p class="body" id="body"></p>
+      <div class="verdict" id="verdict">还没标</div>
+      <label class="note" for="note">备注（可选：为什么这样判，方便以后改评分标准）
+        <textarea id="note" maxlength="300" placeholder="比如：只是盘中播报，没有原因"></textarea>
+      </label>
+      <div class="actions">
+        <button class="decide" id="b-select" data-d="select" aria-pressed="false">该选 <kbd>1</kbd></button>
+        <button class="decide" id="b-reject" data-d="reject" aria-pressed="false">不该选 <kbd>2</kbd></button>
+        <button class="decide" id="b-either" data-d="either" aria-pressed="false">两可 <kbd>3</kbd></button>
+        <button id="b-prev" aria-label="上一条">←</button>
+        <button id="b-next" aria-label="下一条">→</button>
+      </div>
+    </main>
+
+    <aside>
+      <section class="panel" aria-labelledby="h-progress">
+        <h3 id="h-progress">进度</h3>
+        <div class="tally">
+          <div><span class="n" id="t-done">0</span><span class="l">已标</span></div>
+          <div class="s"><span class="n" id="t-select">0</span><span class="l">该选</span></div>
+          <div class="r"><span class="n" id="t-reject">0</span><span class="l">不该选</span></div>
+          <div class="e"><span class="n" id="t-either">0</span><span class="l">两可</span></div>
+        </div>
+        <div class="board" id="board" role="list" aria-label="全部样本，点格子跳到那一条"></div>
+        <div class="legend"><span><i style="background:var(--empty)"></i>未标</span><span><i style="background:var(--sel)"></i>该选</span><span><i style="background:var(--rej)"></i>不该选</span><span><i style="background:var(--either)"></i>两可</span></div>
+        <button id="b-next-open">跳到下一条未标</button>
+      </section>
+
+      <section class="panel" aria-labelledby="h-rules">
+        <h3 id="h-rules">怎么判</h3>
+        <ol class="rules">
+          <li>想象你在盘前或盘中刷 FinHOT 的<b>精选</b>：这条值得占一个位置吗？值得就是<b>该选</b>。</li>
+          <li>只按这一条本身判断。同一件事别的信源也报了，照样按它本身标，去重由系统做。</li>
+          <li>没有原因的涨跌播报、例行操作、汇总帖、营销、空洞的互动问答，一般<b>不该选</b>。</li>
+          <li>拿不准、怎么判都说得通的标<b>两可</b>，它不计入准确率。</li>
+          <li>不用查资料，按读到的内容和你的交易经验判断就好。</li>
+        </ol>
+        <div class="keys">键盘：<kbd>1</kbd> 该选 · <kbd>2</kbd> 不该选 · <kbd>3</kbd> 两可 · <kbd>←</kbd><kbd>→</kbd> 翻条 · <kbd>N</kbd> 下一条未标</div>
+      </section>
+
+      <section class="panel" aria-labelledby="h-export">
+        <h3 id="h-export">导出</h3>
+        <div class="export">
+          <button id="b-export">导出 gold.jsonl</button>
+          <button id="b-copy">复制到剪贴板</button>
+        </div>
+        <div class="msg" id="msg">标完后导出，交给 web/scripts/eval-selection.ts 校准精选门槛。</div>
+      </section>
+    </aside>
+  </div>
+</div>
+
+<script>
+const CASES = /*__CASES__*/[];
+const LOCAL_KEY = "finhot-gold-labels-v1";
+const NAMES = { select: "该选", reject: "不该选", either: "两可" };
+const $ = (id) => document.getElementById(id);
+
+const state = { labels: {}, idx: 0, db: null, canWrite: true, cells: [] };
+const writing = {};
+
+function readLocal() {
+  try { return JSON.parse(localStorage.getItem(LOCAL_KEY) || "{}") || {}; } catch { return {}; }
+}
+function writeLocal() {
+  try { localStorage.setItem(LOCAL_KEY, JSON.stringify(state.labels)); } catch { /* 私密窗口等情况下存不了，结果仍在内存里 */ }
+}
+function say(text, kind) { const m = $("msg"); m.textContent = text; m.dataset.kind = kind || ""; }
+
+function fmtTime(iso) {
+  const d = new Date(iso);
+  if (isNaN(d)) return "";
+  const p = (n) => String(n).padStart(2, "0");
+  const bj = new Date(d.getTime() + (d.getTimezoneOffset() + 480) * 60000);
+  return `${bj.getFullYear()}-${p(bj.getMonth() + 1)}-${p(bj.getDate())} ${p(bj.getHours())}:${p(bj.getMinutes())}`;
+}
+
+function buildBoard() {
+  const board = $("board");
+  CASES.forEach((c, i) => {
+    const b = document.createElement("button");
+    b.className = "cell"; b.type = "button"; b.setAttribute("role", "listitem");
+    b.setAttribute("aria-label", `第 ${i + 1} 条：${c.material.title}`);
+    b.addEventListener("click", () => go(i));
+    board.appendChild(b);
+    state.cells.push(b);
+  });
+}
+
+function render() {
+  const c = CASES[state.idx];
+  if (!c) { $("title").textContent = "没有样本"; return; }
+  const lab = state.labels[c.caseId] || {};
+  $("pos").textContent = `第 ${state.idx + 1} / ${CASES.length} 条`;
+  $("source").textContent = c.material.sourceName;
+  $("time").textContent = fmtTime(c.material.publishedAt);
+  $("stratum").textContent = c.samplingContext.samplingStratum;
+  $("title").textContent = c.material.title;
+  const body = c.material.bodyOriginal || c.material.bodyZh || "";
+  $("body").textContent = body === c.material.title ? "" : body;
+  const v = $("verdict");
+  if (lab.decision) { v.innerHTML = "已标：<b></b>"; v.querySelector("b").textContent = NAMES[lab.decision]; v.querySelector("b").dataset.d = lab.decision; }
+  else v.textContent = "还没标";
+  const note = $("note");
+  if (document.activeElement !== note) note.value = lab.note || "";
+  for (const d of ["select", "reject", "either"]) {
+    const b = $("b-" + d);
+    b.setAttribute("aria-pressed", String(lab.decision === d));
+    b.disabled = !state.canWrite;
+  }
+  note.disabled = !state.canWrite;
+  $("b-prev").disabled = state.idx === 0;
+  $("b-next").disabled = state.idx === CASES.length - 1;
+  renderProgress();
+}
+
+function renderProgress() {
+  const t = { select: 0, reject: 0, either: 0 };
+  CASES.forEach((c, i) => {
+    const d = state.labels[c.caseId]?.decision;
+    if (d) t[d]++;
+    const cell = state.cells[i];
+    if (d) cell.dataset.d = d; else delete cell.dataset.d;
+    cell.setAttribute("aria-current", String(i === state.idx));
+  });
+  $("t-done").textContent = t.select + t.reject + t.either;
+  $("t-select").textContent = t.select;
+  $("t-reject").textContent = t.reject;
+  $("t-either").textContent = t.either;
+}
+
+function go(i) { state.idx = Math.max(0, Math.min(CASES.length - 1, i)); render(); }
+function nextOpen() {
+  for (let k = 1; k <= CASES.length; k++) {
+    const i = (state.idx + k) % CASES.length;
+    if (!state.labels[CASES[i].caseId]?.decision) return go(i);
+  }
+  say("200 条都标完了，可以导出了。");
+}
+
+// 同一条一次只写一次；连续改动排队，最后一次为准
+function persist(id) {
+  writeLocal();
+  if (!state.db) return;
+  const run = async () => {
+    const lab = state.labels[id];
+    const ref = state.db.collection("labels").doc(id);
+    try {
+      if (lab && (lab.decision || lab.note)) await ref.set({ ...lab });
+      else await ref.delete();
+    } catch (e) {
+      if (e && e.code === "invalid_argument") { state.canWrite = false; render(); say("你对这个页面只有查看权限，标注没有保存。", "error"); }
+      else if (e && e.code === "quota_exceeded") say("页面的存储满了，这条没存上。", "error");
+      else say("这条没存上，网络恢复后再点一次。", "error");
+    }
+  };
+  writing[id] = (writing[id] || Promise.resolve()).then(run);
+}
+
+function decide(d) {
+  if (!state.canWrite) return;
+  const c = CASES[state.idx];
+  const prev = state.labels[c.caseId] || {};
+  const note = $("note").value.trim();
+  if (prev.decision === d) {
+    state.labels[c.caseId] = { ...prev, decision: null, note, at: new Date().toISOString() };
+    persist(c.caseId); render(); return;
+  }
+  state.labels[c.caseId] = { decision: d, note, at: new Date().toISOString() };
+  persist(c.caseId);
+  say(`第 ${state.idx + 1} 条：${NAMES[d]}`);
+  nextOpen();
+}
+
+function saveNote() {
+  if (!state.canWrite) return;
+  const c = CASES[state.idx];
+  const prev = state.labels[c.caseId] || {};
+  const note = $("note").value.trim();
+  if ((prev.note || "") === note) return;
+  state.labels[c.caseId] = { decision: prev.decision || null, note, at: new Date().toISOString() };
+  persist(c.caseId);
+}
+
+function goldLines() {
+  return CASES.filter((c) => state.labels[c.caseId]?.decision)
+    .map((c) => JSON.stringify({ ...c, gold: { decision: state.labels[c.caseId].decision } }))
+    .join("\n") + "\n";
+}
+
+async function exportFile() {
+  const n = CASES.filter((c) => state.labels[c.caseId]?.decision).length;
+  if (!n) { say("还没有标注，先标几条再导出。", "error"); return; }
+  const text = goldLines();
+  const dl = window.claude && window.claude.use ? await window.claude.use("downloads") : null;
+  if (dl) {
+    try { await dl.save({ filename: "finhot-gold.jsonl.txt", data: text }); say(`已导出 ${n} 条。文件名改成 gold.jsonl 后使用。`); }
+    catch (e) { say(e && e.code === "declined" ? "已取消导出。" : "这里导出不了，用“复制到剪贴板”。", e && e.code === "declined" ? "" : "error"); }
+    return;
+  }
+  try {
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob([text], { type: "application/jsonl" }));
+    a.download = "gold.jsonl"; document.body.appendChild(a); a.click(); a.remove();
+    say(`已导出 ${n} 条。`);
+  } catch { say("这里导出不了，用“复制到剪贴板”。", "error"); }
+}
+
+async function copyLines() {
+  const n = CASES.filter((c) => state.labels[c.caseId]?.decision).length;
+  if (!n) { say("还没有标注，先标几条再复制。", "error"); return; }
+  try { await navigator.clipboard.writeText(goldLines()); say(`已复制 ${n} 条，粘贴到 gold.jsonl 里。`); }
+  catch { say("浏览器不让复制，请用“导出”。", "error"); }
+}
+
+async function connect() {
+  if (!(window.claude && window.claude.use)) return;
+  const db = await window.claude.use("db");
+  if (!db) return;
+  state.db = db;
+  $("store").innerHTML = "结果保存在：<b>这个页面的数据库</b>（换设备打开也在）";
+  try {
+    const u = await window.claude.use("user");
+    if (u && (await u.can("data.write")) === false) { state.canWrite = false; say("你对这个页面只有查看权限。", "error"); }
+  } catch { /* 拿不到就先允许，写入被拒时再改成只读 */ }
+  let first = true;
+  db.collection("labels").limit(1000).onSnapshot((snap) => {
+    const remote = {};
+    for (const d of snap.docs) remote[d.id] = d.data();
+    if (first) {
+      first = false;
+      // 联上之前在本机标过的，补存到数据库
+      for (const [id, lab] of Object.entries(state.labels)) {
+        if (!remote[id] && lab && (lab.decision || lab.note) && state.canWrite) persist(id);
+      }
+    }
+    for (const [id, lab] of Object.entries(remote)) state.labels[id] = { ...lab };
+    writeLocal();
+    render();
+  }, () => { say("和数据库的连接断了，刷新页面重连。新的标注先存在这台设备上。", "error"); });
+}
+
+$("b-select").addEventListener("click", () => decide("select"));
+$("b-reject").addEventListener("click", () => decide("reject"));
+$("b-either").addEventListener("click", () => decide("either"));
+$("b-prev").addEventListener("click", () => go(state.idx - 1));
+$("b-next").addEventListener("click", () => go(state.idx + 1));
+$("b-next-open").addEventListener("click", nextOpen);
+$("b-export").addEventListener("click", exportFile);
+$("b-copy").addEventListener("click", copyLines);
+$("note").addEventListener("blur", saveNote);
+document.addEventListener("keydown", (e) => {
+  if (e.target.tagName === "TEXTAREA" || e.metaKey || e.ctrlKey || e.altKey) return;
+  if (e.key === "1") decide("select");
+  else if (e.key === "2") decide("reject");
+  else if (e.key === "3") decide("either");
+  else if (e.key === "ArrowRight" || e.key === "j") go(state.idx + 1);
+  else if (e.key === "ArrowLeft" || e.key === "k") go(state.idx - 1);
+  else if (e.key === "n" || e.key === "N") nextOpen();
+  else return;
+  e.preventDefault();
+});
+
+state.labels = readLocal();
+buildBoard();
+const firstOpen = CASES.findIndex((c) => !state.labels[c.caseId]?.decision);
+state.idx = firstOpen < 0 ? 0 : firstOpen;
+render();
+connect();
+</script>
