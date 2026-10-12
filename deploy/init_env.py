@@ -37,6 +37,12 @@ FINHOT_PUSH_MAX_PER_EVENT=4
 FINHOT_PUSH_INTERVAL=90
 # 只推这些信源（逗号分隔），留空推 sources/sources.yaml 里所有快讯源：
 FINHOT_PUSH_SOURCES=
+
+# ===== 精选门槛（两次评分的平均分达到多少进精选） =====
+# 不写就用默认值 T1 60、T1_5 62、T2 64；按“每天想要几件精选”调：deploy/finhot.sh selection stats --target 40
+# SELECTION_T1=60
+# SELECTION_T1_5=62
+# SELECTION_T2=64
 """
 
 
