@@ -117,3 +117,23 @@ def test_run_writes_the_report_and_the_outcomes(tmp_path, monkeypatch):
     assert "| 利好新闻 | 1 | +10.00% · 100%<br><sub>1 次</sub>" in md
     rows = [json.loads(line) for line in (tmp_path / "out" / "data" / "backtest" / "outcomes.jsonl").read_text().splitlines()]
     assert rows[0]["signal"]["theme"] == "半导体" and rows[0]["reaction"]["3"] == 21.0
+
+
+class DownSource(FakeSource):
+    def bars(self, secid, start):
+        raise ConnectionError("Remote end closed connection without response")
+
+
+def test_no_benchmark_prices_means_no_result_and_the_previous_report_stays(tmp_path, monkeypatch):
+    data = tmp_path / "data"
+    write(data / "2026-10-09" / "items.jsonl", [news("芯片利好", at(9, 8))])
+    monkeypatch.setattr(bt, "now", lambda: at(15, 20))
+    old = tmp_path / "out" / "backtest" / "latest.md"
+    old.parent.mkdir(parents=True)
+    old.write_text("上一次的结果", encoding="utf-8")
+    try:
+        bt.run_backtest(days=30, out_dir=tmp_path / "out", data_dir=data, source=DownSource())
+        raise AssertionError("expected PricesUnavailable")
+    except bt.PricesUnavailable as e:
+        assert "中证1000" in str(e)
+    assert old.read_text(encoding="utf-8") == "上一次的结果"

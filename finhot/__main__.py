@@ -193,9 +193,14 @@ def cmd_push_market(args) -> int:
 
 
 def cmd_backtest(args) -> int:
-    from .backtest import run_backtest
+    from .backtest import PricesUnavailable, run_backtest
 
-    print(run_backtest(days=args.days, out_dir=Path(args.out) if args.out else None))
+    try:
+        print(run_backtest(days=args.days, out_dir=Path(args.out) if args.out else None))
+    except PricesUnavailable as e:
+        # 行情接口暂时连不上（海外机器上常见）：上一次的结果原样保留。退出码 3 让调用方能和真正的错误区分开
+        print(f"::warning::回测跳过：{e}", file=sys.stderr)
+        return 3
     return 0
 
 

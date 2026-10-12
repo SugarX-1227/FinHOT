@@ -18,6 +18,7 @@ from __future__ import annotations
 import json
 import logging
 import statistics
+import time as clock
 from collections import defaultdict
 from dataclasses import asdict, dataclass, field
 from datetime import date, datetime, time, timedelta
@@ -169,8 +170,14 @@ def theme_boards(themes: set[str], boards: list[dict]) -> dict[str, list[dict]]:
     return out
 
 
+class PricesUnavailable(RuntimeError):
+    """基准指数的日 K 取不到：没法算超额，这次不出结果（保留上一次的）。"""
+
+
 class PriceSource:
-    """东方财富日 K（push2his，带备用域名）与板块列表。"""
+    """东方财富日 K（push2his，带备用域名，海外机器上偶尔断连，整组重试几次）与板块列表。"""
+
+    ATTEMPTS = 3
 
     def __init__(self, session: Session | None = None):
         from .ashare import PUSH2_HOSTS, PUSH2HIS_HOSTS, push2_json
@@ -191,11 +198,16 @@ class PriceSource:
         return out
 
     def bars(self, secid: str, start: date) -> list[Bar]:
-        data = self._json(self.session, "/api/qt/stock/kline/get", {
-            "secid": secid, "fields1": "f1,f2,f3", "fields2": "f51,f52,f53", "klt": "101", "fqt": "0",
-            "beg": start.strftime("%Y%m%d"), "end": "20500101", "ut": "fa5fd1943c7b386f172d6893dbfba10b"},
-            hosts=self._his)
-        return parse_klines(data)
+        params = {"secid": secid, "fields1": "f1,f2,f3", "fields2": "f51,f52,f53", "klt": "101", "fqt": "0",
+                  "beg": start.strftime("%Y%m%d"), "end": "20500101", "ut": "fa5fd1943c7b386f172d6893dbfba10b"}
+        for attempt in range(self.ATTEMPTS):
+            try:
+                return parse_klines(self._json(self.session, "/api/qt/stock/kline/get", params, hosts=self._his))
+            except Exception:  # noqa: BLE001
+                if attempt == self.ATTEMPTS - 1:
+                    raise
+                clock.sleep(2 * (attempt + 1))
+        return []
 
 
 # ------------------------------------------------------------------ 计算
@@ -331,7 +343,12 @@ def compute(signals: list[Signal], source: PriceSource, generated: datetime) -> 
         # 盘中跑的时候，今天那根 K 线还没收盘，不能当收盘价用
         cutoff = generated.date() if generated.time() >= time(15, 5) else generated.date() - timedelta(days=1)
         closed = lambda bars: [b for b in bars if b.day <= cutoff]  # noqa: E731
-        benchmark = closed(source.bars(BENCHMARK[0], first))
+        try:
+            benchmark = closed(source.bars(BENCHMARK[0], first))
+        except Exception as e:  # noqa: BLE001
+            raise PricesUnavailable(f"{BENCHMARK[1]}日 K 取不到：{type(e).__name__}") from e
+        if not benchmark:
+            raise PricesUnavailable(f"{BENCHMARK[1]}日 K 是空的")
         mapping = theme_boards({s.theme for s in signals}, source.boards())
         prices: dict[str, list[Bar]] = {}
         for code in sorted({b["code"] for bs in mapping.values() for b in bs}):
