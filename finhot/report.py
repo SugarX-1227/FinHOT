@@ -240,11 +240,13 @@ def _render_limitups(rows: list[LimitUp], limit: int = 40) -> list[str]:
            "可信度：高=公司自身消息，中=盘面播报或题材标签，低=只按行业推断。", "",
            "| 股票 | 连板 | 首封 | 原因 | 可信度 | 依据 |", "|---|---:|---:|---|:---:|---|"]
     for r in shown:
-        ev = next((e for e in r.evidence if e.kind in ("公司", "盘面", "同花顺", "板块")), None)
+        ev = next((e for e in r.evidence if e.kind in ("公司", "盘面", "板块")), None)
         basis = ""
         if ev:
             text = ev.text.replace("|", "/")[:36]
             basis = f"[{text}]({ev.url})" if ev.url else text
+        elif r.ths_reason:
+            basis = "同花顺涨停原因"
         first_time = f"{r.first_time[:2]}:{r.first_time[2:]}" if len(r.first_time) == 4 else ""
         out.append(f"| {r.name}（{r.code}） | {r.boards if r.boards > 1 else '首板'} | {first_time} | "
                    f"{r.reason.replace('|', '/')} | {r.confidence} | {basis} |")

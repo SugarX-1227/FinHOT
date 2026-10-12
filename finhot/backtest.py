@@ -322,12 +322,15 @@ def run_backtest(days: int = 90, out_dir: Path | None = None, data_dir: Path = D
     outcomes: list[Outcome] = []
     if signals:
         first = min(s.at for s in signals).date() - timedelta(days=10)
-        benchmark = source.bars(BENCHMARK[0], first)
+        # 盘中跑的时候，今天那根 K 线还没收盘，不能当收盘价用
+        cutoff = generated.date() if generated.time() >= time(15, 5) else generated.date() - timedelta(days=1)
+        closed = lambda bars: [b for b in bars if b.day <= cutoff]  # noqa: E731
+        benchmark = closed(source.bars(BENCHMARK[0], first))
         mapping = theme_boards({s.theme for s in signals}, source.boards())
         prices: dict[str, list[Bar]] = {}
         for code in sorted({b["code"] for bs in mapping.values() for b in bs}):
             try:
-                prices[code] = source.bars(f"90.{code}", first)
+                prices[code] = closed(source.bars(f"90.{code}", first))
             except Exception as e:  # noqa: BLE001 —— 单个板块失败不影响整体
                 errors.append(f"板块 {code} 日 K 获取失败：{type(e).__name__}")
         outcomes = evaluate(signals, prices, benchmark, mapping)

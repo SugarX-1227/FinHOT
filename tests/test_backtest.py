@@ -99,6 +99,15 @@ class FakeSource:
         return flat() if secid == bt.BENCHMARK[0] else chip_board()
 
 
+def test_a_bar_that_has_not_closed_yet_is_not_used(tmp_path, monkeypatch):
+    data = tmp_path / "data"
+    write(data / "2026-10-09" / "items.jsonl", [news("芯片利好", at(9, 8))])
+    monkeypatch.setattr(bt, "now", lambda: at(13, 10))  # 10/13 盘中：只能用到 10/12 的收盘
+    bt.run_backtest(days=30, out_dir=tmp_path / "out", data_dir=data, source=FakeSource())
+    row = json.loads((tmp_path / "out" / "data" / "backtest" / "outcomes.jsonl").read_text().splitlines()[0])
+    assert row["reaction"]["1"] == 10.0 and row["reaction"]["3"] is None
+
+
 def test_run_writes_the_report_and_the_outcomes(tmp_path, monkeypatch):
     data = tmp_path / "data"
     write(data / "2026-10-09" / "items.jsonl", [news("芯片利好", at(9, 8))])
