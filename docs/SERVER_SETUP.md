@@ -150,7 +150,9 @@ deploy/finhot.sh selection stats --target 40
 1. 在 `web/.env` 里写 `SELECTION_T2=建议值`（T1 用 `SELECTION_T1`，T1_5 用 `SELECTION_T1_5`）；
 2. `deploy/finhot.sh restart api worker`；
 3. `deploy/finhot.sh selection reselect --days 3`：把最近 3 天按新门槛重新过一遍。两次评分和标题摘要都复用已有结果，**不再调用模型**；
-4. 等几分钟（`deploy/finhot.sh logs worker` 安静下来），`deploy/finhot.sh selection redo-daily --from 2026-10-11 --to 2026-10-12` 重编这几天的日报。
+4. 等几分钟（`deploy/finhot.sh doctor` 第 1 节“等分析”降下来），`deploy/finhot.sh selection redo-daily --from 2026-10-11 --to 2026-10-12` 重编这几天的日报。
+   日报平时按“进精选的时间”取材，补选进来的文章会全部算到补选之后的那一期；重编按发布时间归期，把它们放回各自那天，
+   之后几期已经收录的不会重复。不重编的话，这几天的日报保持原样，补选的文章出现在下一期里。
 
 新门槛只影响之后的精选和你补选的这几天；更早的不变。
 
@@ -173,6 +175,10 @@ deploy/finhot.sh doctor            # 最近 3 天；--days 7 看更久
 2. 过半小时再跑一次 `deploy/finhot.sh doctor`，看第 4 节“精选”的篇数回来了没有；
 3. `deploy/finhot.sh selection redo-daily --from 2026-10-11 --to 2026-10-12` 重编受影响的那几天的日报。
    周报会在它那一周的日报有内容后自动补上。
+
+第 4 节逐期对比三个数：这期窗口里发布的精选、按进精选时间归到这期的、这期日报实际取到的。前两个差很多，
+说明这些精选是后来才进的（调门槛、补选、归组晚了）：日报按进精选的时间取材，它们会进之后的一期，
+想放回原来那天就按上面第 3 步重编。
 
 部署当天那期日报（它的时间窗在网站收到第一篇文章之前，里面不可能有内容）不生成，也不算“日报缺失”。
 

@@ -86,12 +86,12 @@ function windowPoint(at: Date): string {
  * the editors judged with nothing new in it still has its issue: no entries, and a lead that says so
  * (REPORTS.quiet).
  */
-export async function composeDaily(date: string, reason?: string): Promise<{ key: string; entries: number }> {
+export async function composeDaily(date: string, reason?: string, byArrival = false): Promise<{ key: string; entries: number }> {
   const previous = await savedReport("daily", date);
   if (previous && reason === undefined) return { key: date, entries: previous.entries };
   const end = beijingAt(date, EDITION_TIMES.daily);
   const start = new Date(end.getTime() - 86400000);
-  const edition = await dailyEdition(date, start, end);
+  const edition = await dailyEdition(date, start, end, byArrival);
   // Nothing judged in the window is a failure upstream, not a quiet day: the run fails and is caught up later.
   if (edition.entries.length === 0 && edition.stats.judgedReports === 0) throw new Error(`daily ${date}: nothing judged in its window`);
   const issue = arrangeDaily(edition.entries);

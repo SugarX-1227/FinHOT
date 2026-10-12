@@ -8,6 +8,8 @@
 //       已付费的回执，不产生新的模型调用；worker 处理完（通常几分钟）精选就更新了。
 //   node scripts/finhot-selection.ts redo-daily --from 2026-10-11 [--to 2026-10-12]
 //       按现在的精选重新编排这几天的日报（已出的那期留作历史版本）。先 reselect、等 worker 处理完再跑。
+//       平时日报按“进精选的时间”取材（补选进来的算到补选那天之后的一期）；重编按发布时间归期，
+//       让补选的文章回到它发布那天的日报里，之后几期已经收录的不重复。
 import { closeDb, sql } from "@aihot/backend/db";
 import { tierThreshold } from "@aihot/backend/editorial/analyze";
 import { queueProcessing } from "@aihot/backend/jobs/content";
@@ -105,7 +107,7 @@ async function redoDaily() {
   for (let d = new Date(`${from}T00:00:00Z`); d <= new Date(`${to}T00:00:00Z`); d = new Date(d.getTime() + 86400000)) {
     const date = d.toISOString().slice(0, 10);
     try {
-      const res = await composeDaily(date, "FinHOT 调整精选门槛后重编");
+      const res = await composeDaily(date, "FinHOT 调整精选门槛后重编（按发布时间归期）", true);
       console.log(`${date} 日报：${res.entries} 件`);
     } catch (error) {
       console.log(`${date} 日报没有重编：${error instanceof Error ? error.message : String(error)}`);

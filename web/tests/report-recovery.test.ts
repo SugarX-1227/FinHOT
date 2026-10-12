@@ -104,3 +104,23 @@ test("the deploy day's daily, whose window closed before the first article, is n
   assert.deepEqual(await composeDueReports(editionAt("daily", "2024-03-04", 13 * 3600)), { generated: [], failed: [] });
   assert.deepEqual(await composeDueReports(editionAt("daily", "2024-03-05", 3600)), { generated: ["daily:2024-03-05"], failed: [] });
 });
+
+test("a past daily composed again by arrival carries reports released after its cutoff, and no issue repeats them", async () => {
+  // Arrived in 2024-04-02's window but released (selected) only after it, as a threshold change and reselect do.
+  const late = await item("2024-04-02");
+  await sql`UPDATE publications SET visible_after = ${editionAt("daily", "2024-04-02", 3 * 3600)} WHERE article_id = ${late}`;
+  // The window's other judged reports, none of them selected.
+  await sql`UPDATE publications SET selected = false, visible_after = NULL WHERE article_id = ${await item("2024-04-02")}`;
+  const fresh = await item("2024-04-03");
+  const cited = async (key: string) => JSON.stringify((await report("daily", key)).content);
+  assert.equal((await composeDaily("2024-04-02", "regular")).entries, 0);
+  assert.equal((await composeDaily("2024-04-02", "redo", true)).entries, 1);
+  assert.ok((await cited("2024-04-02")).includes(late));
+  // The next issue would take it by its release; the redone issue already carried it.
+  assert.equal((await composeDaily("2024-04-03")).entries, 1);
+  assert.ok(!(await cited("2024-04-03")).includes(late) && (await cited("2024-04-03")).includes(fresh));
+  // Redone after the next issue went out, the earlier issue leaves out what the next one carried.
+  await sql`DELETE FROM reports WHERE kind = 'daily'`;
+  assert.equal((await composeDaily("2024-04-03")).entries, 2);
+  assert.equal((await composeDaily("2024-04-02", "redo", true)).entries, 0);
+});

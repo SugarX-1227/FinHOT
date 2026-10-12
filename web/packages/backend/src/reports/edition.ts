@@ -99,24 +99,28 @@ const REPORT_FIELDS = sql`p.article_id AS id, p.title, p.summary, p.url, p.categ
  * it: by arrival, or by release when that came later (a release after the cutoff belongs to the next
  * issue, never to one already out). A report that arrived more than a day before the period began and
  * was released only within it is old news there.
+ * `byArrival` (FinHOT): by arrival only, for re-composing past issues after a selection threshold change
+ * released their reports later; the issues after them leave out what these carry (dailyEdition).
  */
-export async function periodReports(start: Date, end: Date): Promise<ReportRow[]> {
+export async function periodReports(start: Date, end: Date, byArrival = false): Promise<ReportRow[]> {
   return sql.begin("isolation level read committed", async (tx) => {
     // Wait for in-flight releases and keep later ones outside this snapshot. The following SELECT
     // gets a fresh READ COMMITTED snapshot; model calls and report writes happen after the lock ends.
     await tx`SELECT pg_advisory_xact_lock(hashtext('report_candidates'))`;
+    // Each item by the later of arrival and release (either range can use its index); byArrival by arrival alone.
+    const period = byArrival
+      ? tx`p.timeline_at >= ${start} AND p.timeline_at < ${end}`
+      : tx`(
+          (p.visible_after <= p.timeline_at AND p.timeline_at >= ${start} AND p.timeline_at < ${end})
+          OR (p.visible_after > p.timeline_at AND p.visible_after >= ${start} AND p.visible_after < ${end})
+        )
+        AND p.timeline_at >= ${start}::timestamptz - interval '24 hours'`;
     return tx<ReportRow[]>`
       SELECT ${REPORT_FIELDS}
       FROM publications p JOIN sources s ON s.id = p.source_id
       LEFT JOIN facts f ON f.id = p.fact_id AND ${ownFactEvidenceCondition()}
       LEFT JOIN stories st ON st.id = f.story_id
-      -- Attribute each item by the later of arrival and release; either range can use its index.
-      WHERE p.visibility = 'public' AND p.selected AND NOT p.backfill
-        AND (
-          (p.visible_after <= p.timeline_at AND p.timeline_at >= ${start} AND p.timeline_at < ${end})
-          OR (p.visible_after > p.timeline_at AND p.visible_after >= ${start} AND p.visible_after < ${end})
-        )
-        AND p.timeline_at >= ${start}::timestamptz - interval '24 hours'`;
+      WHERE p.visibility = 'public' AND p.selected AND NOT p.backfill AND ${period}`;
   });
 }
 
@@ -292,12 +296,35 @@ function importance(e: { score: number | null; participants: number; official: b
 
 interface Fact { key: string; rows: ReportRow[]; selected: boolean; sources: string[]; at: number }
 
+/** FinHOT: what the dailies after `date` carried, so a past issue composed again by arrival does not repeat them. */
+async function laterCited(date: string): Promise<Set<string>> {
+  const issues = await sql<{ content: Record<string, any> }[]>`
+    SELECT content FROM reports WHERE kind = 'daily' AND key > ${date} AND key <= ${addDays(date, MEMORY_DAYS)}`;
+  const keys = new Set<string>();
+  const ids = new Set<string>();
+  for (const it of issues.flatMap((issue) => citedIn(issue.content))) {
+    if (it.factId) keys.add(String(it.factId));
+    if (it.itemId) ids.add(String(it.itemId));
+  }
+  for (const id of ids) keys.add(`a:${id}`);
+  if (ids.size) {
+    const facts = await sql<{ public_id: string }[]>`
+      SELECT f.public_id FROM publications p JOIN facts f ON f.id = p.fact_id AND ${ownFactEvidenceCondition()}
+      WHERE p.article_id = ANY(${[...ids]}::text[])`;
+    for (const f of facts) keys.add(f.public_id);
+  }
+  return keys;
+}
+
 /**
  * The daily's events for the window [start, end), most important first, before the editors' pass:
  * selected reports and missed facts, minus what the week's issues already carried, one entry per event.
+ * `byArrival` (FinHOT): see periodReports; it also leaves out what later issues carried.
  */
-export async function dailyEdition(date: string, start: Date, end: Date): Promise<{ entries: EditionEntry[]; stats: Record<string, number> }> {
-  const [memory, selected, missed, judged] = await Promise.all([dailyMemory(date), periodReports(start, end), missedFacts(start, end), judgedReports(start, end)]);
+export async function dailyEdition(date: string, start: Date, end: Date, byArrival = false): Promise<{ entries: EditionEntry[]; stats: Record<string, number> }> {
+  const [memory, selected, missed, judged, later] = await Promise.all([dailyMemory(date), periodReports(start, end, byArrival), missedFacts(start, end), judgedReports(start, end),
+    byArrival ? laterCited(date) : new Set<string>()]);
+  for (const key of later) memory.keys.add(key);
   const raw = [
     ...[...groupBy(selected, factKeyOf)].map(([key, rows]) => ({ key, rows, selected: true })),
     ...missed.map((m) => ({ ...m, selected: false })),
@@ -365,7 +392,8 @@ export async function dailyEdition(date: string, start: Date, end: Date): Promis
   entries.sort((a, b) => b.importance - a.importance || a.entry.itemId.localeCompare(b.entry.itemId));
   return {
     entries,
-    stats: { judgedReports: judged, selectedReports: selected.length, facts: raw.length, repeatsSuppressed: raw.length - kept.length, fillIns: kept.filter((f) => !f.selected).length, events: entries.length },
+    stats: { judgedReports: judged, selectedReports: selected.length, facts: raw.length, repeatsSuppressed: raw.length - kept.length, fillIns: kept.filter((f) => !f.selected).length, events: entries.length,
+      ...(byArrival ? { byArrival: 1 } : {}) },
   };
 }
 
