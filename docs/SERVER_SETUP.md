@@ -201,6 +201,9 @@ deploy/finhot.sh doctor            # 最近 3 天；--days 7 看更久
 
   有 GitHub 命令行的话：`gh variable set FINHOT_SITE_URL --body "http://你的公网IP:3000"`，
   `gh secret set FINHOT_INGEST_TOKEN`（回车后粘贴 token）。配好后下一个交易日盘后版日报跑完，战绩就会出现在网站上。
+  GitHub 的定时任务常常晚好几个小时（下午的盘后版经常晚上十点以后才跑），没算成的（行情接口断开）同一天后面的触发会再算；
+  急着看就在仓库 Actions → daily-report → Run workflow，mode 选 `backtest`，只重算一次战绩并推到网站。
+  回测要用东方财富的板块列表把题材对到板块，取不到时用存下的（`data/backtest/boards.json`，每次日报抓盘面时顺带更新）。
   战绩统计的信号包括网站精选里“A股影响”写了利好 / 利空的条目（GitHub 通过网站公开接口读），以及日报存下的信号；
   刚开始样本很少，跑上几周才有参考价值。
 

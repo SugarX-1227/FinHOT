@@ -78,7 +78,8 @@ def cmd_run(args) -> int:
 
 def cmd_auto(args) -> int:
     """定时任务入口。GitHub Actions 定时触发常延迟数小时，所以每个时段放多个触发点，由这里去重。"""
-    from .editions import scheduled_slot
+    from .backtest import record_fresh, run_backtest
+    from .editions import EDITIONS, report_path, scheduled_slot
     from .pipeline import run
     from .weekly import run_weekly, weekly_exists
 
@@ -89,12 +90,14 @@ def cmd_auto(args) -> int:
         print(f"[auto] {t:%m-%d %H:%M} 生成{ed.name}")
         print(run(use_llm=not args.no_llm, edition=ed.key))
         did = True
-        if ed.key == "close":  # 盘后：当天收盘价出来了，更新信号战绩。失败不影响日报提交
-            try:
-                from .backtest import run_backtest
-                print(run_backtest())
-            except Exception as e:  # noqa: BLE001
-                print(f"::warning::回测失败：{e}")
+    # 盘后版出了：当天收盘价也有了，更新信号战绩。这一班没算成（行情接口断开）的，之后的定时触发再试；失败不影响日报提交
+    if report_path(t.strftime("%Y-%m-%d"), EDITIONS["close"]).exists() and not record_fresh(t):
+        print(f"[auto] {t:%m-%d %H:%M} 更新信号战绩")
+        try:
+            print(run_backtest())
+            did = True
+        except Exception as e:  # noqa: BLE001
+            print(f"::warning::回测失败：{e}")
     # 周六/周日：本周周报还没出就出一份。周报失败不能影响已生成的日报被提交，所以单独兜住
     if t.weekday() >= 5 and t.hour >= 6 and not weekly_exists(t.date()):
         print("[auto] 生成本周周报")

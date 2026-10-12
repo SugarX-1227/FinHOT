@@ -199,7 +199,7 @@ def test_the_board_list_is_saved_and_reused_when_the_list_api_is_blocked(tmp_pat
     saved = data / "backtest" / "boards.json"
     assert json.loads(saved.read_text(encoding="utf-8")) == [{"code": "BK1", "name": "半导体", "kind": "industry"}]
     md = bt.run_backtest(days=30, out_dir=tmp_path / "out", data_dir=data, source=NoBoardListSource()).read_text()
-    assert "| 利好新闻 | 1 | +10.00% · 100%" in md and "板块列表取不到（ConnectionError），用的是上次存下的 1 个板块" in md
+    assert "| 利好新闻 | 1 | +10.00% · 100%" in md and "板块列表取不到（ConnectionError），用的是存下的 1 个板块" in md
 
 
 def test_no_board_list_and_nothing_saved_keeps_the_previous_report(tmp_path, monkeypatch):
@@ -211,3 +211,28 @@ def test_no_board_list_and_nothing_saved_keeps_the_previous_report(tmp_path, mon
         raise AssertionError("expected PricesUnavailable")
     except bt.PricesUnavailable as e:
         assert "板块列表取不到" in str(e)
+
+
+def test_before_any_board_list_is_saved_the_snapshots_in_the_reports_stand_in(tmp_path, monkeypatch):
+    data = tmp_path / "data"
+    write(data / "2026-10-09" / "items.jsonl", [news("芯片利好", at(9, 8))])
+    (data / "2026-10-09" / "meta.json").write_text(json.dumps({"ashare": {
+        "industries": [{"code": "BK1", "name": "半导体", "kind": "industry"}, {"code": "new_dzqj", "name": "电子器件", "kind": "industry"}],
+        "concepts": [{"code": "BK2", "name": "存储芯片", "kind": "concept"}]}}), encoding="utf-8")
+    monkeypatch.setattr(bt, "now", lambda: at(15, 20))
+    md = bt.run_backtest(days=30, out_dir=tmp_path / "out", data_dir=data, source=NoBoardListSource()).read_text()
+    assert "| 利好新闻 | 1 | +10.00% · 100%" in md and "用的是存下的 2 个板块" in md  # 新浪的代码对不上日 K，不算
+
+
+def test_boards_from_the_market_snapshot_are_added_to_the_saved_list(tmp_path):
+    bt.remember_boards([{"code": "BK1", "name": "半导体", "kind": "industry"}], tmp_path)
+    bt.remember_boards([{"code": "BK2", "name": "黄金概念", "kind": "concept"}, {"code": "new_hj", "name": "黄金", "kind": "industry"}], tmp_path)
+    assert [b["code"] for b in bt.saved_boards(tmp_path)] == ["BK2", "BK1"]  # 概念在前（按 kind 排序），新浪的不存
+
+
+def test_the_record_counts_as_done_for_the_day_only_after_the_close(tmp_path):
+    assert not bt.record_fresh(at(12, 20), tmp_path)
+    (tmp_path / "backtest").mkdir()
+    for generated, fresh in ((at(12, 14), False), (at(12, 20), True), (at(9, 20), False)):
+        (tmp_path / "backtest" / "summary.json").write_text(json.dumps({"generated": generated.isoformat()}), encoding="utf-8")
+        assert bt.record_fresh(at(12, 21), tmp_path) is fresh

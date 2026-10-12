@@ -11,9 +11,9 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "auto=按时段自动；或指定 pre/noon/close/weekly"
+        description: "auto=按时段自动；或指定 pre/noon/close/weekly；backtest=只重算信号战绩（推到网站盘面页）"
         type: choice
-        options: [auto, pre, noon, close, weekly]
+        options: [auto, pre, noon, close, weekly, backtest]
         default: auto
       hours:
         description: "采集最近多少小时（留空=接着上一份日报）"
@@ -64,6 +64,7 @@ jobs:
           case "$MODE" in
             auto)   python -m finhot auto $FLAGS ;;
             weekly) python -m finhot weekly $FLAGS ;;
+            backtest) python -m finhot backtest || [ $? = 3 ] ;;   # 3 = 行情接口暂时连不上，保留上一次的结果
             *)      python -m finhot run --edition "$MODE" ${HOURS:+--hours "$HOURS"} $FLAGS ;;
           esac
 
