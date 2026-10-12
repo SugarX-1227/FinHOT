@@ -10,7 +10,8 @@
 #   restart [服务]  重启
 #   stop      停止全部服务（数据保留）
 #   selection stats|reselect|redo-daily  精选门槛：看分布和建议值、按新门槛补选、重编日报（见 docs/SERVER_SETUP.md）
-#   market    马上算一次涨停原因和信号战绩，推到网站“盘面”页（平时交易日收盘后自动跑）
+#   market    马上算一次涨停原因，推到网站“盘面”页（平时交易日收盘后自动跑）
+#   probe     检查行情数据接口（东方财富、同花顺、新浪）在这台服务器上能不能连通
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
@@ -88,11 +89,15 @@ case "${1:-help}" in
     shift
     compose exec -T pusher python -m finhot push-market "$@"
     ;;
+  probe)
+    need_env
+    compose exec -T pusher python -m finhot probe
+    ;;
   stop)
     need_env
     compose stop
     ;;
   *)
-    sed -n '2,13p' "$0" | sed 's/^# \{0,1\}//'
+    sed -n '2,14p' "$0" | sed 's/^# \{0,1\}//'
     ;;
 esac

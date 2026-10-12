@@ -123,8 +123,8 @@ GitHub 的定时任务实测经常延迟 3~7 小时（原来 07:30 的任务 10~
 - 部署到自己的服务器：[docs/SERVER_SETUP.md](docs/SERVER_SETUP.md)（`deploy/finhot.sh` 一套命令）
 - 引擎的同步与本地改动：[docs/ENGINE.md](docs/ENGINE.md)
 - 产品规划与进度：[docs/PRODUCT_PLAN.md](docs/PRODUCT_PLAN.md)
-- 盘面页（网站“A股 → 盘面”）：交易日收盘后推送进程算好涨停原因和信号战绩推上去（`finhot/market_job.py`，
-  网站模块 `web/modules/market/`）
+- 盘面页（网站“A股 → 盘面”，模块 `web/modules/market/`）：涨停原因由服务器上的推送进程收盘后算好推上去
+  （`finhot/market_job.py`）；信号战绩在 GitHub Actions 上跟着盘后版日报算、推到网站（`finhot/backtest.py`）
 - 精选质量校准：`python -m finhot gold` 抽 200 条样本、生成标注页 `data/gold/label.html`，标完导出 `gold.jsonl`，
   用 `web/scripts/eval-selection.ts` 校准门槛（见 `web/docs/selection.md`）
 
@@ -167,7 +167,9 @@ finhot/
   push.py       常驻推送进程：快讯 → 网站引擎
   limitup.py    涨停原因归因
   backtest.py   信号回测与战绩
-  market_job.py 服务器上的盘面任务：收盘后算涨停原因和战绩，推给网站“盘面”页
+  market_job.py 服务器上的盘面任务：收盘后算涨停原因，推给网站“盘面”页
+  site_api.py   网站接口：读精选快照、往“盘面”页推数据
+  probe.py      行情数据接口体检（python -m finhot probe）
   gold.py       金标样本抽样与标注页
 sources/sources.yaml   信源与行情品种配置
 web/                   网站引擎（AIHOT，git subtree），财经定制在 web/industry/ 和 web/site/

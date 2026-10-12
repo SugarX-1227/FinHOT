@@ -17,6 +17,7 @@ from __future__ import annotations
 
 import json
 import logging
+import re
 import statistics
 import time as clock
 from collections import defaultdict
@@ -27,7 +28,8 @@ from pathlib import Path
 from .config import DATA_DIR, REPORTS_DIR
 from .http import Session
 from .models import NewsItem
-from .themes import board_themes, item_themes
+from .site_api import Site
+from .themes import board_themes, item_themes, themes_in
 from .timeutil import TZ, now
 
 log = logging.getLogger(__name__)
@@ -139,6 +141,30 @@ def load_signals(data_dir: Path = DATA_DIR, since: date | None = None, into: Sig
                 if len(names) >= 3:
                     add("涨停主线", at, theme, f"涨停 {len(names)} 家：{'、'.join(names[:4])}")
     return found.values()
+
+
+_REASON = re.compile(r"^\s*(利好|利空|中性)\s*(.*)$", re.S)
+
+
+def selected_signals(items: list[dict], into: Signals) -> int:
+    """网站精选里“A股影响”写了利好 / 利空的条目 → 题材信号。A股影响的格式：“利好 半导体、存储，依据……”。"""
+    n = 0
+    for it in items:
+        m = _REASON.match(str(it.get("reason") or ""))
+        published = it.get("publishedAt") or it.get("discoveredAt")
+        if not m or m.group(1) == "中性" or not published:
+            continue
+        targets = re.split(r"[，,。；;]", m.group(2), maxsplit=1)[0]
+        themes: list[str] = []
+        for t in re.split(r"[、/／\s]+", targets):
+            if t:
+                themes += board_themes(t) or themes_in(t)
+        themes += themes_in(str(it.get("title") or ""))
+        for theme in list(dict.fromkeys(themes))[:2]:
+            into.add(f"精选{m.group(1)}", datetime.fromisoformat(published.replace("Z", "+00:00")), theme,
+                     str(it.get("title") or "")[:60])
+            n += 1
+    return n
 
 
 # ------------------------------------------------------------------ 价格
@@ -385,14 +411,34 @@ def record_payload(outcomes: list[Outcome], generated: datetime, start: date, re
     }
 
 
+_NO_SITE = object()
+
+
 def run_backtest(days: int = 90, out_dir: Path | None = None, data_dir: Path = DATA_DIR,
-                 source: PriceSource | None = None) -> Path:
+                 source: PriceSource | None = None, site: Site | None | object = _NO_SITE) -> Path:
+    """出战绩报告（reports/backtest/latest.md）。配了网站（FINHOT_SITE_URL）时，信号还包括网站精选里的利好 / 利空，
+    算完把战绩推到网站“盘面”页。"""
     generated = now()
     start = generated.date() - timedelta(days=days)
-    signals = load_signals(data_dir, since=start)
-    outcomes, errors = compute(signals, source or PriceSource(), generated)
+    site = Site.from_env() if site is _NO_SITE else site
+    found = Signals()
+    load_signals(data_dir, since=start, into=found)
+    errors: list[str] = []
+    if site:
+        try:
+            log.info("网站精选里的利好 / 利空：%d 条", selected_signals(site.selected(), found))
+        except Exception as e:  # noqa: BLE001 —— 网站连不上不影响静态站的战绩
+            errors.append(f"网站精选读取失败：{type(e).__name__}")
+    signals = [s for s in found.values() if s.at.astimezone(TZ).date() >= start]
+    outcomes, price_errors = compute(signals, source or PriceSource(), generated)
+    errors += price_errors
     summary = summarize(outcomes)
     md = render(outcomes, summary, generated, start, errors)
+    if site and site.token and outcomes:
+        try:
+            site.push("record", generated.date().isoformat(), record_payload(outcomes, generated, start))
+        except Exception as e:  # noqa: BLE001
+            log.warning("战绩推到网站失败：%s", e)
 
     reports = (out_dir or REPORTS_DIR) / "backtest"
     reports.mkdir(parents=True, exist_ok=True)
