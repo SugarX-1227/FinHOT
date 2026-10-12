@@ -23,6 +23,7 @@ PUSH2_HOSTS = ("https://push2.eastmoney.com", "https://push2delay.eastmoney.com"
 PUSH2HIS_HOSTS = ("https://push2his.eastmoney.com", "https://61.push2his.eastmoney.com", "https://33.push2his.eastmoney.com")
 PUSH2EX = "https://push2ex.eastmoney.com"
 DATACENTER = "https://datacenter-web.eastmoney.com/api/data/v1/get"
+THS_LIMIT_UP = "https://data.10jqka.com.cn/dataapi/limit_up/limit_up_pool"
 UT_POOL = "7eea3edcaed734bea9cbfc24409ed989"
 
 INDICES = [
@@ -58,6 +59,7 @@ class MarketSnapshot:
     ladder: list[dict] = field(default_factory=list)  # 连板梯队 [{boards: n, stocks: [...]}]
     zt_industries: list[dict] = field(default_factory=list)  # 涨停行业分布 [{name, count, stocks}]
     zt_stocks: list[dict] = field(default_factory=list)
+    zt_reasons: dict[str, str] = field(default_factory=dict)  # 代码 → 同花顺整理的涨停原因（取不到时为空）
     industries: list[Board] = field(default_factory=list)
     concepts: list[Board] = field(default_factory=list)
     lhb_date: str = ""
@@ -199,6 +201,18 @@ def parse_lhb(data: dict) -> tuple[str, list[dict]]:
     return date, out
 
 
+def parse_ths_limit_up(data: dict) -> tuple[dict[str, str], int]:
+    """同花顺涨停池：{代码: 涨停原因}，以及总条数（翻页用）。"""
+    d = data.get("data") or {}
+    out = {}
+    for r in d.get("info") or []:
+        code = str(r.get("code") or "").strip()
+        reason = str(r.get("reason_type") or r.get("reason_info") or "").strip()
+        if code and reason:
+            out[code] = reason[:40]
+    return out, int(((d.get("page") or {}).get("total")) or 0)
+
+
 def parse_hsgt(data: dict) -> dict:
     d = data.get("data") or {}
     def g(k, f):
@@ -300,6 +314,21 @@ def fetch_snapshot(session: Session | None = None, today: datetime | None = None
         snap.breadth.update(zt=len(stocks), dt=int(dt), zb=int(zb),
                             seal_rate=round(len(stocks) / (len(stocks) + zb) * 100, 1) if stocks else 0.0)
 
+    def ths_reasons():
+        if not snap.trade_date:
+            return
+        for page in range(1, 6):
+            data = session.get_json(THS_LIMIT_UP, params={
+                "page": str(page), "limit": "100", "field": "199112,10,9001,330323,330324,330325,9002,330329,133971,133970,1968584,3475914,9003,9004",
+                "filter": "HS,GEM2STAR", "order_field": "330324", "order_type": "0", "date": snap.trade_date.replace("-", "")},
+                headers={"Referer": "https://data.10jqka.com.cn/datacenterph/limitup/limtupInfo.html"})
+            rows, total = parse_ths_limit_up(data)
+            snap.zt_reasons.update(rows)
+            if not rows or page * 100 >= total:
+                break
+        if snap.zt_stocks and not snap.zt_reasons:
+            raise RuntimeError("同花顺没有返回涨停原因")
+
     def fenbu():
         data = session.get_json(f"{PUSH2EX}/getTopicZDFenBu", params={"ut": UT_POOL, "dpt": "wz.ztzt"})
         snap.breadth.update(parse_fenbu(data))
@@ -335,7 +364,7 @@ def fetch_snapshot(session: Session | None = None, today: datetime | None = None
             "fields1": "f1,f2,f3,f4", "fields2": "f51,f52,f53,f54,f56,f62,f63,f65,f66"})
         snap.hsgt = parse_hsgt(data)
 
-    for name, fn in (("指数", indices), ("涨停池", zt), ("涨跌分布", fenbu), ("行业板块", industries), ("概念板块", concepts),
+    for name, fn in (("指数", indices), ("涨停池", zt), ("涨停原因", ths_reasons), ("涨跌分布", fenbu), ("行业板块", industries), ("概念板块", concepts),
                      ("龙虎榜", lhb), ("沪深港通", hsgt)):
         step(name, fn)
     return snap

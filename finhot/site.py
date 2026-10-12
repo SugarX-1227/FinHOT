@@ -153,7 +153,8 @@ def _layout(title: str, body: str, active: str, depth: int) -> str:
     nav = "".join(
         f'<a href="{root}{href}" class="{"on" if key == active else ""}">{name}</a>'
         for key, href, name in (("index", "index.html", "最新"), ("archive", "archive.html", "往期日报"),
-                                ("weekly", "weekly/index.html", "周报"), ("feed", "feed.xml", "RSS")))
+                                ("weekly", "weekly/index.html", "周报"), ("record", "record.html", "战绩"),
+                                ("feed", "feed.xml", "RSS")))
     return f"""<!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -236,6 +237,12 @@ def build_site(out: Path, reports_dir: Path = REPORTS_DIR, base_url: str = "") -
     (out / "weekly" / "index.html").write_text(
         _layout("周报 · FinHOT", f'<h1>周报</h1><div class="card"><ul class="list">{items}</ul></div>', "weekly", 1),
         encoding="utf-8")
+
+    # 战绩：信号回测（finhot/backtest.py 每个交易日盘后更新）
+    record = reports_dir / "backtest" / "latest.md"
+    body = (f'<article class="card">{_render(md, record.read_text(encoding="utf-8"))}</article>' if record.exists()
+            else '<article class="card"><h1>信号战绩</h1><p>还没有回测结果，第一个交易日盘后会生成。</p></article>')
+    (out / "record.html").write_text(_layout("信号战绩 · FinHOT", body, "record", 0), encoding="utf-8")
 
     # RSS
     base = base_url.rstrip("/")

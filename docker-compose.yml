@@ -19,6 +19,12 @@ services:
       FINHOT_PUSH_MAX_PER_EVENT: ${FINHOT_PUSH_MAX_PER_EVENT:-4}
       FINHOT_PUSH_INTERVAL: ${FINHOT_PUSH_INTERVAL:-90}
       FINHOT_PUSH_SOURCES: ${FINHOT_PUSH_SOURCES:-}
+      # 盘面任务写一句话涨停原因用的模型，和网站用同一个（不填就只用规则）
+      LLM_API_KEY: ${LLM_API_KEY:-}
+      LLM_BASE_URL: ${LLM_BASE_URL:-}
+      LLM_MODEL: ${LLM_MODEL:-}
+      LLM_BODY_EXTRA: ${LLM_EXTRA_JSON:-}
+      LLM_TRUST_ENV: "0"
     volumes:
       - pusher:/app/data
     depends_on:

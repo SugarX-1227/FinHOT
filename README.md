@@ -123,6 +123,8 @@ GitHub 的定时任务实测经常延迟 3~7 小时（原来 07:30 的任务 10~
 - 部署到自己的服务器：[docs/SERVER_SETUP.md](docs/SERVER_SETUP.md)（`deploy/finhot.sh` 一套命令）
 - 引擎的同步与本地改动：[docs/ENGINE.md](docs/ENGINE.md)
 - 产品规划与进度：[docs/PRODUCT_PLAN.md](docs/PRODUCT_PLAN.md)
+- 盘面页（网站“A股 → 盘面”）：交易日收盘后推送进程算好涨停原因和信号战绩推上去（`finhot/market_job.py`，
+  网站模块 `web/modules/market/`）
 - 精选质量校准：`python -m finhot gold` 抽 200 条样本、生成标注页 `data/gold/label.html`，标完导出 `gold.jsonl`，
   用 `web/scripts/eval-selection.ts` 校准门槛（见 `web/docs/selection.md`）
 
@@ -163,6 +165,9 @@ finhot/
   weekly.py     周报
   site.py       静态网站
   push.py       常驻推送进程：快讯 → 网站引擎
+  limitup.py    涨停原因归因
+  backtest.py   信号回测与战绩
+  market_job.py 服务器上的盘面任务：收盘后算涨停原因和战绩，推给网站“盘面”页
   gold.py       金标样本抽样与标注页
 sources/sources.yaml   信源与行情品种配置
 web/                   网站引擎（AIHOT，git subtree），财经定制在 web/industry/ 和 web/site/
@@ -191,7 +196,9 @@ docs/DESIGN.md         设计文档
 - [x] 经济数据日历、重要事件、新股申购/上市、限售解禁等"今日关注"
 - [x] 做成网站（GitHub Pages + RSS）
 - [x] 实时网站版：引入 AIHOT 引擎做精选、事件、热度；推送进程；一键部署（内测中）
-- [ ] 回测：高分新闻/共振题材 → 次日、5 日板块表现，用结果反过来校准打分与题材词典
+- [x] 涨停原因归因：公司消息、收评点名、同花顺原因、领涨概念、题材推断，带可信度（日报“涨停原因”、网站“盘面”）
+- [x] 回测与战绩：利好利空新闻、新闻×资金判断、涨停主线、网站精选的 A股影响 → 对应板块 T+1/3/5 超额与胜率
+  （`python -m finhot backtest`，静态站“战绩”页，网站“盘面”页）
 - [ ] 题材词典自动扩充（用 LLM 从板块成分与新闻中归纳新题材）
 
 ## 免责声明

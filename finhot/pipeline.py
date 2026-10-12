@@ -14,6 +14,7 @@ from .calendar_watch import Watchlist, fetch_watchlist
 from .collect import collect
 from .config import DATA_DIR, REPORTS_DIR, load_sources
 from .crosscheck import cross_check
+from .limitup import attribute, coverage, recent_items, write_reasons
 from .dedup import dedup
 from .editions import EDITIONS, edition_by_time, window_since
 from .market import fetch_quotes
@@ -70,6 +71,15 @@ def run(hours: float | None = None, use_llm: bool = True, only: list[str] | None
         llm_stats = llm_mod.enrich(items, client)
 
     themes = cross_check(items, snap) if snap.ok else []
+    limitups = []
+    if snap.zt_stocks:
+        # 找依据的新闻：本期全部 + 前两天存下的（公司公告常在前一天晚上）
+        seen = {it.uid for it in items}
+        evidence = items + [it for it in recent_items(DATA_DIR, until, days=2) if it.uid not in seen]
+        limitups = attribute(snap, evidence, themes)
+        if client:
+            n = write_reasons(limitups, client)
+            log.info("涨停原因：%d 只，有依据 %.0f%%，模型改写 %d 条", len(limitups), coverage(limitups), n)
 
     if client:
         extra = {}
@@ -86,7 +96,7 @@ def run(hours: float | None = None, use_llm: bool = True, only: list[str] | None
 
     ctx = ReportContext(date=date, edition=ed.name, edition_key=ed.key, since=since, until=until, items=items,
                         results=results, quotes=quotes, overview=overview, raw_count=len(raw),
-                        llm_stats=llm_stats, snapshot=snap, watch=watch, themes=themes)
+                        llm_stats=llm_stats, snapshot=snap, watch=watch, themes=themes, limitups=limitups)
     md = render(ctx)
 
     reports = out_dir or REPORTS_DIR
@@ -113,5 +123,9 @@ def run(hours: float | None = None, use_llm: bool = True, only: list[str] | None
                      "pages": r.pages, "seconds": r.seconds, "error": r.error} for r in results],
     }
     (ddir / f"meta{ed.suffix}.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
+    if limitups:
+        (ddir / f"limitup{ed.suffix}.json").write_text(json.dumps(
+            {"trade_date": snap.trade_date, "coverage": coverage(limitups), "stocks": [r.to_dict() for r in limitups]},
+            ensure_ascii=False, indent=1), encoding="utf-8")
     log.info("日报已生成：%s", report_path)
     return report_path

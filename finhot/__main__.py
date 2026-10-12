@@ -11,6 +11,8 @@
   python -m finhot push                # 常驻：每 90 秒把快讯推给网站引擎（web/），见 finhot/push.py
   python -m finhot push --once --dry-run   # 只跑一轮、打印会推哪些，不真的推
   python -m finhot gold --n 200        # 抽金标样本，生成标注页 data/gold/label.html（见 finhot/gold.py）
+  python -m finhot backtest            # 信号战绩：日报里存下的信号之后几天的表现（reports/backtest/latest.md）
+  python -m finhot push-market         # 马上算一次涨停原因和信号战绩，推给网站“盘面”页（平时推送进程收盘后自动跑）
 """
 
 from __future__ import annotations
@@ -86,6 +88,12 @@ def cmd_auto(args) -> int:
         print(f"[auto] {t:%m-%d %H:%M} 生成{ed.name}")
         print(run(use_llm=not args.no_llm, edition=ed.key))
         did = True
+        if ed.key == "close":  # 盘后：当天收盘价出来了，更新信号战绩。失败不影响日报提交
+            try:
+                from .backtest import run_backtest
+                print(run_backtest())
+            except Exception as e:  # noqa: BLE001
+                print(f"::warning::回测失败：{e}")
     # 周六/周日：本周周报还没出就出一份。周报失败不能影响已生成的日报被提交，所以单独兜住
     if t.weekday() >= 5 and t.hour >= 6 and not weekly_exists(t.date()):
         print("[auto] 生成本周周报")
@@ -169,6 +177,33 @@ def cmd_gold(args) -> int:
     return 0
 
 
+def cmd_push_market(args) -> int:
+    from . import market_job
+    from .llm import LLMClient
+    from .push import Pusher, PushConfig, push_sources
+
+    cfg = PushConfig.from_env()
+    if len(cfg.token) < 16:
+        print("没有设置 INGEST_TOKEN（至少 16 位，和网站 .env 里的一样）", file=sys.stderr)
+        return 2
+    engine = market_job.Engine(cfg.engine_url, cfg.token, Pusher(cfg).session)
+    sources = push_sources(cfg, load_sources()["sources"])
+    print(market_job.run_market(engine, sources, DATA_DIR, llm=None if args.no_llm else LLMClient.from_env()))
+    return 0
+
+
+def cmd_backtest(args) -> int:
+    from .backtest import PricesUnavailable, run_backtest
+
+    try:
+        print(run_backtest(days=args.days, out_dir=Path(args.out) if args.out else None))
+    except PricesUnavailable as e:
+        # 行情接口暂时连不上（海外机器上常见）：上一次的结果原样保留。退出码 3 让调用方能和真正的错误区分开
+        print(f"::warning::回测跳过：{e}", file=sys.stderr)
+        return 3
+    return 0
+
+
 def main(argv: list[str] | None = None) -> int:
     p = argparse.ArgumentParser(prog="finhot", description="FinHOT 财经热点采集与日报")
     p.add_argument("-v", "--verbose", action="store_true")
@@ -222,6 +257,15 @@ def main(argv: list[str] | None = None) -> int:
     pu.add_argument("--min-score", type=float, help="簇的规则分门槛（默认 FINHOT_PUSH_MIN_SCORE 或 6）")
     pu.add_argument("--only", help="只推指定信源，逗号分隔")
     pu.set_defaults(func=cmd_push)
+
+    pm = sub.add_parser("push-market", help="马上算一次涨停原因和信号战绩，推给网站“盘面”页")
+    pm.add_argument("--no-llm", action="store_true", help="不用模型改写涨停原因")
+    pm.set_defaults(func=cmd_push_market)
+
+    bk = sub.add_parser("backtest", help="信号战绩：日报存下的信号之后几天的表现")
+    bk.add_argument("--days", type=int, default=90, help="统计最近多少天的信号")
+    bk.add_argument("--out", help="输出目录（默认写入仓库 reports/ 和 data/）")
+    bk.set_defaults(func=cmd_backtest)
 
     g = sub.add_parser("gold", help="抽金标样本、生成标注页、合成 gold.jsonl")
     g.add_argument("--n", type=int, default=200, help="抽多少条")

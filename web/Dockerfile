@@ -3,8 +3,10 @@
 FROM node:24-trixie-slim AS base
 WORKDIR /app
 # pg_dump for the optional database backups (Debian's client matches the PostgreSQL 17 server in compose).
-# 国内服务器把 Debian 源换成腾讯镜像，避免 deb.debian.org 下载卡死
-RUN sed -i 's|deb.debian.org|mirrors.cloud.tencent.com|g' /etc/apt/sources.list.d/debian.sources || true \
+# FinHOT：构建参数 APT_MIRROR 换 Debian 源（国内服务器连 deb.debian.org 会卡死，deploy/finhot.sh 传腾讯云镜像）；
+# 不传就用默认源（GitHub 等海外机器连腾讯镜像反而会失败）。
+ARG APT_MIRROR=
+RUN if [ -n "$APT_MIRROR" ]; then sed -i "s|deb.debian.org|$APT_MIRROR|g" /etc/apt/sources.list.d/debian.sources; fi \
  && apt-get update \
  && apt-get install -y --no-install-recommends postgresql-client ca-certificates \
  && rm -rf /var/lib/apt/lists/*
@@ -19,6 +21,7 @@ COPY packages/backend/package.json packages/backend/
 COPY packages/contracts/package.json packages/contracts/
 COPY industry/package.json industry/
 COPY site/package.json site/
+COPY modules/market/package.json modules/market/
 RUN npm ci --no-audit --no-fund ${NPM_REGISTRY:+--registry=$NPM_REGISTRY}
 COPY . .
 RUN npm run build -w @aihot/web && npm prune --omit=dev --no-audit --no-fund

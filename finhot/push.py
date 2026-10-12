@@ -12,6 +12,8 @@
 
 状态（缓冲、已推送的条目）存在 data/push-state.json，重启后接着来。
 
+每个交易日收盘后，还顺带跑一次盘面任务（finhot/market_job.py）：涨停原因和信号战绩，推给网站的“盘面”页。
+
 环境变量：
   FINHOT_ENGINE_URL         引擎 API 地址，默认 http://127.0.0.1:3001
   INGEST_TOKEN              和引擎 .env 里的同一个值
@@ -80,6 +82,8 @@ class PushState:
     pushed: dict[str, str] = field(default_factory=dict)   # uid → 推送时间
     last_fetch: datetime | None = None
     path: Path = STATE_FILE
+    market_done: str | None = None    # 盘面任务最近一次成功的日期
+    market_tried: str | None = None   # 最近一次失败的时间
 
     @classmethod
     def load(cls, path: Path = STATE_FILE) -> "PushState":
@@ -93,13 +97,16 @@ class PushState:
         items = [NewsItem.from_dict(x) for x in d.get("buffer", [])]
         last = d.get("last_fetch")
         return cls(buffer={it.uid: it for it in items}, pushed=dict(d.get("pushed", {})),
-                   last_fetch=datetime.fromisoformat(last) if last else None, path=path)
+                   last_fetch=datetime.fromisoformat(last) if last else None, path=path,
+                   market_done=d.get("market_done"), market_tried=d.get("market_tried"))
 
     def save(self) -> None:
         path = self.path
         path.parent.mkdir(parents=True, exist_ok=True)
         d = {
             "last_fetch": self.last_fetch.isoformat() if self.last_fetch else None,
+            "market_done": self.market_done,
+            "market_tried": self.market_tried,
             "pushed": self.pushed,
             "buffer": [it.to_dict() for it in self.buffer.values()],
         }
@@ -251,6 +258,25 @@ def run_once(cfg: PushConfig, state: PushState, pusher: Pusher | None, sources: 
     return stats
 
 
+def market_round(cfg: PushConfig, state: PushState, pusher: Pusher, sources: list[dict]) -> None:
+    """收盘后的盘面任务；成功记日期，失败 30 分钟后再试。"""
+    from . import market_job
+    from .llm import LLMClient
+
+    at = now()
+    if not market_job.due(at, state.market_done, state.market_tried):
+        return
+    log.info("收盘了，开始算涨停原因和信号战绩")
+    try:
+        engine = market_job.Engine(cfg.engine_url, cfg.token, pusher.session)
+        log.info("盘面任务完成：%s", market_job.run_market(engine, sources, DATA_DIR, at=at, llm=LLMClient.from_env()))
+        state.market_done, state.market_tried = at.date().isoformat(), None
+    except Exception as e:  # noqa: BLE001 —— 盘面失败不影响快讯推送
+        log.warning("盘面任务失败，30 分钟后再试：%s", e)
+        state.market_tried = at.isoformat()
+    state.save()
+
+
 def loop(cfg: PushConfig, once: bool = False, dry_run: bool = False) -> int:
     if not dry_run and len(cfg.token) < 16:
         log.error("没有设置 INGEST_TOKEN（至少 16 位，和引擎 .env 里的一样）")
@@ -268,6 +294,8 @@ def loop(cfg: PushConfig, once: bool = False, dry_run: bool = False) -> int:
         try:
             stats = run_once(cfg, state, pusher, sources, dry_run=dry_run)
             log.info("本轮 %s", " ".join(f"{k}={v}" for k, v in stats.items()))
+            if pusher:
+                market_round(cfg, state, pusher, sources)
         except EngineError as e:
             log.error("%s", e)
             return 1

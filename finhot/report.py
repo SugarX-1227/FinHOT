@@ -8,6 +8,7 @@ from datetime import datetime
 from .ashare import MarketSnapshot
 from .calendar_watch import Watchlist
 from .crosscheck import ThemeRow
+from .limitup import LimitUp, coverage
 from .fetchers import FetchResult
 from .models import NewsItem
 
@@ -41,6 +42,7 @@ class ReportContext:
     watch: Watchlist | None = None
     themes: list[ThemeRow] = field(default_factory=list)
     edition_key: str = "pre"
+    limitups: list[LimitUp] = field(default_factory=list)
 
 
 def _brief(it: NewsItem, limit: int = 140) -> str:
@@ -228,6 +230,36 @@ def _render_themes(rows: list[ThemeRow], s: MarketSnapshot) -> list[str]:
     return out + [""]
 
 
+def _render_limitups(rows: list[LimitUp], limit: int = 40) -> list[str]:
+    """连板股全部列出，首板按可信度挑；其余按原因归类成一行。"""
+    rank = {"高": 0, "中": 1, "低": 2}
+    multi = [r for r in rows if r.boards >= 2]
+    first = sorted((r for r in rows if r.boards < 2), key=lambda r: (rank[r.confidence], r.first_time))
+    shown = (multi + [r for r in first if r.confidence != "低"])[:limit]
+    out = [f"> {len(rows)} 只涨停，{coverage(rows):.0f}% 找到了公司消息、盘面播报或题材标签作依据；"
+           "可信度：高=公司自身消息，中=盘面播报或题材标签，低=只按行业推断。", "",
+           "| 股票 | 连板 | 首封 | 原因 | 可信度 | 依据 |", "|---|---:|---:|---|:---:|---|"]
+    for r in shown:
+        ev = next((e for e in r.evidence if e.kind in ("公司", "盘面", "板块")), None)
+        basis = ""
+        if ev:
+            text = ev.text.replace("|", "/")[:36]
+            basis = f"[{text}]({ev.url})" if ev.url else text
+        elif r.ths_reason:
+            basis = "同花顺涨停原因"
+        first_time = f"{r.first_time[:2]}:{r.first_time[2:]}" if len(r.first_time) == 4 else ""
+        out.append(f"| {r.name}（{r.code}） | {r.boards if r.boards > 1 else '首板'} | {first_time} | "
+                   f"{r.reason.replace('|', '/')} | {r.confidence} | {basis} |")
+    rest = [r for r in rows if r not in shown]
+    if rest:
+        groups: dict[str, list[str]] = {}
+        for r in rest:
+            groups.setdefault(r.themes[0] if r.themes else (r.industry or "其他"), []).append(r.name)
+        out += ["", "其余：" + "；".join(f"{k} {len(v)} 家（{'、'.join(v[:4])}{'等' if len(v) > 4 else ''}）"
+                                      for k, v in sorted(groups.items(), key=lambda kv: -len(kv[1])))]
+    return out + [""]
+
+
 def render(ctx: ReportContext) -> str:
     ok = sum(1 for r in ctx.results if r.ok)
     out = [
@@ -260,6 +292,8 @@ def render(ctx: ReportContext) -> str:
     snap = ctx.snapshot
     if snap and snap.ok:
         out += [sec.title(f"A股盘面（{snap.trade_date or '最近交易日'}）"), ""] + _render_ashare(snap)
+        if ctx.limitups:
+            out += [sec.title(f"涨停原因（{snap.trade_date or '最近交易日'}）"), ""] + _render_limitups(ctx.limitups)
         if ctx.themes:
             out += [sec.title("新闻 × 资金"), ""] + _render_themes(ctx.themes, snap)
 

@@ -20,11 +20,18 @@ git subtree pull --prefix web https://github.com/KKKKhazix/aihot main --squash
 | 改动 | 文件 | 原因 |
 |---|---|---|
 | 推送接口 `/api/ingest/items` 支持可选的 `body` 字段，作为正文保存、不再抓原文页 | `packages/backend/src/ingest/items.ts`、`tests/ingest.test.ts`、`docs/sources.md` | 快讯没有独立的文章页，FinHOT 推送时已经有全文 |
+| 构建参数 `APT_MIRROR` 换 Debian 源（`deploy/finhot.sh` 传腾讯云镜像；不传用默认源） | `Dockerfile` | 服务器在上海连 deb.debian.org 会卡死；写死腾讯镜像又会让海外的构建（GitHub Actions）失败 |
+| 新增 `scripts/finhot-selection.ts`：评分分布与门槛建议、按新门槛补选（复用已付费的评分）、重编日报 | `scripts/finhot-selection.ts` | 没有标注样本时按“每天想要几件精选”定门槛；上游没有补选和重编日报的入口 |
 | 测试里的示例行业（AI 的分类、标签、公司、主题）换成财经的对应项 | `tests/*.test.ts`、`apps/web/tests/*.test.ts` | 上游要求改了 `industry/taxonomy.ts` 后同步换掉测试例子；合并上游时这些文件最容易冲突，冲突时保留上游的测试逻辑、换回财经的例子 |
+
+本站自己的模块（`modules/`，不算引擎改动，合并上游不冲突）：`modules/market`（“盘面”页：涨停原因与信号战绩，
+数据由 FinHOT 推送进程推到 `POST /api/finhot/market`，用 `INGEST_TOKEN`），登记在 `site/modules/` 三份清单、
+`site/package.json` 和 `Dockerfile`。
 
 财经定制本身（不算引擎改动）：`site/site.ts`（站名文案、“A股影响”）、`site/brand/nameplates/`（财经日报报头字）、`site/changelog.json`、
 `industry/taxonomy.ts`（7 个分类、标签、公司）、`industry/topics.json`（公司 / 题材 / 政策与数据 三组主题）、`industry/sources.json`、
-`industry/prompts/`（预筛、注意力评分、内容理解、写作规则）。`industry/selection.ts` 的门槛暂用上游默认值，等标注样本后再校准。
+`industry/prompts/`（预筛、注意力评分、内容理解、写作规则）、`industry/selection.ts`（门槛 T1 60 / T1_5 62 / T2 64，
+可用 `.env` 的 `SELECTION_T1`、`SELECTION_T1_5`、`SELECTION_T2` 覆盖；上游给 AI 媒体的 T2 76 让快讯一条都选不上）。
 
 ## 名称与许可
 
