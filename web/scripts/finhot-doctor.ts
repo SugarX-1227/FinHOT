@@ -11,6 +11,8 @@ import { failureGroupSql, requeueFailed } from "@aihot/backend/jobs/content";
 import { rerun } from "@aihot/backend/admin/content";
 import { waitingSelectedNews } from "@aihot/backend/operations/grouping";
 import { collectFindings } from "@aihot/backend/operations/alerts";
+import { addDays, beijingAt, beijingDate, beijingTime } from "@aihot/contracts/time";
+import { EDITION_TIMES } from "@aihot/site";
 
 const args = process.argv.slice(2);
 const flag = (name: string, fallback: string) => {
@@ -117,15 +119,32 @@ async function doctor() {
     for (const e of groupErrors) console.log(`    ${String(e.n).padStart(4)} 篇  ${e.error}`);
   }
 
-  section("4. 精选（日报只从这里取；按发布时间）");
-  const selected = await sql<Array<{ day: string; n: number }>>`
-    SELECT to_char(p.timeline_at AT TIME ZONE ${BJ}, 'MM-DD') AS day, count(*)::int AS n FROM publications p
-    WHERE p.selected AND p.visibility = 'public' AND NOT p.backfill
-      AND p.timeline_at > date_trunc('day', now() AT TIME ZONE ${BJ}) AT TIME ZONE ${BJ} - make_interval(days => ${days})
-    GROUP BY 1 ORDER BY 1`;
-  table(["日期", "精选篇数"], selected.map((r) => [r.day, r.n]));
-  const selectedTotal = selected.reduce((n, r) => n + r.n, 0);
+  section("4. 精选 → 日报（每期日报的窗口是前一天 08:00 到当天 08:00）");
+  // 日报平时按“进精选的时间”取材：后来才进精选的（调门槛、补选、归组晚了）算到进精选那一刻之后的一期。
+  const today = beijingDate(new Date());
+  const next = beijingTime(new Date()) >= EDITION_TIMES.daily ? addDays(today, 1) : today;
+  const saved = new Map((await sql<Array<{ key: string; n: number | null }>>`
+    SELECT key, (content->'generator'->>'selectedReports')::int AS n FROM reports WHERE kind = 'daily' AND key >= ${addDays(next, -days)}`).map((r) => [r.key, r.n]));
+  const issues: Array<[string, number, number, number | null]> = [];
+  for (let date = addDays(next, -days); date <= next; date = addDays(date, 1)) {
+    const end = beijingAt(date, EDITION_TIMES.daily);
+    const begin = new Date(end.getTime() - 86400000);
+    const [c] = await sql<Array<{ arrived: number; released: number }>>`
+      SELECT count(*) FILTER (WHERE p.timeline_at >= ${begin} AND p.timeline_at < ${end})::int AS arrived,
+        count(*) FILTER (WHERE ((p.visible_after <= p.timeline_at AND p.timeline_at >= ${begin} AND p.timeline_at < ${end})
+          OR (p.visible_after > p.timeline_at AND p.visible_after >= ${begin} AND p.visible_after < ${end}))
+          AND p.timeline_at >= ${begin}::timestamptz - interval '24 hours')::int AS released
+      FROM publications p WHERE p.selected AND p.visibility = 'public' AND NOT p.backfill
+        AND (p.timeline_at >= ${begin}::timestamptz - interval '24 hours' OR p.visible_after >= ${begin})`;
+    issues.push([date, c!.arrived, c!.released, saved.get(date) ?? null]);
+  }
+  table(["日报", "这期窗口里发布的精选", "按进精选时间归这期", "这期日报实际取到"],
+    issues.map(([date, arrived, released, got]) => [date === next ? `${date}（下一期）` : date, arrived, released, date === next ? "—" : got]));
+  const selectedTotal = issues.reduce((n, [, arrived]) => n + arrived, 0);
   if (candidates > 0 && selectedTotal === 0) verdicts.push("有精选候选、但一篇都没进精选：卡在归组去重（第 3 节）");
+  const late = issues.filter(([date, arrived, , got]) => date !== next && got !== null && arrived > got);
+  if (late.length) verdicts.push(`${late.map(([d]) => d).join("、")} 的日报编的时候，窗口里发布的精选大多还没进精选（后来调门槛、补选才进的）。` +
+    `日报按进精选的时间取材，所以它们没进这几期：deploy/finhot.sh selection redo-daily --from ${late[0]![0]} --to ${late.at(-1)![0]} 按发布时间重编`);
 
   section("5. 模型调用（最近 24 小时，按小时；失败和结果未知的单列）");
   const calls = await sql<Array<{ hour: string; service: string; n: number; failed: number; unknown: number; latency: number | null }>>`
@@ -200,8 +219,8 @@ async function doctor() {
   const reports = await sql<Array<{ key: string; generated_at: Date; revision: number; g: Record<string, number> | null; lead: string | null }>>`
     SELECT key, generated_at, revision, content->'generator' AS g, content->'lead'->>'title' AS lead FROM reports
     WHERE kind = 'daily' ORDER BY key DESC LIMIT ${days + 2}`;
-  table(["日期", "生成于", "版本", "打过分", "精选", "事件", "头条"], reports.map((r) => [r.key, stamp(r.generated_at), r.revision,
-    r.g?.judgedReports ?? null, r.g?.selectedReports ?? null, r.g?.events ?? null, (r.lead ?? "").slice(0, 24)]));
+  table(["日期", "生成于", "版本", "打过分", "精选", "事件", "取材", "头条"], reports.map((r) => [r.key, stamp(r.generated_at), r.revision,
+    r.g?.judgedReports ?? null, r.g?.selectedReports ?? null, r.g?.events ?? null, r.g?.byArrival ? "按发布时间" : "按进精选时间", (r.lead ?? "").slice(0, 24)]));
 
   section("10. 当前告警");
   const findings = await collectFindings();
