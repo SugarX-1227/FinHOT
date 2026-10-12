@@ -12,6 +12,7 @@
 #   selection stats|reselect|redo-daily  精选门槛：看分布和建议值、按新门槛补选、重编日报（见 docs/SERVER_SETUP.md）
 #   market    马上算一次涨停原因，推到网站“盘面”页（平时交易日收盘后自动跑）
 #   probe     检查行情数据接口（东方财富、同花顺、新浪）在这台服务器上能不能连通
+#   doctor [--fix]  精选 / 日报为什么是空的：从入库到日报逐层体检；--fix 把分析失败的重新排队、卡住的精选候选重新归组
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
@@ -95,11 +96,16 @@ case "${1:-help}" in
     need_env
     compose exec -T pusher python -m finhot probe
     ;;
+  doctor)
+    need_env
+    shift
+    compose exec -T api node scripts/finhot-doctor.ts "$@"
+    ;;
   stop)
     need_env
     compose stop
     ;;
   *)
-    sed -n '2,14p' "$0" | sed 's/^# \{0,1\}//'
+    sed -n '2,15p' "$0" | sed 's/^# \{0,1\}//'
     ;;
 esac

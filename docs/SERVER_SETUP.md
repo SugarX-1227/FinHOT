@@ -110,6 +110,7 @@ deploy/finhot.sh up
 | 备份数据库 | `deploy/finhot.sh backup`（存在 `backups/`） |
 | 重启某个服务 | `deploy/finhot.sh restart pusher` |
 | 全部停掉（数据保留） | `deploy/finhot.sh stop`，再启动用 `deploy/finhot.sh up` |
+| 精选或日报是空的，查卡在哪一层 | `deploy/finhot.sh doctor`（见下面“精选或日报是空的”） |
 
 `status` 里推送进程每轮一行，类似：
 
@@ -152,6 +153,28 @@ deploy/finhot.sh selection stats --target 40
 4. 等几分钟（`deploy/finhot.sh logs worker` 安静下来），`deploy/finhot.sh selection redo-daily --from 2026-10-11 --to 2026-10-12` 重编这几天的日报。
 
 新门槛只影响之后的精选和你补选的这几天；更早的不变。
+
+## 精选或日报是空的
+
+日报只收精选。一条快讯要依次过：入库 → 模型分析（预筛、两次评分、写标题摘要）→ 归组去重 → 精选，
+任何一层卡住，日报都会写“今日安静”。worker 不为每次模型调用打日志，`logs worker` 里看不出分析有没有在跑，要看数据库：
+
+```bash
+deploy/finhot.sh doctor            # 最近 3 天；--days 7 看更久
+```
+
+它逐层打印：每天入库多少、分析完多少、几篇够精选、几篇卡在归组、真正进了精选几篇；再加最近 24 小时每小时的
+模型调用次数和失败原因、预算熔断、队列积压、worker 心跳、最近几期日报的取材统计（打过分几篇、精选几篇）和当前告警。
+最后一节“结论”直接说卡在哪一层、该怎么处理。只读，不调用模型。
+
+原因修好以后（比如模型余额、限流、改了配置）：
+
+1. `deploy/finhot.sh doctor --fix`：分析失败的文章重新排队；归组失败或卡了一小时以上的精选候选重新归组（会调用模型）；
+2. 过半小时再跑一次 `deploy/finhot.sh doctor`，看第 4 节“精选”的篇数回来了没有；
+3. `deploy/finhot.sh selection redo-daily --from 2026-10-11 --to 2026-10-12` 重编受影响的那几天的日报。
+   周报会在它那一周的日报有内容后自动补上。
+
+部署当天那期日报（它的时间窗在网站收到第一篇文章之前，里面不可能有内容）不生成，也不算“日报缺失”。
 
 ## 盘面页：涨停原因与信号战绩
 

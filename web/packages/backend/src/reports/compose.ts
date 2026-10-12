@@ -302,13 +302,16 @@ export async function composeDueReports(now = new Date(), limit = 8): Promise<{ 
   ];
   // Weeklies and monthlies sum up dailies: a period that ended before the site's first daily has nothing to sum
   // up and is not due (a site started mid-month would otherwise fail that month's issue on every run).
-  const [{ first: firstDaily }] = await sql<{ first: string | null }[]>`SELECT min(key) AS first FROM reports WHERE kind = 'daily'`;
+  const [{ first: firstDaily, firstArticle }] = await sql<{ first: string | null; firstArticle: Date | null }[]>`
+    SELECT (SELECT min(key) FROM reports WHERE kind = 'daily') AS first, (SELECT min(discovered_at) FROM articles) AS "firstArticle"`;
   kinds: for (const k of kinds) {
     const have = new Set((await sql<{ key: string }[]>`SELECT key FROM reports WHERE kind = ${k.kind}`).map((r) => r.key));
     const first = [...have].sort()[0] ?? k.due;
     for (let key = first; key <= k.due; key = k.next(key)) {
       if (have.has(key)) continue;
       if (k.kind !== "daily" && (!firstDaily || k.end(key) < firstDaily)) continue;
+      // A daily whose window closed before the site's first article (the deploy day's) has nothing to carry.
+      if (k.kind === "daily" && firstArticle && beijingAt(key, EDITION_TIMES.daily) <= firstArticle) continue;
       if (shutdownSignal.signal.aborted || generated.length >= limit) break kinds;
       try {
         await k.compose(key);
