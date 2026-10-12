@@ -12,7 +12,7 @@
 
 状态（缓冲、已推送的条目）存在 data/push-state.json，重启后接着来。
 
-每个交易日收盘后，还顺带跑一次盘面任务（finhot/market_job.py）：涨停原因和信号战绩，推给网站的“盘面”页。
+每个交易日收盘后，还顺带跑一次盘面任务（finhot/market_job.py）：涨停原因，推给网站的“盘面”页。
 
 环境变量：
   FINHOT_ENGINE_URL         引擎 API 地址，默认 http://127.0.0.1:3001
@@ -262,14 +262,15 @@ def market_round(cfg: PushConfig, state: PushState, pusher: Pusher, sources: lis
     """收盘后的盘面任务；成功记日期，失败 30 分钟后再试。"""
     from . import market_job
     from .llm import LLMClient
+    from .site_api import Site
 
     at = now()
     if not market_job.due(at, state.market_done, state.market_tried):
         return
-    log.info("收盘了，开始算涨停原因和信号战绩")
+    log.info("收盘了，开始算涨停原因")
     try:
-        engine = market_job.Engine(cfg.engine_url, cfg.token, pusher.session)
-        log.info("盘面任务完成：%s", market_job.run_market(engine, sources, DATA_DIR, at=at, llm=LLMClient.from_env()))
+        site = Site(cfg.engine_url, cfg.token, pusher.session)
+        log.info("盘面任务完成：%s", market_job.run_market(site, sources, DATA_DIR, at=at, llm=LLMClient.from_env()))
         state.market_done, state.market_tried = at.date().isoformat(), None
     except Exception as e:  # noqa: BLE001 —— 盘面失败不影响快讯推送
         log.warning("盘面任务失败，30 分钟后再试：%s", e)

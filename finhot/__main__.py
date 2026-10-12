@@ -12,7 +12,8 @@
   python -m finhot push --once --dry-run   # 只跑一轮、打印会推哪些，不真的推
   python -m finhot gold --n 200        # 抽金标样本，生成标注页 data/gold/label.html（见 finhot/gold.py）
   python -m finhot backtest            # 信号战绩：日报里存下的信号之后几天的表现（reports/backtest/latest.md）
-  python -m finhot push-market         # 马上算一次涨停原因和信号战绩，推给网站“盘面”页（平时推送进程收盘后自动跑）
+  python -m finhot push-market         # 马上算一次涨停原因，推给网站“盘面”页（平时推送进程收盘后自动跑）
+  python -m finhot probe               # 检查行情数据接口（东方财富、同花顺、新浪）在这台机器上能不能连通
 """
 
 from __future__ import annotations
@@ -181,15 +182,22 @@ def cmd_push_market(args) -> int:
     from . import market_job
     from .llm import LLMClient
     from .push import Pusher, PushConfig, push_sources
+    from .site_api import Site
 
     cfg = PushConfig.from_env()
     if len(cfg.token) < 16:
         print("没有设置 INGEST_TOKEN（至少 16 位，和网站 .env 里的一样）", file=sys.stderr)
         return 2
-    engine = market_job.Engine(cfg.engine_url, cfg.token, Pusher(cfg).session)
+    site = Site(cfg.engine_url, cfg.token, Pusher(cfg).session)
     sources = push_sources(cfg, load_sources()["sources"])
-    print(market_job.run_market(engine, sources, DATA_DIR, llm=None if args.no_llm else LLMClient.from_env()))
+    print(market_job.run_market(site, sources, DATA_DIR, llm=None if args.no_llm else LLMClient.from_env()))
     return 0
+
+
+def cmd_probe(args) -> int:
+    from .probe import probe
+
+    return probe()
 
 
 def cmd_backtest(args) -> int:
@@ -258,7 +266,10 @@ def main(argv: list[str] | None = None) -> int:
     pu.add_argument("--only", help="只推指定信源，逗号分隔")
     pu.set_defaults(func=cmd_push)
 
-    pm = sub.add_parser("push-market", help="马上算一次涨停原因和信号战绩，推给网站“盘面”页")
+    pr = sub.add_parser("probe", help="检查行情数据接口在这台机器上能不能连通")
+    pr.set_defaults(func=cmd_probe)
+
+    pm = sub.add_parser("push-market", help="马上算一次涨停原因，推给网站“盘面”页")
     pm.add_argument("--no-llm", action="store_true", help="不用模型改写涨停原因")
     pm.set_defaults(func=cmd_push_market)
 

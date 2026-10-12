@@ -137,3 +137,50 @@ def test_no_benchmark_prices_means_no_result_and_the_previous_report_stays(tmp_p
     except bt.PricesUnavailable as e:
         assert "中证1000" in str(e)
     assert old.read_text(encoding="utf-8") == "上一次的结果"
+
+
+def test_selected_items_with_a_direction_become_theme_signals():
+    sigs = bt.Signals()
+    n = bt.selected_signals([
+        {"title": "存储芯片涨价", "reason": "利好 半导体、存储，依据：多家厂商上调合约价", "publishedAt": "2026-10-09T01:00:00Z"},
+        {"title": "某银行被罚", "reason": "利空 银行，依据：监管罚单", "publishedAt": "2026-10-09T02:00:00Z"},
+        {"title": "海外数据", "reason": "中性 海外宏观，依据：符合预期", "publishedAt": "2026-10-09T02:00:00Z"},
+        {"title": "没写影响", "reason": None, "publishedAt": "2026-10-09T02:00:00Z"},
+    ], sigs)
+    got = sorted((s.kind, s.theme) for s in sigs.values())
+    assert n == 2 and got == [("精选利好", "半导体"), ("精选利空", "银行")]
+    assert sigs.values()[0].at == at(9, 9)  # UTC → 北京时间
+
+
+class FakeSite:
+    def __init__(self, selected=(), token="t" * 20, down=False):
+        self._selected, self.token, self.down, self.pushed = list(selected), token, down, []
+
+    def selected(self):
+        if self.down:
+            raise ConnectionError("site unreachable")
+        return self._selected
+
+    def push(self, kind, key, data):
+        self.pushed.append((kind, key, data))
+
+
+def test_with_the_site_configured_its_selected_calls_join_and_the_record_is_pushed(tmp_path, monkeypatch):
+    data = tmp_path / "data"
+    write(data / "2026-10-09" / "items.jsonl", [news("芯片利好", at(9, 8))])
+    monkeypatch.setattr(bt, "now", lambda: at(15, 20))
+    site = FakeSite([{"title": "存储涨价", "reason": "利好 半导体，依据：涨价", "publishedAt": "2026-10-09T00:30:00Z"}])
+    bt.run_backtest(days=30, out_dir=tmp_path / "out", data_dir=data, source=FakeSource(), site=site)
+    assert [(k, key) for k, key, _ in site.pushed] == [("record", "2026-10-15")]
+    rows = {r["kind"]: r for r in site.pushed[0][2]["rows"]}
+    assert rows["精选利好"]["reaction_1_mean"] == 10.0 and rows["利好新闻"]["n"] == 1
+
+
+def test_an_unreachable_site_still_gives_the_static_record(tmp_path, monkeypatch):
+    data = tmp_path / "data"
+    write(data / "2026-10-09" / "items.jsonl", [news("芯片利好", at(9, 8))])
+    monkeypatch.setattr(bt, "now", lambda: at(15, 20))
+    site = FakeSite(down=True)
+    md = bt.run_backtest(days=30, out_dir=tmp_path / "out", data_dir=data, source=FakeSource(), site=site).read_text()
+    assert "| 利好新闻 | 1 |" in md and "网站精选读取失败：ConnectionError" in md
+    assert [k for k, _, _ in site.pushed] == ["record"]

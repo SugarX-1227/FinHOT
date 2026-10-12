@@ -52,6 +52,9 @@ jobs:
           LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
           LLM_MODEL: ${{ vars.LLM_MODEL }}
           LLM_BODY_EXTRA: ${{ vars.LLM_BODY_EXTRA }}
+          # 盘后回测算好的信号战绩推到网站“盘面”页（不配就只更新静态站的“战绩”页）
+          FINHOT_SITE_URL: ${{ vars.FINHOT_SITE_URL }}
+          FINHOT_INGEST_TOKEN: ${{ secrets.FINHOT_INGEST_TOKEN }}
           MODE: ${{ github.event.inputs.mode || 'auto' }}
           HOURS: ${{ github.event.inputs.hours }}
           NO_LLM: ${{ github.event.inputs.no_llm }}
