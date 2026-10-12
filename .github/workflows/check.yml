@@ -25,6 +25,10 @@ jobs:
         run: |
           python -m finhot run --no-llm --hours 6 --out "$RUNNER_TEMP/out"
           cat "$RUNNER_TEMP/out/latest.md"
+      - name: Backtest smoke
+        run: |
+          python -m finhot backtest --out "$RUNNER_TEMP/out"
+          cat "$RUNNER_TEMP/out/backtest/latest.md"
       - name: Weekly + site smoke
         run: |
           python -m finhot weekly --no-llm --out "$RUNNER_TEMP/out"
