@@ -1,8 +1,7 @@
 """网站（web/ 引擎）的两个接口：读精选快照、往“盘面”页推数据。
 
-- 服务器上的推送进程用它推涨停原因（引擎地址 http://api:3001，token 是 INGEST_TOKEN）；
-- GitHub Actions 上的回测用它读精选里的利好 / 利空、推信号战绩（FINHOT_SITE_URL + FINHOT_INGEST_TOKEN，
-  在仓库 Settings → Secrets and variables → Actions 里配置；不配就不推，静态站照常有“战绩”页）。
+- 服务器上的推送进程用它读精选、推涨停原因和信号战绩（引擎地址 http://api:3001，token 是 INGEST_TOKEN）；
+- GitHub Actions 上的回测用它读精选里的利好 / 利空（FINHOT_SITE_URL，公开接口，不用 token），只出静态站的战绩。
 """
 
 from __future__ import annotations
@@ -24,7 +23,7 @@ class Site:
     @classmethod
     def from_env(cls) -> "Site | None":
         url = env("FINHOT_SITE_URL").rstrip("/")
-        return cls(url, env("FINHOT_INGEST_TOKEN") or env("INGEST_TOKEN")) if url else None
+        return cls(url) if url else None
 
     def selected(self, pages: int = 20) -> list[dict[str, Any]]:
         """精选快照（/api/v1/selected/snapshot），翻到最后一页。"""
@@ -43,7 +42,7 @@ class Site:
     def push(self, kind: str, key: str, data: dict) -> None:
         """推到“盘面”页（web/modules/market）。"""
         if len(self.token) < 16:
-            raise RuntimeError("没有推送 token（INGEST_TOKEN / FINHOT_INGEST_TOKEN，至少 16 位）")
+            raise RuntimeError("没有推送 token（web/.env 的 INGEST_TOKEN，至少 16 位）")
         res = self.session.post(f"{self.url}/api/finhot/market", json={"kind": kind, "key": key, "data": data},
                                 headers={"Authorization": f"Bearer {self.token}"}, timeout=60)
         if res.status_code == 404:

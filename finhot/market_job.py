@@ -1,13 +1,13 @@
-"""服务器上的盘面任务：交易日收盘后算好涨停原因，推给网站的“盘面”页（web/modules/market）。
+"""服务器上的盘面任务：交易日收盘后算好涨停原因和信号战绩，推给网站的“盘面”页（web/modules/market）。
 
 推送进程（python -m finhot push）每轮顺带看一眼：北京时间工作日 15:10 以后、今天还没推成功，就跑一次。
 行情快照（涨停池、同花顺原因；东方财富板块连不上时用新浪的）+ 最近 30 小时的快讯作依据，和日报里的“涨停原因”
 同一套规则；配了模型（LLM_*）时按依据改写一句话原因。存一份到 data/<日期>/limitup.json。
 节假日（交易日期不是今天）只记一下，不推。推送失败 30 分钟后再试。
 
-信号战绩不在这里算：东方财富的板块列表对国内云服务器的 IP 不开放（腾讯云上海实测直接断开），改在 GitHub Actions 上
-跟着日报算好再推过来
-（finhot/backtest.py 的 run_backtest）。
+信号战绩也在这里算（finhot/backtest.py）：网站精选里的利好 / 利空 + 这里存下的涨停主线。东方财富的日 K 在服务器上
+取得到（GitHub 的机器上经常被断开）；板块列表（clist）在这里取不到，用随代码发布的 sources/eastmoney_boards.json。
+战绩没算成不影响涨停原因（已经推了），只在结果里说一声。
 """
 
 from __future__ import annotations
@@ -19,6 +19,7 @@ from pathlib import Path
 from typing import Callable
 
 from .ashare import MarketSnapshot, fetch_snapshot
+from .backtest import run_backtest
 from .collect import collect
 from .crosscheck import cross_check
 from .dedup import dedup
@@ -47,8 +48,16 @@ def limitup_day(snap: MarketSnapshot, rows: list) -> dict:
             "ladder": snap.ladder, "stocks": [r.to_dict() for r in rows]}
 
 
+def push_record(site: Site, data_dir: Path) -> str:
+    """信号战绩：算好推到网站。结果文件放在 data/record/ 下（不和按日期的目录混在一起）。"""
+    run_backtest(days=90, out_dir=data_dir / "record", data_dir=data_dir, site=site, push=True)
+    summary = json.loads((data_dir / "record" / "data" / "backtest" / "summary.json").read_text(encoding="utf-8"))
+    return "信号战绩 " + ("、".join(f"{r['kind']} {r['n']}" for r in summary["rows"]) or "暂无信号")
+
+
 def run_market(site: Site, sources: list[dict], data_dir: Path, at: datetime | None = None,
-               snapshot: Callable[[], MarketSnapshot] = fetch_snapshot, llm=None) -> str:
+               snapshot: Callable[[], MarketSnapshot] = fetch_snapshot, llm=None,
+               record: Callable[[Site, Path], str] = push_record) -> str:
     """跑一次盘面任务，返回一句结果。抛异常表示没推成功（稍后再试）。"""
     at = at or now()
     today = at.astimezone(TZ).date()
@@ -70,5 +79,10 @@ def run_market(site: Site, sources: list[dict], data_dir: Path, at: datetime | N
     ddir.mkdir(parents=True, exist_ok=True)
     (ddir / "limitup.json").write_text(json.dumps(day, ensure_ascii=False, indent=1), encoding="utf-8")
     site.push("limitup", snap.trade_date, day)
-    return (f"涨停 {len(rows)} 只，有依据 {coverage(rows):.0f}%，同花顺原因 {len(snap.zt_reasons)} 条，"
-            f"模型改写 {rewritten} 条；依据新闻 {len(items)} 条")
+    msg = (f"涨停 {len(rows)} 只，有依据 {coverage(rows):.0f}%，同花顺原因 {len(snap.zt_reasons)} 条，"
+           f"模型改写 {rewritten} 条；依据新闻 {len(items)} 条")
+    try:
+        return f"{msg}；{record(site, data_dir)}"
+    except Exception as e:  # noqa: BLE001 —— 涨停原因已经推了，战绩下一个交易日再算
+        log.warning("信号战绩没算成：%s", e)
+        return f"{msg}；信号战绩没算成：{e}"
