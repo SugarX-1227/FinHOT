@@ -24,6 +24,10 @@ git subtree pull --prefix web https://github.com/KKKKhazix/aihot main --squash
 | 新增 `scripts/finhot-selection.ts`：评分分布与门槛建议、按新门槛补选（复用已付费的评分）、重编日报 | `scripts/finhot-selection.ts` | 没有标注样本时按“每天想要几件精选”定门槛；上游没有补选和重编日报的入口 |
 | 测试里的示例行业（AI 的分类、标签、公司、主题）换成财经的对应项 | `tests/*.test.ts`、`apps/web/tests/*.test.ts` | 上游要求改了 `industry/taxonomy.ts` 后同步换掉测试例子；合并上游时这些文件最容易冲突，冲突时保留上游的测试逻辑、换回财经的例子 |
 
+本站自己的模块（`modules/`，不算引擎改动，合并上游不冲突）：`modules/market`（“盘面”页：涨停原因与信号战绩，
+数据由 FinHOT 推送进程推到 `POST /api/finhot/market`，用 `INGEST_TOKEN`），登记在 `site/modules/` 三份清单、
+`site/package.json` 和 `Dockerfile`。
+
 财经定制本身（不算引擎改动）：`site/site.ts`（站名文案、“A股影响”）、`site/brand/nameplates/`（财经日报报头字）、`site/changelog.json`、
 `industry/taxonomy.ts`（7 个分类、标签、公司）、`industry/topics.json`（公司 / 题材 / 政策与数据 三组主题）、`industry/sources.json`、
 `industry/prompts/`（预筛、注意力评分、内容理解、写作规则）、`industry/selection.ts`（门槛 T1 60 / T1_5 62 / T2 64，

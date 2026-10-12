@@ -37,8 +37,10 @@ MIN_LLM_SCORE = 7.0
 MAX_BOARDS = 3
 OPEN, CLOSE = time(9, 30), time(15, 0)
 
-# 信号类别 → 预设方向（True 看多、False 看空、None 不判对错）
-KINDS = {"利好新闻": True, "利空新闻": False, "共振": True, "资金先行": None, "新闻热·资金冷": False, "涨停主线": True}
+# 信号类别 → 预设方向（True 看多、False 看空、None 不判对错）。“精选利好 / 精选利空”是网站精选里 A股影响写了
+# 利好、利空的条目（服务器上的盘面任务读网站接口得到，见 market_job.py）
+KINDS = {"精选利好": True, "精选利空": False, "利好新闻": True, "利空新闻": False, "共振": True, "资金先行": None,
+         "新闻热·资金冷": False, "涨停主线": True}
 
 
 @dataclass
@@ -77,15 +79,27 @@ def _session_key(at: datetime) -> str:
     return (d.date() + timedelta(days=1)).isoformat() if d.time() >= CLOSE else d.date().isoformat()
 
 
-def load_signals(data_dir: Path = DATA_DIR, since: date | None = None) -> list[Signal]:
-    merged: dict[tuple[str, str, str], Signal] = {}
+class Signals:
+    """同一天、同一题材、同一类信号合并成一个。"""
 
-    def add(kind: str, at: datetime, theme: str, title: str) -> None:
+    def __init__(self) -> None:
+        self.merged: dict[tuple[str, str, str], Signal] = {}
+
+    def add(self, kind: str, at: datetime, theme: str, title: str) -> None:
         key = (kind, theme, _session_key(at))
-        if key in merged:
-            merged[key].count += 1
+        if key in self.merged:
+            self.merged[key].count += 1
         else:
-            merged[key] = Signal(kind, at, theme, title)
+            self.merged[key] = Signal(kind, at, theme, title)
+
+    def values(self) -> list[Signal]:
+        return sorted(self.merged.values(), key=lambda s: s.at)
+
+
+def load_signals(data_dir: Path = DATA_DIR, since: date | None = None, into: Signals | None = None) -> list[Signal]:
+    """data/ 里存下的信号：新闻（模型标了方向的）、新闻 × 资金的判断、涨停主线。"""
+    found = into or Signals()
+    add = found.add
 
     for day_dir in sorted(p for p in data_dir.iterdir() if p.is_dir() and p.name[:2] == "20"):
         try:
@@ -123,7 +137,7 @@ def load_signals(data_dir: Path = DATA_DIR, since: date | None = None) -> list[S
             for theme, names in counts.items():
                 if len(names) >= 3:
                     add("涨停主线", at, theme, f"涨停 {len(names)} 家：{'、'.join(names[:4])}")
-    return sorted(merged.values(), key=lambda s: s.at)
+    return found.values()
 
 
 # ------------------------------------------------------------------ 价格
@@ -281,13 +295,9 @@ def render(outcomes: list[Outcome], summary: list[dict], generated: datetime, st
             out.append(f"| {r['kind']} | {r['n']} | " + " | ".join(cells) + " |")
         out.append("")
 
-    by_theme: dict[str, list[float]] = defaultdict(list)
-    for o in outcomes:
-        if o.signal.kind == "利好新闻" and o.reaction.get(3) is not None:
-            by_theme[o.signal.theme].append(o.reaction[3])
-    ranked = sorted(((t, statistics.mean(v), len(v)) for t, v in by_theme.items() if len(v) >= 2), key=lambda x: -x[1])
+    ranked = [(r["theme"], r["mean"], r["n"]) for r in theme_ranking(outcomes)]
     if ranked:
-        out += ["## 利好新闻：哪些题材兑现得好（反应口径 T+3，至少 2 次）", "",
+        out += ["## 利好信号：哪些题材兑现得好（反应口径 T+3，至少 2 次）", "",
                 "| 题材 | 平均超额 | 次数 |", "|---|---:|---:|"]
         out += [f"| {t} | {m:+.2f}% | {n} |" for t, m, n in ranked[:8]]
         if len(ranked) > 8:
@@ -312,12 +322,8 @@ def render(outcomes: list[Outcome], summary: list[dict], generated: datetime, st
     return "\n".join(out)
 
 
-def run_backtest(days: int = 90, out_dir: Path | None = None, data_dir: Path = DATA_DIR,
-                 source: PriceSource | None = None) -> Path:
-    generated = now()
-    start = generated.date() - timedelta(days=days)
-    signals = load_signals(data_dir, since=start)
-    source = source or PriceSource()
+def compute(signals: list[Signal], source: PriceSource, generated: datetime) -> tuple[list[Outcome], list[str]]:
+    """取价格、算每个信号的收益。单个板块取不到不影响整体，记在 errors 里。"""
     errors: list[str] = []
     outcomes: list[Outcome] = []
     if signals:
@@ -334,6 +340,40 @@ def run_backtest(days: int = 90, out_dir: Path | None = None, data_dir: Path = D
             except Exception as e:  # noqa: BLE001 —— 单个板块失败不影响整体
                 errors.append(f"板块 {code} 日 K 获取失败：{type(e).__name__}")
         outcomes = evaluate(signals, prices, benchmark, mapping)
+    return outcomes, errors
+
+
+def theme_ranking(outcomes: list[Outcome], kinds: tuple[str, ...] = ("精选利好", "利好新闻"), k: int = 3,
+                  min_n: int = 2) -> list[dict]:
+    """看多信号里，哪些题材兑现得好（反应口径 T+k 平均超额，至少 min_n 次）。"""
+    by_theme: dict[str, list[float]] = defaultdict(list)
+    for o in outcomes:
+        if o.signal.kind in kinds and o.reaction.get(k) is not None:
+            by_theme[o.signal.theme].append(o.reaction[k])
+    ranked = [{"theme": t, "mean": round(statistics.mean(v), 2), "n": len(v)} for t, v in by_theme.items() if len(v) >= min_n]
+    return sorted(ranked, key=lambda r: -r["mean"])
+
+
+def record_payload(outcomes: list[Outcome], generated: datetime, start: date, recent: int = 15) -> dict:
+    """网站“盘面”页要的战绩数据（web/modules/market/types.ts 的 RecordData）。"""
+    latest = sorted(outcomes, key=lambda o: o.signal.at, reverse=True)[:recent]
+    return {
+        "generated": generated.isoformat(), "since": start.isoformat(), "benchmark": BENCHMARK[1],
+        "rows": summarize(outcomes),
+        "recent": [{"at": o.signal.at.isoformat(), "kind": o.signal.kind, "theme": o.signal.theme,
+                    "title": o.signal.title, "count": o.signal.count,
+                    "reaction": {str(k): v for k, v in o.reaction.items()},
+                    "tradable": {str(k): v for k, v in o.tradable.items()}} for o in latest],
+        "themes": theme_ranking(outcomes)[:8],
+    }
+
+
+def run_backtest(days: int = 90, out_dir: Path | None = None, data_dir: Path = DATA_DIR,
+                 source: PriceSource | None = None) -> Path:
+    generated = now()
+    start = generated.date() - timedelta(days=days)
+    signals = load_signals(data_dir, since=start)
+    outcomes, errors = compute(signals, source or PriceSource(), generated)
     summary = summarize(outcomes)
     md = render(outcomes, summary, generated, start, errors)
 
