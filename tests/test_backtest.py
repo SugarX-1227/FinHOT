@@ -1,7 +1,7 @@
 """回测：信号从哪里来、怎么合并、两种口径的收益怎么算、胜率怎么判。价格用假的，不访问网络。"""
 
 import json
-from datetime import date, datetime, timedelta
+from datetime import date, datetime
 
 from finhot import backtest as bt
 from finhot.backtest import Bar, Signal, evaluate, load_signals, parse_board_list, parse_klines, summarize, theme_boards
@@ -184,3 +184,30 @@ def test_an_unreachable_site_still_gives_the_static_record(tmp_path, monkeypatch
     md = bt.run_backtest(days=30, out_dir=tmp_path / "out", data_dir=data, source=FakeSource(), site=site).read_text()
     assert "| 利好新闻 | 1 |" in md and "网站精选读取失败：ConnectionError" in md
     assert [k for k, _, _ in site.pushed] == ["record"]
+
+
+class NoBoardListSource(FakeSource):
+    def boards(self):
+        raise ConnectionError("Remote end closed connection without response")  # 腾讯云上 clist 就是这样
+
+
+def test_the_board_list_is_saved_and_reused_when_the_list_api_is_blocked(tmp_path, monkeypatch):
+    data = tmp_path / "data"
+    write(data / "2026-10-09" / "items.jsonl", [news("芯片利好", at(9, 8))])
+    monkeypatch.setattr(bt, "now", lambda: at(15, 20))
+    bt.run_backtest(days=30, out_dir=tmp_path / "out", data_dir=data, source=FakeSource())
+    saved = data / "backtest" / "boards.json"
+    assert json.loads(saved.read_text(encoding="utf-8")) == [{"code": "BK1", "name": "半导体", "kind": "industry"}]
+    md = bt.run_backtest(days=30, out_dir=tmp_path / "out", data_dir=data, source=NoBoardListSource()).read_text()
+    assert "| 利好新闻 | 1 | +10.00% · 100%" in md and "板块列表取不到（ConnectionError），用的是上次存下的 1 个板块" in md
+
+
+def test_no_board_list_and_nothing_saved_keeps_the_previous_report(tmp_path, monkeypatch):
+    data = tmp_path / "data"
+    write(data / "2026-10-09" / "items.jsonl", [news("芯片利好", at(9, 8))])
+    monkeypatch.setattr(bt, "now", lambda: at(15, 20))
+    try:
+        bt.run_backtest(days=30, out_dir=tmp_path / "out", data_dir=data, source=NoBoardListSource())
+        raise AssertionError("expected PricesUnavailable")
+    except bt.PricesUnavailable as e:
+        assert "板块列表取不到" in str(e)
