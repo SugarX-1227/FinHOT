@@ -16,6 +16,7 @@ cd "$(dirname "$0")/.."
 ENV_FILE=web/.env
 NPM_REGISTRY=${NPM_REGISTRY:-https://registry.npmmirror.com}
 PIP_INDEX_URL=${PIP_INDEX_URL:-https://mirrors.cloud.tencent.com/pypi/simple}
+APT_MIRROR=${APT_MIRROR:-mirrors.cloud.tencent.com}
 
 compose() { docker compose --env-file "$ENV_FILE" "$@"; }
 need_env() {
@@ -25,7 +26,7 @@ need_env() {
   fi
 }
 build() {
-  compose build --build-arg "NPM_REGISTRY=$NPM_REGISTRY" --build-arg "PIP_INDEX_URL=$PIP_INDEX_URL"
+  compose build --build-arg "NPM_REGISTRY=$NPM_REGISTRY" --build-arg "PIP_INDEX_URL=$PIP_INDEX_URL" --build-arg "APT_MIRROR=$APT_MIRROR"
 }
 
 case "${1:-help}" in
