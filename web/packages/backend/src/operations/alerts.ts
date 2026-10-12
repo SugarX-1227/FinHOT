@@ -285,9 +285,10 @@ async function alertState(): Promise<AlertState> {
 async function dailyReportFindings(now: number): Promise<Finding[]> {
   const today = beijingDate(now);
   const state = await alertState();
-  const [activity] = await sql<{ first_report: string | null; first_attempt: Date | null }[]>`
+  const [activity] = await sql<{ first_report: string | null; first_attempt: Date | null; first_article: Date | null }[]>`
     SELECT (SELECT min(key) FROM reports WHERE kind = 'daily') AS first_report,
-           (SELECT min(started_at) FROM job_runs WHERE job = 'reports.compose') AS first_attempt`;
+           (SELECT min(started_at) FROM job_runs WHERE job = 'reports.compose') AS first_attempt,
+           (SELECT min(discovered_at) FROM articles) AS first_article`;
   const starts = [activity?.first_report, activity?.first_attempt && beijingDate(activity.first_attempt)]
     .filter((date): date is string => !!date && isValidDate(date)).sort();
   const start = starts[0] ?? today;
@@ -296,7 +297,9 @@ async function dailyReportFindings(now: number): Promise<Finding[]> {
   for (let date = addDays(today, -6); date <= today; date = addDays(date, 1)) {
     if (date >= start) dates.add(date);
   }
-  const overdue = [...dates].filter(date => now >= beijingAt(date, EDITION_TIMES.daily).getTime() + 2 * 3600_000).sort();
+  const overdue = [...dates].filter(date => now >= beijingAt(date, EDITION_TIMES.daily).getTime() + 2 * 3600_000
+    // An issue whose window closed before the site's first article (the deploy day's) has nothing to carry.
+    && !(activity?.first_article && beijingAt(date, EDITION_TIMES.daily) <= activity.first_article)).sort();
   if (!overdue.length) return [];
   const published = new Set((await sql<{ key: string }[]>`SELECT key FROM reports WHERE kind = 'daily' AND key IN ${sql(overdue)}`).map(r => r.key));
   return overdue.filter(date => !published.has(date)).map(date => ({

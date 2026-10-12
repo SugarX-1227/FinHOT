@@ -97,3 +97,10 @@ test("a week or month that ended before the first daily is not due, so a site st
   assert.equal(await report("weekly", "2024-W05"), undefined);
   assert.equal(await report("monthly", "2024-01"), undefined);
 });
+
+test("the deploy day's daily, whose window closed before the first article, is not due; the next day's is", async () => {
+  // The site starts on 2024-03-04 at 20:00, after that day's edition time: that day's window (the day before) holds nothing.
+  await item("2024-03-05");
+  assert.deepEqual(await composeDueReports(editionAt("daily", "2024-03-04", 13 * 3600)), { generated: [], failed: [] });
+  assert.deepEqual(await composeDueReports(editionAt("daily", "2024-03-05", 3600)), { generated: ["daily:2024-03-05"], failed: [] });
+});

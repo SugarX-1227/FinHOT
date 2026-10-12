@@ -74,3 +74,17 @@ test("legacy alert migrates its date and preserves reminder timing", async () =>
   result = await checkAlerts(at("2026-10-07", "00:31"));
   assert.deepEqual(daily(result.sent), [key("2026-10-06")]);
 });
+
+test("the deploy day's daily is not missing: its window closed before the site's first article", async () => {
+  const first = new Date(at("2026-10-05", "10:00"));
+  await sql`INSERT INTO sources (id, name, kind, tier) VALUES ('alerts-deploy-day', 'Deploy day', 'rss', 'T1')`;
+  await sql`INSERT INTO articles (id, source_id, identity_key, url, title, discovered_at, timeline_at)
+    VALUES ('alerts-deploy-day', 'alerts-deploy-day', 'alerts-deploy-day', 'https://example.com/a', 'a', ${first}, ${first})`;
+  try {
+    await sql`INSERT INTO job_runs(job,started_at,status) VALUES('reports.compose',${first},'failed')`;
+    assert.deepEqual(daily((await collectFindings(at("2026-10-07"))).map(f => f.key)), [key("2026-10-06"), key("2026-10-07")]);
+  } finally {
+    await sql`DELETE FROM articles WHERE id = 'alerts-deploy-day'`;
+    await sql`DELETE FROM sources WHERE id = 'alerts-deploy-day'`;
+  }
+});
