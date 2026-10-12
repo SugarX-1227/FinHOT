@@ -38,10 +38,11 @@ HORIZONS = (1, 3, 5)
 BENCHMARK = ("1.000852", "中证1000")
 MIN_LLM_SCORE = 7.0
 MAX_BOARDS = 3
+BOARDS_CACHE = "boards.json"   # data/backtest/ 下，盘后版日报提交进仓库
 OPEN, CLOSE = time(9, 30), time(15, 0)
 
 # 信号类别 → 预设方向（True 看多、False 看空、None 不判对错）。“精选利好 / 精选利空”是网站精选里 A股影响写了
-# 利好、利空的条目（服务器上的盘面任务读网站接口得到，见 market_job.py）
+# 利好、利空的条目（配了 FINHOT_SITE_URL 时读网站接口得到，见 run_backtest）
 KINDS = {"精选利好": True, "精选利空": False, "利好新闻": True, "利空新闻": False, "共振": True, "资金先行": None,
          "新闻热·资金冷": False, "涨停主线": True}
 
@@ -197,7 +198,30 @@ def theme_boards(themes: set[str], boards: list[dict]) -> dict[str, list[dict]]:
 
 
 class PricesUnavailable(RuntimeError):
-    """基准指数的日 K 取不到：没法算超额，这次不出结果（保留上一次的）。"""
+    """基准指数的日 K 或板块列表取不到：没法算超额，这次不出结果（保留上一次的）。"""
+
+
+def load_boards(source: PriceSource, cache: Path | None, errors: list[str]) -> list[dict]:
+    """板块列表（东财 clist）。取到了存一份；取不到用上次存的——板块代码很少变，
+    而 clist 对部分机房 IP（比如腾讯云）不开放，日 K（push2his）却能取到。"""
+    try:
+        boards = source.boards()
+        failure = "返回空列表"
+    except Exception as e:  # noqa: BLE001
+        boards, failure = [], type(e).__name__
+    if boards:
+        if cache:
+            text = "[\n" + ",\n".join(json.dumps(b, ensure_ascii=False) for b in
+                                       sorted(boards, key=lambda b: (b["kind"], b["code"]))) + "\n]\n"
+            cache.parent.mkdir(parents=True, exist_ok=True)
+            if not cache.exists() or cache.read_text(encoding="utf-8") != text:  # 顺序固定，没变就不改文件
+                cache.write_text(text, encoding="utf-8")
+        return boards
+    if cache and cache.exists():
+        saved = json.loads(cache.read_text(encoding="utf-8"))
+        errors.append(f"板块列表取不到（{failure}），用的是上次存下的 {len(saved)} 个板块")
+        return saved
+    raise PricesUnavailable(f"板块列表取不到（{failure}），也没有存下的")
 
 
 class PriceSource:
@@ -339,7 +363,7 @@ def render(outcomes: list[Outcome], summary: list[dict], generated: datetime, st
                 "| 题材 | 平均超额 | 次数 |", "|---|---:|---:|"]
         out += [f"| {t} | {m:+.2f}% | {n} |" for t, m, n in ranked[:8]]
         if len(ranked) > 8:
-            out += [f"| … | | |"] + [f"| {t} | {m:+.2f}% | {n} |" for t, m, n in ranked[-3:]]
+            out += ["| … | | |"] + [f"| {t} | {m:+.2f}% | {n} |" for t, m, n in ranked[-3:]]
         out.append("")
 
     recent = sorted(outcomes, key=lambda o: o.signal.at, reverse=True)[:15]
@@ -360,7 +384,8 @@ def render(outcomes: list[Outcome], summary: list[dict], generated: datetime, st
     return "\n".join(out)
 
 
-def compute(signals: list[Signal], source: PriceSource, generated: datetime) -> tuple[list[Outcome], list[str]]:
+def compute(signals: list[Signal], source: PriceSource, generated: datetime,
+            boards_cache: Path | None = None) -> tuple[list[Outcome], list[str]]:
     """取价格、算每个信号的收益。单个板块取不到不影响整体，记在 errors 里。"""
     errors: list[str] = []
     outcomes: list[Outcome] = []
@@ -375,7 +400,7 @@ def compute(signals: list[Signal], source: PriceSource, generated: datetime) -> 
             raise PricesUnavailable(f"{BENCHMARK[1]}日 K 取不到：{type(e).__name__}") from e
         if not benchmark:
             raise PricesUnavailable(f"{BENCHMARK[1]}日 K 是空的")
-        mapping = theme_boards({s.theme for s in signals}, source.boards())
+        mapping = theme_boards({s.theme for s in signals}, load_boards(source, boards_cache, errors))
         prices: dict[str, list[Bar]] = {}
         for code in sorted({b["code"] for bs in mapping.values() for b in bs}):
             try:
@@ -430,7 +455,7 @@ def run_backtest(days: int = 90, out_dir: Path | None = None, data_dir: Path = D
         except Exception as e:  # noqa: BLE001 —— 网站连不上不影响静态站的战绩
             errors.append(f"网站精选读取失败：{type(e).__name__}")
     signals = [s for s in found.values() if s.at.astimezone(TZ).date() >= start]
-    outcomes, price_errors = compute(signals, source or PriceSource(), generated)
+    outcomes, price_errors = compute(signals, source or PriceSource(), generated, data_dir / "backtest" / BOARDS_CACHE)
     errors += price_errors
     summary = summarize(outcomes)
     md = render(outcomes, summary, generated, start, errors)

@@ -7,7 +7,7 @@
 #   logs [服务] 跟踪日志，服务名：api worker web pusher db（不写就是全部），Ctrl+C 退出
 #   update    拉取最新代码、重新构建、迁移数据库、重启
 #   backup    把数据库导出到 backups/
-#   restart [服务]  重启
+#   restart [服务]  重启（改了 web/.env 之后用它让新配置生效；不写服务就是 api worker web pusher）
 #   stop      停止全部服务（数据保留）
 #   selection stats|reselect|redo-daily  精选门槛：看分布和建议值、按新门槛补选、重编日报（见 docs/SERVER_SETUP.md）
 #   market    马上算一次涨停原因，推到网站“盘面”页（平时交易日收盘后自动跑）
@@ -77,7 +77,9 @@ case "${1:-help}" in
   restart)
     need_env
     shift
-    compose restart "$@"
+    # 重建容器而不是 compose restart：compose restart 不会重新读 web/.env，改了配置等于没改
+    [ $# -gt 0 ] || set -- api worker web pusher
+    compose up -d --no-deps --force-recreate "$@"
     ;;
   selection)
     need_env

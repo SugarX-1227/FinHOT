@@ -160,8 +160,10 @@ deploy/finhot.sh selection stats --target 40
 - **涨停原因**：服务器上的推送进程在**交易日 15:10 以后**自动算一次推上去。每只涨停股为什么涨停、依据是什么
   （公司公告、收评点名、同花顺涨停原因、领涨概念），带可信度；公司澄清、异常波动这类提示写在括号里。
   不想等收盘可以手动跑：`deploy/finhot.sh market`（交易日盘中跑的是盘中的涨停池）。
-- **信号战绩**：东方财富的板块列表对国内云服务器的 IP 不开放（会直接断开连接），所以放在 GitHub Actions 上跟着盘后版日报算
-  （本来就在算静态站的“战绩”页），算完推到网站。要让网站显示，在 GitHub 上配两项（只配一次）：
+- **信号战绩**：放在 GitHub Actions 上跟着盘后版日报算（本来就在算静态站的“战绩”页），算完推到网站。
+  放在那边是因为回测用的信号历史（`data/` 下每天的新闻、新闻 × 资金判断、涨停）是日报在 Actions 上生成、提交进仓库的，
+  服务器上没有这份历史。东方财富的板块列表（clist）对腾讯云 IP 不开放，但板块日 K 能取到，所以回测会把板块列表
+  存一份在 `data/backtest/boards.json`，哪天取不到就用存下的。要让网站显示，在 GitHub 上配两项（只配一次）：
 
   | 位置（仓库 Settings → Secrets and variables → Actions） | 名字 | 值 |
   |---|---|---|
@@ -176,8 +178,11 @@ deploy/finhot.sh selection stats --target 40
 推送进程的日志里能看到“盘面任务完成：涨停 xx 只，有依据 xx%……”；失败会写原因，30 分钟后自动再试。
 某个行情接口在服务器上连不上时，先跑 `deploy/finhot.sh probe`，它会列出每个接口在这台服务器上通不通。
 
-> token 会经过 http 发到服务器（没有 HTTPS），有被截获、被人往网站推内容的风险。内测阶段可以接受；
-> 怀疑泄露时在 `web/.env` 换一个新的 `INGEST_TOKEN`，`deploy/finhot.sh restart api pusher`，再更新 GitHub 上的 secret。
+> token 会经过 http 发到服务器（没有 HTTPS），有被截获、被人往网站推内容的风险。内测阶段可以接受。
+> 换 token（怀疑泄露，或者它出现在了别处，比如云控制台“执行命令”的历史记录里）：
+> 1. `python3 -c "import secrets; print(secrets.token_urlsafe(32))"` 生成一个新的，替换 `web/.env` 里 `INGEST_TOKEN=` 后面那串；
+> 2. `deploy/finhot.sh restart api pusher`（会重建这两个容器，读入新 token）；
+> 3. 把 GitHub 上的 secret `FINHOT_INGEST_TOKEN` 改成同一个值。
 
 ## 安全提醒
 
@@ -196,6 +201,9 @@ deploy/finhot.sh selection stats --target 40
 `LLM_BASE_URL` 要用 `https://open.bigmodel.cn/api/coding/paas/v4`。
 
 **推送进程报 401**：`web/.env` 里的 `INGEST_TOKEN` 被改过了。两边用的是同一个文件，`deploy/finhot.sh restart api pusher` 即可。
+
+**改了 `web/.env` 不生效**：2026-10-12 之前的 `deploy/finhot.sh restart` 用的是 `docker compose restart`，它不会重新读 `.env`。
+`deploy/finhot.sh update` 到最新后，`restart` 会重建容器、读入新配置；也可以直接 `docker compose --env-file web/.env up -d`。
 
 **美联储、CNBC、MarketWatch 抓不到**：国内服务器访问部分海外网站不稳。不影响国内快讯；可以在后台“信源”里暂停它们，或在 `web/.env` 设 `EGRESS_PROXY_URL` 走代理。
 
