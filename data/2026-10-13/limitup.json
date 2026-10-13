@@ -1,0 +1,1077 @@
+{
+ "trade_date": "2026-10-13",
+ "coverage": 100.0,
+ "stocks": [
+  {
+   "code": "002343",
+   "name": "慈文传媒",
+   "boards": 3,
+   "first_time": "0925",
+   "industry": "影视院线",
+   "stat": "3天3板",
+   "reason": "AI漫剧概念反复走强，微短剧+影视IP题材炒作",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "2连板慈文传媒：AIGC平台尚在建设完善中 相关项目在筹备推进中",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2502601"
+    },
+    {
+     "kind": "公司",
+     "text": "A股传媒板块连日走强，新经典、慈文传媒双双涨停，广电网络涨近9%，果麦文化、华智数媒、中原传媒、上海电影等个股跟涨",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261013093847354800"
+    },
+    {
+     "kind": "盘面",
+     "text": "AI漫剧概念反复走强，德才股份一字涨停，走出5天4板，慈文传媒、新经典3连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2502965"
+    },
+    {
+     "kind": "盘面",
+     "text": "慈文传媒、欢瑞世纪、吉视传媒、上海电影斩获两连板",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610123892989824.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "微短剧+影视IP+江西国资",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：电子布10月涨价落地 薄布涨幅更大",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3177289"
+    }
+   ],
+   "ths_reason": "微短剧+影视IP+江西国资",
+   "written_by": "模型"
+  },
+  {
+   "code": "603096",
+   "name": "新经典",
+   "boards": 3,
+   "first_time": "0925",
+   "industry": "出版",
+   "stat": "3天3板",
+   "reason": "AI漫剧概念带动传媒走强，图书出版+AI应用题材",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "医药",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "文化传媒板块再度活跃，新经典等股涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261013/c680620538.shtml"
+    },
+    {
+     "kind": "公司",
+     "text": "A股传媒板块连日走强，新经典、慈文传媒双双涨停，广电网络涨近9%，果麦文化、华智数媒、中原传媒、上海电影等个股跟涨",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261013093847354800"
+    },
+    {
+     "kind": "盘面",
+     "text": "AI漫剧概念反复走强，德才股份一字涨停，走出5天4板，慈文传媒、新经典3连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2502965"
+    },
+    {
+     "kind": "盘面",
+     "text": "时代万恒、华北制药、新华文轩、掌阅科技、上海电影、新经典、龙版传媒、欢瑞世纪、博纳影业、慈文传媒、丽人丽妆、东百集团、德才股份、格尔软件、远程股份、百洋股份、雄韬股份",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610123893029493.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "图书出版+AI应用+内容IP",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：电子布10月涨价落地 薄布涨幅更大",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3177289"
+    }
+   ],
+   "ths_reason": "图书出版+AI应用+内容IP",
+   "written_by": "模型"
+  },
+  {
+   "code": "605136",
+   "name": "丽人丽妆",
+   "boards": 3,
+   "first_time": "0930",
+   "industry": "互联网电",
+   "stat": "3天3板",
+   "reason": "化妆品电商题材跟涨，业绩扭亏获资金关注",
+   "confidence": "中",
+   "themes": [
+    "医药",
+    "消费",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "时代万恒、华北制药、新华文轩、掌阅科技、上海电影、新经典、龙版传媒、欢瑞世纪、博纳影业、慈文传媒、丽人丽妆、东百集团、德才股份、格尔软件、远程股份、百洋股份、雄韬股份",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610123893029493.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "化妆品电商+海外总代+业绩扭亏",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "化妆品电商+海外总代+业绩扭亏",
+   "written_by": "模型"
+  },
+  {
+   "code": "002696",
+   "name": "百洋股份",
+   "boards": 3,
+   "first_time": "0934",
+   "industry": "饲料",
+   "stat": "3天3板",
+   "reason": "大消费板块走强，鱼粉涨价+水产饲料题材",
+   "confidence": "中",
+   "themes": [
+    "医药",
+    "消费",
+    "农业"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "大消费板块九阳股份（6板）低开4.93%、百洋股份（2板）高开6.09%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2502959"
+    },
+    {
+     "kind": "盘面",
+     "text": "时代万恒、华北制药、新华文轩、掌阅科技、上海电影、新经典、龙版传媒、欢瑞世纪、博纳影业、慈文传媒、丽人丽妆、东百集团、德才股份、格尔软件、远程股份、百洋股份、雄韬股份",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610123893029493.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "水产饲料+鱼粉涨价+青岛国资",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "水产饲料+鱼粉涨价+青岛国资",
+   "written_by": "模型"
+  },
+  {
+   "code": "600693",
+   "name": "东百集团",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "一般零售",
+   "stat": "2天2板",
+   "reason": "拟3.16亿收购光探测芯片公司，股权收购题材炒作",
+   "confidence": "高",
+   "themes": [
+    "半导体",
+    "医药",
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "东百集团3.16亿收购光探测芯片公司快灵光电",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2501527"
+    },
+    {
+     "kind": "公司",
+     "text": "上交所就收购资产事项向东百集团发监管函",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2501556"
+    },
+    {
+     "kind": "盘面",
+     "text": "时代万恒、华北制药、新华文轩、掌阅科技、上海电影、新经典、龙版传媒、欢瑞世纪、博纳影业、慈文传媒、丽人丽妆、东百集团、德才股份、格尔软件、远程股份、百洋股份、雄韬股份",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610123893029493.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "光探测芯片+股权收购+商业零售",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "半导体：DeepSeek拟融资增至1000亿元",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3177566"
+    }
+   ],
+   "ths_reason": "光探测芯片+股权收购+商业零售",
+   "written_by": "模型"
+  },
+  {
+   "code": "001231",
+   "name": "农心科技",
+   "boards": 2,
+   "first_time": "0930",
+   "industry": "农化制品",
+   "stat": "2天2板",
+   "reason": "农药制剂题材走强，原药投产+海外登记",
+   "confidence": "中",
+   "themes": [
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "农药制剂+原药投产+海外登记",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“供销社概念”（+0.22%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "化工：奥克股份终止筹划购买资产13日复牌",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261012/c680604450.shtml"
+    }
+   ],
+   "ths_reason": "农药制剂+原药投产+海外登记",
+   "written_by": "模型"
+  },
+  {
+   "code": "603968",
+   "name": "醋化股份",
+   "boards": 2,
+   "first_time": "0936",
+   "industry": "化学制品",
+   "stat": "2天2板",
+   "reason": "分散染料概念活跃，乙腈涨价题材推动",
+   "confidence": "中",
+   "themes": [
+    "消费",
+    "农业",
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "分散染料概念表现活跃，建新股份20CM涨停，此前亚邦股份、醋化股份涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2503013"
+    },
+    {
+     "kind": "同花顺",
+     "text": "乙腈涨价+安赛蜜+染料+食品饲料添加剂",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：消费订单回暖 9月份中国电商物流指数小幅上行",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2502813"
+    }
+   ],
+   "ths_reason": "乙腈涨价+安赛蜜+染料+食品饲料添加剂",
+   "written_by": "模型"
+  },
+  {
+   "code": "600831",
+   "name": "广电网络",
+   "boards": 2,
+   "first_time": "0939",
+   "industry": "电视广播",
+   "stat": "2天2板",
+   "reason": "传媒板块走强，预重整+短剧+云网算力题材",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "A股传媒板块连日走强，新经典、慈文传媒双双涨停，广电网络涨近9%，果麦文化、华智数媒、中原传媒、上海电影等个股跟涨",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261013093847354800"
+    },
+    {
+     "kind": "盘面",
+     "text": "龙版传媒、广电网络、果麦文化跟涨",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2502965"
+    },
+    {
+     "kind": "盘面",
+     "text": "新经典、龙版传媒、广电网络涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261013/c680620538.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "预重整+短剧+云网算力",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：DeepSeek拟融资增至1000亿元",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3177566"
+    }
+   ],
+   "ths_reason": "预重整+短剧+云网算力",
+   "written_by": "模型"
+  },
+  {
+   "code": "000668",
+   "name": "荣丰控股",
+   "boards": 1,
+   "first_time": "0925",
+   "industry": "房地产开",
+   "stat": "1天1板",
+   "reason": "控制权变更复牌，新主要约收购35%控股权",
+   "confidence": "高",
+   "themes": [
+    "航运物流",
+    "房地产"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "荣丰控股复牌：“协议转让+要约收购”两步走 新主拟拿下35%控股权",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610123892986368.html"
+    },
+    {
+     "kind": "公司",
+     "text": "荣丰控股：控股股东拟协议转让股份 广州昕图将发起要约收购",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/2026-10-12/doc-iniuypfa0553581.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "控制权变更+复牌+要约收购+跨境物流",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "控制权变更+复牌+要约收购+跨境物流",
+   "written_by": "模型"
+  },
+  {
+   "code": "002917",
+   "name": "金奥博",
+   "boards": 1,
+   "first_time": "0925",
+   "industry": "化学制品",
+   "stat": "1天1板",
+   "reason": "拟现金收购汇维科技80%股权，拓展军工装备",
+   "confidence": "高",
+   "themes": [
+    "机器人",
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "金奥博：拟收购汇维科技80%股权 进一步拓展军工装备领域相关业务布局",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2502277"
+    },
+    {
+     "kind": "公司",
+     "text": "金奥博：拟现金收购汇维科技80%股权",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261012/c680595109.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "拟收购+民爆+西藏客户+机器人概念",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：小鹏汽车表示，IRON人形机器人计划于2027年全球推广",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2502606"
+    }
+   ],
+   "ths_reason": "拟收购+民爆+西藏客户+机器人概念",
+   "written_by": "模型"
+  },
+  {
+   "code": "002322",
+   "name": "理工能科",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "软件开发",
+   "stat": "1天1板",
+   "reason": "业绩预增+高分红，电力造价题材股受捧",
+   "confidence": "中",
+   "themes": [
+    "电力",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "业绩预增+电力造价+高分红",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "业绩预增+电力造价+高分红",
+   "written_by": "模型"
+  },
+  {
+   "code": "000995",
+   "name": "皇台酒业",
+   "boards": 1,
+   "first_time": "0931",
+   "industry": "白酒Ⅱ",
+   "stat": "1天1板",
+   "reason": "白酒板块逆势拉升，消费回暖情绪带动",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "白酒板块盘初拉升 皇台酒业涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610133893558713.html"
+    },
+    {
+     "kind": "公司",
+     "text": "白酒板块逆势拉升 皇台酒业涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2502970"
+    },
+    {
+     "kind": "同花顺",
+     "text": "白酒+区域品牌+线上营销",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：消费订单回暖 9月份中国电商物流指数小幅上行",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2502813"
+    }
+   ],
+   "ths_reason": "白酒+区域品牌+线上营销",
+   "written_by": "模型"
+  },
+  {
+   "code": "600318",
+   "name": "新力金融",
+   "boards": 1,
+   "first_time": "0931",
+   "industry": "多元金融",
+   "stat": "1天1板",
+   "reason": "多元金融板块拉升，乡村振兴+业绩增长",
+   "confidence": "中",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "多元金融板块短线拉升，新力金融涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261013/c680620357.shtml"
+    },
+    {
+     "kind": "公司",
+     "text": "大金融板块早盘异动拉升 新力金融涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2502978"
+    },
+    {
+     "kind": "同花顺",
+     "text": "多元金融+乡村振兴+半年报增长",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "多元金融+乡村振兴+半年报增长",
+   "written_by": "模型"
+  },
+  {
+   "code": "000823",
+   "name": "超声电子",
+   "boards": 1,
+   "first_time": "0931",
+   "industry": "元件",
+   "stat": "1天1板",
+   "reason": "三季报预增，覆铜板订单充足售价上行",
+   "confidence": "高",
+   "themes": [
+    "有色金属",
+    "稀土",
+    "消费电子"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "超声电子：预计2026年前三季度净利润同比增长90.78%-102%",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610123892666855.html"
+    },
+    {
+     "kind": "公司",
+     "text": "超声电子：预计Q3净利润环比增长181%-206% 覆铜板产品订单充足售价上行",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2502195"
+    },
+    {
+     "kind": "盘面",
+     "text": "盘后包括联讯仪器、源杰科技、北方稀土、翰宇药业、超声电子、奥来德、坤彩科技、粤桂股份、全志科技、神火股份、新宙邦、纳微科技、优博讯、捷捷微电、冰轮环境、国机精工在内的多家A股上市公司发布2026年前三季度/第三季度业绩预告",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2502756"
+    },
+    {
+     "kind": "盘面",
+     "text": "PCB概念盘中震荡反弹，澳弘电子触及涨停，此前超声电子涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2503032"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报预增+覆铜板+印制板+高阶HDI",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "三季报预增+覆铜板+印制板+高阶HDI",
+   "written_by": "模型"
+  },
+  {
+   "code": "002184",
+   "name": "海得控制",
+   "boards": 1,
+   "first_time": "0932",
+   "industry": "自动化设",
+   "stat": "1天1板",
+   "reason": "工业自动化+工业AI+算力基础设施题材炒作",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "算力",
+    "基建建材"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "工业自动化+工业AI+算力基础设施",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：电子布10月涨价落地 薄布涨幅更大",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3177289"
+    }
+   ],
+   "ths_reason": "工业自动化+工业AI+算力基础设施",
+   "written_by": "模型"
+  },
+  {
+   "code": "603188",
+   "name": "亚邦股份",
+   "boards": 1,
+   "first_time": "0932",
+   "industry": "化学制品",
+   "stat": "6天3板",
+   "reason": "分散染料概念活跃，染料产业链个股跟涨",
+   "confidence": "中",
+   "themes": [
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "分散染料概念表现活跃，建新股份20CM涨停，此前亚邦股份、醋化股份涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2503013"
+    },
+    {
+     "kind": "同花顺",
+     "text": "染料中间体+染料产业链+业绩修复",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "化工：奥克股份终止筹划购买资产13日复牌",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261012/c680604450.shtml"
+    }
+   ],
+   "ths_reason": "染料中间体+染料产业链+业绩修复",
+   "written_by": "模型"
+  },
+  {
+   "code": "000833",
+   "name": "粤桂股份",
+   "boards": 1,
+   "first_time": "0934",
+   "industry": "综合Ⅱ",
+   "stat": "1天1板",
+   "reason": "三季报大幅预增，硫铁矿+新能源材料题材",
+   "confidence": "高",
+   "themes": [
+    "稀土"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "粤桂股份：预计2026年第三季度净利润11.26亿元～11.95亿元，同比增长153.70%～169.24%",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261012/c680601474.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "盘后包括联讯仪器、源杰科技、北方稀土、翰宇药业、超声电子、奥来德、坤彩科技、粤桂股份、全志科技、神火股份、新宙邦、纳微科技、优博讯、捷捷微电、冰轮环境、国机精工在内的多家A股上市公司发布2026年前三季度/第三季度业绩预告",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2502756"
+    },
+    {
+     "kind": "同花顺",
+     "text": "业绩预增+硫铁矿+新能源材料",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "业绩预增+硫铁矿+新能源材料",
+   "written_by": "模型"
+  },
+  {
+   "code": "600847",
+   "name": "万里股份",
+   "boards": 1,
+   "first_time": "0934",
+   "industry": "电池",
+   "stat": "1天1板",
+   "reason": "锂电储能题材走强，固态电池上车提速",
+   "confidence": "中",
+   "themes": [
+    "锂电储能"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "新能源锂电池+储能+铅酸电池",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "锂电储能：多家主流车企齐发力 固态电池上车提速",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2502825"
+    }
+   ],
+   "ths_reason": "新能源锂电池+储能+铅酸电池",
+   "written_by": "模型"
+  },
+  {
+   "code": "603767",
+   "name": "中马传动",
+   "boards": 1,
+   "first_time": "0934",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "新能源汽车减速器题材，机器人概念共振",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "新能源汽车减速器+汽车变速器+净利润增长",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：小鹏汽车表示，IRON人形机器人计划于2027年全球推广",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2502606"
+    }
+   ],
+   "ths_reason": "新能源汽车减速器+汽车变速器+净利润增长",
+   "written_by": "模型"
+  },
+  {
+   "code": "003037",
+   "name": "三和管桩",
+   "boards": 1,
+   "first_time": "0935",
+   "industry": "水泥",
+   "stat": "1天1板",
+   "reason": "新能源管桩+海工桩题材跟涨炒作",
+   "confidence": "中",
+   "themes": [
+    "基建建材"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "水利技术+新能源管桩+海工桩",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "水利技术+新能源管桩+海工桩",
+   "written_by": "模型"
+  },
+  {
+   "code": "600408",
+   "name": "安泰集团",
+   "boards": 1,
+   "first_time": "0939",
+   "industry": "焦炭Ⅱ",
+   "stat": "4天3板",
+   "reason": "煤炭板块逆势上扬，焦炉煤气制氢题材",
+   "confidence": "中",
+   "themes": [
+    "煤炭"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "煤炭板块震荡拉升 安泰集团逼近涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2502968"
+    },
+    {
+     "kind": "公司",
+     "text": "煤炭板块逆势上扬，安泰集团涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261013/c680621269.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "安泰集团涨超6%",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103390928.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "煤炭板块安泰集团（2板）低开0.26%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2501763"
+    },
+    {
+     "kind": "同花顺",
+     "text": "焦炭受托加工+焦炉煤气制氢+大型H型钢",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "焦炭受托加工+焦炉煤气制氢+大型H型钢",
+   "written_by": "模型"
+  },
+  {
+   "code": "600199",
+   "name": "金种子酒",
+   "boards": 1,
+   "first_time": "0945",
+   "industry": "白酒Ⅱ",
+   "stat": "1天1板",
+   "reason": "白酒板块逆势拉升，啤白融合+亏损收窄",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "白酒板块盘初拉升，皇台酒业涨停，金种子酒、天佑德酒、水井坊、酒鬼酒、舍得酒业等纷纷走高",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610133893558713.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "早盘白酒板块逆势拉升，皇台酒业涨停，金种子酒、酒鬼酒、水井坊、舍得酒业跟涨",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2502970"
+    },
+    {
+     "kind": "同花顺",
+     "text": "白酒主业+啤白融合+亏损收窄",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：消费订单回暖 9月份中国电商物流指数小幅上行",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2502813"
+    }
+   ],
+   "ths_reason": "白酒主业+啤白融合+亏损收窄",
+   "written_by": "模型"
+  },
+  {
+   "code": "002961",
+   "name": "瑞达期货",
+   "boards": 1,
+   "first_time": "0952",
+   "industry": "多元金融",
+   "stat": "1天1板",
+   "reason": "多元金融板块拉升，期货经纪+赴港上市题材",
+   "confidence": "中",
+   "themes": [
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "多元金融板块短线拉升，新力金融涨停，瑞达期货、华金资本、南华期货、仁东控股、弘业期货跟涨",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261013/c680620357.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "华信永道、赢时胜、瑞达期货、华鑫股份、艾融软件、大智慧、银之杰涨幅靠前",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2502978"
+    },
+    {
+     "kind": "同花顺",
+     "text": "期货经纪+CTA资管+赴港上市",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "期货经纪+CTA资管+赴港上市",
+   "written_by": "模型"
+  },
+  {
+   "code": "002549",
+   "name": "凯美特气",
+   "boards": 1,
+   "first_time": "0954",
+   "industry": "化学制品",
+   "stat": "1天1板",
+   "reason": "光刻机概念异动，光刻气+电子特气题材",
+   "confidence": "中",
+   "themes": [
+    "半导体",
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "光刻机概念局部异动 凯美特气直线涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2503017"
+    },
+    {
+     "kind": "公司",
+     "text": "光刻机概念股触底反弹，凯美特气直线涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261013/c680621615.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "光刻气+电子特气+尾气回收",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "半导体：DeepSeek拟融资增至1000亿元",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3177566"
+    }
+   ],
+   "ths_reason": "光刻气+电子特气+尾气回收",
+   "written_by": "模型"
+  },
+  {
+   "code": "002693",
+   "name": "双成药业",
+   "boards": 1,
+   "first_time": "0958",
+   "industry": "化学制药",
+   "stat": "1天1板",
+   "reason": "多肽药+药品出海题材跟涨炒作",
+   "confidence": "中",
+   "themes": [
+    "医药"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "多肽药+药品出海+受托加工",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "多肽药+药品出海+受托加工",
+   "written_by": "模型"
+  },
+  {
+   "code": "300107",
+   "name": "建新股份",
+   "boards": 1,
+   "first_time": "0959",
+   "industry": "化学制品",
+   "stat": "1天1板",
+   "reason": "分散染料概念活跃，精细化工个股领涨",
+   "confidence": "中",
+   "themes": [
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "分散染料概念表现活跃 建新股份20CM涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2503013"
+    },
+    {
+     "kind": "同花顺",
+     "text": "精细化工+电子化学品+纸张化学品",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "化工：奥克股份终止筹划购买资产13日复牌",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261012/c680604450.shtml"
+    }
+   ],
+   "ths_reason": "精细化工+电子化学品+纸张化学品",
+   "written_by": "模型"
+  },
+  {
+   "code": "000530",
+   "name": "冰山冷热",
+   "boards": 1,
+   "first_time": "1009",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "冰雪经济概念走强，数据中心液冷题材",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "锂电储能"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "冰雪经济概念震荡走强 冰山冷热涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2503030"
+    },
+    {
+     "kind": "同花顺",
+     "text": "数据中心液冷+储能温控+冷热设备",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：DeepSeek拟融资增至1000亿元",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3177566"
+    }
+   ],
+   "ths_reason": "数据中心液冷+储能温控+冷热设备",
+   "written_by": "模型"
+  },
+  {
+   "code": "002640",
+   "name": "跨境通",
+   "boards": 1,
+   "first_time": "1013",
+   "industry": "互联网电",
+   "stat": "1天1板",
+   "reason": "跨境电商+AI应用题材，中报扭亏受关注",
+   "confidence": "中",
+   "themes": [
+    "人工智能"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "跨境电商+AI应用+中报扭亏",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：电子布10月涨价落地 薄布涨幅更大",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3177289"
+    }
+   ],
+   "ths_reason": "跨境电商+AI应用+中报扭亏",
+   "written_by": "模型"
+  },
+  {
+   "code": "002748",
+   "name": "世龙实业",
+   "boards": 1,
+   "first_time": "1014",
+   "industry": "化学原料",
+   "stat": "1天1板",
+   "reason": "染料产业链题材走强，氯化亚砜受关注",
+   "confidence": "中",
+   "themes": [
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "氯化亚砜+染料产业链+业绩增长",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "化工：奥克股份终止筹划购买资产13日复牌",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261012/c680604450.shtml"
+    }
+   ],
+   "ths_reason": "氯化亚砜+染料产业链+业绩增长",
+   "written_by": "模型"
+  }
+ ]
+}
