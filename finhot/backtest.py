@@ -38,7 +38,9 @@ HORIZONS = (1, 3, 5)
 BENCHMARK = ("1.000852", "中证1000")
 MIN_LLM_SCORE = 7.0
 MAX_BOARDS = 3
-BOARDS_CACHE = "boards.json"   # data/backtest/ 下，盘后版日报提交进仓库
+# 东财板块（代码、名称）：随代码发布（推送进程的镜像里也有），GitHub 上的日报取到新的就并进去、跟着日报提交
+BOARDS = Path(__file__).resolve().parent.parent / "sources" / "eastmoney_boards.json"
+MAX_BOARD_MISSES = 3   # 连续这么多个板块日 K 取不到（机房 IP 被断开），其余的不再试
 OPEN, CLOSE = time(9, 30), time(15, 0)
 
 # 信号类别 → 预设方向（True 看多、False 看空、None 不判对错）。“精选利好 / 精选利空”是网站精选里 A股影响写了
@@ -201,27 +203,56 @@ class PricesUnavailable(RuntimeError):
     """基准指数的日 K 或板块列表取不到：没法算超额，这次不出结果（保留上一次的）。"""
 
 
-def load_boards(source: PriceSource, cache: Path | None, errors: list[str]) -> list[dict]:
-    """板块列表（东财 clist）。取到了存一份；取不到用上次存的——板块代码很少变，
-    而 clist 对部分机房 IP（比如腾讯云）不开放，日 K（push2his）却能取到。"""
+def _board_rows(boards: list[dict]) -> dict[str, dict]:
+    """东财板块（代码 BK 开头；新浪备用源的代码对不上日 K）按代码去重。"""
+    return {str(b["code"]): {"code": str(b["code"]), "name": b.get("name") or "", "kind": b.get("kind") or "industry"}
+            for b in boards if str(b.get("code", "")).startswith("BK") and b.get("name")}
+
+
+def saved_boards(data_dir: Path, path: Path | None = None) -> list[dict]:
+    """存下的东财板块：sources/eastmoney_boards.json，加上日报 meta 里盘面快照记下的（涨跌幅前后各 30 个）。"""
+    rows: dict[str, dict] = {}
+    for meta in sorted(data_dir.glob("20??-??-??/meta*.json")):
+        ashare = json.loads(meta.read_text(encoding="utf-8")).get("ashare") or {}
+        rows.update(_board_rows([*(ashare.get("industries") or []), *(ashare.get("concepts") or [])]))
+    path = path or BOARDS
+    if path.exists():
+        rows.update(_board_rows(json.loads(path.read_text(encoding="utf-8"))))
+    return list(rows.values())
+
+
+def remember_boards(boards: list[dict], data_dir: Path, path: Path | None = None) -> list[dict]:
+    """把取到的东财板块并进 sources/eastmoney_boards.json：板块代码很少变，而 clist 对部分机房 IP（腾讯云，
+    有时也包括 GitHub 的机器）会断开连接，日 K（push2his）却能取到。写不了（只读的镜像里）就只返回合并结果。"""
+    path = path or BOARDS
+    rows = _board_rows(saved_boards(data_dir, path))
+    fresh = _board_rows(boards)
+    rows.update(fresh)
+    ordered = sorted(rows.values(), key=lambda b: (b["kind"], b["code"]))
+    if fresh:
+        text = "[\n" + ",\n".join(json.dumps(b, ensure_ascii=False) for b in ordered) + "\n]\n"
+        try:
+            if not path.exists() or path.read_text(encoding="utf-8") != text:  # 顺序固定，没变就不改文件
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_text(text, encoding="utf-8")
+        except OSError as e:
+            log.info("板块列表没写回 %s：%s", path, e)
+    return ordered
+
+
+def load_boards(source: PriceSource, data_dir: Path, errors: list[str], path: Path | None = None) -> list[dict]:
+    """板块列表：东财 clist 取到的并上存下的；取不到就只用存下的。"""
     try:
         boards = source.boards()
         failure = "返回空列表"
     except Exception as e:  # noqa: BLE001
         boards, failure = [], type(e).__name__
-    if boards:
-        if cache:
-            text = "[\n" + ",\n".join(json.dumps(b, ensure_ascii=False) for b in
-                                       sorted(boards, key=lambda b: (b["kind"], b["code"]))) + "\n]\n"
-            cache.parent.mkdir(parents=True, exist_ok=True)
-            if not cache.exists() or cache.read_text(encoding="utf-8") != text:  # 顺序固定，没变就不改文件
-                cache.write_text(text, encoding="utf-8")
-        return boards
-    if cache and cache.exists():
-        saved = json.loads(cache.read_text(encoding="utf-8"))
-        errors.append(f"板块列表取不到（{failure}），用的是上次存下的 {len(saved)} 个板块")
-        return saved
-    raise PricesUnavailable(f"板块列表取不到（{failure}），也没有存下的")
+    merged = remember_boards(boards, data_dir, path)
+    if not boards and merged:
+        errors.append(f"板块列表取不到（{failure}），用的是存下的 {len(merged)} 个板块")
+    if not merged:
+        raise PricesUnavailable(f"板块列表取不到（{failure}），也没有存下的")
+    return merged
 
 
 class PriceSource:
@@ -234,30 +265,42 @@ class PriceSource:
         self.session = session or Session()
         self._json, self._hosts, self._his = push2_json, PUSH2_HOSTS, PUSH2HIS_HOSTS
 
+    def _retry(self, call):
+        for attempt in range(self.ATTEMPTS):
+            try:
+                return call()
+            except Exception:  # noqa: BLE001
+                if attempt == self.ATTEMPTS - 1:
+                    raise
+                clock.sleep(2 * (attempt + 1))
+        return None
+
     def boards(self) -> list[dict]:
-        out = []
+        """行业、概念板块列表（三个域名都试过）。某一页取不到就保留已经取到的；一个都没取到才算失败，
+        不再整组重试：取不到时有存下的可用。"""
+        out: list[dict] = []
+        failure: Exception | None = None
         for fs, kind in (("m:90+t:2", "industry"), ("m:90+t:3", "concept")):
             for pn in range(1, 8):
-                data = self._json(self.session, "/api/qt/clist/get", {
-                    "pn": str(pn), "pz": "100", "po": "1", "np": "1", "fltt": "2", "invt": "2", "fid": "f3",
-                    "fs": fs, "fields": "f12,f14"}, hosts=self._hosts)
+                params = {"pn": str(pn), "pz": "100", "po": "1", "np": "1", "fltt": "2", "invt": "2", "fid": "f3",
+                          "fs": fs, "fields": "f12,f14"}
+                try:
+                    data = self._json(self.session, "/api/qt/clist/get", params, hosts=self._hosts)
+                except Exception as e:  # noqa: BLE001
+                    failure = e
+                    break
                 rows = parse_board_list(data, kind)
                 out += rows
                 if len(rows) < 100:
                     break
+        if not out and failure:
+            raise failure
         return out
 
     def bars(self, secid: str, start: date) -> list[Bar]:
         params = {"secid": secid, "fields1": "f1,f2,f3", "fields2": "f51,f52,f53", "klt": "101", "fqt": "0",
                   "beg": start.strftime("%Y%m%d"), "end": "20500101", "ut": "fa5fd1943c7b386f172d6893dbfba10b"}
-        for attempt in range(self.ATTEMPTS):
-            try:
-                return parse_klines(self._json(self.session, "/api/qt/stock/kline/get", params, hosts=self._his))
-            except Exception:  # noqa: BLE001
-                if attempt == self.ATTEMPTS - 1:
-                    raise
-                clock.sleep(2 * (attempt + 1))
-        return []
+        return self._retry(lambda: parse_klines(self._json(self.session, "/api/qt/stock/kline/get", params, hosts=self._his))) or []
 
 
 # ------------------------------------------------------------------ 计算
@@ -384,9 +427,10 @@ def render(outcomes: list[Outcome], summary: list[dict], generated: datetime, st
     return "\n".join(out)
 
 
-def compute(signals: list[Signal], source: PriceSource, generated: datetime,
-            boards_cache: Path | None = None) -> tuple[list[Outcome], list[str]]:
-    """取价格、算每个信号的收益。单个板块取不到不影响整体，记在 errors 里。"""
+def compute(signals: list[Signal], source: PriceSource, generated: datetime, data_dir: Path = DATA_DIR,
+            boards_path: Path | None = None) -> tuple[list[Outcome], list[str]]:
+    """取价格、算每个信号的收益。单个板块取不到不影响整体，记在 errors 里；连续几个都取不到（机房 IP 被断开），
+    其余的不再试，免得每个都重试一遍拖上十几分钟。"""
     errors: list[str] = []
     outcomes: list[Outcome] = []
     if signals:
@@ -400,12 +444,19 @@ def compute(signals: list[Signal], source: PriceSource, generated: datetime,
             raise PricesUnavailable(f"{BENCHMARK[1]}日 K 取不到：{type(e).__name__}") from e
         if not benchmark:
             raise PricesUnavailable(f"{BENCHMARK[1]}日 K 是空的")
-        mapping = theme_boards({s.theme for s in signals}, load_boards(source, boards_cache, errors))
+        mapping = theme_boards({s.theme for s in signals}, load_boards(source, data_dir, errors, boards_path))
         prices: dict[str, list[Bar]] = {}
-        for code in sorted({b["code"] for bs in mapping.values() for b in bs}):
+        codes = sorted({b["code"] for bs in mapping.values() for b in bs})
+        misses = 0
+        for i, code in enumerate(codes):
+            if misses >= MAX_BOARD_MISSES:
+                errors.append(f"板块日 K 连续 {misses} 个取不到，其余 {len(codes) - i} 个没再试")
+                break
             try:
                 prices[code] = closed(source.bars(f"90.{code}", first))
+                misses = 0
             except Exception as e:  # noqa: BLE001 —— 单个板块失败不影响整体
+                misses += 1
                 errors.append(f"板块 {code} 日 K 获取失败：{type(e).__name__}")
         outcomes = evaluate(signals, prices, benchmark, mapping)
     return outcomes, errors
@@ -436,13 +487,24 @@ def record_payload(outcomes: list[Outcome], generated: datetime, start: date, re
     }
 
 
+def record_fresh(t: datetime, data_dir: Path = DATA_DIR) -> bool:
+    """今天收盘后已经算过一次战绩（data/backtest/summary.json 的生成时间在当天 15:05 之后）。"""
+    path = data_dir / "backtest" / "summary.json"
+    try:
+        generated = datetime.fromisoformat(json.loads(path.read_text(encoding="utf-8"))["generated"]).astimezone(TZ)
+    except (OSError, ValueError, KeyError):
+        return False
+    return generated.date() == t.astimezone(TZ).date() and generated.time() >= time(15, 5)
+
+
 _NO_SITE = object()
 
 
 def run_backtest(days: int = 90, out_dir: Path | None = None, data_dir: Path = DATA_DIR,
-                 source: PriceSource | None = None, site: Site | None | object = _NO_SITE) -> Path:
-    """出战绩报告（reports/backtest/latest.md）。配了网站（FINHOT_SITE_URL）时，信号还包括网站精选里的利好 / 利空，
-    算完把战绩推到网站“盘面”页。"""
+                 source: PriceSource | None = None, site: Site | None | object = _NO_SITE, push: bool = False,
+                 boards_path: Path | None = None) -> Path:
+    """出战绩报告（reports/backtest/latest.md）。配了网站（FINHOT_SITE_URL）时，信号还包括网站精选里的利好 / 利空。
+    push：算完推到网站“盘面”页（服务器上的盘面任务这样调；GitHub 上连东财不稳，只出静态站的战绩）。"""
     generated = now()
     start = generated.date() - timedelta(days=days)
     site = Site.from_env() if site is _NO_SITE else site
@@ -455,15 +517,16 @@ def run_backtest(days: int = 90, out_dir: Path | None = None, data_dir: Path = D
         except Exception as e:  # noqa: BLE001 —— 网站连不上不影响静态站的战绩
             errors.append(f"网站精选读取失败：{type(e).__name__}")
     signals = [s for s in found.values() if s.at.astimezone(TZ).date() >= start]
-    outcomes, price_errors = compute(signals, source or PriceSource(), generated, data_dir / "backtest" / BOARDS_CACHE)
+    outcomes, price_errors = compute(signals, source or PriceSource(), generated, data_dir, boards_path)
     errors += price_errors
     summary = summarize(outcomes)
-    md = render(outcomes, summary, generated, start, errors)
-    if site and site.token and outcomes:
+    if push and site and outcomes:
         try:
             site.push("record", generated.date().isoformat(), record_payload(outcomes, generated, start))
         except Exception as e:  # noqa: BLE001
             log.warning("战绩推到网站失败：%s", e)
+            errors.append(f"推到网站失败：{e}")
+    md = render(outcomes, summary, generated, start, errors)
 
     reports = (out_dir or REPORTS_DIR) / "backtest"
     reports.mkdir(parents=True, exist_ok=True)

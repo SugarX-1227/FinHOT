@@ -184,34 +184,27 @@ deploy/finhot.sh doctor            # 最近 3 天；--days 7 看更久
 
 ## 盘面页：涨停原因与信号战绩
 
-网站侧栏“A股 → 盘面”（手机底栏“盘面”），两部分在不同的地方算：
+网站侧栏“A股 → 盘面”（手机底栏“盘面”），都由服务器上的推送进程在**交易日 15:10 以后**自动算一次推上去：
 
-- **涨停原因**：服务器上的推送进程在**交易日 15:10 以后**自动算一次推上去。每只涨停股为什么涨停、依据是什么
-  （公司公告、收评点名、同花顺涨停原因、领涨概念），带可信度；公司澄清、异常波动这类提示写在括号里。
-  不想等收盘可以手动跑：`deploy/finhot.sh market`（交易日盘中跑的是盘中的涨停池）。
-- **信号战绩**：放在 GitHub Actions 上跟着盘后版日报算（本来就在算静态站的“战绩”页），算完推到网站。
-  放在那边是因为回测用的信号历史（`data/` 下每天的新闻、新闻 × 资金判断、涨停）是日报在 Actions 上生成、提交进仓库的，
-  服务器上没有这份历史。东方财富的板块列表（clist）对腾讯云 IP 不开放，但板块日 K 能取到，所以回测会把板块列表
-  存一份在 `data/backtest/boards.json`，哪天取不到就用存下的。要让网站显示，在 GitHub 上配两项（只配一次）：
+- **涨停原因**：每只涨停股为什么涨停、依据是什么（公司公告、收评点名、同花顺涨停原因、领涨概念），带可信度；
+  公司澄清、异常波动这类提示写在括号里。
+- **信号战绩**：网站精选里“A股影响”写了利好 / 利空的条目，加上服务器存下的涨停主线，对应板块之后 1/3/5 个交易日
+  相对中证 1000 的超额收益和胜率。刚开始样本很少，跑上几周才有参考价值。
+  东方财富的板块日 K 在服务器上取得到；板块列表（clist）取不到，用随代码发布的 `sources/eastmoney_boards.json`
+  （GitHub 上的日报取到新板块会并进去，`deploy/finhot.sh update` 时跟着更新）。
 
-  | 位置（仓库 Settings → Secrets and variables → Actions） | 名字 | 值 |
-  |---|---|---|
-  | Variables | `FINHOT_SITE_URL` | `http://你的公网IP:3000` |
-  | Secrets | `FINHOT_INGEST_TOKEN` | 服务器上 `grep '^INGEST_TOKEN=' web/.env` 等号后面那串 |
-
-  有 GitHub 命令行的话：`gh variable set FINHOT_SITE_URL --body "http://你的公网IP:3000"`，
-  `gh secret set FINHOT_INGEST_TOKEN`（回车后粘贴 token）。配好后下一个交易日盘后版日报跑完，战绩就会出现在网站上。
-  战绩统计的信号包括网站精选里“A股影响”写了利好 / 利空的条目（GitHub 通过网站公开接口读），以及日报存下的信号；
-  刚开始样本很少，跑上几周才有参考价值。
-
-推送进程的日志里能看到“盘面任务完成：涨停 xx 只，有依据 xx%……”；失败会写原因，30 分钟后自动再试。
+不想等就手动跑：`deploy/finhot.sh market`（涨停原因和战绩一起；交易日盘中跑的是盘中的涨停池）。
+推送进程的日志里能看到“盘面任务完成：涨停 xx 只，有依据 xx%……；信号战绩 精选利好 xx、……”；涨停原因失败会写原因，
+30 分钟后自动再试；战绩没算成只记一句，下一个交易日再算。
 某个行情接口在服务器上连不上时，先跑 `deploy/finhot.sh probe`，它会列出每个接口在这台服务器上通不通。
 
-> token 会经过 http 发到服务器（没有 HTTPS），有被截获、被人往网站推内容的风险。内测阶段可以接受。
-> 换 token（怀疑泄露，或者它出现在了别处，比如云控制台“执行命令”的历史记录里）：
-> 1. `python3 -c "import secrets; print(secrets.token_urlsafe(32))"` 生成一个新的，替换 `web/.env` 里 `INGEST_TOKEN=` 后面那串；
-> 2. `deploy/finhot.sh restart api pusher`（会重建这两个容器，读入新 token）；
-> 3. 把 GitHub 上的 secret `FINHOT_INGEST_TOKEN` 改成同一个值。
+GitHub Actions 上的日报也算一份战绩，只给静态站的“战绩”页（GitHub 的机器连东方财富经常被断开，不推到网站）。
+仓库 Variables 里的 `FINHOT_SITE_URL` 让它也统计网站精选的利好 / 利空（读公开接口）；以前配的 secret
+`FINHOT_INGEST_TOKEN` 已经用不到，可以在仓库 Settings → Secrets and variables → Actions 里删掉。
+
+> 推送 token（`web/.env` 的 `INGEST_TOKEN`）现在只在服务器内部用（推送进程 → 网站，走 docker 内网）。
+> 换 token：`python3 -c "import secrets; print(secrets.token_urlsafe(32))"` 生成一个新的，替换 `web/.env` 里
+> `INGEST_TOKEN=` 后面那串，再 `deploy/finhot.sh restart api pusher`（会重建这两个容器，读入新 token）。
 
 ## 安全提醒
 

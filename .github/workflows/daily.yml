@@ -11,9 +11,9 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "auto=按时段自动；或指定 pre/noon/close/weekly"
+        description: "auto=按时段自动；或指定 pre/noon/close/weekly；backtest=只重算静态站的信号战绩"
         type: choice
-        options: [auto, pre, noon, close, weekly]
+        options: [auto, pre, noon, close, weekly, backtest]
         default: auto
       hours:
         description: "采集最近多少小时（留空=接着上一份日报）"
@@ -52,9 +52,8 @@ jobs:
           LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
           LLM_MODEL: ${{ vars.LLM_MODEL }}
           LLM_BODY_EXTRA: ${{ vars.LLM_BODY_EXTRA }}
-          # 盘后回测算好的信号战绩推到网站“盘面”页（不配就只更新静态站的“战绩”页）
+          # 静态站的“战绩”也统计网站精选里的利好 / 利空（读公开接口，不用 token）。网站“盘面”页的战绩由服务器自己算
           FINHOT_SITE_URL: ${{ vars.FINHOT_SITE_URL }}
-          FINHOT_INGEST_TOKEN: ${{ secrets.FINHOT_INGEST_TOKEN }}
           MODE: ${{ github.event.inputs.mode || 'auto' }}
           HOURS: ${{ github.event.inputs.hours }}
           NO_LLM: ${{ github.event.inputs.no_llm }}
@@ -64,6 +63,7 @@ jobs:
           case "$MODE" in
             auto)   python -m finhot auto $FLAGS ;;
             weekly) python -m finhot weekly $FLAGS ;;
+            backtest) python -m finhot backtest || [ $? = 3 ] ;;   # 3 = 行情接口暂时连不上，保留上一次的结果
             *)      python -m finhot run --edition "$MODE" ${HOURS:+--hours "$HOURS"} $FLAGS ;;
           esac
 
@@ -72,7 +72,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add reports data
+          git add reports data sources/eastmoney_boards.json
           if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
           git commit -m "report: $(TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M')"
           for i in 1 2 3; do

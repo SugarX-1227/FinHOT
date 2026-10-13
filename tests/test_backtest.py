@@ -171,6 +171,8 @@ def test_with_the_site_configured_its_selected_calls_join_and_the_record_is_push
     monkeypatch.setattr(bt, "now", lambda: at(15, 20))
     site = FakeSite([{"title": "存储涨价", "reason": "利好 半导体，依据：涨价", "publishedAt": "2026-10-09T00:30:00Z"}])
     bt.run_backtest(days=30, out_dir=tmp_path / "out", data_dir=data, source=FakeSource(), site=site)
+    assert site.pushed == []  # GitHub 上只出静态站的战绩
+    bt.run_backtest(days=30, out_dir=tmp_path / "out", data_dir=data, source=FakeSource(), site=site, push=True)
     assert [(k, key) for k, key, _ in site.pushed] == [("record", "2026-10-15")]
     rows = {r["kind"]: r for r in site.pushed[0][2]["rows"]}
     assert rows["精选利好"]["reaction_1_mean"] == 10.0 and rows["利好新闻"]["n"] == 1
@@ -181,7 +183,7 @@ def test_an_unreachable_site_still_gives_the_static_record(tmp_path, monkeypatch
     write(data / "2026-10-09" / "items.jsonl", [news("芯片利好", at(9, 8))])
     monkeypatch.setattr(bt, "now", lambda: at(15, 20))
     site = FakeSite(down=True)
-    md = bt.run_backtest(days=30, out_dir=tmp_path / "out", data_dir=data, source=FakeSource(), site=site).read_text()
+    md = bt.run_backtest(days=30, out_dir=tmp_path / "out", data_dir=data, source=FakeSource(), site=site, push=True).read_text()
     assert "| 利好新闻 | 1 |" in md and "网站精选读取失败：ConnectionError" in md
     assert [k for k, _, _ in site.pushed] == ["record"]
 
@@ -196,10 +198,9 @@ def test_the_board_list_is_saved_and_reused_when_the_list_api_is_blocked(tmp_pat
     write(data / "2026-10-09" / "items.jsonl", [news("芯片利好", at(9, 8))])
     monkeypatch.setattr(bt, "now", lambda: at(15, 20))
     bt.run_backtest(days=30, out_dir=tmp_path / "out", data_dir=data, source=FakeSource())
-    saved = data / "backtest" / "boards.json"
-    assert json.loads(saved.read_text(encoding="utf-8")) == [{"code": "BK1", "name": "半导体", "kind": "industry"}]
+    assert json.loads(bt.BOARDS.read_text(encoding="utf-8")) == [{"code": "BK1", "name": "半导体", "kind": "industry"}]
     md = bt.run_backtest(days=30, out_dir=tmp_path / "out", data_dir=data, source=NoBoardListSource()).read_text()
-    assert "| 利好新闻 | 1 | +10.00% · 100%" in md and "板块列表取不到（ConnectionError），用的是上次存下的 1 个板块" in md
+    assert "| 利好新闻 | 1 | +10.00% · 100%" in md and "板块列表取不到（ConnectionError），用的是存下的 1 个板块" in md
 
 
 def test_no_board_list_and_nothing_saved_keeps_the_previous_report(tmp_path, monkeypatch):
@@ -211,3 +212,48 @@ def test_no_board_list_and_nothing_saved_keeps_the_previous_report(tmp_path, mon
         raise AssertionError("expected PricesUnavailable")
     except bt.PricesUnavailable as e:
         assert "板块列表取不到" in str(e)
+
+
+def test_before_any_board_list_is_saved_the_snapshots_in_the_reports_stand_in(tmp_path, monkeypatch):
+    data = tmp_path / "data"
+    write(data / "2026-10-09" / "items.jsonl", [news("芯片利好", at(9, 8))])
+    (data / "2026-10-09" / "meta.json").write_text(json.dumps({"ashare": {
+        "industries": [{"code": "BK1", "name": "半导体", "kind": "industry"}, {"code": "new_dzqj", "name": "电子器件", "kind": "industry"}],
+        "concepts": [{"code": "BK2", "name": "存储芯片", "kind": "concept"}]}}), encoding="utf-8")
+    monkeypatch.setattr(bt, "now", lambda: at(15, 20))
+    md = bt.run_backtest(days=30, out_dir=tmp_path / "out", data_dir=data, source=NoBoardListSource()).read_text()
+    assert "| 利好新闻 | 1 | +10.00% · 100%" in md and "用的是存下的 2 个板块" in md  # 新浪的代码对不上日 K，不算
+
+
+def test_boards_from_the_market_snapshot_are_added_to_the_saved_list(tmp_path):
+    bt.remember_boards([{"code": "BK1", "name": "半导体", "kind": "industry"}], tmp_path)
+    bt.remember_boards([{"code": "BK2", "name": "黄金概念", "kind": "concept"}, {"code": "new_hj", "name": "黄金", "kind": "industry"}], tmp_path)
+    assert [b["code"] for b in bt.saved_boards(tmp_path)] == ["BK2", "BK1"]  # 概念在前（按 kind 排序），新浪的不存
+
+
+def test_the_record_counts_as_done_for_the_day_only_after_the_close(tmp_path):
+    assert not bt.record_fresh(at(12, 20), tmp_path)
+    (tmp_path / "backtest").mkdir()
+    for generated, fresh in ((at(12, 14), False), (at(12, 20), True), (at(9, 20), False)):
+        (tmp_path / "backtest" / "summary.json").write_text(json.dumps({"generated": generated.isoformat()}), encoding="utf-8")
+        assert bt.record_fresh(at(12, 21), tmp_path) is fresh
+
+
+class BoardsDownSource(FakeSource):
+    calls = 0
+
+    def bars(self, secid, start):
+        if secid == bt.BENCHMARK[0]:
+            return flat()
+        BoardsDownSource.calls += 1
+        raise ConnectionError("Remote end closed connection without response")
+
+
+def test_after_a_few_boards_in_a_row_fail_the_rest_are_not_tried(tmp_path, monkeypatch):
+    data = tmp_path / "data"
+    write(data / "2026-10-09" / "items.jsonl", [news(f"利好{t}", at(9, 8), sectors=(t,)) for t in ("半导体", "黄金", "银行", "券商", "军工")])
+    monkeypatch.setattr(FakeSource, "boards", lambda self: [{"code": f"BK{i}", "name": n, "kind": "industry"}
+                                                            for i, n in enumerate(["半导体", "贵金属", "银行", "证券", "国防军工"])])
+    monkeypatch.setattr(bt, "now", lambda: at(15, 20))
+    md = bt.run_backtest(days=30, out_dir=tmp_path / "out", data_dir=data, source=BoardsDownSource()).read_text()
+    assert BoardsDownSource.calls == bt.MAX_BOARD_MISSES and "连续 3 个取不到，其余 1 个没再试" in md

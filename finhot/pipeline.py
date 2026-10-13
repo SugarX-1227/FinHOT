@@ -5,11 +5,13 @@ from __future__ import annotations
 import json
 import logging
 from concurrent.futures import ThreadPoolExecutor
+from dataclasses import asdict
 from datetime import timedelta
 from pathlib import Path
 
 from . import llm as llm_mod
 from .ashare import MarketSnapshot, fetch_snapshot
+from .backtest import remember_boards
 from .calendar_watch import Watchlist, fetch_watchlist
 from .collect import collect
 from .config import DATA_DIR, REPORTS_DIR, load_sources
@@ -56,6 +58,11 @@ def run(hours: float | None = None, use_llm: bool = True, only: list[str] | None
         quotes = f_quotes.result()
         snap = f_snap.result() if f_snap else MarketSnapshot()
         watch = f_watch.result() if f_watch else Watchlist()
+    if snap.industries or snap.concepts:  # 回测要用的板块代码：这里取到的全量东财板块并进存下的列表
+        try:
+            remember_boards([asdict(b) for b in snap.industries + snap.concepts], data_root)
+        except (OSError, ValueError) as e:
+            log.warning("板块列表没存下: %s", e)
 
     raw = [it for r in results for it in r.items]
     if not raw:
