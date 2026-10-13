@@ -257,3 +257,13 @@ def test_after_a_few_boards_in_a_row_fail_the_rest_are_not_tried(tmp_path, monke
     monkeypatch.setattr(bt, "now", lambda: at(15, 20))
     md = bt.run_backtest(days=30, out_dir=tmp_path / "out", data_dir=data, source=BoardsDownSource()).read_text()
     assert BoardsDownSource.calls == bt.MAX_BOARD_MISSES and "连续 3 个取不到，其余 1 个没再试" in md
+
+
+def test_where_the_shipped_list_is_read_only_new_boards_go_to_the_data_dir(tmp_path, monkeypatch):
+    blocker = tmp_path / "image"
+    blocker.write_text("")  # 镜像里的 sources/ 只读：这里用一个文件挡住目录，写进去必定失败
+    monkeypatch.setattr(bt, "BOARDS", blocker / "eastmoney_boards.json")
+    data = tmp_path / "data"
+    bt.remember_boards([{"code": "BK1", "name": "半导体", "kind": "industry"}], data)
+    assert json.loads((data / "backtest" / "boards.json").read_text(encoding="utf-8"))[0]["code"] == "BK1"
+    assert [b["code"] for b in bt.saved_boards(data)] == ["BK1"]

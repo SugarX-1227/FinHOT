@@ -209,34 +209,42 @@ def _board_rows(boards: list[dict]) -> dict[str, dict]:
             for b in boards if str(b.get("code", "")).startswith("BK") and b.get("name")}
 
 
+def _local_boards(data_dir: Path) -> Path:
+    """随代码发布的清单写不了时（服务器上镜像里的目录只读），新取到的板块存在数据目录里。"""
+    return data_dir / "backtest" / "boards.json"
+
+
 def saved_boards(data_dir: Path, path: Path | None = None) -> list[dict]:
-    """存下的东财板块：sources/eastmoney_boards.json，加上日报 meta 里盘面快照记下的（涨跌幅前后各 30 个）。"""
+    """存下的东财板块：sources/eastmoney_boards.json 和数据目录里的 backtest/boards.json，
+    加上日报 meta 里盘面快照记下的（涨跌幅前后各 30 个）。"""
     rows: dict[str, dict] = {}
     for meta in sorted(data_dir.glob("20??-??-??/meta*.json")):
         ashare = json.loads(meta.read_text(encoding="utf-8")).get("ashare") or {}
         rows.update(_board_rows([*(ashare.get("industries") or []), *(ashare.get("concepts") or [])]))
-    path = path or BOARDS
-    if path.exists():
-        rows.update(_board_rows(json.loads(path.read_text(encoding="utf-8"))))
+    for saved in (path or BOARDS, _local_boards(data_dir)):
+        if saved.exists():
+            rows.update(_board_rows(json.loads(saved.read_text(encoding="utf-8"))))
     return list(rows.values())
 
 
 def remember_boards(boards: list[dict], data_dir: Path, path: Path | None = None) -> list[dict]:
-    """把取到的东财板块并进 sources/eastmoney_boards.json：板块代码很少变，而 clist 对部分机房 IP（腾讯云，
-    有时也包括 GitHub 的机器）会断开连接，日 K（push2his）却能取到。写不了（只读的镜像里）就只返回合并结果。"""
-    path = path or BOARDS
+    """把取到的东财板块并进 sources/eastmoney_boards.json（GitHub 上跟着日报提交）；那里写不了（服务器上的镜像），
+    就存到数据目录的 backtest/boards.json。板块代码很少变，而 clist 对部分机房 IP（腾讯云，有时也包括 GitHub 的机器）
+    会断开连接，日 K（push2his）却能取到，取到一次就记下来。"""
     rows = _board_rows(saved_boards(data_dir, path))
     fresh = _board_rows(boards)
     rows.update(fresh)
     ordered = sorted(rows.values(), key=lambda b: (b["kind"], b["code"]))
     if fresh:
         text = "[\n" + ",\n".join(json.dumps(b, ensure_ascii=False) for b in ordered) + "\n]\n"
-        try:
-            if not path.exists() or path.read_text(encoding="utf-8") != text:  # 顺序固定，没变就不改文件
-                path.parent.mkdir(parents=True, exist_ok=True)
-                path.write_text(text, encoding="utf-8")
-        except OSError as e:
-            log.info("板块列表没写回 %s：%s", path, e)
+        for target in (path or BOARDS, _local_boards(data_dir)):
+            try:
+                if not target.exists() or target.read_text(encoding="utf-8") != text:  # 顺序固定，没变就不改文件
+                    target.parent.mkdir(parents=True, exist_ok=True)
+                    target.write_text(text, encoding="utf-8")
+                break
+            except OSError as e:
+                log.info("板块列表写不进 %s（%s），换个地方存", target, e)
     return ordered
 
 
