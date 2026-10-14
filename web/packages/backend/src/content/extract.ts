@@ -2,6 +2,7 @@
 // Jina Reader is the budgeted fallback for pages that only render in a browser.
 import { Readability } from "@mozilla/readability";
 import { parseHTML } from "linkedom";
+import { credential } from "../config.ts";
 import { sql } from "../db.ts";
 import { guardedFetch } from "../lib/http-fetch.ts";
 import { stripTags } from "../lib/text.ts";
@@ -137,6 +138,8 @@ export async function extractFromUrl(url: string, subject: string, utcOffset?: s
   } catch {
     // fall through to Jina
   }
+  // FinHOT: without a Jina key there is no fallback; the article is judged on what it has, without three retries first.
+  if (!credential("collectors", "JINA_API_KEY")) return null;
   try {
     const page = await jinaRead(url, { purpose: "body_fallback", subject });
     const html = markdownBody(page.markdown, url);

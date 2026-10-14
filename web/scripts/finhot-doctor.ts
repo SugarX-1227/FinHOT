@@ -157,10 +157,20 @@ async function doctor() {
   const [last] = await sql<Array<{ ok: Date | null; any: Date | null }>>`
     SELECT max(started_at) FILTER (WHERE status = 'received') AS ok, max(started_at) AS any FROM receipt_attempts WHERE origin = 'live'`;
   console.log(`  最近一次调用 ${stamp(last?.any)}（${ago(last?.any)}），最近一次成功 ${stamp(last?.ok)}（${ago(last?.ok)}）`);
-  const callErrors = await sql<Array<{ service: string; error: string; n: number }>>`
-    SELECT service, ${failureGroupSql("error")} AS error, count(*)::int AS n FROM receipt_attempts
+  // 归类时数字被换成了“…”，再附一条原文：GLM 的错误码（1302 并发、1303 频率、1308 额度……）就在里面
+  const callErrors = await sql<Array<{ service: string; error: string; n: number; example: string }>>`
+    SELECT service, ${failureGroupSql("error")} AS error, count(*)::int AS n,
+      (array_agg(left(error, 240) ORDER BY started_at DESC))[1] AS example FROM receipt_attempts
     WHERE origin = 'live' AND status IN ('failed', 'unknown') AND started_at > now() - interval '24 hours' GROUP BY 1, 2 ORDER BY 3 DESC LIMIT 5`;
-  for (const e of callErrors) console.log(`    ${String(e.n).padStart(4)} 次 ${e.service}  ${e.error}`);
+  for (const e of callErrors) console.log(`    ${String(e.n).padStart(4)} 次 ${e.service}  ${e.error}\n         例：${e.example}`);
+  const limited = callErrors.filter((e) => /HTTP 429/.test(e.error)).reduce((n, e) => n + e.n, 0);
+  const code = /"code"\s*:\s*"?(\d{4})/.exec(callErrors.find((e) => /HTTP 429/.test(e.error))?.example ?? "")?.[1];
+  if (limited >= 50) verdicts.push(`最近 24 小时 ${limited} 次模型调用被限流（HTTP 429${code ? `，错误码 ${code}` : ""}）：` + (
+    code === "1302" ? "并发太高，在 web/.env 写 ANALYZE_CONCURRENCY=3，再 deploy/finhot.sh restart worker"
+      : code === "1303" ? "频率太高，后台“设置 → 付费请求上限”把 llm 的每分钟上限调到平时用量以下"
+        : code && /^13(08|10)$/.test(code) ? "套餐在这个时段的额度用完了，只能少调用（FINHOT_PUSH_MIN_SCORE 调高）或换更大的套餐"
+          : "先试 ANALYZE_CONCURRENCY=3（web/.env，再 deploy/finhot.sh restart worker）") +
+    "；被限流用光重试的文章，原因解决后 deploy/finhot.sh doctor --fix 重新排队");
   const totalCalls = calls.reduce((n, c) => n + c.n, 0);
   const failedCalls = calls.reduce((n, c) => n + c.failed + c.unknown, 0);
   if (totalCalls > 0 && failedCalls / totalCalls > 0.3) verdicts.push(`最近 24 小时模型调用 ${failedCalls}/${totalCalls} 次失败：看上面的错误（余额、限流、模型名）`);
@@ -224,7 +234,10 @@ async function doctor() {
 
   section("10. 当前告警");
   const findings = await collectFindings();
-  for (const f of findings) console.log(`  [${f.level}] ${f.title}${f.impact ? `：${[f.impact].flat().filter(Boolean).join("；")}` : ""}`);
+  for (const f of findings) {
+    console.log(`  [${f.level}] ${f.title}${f.impact ? `：${[f.impact].flat().filter(Boolean).join("；")}` : ""}`);
+    if (f.detail) console.log(`         ${String(f.detail).slice(0, 300)}`);
+  }
   if (!findings.length) console.log("  （没有）");
 
   section("结论");

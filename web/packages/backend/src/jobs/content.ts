@@ -22,6 +22,11 @@ const MAX_OUTPUT_FAILURES = 3;
 const MAX_EXTRACT_FAILURES = 3;
 /** An article queued this long ago is queued again, in case its job was lost. */
 const QUEUED_STALE = "30 minutes";
+/**
+ * FinHOT: analyses in flight at once (each makes several model calls in a row). Lower it when the model
+ * provider answers HTTP 429: a refused call counts against the article's retries, a slower queue does not.
+ */
+const ANALYZE_CONCURRENCY = Math.max(1, Math.floor(Number(process.env.ANALYZE_CONCURRENCY)) || 6);
 
 type Step = "extract" | "analyze";
 
@@ -185,7 +190,7 @@ async function afterFailure(articleId: string, revision: number, error: unknown)
 }
 
 export async function registerContentJobs(boss: PgBoss) {
-  await work(boss, QUEUES.analyze, { localConcurrency: 6, pollingIntervalSeconds: 2 }, ({ articleId, attemptTag }) => processArticle(articleId, { attemptTag }));
+  await work(boss, QUEUES.analyze, { localConcurrency: ANALYZE_CONCURRENCY, pollingIntervalSeconds: 2 }, ({ articleId, attemptTag }) => processArticle(articleId, { attemptTag }));
 }
 
 /**

@@ -25,6 +25,8 @@ git subtree pull --prefix web https://github.com/KKKKhazix/aihot main --squash
 | 新增 `scripts/finhot-doctor.ts`：从入库到日报逐层体检（分析、归组、精选、模型调用、预算、队列、日报取材），`--fix` 用后台“运行”页同样的操作重新排队、重新归组 | `scripts/finhot-doctor.ts` | worker 不为每次模型调用打日志，“精选 / 日报为空”只能从数据库看卡在哪一层 |
 | 时间窗在网站第一篇文章之前的日报（部署当天那期）不再生成，也不判为缺失 | `packages/backend/src/reports/compose.ts`、`packages/backend/src/operations/alerts.ts`、`tests/report-recovery.test.ts`、`tests/daily-report-alerts.test.ts` | 上游把“窗口里没有打过分的文章”当作故障；新站第一天的窗口里本来就没有文章，这条告警永远消不掉 |
 | 重编日报可以按发布时间归期（`composeDaily(date, reason, true)`），并跳过之后几期已收录的；平时的日报仍按进精选的时间取材 | `packages/backend/src/reports/edition.ts`、`packages/backend/src/reports/compose.ts`、`scripts/finhot-selection.ts`、`tests/report-recovery.test.ts` | 调门槛后补选的文章按上游规则只会进补选之后的那一期，重编过去几天的日报永远取不到它们 |
+| 分析并发可以用 `ANALYZE_CONCURRENCY` 调（默认 6 不变） | `packages/backend/src/jobs/content.ts`、`.env.example` | 智谱接口在并发高时回 429，被拒的调用计入文章的重试次数，用完就放弃；并发低一点只是排队慢一点 |
+| 没配 `JINA_API_KEY` 时不走 Jina 兜底，原文页读不到就直接按摘要分析 | `packages/backend/src/content/extract.ts`、`tests/finhot-extract.test.ts` | 国内服务器读不到海外原文页（CNBC、MarketWatch），上游会报“JINA_API_KEY is not configured”重试三次再按摘要分析，白等半小时 |
 | 测试里的示例行业（AI 的分类、标签、公司、主题）换成财经的对应项 | `tests/*.test.ts`、`apps/web/tests/*.test.ts` | 上游要求改了 `industry/taxonomy.ts` 后同步换掉测试例子；合并上游时这些文件最容易冲突，冲突时保留上游的测试逻辑、换回财经的例子 |
 
 本站自己的模块（`modules/`，不算引擎改动，合并上游不冲突）：`modules/market`（“盘面”页：涨停原因与信号战绩，
