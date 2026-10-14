@@ -66,19 +66,23 @@ async function stats() {
   for (const d of dates) console.log(`  ${d}  ${String(now.get(d) ?? 0).padStart(4)} 件   ${rows.filter((r) => r.day === d && r.selected).length} 篇在分析时已够分`);
 
   console.log("\nT2 门槛换成下面的数（T1、T1_5 不变），每天够分的事件数：");
-  console.log("  门槛  " + dates.map((d) => d.slice(5)).join("  ") + "   日均");
+  // 周末消息少，算进去会把日均拉低、建议的门槛偏松：有工作日就只按工作日平均（节假日仍会混进来，看表里的数）
+  const workdays = dates.filter((d) => ![0, 6].includes(new Date(`${d}T00:00:00Z`).getUTCDay()));
+  const basis = workdays.length ? workdays : dates;
+  const basisName = workdays.length ? "工作日均" : "日均";
+  console.log("  门槛  " + dates.map((d) => d.slice(5)).join("  ") + `   ${basisName}`);
   const sweep: Array<{ t: number; avg: number }> = [];
   for (let t = 50; t <= 80; t += 2) {
     const per = eventsPerDay(rows, (r) => (r.tier === "T2" ? r.score >= t : current(r)));
     const counts = dates.map((d) => per.get(d) ?? 0);
-    const avg = counts.reduce((a, b) => a + b, 0) / dates.length;
+    const avg = basis.reduce((a, d) => a + (per.get(d) ?? 0), 0) / basis.length;
     sweep.push({ t, avg });
     console.log(`  ${String(t).padStart(4)}  ${counts.map((n) => String(n).padStart(5)).join(" ")}  ${avg.toFixed(1).padStart(6)}`);
   }
   const pick = sweep.filter((s) => s.avg >= target).at(-1) ?? sweep[0]!;
-  console.log(`\n想要每天约 ${target} 件精选：T2 门槛建议 ${pick.t}（日均 ${pick.avg.toFixed(1)} 件）。` +
+  console.log(`\n想要每天约 ${target} 件精选：T2 门槛建议 ${pick.t}（${basisName} ${pick.avg.toFixed(1)} 件）。` +
     `在 web/.env 写 SELECTION_T2=${pick.t}，再 deploy/finhot.sh restart api worker，最后 deploy/finhot.sh selection reselect。`);
-  console.log("注意：周末、节假日消息少，按交易日的数字来定。");
+  console.log("注意：建议值按工作日平均；工作日里的节假日消息也少，看上表里交易日那几列的数来定。");
 
   const t2 = rows.filter((r) => r.tier === "T2").sort((a, b) => b.score - a.score);
   const show = (label: string, list: Row[]) => {
