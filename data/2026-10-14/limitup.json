@@ -1,0 +1,2406 @@
+{
+ "trade_date": "2026-10-13",
+ "coverage": 100.0,
+ "stocks": [
+  {
+   "code": "002343",
+   "name": "慈文传媒",
+   "boards": 3,
+   "first_time": "0925",
+   "industry": "影视院线",
+   "stat": "3天3板",
+   "reason": "AI漫剧概念走强，微短剧+影视IP三连板",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "AI漫剧概念反复走强，德才股份一字涨停，走出5天4板，慈文传媒、新经典3连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2502965"
+    },
+    {
+     "kind": "盘面",
+     "text": "慈文传媒、欢瑞世纪、吉视传媒、上海电影斩获两连板",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610123892989824.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "微短剧+影视IP+江西国资",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“东方财富热股”概念（+0.11%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "微短剧+影视IP+江西国资",
+   "written_by": "模型"
+  },
+  {
+   "code": "603096",
+   "name": "新经典",
+   "boards": 3,
+   "first_time": "0925",
+   "industry": "出版",
+   "stat": "3天3板",
+   "reason": "AI漫剧概念带动，图书出版+AI应用三连板",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "AI漫剧概念反复走强，德才股份一字涨停，走出5天4板，慈文传媒、新经典3连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2502965"
+    },
+    {
+     "kind": "同花顺",
+     "text": "图书出版+AI应用+内容IP",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“数字阅读”概念（+0.24%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "图书出版+AI应用+内容IP",
+   "written_by": "模型"
+  },
+  {
+   "code": "605577",
+   "name": "龙版传媒",
+   "boards": 3,
+   "first_time": "0930",
+   "industry": "出版",
+   "stat": "5天4板",
+   "reason": "AI漫剧题材三连板，公司提示交易风险",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "电力",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "五天四板龙版传媒：股价短期波动较大 提示交易风险",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261013165845482800"
+    },
+    {
+     "kind": "盘面",
+     "text": "AI短剧概念股德才股份（4天3板）竞价涨停、龙版传媒（4天3板）高开9.99%、掌阅科技（5天3板）低开3.86%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2502959"
+    },
+    {
+     "kind": "盘面",
+     "text": "AI漫剧概念反复走强，德才股份一字涨停，走出5天4板，慈文传媒、新经典3连板，龙版传媒、广电网络、果麦文化跟涨",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2502965"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI漫剧+数字出版+出版发行",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“在线教育”概念（+0.61%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "AI漫剧+数字出版+出版发行",
+   "written_by": "模型"
+  },
+  {
+   "code": "605136",
+   "name": "丽人丽妆",
+   "boards": 3,
+   "first_time": "0930",
+   "industry": "互联网电",
+   "stat": "3天3板",
+   "reason": "化妆品电商+业绩扭亏，阿里概念领涨",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "化妆品电商+海外总代+业绩扭亏",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“阿里概念”（+0.36%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：新能源汽车增值税出口退税率将降至9%",
+     "source": "证券时报快讯",
+     "url": "https://www.stcn.com/article/detail/4217084.html"
+    }
+   ],
+   "ths_reason": "化妆品电商+海外总代+业绩扭亏",
+   "written_by": "模型"
+  },
+  {
+   "code": "002696",
+   "name": "百洋股份",
+   "boards": 3,
+   "first_time": "0934",
+   "industry": "饲料",
+   "stat": "3天3板",
+   "reason": "鱼粉涨价+水产饲料，农牧饲渔板块回升",
+   "confidence": "中",
+   "themes": [
+    "消费",
+    "农业"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "午后农牧饲渔板块持续回升，东方海洋直线涨停，此前百洋股份3连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2503216"
+    },
+    {
+     "kind": "盘面",
+     "text": "大消费板块九阳股份（6板）低开4.93%、百洋股份（2板）高开6.09%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2502959"
+    },
+    {
+     "kind": "同花顺",
+     "text": "水产饲料+鱼粉涨价+青岛国资",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“海南自贸”概念（+0.48%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：新能源汽车增值税出口退税率将降至9%",
+     "source": "证券时报快讯",
+     "url": "https://www.stcn.com/article/detail/4217084.html"
+    }
+   ],
+   "ths_reason": "水产饲料+鱼粉涨价+青岛国资",
+   "written_by": "模型"
+  },
+  {
+   "code": "600693",
+   "name": "东百集团",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "一般零售",
+   "stat": "2天2板",
+   "reason": "跨界3.16亿收购光探测芯片公司快灵光电",
+   "confidence": "高",
+   "themes": [
+    "半导体",
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "东百集团超3亿元跨界并购芯片企业：标的公司2025年营收下滑超三成 竞业限制纠纷未披露？",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610133894419881.html"
+    },
+    {
+     "kind": "公司",
+     "text": "东百集团3.16亿收购光探测芯片公司快灵光电",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2501527"
+    },
+    {
+     "kind": "同花顺",
+     "text": "光探测芯片+股权收购+商业零售",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“统一大市场”概念（+0.30%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "光探测芯片+股权收购+商业零售",
+   "written_by": "模型"
+  },
+  {
+   "code": "001231",
+   "name": "农心科技",
+   "boards": 2,
+   "first_time": "0930",
+   "industry": "农化制品",
+   "stat": "2天2板",
+   "reason": "农药制剂+原药投产，农药兽药概念走强",
+   "confidence": "中",
+   "themes": [
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "农药制剂+原药投产+海外登记",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“农药兽药”概念（+0.26%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "化工：马达加斯加报告4例鼠疫确诊病例和5例疑似病例",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2503889"
+    }
+   ],
+   "ths_reason": "农药制剂+原药投产+海外登记",
+   "written_by": "模型"
+  },
+  {
+   "code": "603968",
+   "name": "醋化股份",
+   "boards": 2,
+   "first_time": "0936",
+   "industry": "化学制品",
+   "stat": "2天2板",
+   "reason": "分散染料概念活跃，乙腈涨价+染料题材",
+   "confidence": "中",
+   "themes": [
+    "消费",
+    "农业",
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "分散染料概念表现活跃，建新股份20CM涨停，此前亚邦股份、醋化股份涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2503013"
+    },
+    {
+     "kind": "同花顺",
+     "text": "乙腈涨价+安赛蜜+染料+食品饲料添加剂",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“代糖概念”（+0.21%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：新能源汽车增值税出口退税率将降至9%",
+     "source": "证券时报快讯",
+     "url": "https://www.stcn.com/article/detail/4217084.html"
+    }
+   ],
+   "ths_reason": "乙腈涨价+安赛蜜+染料+食品饲料添加剂",
+   "written_by": "模型"
+  },
+  {
+   "code": "600831",
+   "name": "广电网络",
+   "boards": 2,
+   "first_time": "0939",
+   "industry": "电视广播",
+   "stat": "2天2板",
+   "reason": "AI漫剧概念跟涨，短剧+预重整二连板",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "算力",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "AI漫剧概念反复走强，德才股份一字涨停，走出5天4板，慈文传媒、新经典3连板，龙版传媒、广电网络、果麦文化跟涨",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2502965"
+    },
+    {
+     "kind": "同花顺",
+     "text": "预重整+短剧+云网算力",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“互联网金融”概念（+0.47%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "预重整+短剧+云网算力",
+   "written_by": "模型"
+  },
+  {
+   "code": "600851",
+   "name": "海欣股份",
+   "boards": 2,
+   "first_time": "0949",
+   "industry": "化学制药",
+   "stat": "2天2板",
+   "reason": "第一大股东拟征集转让10%股份，股东变更题材",
+   "confidence": "中",
+   "themes": [
+    "医药"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "海欣股份：第一大股东拟公开征集转让10%公司股份",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2501496"
+    },
+    {
+     "kind": "同花顺",
+     "text": "股东变更+医药健康+APDC",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“参股新三板”概念（+0.08%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "股东变更+医药健康+APDC",
+   "written_by": "模型"
+  },
+  {
+   "code": "000668",
+   "name": "荣丰控股",
+   "boards": 1,
+   "first_time": "0925",
+   "industry": "房地产开",
+   "stat": "1天1板",
+   "reason": "协议转让+要约收购，控制权变更复牌涨停",
+   "confidence": "高",
+   "themes": [
+    "航运物流",
+    "房地产"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "荣丰控股复牌：“协议转让+要约收购”两步走 新主拟拿下35%控股权",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610123892986368.html"
+    },
+    {
+     "kind": "公司",
+     "text": "荣丰控股：盛世达转让29.99%股份，10月13日复牌",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261012/c680604474.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "控制权变更+复牌+要约收购+跨境物流",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“破发股”概念（+0.22%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "控制权变更+复牌+要约收购+跨境物流",
+   "written_by": "模型"
+  },
+  {
+   "code": "002917",
+   "name": "金奥博",
+   "boards": 1,
+   "first_time": "0925",
+   "industry": "化学制品",
+   "stat": "1天1板",
+   "reason": "拟收购汇维科技80%股权，拓展军工装备",
+   "confidence": "高",
+   "themes": [
+    "机器人",
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "金奥博：拟收购汇维科技80%股权 进一步拓展军工装备领域相关业务布局",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2502277"
+    },
+    {
+     "kind": "公司",
+     "text": "金奥博：拟现金收购汇维科技80%股权",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261012/c680595109.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "拟收购+民爆+西藏客户+机器人概念",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“机器人概念”（+0.11%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "拟收购+民爆+西藏客户+机器人概念",
+   "written_by": "模型"
+  },
+  {
+   "code": "002322",
+   "name": "理工能科",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "软件开发",
+   "stat": "1天1板",
+   "reason": "业绩预增+电力造价，特高压概念领涨",
+   "confidence": "中",
+   "themes": [
+    "电力",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "业绩预增+电力造价+高分红",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“特高压”概念（+0.30%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "业绩预增+电力造价+高分红",
+   "written_by": "模型"
+  },
+  {
+   "code": "000995",
+   "name": "皇台酒业",
+   "boards": 1,
+   "first_time": "0931",
+   "industry": "白酒Ⅱ",
+   "stat": "1天1板",
+   "reason": "白酒板块盘初拉升，区域白酒品牌涨停",
+   "confidence": "中",
+   "themes": [
+    "消费",
+    "农业"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "白酒板块盘初拉升 皇台酒业涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610133893558713.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "白酒金种子酒、皇台酒业双双涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2503114"
+    },
+    {
+     "kind": "同花顺",
+     "text": "白酒+区域品牌+线上营销",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“酿酒概念”（+0.32%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：新能源汽车增值税出口退税率将降至9%",
+     "source": "证券时报快讯",
+     "url": "https://www.stcn.com/article/detail/4217084.html"
+    }
+   ],
+   "ths_reason": "白酒+区域品牌+线上营销",
+   "written_by": "模型"
+  },
+  {
+   "code": "000823",
+   "name": "超声电子",
+   "boards": 1,
+   "first_time": "0931",
+   "industry": "元件",
+   "stat": "1天1板",
+   "reason": "三季报预增+覆铜板订单充足，PCB概念爆发",
+   "confidence": "高",
+   "themes": [
+    "有色金属",
+    "消费电子"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "超声电子：预计2026年前三季度净利润同比增长90.78%-102%",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610123892666855.html"
+    },
+    {
+     "kind": "公司",
+     "text": "超声电子：预计Q3净利润环比增长181%-206% 覆铜板产品订单充足售价上行",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2502195"
+    },
+    {
+     "kind": "盘面",
+     "text": "PCB概念爆发，迅捷兴20CM涨停，超声电子、中京电子、协和电子、澳弘电子涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2503288"
+    },
+    {
+     "kind": "盘面",
+     "text": "午后PCB概念持续走高，迅捷兴、金百泽、骏亚科技、超声电子、协和电子、澳弘电子等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2503185"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报预增+覆铜板+印制板+高阶HDI",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“贬值受益”概念（+0.13%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "三季报预增+覆铜板+印制板+高阶HDI",
+   "written_by": "模型"
+  },
+  {
+   "code": "002184",
+   "name": "海得控制",
+   "boards": 1,
+   "first_time": "0932",
+   "industry": "自动化设",
+   "stat": "1天1板",
+   "reason": "工业自动化+工业AI+算力基建题材跟涨",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "算力",
+    "基建建材"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "工业自动化+工业AI+算力基础设施",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“光伏概念”（+0.03%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "工业自动化+工业AI+算力基础设施",
+   "written_by": "模型"
+  },
+  {
+   "code": "603188",
+   "name": "亚邦股份",
+   "boards": 1,
+   "first_time": "0932",
+   "industry": "化学制品",
+   "stat": "6天3板",
+   "reason": "分散染料概念活跃，染料中间体+业绩修复",
+   "confidence": "中",
+   "themes": [
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "亚邦股份涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2503114"
+    },
+    {
+     "kind": "盘面",
+     "text": "分散染料概念表现活跃，建新股份20CM涨停，此前亚邦股份、醋化股份涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2503013"
+    },
+    {
+     "kind": "同花顺",
+     "text": "染料中间体+染料产业链+业绩修复",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“高成长股”概念（+0.33%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "化工：马达加斯加报告4例鼠疫确诊病例和5例疑似病例",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2503889"
+    }
+   ],
+   "ths_reason": "染料中间体+染料产业链+业绩修复",
+   "written_by": "模型"
+  },
+  {
+   "code": "600802",
+   "name": "福建水泥",
+   "boards": 1,
+   "first_time": "0933",
+   "industry": "水泥",
+   "stat": "1天1板",
+   "reason": "水泥熟料+福建国资，反内卷概念领涨",
+   "confidence": "中",
+   "themes": [
+    "基建建材"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "水泥熟料+重点工程+福建国资",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“反内卷概念”（+0.13%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "基建建材：中国港湾与铁科院集团公司签署战略合作协议",
+     "source": "证券时报快讯",
+     "url": "https://www.stcn.com/article/detail/4217112.html"
+    }
+   ],
+   "ths_reason": "水泥熟料+重点工程+福建国资",
+   "written_by": "模型"
+  },
+  {
+   "code": "000833",
+   "name": "粤桂股份",
+   "boards": 1,
+   "first_time": "0934",
+   "industry": "综合Ⅱ",
+   "stat": "1天1板",
+   "reason": "三季报预增超150%，硫铁矿+新能源材料",
+   "confidence": "高",
+   "themes": [
+    "稀土"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "粤桂股份：预计2026年第三季度净利润11.26亿元～11.95亿元，同比增长153.70%～169.24%",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261012/c680601474.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "盘后包括联讯仪器、源杰科技、北方稀土、翰宇药业、超声电子、奥来德、坤彩科技、粤桂股份、全志科技、神火股份、新宙邦、纳微科技、优博讯、捷捷微电、冰轮环境、国机精工在内的多家A股上市公司发布2026年前三季度/第三季度业绩预告",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2502756"
+    },
+    {
+     "kind": "同花顺",
+     "text": "业绩预增+硫铁矿+新能源材料",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“农业种植”概念（+0.39%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "业绩预增+硫铁矿+新能源材料",
+   "written_by": "模型"
+  },
+  {
+   "code": "600847",
+   "name": "万里股份",
+   "boards": 1,
+   "first_time": "0934",
+   "industry": "电池",
+   "stat": "1天1板",
+   "reason": "新能源锂电+储能题材跟涨",
+   "confidence": "中",
+   "themes": [
+    "锂电储能"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "新能源锂电池+储能+铅酸电池",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“成渝特区”概念（+0.38%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "新能源锂电池+储能+铅酸电池",
+   "written_by": "模型"
+  },
+  {
+   "code": "603767",
+   "name": "中马传动",
+   "boards": 1,
+   "first_time": "0934",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "新能源汽车减速器+净利润增长题材",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "新能源汽车减速器+汽车变速器+净利润增长",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "新能源汽车减速器+汽车变速器+净利润增长",
+   "written_by": "模型"
+  },
+  {
+   "code": "003037",
+   "name": "三和管桩",
+   "boards": 1,
+   "first_time": "0935",
+   "industry": "水泥",
+   "stat": "1天1板",
+   "reason": "水利技术+新能源管桩+海工桩题材",
+   "confidence": "中",
+   "themes": [
+    "基建建材"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "水利技术+新能源管桩+海工桩",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“2026中报预减”概念（+0.42%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "基建建材：中国港湾与铁科院集团公司签署战略合作协议",
+     "source": "证券时报快讯",
+     "url": "https://www.stcn.com/article/detail/4217112.html"
+    }
+   ],
+   "ths_reason": "水利技术+新能源管桩+海工桩",
+   "written_by": "模型"
+  },
+  {
+   "code": "600199",
+   "name": "金种子酒",
+   "boards": 1,
+   "first_time": "0945",
+   "industry": "白酒Ⅱ",
+   "stat": "1天1板",
+   "reason": "白酒板块拉升，啤白融合+亏损收窄题材",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "白酒金种子酒、皇台酒业双双涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2503114"
+    },
+    {
+     "kind": "盘面",
+     "text": "白酒板块盘初拉升，皇台酒业涨停，金种子酒、天佑德酒、水井坊、酒鬼酒、舍得酒业等纷纷走高",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610133893558713.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "白酒主业+啤白融合+亏损收窄",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：新能源汽车增值税出口退税率将降至9%",
+     "source": "证券时报快讯",
+     "url": "https://www.stcn.com/article/detail/4217084.html"
+    }
+   ],
+   "ths_reason": "白酒主业+啤白融合+亏损收窄",
+   "written_by": "模型"
+  },
+  {
+   "code": "002549",
+   "name": "凯美特气",
+   "boards": 1,
+   "first_time": "0954",
+   "industry": "化学制品",
+   "stat": "1天1板",
+   "reason": "光刻机概念异动，光刻气+电子特气直线涨停",
+   "confidence": "中",
+   "themes": [
+    "半导体",
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "光刻机概念局部异动 凯美特气直线涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2503017"
+    },
+    {
+     "kind": "同花顺",
+     "text": "光刻气+电子特气+尾气回收",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“氢能源”概念（+0.04%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "光刻气+电子特气+尾气回收",
+   "written_by": "模型"
+  },
+  {
+   "code": "002693",
+   "name": "双成药业",
+   "boards": 1,
+   "first_time": "0958",
+   "industry": "化学制药",
+   "stat": "1天1板",
+   "reason": "多肽药+药品出海题材涨停",
+   "confidence": "中",
+   "themes": [
+    "医药"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "多肽药+药品出海+受托加工",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "多肽药+药品出海+受托加工",
+   "written_by": "模型"
+  },
+  {
+   "code": "300107",
+   "name": "建新股份",
+   "boards": 1,
+   "first_time": "0959",
+   "industry": "化学制品",
+   "stat": "1天1板",
+   "reason": "分散染料概念活跃，染料题材20CM涨停",
+   "confidence": "中",
+   "themes": [
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "分散染料概念表现活跃 建新股份20CM涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2503013"
+    },
+    {
+     "kind": "盘面",
+     "text": "分散染料建新股份20CM涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2503114"
+    },
+    {
+     "kind": "同花顺",
+     "text": "染料+精细化工+电子化学品+纸张化学品",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“飞行汽车(eVTOL)”概念（+0.41%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "化工：马达加斯加报告4例鼠疫确诊病例和5例疑似病例",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2503889"
+    }
+   ],
+   "ths_reason": "染料+精细化工+电子化学品+纸张化学品",
+   "written_by": "模型"
+  },
+  {
+   "code": "000530",
+   "name": "冰山冷热",
+   "boards": 1,
+   "first_time": "1009",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "冰雪经济概念走强，冷热设备+冰雪工程",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "锂电储能"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "冰雪经济概念震荡走强 冰山冷热涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2503030"
+    },
+    {
+     "kind": "盘面",
+     "text": "冰雪经济概念表现活跃，冰山冷热、大连圣亚、晶雪节能、雪人集团涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2503114"
+    },
+    {
+     "kind": "盘面",
+     "text": "冰雪经济概念表现活跃，冰山冷热、大连圣亚、晶雪节能、雪人集团、长白山涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2503288"
+    },
+    {
+     "kind": "同花顺",
+     "text": "数据中心液冷+储能温控+冷热设备+冰雪工程",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“汽车热管理”概念（+0.03%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "数据中心液冷+储能温控+冷热设备+冰雪工程",
+   "written_by": "模型"
+  },
+  {
+   "code": "002640",
+   "name": "跨境通",
+   "boards": 1,
+   "first_time": "1013",
+   "industry": "互联网电",
+   "stat": "1天1板",
+   "reason": "跨境电商+AI应用+中报扭亏题材",
+   "confidence": "中",
+   "themes": [
+    "人工智能"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "跨境电商+AI应用+中报扭亏",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“婴童概念”（+0.45%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "跨境电商+AI应用+中报扭亏",
+   "written_by": "模型"
+  },
+  {
+   "code": "002748",
+   "name": "世龙实业",
+   "boards": 1,
+   "first_time": "1014",
+   "industry": "化学原料",
+   "stat": "1天1板",
+   "reason": "氯化亚砜+染料产业链+业绩增长题材",
+   "confidence": "中",
+   "themes": [
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "氯化亚砜+染料产业链+业绩增长",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "化工：马达加斯加报告4例鼠疫确诊病例和5例疑似病例",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2503889"
+    }
+   ],
+   "ths_reason": "氯化亚砜+染料产业链+业绩增长",
+   "written_by": "模型"
+  },
+  {
+   "code": "605058",
+   "name": "澳弘电子",
+   "boards": 1,
+   "first_time": "1020",
+   "industry": "元件",
+   "stat": "17天10板",
+   "reason": "PCB概念爆发，PCB+AI服务器电源题材",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "算力",
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "PCB概念震荡反弹 澳弘电子触及涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2503032"
+    },
+    {
+     "kind": "盘面",
+     "text": "澳弘电子涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2503114"
+    },
+    {
+     "kind": "盘面",
+     "text": "PCB概念爆发，迅捷兴20CM涨停，超声电子、中京电子、协和电子、澳弘电子涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2503288"
+    },
+    {
+     "kind": "同花顺",
+     "text": "PCB+AI服务器电源+具身智能",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“趋势股”概念（+0.34%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "PCB+AI服务器电源+具身智能",
+   "written_by": "模型"
+  },
+  {
+   "code": "600202",
+   "name": "哈空调",
+   "boards": 1,
+   "first_time": "1035",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "空冷设备+道达尔供应商，中俄贸易概念领涨",
+   "confidence": "中",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "空冷设备+飞翼式空冷+道达尔供应商",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“中俄贸易概念”（+1.05%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "空冷设备+飞翼式空冷+道达尔供应商",
+   "written_by": "模型"
+  },
+  {
+   "code": "605258",
+   "name": "协和电子",
+   "boards": 1,
+   "first_time": "1039",
+   "industry": "元件",
+   "stat": "1天1板",
+   "reason": "PCB概念爆发，高频通讯PCB题材涨停",
+   "confidence": "中",
+   "themes": [
+    "锂电储能",
+    "消费电子"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "PCB概念爆发，迅捷兴20CM涨停，超声电子、中京电子、协和电子、澳弘电子涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2503288"
+    },
+    {
+     "kind": "盘面",
+     "text": "午后PCB概念持续走高，迅捷兴、金百泽、骏亚科技、超声电子、协和电子、澳弘电子等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2503185"
+    },
+    {
+     "kind": "同花顺",
+     "text": "PCB+高频通讯+新能源电池",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "PCB+高频通讯+新能源电池",
+   "written_by": "模型"
+  },
+  {
+   "code": "601188",
+   "name": "龙江交通",
+   "boards": 1,
+   "first_time": "1048",
+   "industry": "铁路公路",
+   "stat": "1天1板",
+   "reason": "冰雪旅游保障+高速公路运营题材",
+   "confidence": "中",
+   "themes": [
+    "文旅",
+    "基建建材"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "冰雪旅游保障+高速公路运营",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“石墨烯”概念（+0.21%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "文旅：华泰证券：聚焦油运与快递旺季主线",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103392384.html"
+    }
+   ],
+   "ths_reason": "冰雪旅游保障+高速公路运营",
+   "written_by": "模型"
+  },
+  {
+   "code": "000715",
+   "name": "中兴商业",
+   "boards": 1,
+   "first_time": "1052",
+   "industry": "一般零售",
+   "stat": "1天1板",
+   "reason": "零售板块异动拉升，百货+冰雪消费题材",
+   "confidence": "中",
+   "themes": [
+    "消费",
+    "文旅"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "零售板块异动拉升 中兴商业直线涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2503072"
+    },
+    {
+     "kind": "同花顺",
+     "text": "百货零售+冰雪消费+恐龙文旅",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：新能源汽车增值税出口退税率将降至9%",
+     "source": "证券时报快讯",
+     "url": "https://www.stcn.com/article/detail/4217084.html"
+    }
+   ],
+   "ths_reason": "百货零售+冰雪消费+恐龙文旅",
+   "written_by": "模型"
+  },
+  {
+   "code": "301010",
+   "name": "晶雪节能",
+   "boards": 1,
+   "first_time": "1055",
+   "industry": "装修建材",
+   "stat": "1天1板",
+   "reason": "冰雪经济概念活跃，冷库围护题材涨停",
+   "confidence": "中",
+   "themes": [
+    "基建建材"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "冰雪经济概念表现活跃，冰山冷热、大连圣亚、晶雪节能、雪人集团涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2503114"
+    },
+    {
+     "kind": "盘面",
+     "text": "冰雪经济概念表现活跃，冰山冷热、大连圣亚、晶雪节能、雪人集团、长白山涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2503288"
+    },
+    {
+     "kind": "同花顺",
+     "text": "冰雪经济+冷库围护",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“建筑节能”概念（+1.08%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "基建建材：中国港湾与铁科院集团公司签署战略合作协议",
+     "source": "证券时报快讯",
+     "url": "https://www.stcn.com/article/detail/4217112.html"
+    }
+   ],
+   "ths_reason": "冰雪经济+冷库围护",
+   "written_by": "模型"
+  },
+  {
+   "code": "600593",
+   "name": "大连圣亚",
+   "boards": 1,
+   "first_time": "1056",
+   "industry": "旅游及景",
+   "stat": "1天1板",
+   "reason": "冰雪经济概念活跃，哈尔滨景区+海洋馆",
+   "confidence": "中",
+   "themes": [
+    "文旅"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "冰雪经济概念表现活跃，冰山冷热、大连圣亚、晶雪节能、雪人集团涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2503114"
+    },
+    {
+     "kind": "盘面",
+     "text": "冰雪经济概念表现活跃，冰山冷热、大连圣亚、晶雪节能、雪人集团、长白山涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2503288"
+    },
+    {
+     "kind": "同花顺",
+     "text": "哈尔滨景区+景区经营+海洋馆",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“旅游酒店”概念（+2.16%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "文旅：华泰证券：聚焦油运与快递旺季主线",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103392384.html"
+    }
+   ],
+   "ths_reason": "哈尔滨景区+景区经营+海洋馆",
+   "written_by": "模型"
+  },
+  {
+   "code": "603328",
+   "name": "依顿电子",
+   "boards": 1,
+   "first_time": "1100",
+   "industry": "元件",
+   "stat": "1天1板",
+   "reason": "算力PCB+股权激励题材涨停",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "消费电子"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "股权激励+印制电路板+算力PCB",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "股权激励+印制电路板+算力PCB",
+   "written_by": "模型"
+  },
+  {
+   "code": "600853",
+   "name": "龙建股份",
+   "boards": 1,
+   "first_time": "1107",
+   "industry": "基础建设",
+   "stat": "1天1板",
+   "reason": "冰雪经济+寒区施工题材涨停",
+   "confidence": "中",
+   "themes": [
+    "基建建材"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "冰雪经济+公路市政+海外基建+寒区施工",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“抽水蓄能”概念（+0.01%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "基建建材：中国港湾与铁科院集团公司签署战略合作协议",
+     "source": "证券时报快讯",
+     "url": "https://www.stcn.com/article/detail/4217112.html"
+    }
+   ],
+   "ths_reason": "冰雪经济+公路市政+海外基建+寒区施工",
+   "written_by": "模型"
+  },
+  {
+   "code": "603386",
+   "name": "骏亚科技",
+   "boards": 1,
+   "first_time": "1110",
+   "industry": "元件",
+   "stat": "1天1板",
+   "reason": "PCB概念走高，高多层HDI+人形机器人题材",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "消费电子"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "午后PCB概念持续走高，迅捷兴、金百泽、骏亚科技、超声电子、协和电子、澳弘电子等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2503185"
+    },
+    {
+     "kind": "同花顺",
+     "text": "PCB+高多层HDI+人形机器人",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“人形机器人”概念（+0.01%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "PCB+高多层HDI+人形机器人",
+   "written_by": "模型"
+  },
+  {
+   "code": "002639",
+   "name": "雪人集团",
+   "boards": 1,
+   "first_time": "1118",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "冰雪经济概念活跃，制冰+数据中心冷却",
+   "confidence": "中",
+   "themes": [
+    "算力"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "冰雪经济概念表现活跃，冰山冷热、大连圣亚、晶雪节能、雪人集团涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2503114"
+    },
+    {
+     "kind": "盘面",
+     "text": "冰雪经济概念表现活跃，冰山冷热、大连圣亚、晶雪节能、雪人集团、长白山涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2503288"
+    },
+    {
+     "kind": "同花顺",
+     "text": "制冰系统+数据中心冷却+海外制冷",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“液冷服务器”概念（+0.42%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "制冰系统+数据中心冷却+海外制冷",
+   "written_by": "模型"
+  },
+  {
+   "code": "001229",
+   "name": "魅视科技",
+   "boards": 1,
+   "first_time": "1118",
+   "industry": "计算机设",
+   "stat": "1天1板",
+   "reason": "磷化铟+AI视觉题材，信创概念领涨",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "磷化铟+专业视听+AI视觉",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“信创”概念（+0.70%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "磷化铟+专业视听+AI视觉",
+   "written_by": "模型"
+  },
+  {
+   "code": "603956",
+   "name": "威派格",
+   "boards": 1,
+   "first_time": "1124",
+   "industry": "专用设备",
+   "stat": "1天1板",
+   "reason": "PCB钻针+智慧水务题材涨停",
+   "confidence": "中",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "PCB钻针+智慧水务+河图平台",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“净水概念”（+0.97%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "PCB钻针+智慧水务+河图平台",
+   "written_by": "模型"
+  },
+  {
+   "code": "301041",
+   "name": "金百泽",
+   "boards": 1,
+   "first_time": "1127",
+   "industry": "元件",
+   "stat": "1天1板",
+   "reason": "PCB概念走高，AI算力+业绩增长题材",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "算力",
+    "消费电子"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "午后PCB概念持续走高，迅捷兴、金百泽、骏亚科技、超声电子、协和电子、澳弘电子等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2503185"
+    },
+    {
+     "kind": "同花顺",
+     "text": "PCB+AI算力+业绩增长",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“职业教育”概念（+1.27%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "PCB+AI算力+业绩增长",
+   "written_by": "模型"
+  },
+  {
+   "code": "002579",
+   "name": "中京电子",
+   "boards": 1,
+   "first_time": "1127",
+   "industry": "元件",
+   "stat": "1天1板",
+   "reason": "PCB概念爆发，高阶HDI+存储算力题材",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "半导体",
+    "消费电子"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "PCB概念爆发，迅捷兴20CM涨停，超声电子、中京电子、协和电子、澳弘电子涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2503288"
+    },
+    {
+     "kind": "同花顺",
+     "text": "高阶HDI+高端PCB+存储算力",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“养老概念”（+0.18%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "高阶HDI+高端PCB+存储算力",
+   "written_by": "模型"
+  },
+  {
+   "code": "002949",
+   "name": "华阳国际",
+   "boards": 1,
+   "first_time": "1128",
+   "industry": "工程咨询",
+   "stat": "1天1板",
+   "reason": "AI设计+建筑设计+城市更新题材",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "基建建材"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "AI设计+建筑设计+城市更新",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“粤港自贸”概念（+0.86%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "AI设计+建筑设计+城市更新",
+   "written_by": "模型"
+  },
+  {
+   "code": "688655",
+   "name": "迅捷兴",
+   "boards": 1,
+   "first_time": "1129",
+   "industry": "元件",
+   "stat": "1天1板",
+   "reason": "PCB概念爆发20CM涨停，高速光模块题材",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "消费电子"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "PCB迅捷兴20CM涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2503114"
+    },
+    {
+     "kind": "盘面",
+     "text": "PCB概念爆发，迅捷兴20CM涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2503288"
+    },
+    {
+     "kind": "同花顺",
+     "text": "印制电路板+高速光模块+定增获批",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“安防概念”（+0.88%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "印制电路板+高速光模块+定增获批",
+   "written_by": "模型"
+  },
+  {
+   "code": "603353",
+   "name": "和顺石油",
+   "boards": 1,
+   "first_time": "1300",
+   "industry": "炼化及贸",
+   "stat": "1天1板",
+   "reason": "半导体IP题材，国产芯片概念领涨",
+   "confidence": "中",
+   "themes": [
+    "半导体",
+    "油气"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "半导体IP+成品油",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“国产芯片”概念（+0.35%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "半导体IP+成品油",
+   "written_by": "模型"
+  },
+  {
+   "code": "600237",
+   "name": "铜峰电子",
+   "boards": 1,
+   "first_time": "1300",
+   "industry": "元件",
+   "stat": "1天1板",
+   "reason": "薄膜电容器+复合铜箔基膜题材涨停",
+   "confidence": "中",
+   "themes": [
+    "有色金属",
+    "消费电子"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "薄膜电容器+薄膜材料+复合铜箔基膜",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“新材料”概念（+0.39%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "薄膜电容器+薄膜材料+复合铜箔基膜",
+   "written_by": "模型"
+  },
+  {
+   "code": "600228",
+   "name": "返利科技",
+   "boards": 1,
+   "first_time": "1301",
+   "industry": "数字媒体",
+   "stat": "1天1板",
+   "reason": "在线导购+AI应用，百度概念领涨",
+   "confidence": "中",
+   "themes": [
+    "人工智能"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "在线导购+人工智能应用",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“百度概念”（+0.90%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "在线导购+人工智能应用",
+   "written_by": "模型"
+  },
+  {
+   "code": "603466",
+   "name": "风语筑",
+   "boards": 1,
+   "first_time": "1301",
+   "industry": "数字媒体",
+   "stat": "1天1板",
+   "reason": "AI视频+数字展示，DeepSeek概念领涨",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "AI视频+数字展示+具身智能+人工智能教育",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“DeepSeek概念”（+0.30%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "AI视频+数字展示+具身智能+人工智能教育",
+   "written_by": "模型"
+  },
+  {
+   "code": "002862",
+   "name": "实丰文化",
+   "boards": 1,
+   "first_time": "1302",
+   "industry": "文娱用品",
+   "stat": "1天1板",
+   "reason": "AI玩具+IP潮玩题材涨停",
+   "confidence": "中",
+   "themes": [
+    "人工智能"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "AI玩具+IP潮玩+玩具制造",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“宠物经济”概念（+0.20%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "AI玩具+IP潮玩+玩具制造",
+   "written_by": "模型"
+  },
+  {
+   "code": "603001",
+   "name": "奥康国际",
+   "boards": 1,
+   "first_time": "1303",
+   "industry": "服装家纺",
+   "stat": "1天1板",
+   "reason": "皮鞋皮具+业绩扭亏+股权转让题材",
+   "confidence": "中",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "皮鞋皮具+业绩扭亏+股权转让",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“C2M概念”（+1.21%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "皮鞋皮具+业绩扭亏+股权转让",
+   "written_by": "模型"
+  },
+  {
+   "code": "603099",
+   "name": "长白山",
+   "boards": 1,
+   "first_time": "1304",
+   "industry": "旅游及景",
+   "stat": "1天1板",
+   "reason": "冰雪经济概念活跃，冰雪旅游+温泉度假",
+   "confidence": "中",
+   "themes": [
+    "文旅"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "冰雪经济概念表现活跃，冰山冷热、大连圣亚、晶雪节能、雪人集团、长白山涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2503288"
+    },
+    {
+     "kind": "盘面",
+     "text": "冰雪经济概念盘中震荡走强，冰山冷热涨停，大连圣亚、晶雪节能、雪人集团、长白山跟涨",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2503030"
+    },
+    {
+     "kind": "同花顺",
+     "text": "冰雪旅游+旅游客运+温泉度假",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“券商金股”概念（+0.40%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "文旅：华泰证券：聚焦油运与快递旺季主线",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103392384.html"
+    }
+   ],
+   "ths_reason": "冰雪旅游+旅游客运+温泉度假",
+   "written_by": "模型"
+  },
+  {
+   "code": "603980",
+   "name": "吉华集团",
+   "boards": 1,
+   "first_time": "1305",
+   "industry": "化学制品",
+   "stat": "1天1板",
+   "reason": "分散染料概念活跃，染料+控制权变更题材",
+   "confidence": "中",
+   "themes": [
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "分散染料概念表现活跃，建新股份20CM涨停，此前亚邦股份、醋化股份涨停，吉华集团、七彩化学跟涨",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2503013"
+    },
+    {
+     "kind": "同花顺",
+     "text": "染料+控制权变更",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "化工：马达加斯加报告4例鼠疫确诊病例和5例疑似病例",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2503889"
+    }
+   ],
+   "ths_reason": "染料+控制权变更",
+   "written_by": "模型"
+  },
+  {
+   "code": "002980",
+   "name": "华盛昌",
+   "boards": 1,
+   "first_time": "1306",
+   "industry": "电网设备",
+   "stat": "1天1板",
+   "reason": "光通信测试+硅光产品+伽蓝特收购题材",
+   "confidence": "中",
+   "themes": [
+    "通信",
+    "电力"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "光通信测试+硅光产品+伽蓝特收购",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“食品安全”概念（+0.32%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "光通信测试+硅光产品+伽蓝特收购",
+   "written_by": "模型"
+  },
+  {
+   "code": "002878",
+   "name": "元隆雅图",
+   "boards": 1,
+   "first_time": "1306",
+   "industry": "广告营销",
+   "stat": "1天1板",
+   "reason": "冰雪经济+IP文创+短剧+AI应用题材",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "冰雪经济+IP文创+短剧游戏+AI应用",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“抖音概念(字节概念)”概念（+1.07%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "冰雪经济+IP文创+短剧游戏+AI应用",
+   "written_by": "模型"
+  },
+  {
+   "code": "001318",
+   "name": "阳光乳业",
+   "boards": 1,
+   "first_time": "1309",
+   "industry": "饮料乳品",
+   "stat": "1天1板",
+   "reason": "低温乳品+冷链物流，乳业概念领涨",
+   "confidence": "中",
+   "themes": [
+    "航运物流",
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "低温乳品+冷链物流+新品研发",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“乳业”概念（+0.97%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "低温乳品+冷链物流+新品研发",
+   "written_by": "模型"
+  },
+  {
+   "code": "600391",
+   "name": "航发科技",
+   "boards": 1,
+   "first_time": "1309",
+   "industry": "航空装备",
+   "stat": "1天1板",
+   "reason": "航空发动机+长江1000A题材涨停",
+   "confidence": "中",
+   "themes": [
+    "军工"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "军工航发科技涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2503288"
+    },
+    {
+     "kind": "同花顺",
+     "text": "航空发动机+长江1000A+外贸配套",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“大飞机”概念（+1.33%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "军工：以媒称内塔尼亚胡与特朗普讨论重启对伊战争",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3178217"
+    }
+   ],
+   "ths_reason": "航空发动机+长江1000A+外贸配套",
+   "written_by": "模型"
+  },
+  {
+   "code": "002587",
+   "name": "奥拓电子",
+   "boards": 1,
+   "first_time": "1312",
+   "industry": "光学光电",
+   "stat": "1天1板",
+   "reason": "AI视讯+虚拟拍摄+电影屏题材",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "AI视讯+虚拟拍摄+电影屏",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“区块链”概念（+0.48%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "AI视讯+虚拟拍摄+电影屏",
+   "written_by": "模型"
+  },
+  {
+   "code": "603042",
+   "name": "华脉科技",
+   "boards": 1,
+   "first_time": "1322",
+   "industry": "通信设备",
+   "stat": "1天1板",
+   "reason": "光纤光缆+扭亏为盈，6G概念领涨",
+   "confidence": "中",
+   "themes": [
+    "通信"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "光纤光缆+扭亏为盈+6G通信",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“6G概念”（+1.14%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "光纤光缆+扭亏为盈+6G通信",
+   "written_by": "模型"
+  },
+  {
+   "code": "000558",
+   "name": "天府文旅",
+   "boards": 1,
+   "first_time": "1323",
+   "industry": "旅游及景",
+   "stat": "1天1板",
+   "reason": "冰雪旅游+毕棚沟收购+影旅融合",
+   "confidence": "中",
+   "themes": [
+    "文旅"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "冰雪旅游+毕棚沟收购+影旅融合",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“户外露营”概念（+0.70%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "文旅：华泰证券：聚焦油运与快递旺季主线",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103392384.html"
+    }
+   ],
+   "ths_reason": "冰雪旅游+毕棚沟收购+影旅融合",
+   "written_by": "规则"
+  },
+  {
+   "code": "600712",
+   "name": "南宁百货",
+   "boards": 1,
+   "first_time": "1328",
+   "industry": "一般零售",
+   "stat": "1天1板",
+   "reason": "百货零售+平陆运河+扭亏为盈",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "百货零售+平陆运河+扭亏为盈",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“退税商店”概念（+2.58%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：新能源汽车增值税出口退税率将降至9%",
+     "source": "证券时报快讯",
+     "url": "https://www.stcn.com/article/detail/4217084.html"
+    }
+   ],
+   "ths_reason": "百货零售+平陆运河+扭亏为盈",
+   "written_by": "规则"
+  },
+  {
+   "code": "600281",
+   "name": "华阳新材",
+   "boards": 1,
+   "first_time": "1339",
+   "industry": "小金属",
+   "stat": "1天1板",
+   "reason": "贵金属回收+铂族金属加工+山西国资",
+   "confidence": "中",
+   "themes": [
+    "黄金",
+    "有色金属"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "贵金属回收+铂族金属加工+山西国资",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“降解塑料”概念（+0.11%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "黄金：以媒称内塔尼亚胡与特朗普讨论重启对伊战争",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3178217"
+    }
+   ],
+   "ths_reason": "贵金属回收+铂族金属加工+山西国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "002430",
+   "name": "杭氧股份",
+   "boards": 1,
+   "first_time": "1345",
+   "industry": "化学制品",
+   "stat": "1天1板",
+   "reason": "电子气体+工业气体+空分设备",
+   "confidence": "中",
+   "themes": [
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "电子气体+工业气体+空分设备",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“煤化工概念”（+0.56%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "化工：马达加斯加报告4例鼠疫确诊病例和5例疑似病例",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2503889"
+    }
+   ],
+   "ths_reason": "电子气体+工业气体+空分设备",
+   "written_by": "规则"
+  },
+  {
+   "code": "002172",
+   "name": "澳洋健康",
+   "boards": 1,
+   "first_time": "1347",
+   "industry": "医疗服务",
+   "stat": "1天1板",
+   "reason": "脑机接口+医疗服务+国资控股+“羊”字辈",
+   "confidence": "中",
+   "themes": [
+    "医药",
+    "前沿科技"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "脑机接口+医疗服务+国资控股+“羊”字辈",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“毛发医疗”概念（+0.84%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "脑机接口+医疗服务+国资控股+“羊”字辈",
+   "written_by": "规则"
+  },
+  {
+   "code": "002811",
+   "name": "郑中设计",
+   "boards": 1,
+   "first_time": "1352",
+   "industry": "装修装饰",
+   "stat": "3天2板",
+   "reason": "半导体投资+室内设计+软装增长",
+   "confidence": "中",
+   "themes": [
+    "半导体"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "半导体投资+室内设计+软装增长",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "半导体投资+室内设计+软装增长",
+   "written_by": "规则"
+  },
+  {
+   "code": "002623",
+   "name": "亚玛顿",
+   "boards": 1,
+   "first_time": "1428",
+   "industry": "光伏设备",
+   "stat": "1天1板",
+   "reason": "玻璃基板+光伏玻璃+钙钛矿玻璃",
+   "confidence": "中",
+   "themes": [
+    "光伏"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "玻璃基板+光伏玻璃+钙钛矿玻璃",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“举牌”概念（+1.39%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "玻璃基板+光伏玻璃+钙钛矿玻璃",
+   "written_by": "规则"
+  }
+ ]
+}
