@@ -451,3 +451,22 @@ def test_cninfo_dates_are_day_level():
     em.source = "em_notice"
     merged = announce.merge_sources([res, FetchResult("em_notice", "东财", [em])])
     assert len(merged) == 1 and merged[0].source == "cninfo" and merged[0].published == at(16, 7, 5)
+
+
+def test_foreign_companies_stay_company_news(monkeypatch):
+    from finhot import entities
+    from finhot.scoring import classify
+    monkeypatch.setattr(entities, "book", lambda: BOOK)                    # 全市场清单（complete）里没有英伟达
+    assert classify(news("小鹏汽车：第三季度交付量创新高", category="")) == "公司"
+    assert classify(news("东百集团：终止收购", category="")) == "公司"
+
+
+def test_delisted_and_old_bj_codes_do_not_shadow_listed_stocks():
+    fresh = [{"code": "430017", "name": "星昊医药"}, {"code": "920017", "name": "星昊医药"},
+             {"code": "000004", "name": "国华退"}, {"code": "000001", "name": "平安银行"}]
+    stocks, _ = merge_sync([], fresh, {"920017": "化学制药", "000001": ""})
+    by = {s.code: s.status for s in stocks}
+    assert by == {"430017": "delisted", "920017": "listed", "000004": "delisted", "000001": "listed"}
+    b = build_book({"stocks": [vars(s) for s in stocks]})
+    assert [s.code for s in b.resolve("星昊医药")] == ["920017"]
+    assert [m.code for m in Linker(b).link(news("星昊医药：获得药品注册证书"))] == ["920017"]

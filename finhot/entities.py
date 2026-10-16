@@ -30,6 +30,7 @@ ENTITY_DIR = ROOT / "sources" / "entities"
 STOCKS_FILE = ENTITY_DIR / "stocks.json"
 ALIASES_FILE = ENTITY_DIR / "aliases.yaml"
 CNINFO_STOCKS = "http://www.cninfo.com.cn/new/data/szse_stock.json"
+_DELISTED_NAME = re.compile(r"退$|退市|^PT")
 _ST = re.compile(r"^\*?S?\*?ST\s*|^S\s+|^N(?=[一-龥])|^C(?=[一-龥])")   # *ST、ST、S（未股改）、N / C（新股上市首日 / 前五日）
 
 
@@ -82,13 +83,16 @@ def parse_cninfo_stocks(data: dict) -> list[dict]:
 
 
 def parse_em_stock_list(data: dict) -> dict[str, str]:
-    """东方财富 A 股列表（clist，字段 f12 代码、f100 行业）→ {代码: 行业}。"""
-    return {str(d["f12"]): str(d.get("f100") or "").strip()
-            for d in ((data.get("data") or {}).get("diff") or []) if d.get("f12") and d.get("f100") not in (None, "-")}
+    """东方财富 A 股列表（clist，字段 f12 代码、f100 行业）→ {代码: 行业}。列表里有就是在市（新股的行业可能是空的）。"""
+    return {str(d["f12"]): ("" if d.get("f100") in (None, "-") else str(d["f100"]).strip())
+            for d in ((data.get("data") or {}).get("diff") or []) if d.get("f12")}
 
 
 def merge_sync(old: list[Stock], fresh: list[dict], industries: dict[str, str] | None = None) -> tuple[list[Stock], dict]:
-    """把新取到的清单并进旧的：新股加进来、改名记曾用名、ST 标出来、清单里没有了的标退市。返回（新清单, 变化）。"""
+    """把新取到的清单并进旧的：新股加进来、改名记曾用名、ST 标出来、清单里没有了的标退市。返回（新清单, 变化）。
+
+    巨潮的清单里也有早已退市的（“国华退”“PT金田A”）和北交所改成 920 开头之前的老代码；industries（东方财富
+    当前在市的 A 股）取到时，不在里面的都算退市。"""
     industries = industries or {}
     by_code = {s.code: replace(s, former=list(s.former)) for s in old}   # 不改调用方的对象
     changes: dict[str, list[str]] = {"新增": [], "改名": [], "退市": [], "恢复": []}
@@ -105,9 +109,12 @@ def merge_sync(old: list[Stock], fresh: list[dict], industries: dict[str, str] |
                 s.former.append(s.name)
             changes["改名"].append(f"{code} {s.name} → {name}")
             s.name = name
-        if s.status != "listed":
+        listed = not _DELISTED_NAME.search(name) and (not industries or code in industries)
+        if listed and s.status != "listed":
             changes["恢复"].append(f"{code} {name}")
-            s.status = "listed"
+        elif not listed and s.status == "listed":
+            changes["退市"].append(f"{code} {name}")
+        s.status = "listed" if listed else "delisted"
         s.org_id = r.get("org_id") or s.org_id
         s.pinyin = r.get("pinyin") or s.pinyin
         s.exchange = s.exchange or exchange_of(code)
@@ -199,7 +206,9 @@ class Book:
     updated: str = ""
 
     def resolve(self, name: str) -> list[Stock]:
-        return [self.stocks[c] for c in self.names.get(name, []) if c in self.stocks]
+        """简称对应的股票；有在市的就只给在市的（北交所老代码、退市的同名公司排除掉）。"""
+        hits = [self.stocks[c] for c in self.names.get(name, []) if c in self.stocks]
+        return [s for s in hits if s.status == "listed"] or hits
 
     def get(self, code: str) -> Stock | None:
         return self.stocks.get(code)

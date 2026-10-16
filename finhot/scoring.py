@@ -112,7 +112,7 @@ def _company_title(title: str) -> str:
     b = book()
     if b.is_company(prefix):
         return title
-    if _NOT_COMPANY_PREFIX.search(prefix) or b.complete:
+    if _NOT_COMPANY_PREFIX.search(prefix):   # 不在 A 股清单里的不一定不是公司（英伟达、港股公司），只去掉明显不是的
         return rest
     return title
 

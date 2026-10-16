@@ -105,7 +105,10 @@ class Linker:
 
     def _pick(self, name: str, text: str, at: int) -> str:
         codes = self.book.names.get(name) or []
-        if len(codes) != 1:
+        if len(codes) > 1:   # 一名多码：在市的优先（北交所老代码、退市的同名公司），再看是不是现名
+            listed = [c for c in codes if self.book.stocks[c].status == "listed"]
+            codes = listed or codes
+        if len(codes) > 1:
             current = [c for c in codes if self.book.stocks[c].name == name or self.book.stocks[c].bare == name]
             if len(current) != 1:
                 return ""
