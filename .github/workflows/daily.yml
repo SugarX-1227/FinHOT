@@ -11,9 +11,9 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "auto=按时段自动；或指定 pre/noon/close/weekly；backtest=只重算静态站的信号战绩"
+        description: "auto=按时段自动；或指定 pre/noon/close/weekly；backtest=只重算静态站的信号战绩；entities=同步股票清单"
         type: choice
-        options: [auto, pre, noon, close, weekly, backtest]
+        options: [auto, pre, noon, close, weekly, backtest, entities]
         default: auto
       hours:
         description: "采集最近多少小时（留空=接着上一份日报）"
@@ -64,6 +64,7 @@ jobs:
             auto)   python -m finhot auto $FLAGS ;;
             weekly) python -m finhot weekly $FLAGS ;;
             backtest) python -m finhot backtest || [ $? = 3 ] ;;   # 3 = 行情接口暂时连不上，保留上一次的结果
+            entities) python -m finhot entities sync ;;               # 同步全 A 股清单（巨潮），公开数据
             *)      python -m finhot run --edition "$MODE" ${HOURS:+--hours "$HOURS"} $FLAGS ;;
           esac
 
@@ -72,7 +73,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add reports data sources/eastmoney_boards.json
+          git add reports data sources/eastmoney_boards.json sources/entities/stocks.json
           if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
           git commit -m "report: $(TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M')"
           for i in 1 2 3; do

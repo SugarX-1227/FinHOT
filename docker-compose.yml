@@ -25,8 +25,21 @@ services:
       LLM_MODEL: ${LLM_MODEL:-}
       LLM_BODY_EXTRA: ${LLM_EXTRA_JSON:-}
       LLM_TRUST_ENV: "0"
+      # 个性化（docs/PERSONALIZATION.md）：画像在仓库目录的 profiles/（不入库），个人数据（简报、推送记录、反馈）
+      # 在数据卷的 private/；仓库里公开的 data/ 只读挂进来（关系归纳、我的周报要用）
+      FINHOT_PROFILES_DIR: /app/profiles
+      FINHOT_PRIVATE_DIR: /app/data/private
+      FINHOT_PUBLIC_DATA_DIR: /app/public-data
+      # 反馈链接（可选）：FINHOT_FEEDBACK_SECRET 至少 16 位；FINHOT_FEEDBACK_URL 是外面访问这台服务器 8790 端口的地址
+      FINHOT_FEEDBACK_SECRET: ${FINHOT_FEEDBACK_SECRET:-}
+      FINHOT_FEEDBACK_URL: ${FINHOT_FEEDBACK_URL:-}
+      FINHOT_FEEDBACK_PORT: "8790"
     volumes:
       - pusher:/app/data
+      - ./profiles:/app/profiles
+      - ./data:/app/public-data:ro
+    ports:
+      - "${FINHOT_FEEDBACK_PORT:-8790}:8790"   # 只有设了 FINHOT_FEEDBACK_SECRET 才有服务在听
     depends_on:
       api:
         condition: service_started

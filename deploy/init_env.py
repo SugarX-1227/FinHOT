@@ -43,6 +43,12 @@ FINHOT_PUSH_SOURCES=
 # SELECTION_T1=60
 # SELECTION_T1_5=62
 # SELECTION_T2=64
+
+# ===== 个性化：我的盘前 5 分钟、持仓提醒（docs/PERSONALIZATION.md） =====
+# 画像放在仓库目录的 profiles/（不入库）：deploy/finhot.sh profile init 我 --themes 锂电储能,算力,半导体
+# 简报和提醒里的“有用 / 不相关 / 已知道”反馈链接：在防火墙放行 8790 端口后把下面这行的注释去掉
+# FINHOT_FEEDBACK_URL=http://{ip}:8790
+FINHOT_FEEDBACK_SECRET={feedback_secret}
 """
 
 
@@ -90,7 +96,8 @@ def build(example: str, ip: str, port: int, llm_key: str) -> tuple[str, str]:
     lines[0] = "# FinHOT 服务器配置（deploy/init_env.py 生成）。不要提交到 Git，不要发给别人。"
     for k, v in values.items():
         lines = set_value(lines, k, v)
-    return "\n".join(lines).rstrip() + "\n" + FINHOT_BLOCK, admin
+    block = FINHOT_BLOCK.replace("{ip}", ip).replace("{feedback_secret}", secrets.token_hex(16))
+    return "\n".join(lines).rstrip() + "\n" + block, admin
 
 
 def main(argv: list[str] | None = None) -> int:

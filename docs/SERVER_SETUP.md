@@ -111,6 +111,7 @@ deploy/finhot.sh up
 | 重启某个服务 | `deploy/finhot.sh restart pusher` |
 | 全部停掉（数据保留） | `deploy/finhot.sh stop`，再启动用 `deploy/finhot.sh up` |
 | 精选或日报是空的，查卡在哪一层 | `deploy/finhot.sh doctor`（见下面“精选或日报是空的”） |
+| 马上出一份个人简报 | `deploy/finhot.sh brief 我`（`--send` 发到群里，`--weekly` 我的周报；见“个人简报与持仓提醒”） |
 
 `status` 里推送进程每轮一行，类似：
 
@@ -217,6 +218,54 @@ GitHub Actions 上的日报也算一份战绩，只给静态站的“战绩”�
 > 推送 token（`web/.env` 的 `INGEST_TOKEN`）现在只在服务器内部用（推送进程 → 网站，走 docker 内网）。
 > 换 token：`python3 -c "import secrets; print(secrets.token_urlsafe(32))"` 生成一个新的，替换 `web/.env` 里
 > `INGEST_TOKEN=` 后面那串，再 `deploy/finhot.sh restart api pusher`（会重建这两个容器，读入新 token）。
+
+## 个人简报与持仓提醒（内测）
+
+设计见 [PERSONALIZATION.md](PERSONALIZATION.md)。画像（持仓、自选、关注题材、推送地址）放在 `/opt/finhot/profiles/`，
+**不入库**；简报、推送记录、反馈存在推送进程数据卷的 `private/` 里。都不会出现在 GitHub 和网站上。
+
+1. **建画像**（冷启动只选 3 个题材也能出简报）：
+
+   ```bash
+   deploy/finhot.sh profile init 我 --themes 锂电储能,算力,半导体 --holdings 300750,002594
+   deploy/finhot.sh profile show 我
+   ```
+
+   同花顺 / 东方财富导出的自选（CSV、TXT，GBK 也行），或者随手粘贴的代码清单：先传到服务器的 `profiles/` 下，再
+   `deploy/finhot.sh profile import 我 /app/profiles/自选.csv --as holdings`（`--as watch` 导入为自选）。
+
+2. **配推送**：飞书建一个只有自己的群 → 群设置 → 群机器人 → 添加“自定义机器人”，复制 webhook 地址；
+   需要的话勾选“签名校验”。打开 `profiles/我.yaml`，把 `push` 改成：
+
+   ```yaml
+   push:
+     channel: feishu          # 企业微信群机器人写 wecom
+     webhook: https://open.feishu.cn/open-apis/bot/v2/hook/xxxx
+     secret: 签名校验的密钥（没开就删掉这行）
+     daily_limit: 8
+     quiet: "22:30-07:30"
+   ```
+
+   每位内测朋友各建一个画像、各用自己的私人群，互相看不到。
+
+3. **试一份**：`deploy/finhot.sh brief 我`（加 `--send` 发到群里；`--weekly` 出我的周报）。
+   之后不用管：推送进程按画像里的常看时段（`hours`，默认 08:20 盘前版、15:45 盘后版）在工作日自动出简报并发送；
+   持仓 / 自选的重大公告（业绩预告、重组、控制权变更、问询函、停复牌、减持……）和持仓股盘中涨跌超过 5% 即时提醒，
+   每人每天最多 8 条，免打扰时段里的放进下一份简报。日志里每轮有一行“个人：profiles=1 sent=…”。
+
+4. **反馈链接**（可选）：`web/.env` 里已经有 `FINHOT_FEEDBACK_SECRET`（老的部署自己加一行，至少 16 位随机字符），
+   在腾讯云防火墙放行 8790 端口，再加一行 `FINHOT_FEEDBACK_URL=http://你的公网IP:8790`，`deploy/finhot.sh restart pusher`。
+   之后每条后面有“有用 · 不相关 · 已知道”，点一下就记上，用来调各类理由的权重。
+   一周后看效果：`deploy/finhot.sh personal-eval 我`。
+
+5. **关系库**：`deploy/finhot.sh profile relations 我` 从最近 30 天的快讯和公告里找“同一句话里点到你的股票和另一家公司、
+   又有供货 / 订单 / 合作 / 竞争”的句子，生成待审核的候选（带原句和链接）。在 `profiles/我.yaml` 里把
+   `status: 待审核` 改成 `已确认` 才参与排序；也可以自己写 `source: 人工维护` 的条目。人工写的、确认过的不会被覆盖。
+
+股票清单（`sources/entities/stocks.json`）由 GitHub Actions 每天同步（巨潮），`deploy/finhot.sh update` 时跟着更新；
+刚部署时还是几百只的种子清单，等第一次同步后（或在服务器上 `docker compose exec pusher python -m finhot entities sync`）才是全市场。
+公告源在服务器上能不能连通：`docker compose --env-file web/.env exec pusher python -m finhot sources`，最后几行是公告源，
+沪市条数为 0 时把 `sources/sources.yaml` 里巨潮的 `columns` 改成 `[szse, sse]`。
 
 ## 安全提醒
 
