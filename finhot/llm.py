@@ -114,6 +114,37 @@ def _parse_json(text: str) -> dict:
         return json.loads(m.group(0))
 
 
+DIRECTIONS = ("利好", "利空", "中性")
+
+
+def parse_impacts(r: dict) -> list[dict]:
+    """每个板块各自的方向：[{sector, direction}]，最多 3 个。
+
+    也认旧格式（一个 direction + sectors 列表），旧数据和不按新格式回答的模型都能读。"""
+    out: list[dict] = []
+    for x in r.get("impacts") or []:
+        if isinstance(x, dict) and str(x.get("sector") or "").strip():
+            d = x.get("direction")
+            out.append({"sector": str(x["sector"]).strip(), "direction": d if d in DIRECTIONS else "中性"})
+    if not out:
+        d = r.get("direction") if r.get("direction") in DIRECTIONS else "中性"
+        out = [{"sector": str(s), "direction": d} for s in (r.get("sectors") or []) if str(s).strip()]
+    return out[:3]
+
+
+def overall_direction(impacts: list[dict]) -> str:
+    """整条的方向：各板块方向一致时就是它；有利好也有利空时是“分化”；没有板块时是中性。"""
+    dirs = {x["direction"] for x in impacts} - {"中性"}
+    if len(dirs) == 1:
+        return dirs.pop()
+    return "分化" if dirs else "中性"
+
+
+def impacts_of(llm: dict) -> list[dict]:
+    """已存数据里的板块方向（新数据有 impacts；旧数据只有 direction + sectors）。"""
+    return parse_impacts(llm or {})
+
+
 def _apply(it: NewsItem, r: dict) -> None:
     src_text = f"{it.title}{it.content}"
     try:
@@ -122,12 +153,14 @@ def _apply(it: NewsItem, r: dict) -> None:
         llm_score = it.score
     # 防幻觉：个股必须在原文中出现
     stocks = [s for s in (r.get("stocks") or []) if isinstance(s, str) and s and s in src_text][:3]
+    impacts = parse_impacts(r)
     it.llm = {
         "keep": bool(r.get("keep", True)),
         "title": str(r.get("title") or "").strip(),
         "summary": str(r.get("summary") or "").strip(),
-        "direction": r.get("direction") if r.get("direction") in ("利好", "利空", "中性") else "中性",
-        "sectors": [str(s) for s in (r.get("sectors") or [])][:3],
+        "direction": overall_direction(impacts),
+        "impacts": impacts,
+        "sectors": [x["sector"] for x in impacts],
         "stocks": stocks,
         "horizon": str(r.get("horizon") or ""),
         "basis": str(r.get("basis") or "").strip(),

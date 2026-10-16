@@ -22,6 +22,7 @@ class NewsItem:
     important: bool = False     # 信源自带的"重要/加红"标记
     tags: list[str] = field(default_factory=list)     # 信源自带的标签/主题
     stocks: list[str] = field(default_factory=list)   # 信源自带的关联个股
+    codes: list[str] = field(default_factory=list)    # 明确对应的 A 股代码（公告带代码；快讯一般没有）
     lang: str = "zh"
     tier: str = "media"         # official | media
     weight: float = 1.0         # 信源权重（配置文件给出）

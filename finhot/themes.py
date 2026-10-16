@@ -64,6 +64,23 @@ def _pattern(theme: str) -> re.Pattern:
     return re.compile("|".join(parts))
 
 
+@lru_cache(maxsize=1)
+def _stories() -> dict[str, re.Pattern]:
+    import yaml
+    from .config import ROOT
+    path = ROOT / "sources" / "stories.yaml"
+    try:
+        raw = (yaml.safe_load(path.read_text(encoding="utf-8")) or {}).get("stories") or {}
+    except OSError:
+        return {}
+    return {name: re.compile(str(kw)) for name, kw in raw.items() if kw}
+
+
+def story_of(title: str) -> str:
+    """标题属于哪条宏观主线（sources/stories.yaml），没有就是空串。"""
+    return next((name for name, pat in _stories().items() if pat.search(title)), "")
+
+
 def themes_in(text: str) -> list[str]:
     """文本命中的题材（按词典顺序）。"""
     return [t for t in THEMES if _pattern(t).search(text)]

@@ -1,0 +1,1645 @@
+{
+"updated": "2026-10-16T00:00:00+08:00",
+"source": "种子：本地历史数据（涨停池、龙虎榜、解禁、新股），运行 python -m finhot entities sync 换成全市场清单",
+"complete": false,
+"stocks": [
+{
+"code": "000420",
+"name": "吉林化纤",
+"exchange": "SZ",
+"industry": "化学纤维",
+"st": false
+},
+{
+"code": "000530",
+"name": "冰山冷热",
+"exchange": "SZ",
+"industry": "通用设备",
+"st": false
+},
+{
+"code": "000546",
+"name": "金圆股份",
+"exchange": "SZ",
+"industry": "环境治理",
+"st": false
+},
+{
+"code": "000558",
+"name": "天府文旅",
+"exchange": "SZ",
+"industry": "旅游及景",
+"st": false
+},
+{
+"code": "000573",
+"name": "粤宏远Ａ",
+"exchange": "SZ",
+"industry": "房地产开",
+"st": false
+},
+{
+"code": "000601",
+"name": "韶能股份",
+"exchange": "SZ",
+"industry": "电力",
+"st": false
+},
+{
+"code": "000626",
+"name": "远大控股",
+"exchange": "SZ",
+"industry": "物流",
+"st": false
+},
+{
+"code": "000656",
+"name": "金科股份",
+"exchange": "SZ",
+"industry": "",
+"st": false
+},
+{
+"code": "000668",
+"name": "荣丰控股",
+"exchange": "SZ",
+"industry": "房地产开",
+"st": false
+},
+{
+"code": "000710",
+"name": "贝瑞基因",
+"exchange": "SZ",
+"industry": "医疗服务",
+"st": false
+},
+{
+"code": "000715",
+"name": "中兴商业",
+"exchange": "SZ",
+"industry": "一般零售",
+"st": false
+},
+{
+"code": "000722",
+"name": "湖南发展",
+"exchange": "SZ",
+"industry": "电力",
+"st": false
+},
+{
+"code": "000736",
+"name": "中交发展",
+"exchange": "SZ",
+"industry": "房地产服",
+"st": false
+},
+{
+"code": "000823",
+"name": "超声电子",
+"exchange": "SZ",
+"industry": "元件",
+"st": false
+},
+{
+"code": "000833",
+"name": "粤桂股份",
+"exchange": "SZ",
+"industry": "综合Ⅱ",
+"st": false
+},
+{
+"code": "000892",
+"name": "欢瑞世纪",
+"exchange": "SZ",
+"industry": "影视院线",
+"st": false
+},
+{
+"code": "000995",
+"name": "皇台酒业",
+"exchange": "SZ",
+"industry": "白酒Ⅱ",
+"st": false
+},
+{
+"code": "001216",
+"name": "华瓷股份",
+"exchange": "SZ",
+"industry": "家居用品",
+"st": false
+},
+{
+"code": "001225",
+"name": "和泰机电",
+"exchange": "SZ",
+"industry": "专用设备",
+"st": false
+},
+{
+"code": "001229",
+"name": "魅视科技",
+"exchange": "SZ",
+"industry": "计算机设",
+"st": false
+},
+{
+"code": "001231",
+"name": "农心科技",
+"exchange": "SZ",
+"industry": "农化制品",
+"st": false
+},
+{
+"code": "001286",
+"name": "陕西能源",
+"exchange": "SZ",
+"industry": "",
+"st": false
+},
+{
+"code": "001299",
+"name": "美能能源",
+"exchange": "SZ",
+"industry": "燃气Ⅱ",
+"st": false
+},
+{
+"code": "001300",
+"name": "三柏硕",
+"exchange": "SZ",
+"industry": "文娱用品",
+"st": false
+},
+{
+"code": "001318",
+"name": "阳光乳业",
+"exchange": "SZ",
+"industry": "饮料乳品",
+"st": false
+},
+{
+"code": "001330",
+"name": "博纳影业",
+"exchange": "SZ",
+"industry": "影视院线",
+"st": false
+},
+{
+"code": "001336",
+"name": "楚环科技",
+"exchange": "SZ",
+"industry": "环保设备",
+"st": false
+},
+{
+"code": "002029",
+"name": "七 匹 狼",
+"exchange": "SZ",
+"industry": "服装家纺",
+"st": false
+},
+{
+"code": "002058",
+"name": "紫竹高科",
+"exchange": "SZ",
+"industry": "电池",
+"st": false
+},
+{
+"code": "002080",
+"name": "中材科技",
+"exchange": "SZ",
+"industry": "",
+"st": false
+},
+{
+"code": "002103",
+"name": "广博股份",
+"exchange": "SZ",
+"industry": "文娱用品",
+"st": false
+},
+{
+"code": "002134",
+"name": "天津普林",
+"exchange": "SZ",
+"industry": "元件",
+"st": false
+},
+{
+"code": "002172",
+"name": "澳洋健康",
+"exchange": "SZ",
+"industry": "医疗服务",
+"st": false
+},
+{
+"code": "002181",
+"name": "粤 传 媒",
+"exchange": "SZ",
+"industry": "出版",
+"st": false
+},
+{
+"code": "002184",
+"name": "海得控制",
+"exchange": "SZ",
+"industry": "自动化设",
+"st": false
+},
+{
+"code": "002212",
+"name": "天融信",
+"exchange": "SZ",
+"industry": "软件开发",
+"st": false
+},
+{
+"code": "002242",
+"name": "九阳股份",
+"exchange": "SZ",
+"industry": "小家电",
+"st": false
+},
+{
+"code": "002264",
+"name": "新 华 都",
+"exchange": "SZ",
+"industry": "广告营销",
+"st": false
+},
+{
+"code": "002285",
+"name": "世联行",
+"exchange": "SZ",
+"industry": "",
+"st": false
+},
+{
+"code": "002317",
+"name": "众生药业",
+"exchange": "SZ",
+"industry": "中药Ⅱ",
+"st": false
+},
+{
+"code": "002322",
+"name": "理工能科",
+"exchange": "SZ",
+"industry": "软件开发",
+"st": false
+},
+{
+"code": "002343",
+"name": "慈文传媒",
+"exchange": "SZ",
+"industry": "影视院线",
+"st": false
+},
+{
+"code": "002396",
+"name": "星网锐捷",
+"exchange": "SZ",
+"industry": "",
+"st": false
+},
+{
+"code": "002430",
+"name": "杭氧股份",
+"exchange": "SZ",
+"industry": "化学制品",
+"st": false
+},
+{
+"code": "002441",
+"name": "众业达",
+"exchange": "SZ",
+"industry": "电网设备",
+"st": false
+},
+{
+"code": "002469",
+"name": "三维化学",
+"exchange": "SZ",
+"industry": "化学原料",
+"st": false
+},
+{
+"code": "002480",
+"name": "新筑股份",
+"exchange": "SZ",
+"industry": "电力",
+"st": false
+},
+{
+"code": "002487",
+"name": "大金重工",
+"exchange": "SZ",
+"industry": "",
+"st": false
+},
+{
+"code": "002531",
+"name": "天顺风能",
+"exchange": "SZ",
+"industry": "风电设备",
+"st": false
+},
+{
+"code": "002543",
+"name": "万和电气",
+"exchange": "SZ",
+"industry": "厨卫电器",
+"st": false
+},
+{
+"code": "002549",
+"name": "凯美特气",
+"exchange": "SZ",
+"industry": "化学制品",
+"st": false
+},
+{
+"code": "002552",
+"name": "宝鼎科技",
+"exchange": "SZ",
+"industry": "元件",
+"st": false
+},
+{
+"code": "002576",
+"name": "通达动力",
+"exchange": "SZ",
+"industry": "电机Ⅱ",
+"st": false
+},
+{
+"code": "002579",
+"name": "中京电子",
+"exchange": "SZ",
+"industry": "元件",
+"st": false
+},
+{
+"code": "002587",
+"name": "奥拓电子",
+"exchange": "SZ",
+"industry": "光学光电",
+"st": false
+},
+{
+"code": "002591",
+"name": "恒大高新",
+"exchange": "SZ",
+"industry": "化学制品",
+"st": false
+},
+{
+"code": "002623",
+"name": "亚玛顿",
+"exchange": "SZ",
+"industry": "光伏设备",
+"st": false
+},
+{
+"code": "002636",
+"name": "金安国纪",
+"exchange": "SZ",
+"industry": "",
+"st": false
+},
+{
+"code": "002639",
+"name": "雪人集团",
+"exchange": "SZ",
+"industry": "通用设备",
+"st": false
+},
+{
+"code": "002640",
+"name": "跨境通",
+"exchange": "SZ",
+"industry": "互联网电",
+"st": false
+},
+{
+"code": "002675",
+"name": "东诚药业",
+"exchange": "SZ",
+"industry": "化学制药",
+"st": false
+},
+{
+"code": "002692",
+"name": "远程股份",
+"exchange": "SZ",
+"industry": "电网设备",
+"st": false
+},
+{
+"code": "002693",
+"name": "双成药业",
+"exchange": "SZ",
+"industry": "化学制药",
+"st": false
+},
+{
+"code": "002696",
+"name": "百洋股份",
+"exchange": "SZ",
+"industry": "饲料",
+"st": false
+},
+{
+"code": "002733",
+"name": "雄韬股份",
+"exchange": "SZ",
+"industry": "电池",
+"st": false
+},
+{
+"code": "002748",
+"name": "世龙实业",
+"exchange": "SZ",
+"industry": "化学原料",
+"st": false
+},
+{
+"code": "002805",
+"name": "丰元股份",
+"exchange": "SZ",
+"industry": "电池",
+"st": false
+},
+{
+"code": "002811",
+"name": "郑中设计",
+"exchange": "SZ",
+"industry": "装修装饰",
+"st": false
+},
+{
+"code": "002813",
+"name": "路畅科技",
+"exchange": "SZ",
+"industry": "汽车零部",
+"st": false
+},
+{
+"code": "002815",
+"name": "崇达技术",
+"exchange": "SZ",
+"industry": "元件",
+"st": false
+},
+{
+"code": "002836",
+"name": "新宏泽",
+"exchange": "SZ",
+"industry": "包装印刷",
+"st": false
+},
+{
+"code": "002860",
+"name": "星帅尔",
+"exchange": "SZ",
+"industry": "家电零部",
+"st": false
+},
+{
+"code": "002862",
+"name": "实丰文化",
+"exchange": "SZ",
+"industry": "文娱用品",
+"st": false
+},
+{
+"code": "002869",
+"name": "金溢科技",
+"exchange": "SZ",
+"industry": "",
+"st": false
+},
+{
+"code": "002878",
+"name": "元隆雅图",
+"exchange": "SZ",
+"industry": "广告营销",
+"st": false
+},
+{
+"code": "002889",
+"name": "东方嘉盛",
+"exchange": "SZ",
+"industry": "物流",
+"st": false
+},
+{
+"code": "002908",
+"name": "德生科技",
+"exchange": "SZ",
+"industry": "IT服务Ⅱ",
+"st": false
+},
+{
+"code": "002912",
+"name": "中新赛克",
+"exchange": "SZ",
+"industry": "计算机设",
+"st": false
+},
+{
+"code": "002917",
+"name": "金奥博",
+"exchange": "SZ",
+"industry": "化学制品",
+"st": false
+},
+{
+"code": "002945",
+"name": "华林证券",
+"exchange": "SZ",
+"industry": "证券Ⅱ",
+"st": false
+},
+{
+"code": "002949",
+"name": "华阳国际",
+"exchange": "SZ",
+"industry": "工程咨询",
+"st": false
+},
+{
+"code": "002961",
+"name": "瑞达期货",
+"exchange": "SZ",
+"industry": "多元金融",
+"st": false
+},
+{
+"code": "002979",
+"name": "雷赛智能",
+"exchange": "SZ",
+"industry": "自动化设",
+"st": false
+},
+{
+"code": "002980",
+"name": "华盛昌",
+"exchange": "SZ",
+"industry": "电网设备",
+"st": false
+},
+{
+"code": "002990",
+"name": "盛视科技",
+"exchange": "SZ",
+"industry": "计算机设",
+"st": false
+},
+{
+"code": "003029",
+"name": "吉大正元",
+"exchange": "SZ",
+"industry": "软件开发",
+"st": false
+},
+{
+"code": "003037",
+"name": "三和管桩",
+"exchange": "SZ",
+"industry": "水泥",
+"st": false
+},
+{
+"code": "300006",
+"name": "莱美药业",
+"exchange": "SZ",
+"industry": "化学制药",
+"st": false
+},
+{
+"code": "300107",
+"name": "建新股份",
+"exchange": "SZ",
+"industry": "化学制品",
+"st": false
+},
+{
+"code": "300111",
+"name": "向日葵",
+"exchange": "SZ",
+"industry": "化学制药",
+"st": false
+},
+{
+"code": "300299",
+"name": "富春股份",
+"exchange": "SZ",
+"industry": "游戏Ⅱ",
+"st": false
+},
+{
+"code": "300364",
+"name": "中文在线",
+"exchange": "SZ",
+"industry": "数字媒体",
+"st": false
+},
+{
+"code": "300369",
+"name": "绿盟科技",
+"exchange": "SZ",
+"industry": "软件开发",
+"st": false
+},
+{
+"code": "300413",
+"name": "芒果超媒",
+"exchange": "SZ",
+"industry": "数字媒体",
+"st": false
+},
+{
+"code": "300464",
+"name": "星徽股份",
+"exchange": "SZ",
+"industry": "",
+"st": false
+},
+{
+"code": "300530",
+"name": "领湃科技",
+"exchange": "SZ",
+"industry": "电池",
+"st": false
+},
+{
+"code": "300821",
+"name": "东岳硅材",
+"exchange": "SZ",
+"industry": "化学制品",
+"st": false
+},
+{
+"code": "300829",
+"name": "金丹科技",
+"exchange": "SZ",
+"industry": "化学制品",
+"st": false
+},
+{
+"code": "300853",
+"name": "申昊科技",
+"exchange": "SZ",
+"industry": "",
+"st": false
+},
+{
+"code": "300981",
+"name": "中红医疗",
+"exchange": "SZ",
+"industry": "医疗器械",
+"st": false
+},
+{
+"code": "301010",
+"name": "晶雪节能",
+"exchange": "SZ",
+"industry": "装修建材",
+"st": false
+},
+{
+"code": "301041",
+"name": "金百泽",
+"exchange": "SZ",
+"industry": "元件",
+"st": false
+},
+{
+"code": "301052",
+"name": "果麦文化",
+"exchange": "SZ",
+"industry": "出版",
+"st": false
+},
+{
+"code": "301282",
+"name": "金禄电子",
+"exchange": "SZ",
+"industry": "元件",
+"st": false
+},
+{
+"code": "301387",
+"name": "光大同创",
+"exchange": "SZ",
+"industry": "",
+"st": false
+},
+{
+"code": "301419",
+"name": "阿莱德",
+"exchange": "SZ",
+"industry": "通信设备",
+"st": false
+},
+{
+"code": "301429",
+"name": "森泰股份",
+"exchange": "SZ",
+"industry": "",
+"st": false
+},
+{
+"code": "301517",
+"name": "陕西华达",
+"exchange": "SZ",
+"industry": "",
+"st": false
+},
+{
+"code": "301569",
+"name": "联亚药业",
+"exchange": "SZ",
+"industry": "",
+"st": false
+},
+{
+"code": "301658",
+"name": "首航新能",
+"exchange": "SZ",
+"industry": "光伏设备",
+"st": false
+},
+{
+"code": "301660",
+"name": "粤芯半导体",
+"exchange": "SZ",
+"industry": "",
+"st": false
+},
+{
+"code": "301666",
+"name": "大普微",
+"exchange": "SZ",
+"industry": "",
+"st": false
+},
+{
+"code": "301689",
+"name": "电科思仪",
+"exchange": "SZ",
+"industry": "",
+"st": false
+},
+{
+"code": "600097",
+"name": "开创国际",
+"exchange": "SH",
+"industry": "渔业",
+"st": false
+},
+{
+"code": "600121",
+"name": "郑州煤电",
+"exchange": "SH",
+"industry": "煤炭开采",
+"st": false
+},
+{
+"code": "600127",
+"name": "金健米业",
+"exchange": "SH",
+"industry": "农产品加",
+"st": false
+},
+{
+"code": "600192",
+"name": "长城电工",
+"exchange": "SH",
+"industry": "电网设备",
+"st": false
+},
+{
+"code": "600199",
+"name": "金种子酒",
+"exchange": "SH",
+"industry": "白酒Ⅱ",
+"st": false
+},
+{
+"code": "600202",
+"name": "哈空调",
+"exchange": "SH",
+"industry": "通用设备",
+"st": false
+},
+{
+"code": "600206",
+"name": "有研新材",
+"exchange": "SH",
+"industry": "",
+"st": false
+},
+{
+"code": "600207",
+"name": "安彩高科",
+"exchange": "SH",
+"industry": "光伏设备",
+"st": false
+},
+{
+"code": "600228",
+"name": "返利科技",
+"exchange": "SH",
+"industry": "数字媒体",
+"st": false
+},
+{
+"code": "600237",
+"name": "铜峰电子",
+"exchange": "SH",
+"industry": "元件",
+"st": false
+},
+{
+"code": "600241",
+"name": "时代万恒",
+"exchange": "SH",
+"industry": "电池",
+"st": false
+},
+{
+"code": "600252",
+"name": "中恒集团",
+"exchange": "SH",
+"industry": "中药Ⅱ",
+"st": false
+},
+{
+"code": "600281",
+"name": "华阳新材",
+"exchange": "SH",
+"industry": "小金属",
+"st": false
+},
+{
+"code": "600318",
+"name": "新力金融",
+"exchange": "SH",
+"industry": "多元金融",
+"st": false
+},
+{
+"code": "600354",
+"name": "敦煌种业",
+"exchange": "SH",
+"industry": "种植业",
+"st": false
+},
+{
+"code": "600371",
+"name": "万向德农",
+"exchange": "SH",
+"industry": "种植业",
+"st": false
+},
+{
+"code": "600391",
+"name": "航发科技",
+"exchange": "SH",
+"industry": "航空装备",
+"st": false
+},
+{
+"code": "600400",
+"name": "红豆股份",
+"exchange": "SH",
+"industry": "服装家纺",
+"st": false
+},
+{
+"code": "600408",
+"name": "安泰集团",
+"exchange": "SH",
+"industry": "焦炭Ⅱ",
+"st": false
+},
+{
+"code": "600478",
+"name": "科力远",
+"exchange": "SH",
+"industry": "电池",
+"st": false
+},
+{
+"code": "600560",
+"name": "金自天正",
+"exchange": "SH",
+"industry": "专用设备",
+"st": false
+},
+{
+"code": "600593",
+"name": "大连圣亚",
+"exchange": "SH",
+"industry": "旅游及景",
+"st": false
+},
+{
+"code": "600621",
+"name": "华鑫股份",
+"exchange": "SH",
+"industry": "证券Ⅱ",
+"st": false
+},
+{
+"code": "600629",
+"name": "华建集团",
+"exchange": "SH",
+"industry": "工程咨询",
+"st": false
+},
+{
+"code": "600663",
+"name": "陆家嘴",
+"exchange": "SH",
+"industry": "",
+"st": false
+},
+{
+"code": "600668",
+"name": "尖峰集团",
+"exchange": "SH",
+"industry": "水泥",
+"st": false
+},
+{
+"code": "600693",
+"name": "东百集团",
+"exchange": "SH",
+"industry": "一般零售",
+"st": false
+},
+{
+"code": "600712",
+"name": "南宁百货",
+"exchange": "SH",
+"industry": "一般零售",
+"st": false
+},
+{
+"code": "600715",
+"name": "文投控股",
+"exchange": "SH",
+"industry": "游戏Ⅱ",
+"st": false
+},
+{
+"code": "600721",
+"name": "百花医药",
+"exchange": "SH",
+"industry": "医疗服务",
+"st": false
+},
+{
+"code": "600722",
+"name": "金牛化工",
+"exchange": "SH",
+"industry": "",
+"st": false
+},
+{
+"code": "600802",
+"name": "福建水泥",
+"exchange": "SH",
+"industry": "水泥",
+"st": false
+},
+{
+"code": "600812",
+"name": "华北制药",
+"exchange": "SH",
+"industry": "化学制药",
+"st": false
+},
+{
+"code": "600825",
+"name": "新华传媒",
+"exchange": "SH",
+"industry": "出版",
+"st": false
+},
+{
+"code": "600831",
+"name": "广电网络",
+"exchange": "SH",
+"industry": "电视广播",
+"st": false
+},
+{
+"code": "600843",
+"name": "上工申贝",
+"exchange": "SH",
+"industry": "专用设备",
+"st": false
+},
+{
+"code": "600847",
+"name": "万里股份",
+"exchange": "SH",
+"industry": "电池",
+"st": false
+},
+{
+"code": "600851",
+"name": "海欣股份",
+"exchange": "SH",
+"industry": "化学制药",
+"st": false
+},
+{
+"code": "600853",
+"name": "龙建股份",
+"exchange": "SH",
+"industry": "基础建设",
+"st": false
+},
+{
+"code": "600865",
+"name": "百大集团",
+"exchange": "SH",
+"industry": "一般零售",
+"st": false
+},
+{
+"code": "600869",
+"name": "远东股份",
+"exchange": "SH",
+"industry": "",
+"st": false
+},
+{
+"code": "600875",
+"name": "东方电气",
+"exchange": "SH",
+"industry": "",
+"st": false
+},
+{
+"code": "600882",
+"name": "妙可蓝多",
+"exchange": "SH",
+"industry": "饮料乳品",
+"st": false
+},
+{
+"code": "601026",
+"name": "道生天合",
+"exchange": "SH",
+"industry": "",
+"st": false
+},
+{
+"code": "601069",
+"name": "西部黄金",
+"exchange": "SH",
+"industry": "贵金属",
+"st": false
+},
+{
+"code": "601086",
+"name": "国芳集团",
+"exchange": "SH",
+"industry": "一般零售",
+"st": false
+},
+{
+"code": "601118",
+"name": "海南橡胶",
+"exchange": "SH",
+"industry": "种植业",
+"st": false
+},
+{
+"code": "601127",
+"name": "赛力斯",
+"exchange": "SH",
+"industry": "乘用车",
+"st": false
+},
+{
+"code": "601188",
+"name": "龙江交通",
+"exchange": "SH",
+"industry": "铁路公路",
+"st": false
+},
+{
+"code": "601519",
+"name": "大智慧",
+"exchange": "SH",
+"industry": "软件开发",
+"st": false
+},
+{
+"code": "601566",
+"name": "九牧王",
+"exchange": "SH",
+"industry": "服装家纺",
+"st": false
+},
+{
+"code": "601579",
+"name": "会稽山",
+"exchange": "SH",
+"industry": "",
+"st": false
+},
+{
+"code": "601595",
+"name": "上海电影",
+"exchange": "SH",
+"industry": "影视院线",
+"st": false
+},
+{
+"code": "601811",
+"name": "新华文轩",
+"exchange": "SH",
+"industry": "出版",
+"st": false
+},
+{
+"code": "601858",
+"name": "中国科传",
+"exchange": "SH",
+"industry": "出版",
+"st": false
+},
+{
+"code": "601929",
+"name": "吉视传媒",
+"exchange": "SH",
+"industry": "电视广播",
+"st": false
+},
+{
+"code": "603001",
+"name": "奥康国际",
+"exchange": "SH",
+"industry": "服装家纺",
+"st": false
+},
+{
+"code": "603002",
+"name": "宏昌电子",
+"exchange": "SH",
+"industry": "",
+"st": false
+},
+{
+"code": "603032",
+"name": "德新科技",
+"exchange": "SH",
+"industry": "电池",
+"st": false
+},
+{
+"code": "603042",
+"name": "华脉科技",
+"exchange": "SH",
+"industry": "通信设备",
+"st": false
+},
+{
+"code": "603067",
+"name": "振华股份",
+"exchange": "SH",
+"industry": "化学原料",
+"st": false
+},
+{
+"code": "603096",
+"name": "新经典",
+"exchange": "SH",
+"industry": "出版",
+"st": false
+},
+{
+"code": "603099",
+"name": "长白山",
+"exchange": "SH",
+"industry": "旅游及景",
+"st": false
+},
+{
+"code": "603101",
+"name": "汇嘉时代",
+"exchange": "SH",
+"industry": "一般零售",
+"st": false
+},
+{
+"code": "603155",
+"name": "新亚强",
+"exchange": "SH",
+"industry": "化学制品",
+"st": false
+},
+{
+"code": "603172",
+"name": "万丰股份",
+"exchange": "SH",
+"industry": "化学制品",
+"st": false
+},
+{
+"code": "603188",
+"name": "亚邦股份",
+"exchange": "SH",
+"industry": "化学制品",
+"st": false
+},
+{
+"code": "603193",
+"name": "润本股份",
+"exchange": "SH",
+"industry": "",
+"st": false
+},
+{
+"code": "603200",
+"name": "上海洗霸",
+"exchange": "SH",
+"industry": "环境治理",
+"st": false
+},
+{
+"code": "603216",
+"name": "梦天家居",
+"exchange": "SH",
+"industry": "家居用品",
+"st": false
+},
+{
+"code": "603230",
+"name": "内蒙新华",
+"exchange": "SH",
+"industry": "出版",
+"st": false
+},
+{
+"code": "603232",
+"name": "格尔软件",
+"exchange": "SH",
+"industry": "软件开发",
+"st": false
+},
+{
+"code": "603237",
+"name": "五芳斋",
+"exchange": "SH",
+"industry": "食品加工",
+"st": false
+},
+{
+"code": "603258",
+"name": "电魂网络",
+"exchange": "SH",
+"industry": "游戏Ⅱ",
+"st": false
+},
+{
+"code": "603328",
+"name": "依顿电子",
+"exchange": "SH",
+"industry": "元件",
+"st": false
+},
+{
+"code": "603329",
+"name": "上海雅仕",
+"exchange": "SH",
+"industry": "物流",
+"st": false
+},
+{
+"code": "603336",
+"name": "宏辉果蔬",
+"exchange": "SH",
+"industry": "种植业",
+"st": false
+},
+{
+"code": "603353",
+"name": "和顺石油",
+"exchange": "SH",
+"industry": "炼化及贸",
+"st": false
+},
+{
+"code": "603386",
+"name": "骏亚科技",
+"exchange": "SH",
+"industry": "元件",
+"st": false
+},
+{
+"code": "603466",
+"name": "风语筑",
+"exchange": "SH",
+"industry": "数字媒体",
+"st": false
+},
+{
+"code": "603500",
+"name": "祥和实业",
+"exchange": "SH",
+"industry": "轨交设备",
+"st": false
+},
+{
+"code": "603528",
+"name": "多伦科技",
+"exchange": "SH",
+"industry": "软件开发",
+"st": false
+},
+{
+"code": "603533",
+"name": "掌阅科技",
+"exchange": "SH",
+"industry": "数字媒体",
+"st": false
+},
+{
+"code": "603535",
+"name": "嘉诚国际",
+"exchange": "SH",
+"industry": "物流",
+"st": false
+},
+{
+"code": "603588",
+"name": "高能环境",
+"exchange": "SH",
+"industry": "",
+"st": false
+},
+{
+"code": "603598",
+"name": "引力传媒",
+"exchange": "SH",
+"industry": "广告营销",
+"st": false
+},
+{
+"code": "603656",
+"name": "泰禾智能",
+"exchange": "SH",
+"industry": "专用设备",
+"st": false
+},
+{
+"code": "603690",
+"name": "至纯科技",
+"exchange": "SH",
+"industry": "半导体",
+"st": false
+},
+{
+"code": "603767",
+"name": "中马传动",
+"exchange": "SH",
+"industry": "汽车零部",
+"st": false
+},
+{
+"code": "603823",
+"name": "百合花",
+"exchange": "SH",
+"industry": "",
+"st": false
+},
+{
+"code": "603956",
+"name": "威派格",
+"exchange": "SH",
+"industry": "专用设备",
+"st": false
+},
+{
+"code": "603968",
+"name": "醋化股份",
+"exchange": "SH",
+"industry": "化学制品",
+"st": false
+},
+{
+"code": "603980",
+"name": "吉华集团",
+"exchange": "SH",
+"industry": "化学制品",
+"st": false
+},
+{
+"code": "603992",
+"name": "松霖科技",
+"exchange": "SH",
+"industry": "家居用品",
+"st": false
+},
+{
+"code": "603997",
+"name": "继峰股份",
+"exchange": "SH",
+"industry": "",
+"st": false
+},
+{
+"code": "603999",
+"name": "读者传媒",
+"exchange": "SH",
+"industry": "出版",
+"st": false
+},
+{
+"code": "605003",
+"name": "众望布艺",
+"exchange": "SH",
+"industry": "服装家纺",
+"st": false
+},
+{
+"code": "605058",
+"name": "澳弘电子",
+"exchange": "SH",
+"industry": "元件",
+"st": false
+},
+{
+"code": "605136",
+"name": "丽人丽妆",
+"exchange": "SH",
+"industry": "互联网电",
+"st": false
+},
+{
+"code": "605168",
+"name": "三人行",
+"exchange": "SH",
+"industry": "广告营销",
+"st": false
+},
+{
+"code": "605177",
+"name": "东亚药业",
+"exchange": "SH",
+"industry": "化学制药",
+"st": false
+},
+{
+"code": "605188",
+"name": "国光连锁",
+"exchange": "SH",
+"industry": "一般零售",
+"st": false
+},
+{
+"code": "605189",
+"name": "富春染织",
+"exchange": "SH",
+"industry": "纺织制造",
+"st": false
+},
+{
+"code": "605258",
+"name": "协和电子",
+"exchange": "SH",
+"industry": "元件",
+"st": false
+},
+{
+"code": "605287",
+"name": "德才股份",
+"exchange": "SH",
+"industry": "装修装饰",
+"st": false
+},
+{
+"code": "605399",
+"name": "晨光新材",
+"exchange": "SH",
+"industry": "化学制品",
+"st": false
+},
+{
+"code": "605577",
+"name": "龙版传媒",
+"exchange": "SH",
+"industry": "出版",
+"st": false
+},
+{
+"code": "688004",
+"name": "博汇科技",
+"exchange": "SH",
+"industry": "IT服务Ⅱ",
+"st": false
+},
+{
+"code": "688146",
+"name": "中船特气",
+"exchange": "SH",
+"industry": "",
+"st": false
+},
+{
+"code": "688152",
+"name": "麒麟信安",
+"exchange": "SH",
+"industry": "软件开发",
+"st": false
+},
+{
+"code": "688197",
+"name": "首药控股",
+"exchange": "SH",
+"industry": "",
+"st": false
+},
+{
+"code": "688352",
+"name": "颀中科技",
+"exchange": "SH",
+"industry": "",
+"st": false
+},
+{
+"code": "688507",
+"name": "索辰科技",
+"exchange": "SH",
+"industry": "",
+"st": false
+},
+{
+"code": "688517",
+"name": "金冠电气",
+"exchange": "SH",
+"industry": "电网设备",
+"st": false
+},
+{
+"code": "688655",
+"name": "迅捷兴",
+"exchange": "SH",
+"industry": "元件",
+"st": false
+},
+{
+"code": "688796",
+"name": "百奥赛图",
+"exchange": "SH",
+"industry": "",
+"st": false
+},
+{
+"code": "920080",
+"name": "奥美森",
+"exchange": "BJ",
+"industry": "",
+"st": false
+},
+{
+"code": "920138",
+"name": "杰理科技",
+"exchange": "BJ",
+"industry": "",
+"st": false
+},
+{
+"code": "920158",
+"name": "长江能科",
+"exchange": "BJ",
+"industry": "",
+"st": false
+},
+{
+"code": "920162",
+"name": "莫森泰克",
+"exchange": "BJ",
+"industry": "",
+"st": false
+},
+{
+"code": "920196",
+"name": "南方乳业",
+"exchange": "BJ",
+"industry": "",
+"st": false
+}
+]
+}

@@ -35,7 +35,9 @@ _CATEGORY_RULES: list[tuple[str, re.Pattern]] = [
         rf"工业和信息化部|商务部|国资委|住建部|住房和城乡建设部|农业农村部|国家能源局|市场监管总局|网信办|税务总局|"
         rf"外汇局|外交部|国防部|海关总署|检察|纪委|监委|求是|新华社|人民日报|习近平|总书记|李强|何立峰|丁薛祥|国务院副总理|"
         rf"解放军|战区|印发|指导意见|实施方案|管理办法|"
-        rf"征求意见|十五五|以旧换新|上交所|深交所|北交所|当选|任命|^(?:{_PROVINCES})[省市]?[：:]")),
+        rf"征求意见|十五五|以旧换新|上交所|深交所|北交所|当选|任命|^(?:{_PROVINCES})[省市]?[：:]|"
+        rf"^(?:人社|教育|水利|自然资源|生态环境|交通运输|文旅|文化和旅游|科技|民政|司法|卫健|应急管理)部[：:]|"
+        rf"^(?:民航|铁路|统计|医保|药监|知识产权|邮政|粮食和物资储备)局[：:]")),
     ("宏观", re.compile(
         r"人民银行|中国央行|^央行|降准|降息|LPR|MLF|PSL|逆回购|公开市场|国债|专项债|社融|M1|M2|GDP|CPI|PPI|PMI|"
         r"统计局|经济数据|工业增加值|社会消费品零售|固定资产投资|进出口|外贸|外汇储备|人民币|中间价|上清所|中债登|外汇交易中心")),
@@ -88,13 +90,45 @@ _ROUTINE_RE = re.compile(r"隔夜逆回购|天期逆回购|操作量为零|公�
 ROUTINE_CAP = 5.5
 
 
+_PREFIX = re.compile(r"^([^：:，,。\s]{2,12})[：:]")
+_NOT_COMPANY_PREFIX = re.compile(
+    r"总统|总理|首相|部长|外长|大使|发言人|主席|秘书|特使|代表|官员|议员|司令|台网|中心|协会|委员会|政府|央行|统计局|"
+    r"[局部署院厅办]$|^机构|分析师|策略师|调查机构|^据|^外媒|^[美日韩英法德以俄伊]媒|知情人士|消息人士")
+
+
+def _company_title(title: str) -> str:
+    """判“公司”类时用的标题：“XX：”打头而 XX 不是上市公司（官员、机构、券商观点）时去掉这个前缀。
+
+    “黎巴嫩总统重申：……”“中国地震台网自动测定：……”“中信证券：看好……”以前都被当成公司新闻。"""
+    from .entities import book
+    from .linker import _OPINION_TITLE, _OWN_EVENT
+
+    m = _PREFIX.match(title)
+    if not m:
+        return title
+    prefix, rest = m.group(1), title[m.end():]
+    if _OPINION_TITLE.match(title) and not _OWN_EVENT.search(rest):
+        return rest
+    b = book()
+    if b.is_company(prefix):
+        return title
+    if _NOT_COMPANY_PREFIX.search(prefix) or b.complete:
+        return rest
+    return title
+
+
 def classify(it: NewsItem) -> str:
     if it.lang == "en":
         return "海外"
+    company_title = _company_title(it.title)
     for text in (it.title, it.content[:150]):
         for cat, pat in _CATEGORY_RULES:
-            if cat == "公司" and text is not it.title:
-                continue  # "XX：" 公司句式只对标题有效
+            if cat == "公司":
+                if text is not it.title:
+                    continue  # "XX：" 公司句式只对标题有效
+                if pat.search(company_title):
+                    return cat
+                continue
             if pat.search(text):
                 return cat
     return "行业"
