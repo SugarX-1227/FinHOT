@@ -16,8 +16,9 @@
 匹配规则：
 - 代码只认带括号或交易所前后缀的写法（“（600519）”“SZ300750”“600519.SH”），裸的六位数字多半是金额；
 - 名字按最长匹配（“中信建投”不会被当成“中信……”），简称、去掉 ST 的简称、别称、曾用名都认；
-- 本身是常用词的简称（机器人、太阳能，见 aliases.yaml 的 generic）只有带代码、“简称：”开头，
-  或后面紧跟“股份 / 公司 / 涨停 / 股价 / 公告”时才算；
+- 本身是常用词或地名的简称（机器人、太平洋、金融街、天津港，见 aliases.yaml 的 generic）只有带代码、“简称：”开头，
+  或后面紧跟“股份 / 公司 / 涨停 / 股价 / 公告”时才算；两个字的简称一律这样处理（还认“柳工发布”“闻泰拟”这种后面跟公司动作的）；
+  *ST 股去掉前缀后不到 4 个字的不认（“*ST发展”的“发展”）；
 - 一个名字对应几家公司（曾用名和现名撞了）时，现名优先，否则都不认。
 """
 
@@ -42,7 +43,7 @@ _INTERMEDIARY = re.compile(r"(?:保荐人?|保荐机构|承销商|主承销|联�
 _INTERMEDIARY_AFTER = re.compile(r"^[^。；，]{0,6}(?:担任|作为|为)?(?:保荐|承销|托管|财务顾问)")
 _RECAP = re.compile(r"涨停|跌停|涨超|跌超|涨逾|跌逾|走强|走弱|拉升|跳水|领涨|领跌|跟涨|冲高|大涨|大跌|异动|续创|新高|新低|"
                     r"板块|概念股|集体|纷纷|等个股|等股")
-_GENERIC_OK_AFTER = re.compile(r"^(?:（\d{6}|\(\d{6}|股份|公司|集团|涨停|跌停|股价|公告|发布公告|董事|股东|：|:)")
+_GENERIC_OK_AFTER = re.compile(r"^(?:（\d{6}|\(\d{6}|股份|集团|涨停|跌停|股价|公告|发布公告|董事|股东|：|:)")
 _OWN_EVENT = re.compile(r"净利|营收|业绩|股东|董事|高管|回购|增持|减持|分红|发债|债券|处罚|罚单|立案|问询|获批|设立|子公司|"
                         r"收购|并购|重组|定增|募资|公告|聘任|辞职|诉讼|中标|合同|协议|发行股份|购买资产|审核|注册|停牌|复牌|"
                         r"摘牌|退市|经营|利润|收入|资本金|子公司|分公司|营业部")
@@ -51,6 +52,9 @@ _RECAP_TITLE = re.compile(r"^(?:收评|午评|早评|A股收盘|A股午盘|港�
                           r"概念|板块|异动|集体|涨停|跌停|走强|走弱|拉升|跳水")
 # 机构观点打头的标题：“中泰证券：维持芒果超媒增持评级”（发布方不一定在股票清单里）
 _OPINION_TITLE = re.compile(r"^[^：:，,。]{2,12}(?:证券|建投|中金公司|期货|研究所|研究院|基金|资管|银行|资本)[：:]")
+# 两个字的简称（柳工、闻泰）后面跟着公司动作才算点到它（“柳工发布”“闻泰拟”），否则多半是常用词
+_SHORT_OK_AFTER = re.compile(r"^(?:发布|公告|回应|宣布|拟|称|表示|董事|总裁|旗下|子公司|业绩|营收|净利|中标|获得|签署|签订|"
+                             r"股份|集团|科技|控股|收购|回购|增持|减持)")
 _SENTENCE = re.compile(r"[^。；;！!？?\n]+")
 
 
@@ -113,9 +117,10 @@ class Linker:
             if len(current) != 1:
                 return ""
             codes = current
-        if name in self.book.generic:
+        if name in self.book.generic or len(name) <= 2:
             after = text[at + len(name):]
-            if not (at == 0 and after[:1] in "：:") and not _GENERIC_OK_AFTER.match(after):
+            ok = _GENERIC_OK_AFTER.match(after) or (len(name) <= 2 and _SHORT_OK_AFTER.match(after))
+            if not (at == 0 and after[:1] in "：:") and not ok:
                 return ""
         return codes[0]
 
@@ -133,7 +138,8 @@ class Linker:
         rest = text[end:title_len]
         broker = _BROKER.search(name) is not None or self.book.stocks[code].industry in ("证券", "证券Ⅱ", "多元金融")
         # 券商、机构打头的标题默认是观点，除非说的是它自己的经营（业绩、股东、处罚……）
-        if broker and (prefix and not _OWN_EVENT.search(rest) or _SOURCE_AFTER.match(after)):
+        own = _OWN_EVENT.search(rest) and not _OPINION.search(rest)   # “利润有望创新高”说的是行业，不是它自己
+        if broker and (prefix and not own or _SOURCE_AFTER.match(after)):
             return "观点来源"
         if prefix:
             return "主体"

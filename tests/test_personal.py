@@ -470,3 +470,16 @@ def test_delisted_and_old_bj_codes_do_not_shadow_listed_stocks():
     b = build_book({"stocks": [vars(s) for s in stocks]})
     assert [s.code for s in b.resolve("星昊医药")] == ["920017"]
     assert [m.code for m in Linker(b).link(news("星昊医药：获得药品注册证书"))] == ["920017"]
+
+
+def test_short_and_common_names_need_company_context():
+    b = build_book({"complete": True, "stocks": [
+        {"code": "000838", "name": "*ST发展", "st": True}, {"code": "601099", "name": "太平洋"},
+        {"code": "000528", "name": "柳工"}, {"code": "600030", "name": "中信证券", "industry": "证券"}]},
+        {"generic": ["太平洋"]})
+    lk = Linker(b)
+    names = lambda t, c="": {m.name: m.role for m in lk.link(news(t, c))}  # noqa: E731
+    assert names("经济发展势头良好") == {} and names("太平洋海啸预警中心发布预警") == {}
+    assert names("柳工发布三季度业绩预告") == {"柳工": "主体"} and names("广西柳工机械厂区") == {}
+    assert names("太平洋：前三季度净利润增长") == {"太平洋": "主体"}
+    assert names("中信证券：2026年第四季度油轮龙头估值和利润有望创历史新高") == {"中信证券": "观点来源"}

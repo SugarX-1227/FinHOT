@@ -239,7 +239,9 @@ def build(doc: dict, aliases: dict | None = None) -> Book:
             names[name].append(code)
 
     for s in stocks.values():
-        for n in (s.name, s.bare, *s.aliases):
+        # 去掉 *ST 前缀的简称太短时是常用词（“*ST发展”→“发展”），不认；新股的 N / C 前缀照常去掉
+        bare = s.bare if (not s.st or len(s.bare) >= 4) else s.name
+        for n in (s.name, bare, *s.aliases):
             add(n, s.code)
     for s in stocks.values():      # 曾用名排在后面：现名优先
         for n in s.former:
