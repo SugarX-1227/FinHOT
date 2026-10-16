@@ -26,3 +26,10 @@ _site/
 # 推送常驻进程的状态（只在服务器上）
 data/push-state.json
 data/push-state.tmp
+
+# 个人画像与个人数据（持仓、自选、反馈、简报）：绝不入库，见 docs/PERSONALIZATION.md
+profiles/*
+!profiles/example.yaml
+.private/
+data/private/
+data/profiles/

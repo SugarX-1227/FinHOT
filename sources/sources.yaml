@@ -139,3 +139,23 @@ markets:
   - {secid: "101.GC00Y",  name: COMEX黄金}
   - {secid: "102.CL00Y",  name: NYMEX原油}
   - {secid: "101.HG00Y",  name: COMEX铜}
+
+# 上市公司公告（个股一手源）。不进日报的快讯流：全市场一天几千条，由 finhot/announce.py 单独取，
+# 按 sources/announcements.yaml 的类型白名单过滤后用于涨停归因、个人简报和按公告类型的事件研究。
+# 两个源的结果并在一起去重（排在前面的优先）；`python -m finhot sources` 也会检查它们。
+announcements:
+  - id: cninfo
+    name: 巨潮资讯公告
+    type: cninfo
+    tier: official
+    weight: 1.6
+    max_pages: 120      # 每页 30 条；全市场一天两三千条
+    options:
+      columns: [szse]   # 巨潮“深沪京”全部公告的栏目；健康检查里沪市条数为 0 时改成 [szse, sse]
+
+  - id: em_notice
+    name: 东方财富公告（备用）
+    type: eastmoney_notice
+    tier: official
+    weight: 1.4
+    max_pages: 40       # 每页 100 条

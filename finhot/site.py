@@ -242,6 +242,9 @@ def build_site(out: Path, reports_dir: Path = REPORTS_DIR, base_url: str = "") -
     record = reports_dir / "backtest" / "latest.md"
     body = (f'<article class="card">{_render(md, record.read_text(encoding="utf-8"))}</article>' if record.exists()
             else '<article class="card"><h1>信号战绩</h1><p>还没有回测结果，第一个交易日盘后会生成。</p></article>')
+    events = reports_dir / "backtest" / "announcements.md"   # 按公告类型的事件研究（全市场，公开）
+    if events.exists():
+        body += f'<article class="card">{_render(md, events.read_text(encoding="utf-8"))}</article>'
     (out / "record.html").write_text(_layout("信号战绩 · FinHOT", body, "record", 0), encoding="utf-8")
 
     # RSS

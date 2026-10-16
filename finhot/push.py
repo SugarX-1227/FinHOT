@@ -13,6 +13,7 @@
 状态（缓冲、已推送的条目）存在 data/push-state.json，重启后接着来。
 
 每个交易日收盘后，还顺带跑一次盘面任务（finhot/market_job.py）：涨停原因，推给网站的“盘面”页。
+有个人画像（FINHOT_PROFILES_DIR）时，每一轮还顺带做个人简报和即时提醒（finhot/alerts.py）。
 
 环境变量：
   FINHOT_ENGINE_URL         引擎 API 地址，默认 http://127.0.0.1:3001
@@ -84,6 +85,7 @@ class PushState:
     path: Path = STATE_FILE
     market_done: str | None = None    # 盘面任务最近一次成功的日期
     market_tried: str | None = None   # 最近一次失败的时间
+    fresh: list[NewsItem] = field(default_factory=list, repr=False)  # 这一轮新来的条目（不存盘，个人提醒用）
 
     @classmethod
     def load(cls, path: Path = STATE_FILE) -> "PushState":
@@ -243,6 +245,7 @@ def run_once(cfg: PushConfig, state: PushState, pusher: Pusher | None, sources: 
     since = max(since, at - timedelta(hours=BUFFER_HOURS))
     results = collect(sources, since=since, max_pages=MAX_PAGES)
     fetched = [it for r in results for it in r.items]
+    state.fresh = [it for it in fetched if it.uid not in state.buffer]
     added = state.add(fetched)
     state.last_fetch = at
     state.prune(at)
@@ -278,6 +281,20 @@ def market_round(cfg: PushConfig, state: PushState, pusher: Pusher, sources: lis
     state.save()
 
 
+def personal_round(state: PushState) -> None:
+    """个人简报和即时提醒（finhot/alerts.py）。没有画像就什么都不做；出错不影响快讯推送。"""
+    from . import alerts
+    from .dedup import dedup
+    from .scoring import score_all
+    try:
+        fresh = score_all(dedup([replace(it) for it in state.fresh]))
+        stats = alerts.run_round(now(), fresh)
+        if stats.get("profiles"):
+            log.info("个人：%s", " ".join(f"{k}={v}" for k, v in stats.items()))
+    except Exception:  # noqa: BLE001
+        log.exception("个人简报 / 提醒这一轮出错，下一轮继续")
+
+
 def loop(cfg: PushConfig, once: bool = False, dry_run: bool = False) -> int:
     if not dry_run and len(cfg.token) < 16:
         log.error("没有设置 INGEST_TOKEN（至少 16 位，和引擎 .env 里的一样）")
@@ -290,6 +307,9 @@ def loop(cfg: PushConfig, once: bool = False, dry_run: bool = False) -> int:
              cfg.engine_url, ",".join(s["id"] for s in sources), cfg.min_score, cfg.max_per_event, cfg.interval)
     state = PushState.load()
     pusher = None if dry_run else Pusher(cfg)
+    if pusher:
+        from .feedback_server import serve
+        serve(background=True)   # 设置了 FINHOT_FEEDBACK_SECRET 才会起
     while True:
         started = time.time()
         try:
@@ -297,6 +317,7 @@ def loop(cfg: PushConfig, once: bool = False, dry_run: bool = False) -> int:
             log.info("本轮 %s", " ".join(f"{k}={v}" for k, v in stats.items()))
             if pusher:
                 market_round(cfg, state, pusher, sources)
+                personal_round(state)
         except EngineError as e:
             log.error("%s", e)
             return 1
