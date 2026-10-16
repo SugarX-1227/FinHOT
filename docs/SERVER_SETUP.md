@@ -262,8 +262,9 @@ GitHub Actions 上的日报也算一份战绩，只给静态站的“战绩”�
    又有供货 / 订单 / 合作 / 竞争”的句子，生成待审核的候选（带原句和链接）。在 `profiles/我.yaml` 里把
    `status: 待审核` 改成 `已确认` 才参与排序；也可以自己写 `source: 人工维护` 的条目。人工写的、确认过的不会被覆盖。
 
-股票清单（`sources/entities/stocks.json`）由 GitHub Actions 每天同步（巨潮），`deploy/finhot.sh update` 时跟着更新；
-刚部署时还是几百只的种子清单，等第一次同步后（或在服务器上 `docker compose exec pusher python -m finhot entities sync`）才是全市场。
+股票清单（`sources/entities/stocks.json`，全市场约 5700 只在市）由 GitHub Actions 每天同步（巨潮 + 东方财富行业），
+`deploy/finhot.sh update` 时跟着更新；也可以在服务器上 `docker compose --env-file web/.env exec pusher python -m finhot entities sync`
+（服务器上东方财富的列表取不到时只更新巨潮的部分）。
 公告源在服务器上能不能连通：`docker compose --env-file web/.env exec pusher python -m finhot sources`，最后几行是公告源，
 沪市条数为 0 时把 `sources/sources.yaml` 里巨潮的 `columns` 改成 `[szse, sse]`。
 
