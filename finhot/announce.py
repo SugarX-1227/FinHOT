@@ -84,17 +84,26 @@ def announcement_sources(cfg: dict | None = None) -> list[dict]:
 
 
 def merge_sources(results: list[FetchResult]) -> list[NewsItem]:
-    """几个公告源的并在一起：同一家公司、标题一样的只留一条（巨潮优先，排在前面的源优先）。"""
-    seen: set[tuple[str, str]] = set()
+    """几个公告源的并在一起：同一家公司、标题一样的只留一条（排在前面的源优先，即巨潮）；
+    巨潮的时间只到日期，备用源有同一条的精确时间就用它。"""
+    seen: dict[tuple[str, str], NewsItem] = {}
     out: list[NewsItem] = []
     for r in results:
         for it in r.items:
             key = (it.codes[0] if it.codes else "", normalize(it.content or it.title))
-            if key not in seen:
-                seen.add(key)
+            first = seen.get(key)
+            if first is None:
+                seen[key] = it
                 out.append(it)
+            elif _day_only(first) and not _day_only(it) and first.published.date() == it.published.date():
+                first.published = it.published   # 巨潮只有日期，用备用源的精确时间
     out.sort(key=lambda it: it.published, reverse=True)
     return out
+
+
+def _day_only(it: NewsItem) -> bool:
+    t = it.published
+    return t.hour == 0 and t.minute == 0 and t.second == 0
 
 
 def fetch(since: datetime, codes: dict[str, str] | None = None, sources: list[dict] | None = None,

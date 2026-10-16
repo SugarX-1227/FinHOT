@@ -52,8 +52,12 @@ def parse_cninfo(ctx: FetchContext, data: dict):
 
 @register("cninfo")
 def fetch_cninfo(ctx: FetchContext):
-    """按时间窗口分页取全市场（或 options.codes 指定的公司）公告。巨潮每页最多 30 条。"""
+    """按时间窗口分页取全市场（或 options.codes 指定的公司）公告。巨潮每页最多 30 条。
+
+    巨潮的 announcementTime 只精确到日（当天 0 点），所以窗口按日期比：起点退到当天 0 点（run_fetch 用 ctx.since 过滤）。
+    同一条在东方财富也有时，合并时取东方财富的精确时间（announce.merge_sources）。"""
     opts = ctx.options
+    ctx.since = ctx.since.replace(hour=0, minute=0, second=0, microsecond=0)
     day_range = f"{ctx.since:%Y-%m-%d}~{now():%Y-%m-%d}"
     stocks = opts.get("codes")
     if stocks is not None:

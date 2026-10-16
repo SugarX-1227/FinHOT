@@ -429,3 +429,25 @@ def test_per_stock_announcement_queries_never_fall_back_to_the_whole_market():
     ctx = FetchContext({**src, "type": "eastmoney_notice", "options": {"codes": {}}}, NoNetwork(), at(15, 0))
     assert list(fetch_em_notice(ctx)) == []
     assert announce.fetch(at(15, 0), {}) == ([], [])
+
+
+def test_cninfo_dates_are_day_level():
+    from finhot.fetchers.base import FetchResult, run_fetch
+    from finhot.fetchers import notices
+
+    src = {"id": "cninfo", "name": "巨潮", "type": "cninfo", "max_pages": 1}
+    page = {"announcements": [{"secCode": "300750", "secName": "宁德时代", "announcementId": "1",
+                               "announcementTitle": "业绩预告", "announcementTime": 1792080000000}], "hasMore": False}
+
+    class Fake(Session):
+        def request(self, *a, **k):
+            class R:
+                def raise_for_status(self): pass
+                def json(self): return page
+            return R()
+    res = run_fetch(FetchContext(src, Fake(), at(16, 8, 30)))       # 窗口从 08:30 起，公告时间是当天 0 点
+    assert len(res.items) == 1 and notices.parse_cninfo is not None
+    em = ann("300750", "宁德时代", "业绩预告", published=at(16, 7, 5))
+    em.source = "em_notice"
+    merged = announce.merge_sources([res, FetchResult("em_notice", "东财", [em])])
+    assert len(merged) == 1 and merged[0].source == "cninfo" and merged[0].published == at(16, 7, 5)
