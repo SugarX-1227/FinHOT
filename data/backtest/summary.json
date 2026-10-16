@@ -1,9 +1,9 @@
 {
- "generated": "2026-10-15T21:09:17.339007+08:00",
+ "generated": "2026-10-16T20:50:05.250017+08:00",
  "rows": [
   {
    "kind": "精选利好",
-   "n": 69,
+   "n": 70,
    "bullish": true,
    "reaction_1_n": 0,
    "reaction_1_mean": null,
@@ -26,7 +26,7 @@
   },
   {
    "kind": "精选利空",
-   "n": 16,
+   "n": 20,
    "bullish": false,
    "reaction_1_n": 0,
    "reaction_1_mean": null,
@@ -49,7 +49,7 @@
   },
   {
    "kind": "利好新闻",
-   "n": 92,
+   "n": 93,
    "bullish": true,
    "reaction_1_n": 0,
    "reaction_1_mean": null,
@@ -72,7 +72,7 @@
   },
   {
    "kind": "利空新闻",
-   "n": 26,
+   "n": 29,
    "bullish": false,
    "reaction_1_n": 0,
    "reaction_1_mean": null,
@@ -95,7 +95,7 @@
   },
   {
    "kind": "共振",
-   "n": 32,
+   "n": 39,
    "bullish": true,
    "reaction_1_n": 0,
    "reaction_1_mean": null,
@@ -118,7 +118,7 @@
   },
   {
    "kind": "资金先行",
-   "n": 17,
+   "n": 19,
    "bullish": null,
    "reaction_1_n": 0,
    "reaction_1_mean": null,
@@ -141,7 +141,7 @@
   },
   {
    "kind": "新闻热·资金冷",
-   "n": 36,
+   "n": 41,
    "bullish": false,
    "reaction_1_n": 0,
    "reaction_1_mean": null,
@@ -164,7 +164,7 @@
   },
   {
    "kind": "涨停主线",
-   "n": 23,
+   "n": 30,
    "bullish": true,
    "reaction_1_n": 0,
    "reaction_1_mean": null,

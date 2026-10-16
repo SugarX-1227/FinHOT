@@ -505,6 +505,7 @@
 {"code": "BK1753", "name": "光刻胶", "kind": "concept"},
 {"code": "BK1754", "name": "2026三季报首亏", "kind": "concept"},
 {"code": "BK1755", "name": "2026三季报预增", "kind": "concept"},
+{"code": "BK1756", "name": "2026三季报预减", "kind": "concept"},
 {"code": "BK0420", "name": "航空机场", "kind": "industry"},
 {"code": "BK0421", "name": "铁路公路", "kind": "industry"},
 {"code": "BK0422", "name": "物流", "kind": "industry"},
