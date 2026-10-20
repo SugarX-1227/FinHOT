@@ -126,6 +126,7 @@ def deliver(alerts: list[Alert], at: datetime, w: dict, sender: Callable = send)
             continue
         today = len(history.shown(name, day0, channel="push"))
         room = max(0, limit - today)
+        rows.sort(key=lambda a: a.pick is not None)   # 异动排前面：公告和新闻超了上限还能进简报，异动进不了
         send_now, over = rows[:room], rows[room:]
         stats["capped"] += len(over)
         if over:
@@ -133,8 +134,11 @@ def deliver(alerts: list[Alert], at: datetime, w: dict, sender: Callable = send)
         if not send_now:
             continue
         body = "\n".join(_with_links(a) for a in send_now)
+        later = sum(1 for a in over if a.pick)
         if over:
-            body += f"\n\n<font color='grey'>今天的提醒到上限了（{limit} 条），另有 {len(over)} 条放进下一份简报。</font>"
+            body += (f"\n\n<font color='grey'>今天的提醒到上限了（{limit} 条）"
+                     + (f"，另有 {later} 条公告 / 新闻放进下一份简报" if later else "")
+                     + (f"，{len(over) - later} 条异动不再补发" if len(over) > later else "") + "。</font>")
         try:
             sender(p, f"持仓 / 自选提醒 · {at.astimezone(TZ):%m-%d %H:%M}", body
                    + "\n\n<font color='grey'>相关信息提示，不构成投资建议。</font>")

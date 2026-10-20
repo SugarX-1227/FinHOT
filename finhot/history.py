@@ -73,8 +73,9 @@ def shown(profile: str, since: datetime | None = None, channel: str | None = Non
 
 
 def recent_grams(profile: str, at: datetime, days: float) -> tuple[set[str], list[set[str]]]:
-    """最近几天给这个人看过的条目 id 和标题特征。"""
-    rows = shown(profile, at - timedelta(days=days))
+    """最近几天给这个人看过的条目 id 和标题特征。只算真送到的（简报、即时提醒）：免打扰和超上限记成“延后”的
+    还没送到，下一份简报要带上它们。"""
+    rows = [r for r in shown(profile, at - timedelta(days=days)) if r.get("channel") in ("brief", "push")]
     return {r["id"] for r in rows}, [set(r.get("grams") or []) for r in rows]
 
 

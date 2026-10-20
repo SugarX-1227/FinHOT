@@ -23,6 +23,9 @@ data/cache/
 # 网站构建输出
 _site/
 
+# 服务器上 deploy/finhot.sh backup 导出的整库备份（含全部数据，绝不能提交）
+backups/
+
 # 推送常驻进程的状态（只在服务器上）
 data/push-state.json
 data/push-state.tmp

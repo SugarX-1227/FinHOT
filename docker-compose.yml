@@ -39,7 +39,8 @@ services:
       - ./profiles:/app/profiles
       - ./data:/app/public-data:ro
     ports:
-      - "${FINHOT_FEEDBACK_PORT:-8790}:8790"   # 只有设了 FINHOT_FEEDBACK_SECRET 才有服务在听
+      # 默认只绑本机：不开反馈链接时外面连不上。开的时候在 web/.env 里设 FINHOT_FEEDBACK_BIND=0.0.0.0（见 SERVER_SETUP.md）
+      - "${FINHOT_FEEDBACK_BIND:-127.0.0.1}:8790:8790"
     depends_on:
       api:
         condition: service_started

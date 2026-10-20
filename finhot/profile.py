@@ -172,6 +172,8 @@ def load(name: str) -> Profile:
 
 def save(p: Profile) -> Path:
     refuse_ci()
+    if p.name == "example":   # profiles/example.yaml 是入库的示例，写进真实持仓就会被提交
+        raise PrivacyError("example 是入库的示例画像，换个名字（profiles/ 下其他文件都不入库）")
     path = path_of(p.name)
     path.parent.mkdir(parents=True, exist_ok=True)
     text = "# FinHOT 个人画像（不入库）。字段说明见 profiles/example.yaml。\n" + yaml.safe_dump(

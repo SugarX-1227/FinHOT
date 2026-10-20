@@ -1,7 +1,7 @@
 """收反馈的小服务：消息里的“有用 / 不相关 / 已知道”是带签名的链接，点开就记一条反馈（finhot/history.py）。
 
-群机器人的消息是单向的，收不到按钮点击，所以用链接。签名（FINHOT_FEEDBACK_SECRET，至少 16 位）防止别人伪造；
-链接里只有画像名和条目 id，没有持仓。推送进程设置了 FINHOT_FEEDBACK_SECRET 和 FINHOT_FEEDBACK_PORT 时在后台线程里起这个服务，
+群机器人的消息是单向的，收不到按钮点击，所以用链接。签名（FINHOT_FEEDBACK_SECRET，至少 16 位）防止别人伪造，
+签名里带着链接生成的时间，14 天后失效；链接里只有画像名和条目 id，没有持仓。推送进程设置了 FINHOT_FEEDBACK_SECRET 和 FINHOT_FEEDBACK_PORT 时在后台线程里起这个服务，
 也可以单独跑：python -m finhot feedback serve。对外的地址写在 FINHOT_FEEDBACK_URL（如 http://服务器IP:8790）。
 """
 
@@ -10,12 +10,13 @@ from __future__ import annotations
 import hmac
 import logging
 import threading
+import time
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from urllib.parse import parse_qs, urlparse
 
 from .config import env
 from .history import LABELS, add_feedback
-from .notify import feedback_sign
+from .notify import FEEDBACK_TTL_DAYS, feedback_sign
 from .timeutil import now
 
 log = logging.getLogger(__name__)
@@ -24,13 +25,19 @@ PAGE = ("<!doctype html><meta charset=utf-8><meta name=viewport content='width=d
         "<p>{msg}</p><p style='color:#888;font-size:14px'>可以关掉这个页面了。</p>")
 
 
-def handle(query: str, secret: str) -> tuple[int, str]:
+def handle(query: str, secret: str, at: float | None = None) -> tuple[int, str]:
     q = {k: v[0] for k, v in parse_qs(query).items()}
     profile, item, label, sig = q.get("p", ""), q.get("i", ""), q.get("v", ""), q.get("s", "")
-    if label not in LABELS or not profile or not item or len(secret) < 16:
+    try:
+        ts = int(q.get("t", ""))
+    except ValueError:
+        ts = 0
+    if label not in LABELS or not profile or not item or not ts or len(secret) < 16:
         return 400, "链接不完整。"
-    if not hmac.compare_digest(sig, feedback_sign(profile, item, label, secret)):
+    if not hmac.compare_digest(sig, feedback_sign(profile, item, label, ts, secret)):
         return 403, "链接签名不对，没有记录。"
+    if (at or time.time()) - ts > FEEDBACK_TTL_DAYS * 86400:
+        return 410, f"链接已经过期（{FEEDBACK_TTL_DAYS} 天），没有记录。"
     try:
         add_feedback(profile, item, label, now(), via="link")
     except Exception as e:  # noqa: BLE001

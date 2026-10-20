@@ -254,7 +254,9 @@ GitHub Actions 上的日报也算一份战绩，只给静态站的“战绩”�
    每人每天最多 8 条，免打扰时段里的放进下一份简报。日志里每轮有一行“个人：profiles=1 sent=…”。
 
 4. **反馈链接**（可选）：`web/.env` 里已经有 `FINHOT_FEEDBACK_SECRET`（老的部署自己加一行，至少 16 位随机字符），
-   在腾讯云防火墙放行 8790 端口，再加一行 `FINHOT_FEEDBACK_URL=http://你的公网IP:8790`，`deploy/finhot.sh restart pusher`。
+   在腾讯云防火墙放行 8790 端口，再加两行 `FINHOT_FEEDBACK_BIND=0.0.0.0` 和 `FINHOT_FEEDBACK_URL=http://你的公网IP:8790`，
+   `deploy/finhot.sh restart pusher`（不设 `FINHOT_FEEDBACK_BIND` 时端口只绑本机，外面连不上）。链接 14 天后失效。
+   链接是 http 明文、14 天内可重复点（重复点只会覆盖成同一个反馈），内测用够了；内测结束后把这两行删掉、关掉防火墙端口。
    之后每条后面有“有用 · 不相关 · 已知道”，点一下就记上，用来调各类理由的权重。
    一周后看效果：`deploy/finhot.sh personal-eval 我`。
 

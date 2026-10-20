@@ -73,19 +73,25 @@ def send(p: Profile, title: str, markdown: str, session: requests.Session | None
 
 
 # ------------------------------------------------------------------ 反馈链接
-def feedback_sign(profile: str, item_id: str, label: str, secret: str | None = None) -> str:
+FEEDBACK_TTL_DAYS = 14   # 反馈链接多少天后失效
+
+
+def feedback_sign(profile: str, item_id: str, label: str, ts: int, secret: str | None = None) -> str:
+    """签名覆盖画像、条目、反馈和链接生成时间（时间改了签名就对不上，过期的链接不收）。"""
     secret = secret if secret is not None else env("FINHOT_FEEDBACK_SECRET")
-    return hmac.new(secret.encode(), f"{profile}|{item_id}|{label}".encode(), hashlib.sha256).hexdigest()[:20]
+    return hmac.new(secret.encode(), f"{profile}|{item_id}|{label}|{ts}".encode(), hashlib.sha256).hexdigest()[:20]
 
 
-def feedback_links(profile: str, item_id: str) -> str:
+def feedback_links(profile: str, item_id: str, ts: int | None = None) -> str:
     """“有用 · 不相关 · 已知道”三个链接；没配 FINHOT_FEEDBACK_URL / FINHOT_FEEDBACK_SECRET 时返回空串。"""
     base, secret = env("FINHOT_FEEDBACK_URL").rstrip("/"), env("FINHOT_FEEDBACK_SECRET")
     if not base or len(secret) < 16:
         return ""
     from .history import LABELS
+    ts = ts or int(time.time())
     parts = []
     for label, text in LABELS.items():
-        q = urlencode({"p": profile, "i": item_id, "v": label, "s": feedback_sign(profile, item_id, label, secret)})
+        q = urlencode({"p": profile, "i": item_id, "v": label, "t": ts,
+                       "s": feedback_sign(profile, item_id, label, ts, secret)})
         parts.append(f"[{text}]({base}/fb?{q})")
     return " · ".join(parts)

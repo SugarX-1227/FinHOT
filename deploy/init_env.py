@@ -46,7 +46,8 @@ FINHOT_PUSH_SOURCES=
 
 # ===== 个性化：我的盘前 5 分钟、持仓提醒（docs/PERSONALIZATION.md） =====
 # 画像放在仓库目录的 profiles/（不入库）：deploy/finhot.sh profile init 我 --themes 锂电储能,算力,半导体
-# 简报和提醒里的“有用 / 不相关 / 已知道”反馈链接：在防火墙放行 8790 端口后把下面这行的注释去掉
+# 简报和提醒里的“有用 / 不相关 / 已知道”反馈链接：在防火墙放行 8790 端口后把下面两行的注释去掉
+# FINHOT_FEEDBACK_BIND=0.0.0.0
 # FINHOT_FEEDBACK_URL=http://{ip}:8790
 FINHOT_FEEDBACK_SECRET={feedback_secret}
 """

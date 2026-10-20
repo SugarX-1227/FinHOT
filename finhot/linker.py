@@ -55,6 +55,7 @@ _OPINION_TITLE = re.compile(r"^[^：:，,。]{2,12}(?:证券|建投|中金公司
 # 两个字的简称（柳工、闻泰）后面跟着公司动作才算点到它（“柳工发布”“闻泰拟”），否则多半是常用词
 _SHORT_OK_AFTER = re.compile(r"^(?:发布|公告|回应|宣布|拟|称|表示|董事|总裁|旗下|子公司|业绩|营收|净利|中标|获得|签署|签订|"
                              r"股份|集团|科技|控股|收购|回购|增持|减持)")
+_COUNTRY_HEAD = set("我中美英法德日韩俄泰越印澳加意西葡荷比瑞挪芬丹波捷奥希土伊以沙埃巴墨阿智秘南北东全各该本两他外邻诸列祖爱强大小出回王帝万盟敌友异岛")
 _SENTENCE = re.compile(r"[^。；;！!？?\n]+")
 
 
@@ -117,6 +118,9 @@ class Linker:
             if len(current) != 1:
                 return ""
             codes = current
+        # 以“国”开头的简称（国新能源、国药现代）紧跟在“我、德、全、各……”后面时，“X国”是一个词：“德国新能源考察团”
+        if name[0] == "国" and at > 0 and text[at - 1] in _COUNTRY_HEAD:
+            return ""
         if name in self.book.generic or len(name) <= 2:
             after = text[at + len(name):]
             ok = _GENERIC_OK_AFTER.match(after) or (len(name) <= 2 and _SHORT_OK_AFTER.match(after))

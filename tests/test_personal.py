@@ -158,7 +158,7 @@ def test_privacy_guards(tmp_path, monkeypatch):
 def test_gitignore_keeps_profiles_and_private_data_out():
     from finhot.config import ROOT
     text = (ROOT / ".gitignore").read_text(encoding="utf-8")
-    for line in ("profiles/*", "!profiles/example.yaml", ".private/", "data/private/"):
+    for line in ("profiles/*", "!profiles/example.yaml", ".private/", "data/private/", "backups/"):
         assert line in text
 
 
@@ -287,11 +287,13 @@ def test_feishu_and_wecom_bodies():
     assert len(wecom_body("t", "长" * 5000)["markdown"]["content"].encode()) <= 4000
 
 
-def test_feedback_links_are_signed():
-    secret = "s" * 20
-    good = f"p=me&i=abc&v=useful&s={feedback_sign('me', 'abc', 'useful', secret)}"
-    assert handle(good, secret)[0] == 200 and history.feedback("me") == {"abc": "useful"}
-    assert handle(good.replace("useful&", "irrelevant&"), secret)[0] == 403
+def test_feedback_links_are_signed_and_expire():
+    secret, ts = "s" * 20, 1792000000
+    good = f"p=me&i=abc&v=useful&t={ts}&s={feedback_sign('me', 'abc', 'useful', ts, secret)}"
+    assert handle(good, secret, at=ts + 3600)[0] == 200 and history.feedback("me") == {"abc": "useful"}
+    assert handle(good.replace("useful&", "irrelevant&"), secret, at=ts)[0] == 403
+    assert handle(good.replace(f"t={ts}", f"t={ts + 86400 * 30}"), secret, at=ts)[0] == 403   # 改时间也不行
+    assert handle(good, secret, at=ts + 86400 * 15)[0] == 410                                 # 过期
     assert handle("p=me&i=abc&v=bad&s=x", secret)[0] == 400
 
 
@@ -483,3 +485,45 @@ def test_short_and_common_names_need_company_context():
     assert names("柳工发布三季度业绩预告") == {"柳工": "主体"} and names("广西柳工机械厂区") == {}
     assert names("太平洋：前三季度净利润增长") == {"太平洋": "主体"}
     assert names("中信证券：2026年第四季度油轮龙头估值和利润有望创历史新高") == {"中信证券": "观点来源"}
+
+
+def test_deferred_alerts_reach_the_next_brief():
+    """免打扰时段记成“延后”的提醒，下一份简报要带上（之前被当成“已看过”永远不送达）。"""
+    p = Profile("me", holdings=["300750"])
+    p.push.channel, p.push.webhook = "feishu", "https://hook"
+    a = ann("300750", "宁德时代", "关于收到深圳证券交易所问询函的公告", published=at(16, 23, 5))
+    pk = Ranker(p, book=BOOK).rank_one(a, at(16, 23, 6))
+    stats = alerts.deliver([alerts.Alert(p, "x", pk, pk.id)], at(16, 23, 6), {"push": {"quiet": "22:30-07:30"}},
+                           sender=lambda *x: None)
+    assert stats["deferred"] == 1
+    br = build(p, BriefInput(announcements=[a]), at(17, 8, 20), at(16, 15, 45), b=BOOK,
+               seen=history.recent_grams("me", at(17, 8, 20), 3))
+    assert "问询函" in br.markdown and br.stats["repeats"] == 0
+    history.record_shown([history.Shown("me", pk.id, "x", [], at(17, 8, 20).isoformat(), "持仓", "持仓·公告", "brief")])
+    br = build(p, BriefInput(announcements=[a]), at(17, 15, 45), at(17, 8, 20), b=BOOK,
+               seen=history.recent_grams("me", at(17, 15, 45), 3))
+    assert "问询函" not in br.markdown                                     # 简报给过了就不再给
+
+
+def test_capped_moves_are_sent_first_and_the_message_is_honest():
+    sent = []
+    p = Profile("me", holdings=["300750"])
+    p.push.channel, p.push.webhook, p.push.daily_limit = "feishu", "https://hook", 1
+    pk = Ranker(p, book=BOOK).rank_one(ann("300750", "宁德时代", "2026年前三季度业绩预告"), at(16, 10))
+    rows = [alerts.Alert(p, "- 公告", pk, pk.id), alerts.Alert(p, "- 盘中涨 6%", None, "move:1")]
+    alerts.deliver(rows, at(16, 10), {"push": {}}, sender=lambda *x: sent.append(x))
+    assert "盘中涨" in sent[0][2] and "另有 1 条公告 / 新闻放进下一份简报" in sent[0][2]
+
+
+def test_country_words_do_not_link_to_guo_names():
+    b = build_book({"complete": True, "stocks": [{"code": "600617", "name": "国新能源"}]})
+    lk = Linker(b)
+    for t in ("德国新能源与装备智造考察团来访", "我国新能源汽车出口增长", "全国新能源装机容量"):
+        assert lk.link(news(t)) == []
+    assert [m.role for m in lk.link(news("国新能源：前三季度净利润增长"))] == ["主体"]
+
+
+def test_example_profile_cannot_be_overwritten():
+    from finhot.profile import save
+    with pytest.raises(PrivacyError):
+        save(Profile("example", holdings=["300750"]))
