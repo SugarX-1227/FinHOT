@@ -1,0 +1,1587 @@
+{
+ "trade_date": "2026-10-19",
+ "coverage": 100.0,
+ "stocks": [
+  {
+   "code": "003029",
+   "name": "吉大正元",
+   "boards": 3,
+   "first_time": "0925",
+   "industry": "软件开发",
+   "stat": "3天3板",
+   "reason": "网络安全概念竞价涨停，AI安全+商用密码题材",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "低空经济",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "网络安全概念股吉大正元（2板）竞价涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2507879"
+    },
+    {
+     "kind": "同花顺",
+     "text": "人工智能安全+商用密码+低空安全",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“鸿蒙概念”（+0.08%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "人工智能安全+商用密码+低空安全",
+   "written_by": "模型"
+  },
+  {
+   "code": "002889",
+   "name": "东方嘉盛",
+   "boards": 3,
+   "first_time": "1037",
+   "industry": "物流",
+   "stat": "3天3板",
+   "reason": "芯片产业链题材，半导体供应链+光刻机寄售维修",
+   "confidence": "中",
+   "themes": [
+    "半导体",
+    "机器人",
+    "航运物流"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "芯片产业链的东方嘉盛（2板）高开5.87%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2507879"
+    },
+    {
+     "kind": "同花顺",
+     "text": "半导体供应链+光刻机保税寄售维修+智慧仓储+机器人概念",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "半导体供应链+光刻机保税寄售维修+智慧仓储+机器人概念",
+   "written_by": "模型"
+  },
+  {
+   "code": "002724",
+   "name": "海洋王",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "照明设备",
+   "stat": "2天2板",
+   "reason": "低空涵道推进器题材炒作，公司称尚未规模化收入",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "军工",
+    "低空经济"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "低空涵道推进器业务尚未形成规模化收入海洋王",
+     "source": "证券时报快讯",
+     "url": "https://www.stcn.com/article/detail/4226560.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "专业照明+AI照明+军工+“羊”字辈",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“社保新进”概念（+0.02%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "专业照明+AI照明+军工+“羊”字辈",
+   "written_by": "模型"
+  },
+  {
+   "code": "600148",
+   "name": "长春一东",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "汽车零部",
+   "stat": "2天2板",
+   "reason": "军工+无人机概念，AMT系统+国企改革题材",
+   "confidence": "中",
+   "themes": [
+    "汽车",
+    "军工"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "军工概念+AMT系统+新能源汽车+国企改革",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“无人机”概念（+0.31%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "汽车：东山精密拟发1.13亿股H股，10月28日港交所上市",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2509114"
+    }
+   ],
+   "ths_reason": "军工概念+AMT系统+新能源汽车+国企改革",
+   "written_by": "模型"
+  },
+  {
+   "code": "600860",
+   "name": "京城股份",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "通用设备",
+   "stat": "2天2板",
+   "reason": "低空经济概念反复活跃2连板，气体储运+飞行汽车",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车",
+    "低空经济"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "低空经济概念继续活跃 保隆科技、京城股份2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2507881"
+    },
+    {
+     "kind": "盘面",
+     "text": "低空经济概念反复活跃，保隆科技、京城股份、万丰奥威、文灿股份2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2508315"
+    },
+    {
+     "kind": "同花顺",
+     "text": "飞行汽车概念股活跃+气体储运+机器人集成",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“标准普尔”概念（+0.37%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "飞行汽车概念股活跃+气体储运+机器人集成",
+   "written_by": "模型"
+  },
+  {
+   "code": "603197",
+   "name": "保隆科技",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "汽车零部",
+   "stat": "2天2板",
+   "reason": "低空经济概念活跃2连板，飞行汽车+特斯拉题材",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车",
+    "低空经济"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "低空经济概念继续活跃 保隆科技、京城股份2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2507881"
+    },
+    {
+     "kind": "盘面",
+     "text": "低空经济概念反复活跃，保隆科技、京城股份、万丰奥威、文灿股份2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2508315"
+    },
+    {
+     "kind": "同花顺",
+     "text": "飞行汽车+特斯拉概念+机器人传感器",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“低空经济”概念（+0.21%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "飞行汽车+特斯拉概念+机器人传感器",
+   "written_by": "模型"
+  },
+  {
+   "code": "600178",
+   "name": "东安动力",
+   "boards": 2,
+   "first_time": "0930",
+   "industry": "汽车零部",
+   "stat": "2天2板",
+   "reason": "减速器板块午后拉升涨停，飞行汽车+增程动力题材",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车",
+    "低空经济"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "减速器板块午后拉升，东安动力、兆威机电等多股涨停",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261019150749059800"
+    },
+    {
+     "kind": "同花顺",
+     "text": "飞行汽车+增程动力+定点协议+兵装重组",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“飞行汽车(eVTOL)”概念（+0.54%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "飞行汽车+增程动力+定点协议+兵装重组",
+   "written_by": "模型"
+  },
+  {
+   "code": "603348",
+   "name": "文灿股份",
+   "boards": 2,
+   "first_time": "0930",
+   "industry": "汽车零部",
+   "stat": "2天2板",
+   "reason": "低空经济活跃2连板，飞行汽车+一体化压铸题材",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车",
+    "低空经济"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "低空经济概念反复活跃，保隆科技、京城股份、万丰奥威、文灿股份2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2508315"
+    },
+    {
+     "kind": "同花顺",
+     "text": "飞行汽车+机器人概念+特斯拉概念+一体化压铸",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“汽车一体化压铸”概念（+1.12%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "飞行汽车+机器人概念+特斯拉概念+一体化压铸",
+   "written_by": "模型"
+  },
+  {
+   "code": "000576",
+   "name": "甘化科工",
+   "boards": 2,
+   "first_time": "0930",
+   "industry": "地面兵装",
+   "stat": "2天2板",
+   "reason": "军工板块活跃回封2连板，军工电源+光电成像题材",
+   "confidence": "中",
+   "themes": [
+    "半导体",
+    "军工"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "军工板块表现活跃，北方导航触及涨停，甘化科工回封2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2508012"
+    },
+    {
+     "kind": "同花顺",
+     "text": "军工电源+光电成像+特种合金+参股锴威特半导体",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "军工电源+光电成像+特种合金+参股锴威特半导体",
+   "written_by": "模型"
+  },
+  {
+   "code": "002085",
+   "name": "万丰奥威",
+   "boards": 2,
+   "first_time": "0931",
+   "industry": "汽车零部",
+   "stat": "2天2板",
+   "reason": "低空经济概念反复活跃2连板，通航飞机+轻量化",
+   "confidence": "中",
+   "themes": [
+    "汽车",
+    "低空经济"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "低空经济概念反复活跃，保隆科技、京城股份、万丰奥威、文灿股份2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2508315"
+    },
+    {
+     "kind": "盘面",
+     "text": "早盘低空经济概念继续活跃，保隆科技、京城股份2连板，金盾股份、晨曦航空涨超10%，万丰奥威、华力创通、中信海直、捷众科技跟涨",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2507881"
+    },
+    {
+     "kind": "同花顺",
+     "text": "低空经济+汽车轻量化+通航飞机",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“通用航空”概念（+0.36%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "汽车：东山精密拟发1.13亿股H股，10月28日港交所上市",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2509114"
+    }
+   ],
+   "ths_reason": "低空经济+汽车轻量化+通航飞机",
+   "written_by": "模型"
+  },
+  {
+   "code": "603278",
+   "name": "大业股份",
+   "boards": 2,
+   "first_time": "1336",
+   "industry": "通用设备",
+   "stat": "2天2板",
+   "reason": "人形机器人题材炒作，主业胎圈钢丝",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+胎圈钢丝+全球销售",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "人形机器人+胎圈钢丝+全球销售",
+   "written_by": "模型"
+  },
+  {
+   "code": "002929",
+   "name": "润建股份",
+   "boards": 1,
+   "first_time": "0925",
+   "industry": "通信服务",
+   "stat": "1天1板",
+   "reason": "子公司签2亿美元AI词元出海大单，商业化落地",
+   "confidence": "高",
+   "themes": [
+    "算力",
+    "通信"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "润建股份：子公司签订2亿美元AI词元跨境销售服务合同",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103397905.html"
+    },
+    {
+     "kind": "公司",
+     "text": "润建股份斩获2亿美元海外Token服务订单 Token出海龙头商业化落地",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2507639"
+    },
+    {
+     "kind": "同花顺",
+     "text": "签境外词元大单+算力网络+通信运维",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“人工智能”概念（+0.02%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "签境外词元大单+算力网络+通信运维",
+   "written_by": "模型"
+  },
+  {
+   "code": "600267",
+   "name": "海正药业",
+   "boards": 1,
+   "first_time": "0925",
+   "industry": "化学制药",
+   "stat": "1天1板",
+   "reason": "业绩增长题材，叠加宠物药+受托生产",
+   "confidence": "中",
+   "themes": [
+    "医药"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "业绩增长+宠物药+受托生产",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“AI制药（医疗）”概念（+0.02%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "业绩增长+宠物药+受托生产",
+   "written_by": "模型"
+  },
+  {
+   "code": "002626",
+   "name": "金达威",
+   "boards": 1,
+   "first_time": "0931",
+   "industry": "食品加工",
+   "stat": "1天1板",
+   "reason": "长寿药概念领涨，巴西甜蛋白+辅酶Q10题材",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "巴西甜蛋白+辅酶Q10+藻油",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“长寿药”概念（+0.04%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "巴西甜蛋白+辅酶Q10+藻油",
+   "written_by": "模型"
+  },
+  {
+   "code": "002368",
+   "name": "太极股份",
+   "boards": 1,
+   "first_time": "0932",
+   "industry": "IT服务Ⅱ",
+   "stat": "1天1板",
+   "reason": "数据确权概念领涨，数据库+央企云数服务题材",
+   "confidence": "中",
+   "themes": [
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "数据库+央企+云数服务",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“数据确权”概念（+0.10%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "数据库+央企+云数服务",
+   "written_by": "模型"
+  },
+  {
+   "code": "001323",
+   "name": "慕思股份",
+   "boards": 1,
+   "first_time": "0939",
+   "industry": "家居用品",
+   "stat": "1天1板",
+   "reason": "智能家居概念领涨，智能睡眠+鸿蒙生态题材",
+   "confidence": "中",
+   "themes": [
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "智能睡眠+端侧智能+鸿蒙生态",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“智能家居”概念（+0.54%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "智能睡眠+端侧智能+鸿蒙生态",
+   "written_by": "模型"
+  },
+  {
+   "code": "603188",
+   "name": "亚邦股份",
+   "boards": 1,
+   "first_time": "0943",
+   "industry": "化学制品",
+   "stat": "1天1板",
+   "reason": "染料产业链题材，染料中间体+业绩修复",
+   "confidence": "中",
+   "themes": [
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "染料中间体+染料产业链+业绩修复",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "染料中间体+染料产业链+业绩修复",
+   "written_by": "模型"
+  },
+  {
+   "code": "603693",
+   "name": "江苏新能",
+   "boards": 1,
+   "first_time": "1002",
+   "industry": "电力",
+   "stat": "1天1板",
+   "reason": "电力股集体涨停，海上风电+江苏国资绿电题材",
+   "confidence": "中",
+   "themes": [
+    "风电",
+    "电力"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "电力江苏新能、浙江新能、晶科科技涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2508315"
+    },
+    {
+     "kind": "同花顺",
+     "text": "海上风电+新能源发电+江苏国资",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“绿色电力”概念（+0.27%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "海上风电+新能源发电+江苏国资",
+   "written_by": "模型"
+  },
+  {
+   "code": "600032",
+   "name": "浙江新能",
+   "boards": 1,
+   "first_time": "1011",
+   "industry": "电力",
+   "stat": "1天1板",
+   "reason": "电力股集体涨停，电力市场化+风光水电题材",
+   "confidence": "中",
+   "themes": [
+    "电力"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "电力江苏新能、浙江新能、晶科科技涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2508315"
+    },
+    {
+     "kind": "同花顺",
+     "text": "电力市场化+风光水电",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“抽水蓄能”概念（+0.41%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "电力：量价齐升驱动盈利修复 能化行业多家公司三季报预喜",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2509109"
+    }
+   ],
+   "ths_reason": "电力市场化+风光水电",
+   "written_by": "模型"
+  },
+  {
+   "code": "301666",
+   "name": "大普微-UW",
+   "boards": 1,
+   "first_time": "1025",
+   "industry": "计算机设",
+   "stat": "1天1板",
+   "reason": "企业级SSD+AI存储题材，获大额订单",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "半导体",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "企业级SSD+AI存储+大额订单",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“小红书概念”（+0.06%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "企业级SSD+AI存储+大额订单",
+   "written_by": "模型"
+  },
+  {
+   "code": "600686",
+   "name": "金龙汽车",
+   "boards": 1,
+   "first_time": "1028",
+   "industry": "商用车",
+   "stat": "1天1板",
+   "reason": "客车制造+客车出口题材，储氢系统+仲裁澄清",
+   "confidence": "中",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "客车制造+储氢系统+客车出口+仲裁澄清",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“基金增仓”概念（+0.11%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "客车制造+储氢系统+客车出口+仲裁澄清",
+   "written_by": "模型"
+  },
+  {
+   "code": "603330",
+   "name": "天洋新材",
+   "boards": 1,
+   "first_time": "1039",
+   "industry": "塑料",
+   "stat": "1天1板",
+   "reason": "CPO概念反弹涨停，电子胶+业绩扭亏题材",
+   "confidence": "中",
+   "themes": [
+    "算力"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "CPO概念反弹，天洋新材涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610193899739284.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "电子胶+热熔胶+业绩扭亏",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“消费电子概念”（+0.29%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "电子胶+热熔胶+业绩扭亏",
+   "written_by": "模型"
+  },
+  {
+   "code": "301591",
+   "name": "肯特股份",
+   "boards": 1,
+   "first_time": "1040",
+   "industry": "塑料",
+   "stat": "1天1板",
+   "reason": "PCB概念拉升20%涨停，高频覆铜板材料题材",
+   "confidence": "中",
+   "themes": [
+    "有色金属"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "PCB四会富仕、肯特股份、协和电子、沃特股份涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2508315"
+    },
+    {
+     "kind": "盘面",
+     "text": "PCB概念拉升，肯特股份20%涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610193899739284.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "高频覆铜板+高性能工程塑料+阀用特种塑料",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“海洋经济”概念（+0.25%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "有色金属：CME：美联储10月维持利率不变概率82.8%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2509106"
+    }
+   ],
+   "ths_reason": "高频覆铜板+高性能工程塑料+阀用特种塑料",
+   "written_by": "模型"
+  },
+  {
+   "code": "002886",
+   "name": "沃特股份",
+   "boards": 1,
+   "first_time": "1044",
+   "industry": "塑料",
+   "stat": "1天1板",
+   "reason": "PCB概念涨停，PTFE薄膜+机器人材料题材",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "低空经济"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "亨通光电、沃特股份、宁波东力、斯菱智驱、浙江荣泰等纷纷跟涨",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610193899748556.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "PCB四会富仕、肯特股份、协和电子、沃特股份涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2508315"
+    },
+    {
+     "kind": "同花顺",
+     "text": "PTFE薄膜+PCB材料+机器人材料+低空经济",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“铜缆高速连接”概念（+0.17%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "PTFE薄膜+PCB材料+机器人材料+低空经济",
+   "written_by": "模型"
+  },
+  {
+   "code": "600487",
+   "name": "亨通光电",
+   "boards": 1,
+   "first_time": "1047",
+   "industry": "通信设备",
+   "stat": "1天1板",
+   "reason": "光通信+业绩预增题材，海底光缆概念受关注",
+   "confidence": "中",
+   "themes": [
+    "通信"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "亨通光电、沃特股份、宁波东力、斯菱智驱、浙江荣泰等纷纷跟涨",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610193899748556.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "光通信+业绩预增+海底光缆",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“液冷服务器”概念（+0.02%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "光通信+业绩预增+海底光缆",
+   "written_by": "模型"
+  },
+  {
+   "code": "601778",
+   "name": "晶科科技",
+   "boards": 1,
+   "first_time": "1047",
+   "industry": "电力",
+   "stat": "1天1板",
+   "reason": "电力股集体涨停，算力服务+算电协同题材",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "锂电储能",
+    "光伏"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "电力江苏新能、浙江新能、晶科科技涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2508315"
+    },
+    {
+     "kind": "同花顺",
+     "text": "算力服务+算电协同+光伏储能",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“保险新进”概念（+0.04%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "算力服务+算电协同+光伏储能",
+   "written_by": "模型"
+  },
+  {
+   "code": "001216",
+   "name": "华瓷股份",
+   "boards": 1,
+   "first_time": "1048",
+   "industry": "家居用品",
+   "stat": "4天2板",
+   "reason": "MLCC粉体材料题材，叠加酒器+日用陶瓷",
+   "confidence": "中",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "MLCC粉体+酒器+日用陶瓷",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“特高压”概念（+0.57%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "MLCC粉体+酒器+日用陶瓷",
+   "written_by": "模型"
+  },
+  {
+   "code": "600329",
+   "name": "达仁堂",
+   "boards": 1,
+   "first_time": "1052",
+   "industry": "中药Ⅱ",
+   "stat": "1天1板",
+   "reason": "独家药品概念领涨，速效救心丸+高股息题材",
+   "confidence": "中",
+   "themes": [
+    "医药"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "速效救心丸+中药+高股息",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“独家药品”概念（+0.19%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "速效救心丸+中药+高股息",
+   "written_by": "模型"
+  },
+  {
+   "code": "300852",
+   "name": "四会富仕",
+   "boards": 1,
+   "first_time": "1054",
+   "industry": "元件",
+   "stat": "1天1板",
+   "reason": "PCB概念涨停，三季报增长+AI服务器PCB",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "算力",
+    "消费电子"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "PCB四会富仕、肯特股份、协和电子、沃特股份涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2508315"
+    },
+    {
+     "kind": "盘面",
+     "text": "CPO概念反弹，天洋新材涨停，四会富仕涨超16%",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610193899739284.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报增长+AI服务器PCB+工业控制PCB",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "三季报增长+AI服务器PCB+工业控制PCB",
+   "written_by": "模型"
+  },
+  {
+   "code": "605258",
+   "name": "协和电子",
+   "boards": 1,
+   "first_time": "1055",
+   "industry": "元件",
+   "stat": "1天1板",
+   "reason": "PCB概念涨停，叠加汽车电子+新能源题材",
+   "confidence": "中",
+   "themes": [
+    "汽车",
+    "消费电子"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "PCB四会富仕、肯特股份、协和电子、沃特股份涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2508315"
+    },
+    {
+     "kind": "同花顺",
+     "text": "PCB+汽车电子+新能源",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "汽车：东山精密拟发1.13亿股H股，10月28日港交所上市",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2509114"
+    }
+   ],
+   "ths_reason": "PCB+汽车电子+新能源",
+   "written_by": "模型"
+  },
+  {
+   "code": "605058",
+   "name": "澳弘电子",
+   "boards": 1,
+   "first_time": "1056",
+   "industry": "元件",
+   "stat": "21天12板",
+   "reason": "PCB+AI服务器+HDI板题材，21天12板",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "算力",
+    "消费电子"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "澳弘电子21天12板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2508315"
+    },
+    {
+     "kind": "同花顺",
+     "text": "PCB+AI服务器+HDI板",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“卫星互联网”概念（+0.23%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "PCB+AI服务器+HDI板",
+   "written_by": "模型"
+  },
+  {
+   "code": "605488",
+   "name": "福莱新材",
+   "boards": 1,
+   "first_time": "1121",
+   "industry": "塑料",
+   "stat": "1天1板",
+   "reason": "人形机器人概念涨停，柔性传感器题材受关注",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "午后人形机器人概念持续走高，兆威机电、浙江荣泰、福莱新材、日盈电子、宁波东力涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2508223"
+    },
+    {
+     "kind": "盘面",
+     "text": "人形机器人概念走强，兆威机电、浙江荣泰、福莱新材、日盈电子、宁波东力涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2508315"
+    },
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+柔性传感器+功能性涂布",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“智能穿戴”概念（+0.47%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "人形机器人+柔性传感器+功能性涂布",
+   "written_by": "模型"
+  },
+  {
+   "code": "300798",
+   "name": "锦鸡股份",
+   "boards": 1,
+   "first_time": "1300",
+   "industry": "化学制品",
+   "stat": "1天1板",
+   "reason": "活性染料+H酸题材，叠加算力租赁概念",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "活性染料+H酸传导+算力租赁",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "活性染料+H酸传导+算力租赁",
+   "written_by": "模型"
+  },
+  {
+   "code": "603626",
+   "name": "科森科技",
+   "boards": 1,
+   "first_time": "1324",
+   "industry": "消费电子",
+   "stat": "1天1板",
+   "reason": "机器人结构件题材，叠加苹果供应链概念",
+   "confidence": "中",
+   "themes": [
+    "消费电子",
+    "机器人",
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "机器人结构件+苹果供应链+智能终端结构件",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "机器人结构件+苹果供应链+智能终端结构件",
+   "written_by": "模型"
+  },
+  {
+   "code": "603859",
+   "name": "能科科技",
+   "boards": 1,
+   "first_time": "1330",
+   "industry": "IT服务Ⅱ",
+   "stat": "1天1板",
+   "reason": "物理AI概念异动拉升涨停，具身智能题材",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "算力",
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "物理AI概念异动拉升 能科科技直线涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2508162"
+    },
+    {
+     "kind": "同花顺",
+     "text": "物理AI+具身智能+定制服务器",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“AI应用”概念（+0.06%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "物理AI+具身智能+定制服务器",
+   "written_by": "模型"
+  },
+  {
+   "code": "002164",
+   "name": "宁波东力",
+   "boards": 1,
+   "first_time": "1335",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "人形机器人概念涨停，精密减速器+股东增持",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "午后人形机器人概念持续走高，兆威机电、浙江荣泰、福莱新材、日盈电子、宁波东力涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2508223"
+    },
+    {
+     "kind": "盘面",
+     "text": "亨通光电、沃特股份、宁波东力、斯菱智驱、浙江荣泰等纷纷跟涨",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610193899748556.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "精密减速器+控股股东增持+齿轮传动",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“减速器”概念（+2.61%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "精密减速器+控股股东增持+齿轮传动",
+   "written_by": "模型"
+  },
+  {
+   "code": "301119",
+   "name": "正强股份",
+   "boards": 1,
+   "first_time": "1337",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "机器人零部件题材炒作，叠加汽车零部件主业",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "机器人零部件+汽车零部件",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "机器人零部件+汽车零部件",
+   "written_by": "模型"
+  },
+  {
+   "code": "603040",
+   "name": "新坐标",
+   "boards": 1,
+   "first_time": "1350",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "行星滚柱丝杠题材炒作，叠加汽车零部件主业",
+   "confidence": "中",
+   "themes": [
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "行星滚柱丝杠+汽车零部件",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“养老金”概念（+0.56%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "汽车：东山精密拟发1.13亿股H股，10月28日港交所上市",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2509114"
+    }
+   ],
+   "ths_reason": "行星滚柱丝杠+汽车零部件",
+   "written_by": "模型"
+  },
+  {
+   "code": "301313",
+   "name": "凡拓数创",
+   "boards": 1,
+   "first_time": "1351",
+   "industry": "数字媒体",
+   "stat": "1天1板",
+   "reason": "物理AI概念快速拉升，AI数字孪生+具身数据题材",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "凡拓数创、索辰科技、豪恩汽电、奥比中光、中望软件等快速跟涨",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2508162"
+    },
+    {
+     "kind": "同花顺",
+     "text": "物理AI仿真+具身数据+AI数字孪生",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“首发经济”概念（+0.11%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "物理AI仿真+具身数据+AI数字孪生",
+   "written_by": "模型"
+  },
+  {
+   "code": "603119",
+   "name": "浙江荣泰",
+   "boards": 1,
+   "first_time": "1352",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "人形机器人概念涨停，精密结构件题材受关注",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "午后人形机器人概念持续走高，兆威机电、浙江荣泰、福莱新材、日盈电子、宁波东力涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2508223"
+    },
+    {
+     "kind": "盘面",
+     "text": "亨通光电、沃特股份、宁波东力、斯菱智驱、浙江荣泰等纷纷跟涨",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610193899748556.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+精密结构件+云母制品",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "人形机器人+精密结构件+云母制品",
+   "written_by": "模型"
+  },
+  {
+   "code": "603286",
+   "name": "日盈电子",
+   "boards": 1,
+   "first_time": "1352",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "人形机器人概念涨停，叠加汽车电子题材",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "午后人形机器人概念持续走高，兆威机电、浙江荣泰、福莱新材、日盈电子、宁波东力涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2508223"
+    },
+    {
+     "kind": "盘面",
+     "text": "人形机器人概念走强，兆威机电、浙江荣泰、福莱新材、日盈电子、宁波东力涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2508315"
+    },
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+汽车电子+北美工厂",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "人形机器人+汽车电子+北美工厂",
+   "written_by": "模型"
+  },
+  {
+   "code": "003021",
+   "name": "兆威机电",
+   "boards": 1,
+   "first_time": "1408",
+   "industry": "电机Ⅱ",
+   "stat": "1天1板",
+   "reason": "人形机器人概念涨停，灵巧手+微型传动题材",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "人形机器人概念持续走高 兆威机电等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2508223"
+    },
+    {
+     "kind": "盘面",
+     "text": "减速器板块午后拉升，东安动力、兆威机电等多股涨停",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261019150749059800"
+    },
+    {
+     "kind": "盘面",
+     "text": "人形机器人概念走强，兆威机电、浙江荣泰、福莱新材、日盈电子、宁波东力涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2508315"
+    },
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+灵巧手+微型传动",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“小米概念”（+0.06%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "人形机器人+灵巧手+微型传动",
+   "written_by": "模型"
+  },
+  {
+   "code": "605255",
+   "name": "天普股份",
+   "boards": 1,
+   "first_time": "1428",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "中昊芯英概念炒作，叠加汽车零部件主业",
+   "confidence": "中",
+   "themes": [
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "汽车零部件+中昊芯英",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "汽车：东山精密拟发1.13亿股H股，10月28日港交所上市",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2509114"
+    }
+   ],
+   "ths_reason": "汽车零部件+中昊芯英",
+   "written_by": "模型"
+  },
+  {
+   "code": "688507",
+   "name": "索辰科技",
+   "boards": 1,
+   "first_time": "1431",
+   "industry": "软件开发",
+   "stat": "1天1板",
+   "reason": "物理AI概念拉升，工程仿真+低空经济题材",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "低空经济",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "凡拓数创、索辰科技、豪恩汽电、奥比中光、中望软件等快速跟涨",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2508162"
+    },
+    {
+     "kind": "同花顺",
+     "text": "物理AI+低空经济+工程仿真",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "物理AI+低空经济+工程仿真",
+   "written_by": "模型"
+  },
+  {
+   "code": "001211",
+   "name": "双枪科技",
+   "boards": 1,
+   "first_time": "1441",
+   "industry": "家居用品",
+   "stat": "1天1板",
+   "reason": "以竹代塑题材炒作，竹制餐厨具+餐饮客户",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "竹制餐厨具+以竹代塑+餐饮客户",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "竹制餐厨具+以竹代塑+餐饮客户",
+   "written_by": "模型"
+  },
+  {
+   "code": "002343",
+   "name": "慈文传媒",
+   "boards": 1,
+   "first_time": "1451",
+   "industry": "影视院线",
+   "stat": "7天6板",
+   "reason": "微短剧+影视IP题材炒作，AI语料概念领涨",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "目前AI+智慧照明相关业务收入规模有限7天6板慈文传媒",
+     "source": "证券时报快讯",
+     "url": "https://www.stcn.com/article/detail/4226560.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "微短剧+影视剧获奖+影视IP",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“AI语料”概念（+0.11%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "微短剧+影视剧获奖+影视IP",
+   "written_by": "模型"
+  }
+ ]
+}
