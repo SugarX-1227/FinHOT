@@ -1,0 +1,2540 @@
+{
+ "trade_date": "2026-10-16",
+ "coverage": 100.0,
+ "stocks": [
+  {
+   "code": "600825",
+   "name": "新华传媒",
+   "boards": 11,
+   "first_time": "0925",
+   "industry": "出版",
+   "stat": "11天11板",
+   "reason": "复牌+界面财联社重组+图书发行",
+   "confidence": "高",
+   "themes": [
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "新华传媒10月16日复牌，重组审计评估进行中",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103395555.html"
+    },
+    {
+     "kind": "公司",
+     "text": "上交所：本周对新华传媒等严重异常波动股票进行重点监控，对20起上市公司重大事项等进行专项核查",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3180173"
+    },
+    {
+     "kind": "盘面",
+     "text": "虽然新华传媒复牌后继续一字涨停晋级11连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2506836"
+    },
+    {
+     "kind": "盘面",
+     "text": "传媒板块新华传媒11连板、新华文轩15天11板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2506786"
+    },
+    {
+     "kind": "同花顺",
+     "text": "复牌+界面财联社重组+图书发行",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“长江三角”概念（+0.64%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "传媒游戏：上交所：本周对新华传媒等严重异常波动股票进行重点监控，对20起上市公司重大事项等",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3180173"
+    }
+   ],
+   "ths_reason": "复牌+界面财联社重组+图书发行",
+   "written_by": "规则"
+  },
+  {
+   "code": "000530",
+   "name": "冰山冷热",
+   "boards": 4,
+   "first_time": "1020",
+   "industry": "通用设备",
+   "stat": "4天4板",
+   "reason": "冰雪工程+数据中心液冷+军工+冷热设备",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "军工"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "冰雪经济概念震荡走高 冰山冷热4连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2506476"
+    },
+    {
+     "kind": "公司",
+     "text": "A股冰雪产业板块短线拉升，冰山冷热涨停，东方嘉盛此前封板，龙建股份、晶雪节能、雪人集团、大连圣亚、天府文旅等个股跟涨",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261016102352782800"
+    },
+    {
+     "kind": "盘面",
+     "text": "冰雪产业概念股冰山冷热（3板）低开4.18%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2506403"
+    },
+    {
+     "kind": "盘面",
+     "text": "冰雪产业概念早盘一度冲高，冰山冷热走出4连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2506836"
+    },
+    {
+     "kind": "同花顺",
+     "text": "冰雪工程+数据中心液冷+军工+冷热设备",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“边缘计算”概念（+0.17%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：申昊科技：子公司签订8.81亿元算力设备采购合同",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2507141"
+    }
+   ],
+   "ths_reason": "冰雪工程+数据中心液冷+军工+冷热设备",
+   "written_by": "规则"
+  },
+  {
+   "code": "601811",
+   "name": "新华文轩",
+   "boards": 3,
+   "first_time": "0956",
+   "industry": "出版",
+   "stat": "15天11板",
+   "reason": "出版传媒+数字教育+民族出版收购",
+   "confidence": "中",
+   "themes": [
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "新华文轩涨停走出3连板",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103396059.html"
+    },
+    {
+     "kind": "公司",
+     "text": "传媒板块持续走高 新华文轩上演“准地天板”",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2504213"
+    },
+    {
+     "kind": "盘面",
+     "text": "传媒板块新华文轩（14天10板）高开2.03%、内蒙新华（16天8板）低开0.28%、慈文传媒（5板）高开8.31%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2506403"
+    },
+    {
+     "kind": "盘面",
+     "text": "并带动新华文轩走出15天11板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2506836"
+    },
+    {
+     "kind": "同花顺",
+     "text": "出版传媒+数字教育+民族出版收购",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“养老金”概念（+0.82%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "传媒游戏：上交所：本周对新华传媒等严重异常波动股票进行重点监控，对20起上市公司重大事项等",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3180173"
+    }
+   ],
+   "ths_reason": "出版传媒+数字教育+民族出版收购",
+   "written_by": "规则"
+  },
+  {
+   "code": "002889",
+   "name": "东方嘉盛",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "物流",
+   "stat": "2天2板",
+   "reason": "半导体设备服务+智慧仓储+数字供应链",
+   "confidence": "中",
+   "themes": [
+    "半导体",
+    "航运物流"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "A股冰雪产业板块短线拉升，冰山冷热涨停，东方嘉盛此前封板，龙建股份、晶雪节能、雪人集团、大连圣亚、天府文旅等个股跟涨",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261016102352782800"
+    },
+    {
+     "kind": "公司",
+     "text": "物流板块短线拉升 东方嘉盛涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610163897893465.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "半导体设备服务+智慧仓储+数字供应链",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“人工智能”概念（+0.08%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "半导体设备服务+智慧仓储+数字供应链",
+   "written_by": "规则"
+  },
+  {
+   "code": "603999",
+   "name": "读者传媒",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "出版",
+   "stat": "2天2板",
+   "reason": "出版发行+数字出版+人工智能",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "文化传媒概念板块短线拉升，华阳国际涨停，出版传媒、读者传媒、华媒控股此前封板",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261016/c680762439.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "其中传媒板块新华传媒收获11连板、新华文轩3连板、读者传媒2连板",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103396730.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "出版发行+数字出版+人工智能",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“参股新三板”概念（+0.22%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：李强主持召开国务院常务会议",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2507122"
+    }
+   ],
+   "ths_reason": "出版发行+数字出版+人工智能",
+   "written_by": "规则"
+  },
+  {
+   "code": "003029",
+   "name": "吉大正元",
+   "boards": 2,
+   "first_time": "0930",
+   "industry": "软件开发",
+   "stat": "2天2板",
+   "reason": "密码安全+数字货币+商业航天",
+   "confidence": "中",
+   "themes": [
+    "商业航天",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "软件开发板块盘初冲高，吉大正元2连板",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261016/c680761174.shtml"
+    },
+    {
+     "kind": "公司",
+     "text": "网络安全概念局部异动 吉大正元直线涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2505268"
+    },
+    {
+     "kind": "同花顺",
+     "text": "密码安全+数字货币+商业航天",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“量子科技”概念（+0.42%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "商业航天：卫星化学：前三季度净利润同比增长141.24%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2507145"
+    }
+   ],
+   "ths_reason": "密码安全+数字货币+商业航天",
+   "written_by": "规则"
+  },
+  {
+   "code": "600668",
+   "name": "尖峰集团",
+   "boards": 2,
+   "first_time": "0931",
+   "industry": "水泥",
+   "stat": "2天2板",
+   "reason": "医药+原料药+水泥熟料",
+   "confidence": "中",
+   "themes": [
+    "医药",
+    "基建建材"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "A股创新药板块盘初拉升，泓博医药、尖峰集团、中恒集团、誉衡药业涨停，键凯科技、透景生命、博济医药涨超10%",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3179796"
+    },
+    {
+     "kind": "公司",
+     "text": "水泥概念持续走强，福建水泥、尖峰集团双双涨停",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/2026-10-16/doc-inivksmu1465833.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "莱美药业、泓博医药、尖峰集团、中恒集团等涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3179858"
+    },
+    {
+     "kind": "同花顺",
+     "text": "医药+原料药+水泥熟料",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "医药+原料药+水泥熟料",
+   "written_by": "规则"
+  },
+  {
+   "code": "000573",
+   "name": "粤宏远Ａ",
+   "boards": 1,
+   "first_time": "0925",
+   "industry": "房地产开",
+   "stat": "3天2板",
+   "reason": "股权收购+精密传动+高端自动化+东莞地产",
+   "confidence": "中",
+   "themes": [
+    "房地产"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "股权收购+精密传动+高端自动化+东莞地产",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“并购重组概念”（+0.53%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "房地产：房地产板块涨幅扩大 我爱我家、新城控股双双涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2506492"
+    }
+   ],
+   "ths_reason": "股权收购+精密传动+高端自动化+东莞地产",
+   "written_by": "规则"
+  },
+  {
+   "code": "000607",
+   "name": "华媒控股",
+   "boards": 1,
+   "first_time": "0925",
+   "industry": "广告营销",
+   "stat": "1天1板",
+   "reason": "文化传媒+AI漫剧+杭州日报",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "文化传媒概念板块短线拉升，华阳国际涨停，出版传媒、读者传媒、华媒控股此前封板",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261016/c680762439.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "文化传媒+AI漫剧+杭州日报",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“知识产权”概念（+0.31%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：李强主持召开国务院常务会议",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2507122"
+    }
+   ],
+   "ths_reason": "文化传媒+AI漫剧+杭州日报",
+   "written_by": "规则"
+  },
+  {
+   "code": "603636",
+   "name": "南威软件",
+   "boards": 1,
+   "first_time": "0925",
+   "industry": "IT服务Ⅱ",
+   "stat": "1天1板",
+   "reason": "AI短剧+游戏出海+政务智能体",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "传媒游戏",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "AI漫剧概念反复走强 南威软件一字涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2506408"
+    },
+    {
+     "kind": "公司",
+     "text": "南威软件：公司海外短剧自有发行APP预计11月上线",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2505892"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI短剧+游戏出海+政务智能体",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“蚂蚁金服概念”（+0.21%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：李强主持召开国务院常务会议",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2507122"
+    }
+   ],
+   "ths_reason": "AI短剧+游戏出海+政务智能体",
+   "written_by": "规则"
+  },
+  {
+   "code": "601999",
+   "name": "出版传媒",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "出版",
+   "stat": "1天1板",
+   "reason": "出版发行+AI应用+数智基金",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "文化传媒概念板块短线拉升，华阳国际涨停，出版传媒、读者传媒、华媒控股此前封板",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261016/c680762439.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "此前慈文传媒5连板，欢瑞世纪5天3板，掌阅科技、出版传媒、冰川网络、荣信文化涨幅靠前",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2505255"
+    },
+    {
+     "kind": "同花顺",
+     "text": "出版发行+AI应用+数智基金",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“东北振兴”概念（+1.12%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：李强主持召开国务院常务会议",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2507122"
+    }
+   ],
+   "ths_reason": "出版发行+AI应用+数智基金",
+   "written_by": "规则"
+  },
+  {
+   "code": "603197",
+   "name": "保隆科技",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "飞行汽车+特斯拉概念+机器人传感器",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车",
+    "低空经济"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "低空经济概念快速拉升，十余只成分股涨停，万丰奥威、中信海直、保隆科技、英搏尔涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2506763"
+    },
+    {
+     "kind": "盘面",
+     "text": "低空经济概念表现活跃，万丰奥威、中信海直、保隆科技涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2506563"
+    },
+    {
+     "kind": "同花顺",
+     "text": "飞行汽车+特斯拉概念+机器人传感器",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“传感器”概念（+0.70%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "飞行汽车+特斯拉概念+机器人传感器",
+   "written_by": "规则"
+  },
+  {
+   "code": "001358",
+   "name": "兴欣新材",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "化学制品",
+   "stat": "1天1板",
+   "reason": "光刻胶原料+电子化学品+有机胺",
+   "confidence": "中",
+   "themes": [
+    "半导体",
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "光刻胶原料+电子化学品+有机胺",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“新材料”概念（+0.47%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "光刻胶原料+电子化学品+有机胺",
+   "written_by": "规则"
+  },
+  {
+   "code": "600418",
+   "name": "江淮汽车",
+   "boards": 1,
+   "first_time": "0931",
+   "industry": "商用车",
+   "stat": "1天1板",
+   "reason": "三部门联合调查+尊界V800",
+   "confidence": "中",
+   "themes": [
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "汽车整车板块震荡反弹 江淮汽车涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2506419"
+    },
+    {
+     "kind": "公司",
+     "text": "江淮汽车盘中涨停",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103395954.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "江淮汽车、海马汽车跌超7%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2504426"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三部门联合调查+尊界V800",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“先进制造风格”概念（+0.34%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "汽车：理想汽车芯片子公司完成首轮16.25亿元融资协议，最大投后估值171亿元",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3180085"
+    }
+   ],
+   "ths_reason": "三部门联合调查+尊界V800",
+   "written_by": "规则"
+  },
+  {
+   "code": "603278",
+   "name": "大业股份",
+   "boards": 1,
+   "first_time": "0937",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "人形机器人+胎圈钢丝+全球销售",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+胎圈钢丝+全球销售",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“光伏概念”（+0.54%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "人形机器人+胎圈钢丝+全球销售",
+   "written_by": "规则"
+  },
+  {
+   "code": "601606",
+   "name": "长城军工",
+   "boards": 1,
+   "first_time": "0938",
+   "industry": "地面兵装",
+   "stat": "1天1板",
+   "reason": "弹药装备+订单交付+军民协同",
+   "confidence": "中",
+   "themes": [
+    "军工"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "军工板块再度活跃 长城军工涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2506424"
+    },
+    {
+     "kind": "公司",
+     "text": "军工装备板块盘初走高，长城军工涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261016/c680761460.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "军工板块集体拉升，长城军工、海洋王、长春一东、新兴装备等多股涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3179981"
+    },
+    {
+     "kind": "盘面",
+     "text": "军工板块盘中持续走高，中科海讯、金盾股份20cm涨停，晟楠科技回封30cm涨停，此前长城军工、长春一东、林州重机、新兴装备等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2506538"
+    },
+    {
+     "kind": "同花顺",
+     "text": "弹药装备+订单交付+军民协同",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“军工”概念（+2.50%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "军工：美军“罗斯福”号航母停靠日本横须贺基地",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2506564"
+    }
+   ],
+   "ths_reason": "弹药装备+订单交付+军民协同",
+   "written_by": "规则"
+  },
+  {
+   "code": "300581",
+   "name": "晨曦航空",
+   "boards": 1,
+   "first_time": "0939",
+   "industry": "航空装备",
+   "stat": "1天1板",
+   "reason": "航空惯导+发动机电子+军用无人机",
+   "confidence": "中",
+   "themes": [
+    "军工",
+    "低空经济",
+    "商业航天"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "A股军工板块异动拉升，晨曦航空20cm涨停，长城军工直线封板，海洋王、北方长龙、湖南天雁、新余国科等纷纷冲高",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3179801"
+    },
+    {
+     "kind": "盘面",
+     "text": "军工板块同样表现活跃，长城军工、新兴装备、晨曦航空等股涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261016/c680773097.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "军工金奥博、长城军工、晨曦航空、广东宏大、航天晨光涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2506763"
+    },
+    {
+     "kind": "同花顺",
+     "text": "航空惯导+发动机电子+军用无人机",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“无人机”概念（+2.28%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "军工：美军“罗斯福”号航母停靠日本横须贺基地",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2506564"
+    }
+   ],
+   "ths_reason": "航空惯导+发动机电子+军用无人机",
+   "written_by": "规则"
+  },
+  {
+   "code": "002724",
+   "name": "海洋王",
+   "boards": 1,
+   "first_time": "0940",
+   "industry": "照明设备",
+   "stat": "1天1板",
+   "reason": "AI照明+工业照明+应急救援+“羊”字辈",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "军工"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "A股军工板块异动拉升，晨曦航空20cm涨停，长城军工直线封板，海洋王、北方长龙、湖南天雁、新余国科等纷纷冲高",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3179801"
+    },
+    {
+     "kind": "盘面",
+     "text": "军工板块集体拉升，长城军工、海洋王、长春一东、新兴装备等多股涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3179981"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI照明+工业照明+应急救援+“羊”字辈",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“新型城镇化”概念（+1.20%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：李强主持召开国务院常务会议",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2507122"
+    }
+   ],
+   "ths_reason": "AI照明+工业照明+应急救援+“羊”字辈",
+   "written_by": "规则"
+  },
+  {
+   "code": "002917",
+   "name": "金奥博",
+   "boards": 1,
+   "first_time": "0940",
+   "industry": "化学制品",
+   "stat": "4天3板",
+   "reason": "军工并购+民爆装备+工业机器人",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "军工",
+    "商业航天"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "民爆概念盘初活跃 金奥博涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610163897904827.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "军工金奥博、长城军工、晨曦航空、广东宏大、航天晨光涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2506763"
+    },
+    {
+     "kind": "盘面",
+     "text": "军工板块爆发，十余只成分股涨停，航发科技4天3板，长城军工、金奥博、晨曦航空、广东宏大、航天晨光涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2506563"
+    },
+    {
+     "kind": "同花顺",
+     "text": "军工并购+民爆装备+工业机器人",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“工业互联网”概念（+0.27%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "军工并购+民爆装备+工业机器人",
+   "written_by": "规则"
+  },
+  {
+   "code": "600319",
+   "name": "亚星化学",
+   "boards": 1,
+   "first_time": "0942",
+   "industry": "化学原料",
+   "stat": "1天1板",
+   "reason": "PVDC新材料+氯碱化工+CPE",
+   "confidence": "中",
+   "themes": [
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "氯碱板块短线拉升，亚星化学涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261016/c680761766.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "PVDC新材料+氯碱化工+CPE",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“储能概念”（+0.54%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "PVDC新材料+氯碱化工+CPE",
+   "written_by": "规则"
+  },
+  {
+   "code": "002767",
+   "name": "先锋电子",
+   "boards": 1,
+   "first_time": "0943",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "智慧燃气+机器人+MEMS传感器",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "智慧燃气+机器人+MEMS传感器",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“天然气”概念（+1.07%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "智慧燃气+机器人+MEMS传感器",
+   "written_by": "规则"
+  },
+  {
+   "code": "002085",
+   "name": "万丰奥威",
+   "boards": 1,
+   "first_time": "0944",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "低空经济+汽车轻量化+通航飞机",
+   "confidence": "中",
+   "themes": [
+    "汽车",
+    "低空经济"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "低空经济概念股短线拉升 万丰奥威直线涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610163897910645.html"
+    },
+    {
+     "kind": "公司",
+     "text": "低空经济概念表现活跃 万丰奥威涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2506438"
+    },
+    {
+     "kind": "盘面",
+     "text": "低空经济概念逆势爆发，华力创通、金盾股份、万丰奥威、中信海直等十余股涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3179981"
+    },
+    {
+     "kind": "盘面",
+     "text": "低空经济概念快速拉升，十余只成分股涨停，万丰奥威、中信海直、保隆科技、英搏尔涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2506763"
+    },
+    {
+     "kind": "同花顺",
+     "text": "低空经济+汽车轻量化+通航飞机",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“深成500”概念（+0.23%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "汽车：理想汽车芯片子公司完成首轮16.25亿元融资协议，最大投后估值171亿元",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3180085"
+    }
+   ],
+   "ths_reason": "低空经济+汽车轻量化+通航飞机",
+   "written_by": "规则"
+  },
+  {
+   "code": "002683",
+   "name": "广东宏大",
+   "boards": 1,
+   "first_time": "0945",
+   "industry": "化学制品",
+   "stat": "1天1板",
+   "reason": "防务装备+卫星星座+矿服民爆",
+   "confidence": "中",
+   "themes": [
+    "军工",
+    "低空经济",
+    "商业航天"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "低空经济概念股短线拉升，万丰奥威直线涨停，司南导航涨超15%，广东宏大、中信海直、东安动力纷纷拉升",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610163897910645.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "军工金奥博、长城军工、晨曦航空、广东宏大、航天晨光涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2506763"
+    },
+    {
+     "kind": "同花顺",
+     "text": "防务装备+卫星星座+矿服民爆",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“生态农业”概念（+1.12%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "军工：美军“罗斯福”号航母停靠日本横须贺基地",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2506564"
+    }
+   ],
+   "ths_reason": "防务装备+卫星星座+矿服民爆",
+   "written_by": "规则"
+  },
+  {
+   "code": "002933",
+   "name": "新兴装备",
+   "boards": 1,
+   "first_time": "0945",
+   "industry": "航空装备",
+   "stat": "1天1板",
+   "reason": "航空装备+机器人",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "军工"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "军工板块集体拉升，长城军工、海洋王、长春一东、新兴装备等多股涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3179981"
+    },
+    {
+     "kind": "盘面",
+     "text": "军工板块盘中持续走高，中科海讯、金盾股份20cm涨停，晟楠科技回封30cm涨停，此前长城军工、长春一东、林州重机、新兴装备等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2506538"
+    },
+    {
+     "kind": "同花顺",
+     "text": "航空装备+机器人",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“机器人执行器”概念（+1.78%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "航空装备+机器人",
+   "written_by": "规则"
+  },
+  {
+   "code": "603015",
+   "name": "弘讯科技",
+   "boards": 1,
+   "first_time": "0948",
+   "industry": "自动化设",
+   "stat": "1天1板",
+   "reason": "台湾资产出售+核聚变电源+工业自动化",
+   "confidence": "中",
+   "themes": [
+    "前沿科技"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "晶品特装、弘讯科技、新时达、拓普集团、丰立智能涨超5%",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610163898326561.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "台湾资产出售+核聚变电源+工业自动化",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“国产芯片”概念（+0.21%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "台湾资产出售+核聚变电源+工业自动化",
+   "written_by": "规则"
+  },
+  {
+   "code": "688592",
+   "name": "司南导航",
+   "boards": 1,
+   "first_time": "0948",
+   "industry": "通信设备",
+   "stat": "1天1板",
+   "reason": "商业航天+北斗导航+无人机",
+   "confidence": "中",
+   "themes": [
+    "低空经济",
+    "商业航天",
+    "通信"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "低空经济概念股短线拉升，万丰奥威直线涨停，司南导航涨超15%",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610163897910645.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "商业航天+北斗导航+无人机",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“安防概念”（+0.56%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "低空经济：香港《发展低空经济规划行动纲领》预计年内完成草拟 研究与内地设立国际低空经济合作",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103396022.html"
+    }
+   ],
+   "ths_reason": "商业航天+北斗导航+无人机",
+   "written_by": "规则"
+  },
+  {
+   "code": "000576",
+   "name": "甘化科工",
+   "boards": 1,
+   "first_time": "0949",
+   "industry": "地面兵装",
+   "stat": "1天1板",
+   "reason": "军工电源+光电成像+特种合金+参股锴威特半导体",
+   "confidence": "中",
+   "themes": [
+    "半导体",
+    "军工"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "军工装备、航空发动机板块大幅拉升，晟楠科技30cm涨停，晨曦航空、中科海讯20cm涨停，长城军工、甘化科工等20余股封板",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261016/c680767341.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "军工电源+光电成像+特种合金+参股锴威特半导体",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "军工电源+光电成像+特种合金+参股锴威特半导体",
+   "written_by": "规则"
+  },
+  {
+   "code": "600148",
+   "name": "长春一东",
+   "boards": 1,
+   "first_time": "0949",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "军工概念+AMT系统+新能源汽车+国企改革",
+   "confidence": "中",
+   "themes": [
+    "汽车",
+    "军工"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "军工板块集体拉升，长城军工、海洋王、长春一东、新兴装备等多股涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3179981"
+    },
+    {
+     "kind": "盘面",
+     "text": "军工板块盘中持续走高，中科海讯、金盾股份20cm涨停，晟楠科技回封30cm涨停，此前长城军工、长春一东、林州重机、新兴装备等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2506538"
+    },
+    {
+     "kind": "同花顺",
+     "text": "军工概念+AMT系统+新能源汽车+国企改革",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "汽车：理想汽车芯片子公司完成首轮16.25亿元融资协议，最大投后估值171亿元",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3180085"
+    }
+   ],
+   "ths_reason": "军工概念+AMT系统+新能源汽车+国企改革",
+   "written_by": "规则"
+  },
+  {
+   "code": "002949",
+   "name": "华阳国际",
+   "boards": 1,
+   "first_time": "0949",
+   "industry": "工程咨询",
+   "stat": "4天2板",
+   "reason": "微短剧+低空规划+建筑设计+AI设计",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "低空经济",
+    "基建建材"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "文化传媒概念板块短线拉升，华阳国际涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261016/c680762439.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "低空经济概念全线爆发，华阳国际4天2板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2506836"
+    },
+    {
+     "kind": "同花顺",
+     "text": "微短剧+低空规划+建筑设计+AI设计",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“粤港自贸”概念（+1.00%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：李强主持召开国务院常务会议",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2507122"
+    }
+   ],
+   "ths_reason": "微短剧+低空规划+建筑设计+AI设计",
+   "written_by": "规则"
+  },
+  {
+   "code": "920006",
+   "name": "晟楠科技",
+   "boards": 1,
+   "first_time": "0951",
+   "industry": "航空装备",
+   "stat": "1天1板",
+   "reason": "军工走强",
+   "confidence": "中",
+   "themes": [
+    "军工"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "军工板块盘中持续走高，中科海讯、金盾股份20cm涨停，晟楠科技回封30cm涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2506538"
+    },
+    {
+     "kind": "盘面",
+     "text": "军工股大涨，晟楠科技30cm涨停",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261016113509125800"
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“微利股”概念（+0.64%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "军工：美军“罗斯福”号航母停靠日本横须贺基地",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2506564"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "603668",
+   "name": "天马科技",
+   "boards": 1,
+   "first_time": "0952",
+   "industry": "饲料",
+   "stat": "1天1板",
+   "reason": "鳗鱼全产业链+水产饲料+债务展期",
+   "confidence": "中",
+   "themes": [
+    "农业"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "天马科技涨超9%",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103396095.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "鳗鱼全产业链+水产饲料+债务展期",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“预制菜概念”（+0.12%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "鳗鱼全产业链+水产饲料+债务展期",
+   "written_by": "规则"
+  },
+  {
+   "code": "002076",
+   "name": "星光股份",
+   "boards": 1,
+   "first_time": "0953",
+   "industry": "照明设备",
+   "stat": "1天1板",
+   "reason": "LED封装+量子科技+光伏组件",
+   "confidence": "中",
+   "themes": [
+    "光伏",
+    "前沿科技"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "LED封装+量子科技+光伏组件",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“近期摘帽”概念（+0.29%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "LED封装+量子科技+光伏组件",
+   "written_by": "规则"
+  },
+  {
+   "code": "002535",
+   "name": "林州重机",
+   "boards": 1,
+   "first_time": "0954",
+   "industry": "专用设备",
+   "stat": "1天1板",
+   "reason": "军工配套+煤矿机械",
+   "confidence": "中",
+   "themes": [
+    "军工"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "军工板块盘中持续走高，中科海讯、金盾股份20cm涨停，晟楠科技回封30cm涨停，此前长城军工、长春一东、林州重机、新兴装备等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2506538"
+    },
+    {
+     "kind": "同花顺",
+     "text": "军工配套+煤矿机械",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "军工：美军“罗斯福”号航母停靠日本横须贺基地",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2506564"
+    }
+   ],
+   "ths_reason": "军工配套+煤矿机械",
+   "written_by": "规则"
+  },
+  {
+   "code": "600501",
+   "name": "航天晨光",
+   "boards": 1,
+   "first_time": "0955",
+   "industry": "专用设备",
+   "stat": "1天1板",
+   "reason": "特种装备+商业航天+可控核聚变",
+   "confidence": "中",
+   "themes": [
+    "军工",
+    "商业航天",
+    "前沿科技"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "航天系概念持续走强，航天晨光涨停",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/2026-10-16/doc-inivksmv8227766.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "军工金奥博、长城军工、晨曦航空、广东宏大、航天晨光涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2506763"
+    },
+    {
+     "kind": "盘面",
+     "text": "军工板块爆发，十余只成分股涨停，航发科技4天3板，长城军工、金奥博、晨曦航空、广东宏大、航天晨光涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2506563"
+    },
+    {
+     "kind": "同花顺",
+     "text": "特种装备+商业航天+可控核聚变",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“氢能源”概念（+1.21%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "军工：美军“罗斯福”号航母停靠日本横须贺基地",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2506564"
+    }
+   ],
+   "ths_reason": "特种装备+商业航天+可控核聚变",
+   "written_by": "规则"
+  },
+  {
+   "code": "000701",
+   "name": "厦门信达",
+   "boards": 1,
+   "first_time": "0958",
+   "industry": "贸易Ⅱ",
+   "stat": "1天1板",
+   "reason": "大宗商品贸易+算力布局+厦门国资",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "基建建材"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "福建本地股表现活跃 厦门信达涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2506446"
+    },
+    {
+     "kind": "公司",
+     "text": "福建本地股短线拉升，福建水泥、厦门信达双双涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261016/c680762749.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "福建厦门信达、福建水泥双双涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2506763"
+    },
+    {
+     "kind": "同花顺",
+     "text": "大宗商品贸易+算力布局+厦门国资",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“内贸流通”概念（+0.06%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：申昊科技：子公司签订8.81亿元算力设备采购合同",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2507141"
+    }
+   ],
+   "ths_reason": "大宗商品贸易+算力布局+厦门国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "600802",
+   "name": "福建水泥",
+   "boards": 1,
+   "first_time": "1001",
+   "industry": "水泥",
+   "stat": "4天2板",
+   "reason": "水泥熟料+重点工程+福建国资",
+   "confidence": "中",
+   "themes": [
+    "基建建材"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "福建本地股短线拉升，福建水泥、厦门信达双双涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261016/c680762749.shtml"
+    },
+    {
+     "kind": "公司",
+     "text": "水泥概念持续走强，福建水泥、尖峰集团双双涨停",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/2026-10-16/doc-inivksmu1465833.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "海峡创新、福建水泥、漳州发展、平潭发展跟涨",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2506446"
+    },
+    {
+     "kind": "盘面",
+     "text": "福建厦门信达、福建水泥双双涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2506763"
+    },
+    {
+     "kind": "同花顺",
+     "text": "水泥熟料+重点工程+福建国资",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“参股银行”概念（+0.43%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "基建建材：市场监管总局等八部门联合印发试点方案 打造产业升级“质量强引擎”",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2507096"
+    }
+   ],
+   "ths_reason": "水泥熟料+重点工程+福建国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "603168",
+   "name": "莎普爱思",
+   "boards": 1,
+   "first_time": "1008",
+   "industry": "化学制药",
+   "stat": "1天1板",
+   "reason": "眼科用药+新品获批+医疗服务",
+   "confidence": "中",
+   "themes": [
+    "医药"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "眼科用药+新品获批+医疗服务",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "眼科用药+新品获批+医疗服务",
+   "written_by": "规则"
+  },
+  {
+   "code": "002614",
+   "name": "奥佳华",
+   "boards": 1,
+   "first_time": "1025",
+   "industry": "其他家电",
+   "stat": "1天1板",
+   "reason": "按摩椅+智能按摩+机器人",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "按摩椅+智能按摩+机器人",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“智能家居”概念（+0.30%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "按摩椅+智能按摩+机器人",
+   "written_by": "规则"
+  },
+  {
+   "code": "603955",
+   "name": "大千生态",
+   "boards": 1,
+   "first_time": "1028",
+   "industry": "基础建设",
+   "stat": "1天1板",
+   "reason": "宠物消费+生态建设+文旅运营",
+   "confidence": "中",
+   "themes": [
+    "消费",
+    "文旅"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "冰雪产业概念早盘一度冲高，冰山冷热走出4连板，大千生态涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2506836"
+    },
+    {
+     "kind": "同花顺",
+     "text": "宠物消费+生态建设+文旅运营",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“宠物经济”概念（+0.21%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "宠物消费+生态建设+文旅运营",
+   "written_by": "规则"
+  },
+  {
+   "code": "002869",
+   "name": "金溢科技",
+   "boards": 1,
+   "first_time": "1029",
+   "industry": "计算机设",
+   "stat": "1天1板",
+   "reason": "车路云+低空智联+智慧交通",
+   "confidence": "高",
+   "themes": [
+    "低空经济",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "金溢科技携手北航发布交通世界模型",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103396926.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "车路云+低空智联+智慧交通",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“电子后视镜”概念（+0.60%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "低空经济：香港《发展低空经济规划行动纲领》预计年内完成草拟 研究与内地设立国际低空经济合作",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103396022.html"
+    }
+   ],
+   "ths_reason": "车路云+低空智联+智慧交通",
+   "written_by": "规则"
+  },
+  {
+   "code": "600860",
+   "name": "京城股份",
+   "boards": 1,
+   "first_time": "1033",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "气体储运+氢能装备+机器人集成",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "气体储运+氢能装备+机器人集成",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“燃料电池概念”（+1.29%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "气体储运+氢能装备+机器人集成",
+   "written_by": "规则"
+  },
+  {
+   "code": "603173",
+   "name": "福斯达",
+   "boards": 1,
+   "first_time": "1041",
+   "industry": "专用设备",
+   "stat": "1天1板",
+   "reason": "深冷装备+空气分离设备+海外业务",
+   "confidence": "中",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "深冷装备+空气分离设备+海外业务",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "深冷装备+空气分离设备+海外业务",
+   "written_by": "规则"
+  },
+  {
+   "code": "605178",
+   "name": "时空科技",
+   "boards": 1,
+   "first_time": "1055",
+   "industry": "专业工程",
+   "stat": "1天1板",
+   "reason": "半导体存储+重组审核中止+智慧城市",
+   "confidence": "中",
+   "themes": [
+    "半导体"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "半导体存储+重组审核中止+智慧城市",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "半导体存储+重组审核中止+智慧城市",
+   "written_by": "规则"
+  },
+  {
+   "code": "300411",
+   "name": "金盾股份",
+   "boards": 1,
+   "first_time": "1056",
+   "industry": "专用设备",
+   "stat": "1天1板",
+   "reason": "军工通风+低空经济+涵道推进器+核电",
+   "confidence": "中",
+   "themes": [
+    "电力",
+    "军工",
+    "低空经济"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "低空经济概念持续拉升，宗申动力、上工申贝触及涨停，金盾股份、万丰奥威此前封板，华力创通、广联航空、纵横股份、安达维尔均涨…",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3179850"
+    },
+    {
+     "kind": "盘面",
+     "text": "低空经济概念逆势爆发，华力创通、金盾股份、万丰奥威、中信海直等十余股涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3179981"
+    },
+    {
+     "kind": "盘面",
+     "text": "军工板块盘中持续走高，中科海讯、金盾股份20cm涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2506538"
+    },
+    {
+     "kind": "同花顺",
+     "text": "军工通风+低空经济+涵道推进器+核电",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "军工通风+低空经济+涵道推进器+核电",
+   "written_by": "规则"
+  },
+  {
+   "code": "600699",
+   "name": "均胜电子",
+   "boards": 1,
+   "first_time": "1100",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "低空经济+特斯拉机器人+智能驾驶",
+   "confidence": "中",
+   "themes": [
+    "半导体",
+    "通信",
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "A股机器人概念股震荡走强，襄阳轴承触及涨停，均胜电子、博众精工、三瑞智能、龙洲股份、宇树科技等涨幅居前",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3179839"
+    },
+    {
+     "kind": "公司",
+     "text": "A股人形机器人板块震荡走高，博众精工涨超8%，宇树科技-W涨超5%，均胜电子、广联航空、内蒙一机、逸飞激光等个股跟涨",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261016104155774800"
+    },
+    {
+     "kind": "盘面",
+     "text": "光通信、存储概念股反弹，均胜电子涨近11%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2506598"
+    },
+    {
+     "kind": "盘面",
+     "text": "英搏尔、广联航空、王子新材、瑞玛精密、均胜电子等近20股涨停",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103396466.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "低空经济+特斯拉机器人+智能驾驶",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“激光雷达”概念（+0.13%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "低空经济+特斯拉机器人+智能驾驶",
+   "written_by": "规则"
+  },
+  {
+   "code": "000887",
+   "name": "中鼎股份",
+   "boards": 1,
+   "first_time": "1107",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "飞行汽车+人形机器人+数据中心液冷+汽车零部件",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "人形机器人概念震荡反弹，宇树科技涨超5%，博众精工、均胜电子、星源卓镁、力星股份、中鼎股份等多股涨幅靠前",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2506499"
+    },
+    {
+     "kind": "盘面",
+     "text": "减速器板块盘中拉升，宇环数控、襄阳轴承、中鼎股份均涨停",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261016113509125800"
+    },
+    {
+     "kind": "同花顺",
+     "text": "飞行汽车+人形机器人+数据中心液冷+汽车零部件",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“液冷服务器”概念（+0.29%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：申昊科技：子公司签订8.81亿元算力设备采购合同",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2507141"
+    }
+   ],
+   "ths_reason": "飞行汽车+人形机器人+数据中心液冷+汽车零部件",
+   "written_by": "规则"
+  },
+  {
+   "code": "001696",
+   "name": "宗申动力",
+   "boards": 1,
+   "first_time": "1109",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "低空经济+通用机械",
+   "confidence": "中",
+   "themes": [
+    "低空经济"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "低空经济概念持续拉升，宗申动力、上工申贝触及涨停，金盾股份、万丰奥威此前封板，华力创通、广联航空、纵横股份、安达维尔均涨…",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3179850"
+    },
+    {
+     "kind": "盘面",
+     "text": "低空经济概念表现活跃，万丰奥威涨停，中信海直逼近涨停，宗申动力、莱斯信息、英搏尔跟涨",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2506438"
+    },
+    {
+     "kind": "盘面",
+     "text": "低空经济概念全线爆发，华阳国际4天2板，北交所捷众科技30cm涨停，金盾股份、华力创通、英搏尔、佳力奇20cm涨停，万丰奥威、宗申动力、中信海直等个股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2506836"
+    },
+    {
+     "kind": "同花顺",
+     "text": "低空经济+通用机械",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“数据中心”概念（+0.06%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "低空经济：香港《发展低空经济规划行动纲领》预计年内完成草拟 研究与内地设立国际低空经济合作",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103396022.html"
+    }
+   ],
+   "ths_reason": "低空经济+通用机械",
+   "written_by": "规则"
+  },
+  {
+   "code": "001319",
+   "name": "铭科精技",
+   "boards": 1,
+   "first_time": "1109",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "工业机器人+飞行汽车+汽车零部件+智能装备",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车",
+    "低空经济"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "工业机器人+飞行汽车+汽车零部件+智能装备",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“中俄贸易概念”（+1.29%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "工业机器人+飞行汽车+汽车零部件+智能装备",
+   "written_by": "规则"
+  },
+  {
+   "code": "920690",
+   "name": "捷众科技",
+   "boards": 1,
+   "first_time": "1112",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "低空经济走强",
+   "confidence": "中",
+   "themes": [
+    "低空经济",
+    "商业航天",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "捷众科技、通易航天、北方长龙均涨超10%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2506538"
+    },
+    {
+     "kind": "盘面",
+     "text": "低空经济概念全线爆发，华阳国际4天2板，北交所捷众科技30cm涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2506836"
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“IGBT概念”（+0.63%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "低空经济：香港《发展低空经济规划行动纲领》预计年内完成草拟 研究与内地设立国际低空经济合作",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103396022.html"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "300045",
+   "name": "华力创通",
+   "boards": 1,
+   "first_time": "1113",
+   "industry": "军工电子",
+   "stat": "1天1板",
+   "reason": "卫星通信芯片+低空经济+卫星应用",
+   "confidence": "中",
+   "themes": [
+    "半导体",
+    "通信",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "低空经济概念持续拉升，宗申动力、上工申贝触及涨停，金盾股份、万丰奥威此前封板，华力创通、广联航空、纵横股份、安达维尔均涨…",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3179850"
+    },
+    {
+     "kind": "公司",
+     "text": "华力创通20cm封板！卫星产业，大涨近4%！发生了什么？",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610163898267032.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "低空经济概念逆势爆发，华力创通、金盾股份、万丰奥威、中信海直等十余股涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3179981"
+    },
+    {
+     "kind": "盘面",
+     "text": "飞行汽车概念股大涨，华力创通、金盾股份、均胜电子等10余股涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261016/c680773097.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "卫星通信芯片+低空经济+卫星应用",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“空间站概念”（+3.15%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "卫星通信芯片+低空经济+卫星应用",
+   "written_by": "规则"
+  },
+  {
+   "code": "002510",
+   "name": "天汽模",
+   "boards": 1,
+   "first_time": "1115",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "低空经济+航空零部件+汽车模具",
+   "confidence": "中",
+   "themes": [
+    "汽车",
+    "低空经济"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "低空经济+航空零部件+汽车模具",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“股权转让”概念（+0.67%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "汽车：理想汽车芯片子公司完成首轮16.25亿元融资协议，最大投后估值171亿元",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3180085"
+    }
+   ],
+   "ths_reason": "低空经济+航空零部件+汽车模具",
+   "written_by": "规则"
+  },
+  {
+   "code": "000099",
+   "name": "中信海直",
+   "boards": 1,
+   "first_time": "1116",
+   "industry": "航空机场",
+   "stat": "1天1板",
+   "reason": "低空经济+无人机物流+海上油气",
+   "confidence": "中",
+   "themes": [
+    "油气",
+    "低空经济",
+    "航运物流"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "低空经济概念股短线拉升，万丰奥威直线涨停，司南导航涨超15%，广东宏大、中信海直、东安动力纷纷拉升",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610163897910645.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "低空经济概念逆势爆发，华力创通、金盾股份、万丰奥威、中信海直等十余股涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3179981"
+    },
+    {
+     "kind": "同花顺",
+     "text": "低空经济+无人机物流+海上油气",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“中字头”概念（+1.10%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "低空经济+无人机物流+海上油气",
+   "written_by": "规则"
+  },
+  {
+   "code": "603348",
+   "name": "文灿股份",
+   "boards": 1,
+   "first_time": "1117",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "一体化压铸+特斯拉概念+机器人概念+飞行汽车",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车",
+    "低空经济"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "一体化压铸+特斯拉概念+机器人概念+飞行汽车",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "一体化压铸+特斯拉概念+机器人概念+飞行汽车",
+   "written_by": "规则"
+  },
+  {
+   "code": "600843",
+   "name": "上工申贝",
+   "boards": 1,
+   "first_time": "1118",
+   "industry": "专用设备",
+   "stat": "1天1板",
+   "reason": "低空经济+轻型飞机+机器人缝制+工业缝纫机",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "低空经济"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "低空经济概念持续拉升，宗申动力、上工申贝触及涨停，金盾股份、万丰奥威此前封板，华力创通、广联航空、纵横股份、安达维尔均涨…",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3179850"
+    },
+    {
+     "kind": "同花顺",
+     "text": "低空经济+轻型飞机+机器人缝制+工业缝纫机",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "低空经济+轻型飞机+机器人缝制+工业缝纫机",
+   "written_by": "规则"
+  },
+  {
+   "code": "600178",
+   "name": "东安动力",
+   "boards": 1,
+   "first_time": "1119",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "飞行汽车+增程动力+定点协议+兵装重组",
+   "confidence": "中",
+   "themes": [
+    "汽车",
+    "低空经济"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "低空经济概念股短线拉升，万丰奥威直线涨停，司南导航涨超15%，广东宏大、中信海直、东安动力纷纷拉升",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610163897910645.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "飞行汽车概念震荡走高，捷众科技30cm涨停，中信海直、万丰奥威、东安动力等多股涨停",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261016150446994800"
+    },
+    {
+     "kind": "同花顺",
+     "text": "飞行汽车+增程动力+定点协议+兵装重组",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "汽车：理想汽车芯片子公司完成首轮16.25亿元融资协议，最大投后估值171亿元",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3180085"
+    }
+   ],
+   "ths_reason": "飞行汽车+增程动力+定点协议+兵装重组",
+   "written_by": "规则"
+  },
+  {
+   "code": "603013",
+   "name": "亚普股份",
+   "boards": 1,
+   "first_time": "1300",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "汽车零部件+机器人+储氢系统",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "汽车零部件+机器人+储氢系统",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "汽车零部件+机器人+储氢系统",
+   "written_by": "规则"
+  },
+  {
+   "code": "603305",
+   "name": "旭升集团",
+   "boards": 1,
+   "first_time": "1300",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "汽车轻量化+特斯拉概念+人形机器人+商业航天",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车",
+    "商业航天"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "减速器板块走高，襄阳轴承涨停，巨轮智能、南方精工、丰光精密、步科股份、旭升集团等纷纷走高",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261016/c680764773.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "汽车轻量化+特斯拉概念+人形机器人+商业航天",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "汽车轻量化+特斯拉概念+人形机器人+商业航天",
+   "written_by": "规则"
+  },
+  {
+   "code": "000420",
+   "name": "吉林化纤",
+   "boards": 1,
+   "first_time": "1300",
+   "industry": "化学纤维",
+   "stat": "1天1板",
+   "reason": "低空经济+冰雪产业+碳纤维+粘胶长丝",
+   "confidence": "中",
+   "themes": [
+    "低空经济"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "碳纤维概念震荡拉升，中复神鹰、吉林碳谷涨超11%，中简科技涨超18%，此前吉林化纤涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2506684"
+    },
+    {
+     "kind": "盘面",
+     "text": "碳纤维吉林化纤涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2506763"
+    },
+    {
+     "kind": "同花顺",
+     "text": "低空经济+冰雪产业+碳纤维+粘胶长丝",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "低空经济：香港《发展低空经济规划行动纲领》预计年内完成草拟 研究与内地设立国际低空经济合作",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103396022.html"
+    }
+   ],
+   "ths_reason": "低空经济+冰雪产业+碳纤维+粘胶长丝",
+   "written_by": "规则"
+  },
+  {
+   "code": "300681",
+   "name": "英搏尔",
+   "boards": 1,
+   "first_time": "1301",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "低空经济+新能源汽车电驱+业绩增长",
+   "confidence": "中",
+   "themes": [
+    "汽车",
+    "低空经济"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "英搏尔、广联航空、王子新材、瑞玛精密、均胜电子等近20股涨停",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103396466.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "低空经济概念快速拉升，十余只成分股涨停，万丰奥威、中信海直、保隆科技、英搏尔涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2506763"
+    },
+    {
+     "kind": "同花顺",
+     "text": "低空经济+新能源汽车电驱+业绩增长",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "汽车：理想汽车芯片子公司完成首轮16.25亿元融资协议，最大投后估值171亿元",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3180085"
+    }
+   ],
+   "ths_reason": "低空经济+新能源汽车电驱+业绩增长",
+   "written_by": "规则"
+  },
+  {
+   "code": "603239",
+   "name": "浙江仙通",
+   "boards": 1,
+   "first_time": "1309",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "机器人+汽车密封条+无边框密封条",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "机器人+汽车密封条+无边框密封条",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "机器人+汽车密封条+无边框密封条",
+   "written_by": "规则"
+  },
+  {
+   "code": "301586",
+   "name": "佳力奇",
+   "boards": 1,
+   "first_time": "1313",
+   "industry": "航空装备",
+   "stat": "1天1板",
+   "reason": "低空经济+军工复材",
+   "confidence": "中",
+   "themes": [
+    "军工",
+    "低空经济"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "午后低空经济概念持续走高，英搏尔、王子新材封涨停，此前金盾股份、广联航空、万丰奥威、中信海直等二十余股涨停，纵横股份、安达维尔、莱斯信息、佳力奇、飞沃科技均涨超10%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2506643"
+    },
+    {
+     "kind": "盘面",
+     "text": "低空经济概念全线爆发，华阳国际4天2板，北交所捷众科技30cm涨停，金盾股份、华力创通、英搏尔、佳力奇20cm涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2506836"
+    },
+    {
+     "kind": "同花顺",
+     "text": "低空经济+军工复材",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "军工：美军“罗斯福”号航母停靠日本横须贺基地",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2506564"
+    }
+   ],
+   "ths_reason": "低空经济+军工复材",
+   "written_by": "规则"
+  }
+ ]
+}
