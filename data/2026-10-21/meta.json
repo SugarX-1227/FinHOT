@@ -1,0 +1,2443 @@
+{
+  "date": "2026-10-21",
+  "edition": "盘前版",
+  "edition_key": "pre",
+  "since": "2026-10-20T21:02:38.204842+08:00",
+  "until": "2026-10-21T07:51:09.096337+08:00",
+  "raw_count": 2068,
+  "dedup_count": 1152,
+  "quotes": [],
+  "llm": {
+    "analyzed": 80,
+    "failed": 0,
+    "prompt_tokens": 29177,
+    "completion_tokens": 48263,
+    "calls": 18,
+    "model": "glm-5.3-flash"
+  },
+  "ashare": {
+    "trade_date": "2026-10-20",
+    "indices": [],
+    "turnover": 0.0,
+    "breadth": {
+      "zt": 54,
+      "dt": 6,
+      "zb": 29,
+      "seal_rate": 65.1,
+      "up": 3665,
+      "down": 1602,
+      "flat": 106
+    },
+    "ladder": [
+      {
+        "boards": 4,
+        "stocks": [
+          "吉大正元"
+        ]
+      },
+      {
+        "boards": 3,
+        "stocks": [
+          "东安动力",
+          "大业股份",
+          "长春一东",
+          "海洋王",
+          "京城股份"
+        ]
+      },
+      {
+        "boards": 2,
+        "stocks": [
+          "慕思股份",
+          "福莱新材",
+          "海正药业",
+          "宁波东力",
+          "科森科技",
+          "凡拓数创",
+          "浙江荣泰",
+          "润建股份"
+        ]
+      }
+    ],
+    "zt_industries": [
+      {
+        "name": "通用设备",
+        "count": 6,
+        "stocks": [
+          "大业股份",
+          "京城股份",
+          "宁波东力",
+          "泰尔股份"
+        ]
+      },
+      {
+        "name": "汽车零部",
+        "count": 3,
+        "stocks": [
+          "东安动力",
+          "长春一东",
+          "浙江荣泰"
+        ]
+      },
+      {
+        "name": "照明设备",
+        "count": 3,
+        "stocks": [
+          "海洋王",
+          "星光股份",
+          "格利尔"
+        ]
+      },
+      {
+        "name": "化学制药",
+        "count": 3,
+        "stocks": [
+          "海正药业",
+          "东亚药业",
+          "昂利康"
+        ]
+      },
+      {
+        "name": "通信设备",
+        "count": 3,
+        "stocks": [
+          "日海智能",
+          "移远通信",
+          "美格智能"
+        ]
+      },
+      {
+        "name": "消费电子",
+        "count": 3,
+        "stocks": [
+          "科森科技",
+          "龙旗科技",
+          "长盈精密"
+        ]
+      },
+      {
+        "name": "半导体",
+        "count": 3,
+        "stocks": [
+          "博通集成",
+          "恒玄科技",
+          "瑞芯微"
+        ]
+      },
+      {
+        "name": "小家电",
+        "count": 2,
+        "stocks": [
+          "九阳股份",
+          "爱仕达"
+        ]
+      }
+    ],
+    "zt_stocks": [
+      {
+        "code": "003029",
+        "name": "吉大正元",
+        "pct": 10.0,
+        "boards": 4,
+        "industry": "软件开发",
+        "first_time": "0925",
+        "seal_fund": 1.12,
+        "breaks": 4,
+        "stat": "4天4板"
+      },
+      {
+        "code": "600178",
+        "name": "东安动力",
+        "pct": 10.02,
+        "boards": 3,
+        "industry": "汽车零部",
+        "first_time": "0925",
+        "seal_fund": 2.75,
+        "breaks": 0,
+        "stat": "3天3板"
+      },
+      {
+        "code": "603278",
+        "name": "大业股份",
+        "pct": 10.0,
+        "boards": 3,
+        "industry": "通用设备",
+        "first_time": "0925",
+        "seal_fund": 2.28,
+        "breaks": 0,
+        "stat": "3天3板"
+      },
+      {
+        "code": "600148",
+        "name": "长春一东",
+        "pct": 9.99,
+        "boards": 3,
+        "industry": "汽车零部",
+        "first_time": "0930",
+        "seal_fund": 0.27,
+        "breaks": 4,
+        "stat": "3天3板"
+      },
+      {
+        "code": "002724",
+        "name": "海洋王",
+        "pct": 9.98,
+        "boards": 3,
+        "industry": "照明设备",
+        "first_time": "0930",
+        "seal_fund": 0.94,
+        "breaks": 3,
+        "stat": "3天3板"
+      },
+      {
+        "code": "600860",
+        "name": "京城股份",
+        "pct": 10.0,
+        "boards": 3,
+        "industry": "通用设备",
+        "first_time": "0930",
+        "seal_fund": 0.58,
+        "breaks": 2,
+        "stat": "3天3板"
+      },
+      {
+        "code": "001323",
+        "name": "慕思股份",
+        "pct": 10.0,
+        "boards": 2,
+        "industry": "家居用品",
+        "first_time": "0930",
+        "seal_fund": 0.44,
+        "breaks": 0,
+        "stat": "2天2板"
+      },
+      {
+        "code": "605488",
+        "name": "福莱新材",
+        "pct": 10.01,
+        "boards": 2,
+        "industry": "塑料",
+        "first_time": "0930",
+        "seal_fund": 0.67,
+        "breaks": 0,
+        "stat": "2天2板"
+      },
+      {
+        "code": "600267",
+        "name": "海正药业",
+        "pct": 10.03,
+        "boards": 2,
+        "industry": "化学制药",
+        "first_time": "0930",
+        "seal_fund": 1.01,
+        "breaks": 2,
+        "stat": "2天2板"
+      },
+      {
+        "code": "002164",
+        "name": "宁波东力",
+        "pct": 10.01,
+        "boards": 2,
+        "industry": "通用设备",
+        "first_time": "0934",
+        "seal_fund": 0.52,
+        "breaks": 3,
+        "stat": "2天2板"
+      },
+      {
+        "code": "603626",
+        "name": "科森科技",
+        "pct": 10.0,
+        "boards": 2,
+        "industry": "消费电子",
+        "first_time": "0944",
+        "seal_fund": 0.7,
+        "breaks": 1,
+        "stat": "2天2板"
+      },
+      {
+        "code": "301313",
+        "name": "凡拓数创",
+        "pct": 20.0,
+        "boards": 2,
+        "industry": "数字媒体",
+        "first_time": "0951",
+        "seal_fund": 1.45,
+        "breaks": 0,
+        "stat": "2天2板"
+      },
+      {
+        "code": "603119",
+        "name": "浙江荣泰",
+        "pct": 10.01,
+        "boards": 2,
+        "industry": "汽车零部",
+        "first_time": "1003",
+        "seal_fund": 0.72,
+        "breaks": 1,
+        "stat": "2天2板"
+      },
+      {
+        "code": "002929",
+        "name": "润建股份",
+        "pct": 10.0,
+        "boards": 2,
+        "industry": "通信服务",
+        "first_time": "1420",
+        "seal_fund": 0.14,
+        "breaks": 4,
+        "stat": "2天2板"
+      },
+      {
+        "code": "002835",
+        "name": "同为股份",
+        "pct": 10.02,
+        "boards": 1,
+        "industry": "计算机设",
+        "first_time": "0925",
+        "seal_fund": 3.12,
+        "breaks": 0,
+        "stat": "1天1板"
+      },
+      {
+        "code": "600661",
+        "name": "昂立教育",
+        "pct": 10.0,
+        "boards": 1,
+        "industry": "教育",
+        "first_time": "0925",
+        "seal_fund": 0.54,
+        "breaks": 0,
+        "stat": "1天1板"
+      },
+      {
+        "code": "600293",
+        "name": "三峡新材",
+        "pct": 9.92,
+        "boards": 1,
+        "industry": "玻璃玻纤",
+        "first_time": "0925",
+        "seal_fund": 5.3,
+        "breaks": 0,
+        "stat": "4天2板"
+      },
+      {
+        "code": "002479",
+        "name": "富春环保",
+        "pct": 10.07,
+        "boards": 1,
+        "industry": "电力",
+        "first_time": "0930",
+        "seal_fund": 0.64,
+        "breaks": 0,
+        "stat": "1天1板"
+      },
+      {
+        "code": "002181",
+        "name": "粤 传 媒",
+        "pct": 9.99,
+        "boards": 1,
+        "industry": "出版",
+        "first_time": "0930",
+        "seal_fund": 0.99,
+        "breaks": 0,
+        "stat": "1天1板"
+      },
+      {
+        "code": "002076",
+        "name": "星光股份",
+        "pct": 9.85,
+        "boards": 1,
+        "industry": "照明设备",
+        "first_time": "0931",
+        "seal_fund": 0.07,
+        "breaks": 9,
+        "stat": "3天2板"
+      },
+      {
+        "code": "002242",
+        "name": "九阳股份",
+        "pct": 10.01,
+        "boards": 1,
+        "industry": "小家电",
+        "first_time": "0932",
+        "seal_fund": 1.46,
+        "breaks": 5,
+        "stat": "12天7板"
+      },
+      {
+        "code": "002088",
+        "name": "鲁阳节能",
+        "pct": 9.97,
+        "boards": 1,
+        "industry": "装修建材",
+        "first_time": "0934",
+        "seal_fund": 0.13,
+        "breaks": 0,
+        "stat": "1天1板"
+      },
+      {
+        "code": "603386",
+        "name": "骏亚科技",
+        "pct": 9.98,
+        "boards": 1,
+        "industry": "元件",
+        "first_time": "0936",
+        "seal_fund": 0.44,
+        "breaks": 0,
+        "stat": "6天3板"
+      },
+      {
+        "code": "002347",
+        "name": "泰尔股份",
+        "pct": 9.98,
+        "boards": 1,
+        "industry": "通用设备",
+        "first_time": "0937",
+        "seal_fund": 0.48,
+        "breaks": 1,
+        "stat": "1天1板"
+      },
+      {
+        "code": "920641",
+        "name": "格利尔",
+        "pct": 29.97,
+        "boards": 1,
+        "industry": "照明设备",
+        "first_time": "0939",
+        "seal_fund": 0.53,
+        "breaks": 0,
+        "stat": "1天1板"
+      },
+      {
+        "code": "002313",
+        "name": "日海智能",
+        "pct": 10.0,
+        "boards": 1,
+        "industry": "通信设备",
+        "first_time": "0940",
+        "seal_fund": 0.63,
+        "breaks": 2,
+        "stat": "1天1板"
+      },
+      {
+        "code": "920096",
+        "name": "嘉晨智能",
+        "pct": 29.98,
+        "boards": 1,
+        "industry": "自动化设",
+        "first_time": "0943",
+        "seal_fund": 0.47,
+        "breaks": 0,
+        "stat": "1天1板"
+      },
+      {
+        "code": "001239",
+        "name": "永达股份",
+        "pct": 10.02,
+        "boards": 1,
+        "industry": "工程机械",
+        "first_time": "1001",
+        "seal_fund": 0.24,
+        "breaks": 0,
+        "stat": "1天1板"
+      },
+      {
+        "code": "603236",
+        "name": "移远通信",
+        "pct": 10.0,
+        "boards": 1,
+        "industry": "通信设备",
+        "first_time": "1004",
+        "seal_fund": 1.26,
+        "breaks": 3,
+        "stat": "1天1板"
+      },
+      {
+        "code": "300466",
+        "name": "赛摩智能",
+        "pct": 20.0,
+        "boards": 1,
+        "industry": "通用设备",
+        "first_time": "1006",
+        "seal_fund": 0.36,
+        "breaks": 0,
+        "stat": "1天1板"
+      },
+      {
+        "code": "603341",
+        "name": "龙旗科技",
+        "pct": 10.01,
+        "boards": 1,
+        "industry": "消费电子",
+        "first_time": "1009",
+        "seal_fund": 0.85,
+        "breaks": 6,
+        "stat": "1天1板"
+      },
+      {
+        "code": "300115",
+        "name": "长盈精密",
+        "pct": 19.99,
+        "boards": 1,
+        "industry": "消费电子",
+        "first_time": "1018",
+        "seal_fund": 1.21,
+        "breaks": 1,
+        "stat": "1天1板"
+      },
+      {
+        "code": "002881",
+        "name": "美格智能",
+        "pct": 10.0,
+        "boards": 1,
+        "industry": "通信设备",
+        "first_time": "1018",
+        "seal_fund": 0.41,
+        "breaks": 1,
+        "stat": "1天1板"
+      },
+      {
+        "code": "603407",
+        "name": "长裕集团",
+        "pct": 10.0,
+        "boards": 1,
+        "industry": "化学原料",
+        "first_time": "1020",
+        "seal_fund": 0.57,
+        "breaks": 0,
+        "stat": "1天1板"
+      },
+      {
+        "code": "002403",
+        "name": "爱仕达",
+        "pct": 9.96,
+        "boards": 1,
+        "industry": "小家电",
+        "first_time": "1023",
+        "seal_fund": 0.3,
+        "breaks": 1,
+        "stat": "1天1板"
+      },
+      {
+        "code": "001388",
+        "name": "信通电子",
+        "pct": 9.99,
+        "boards": 1,
+        "industry": "电网设备",
+        "first_time": "1029",
+        "seal_fund": 0.19,
+        "breaks": 1,
+        "stat": "1天1板"
+      },
+      {
+        "code": "605389",
+        "name": "长龄液压",
+        "pct": 10.0,
+        "boards": 1,
+        "industry": "工程机械",
+        "first_time": "1031",
+        "seal_fund": 0.36,
+        "breaks": 0,
+        "stat": "1天1板"
+      },
+      {
+        "code": "603068",
+        "name": "博通集成",
+        "pct": 10.01,
+        "boards": 1,
+        "industry": "半导体",
+        "first_time": "1033",
+        "seal_fund": 0.42,
+        "breaks": 0,
+        "stat": "1天1板"
+      },
+      {
+        "code": "001283",
+        "name": "豪鹏科技",
+        "pct": 10.0,
+        "boards": 1,
+        "industry": "电池",
+        "first_time": "1034",
+        "seal_fund": 0.47,
+        "breaks": 3,
+        "stat": "1天1板"
+      },
+      {
+        "code": "300244",
+        "name": "迪安诊断",
+        "pct": 19.99,
+        "boards": 1,
+        "industry": "医疗服务",
+        "first_time": "1039",
+        "seal_fund": 0.46,
+        "breaks": 12,
+        "stat": "1天1板"
+      },
+      {
+        "code": "688608",
+        "name": "恒玄科技",
+        "pct": 20.0,
+        "boards": 1,
+        "industry": "半导体",
+        "first_time": "1047",
+        "seal_fund": 0.06,
+        "breaks": 1,
+        "stat": "1天1板"
+      },
+      {
+        "code": "603893",
+        "name": "瑞芯微",
+        "pct": 10.0,
+        "boards": 1,
+        "industry": "半导体",
+        "first_time": "1049",
+        "seal_fund": 0.26,
+        "breaks": 5,
+        "stat": "1天1板"
+      },
+      {
+        "code": "605177",
+        "name": "东亚药业",
+        "pct": 10.01,
+        "boards": 1,
+        "industry": "化学制药",
+        "first_time": "1050",
+        "seal_fund": 0.03,
+        "breaks": 1,
+        "stat": "1天1板"
+      },
+      {
+        "code": "001288",
+        "name": "运机集团",
+        "pct": 10.0,
+        "boards": 1,
+        "industry": "专用设备",
+        "first_time": "1106",
+        "seal_fund": 0.51,
+        "breaks": 0,
+        "stat": "1天1板"
+      },
+      {
+        "code": "603696",
+        "name": "安记食品",
+        "pct": 10.03,
+        "boards": 1,
+        "industry": "调味发酵",
+        "first_time": "1121",
+        "seal_fund": 0.36,
+        "breaks": 0,
+        "stat": "1天1板"
+      },
+      {
+        "code": "603657",
+        "name": "春光科技",
+        "pct": 10.01,
+        "boards": 1,
+        "industry": "家电零部",
+        "first_time": "1126",
+        "seal_fund": 0.32,
+        "breaks": 0,
+        "stat": "1天1板"
+      },
+      {
+        "code": "603683",
+        "name": "晶华新材",
+        "pct": 9.99,
+        "boards": 1,
+        "industry": "化学制品",
+        "first_time": "1127",
+        "seal_fund": 0.53,
+        "breaks": 1,
+        "stat": "1天1板"
+      },
+      {
+        "code": "603400",
+        "name": "华之杰",
+        "pct": 10.0,
+        "boards": 1,
+        "industry": "通用设备",
+        "first_time": "1300",
+        "seal_fund": 0.43,
+        "breaks": 0,
+        "stat": "1天1板"
+      },
+      {
+        "code": "002940",
+        "name": "昂利康",
+        "pct": 10.01,
+        "boards": 1,
+        "industry": "化学制药",
+        "first_time": "1306",
+        "seal_fund": 0.16,
+        "breaks": 0,
+        "stat": "1天1板"
+      },
+      {
+        "code": "002596",
+        "name": "海南瑞泽",
+        "pct": 9.94,
+        "boards": 1,
+        "industry": "水泥",
+        "first_time": "1325",
+        "seal_fund": 0.08,
+        "breaks": 2,
+        "stat": "1天1板"
+      },
+      {
+        "code": "603366",
+        "name": "日出东方",
+        "pct": 9.96,
+        "boards": 1,
+        "industry": "厨卫电器",
+        "first_time": "1326",
+        "seal_fund": 0.3,
+        "breaks": 2,
+        "stat": "1天1板"
+      },
+      {
+        "code": "002696",
+        "name": "百洋股份",
+        "pct": 10.01,
+        "boards": 1,
+        "industry": "饲料",
+        "first_time": "1340",
+        "seal_fund": 0.55,
+        "breaks": 2,
+        "stat": "8天6板"
+      },
+      {
+        "code": "603636",
+        "name": "南威软件",
+        "pct": 10.02,
+        "boards": 1,
+        "industry": "IT服务Ⅱ",
+        "first_time": "1413",
+        "seal_fund": 0.53,
+        "breaks": 0,
+        "stat": "3天2板"
+      },
+      {
+        "code": "688004",
+        "name": "博汇科技",
+        "pct": 20.01,
+        "boards": 1,
+        "industry": "IT服务Ⅱ",
+        "first_time": "1417",
+        "seal_fund": 0.81,
+        "breaks": 0,
+        "stat": "1天1板"
+      }
+    ],
+    "zt_reasons": {
+      "600148": "军工概念+AMT系统+新能源汽车+国企改革",
+      "002596": "商品混凝土+海南自贸港+智算布局+市政环卫",
+      "603893": "端侧AI+机器人+业绩增长",
+      "605177": "头孢克洛+化学原料药+制剂获批",
+      "002929": "签境外词元大单+算力网络+通信运维",
+      "688608": "低功耗SoC+AI眼镜+智能可穿戴",
+      "688004": "AI内容安全+视听大数据+传媒安全+协议转让",
+      "300244": "业绩增长+AI病理+医学检验",
+      "603636": "AI短剧+政务智能体+游戏出海",
+      "603366": "空气能热泵+储能+太阳能光热",
+      "002696": "水产饲料+鱼粉涨价+青岛国资+“羊”字辈",
+      "002076": "LED封装+量子科技+信息安全+光伏组件",
+      "603341": "AI眼镜+AI PC+机器人+智能终端",
+      "603683": "人形机器人+柔性传感+胶粘材料+股份回购",
+      "002940": "创新药+化学制药+集采拟中选",
+      "603400": "机器人+液冷+电子水泵+新能源汽车",
+      "002403": "人形机器人+工业机器人+炊具小家电",
+      "603657": "家庭机器人+清洁电器+小米客户",
+      "603696": "复合调味品+对台贸易+业绩增长",
+      "001288": "矿山机器人+输送机械+华为合作+海外订单",
+      "001388": "物理AI+除冰机器人+具身智能+电力巡检",
+      "001283": "消费电子电池+机器人电池+AI眼镜+三季报预增",
+      "603068": "端侧AI+无线芯片+AIoT量产",
+      "605389": "回购提议+AGV减速器+液压元件+工程机械",
+      "603407": "锆基材料+半导体材料+氧氯化锆+次新股",
+      "002881": "物理AI+高算力模组+无线网关+光通信",
+      "300115": "人形机器人+消费电子+AI算力",
+      "002242": "机器人投资+厨房小家电+豆浆机+“羊”字辈",
+      "603236": "业绩增长+端侧AI+通信模组+机器人",
+      "300466": "工业机器人+AI应用+智能装备",
+      "603119": "人形机器人+云母制品+精密结构件",
+      "603626": "机器人结构件+苹果供应链+智能终端结构件",
+      "001239": "盾构机+风电+重组",
+      "003029": "低空安全+人工智能安全+商用密码",
+      "002164": "机器人减速器+小批量供货+控股股东增持",
+      "301313": "物理AI数据+具身仿真+AI数字孪生",
+      "600860": "机器人集成+气体储运+氢能装备",
+      "002313": "无线模组+机器人应用+股权调整",
+      "002347": "工业机器人+冶金装备",
+      "002724": "专业照明+AI照明+军工+“羊”字辈",
+      "603386": "业绩增长+PCB+AI算力+人形机器人",
+      "002088": "锂电隔热+陶瓷纤维",
+      "600267": "业绩增长+宠物药+受托生产",
+      "002181": "微短剧+人工智能内容+媒体经营",
+      "605488": "人形机器人+柔性传感器+功能性涂布",
+      "002479": "业绩增长+有色回收+热电联产",
+      "001323": "智能睡眠+端侧智能+鸿蒙生态",
+      "603278": "人形机器人+胎圈钢丝+全球销售",
+      "600293": "重大重组+锂电电解液+汽车电子玻璃",
+      "600178": "飞行汽车+增程动力+定点协议+兵装重组",
+      "600661": "业绩增长+教育培训+银发经济",
+      "002835": "视频监控+人工智能安防+海外业务+AI ISP"
+    },
+    "industries": [
+      {
+        "code": "new_yqyb",
+        "name": "仪器仪表",
+        "pct": 2.47,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "东华测试",
+        "leader_pct": 15.17,
+        "kind": "industry"
+      },
+      {
+        "code": "new_ylqx",
+        "name": "医疗器械",
+        "pct": 2.33,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "迪安诊断",
+        "leader_pct": 19.99,
+        "kind": "industry"
+      },
+      {
+        "code": "new_blhy",
+        "name": "玻璃行业",
+        "pct": 2.1,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "三峡新材",
+        "leader_pct": 9.92,
+        "kind": "industry"
+      },
+      {
+        "code": "new_jjhy",
+        "name": "家具行业",
+        "pct": 2.1,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "友邦吊顶",
+        "leader_pct": 5.67,
+        "kind": "industry"
+      },
+      {
+        "code": "new_stock",
+        "name": "次新股",
+        "pct": 2.07,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "嘉晨智能",
+        "leader_pct": 29.98,
+        "kind": "industry"
+      },
+      {
+        "code": "new_qtxy",
+        "name": "其它行业",
+        "pct": 1.55,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "赛摩智能",
+        "leader_pct": 20.0,
+        "kind": "industry"
+      },
+      {
+        "code": "new_ysbz",
+        "name": "印刷包装",
+        "pct": 1.53,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "ST龙韵",
+        "leader_pct": 6.81,
+        "kind": "industry"
+      },
+      {
+        "code": "new_wzwm",
+        "name": "物资外贸",
+        "pct": 1.22,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "时代万恒",
+        "leader_pct": 6.91,
+        "kind": "industry"
+      },
+      {
+        "code": "new_dzxx",
+        "name": "电子信息",
+        "pct": 1.11,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "鼎捷数智",
+        "leader_pct": 10.23,
+        "kind": "industry"
+      },
+      {
+        "code": "new_slzp",
+        "name": "塑料制品",
+        "pct": 1.11,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "同大股份",
+        "leader_pct": 4.23,
+        "kind": "industry"
+      },
+      {
+        "code": "new_syhy",
+        "name": "石油行业",
+        "pct": 0.86,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "潜能恒信",
+        "leader_pct": 3.28,
+        "kind": "industry"
+      },
+      {
+        "code": "new_dzqj",
+        "name": "电子器件",
+        "pct": 0.82,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "长盈精密",
+        "leader_pct": 19.99,
+        "kind": "industry"
+      },
+      {
+        "code": "new_kfq",
+        "name": "开发区",
+        "pct": 0.77,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "张江高科",
+        "leader_pct": 2.08,
+        "kind": "industry"
+      },
+      {
+        "code": "new_nyhf",
+        "name": "农药化肥",
+        "pct": 0.66,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "利尔化学",
+        "leader_pct": 5.3,
+        "kind": "industry"
+      },
+      {
+        "code": "new_qczz",
+        "name": "汽车制造",
+        "pct": 0.61,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "东安动力",
+        "leader_pct": 10.02,
+        "kind": "industry"
+      },
+      {
+        "code": "new_hghy",
+        "name": "化工行业",
+        "pct": 0.47,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "宝通科技",
+        "leader_pct": 6.62,
+        "kind": "industry"
+      },
+      {
+        "code": "new_jxhy",
+        "name": "机械行业",
+        "pct": 0.44,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "中创环保",
+        "leader_pct": 11.61,
+        "kind": "industry"
+      },
+      {
+        "code": "new_dqhy",
+        "name": "电器行业",
+        "pct": 0.43,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "宁波东力",
+        "leader_pct": 10.01,
+        "kind": "industry"
+      },
+      {
+        "code": "new_cmyl",
+        "name": "传媒娱乐",
+        "pct": 0.34,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "粤 传 媒",
+        "leader_pct": 9.99,
+        "kind": "industry"
+      },
+      {
+        "code": "new_fzjx",
+        "name": "纺织机械",
+        "pct": 0.31,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "ST标准",
+        "leader_pct": 10.05,
+        "kind": "industry"
+      },
+      {
+        "code": "new_ysjs",
+        "name": "有色金属",
+        "pct": 0.28,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "东阳光",
+        "leader_pct": 3.55,
+        "kind": "industry"
+      },
+      {
+        "code": "new_fzhy",
+        "name": "纺织行业",
+        "pct": 0.27,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "孚日股份",
+        "leader_pct": 2.98,
+        "kind": "industry"
+      },
+      {
+        "code": "new_sphy",
+        "name": "食品行业",
+        "pct": 0.24,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "ST西王",
+        "leader_pct": 10.07,
+        "kind": "industry"
+      },
+      {
+        "code": "new_swzz",
+        "name": "生物制药",
+        "pct": 0.23,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "海正药业",
+        "leader_pct": 10.03,
+        "kind": "industry"
+      },
+      {
+        "code": "new_zzhy",
+        "name": "造纸行业",
+        "pct": 0.13,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "宜宾纸业",
+        "leader_pct": 2.74,
+        "kind": "industry"
+      },
+      {
+        "code": "new_nlmy",
+        "name": "农林牧渔",
+        "pct": 0.06,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "百洋股份",
+        "leader_pct": 10.01,
+        "kind": "industry"
+      },
+      {
+        "code": "new_ljhy",
+        "name": "酿酒行业",
+        "pct": -0.13,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "今世缘",
+        "leader_pct": 2.65,
+        "kind": "industry"
+      },
+      {
+        "code": "new_jdhy",
+        "name": "家电行业",
+        "pct": -0.17,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "九阳股份",
+        "leader_pct": 10.01,
+        "kind": "industry"
+      },
+      {
+        "code": "new_mtc",
+        "name": "摩托车",
+        "pct": -0.23,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "电科芯片",
+        "leader_pct": 1.63,
+        "kind": "industry"
+      },
+      {
+        "code": "new_fzxl",
+        "name": "服装鞋类",
+        "pct": -0.26,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "跨境通",
+        "leader_pct": 3.42,
+        "kind": "industry"
+      },
+      {
+        "code": "new_gsgq",
+        "name": "供水供气",
+        "pct": -0.27,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "联美控股",
+        "leader_pct": 3.28,
+        "kind": "industry"
+      },
+      {
+        "code": "new_hqhy",
+        "name": "化纤行业",
+        "pct": -0.28,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "恒申新材",
+        "leader_pct": 3.87,
+        "kind": "industry"
+      },
+      {
+        "code": "new_fjzz",
+        "name": "飞机制造",
+        "pct": -0.3,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "中国卫星",
+        "leader_pct": 1.65,
+        "kind": "industry"
+      },
+      {
+        "code": "new_hbhy",
+        "name": "环保行业",
+        "pct": -0.3,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "节能铁汉",
+        "leader_pct": 1.66,
+        "kind": "industry"
+      },
+      {
+        "code": "new_gthy",
+        "name": "钢铁行业",
+        "pct": -0.32,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "ST富煌",
+        "leader_pct": 3.95,
+        "kind": "industry"
+      },
+      {
+        "code": "new_jzjc",
+        "name": "建筑建材",
+        "pct": -0.33,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "海南瑞泽",
+        "leader_pct": 9.94,
+        "kind": "industry"
+      },
+      {
+        "code": "new_sybh",
+        "name": "商业百货",
+        "pct": -0.38,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "永辉超市",
+        "leader_pct": 4.56,
+        "kind": "industry"
+      },
+      {
+        "code": "new_zhhy",
+        "name": "综合行业",
+        "pct": -0.41,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "新潮能源",
+        "leader_pct": 3.46,
+        "kind": "industry"
+      },
+      {
+        "code": "new_snhy",
+        "name": "水泥行业",
+        "pct": -0.47,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "ST金顶",
+        "leader_pct": 4.55,
+        "kind": "industry"
+      },
+      {
+        "code": "new_fdc",
+        "name": "房地产",
+        "pct": -0.71,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "*ST中迪",
+        "leader_pct": 6.2,
+        "kind": "industry"
+      },
+      {
+        "code": "new_glql",
+        "name": "公路桥梁",
+        "pct": -0.72,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "山东高速",
+        "leader_pct": 1.25,
+        "kind": "industry"
+      },
+      {
+        "code": "new_jtys",
+        "name": "交通运输",
+        "pct": -0.76,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "上海机电",
+        "leader_pct": 4.5,
+        "kind": "industry"
+      },
+      {
+        "code": "new_jdly",
+        "name": "酒店旅游",
+        "pct": -0.96,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "国脉文化",
+        "leader_pct": 3.59,
+        "kind": "industry"
+      },
+      {
+        "code": "new_dlhy",
+        "name": "电力行业",
+        "pct": -1.12,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "富春环保",
+        "leader_pct": 10.07,
+        "kind": "industry"
+      },
+      {
+        "code": "new_mthy",
+        "name": "煤炭行业",
+        "pct": -1.24,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "江钨装备",
+        "leader_pct": 3.58,
+        "kind": "industry"
+      },
+      {
+        "code": "new_jrhy",
+        "name": "金融行业",
+        "pct": -1.44,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "锦龙股份",
+        "leader_pct": 2.37,
+        "kind": "industry"
+      },
+      {
+        "code": "new_fdsb",
+        "name": "发电设备",
+        "pct": -1.62,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "天融信",
+        "leader_pct": 4.43,
+        "kind": "industry"
+      },
+      {
+        "code": "new_cbzz",
+        "name": "船舶制造",
+        "pct": -2.43,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "ST亚光",
+        "leader_pct": 0.53,
+        "kind": "industry"
+      },
+      {
+        "code": "new_tchy",
+        "name": "陶瓷行业",
+        "pct": -2.98,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "道氏技术",
+        "leader_pct": 3.33,
+        "kind": "industry"
+      }
+    ],
+    "concepts": [
+      {
+        "code": "gn_jycx",
+        "name": "基因测序",
+        "pct": 4.01,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "迪安诊断",
+        "leader_pct": 19.99,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_kc50",
+        "name": "科创50",
+        "pct": 3.25,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "乐鑫科技",
+        "leader_pct": 16.86,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_sygg",
+        "name": "水域改革",
+        "pct": 3.04,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "百洋股份",
+        "leader_pct": 10.01,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_hmgn",
+        "name": "鸿蒙概念",
+        "pct": 2.63,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "极米科技",
+        "leader_pct": 5.78,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_hwhm",
+        "name": "华为鸿蒙",
+        "pct": 2.62,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "吉大正元",
+        "leader_pct": 10.0,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_wxej",
+        "name": "无线耳机",
+        "pct": 2.53,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "长盈精密",
+        "leader_pct": 19.99,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_xxaq",
+        "name": "信息安全",
+        "pct": 2.53,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "绿盟科技",
+        "leader_pct": 4.87,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_5Ggn",
+        "name": "5G概念",
+        "pct": 2.35,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "日海智能",
+        "leader_pct": 10.0,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_pggn",
+        "name": "苹果概念",
+        "pct": 2.33,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "长盈精密",
+        "leader_pct": 19.99,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_kdts",
+        "name": "宽带提速",
+        "pct": 2.24,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "日海智能",
+        "leader_pct": 10.0,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_zjqrgn",
+        "name": "机器人概念",
+        "pct": 2.14,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "慈星股份",
+        "leader_pct": 8.72,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_hwqc",
+        "name": "华为汽车",
+        "pct": 2.1,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "吉大正元",
+        "leader_pct": 10.0,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_scp1",
+        "name": "水产品",
+        "pct": 1.96,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "百洋股份",
+        "leader_pct": 10.01,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_cxy",
+        "name": "创新药",
+        "pct": 1.95,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "海正药业",
+        "leader_pct": 10.03,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_znjq",
+        "name": "智能机器",
+        "pct": 1.95,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "慈星股份",
+        "leader_pct": 8.72,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_zncd",
+        "name": "智能穿戴",
+        "pct": 1.91,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "中颖电子",
+        "leader_pct": 7.28,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_xmgn",
+        "name": "小米概念",
+        "pct": 1.81,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "长盈精密",
+        "leader_pct": 19.99,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_CXOgn",
+        "name": "CXO概念",
+        "pct": 1.78,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "昭衍新药",
+        "leader_pct": 8.06,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_CROgn",
+        "name": "CRO概念",
+        "pct": 1.76,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "昭衍新药",
+        "leader_pct": 8.06,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_jygn",
+        "name": "基因概念",
+        "pct": 1.73,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "迪安诊断",
+        "leader_pct": 19.99,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_cmp",
+        "name": "触摸屏",
+        "pct": 1.68,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "国光电器",
+        "leader_pct": 5.33,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_kqzl",
+        "name": "空气治理",
+        "pct": 1.64,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "汉威科技",
+        "leader_pct": 14.92,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_tmj",
+        "name": "图们江",
+        "pct": 1.57,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "长春一东",
+        "leader_pct": 9.99,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_cgl",
+        "name": "草甘膦",
+        "pct": 1.47,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "江山股份",
+        "leader_pct": 3.13,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_hwgn",
+        "name": "华为概念",
+        "pct": 1.45,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "通宇通讯",
+        "leader_pct": 9.29,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_gcrj",
+        "name": "国产软件",
+        "pct": 1.41,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "太极股份",
+        "leader_pct": 4.63,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_qcdz",
+        "name": "汽车电子",
+        "pct": 1.4,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "太极股份",
+        "leader_pct": 4.63,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_3Ddy",
+        "name": "3D打印",
+        "pct": 1.38,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "福晶科技",
+        "leader_pct": 3.11,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_gykc",
+        "name": "高压快充",
+        "pct": 1.37,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "鑫宏业",
+        "leader_pct": 6.33,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_gtk",
+        "name": "钙钛矿",
+        "pct": 1.22,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "中创环保",
+        "leader_pct": 11.61,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_jjj",
+        "name": "京津冀",
+        "pct": -0.52,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "先河环保",
+        "leader_pct": 6.3,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_tsl",
+        "name": "特斯拉",
+        "pct": -0.53,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "万向钱潮",
+        "leader_pct": 5.45,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_rhmy",
+        "name": "日韩贸易",
+        "pct": -0.58,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "澳柯玛",
+        "leader_pct": 2.03,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_szbd",
+        "name": "深圳本地",
+        "pct": -0.59,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "ST海王",
+        "leader_pct": 5.3,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_skgn",
+        "name": "涉矿概念",
+        "pct": -0.6,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "贝瑞基因",
+        "leader_pct": 3.48,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_cgjr",
+        "name": "参股金融",
+        "pct": -0.61,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "龙溪股份",
+        "leader_pct": 3.81,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_wgg",
+        "name": "未股改",
+        "pct": -0.62,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "佳都科技",
+        "leader_pct": 1.59,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_sgqgg",
+        "name": "国企改革",
+        "pct": -0.63,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "上海机电",
+        "leader_pct": 4.5,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_zczr",
+        "name": "资产注入",
+        "pct": -0.65,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "东阳光",
+        "leader_pct": 3.55,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_gtdc",
+        "name": "固态电池",
+        "pct": -0.67,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "德尔股份",
+        "leader_pct": 7.24,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_wss",
+        "name": "维生素",
+        "pct": -0.68,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "北大医药",
+        "leader_pct": 0.57,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_cjxj",
+        "name": "超级细菌",
+        "pct": -0.73,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "海正药业",
+        "leader_pct": 10.03,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_hBg",
+        "name": "含B股",
+        "pct": -0.8,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "冰山冷热",
+        "leader_pct": 4.74,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_yq50",
+        "name": "央企50",
+        "pct": -0.82,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "中国卫星",
+        "leader_pct": 1.65,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_hgzb",
+        "name": "海工装备",
+        "pct": -0.85,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "北斗星通",
+        "leader_pct": 2.12,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_bcgn",
+        "name": "博彩概念",
+        "pct": -0.92,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "粤 传 媒",
+        "leader_pct": 9.99,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_wzbj",
+        "name": "外资背景",
+        "pct": -0.97,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "珠海中富",
+        "leader_pct": 2.28,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_hljr",
+        "name": "互联金融",
+        "pct": -1.06,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "上海钢联",
+        "leader_pct": 3.9,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_hjgn",
+        "name": "黄金概念",
+        "pct": -1.07,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "恒邦股份",
+        "leader_pct": 0.42,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_ssgn",
+        "name": "三沙概念",
+        "pct": -1.14,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "海南瑞泽",
+        "leader_pct": 9.94,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_ndc",
+        "name": "钠电池",
+        "pct": -1.25,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "沃尔核材",
+        "leader_pct": 2.21,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_cdz",
+        "name": "充电桩",
+        "pct": -1.27,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "星光股份",
+        "leader_pct": 9.85,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_hHg",
+        "name": "含H股",
+        "pct": -1.32,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "京城股份",
+        "leader_pct": 10.0,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_tjy",
+        "name": "碳交易",
+        "pct": -1.37,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "谱尼测试",
+        "leader_pct": 2.11,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_hssl",
+        "name": "海上丝路",
+        "pct": -1.44,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "北部湾港",
+        "leader_pct": 1.67,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_qhgn",
+        "name": "前海概念",
+        "pct": -1.64,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "深振业Ａ",
+        "leader_pct": 3.24,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_dtjj",
+        "name": "低碳经济",
+        "pct": -1.65,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "鲁阳节能",
+        "leader_pct": 9.97,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_zxsy",
+        "name": "振兴沈阳",
+        "pct": -1.82,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "冰山冷热",
+        "leader_pct": 4.74,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_zndw",
+        "name": "智能电网",
+        "pct": -2.14,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "金自天正",
+        "leader_pct": 3.85,
+        "kind": "concept"
+      },
+      {
+        "code": "gn_hGDR",
+        "name": "含GDR",
+        "pct": -2.92,
+        "inflow": null,
+        "up": 0,
+        "down": 0,
+        "leader": "海南瑞泽",
+        "leader_pct": 0.0,
+        "kind": "concept"
+      }
+    ],
+    "lhb_date": "2026-10-20",
+    "lhb_buy": [
+      {
+        "code": "688018",
+        "name": "乐鑫科技",
+        "pct": 16.86,
+        "net": 2.57,
+        "reason": "3家机构买入，成功率42.94%",
+        "rule": "有价格涨跌幅限制的日收盘价格涨幅达到15%的前五只证券"
+      },
+      {
+        "code": "300115",
+        "name": "长盈精密",
+        "pct": 19.99,
+        "net": 2.41,
+        "reason": "2家机构买入，成功率40.04%",
+        "rule": "日涨幅达到15%的前5只证券"
+      },
+      {
+        "code": "688836",
+        "name": "宇树科技",
+        "pct": 6.07,
+        "net": 2.33,
+        "reason": "1家机构买入，成功率44.73%",
+        "rule": "有价格涨跌幅限制的连续3个交易日内收盘价格涨幅偏离值累计达到30%的证券"
+      },
+      {
+        "code": "688787",
+        "name": "海天瑞声",
+        "pct": 17.55,
+        "net": 1.96,
+        "reason": "2家机构买入，成功率43.12%",
+        "rule": "有价格涨跌幅限制的连续3个交易日内收盘价格涨幅偏离值累计达到30%的证券"
+      },
+      {
+        "code": "688608",
+        "name": "恒玄科技",
+        "pct": 20,
+        "net": 1.64,
+        "reason": "1家机构买入，成功率45.74%",
+        "rule": "有价格涨跌幅限制的日收盘价格涨幅达到15%的前五只证券"
+      },
+      {
+        "code": "300244",
+        "name": "迪安诊断",
+        "pct": 19.99,
+        "net": 1.45,
+        "reason": "3家机构买入，成功率35.33%",
+        "rule": "日涨幅达到15%的前5只证券"
+      },
+      {
+        "code": "002164",
+        "name": "宁波东力",
+        "pct": 10.01,
+        "net": 1.36,
+        "reason": "3家机构买入，成功率32.79%",
+        "rule": "连续三个交易日内，涨幅偏离值累计达到20%的证券"
+      },
+      {
+        "code": "301313",
+        "name": "凡拓数创",
+        "pct": 20,
+        "net": 1.33,
+        "reason": "3家机构买入，成功率41.82%",
+        "rule": "连续三个交易日内，涨幅偏离值累计达到30%的证券"
+      }
+    ],
+    "lhb_sell": [
+      {
+        "code": "002028",
+        "name": "思源电气",
+        "pct": -10,
+        "net": -3.7,
+        "reason": "4家机构卖出，成功率10.92%",
+        "rule": "日跌幅偏离值达到7%的前5只证券"
+      },
+      {
+        "code": "002245",
+        "name": "蔚蓝锂芯",
+        "pct": -10,
+        "net": -2.02,
+        "reason": "4家机构卖出，成功率2.73%",
+        "rule": "日跌幅偏离值达到7%的前5只证券"
+      },
+      {
+        "code": "300006",
+        "name": "莱美药业",
+        "pct": -15.49,
+        "net": -1.78,
+        "reason": "1家机构卖出，成功率26.35%",
+        "rule": "日跌幅达到15%的前5只证券"
+      },
+      {
+        "code": "002343",
+        "name": "慈文传媒",
+        "pct": -0.1,
+        "net": -1.03,
+        "reason": "3家机构卖出，成功率41.14%",
+        "rule": "日换手率达到20%的前5只证券"
+      },
+      {
+        "code": "000823",
+        "name": "超声电子",
+        "pct": 3.64,
+        "net": -0.96,
+        "reason": "3家机构买入，成功率22.10%",
+        "rule": "日换手率达到20%的前5只证券"
+      }
+    ],
+    "hsgt": {
+      "date": "2026-10-20",
+      "north_turnover": 2094.9,
+      "south_net": -17.2,
+      "south_turnover": 765.1
+    },
+    "errors": [
+      "指数: ConnectionError: HTTPSConnectionPool(host='82.push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/ulist.np/get?fltt=2&secids=1.000001%2C0.399001%2C0.399006%2C1.000688%2C1.00030",
+      "行业板块：东财不可用，已改用新浪数据（无主力资金）",
+      "概念板块：东财不可用，已改用新浪数据（无主力资金）"
+    ]
+  },
+  "watch": {
+    "day": "2026-10-21",
+    "data": [
+      {
+        "time": "08:00",
+        "ts": 1792540800,
+        "country": "韩国",
+        "title": "10月出口20天同比",
+        "importance": 3,
+        "forecast": "-",
+        "previous": "78.3%",
+        "actual": "-"
+      }
+    ],
+    "events": [
+      {
+        "time": "17:00",
+        "ts": 1792573200,
+        "country": "德国",
+        "title": "柏林GTC大会，黄仁勋将发表演讲",
+        "importance": 4,
+        "note": ""
+      },
+      {
+        "time": "待定",
+        "ts": 1792555320,
+        "country": "中国",
+        "title": "第十九届中国—欧盟投资贸易科技合作洽谈会",
+        "importance": 3,
+        "note": "第十九届中国—欧盟投资贸易科技合作洽谈会于10月21日至23日在成都中国—欧洲中心举办。"
+      },
+      {
+        "time": "待定",
+        "ts": 1792555320,
+        "country": "中国",
+        "title": "2026 世界智能网联汽车大会",
+        "importance": 3,
+        "note": "世界智能网联汽车大会10月21日召开，与欧洽会同日，聚焦自动驾驶与车路云一体化，关注高阶智驾落地与标准动态。"
+      }
+    ],
+    "ipo_apply": [],
+    "ipo_list": [
+      {
+        "code": "920296",
+        "name": "文峰光电",
+        "apply_code": "920296",
+        "market": "北京证券交易所",
+        "price": 11.45,
+        "upper": 1000000,
+        "industry_pe": null,
+        "pe": 13.51,
+        "business": "高性能、高可靠性特种线缆及光电组件等产品的研发、生产和销售"
+      }
+    ],
+    "lifts": [
+      {
+        "code": "688146",
+        "name": "中船特气",
+        "date": "10-21",
+        "cap": 591.3,
+        "ratio": 2.65,
+        "type": "追加承诺限售股份上市流通"
+      },
+      {
+        "code": "301307",
+        "name": "美利信",
+        "date": "10-26",
+        "cap": 42.4,
+        "ratio": 0.9,
+        "type": "追加承诺限售股份上市流通"
+      },
+      {
+        "code": "920015",
+        "name": "锦华新材",
+        "date": "10-21",
+        "cap": 35.8,
+        "ratio": 2.27,
+        "type": "公开发行原股东限售股份,公开发行战略配售股份"
+      },
+      {
+        "code": "002230",
+        "name": "科大讯飞",
+        "date": "10-26",
+        "cap": 30.9,
+        "ratio": 0.04,
+        "type": "定向增发机构配售股份"
+      },
+      {
+        "code": "301489",
+        "name": "思泉新材",
+        "date": "10-26",
+        "cap": 26.2,
+        "ratio": 0.43,
+        "type": "首发原股东限售股份"
+      },
+      {
+        "code": "603273",
+        "name": "天元智能",
+        "date": "10-23",
+        "cap": 23.0,
+        "ratio": 2.82,
+        "type": "首发原股东限售股份"
+      },
+      {
+        "code": "688808",
+        "name": "联讯仪器",
+        "date": "10-26",
+        "cap": 21.9,
+        "ratio": 0.06,
+        "type": "首发机构配售股份"
+      },
+      {
+        "code": "688368",
+        "name": "晶丰明源",
+        "date": "10-26",
+        "cap": 21.7,
+        "ratio": 0.19,
+        "type": "定向增发机构配售股份"
+      }
+    ],
+    "errors": []
+  },
+  "themes": [
+    {
+      "theme": "通信",
+      "verdict": "共振",
+      "news": 5,
+      "heat": 28.2,
+      "pct": 2.35,
+      "inflow": null,
+      "zt": 4
+    },
+    {
+      "theme": "消费",
+      "verdict": "共振",
+      "news": 4,
+      "heat": 25.3,
+      "pct": -0.11,
+      "inflow": null,
+      "zt": 6
+    },
+    {
+      "theme": "医药",
+      "verdict": "共振",
+      "news": 5,
+      "heat": 27.2,
+      "pct": 1.76,
+      "inflow": null,
+      "zt": 4
+    },
+    {
+      "theme": "数字经济",
+      "verdict": "共振",
+      "news": 2,
+      "heat": 13.2,
+      "pct": 2.62,
+      "inflow": null,
+      "zt": 4
+    },
+    {
+      "theme": "汽车",
+      "verdict": "共振",
+      "news": 3,
+      "heat": 18.8,
+      "pct": 1.0,
+      "inflow": null,
+      "zt": 3
+    },
+    {
+      "theme": "机器人",
+      "verdict": "共振",
+      "news": 3,
+      "heat": 17.9,
+      "pct": 2.14,
+      "inflow": null,
+      "zt": 0
+    },
+    {
+      "theme": "消费电子",
+      "verdict": "资金先行",
+      "news": 1,
+      "heat": 6.7,
+      "pct": 1.57,
+      "inflow": null,
+      "zt": 4
+    },
+    {
+      "theme": "基建建材",
+      "verdict": "资金先行",
+      "news": 1,
+      "heat": 6.8,
+      "pct": -0.4,
+      "inflow": null,
+      "zt": 4
+    },
+    {
+      "theme": "航运物流",
+      "verdict": "新闻热·资金冷",
+      "news": 9,
+      "heat": 54.6,
+      "pct": -2.43,
+      "inflow": null,
+      "zt": 0
+    },
+    {
+      "theme": "券商",
+      "verdict": "新闻热·资金冷",
+      "news": 8,
+      "heat": 54.1,
+      "pct": -0.01,
+      "inflow": null,
+      "zt": 0
+    }
+  ],
+  "sources": [
+    {
+      "id": "wallstreetcn",
+      "name": "华尔街见闻",
+      "ok": true,
+      "count": 229,
+      "pages": 3,
+      "seconds": 4.09,
+      "error": ""
+    },
+    {
+      "id": "cls",
+      "name": "财联社电报",
+      "ok": true,
+      "count": 161,
+      "pages": 9,
+      "seconds": 7.66,
+      "error": ""
+    },
+    {
+      "id": "jin10",
+      "name": "金十数据",
+      "ok": true,
+      "count": 443,
+      "pages": 25,
+      "seconds": 20.58,
+      "error": ""
+    },
+    {
+      "id": "eastmoney",
+      "name": "东方财富7x24",
+      "ok": true,
+      "count": 219,
+      "pages": 2,
+      "seconds": 3.47,
+      "error": ""
+    },
+    {
+      "id": "sina",
+      "name": "新浪财经7x24",
+      "ok": true,
+      "count": 795,
+      "pages": 8,
+      "seconds": 8.0,
+      "error": ""
+    },
+    {
+      "id": "ths",
+      "name": "同花顺快讯",
+      "ok": true,
+      "count": 113,
+      "pages": 2,
+      "seconds": 3.86,
+      "error": ""
+    },
+    {
+      "id": "stcn",
+      "name": "证券时报快讯",
+      "ok": true,
+      "count": 30,
+      "pages": 1,
+      "seconds": 1.95,
+      "error": ""
+    },
+    {
+      "id": "yicai",
+      "name": "第一财经",
+      "ok": true,
+      "count": 47,
+      "pages": 1,
+      "seconds": 1.65,
+      "error": ""
+    },
+    {
+      "id": "govcn",
+      "name": "中国政府网·最新政策",
+      "ok": true,
+      "count": 0,
+      "pages": 1,
+      "seconds": 0.72,
+      "error": ""
+    },
+    {
+      "id": "fed",
+      "name": "美联储",
+      "ok": true,
+      "count": 0,
+      "pages": 1,
+      "seconds": 0.09,
+      "error": ""
+    },
+    {
+      "id": "fed-speeches",
+      "name": "美联储讲话",
+      "ok": true,
+      "count": 0,
+      "pages": 1,
+      "seconds": 0.06,
+      "error": ""
+    },
+    {
+      "id": "cnbc",
+      "name": "CNBC",
+      "ok": true,
+      "count": 21,
+      "pages": 1,
+      "seconds": 0.06,
+      "error": ""
+    },
+    {
+      "id": "marketwatch",
+      "name": "MarketWatch",
+      "ok": true,
+      "count": 10,
+      "pages": 1,
+      "seconds": 0.66,
+      "error": ""
+    }
+  ]
+}
