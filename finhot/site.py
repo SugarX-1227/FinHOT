@@ -153,8 +153,8 @@ def _layout(title: str, body: str, active: str, depth: int) -> str:
     nav = "".join(
         f'<a href="{root}{href}" class="{"on" if key == active else ""}">{name}</a>'
         for key, href, name in (("index", "index.html", "最新"), ("archive", "archive.html", "往期日报"),
-                                ("weekly", "weekly/index.html", "周报"), ("record", "record.html", "战绩"),
-                                ("feed", "feed.xml", "RSS")))
+                                ("weekly", "weekly/index.html", "周报"), ("topics", "topics/index.html", "题材"),
+                                ("record", "record.html", "战绩"), ("feed", "feed.xml", "RSS")))
     return f"""<!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -185,6 +185,26 @@ def _summary_md(text: str) -> str:
         return m.group(1).strip()
     titles = re.findall(r"^\d+\. \*\*(.+?)\*\*", text, re.M)[:5]
     return "\n".join(f"- {t}" for t in titles)
+
+
+def _build_topics(md: MarkdownIt, src: Path, out: Path) -> None:
+    """题材页：topics/index.html（一览）+ topics/<slug>.html（档案卡）。档案卡之间的 .md 链接改成 .html。"""
+    out.mkdir(parents=True, exist_ok=True)
+    fix = lambda text: re.sub(r"\]\(([\w-]+)\.md\)", r"](\1.html)", text)  # noqa: E731
+    index = src / "index.md"
+    body = (f'<article class="card">{_render(md, fix(index.read_text(encoding="utf-8")))}</article>' if index.exists()
+            else '<article class="card"><h1>题材档案</h1><p>还没有题材档案，运行 <code>python -m finhot topic build</code> '
+                 '生成。</p></article>')
+    (out / "index.html").write_text(_layout("题材档案 · FinHOT", body, "topics", 1), encoding="utf-8")
+    for f in sorted(src.glob("*.md")) if src.exists() else []:
+        if f.name == "index.md":
+            continue
+        text = f.read_text(encoding="utf-8")
+        m = re.search(r"^# (.+)$", text, re.M)
+        crumb = '<p class="crumb"><a href="index.html">← 全部题材</a></p>'
+        (out / f"{f.stem}.html").write_text(
+            _layout(f"{m.group(1) if m else f.stem} · FinHOT", f'{crumb}<article class="card">{_render(md, fix(text))}'
+                    '</article>', "topics", 1), encoding="utf-8")
 
 
 def build_site(out: Path, reports_dir: Path = REPORTS_DIR, base_url: str = "") -> Path:
@@ -237,6 +257,9 @@ def build_site(out: Path, reports_dir: Path = REPORTS_DIR, base_url: str = "") -
     (out / "weekly" / "index.html").write_text(
         _layout("周报 · FinHOT", f'<h1>周报</h1><div class="card"><ul class="list">{items}</ul></div>', "weekly", 1),
         encoding="utf-8")
+
+    # 题材档案（python -m finhot topic build 生成的 reports/topics/*.md）
+    _build_topics(md, reports_dir / "topics", out / "topics")
 
     # 战绩：信号回测（finhot/backtest.py 每个交易日盘后更新）
     record = reports_dir / "backtest" / "latest.md"

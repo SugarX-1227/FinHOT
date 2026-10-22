@@ -54,6 +54,9 @@ jobs:
           LLM_BODY_EXTRA: ${{ vars.LLM_BODY_EXTRA }}
           # 静态站的“战绩”也统计网站精选里的利好 / 利空（读公开接口，不用 token）。网站“盘面”页的战绩由服务器自己算
           FINHOT_SITE_URL: ${{ vars.FINHOT_SITE_URL }}
+          # 题材档案用问财取数（见 topics/README.md）。不配置就跳过，日报照常生成
+          IWENCAI_API_KEY: ${{ secrets.IWENCAI_API_KEY }}
+          IWENCAI_BASE_URL: ${{ vars.IWENCAI_BASE_URL }}
           MODE: ${{ github.event.inputs.mode || 'auto' }}
           HOURS: ${{ github.event.inputs.hours }}
           NO_LLM: ${{ github.event.inputs.no_llm }}

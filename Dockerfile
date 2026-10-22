@@ -9,6 +9,7 @@ RUN pip install --no-cache-dir ${PIP_INDEX_URL:+--index-url $PIP_INDEX_URL} -r r
 COPY finhot finhot
 COPY sources sources
 COPY prompts prompts
-RUN useradd --system --home /app finhot && mkdir -p data && chown finhot data
+COPY topics topics
+RUN useradd --system --home /app finhot && mkdir -p data reports && chown finhot data reports
 USER finhot
 CMD ["python", "-m", "finhot", "push"]

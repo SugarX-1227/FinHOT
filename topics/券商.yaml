@@ -1,0 +1,218 @@
+# 题材档案 · 知识层（人工维护，程序只读）。字段说明见 topics/README.md。
+name: 券商
+slug: broker
+aliases: [证券, 非银金融, 互联网券商, 牛市旗手]
+updated: 2026-10-22
+reviewed: false
+
+one_liner: >-
+  证券公司和相关的金融信息服务商。业绩跟着成交额、两融和指数走，股价对资本市场政策极其敏感，
+  行情启动或政策转向时常率先上涨，所以叫“牛市旗手”；另一条线是券商并购重组带来的个股弹性。
+
+boundary:
+  includes:
+    - A 股上市证券公司（约 50 家）
+    - 互联网券商与金融信息服务（东方财富、同花顺、指南针等），弹性通常大于传统券商
+  excludes:
+    - 银行：同属大金融，但看利差和信贷，不看成交额
+  related:
+    - name: 非银金融（申万一级）
+      diff: = 证券 + 保险 + 多元金融。本档案以券商为主，保险和交易所列在产业链末尾作对照
+    - name: 保险
+      diff: 看长端利率、权益市场和负债端保费，常与券商同涨同跌，但逻辑不同
+    - name: 金融科技
+      diff: 同花顺、东方财富既是金融信息服务也是券商相关，受成交额和散户活跃度驱动最明显
+
+status:
+  - text: 申万证券指数 2026 年上半年跌 7.92%，年初至 9-09 跌 11.69%，跑输上证指数约 11 个百分点
+    url: https://www.huxiu.com/article/4889861.html
+  - text: 上半年行业营收 3895 亿元、同比增 45%，净利润 1712.85 亿元、同比增约 49%；自营收入占营收 43%
+    url: https://www.huxiu.com/article/4889861.html
+  - text: 9-09 证券行业 PB 约 1.26 倍，处历史约 13% 分位，低于 2022—2023 年业绩低迷期
+    url: https://www.huxiu.com/article/4889861.html
+  - text: 上半年 A 股成交额约 317.5 万亿元、同比增约 95%；7—8 月日均约 2.48 万亿元，较上半年回落约 9.5%；两融余额从 6-25 高点 3.03 万亿元回落到 9-08 约 2.65 万亿元
+    url: https://www.huxiu.com/article/4889861.html
+  - text: 三季报前瞻：43 家上市券商三季度归母净利润同比约 +6%、环比约 -24%（机构预测）
+    url: https://finance.eastmoney.com/a/202610203900546443.html
+
+drivers:
+  types: [政策, 成交额与情绪, 业绩, 并购重组]
+  evidence: 业绩和政策都是实锤，但股价没有反映
+  summary: >-
+    券商是市场 beta 的放大器：成交额和两融决定经纪、信用业务，指数涨跌决定自营。2026 年业绩高增而股价下跌，
+    市场把自营利润当周期利润打折。重新定价通常需要两样东西之一：成交额再次放大，或者超预期的政策。
+
+policy:
+  - date: 2023-07-24
+    name: 中央政治局会议
+    issuer: 中共中央政治局
+    points: 提出“要活跃资本市场，提振投资者信心”，次日券商板块大涨
+  - date: 2024-04-12
+    name: 新“国九条”
+    issuer: 国务院
+    points: 《关于加强监管防范风险推动资本市场高质量发展的若干意见》，强监管与高质量发展并重
+  - date: 2024-09-24
+    name: 金融支持经济高质量发展一揽子政策
+    issuer: 央行、金融监管总局、证监会
+    points: 降准降息，创设证券、基金、保险公司互换便利和股票回购增持再贷款
+  - date: 2026-10-19
+    name: 应对非银机构大额赎回的流动性支持工具
+    issuer: 央行（会同金融监管总局、证监会）
+    points: 债券市场稳定机制；适用银行理财子、公募基金管理人及对应的银行母行、证券母公司；在“赎回—抛售”负循环时启用，需高等级抵押品
+    url: https://www.21jingji.com/article/20261019/herald/6bddedf52d2b94cb5f432fe4a1f0d2fd.html
+  - date: 2026-10-19
+    name: 支持证券业并购重组和后续整合
+    issuer: 证监会
+    points: 金融街论坛上再度强调；同日同意首批 18 只主动 ETF 注册，并提出研究推动多层次市场改革、深化再融资改革
+    url: https://www.cls.cn/detail/2508821
+
+overseas:
+  - name: 香港交易所
+    ticker: 0388.HK
+    link: 港股成交与制度改革（10-16 公布 2028 年下半年结算周期缩短到 T+1 的路线图）；与 A 股券商同受两地交投活跃度驱动
+    url: https://finance.eastmoney.com/a/202610203900546443.html
+  - name: 中资券商 H 股
+    ticker: 港股
+    link: A/H 同时上市的券商，H 股折价和南向资金动向可作情绪参照
+
+chain:
+  - stage: 收入来源（业务线）
+    segments:
+      - name: 经纪与财富管理
+        what: 股票基金交易佣金、基金代销与投顾
+        moat: 客户数与渠道；互联网券商获客成本低
+        keywords: [经纪, 财富管理, 代销, 投顾]
+        stocks:
+          - {name: 东方财富, code: "300059", tier: 核心, note: 互联网券商 + 基金代销，成交额弹性最大的中军}
+          - {name: 指南针, code: "300803", tier: 相关, note: 金融信息服务 + 麦高证券，弹性大}
+      - name: 信用业务
+        what: 融资融券、股票质押，赚利差
+        moat: 资本金规模
+        keywords: [融资融券, 信用业务]
+        stocks: []
+      - name: 自营投资
+        what: 权益、固收、衍生品自营；2026 上半年占营收 43%
+        moat: 投研与风控；结果随市场波动，被市场按周期利润打折
+        keywords: [自营, 证券投资]
+        stocks: []
+      - name: 投行
+        what: IPO、再融资、并购重组、债券承销
+        moat: 项目储备与牌照资源，头部集中
+        keywords: [投资银行, 承销, 保荐]
+        stocks:
+          - {name: 中金公司, code: "601995", tier: 相关, note: 投行与跨境业务}
+  - stage: 公司类型
+    segments:
+      - name: 头部综合券商
+        what: 资本实力、机构客户与国际化业务强，业绩韧性好
+        moat: 规模与牌照，并购整合的主导方
+        keywords: []
+        stocks:
+          - {name: 中信证券, code: "600030", tier: 核心, note: 行业龙头；机构推荐头部券商}
+          - {name: 国泰海通, code: "601211", tier: 核心, note: 国泰君安吸收合并海通后的龙头；机构推荐}
+          - {name: 华泰证券, code: "601688", tier: 核心, note: 机构推荐头部券商}
+          - {name: 招商证券, code: "600999", tier: 相关, note: 机构称兼具估值修复与经营改善预期}
+          - {name: 广发证券, code: "000776", tier: 相关, note: 机构称兼具估值修复与经营改善预期}
+      - name: 互联网券商与金融信息
+        what: 线上开户交易、行情软件、投顾
+        moat: 流量与用户活跃度；对成交额最敏感
+        keywords: [金融信息服务, 互联网, 软件]
+        stocks:
+          - {name: 同花顺, code: "300033", tier: 核心, note: 金融信息服务龙头，机构称有业绩和估值弹性}
+          - {name: 东方财富, code: "300059", tier: 核心, note: 同上}
+          - {name: 财富趋势, code: "688318", tier: 相关, note: 行情交易软件}
+          - {name: 大智慧, code: "601519", tier: 相关, note: 金融信息服务}
+      - name: 中小券商（并购与业绩弹性）
+        what: 并购重组预期和业绩增速带来个股行情
+        moat: 无；靠事件
+        keywords: []
+        stocks:
+          - {name: 华安证券, code: "600909", tier: 相关, note: 年初至 9-09 涨 20.66%，中报增速第一梯队}
+          - {name: 长江证券, code: "000783", tier: 相关, note: 年初至 9-09 涨 15.54%}
+  - stage: 非银金融其他（对照）
+    segments:
+      - name: 保险
+        what: 寿险、财险；看利率、权益市场和负债端
+        moat: 渠道与资产端能力
+        keywords: [保险]
+        stocks:
+          - {name: 中国平安, code: "601318", tier: 相关, note: 机构称受益资金回流与负债端改善}
+          - {name: 中国太保, code: "601601", tier: 相关, note: 同上}
+          - {name: 中国人寿, code: "601628", tier: 相关, note: 同上}
+          - {name: 新华保险, code: "601336", tier: 相关, note: 同上}
+
+focus:
+  - segment: 政策催化
+    why: 10-19 金融街论坛：央行设立非银机构流动性支持工具，证监会表态支持券商并购重组、首批主动 ETF 注册、多层次市场改革
+    url: https://www.21jingji.com/article/20261019/herald/6bddedf52d2b94cb5f432fe4a1f0d2fd.html
+  - segment: 低估值修复
+    why: PB 约 1.26 倍（历史 13% 分位），业绩高增而股价下跌；国金证券 10-22 称低估值券商板块性价比较高
+    url: https://www.stcn.com/article/detail/4232312.html
+  - segment: 头部集中
+    why: 三季报前瞻称头部优势凸显，利润增速或优于行业
+    url: https://finance.eastmoney.com/a/202610183899167714.html
+
+history:
+  - window: 2023-07-25 前后
+    trigger: 中央政治局会议提出“活跃资本市场”（7-24），次日券商大涨；8-27 印花税减半
+    driver: 政策
+    leaders: ""
+    fade: 政策落地后成交额没有持续放大，行情很快回落
+    verified: false
+  - window: 2024-09-24 ~ 2024-10-08
+    trigger: 924 一揽子政策 + 9-26 政治局会议“努力提振资本市场”；国泰君安与海通 9 月初宣布合并
+    driver: 政策 + 成交额暴增
+    leaders: 东方财富（中军）、指南针等互联网券商弹性最大
+    fade: 10-08 成交额创纪录后见顶，随后宽幅震荡
+    verified: false
+  - window: 2025 全年
+    trigger: 成交额和两融走高，券商并购潮（国泰君安合并海通、国联整合民生等）
+    driver: 成交额 + 并购
+    leaders: ""
+    fade: 年初至 8 月底与上证同步，9 月后回落；截至 12-11 券商指数年内仅涨 2.11%，同期上证涨超 15%
+    url: https://www.cs.com.cn/gppd/gsyj/202512/t20251212_6527869.html
+    verified: true
+  - window: 2026-01 ~ 2026-09
+    trigger: 无板块级行情；业绩高增但股价下跌，年初至 9-09 跌 11.69%
+    driver: 业绩与估值背离
+    leaders: 少数业绩领先的中小券商（华安证券、长江证券）逆势上涨
+    fade: ""
+    url: https://www.huxiu.com/article/4889861.html
+    verified: true
+
+falsifiers:
+  - 成交额继续萎缩、两融继续回落（7—8 月日均成交已较上半年回落约 9.5%）
+  - 四季度自营继续拖累，业绩环比下滑（三季度前瞻环比约 -24%）
+  - 并购重组只有表态没有新案例
+  - 10-19 的流动性工具针对的是债市赎回风险，对权益市场的直接作用有限，政策预期落空
+
+risks:
+  - 券商定增、配股补资本（稀释）
+  - 大股东减持、监管处罚、立案调查
+
+calendar:
+  - date: 2026-10-31
+    event: 上市券商三季报披露截止（前瞻：净利同比两位数增长，头部优势明显）
+    url: https://finance.eastmoney.com/a/202610183899167714.html
+  - date: 2026-12 中旬
+    event: 中央经济工作会议（惯例时间），关注资本市场表述
+
+wencai:
+  universe: 所属同花顺行业是证券的股票
+  index: 证券
+  search: 券商
+
+local:
+  keywords: 券商|证券公司|证券业|非银|两融|融资融券|印花税|互联网券商|活跃资本市场|成交额合计|主动ETF|西藏券商
+  exclude: 香港证监会|立案告知书|日本|韩国|美国
+  boards: 证券|券商|互联网金融|非银|多元金融|保险
+
+sources:
+  - title: 虎嗅：2026 年券商板块表现与业绩背离（2026-09-09）
+    url: https://www.huxiu.com/article/4889861.html
+  - title: 东方财富：10 月 20 日每日研选，非银金融板块修复窗口渐近
+    url: https://finance.eastmoney.com/a/202610203900546443.html
+  - title: 21经济网：潘功胜宣布非银机构大额赎回流动性支持工具（2026-10-19）
+    url: https://www.21jingji.com/article/20261019/herald/6bddedf52d2b94cb5f432fe4a1f0d2fd.html
+  - title: 中证网：2025 年券商板块回顾（2025-12-12）
+    url: https://www.cs.com.cn/gppd/gsyj/202512/t20251212_6527869.html

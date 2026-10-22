@@ -1,0 +1,228 @@
+# 题材档案 · 知识层（人工维护，程序只读）。字段说明见 topics/README.md。
+name: AI应用
+slug: ai-app
+aliases: [人工智能应用, AIGC, 智能体, AI Agent, 大模型应用]
+updated: 2026-10-22
+reviewed: false
+
+one_liner: >-
+  把大模型做成产品并收费的公司：办公、营销、内容、教育、医疗、金融 IT、企业软件里的 AI 功能和智能体。
+  A 股炒的是“模型能力跃迁 → 应用放量”的预期，催化多来自海内外大模型发布；难点是收入兑现慢，多数公司 AI 收入占比很小。
+
+boundary:
+  includes:
+    - 软件与互联网应用中的 AI 产品和智能体（办公、营销与广告、内容文娱、教育、医疗、金融 IT、企业软件）
+    - 训练数据与语料提供商
+  excludes:
+    - 算力（芯片、服务器、光模块、液冷）：“卖铲子”的上游，FinHOT 单列为“算力”题材
+    - AI 手机、AI 眼镜等端侧硬件：归消费电子
+  related:
+    - name: 算力
+      diff: 上游；和应用常走跷跷板（9-04 GPT-6 Astra 发布次日硬件跌、应用涨，9-07 又反过来）
+    - name: 大模型
+      diff: 中游；A 股有自研模型的是科大讯飞、昆仑万维、三六零等，智谱、MiniMax 在港股
+    - name: 数据要素 / 信创
+      diff: 不少软件公司同时在这些概念里，催化不同
+
+status:
+  - text: 国务院《关于深入实施“人工智能+”行动的意见》：2027 年新一代智能终端、智能体等应用普及率超 70%，2030 年超 90%
+    url: https://news.10jqka.com.cn/20250827/c670668652.shtml
+  - text: 2026 年被多家券商称为“AI 应用元年”“智能体元年”，判断从技术验证转向商业推广
+    url: https://finance.sina.com.cn/jjxw/2026-01-13/doc-inhhchmz9339131.shtml
+  - text: 收入兑现仍少：2026 年 1 月炒作中，博瑞传播、引力传媒的 GEO 业务营收为零或尚未产生收入，蓝色光标 AI 相关收入占比较小
+    url: https://finance.sina.com.cn/jjxw/2026-01-13/doc-inhhchmz9339131.shtml
+  - text: 中国大模型调用量连续 24 周全球第一（10-12 报道）
+    url: https://finance.sina.com.cn/7x24/2026-10-12/doc-iniuyarh0471202.shtml
+
+drivers:
+  types: [海外映射, 产业趋势, 政策]
+  evidence: 预期为主，收入兑现少
+  summary: >-
+    每次重大模型发布（ChatGPT、Sora、DeepSeek、GPT-6）都会点燃一轮应用炒作，持续多久取决于收入能否跟上。
+    资金常在“算力”和“应用”之间切换；模型发布当天应用涨、硬件跌的“叙事切换”往往只持续一两天。
+
+policy:
+  - date: 2025-08
+    name: 《关于深入实施“人工智能+”行动的意见》
+    issuer: 国务院
+    points: 六大行动（科学技术、产业发展、消费提质、民生福祉、治理能力、全球合作）；2027 年智能体等应用普及率超 70%
+    url: https://news.10jqka.com.cn/20250827/c670668652.shtml
+  - date: 2026-09 初
+    name: 培育人工智能应用服务商相关政策
+    issuer: 工信部
+    points: 钛媒体称这是 9-04 软件股上涨的催化之一（原文待补）
+    url: https://www.tmtpost.com/8130901.html
+  - date: 2026-10-20
+    name: 工业数据集与垂域大模型
+    issuer: 工信部
+    points: 支持企业围绕核心环节建设高质量工业数据集，开发垂域大模型和各类工业专用模型
+    url: https://wallstreetcn.com/livenews/3181679
+
+overseas:
+  - name: OpenAI
+    ticker: 未上市
+    link: GPT-6 Astra 9-03 发布，次日 A 股天娱数科、翠微股份、楚天龙涨停，四方精创 20cm；10-08 GPT-6 向全部 ChatGPT 用户上线。传导：次日
+    url: https://news.qq.com/rain/a/20260904A0AQ0500
+  - name: Anthropic / Google 智能体
+    ticker: 未上市 / GOOGL
+    link: 谷歌云 10-08 发布“通用工作智能体”Gemini Agent；Anthropic 10-22 推出全天候智能体 Claude Duet
+    url: https://wallstreetcn.com/livenews/3182936
+  - name: 智谱、MiniMax
+    ticker: 2513.HK / 0100.HK
+    link: 2026 年 1 月登陆港股，1-12 带动 A 股 AI 应用全线爆发
+    url: https://finance.sina.com.cn/jjxw/2026-01-13/doc-inhhchmz9339131.shtml
+  - name: DeepSeek
+    ticker: 未上市
+    link: V4 预览版 4-24 开源；10-20 美国政府指示各机构停用 DeepSeek，国产模型的“自主可控”叙事增强
+    url: https://www.cls.cn/detail/2509747
+
+chain:
+  - stage: 上游 · 数据与算力
+    segments:
+      - name: 数据与语料
+        what: 训练数据采集标注、版权内容与语料
+        moat: 数据版权与合规
+        keywords: [数据标注, 语料, 训练数据, 数据服务]
+        stocks:
+          - {name: 海天瑞声, code: "688787", tier: 核心, note: 训练数据服务}
+          - {name: 中文在线, code: "300364", tier: 相关, note: 网文版权与语料；2026-01 领涨“易中天”之一}
+      - name: 算力
+        what: 见 FinHOT“算力”题材，不在本档案展开
+        moat: ""
+        keywords: []
+        stocks: []
+  - stage: 中游 · 模型与平台
+    segments:
+      - name: 自研大模型与平台
+        what: 通用或行业大模型、模型即服务
+        moat: 模型能力与调用量；面临海内外头部模型的价格战
+        keywords: [大模型, 模型平台]
+        stocks:
+          - {name: 科大讯飞, code: "002230", tier: 核心, note: 星火大模型；教育、医疗、政务落地}
+          - {name: 昆仑万维, code: "300418", tier: 核心, note: 天工大模型与海外 AI 应用；2026-01 20cm}
+          - {name: 三六零, code: "601360", tier: 相关, note: 自研模型与安全}
+  - stage: 下游 · 场景应用
+    segments:
+      - name: 办公与协同
+        what: 文档、表格、PDF 中的 AI 功能，按订阅收费
+        moat: 用户基数与付费习惯；看 AI 订阅收入占比和续费率
+        keywords: [办公软件, 文档, PDF, 协同]
+        stocks:
+          - {name: 金山办公, code: "688111", tier: 核心, note: WPS AI；订阅制，收入兑现最直接}
+          - {name: 福昕软件, code: "688095", tier: 相关, note: PDF 与文档 AI}
+      - name: 营销与广告（含 GEO）
+        what: AI 生成素材、投放优化、生成式引擎优化（GEO）
+        moat: 客户资源；AI 收入占比普遍小
+        keywords: [营销, 广告, 数字营销, 投放]
+        stocks:
+          - {name: 蓝色光标, code: "300058", tier: 核心, note: 2026-01 20cm；AI 相关收入占比较小}
+          - {name: 易点天下, code: "301171", tier: 相关, note: 2026-01“易中天”之一，9-04 大涨超 10%}
+          - {name: 天龙集团, code: "300063", tier: 相关, note: 2026-01“易中天”之一}
+          - {name: 引力传媒, code: "603598", tier: 相关, note: 2026-01 六天五板，GEO 尚未产生收入}
+      - name: 内容与文娱
+        what: AI 视频、短剧、游戏、数字人
+        moat: IP 与内容储备
+        keywords: [影视, 短剧, 游戏, 视频, 数字人]
+        stocks:
+          - {name: 万兴科技, code: "300624", tier: 相关, note: AI 视频创意软件}
+          - {name: 天娱数科, code: "002354", tier: 相关, note: 9-04 涨停}
+      - name: 金融 IT
+        what: 银行、券商的软件与智能体，数字货币与跨境支付
+        moat: 金融客户资质
+        keywords: [银行IT, 金融科技, 金融软件, 支付]
+        stocks:
+          - {name: 四方精创, code: "300468", tier: 相关, note: 9-04 20cm（金融科技与数字货币同时催化）}
+          - {name: 宇信科技, code: "300674", tier: 相关, note: 9-04 跟涨}
+          - {name: 科蓝软件, code: "300663", tier: 相关, note: 9-04 跟涨}
+      - name: 企业软件与智能体
+        what: ERP、CRM 等企业软件里的智能体
+        moat: 企业客户与流程数据
+        keywords: [ERP, 企业管理软件, 智能体, 云服务]
+        stocks:
+          - {name: 用友网络, code: "600588", tier: 核心, note: 企业软件龙头；看 AI 订单与项目毛利}
+          - {name: 汉得信息, code: "300170", tier: 相关, note: 企业软件实施}
+      - name: 医疗与教育
+        what: AI 问诊、医院信息化、学习机与教育应用
+        moat: 场景准入与数据
+        keywords: [医疗信息化, 医疗, 教育, 学习机]
+        stocks:
+          - {name: 卫宁健康, code: "300253", tier: 相关, note: 医疗信息化；2026-01 ChatGPT Health 带动 AI 医疗方向}
+
+focus:
+  - segment: 智能体（Agent）
+    why: 海外密集发布全天候智能体（OpenAI Dots 9-30、Gemini Agent 10-08、Claude Duet 10-22）
+    url: https://wallstreetcn.com/livenews/3182936
+  - segment: 工业 AI 与垂域模型
+    why: 工信部 10-20 表态支持工业数据集和垂域大模型
+    url: https://wallstreetcn.com/livenews/3181679
+  - segment: 国产模型自主可控
+    why: 10-20 美国政府停用 DeepSeek，商务部回应；DeepSeek 正在大额融资
+    url: https://www.cls.cn/detail/2509747
+
+history:
+  - window: 2023-01 ~ 2023-04
+    trigger: ChatGPT 走红（2022-11 发布）
+    driver: 海外映射
+    leaders: 汉王科技、中文在线、昆仑万维、海天瑞声等
+    fade: ""
+    verified: false
+  - window: 2024-02 ~ 2024-03
+    trigger: OpenAI 发布 Sora（2-16），Kimi 长文本走红（3 月）
+    driver: 海外映射 + 国产模型
+    leaders: ""
+    fade: ""
+    verified: false
+  - window: 2025-02 ~ 2025-03
+    trigger: DeepSeek-R1 发布（1-20）后春节后爆发；Manus 带火智能体（3 月）
+    driver: 国产模型突破
+    leaders: ""
+    fade: ""
+    verified: false
+  - window: 2026-01
+    trigger: 智谱、MiniMax 登陆港股，OpenAI 推出 ChatGPT Health（1-08）；1-12 板块全线爆发
+    driver: 海外映射 + 港股映射
+    leaders: 蓝色光标、易点天下、中文在线、昆仑万维 20cm；引力传媒六天五板；易点天下、中文在线、天龙集团被称为新“易中天”
+    fade: 多家公司澄清 GEO 收入为零或尚未产生收入
+    url: https://finance.sina.com.cn/jjxw/2026-01-13/doc-inhhchmz9339131.shtml
+    verified: true
+  - window: 2026-09-04 ~ 09-07
+    trigger: OpenAI 发布 GPT-6 Astra（9-03）
+    driver: 海外映射 + 工信部应用服务商政策
+    leaders: 天娱数科、翠微股份、楚天龙涨停，四方精创 20cm
+    fade: 9-07 硬件反弹、软件回落，“软硬切换”只持续一个交易日
+    url: https://www.tmtpost.com/8130901.html
+    verified: true
+
+falsifiers:
+  - 收入兑现不及预期，公司澄清“相关收入为零或占比很小”（2026-01 已多次出现）
+  - 基础模型厂商自己做应用，挤压第三方应用公司的利润
+  - 模型发布引发的“软硬切换”只持续一两天就反转
+  - 海外监管与禁令升级
+
+risks:
+  - 澄清公告、异常波动公告
+  - 减持、亏损扩大
+
+calendar:
+  - date: 2026-10-31
+    event: 三季报披露截止，看 AI 收入占比、订阅收入与订单
+
+wencai:
+  universe: AI应用概念股
+  index: AI应用
+  search: AI应用
+
+local:
+  keywords: AI应用|智能体|Agent|AIGC|多模态|GEO|AI营销|AI办公|AI教育|AI医疗|DeepSeek|Kimi|豆包|GPT-6|ChatGPT|Gemini|Claude|Sora|文生视频|AI短剧|垂域大模型
+  exclude: 算力|光模块|服务器|芯片|液冷|数据中心|CPU|GPU|融资|估值|营收|致歉|辞职|入侵|漏洞|起诉|诉讼|安全研究
+  boards: AI应用|AIGC|智能体|多模态|AI语料|短剧|文生视频|GEO|ChatGPT|Kimi|DeepSeek|AI营销|Sora
+
+sources:
+  - title: 新浪财经：AI 应用概念股暴涨背后（2026-01-13）
+    url: https://finance.sina.com.cn/jjxw/2026-01-13/doc-inhhchmz9339131.shtml
+  - title: 腾讯新闻：OpenAI 发布 GPT-6 Astra，次日 A 股 AI 应用板块多股涨停（2026-09-04）
+    url: https://news.qq.com/rain/a/20260904A0AQ0500
+  - title: 钛媒体：GPT-6 发布，硬件跌停、应用涨停：一次被过度解读的叙事切换？
+    url: https://www.tmtpost.com/8130901.html
+  - title: 同花顺财经：“人工智能+”行动顶层设计来了（2025-08-27）
+    url: https://news.10jqka.com.cn/20250827/c670668652.shtml

@@ -14,6 +14,8 @@
   python -m finhot backtest            # 信号战绩：日报里存下的信号之后几天的表现（reports/backtest/latest.md）
   python -m finhot push-market         # 马上算一次涨停原因，推给网站“盘面”页（平时推送进程收盘后自动跑）
   python -m finhot probe               # 检查行情数据接口（东方财富、同花顺、新浪）在这台机器上能不能连通
+  python -m finhot topic build         # 题材档案卡：知识层 topics/*.yaml + 问财数据 → reports/topics/（见 topics/README.md）
+  python -m finhot topic probe 机器人   # 检查问财接口返回的列名；topic usage 看问财调用次数
 """
 
 from __future__ import annotations
@@ -107,8 +109,86 @@ def cmd_auto(args) -> int:
         except (Exception, SystemExit) as e:  # noqa: BLE001
             print(f"::warning::周报生成失败：{e}")
             failed = True
+    # 题材档案：配了问财 key 才跑；盘后版出了之后、今天还没有问财快照就跑一次。失败不影响日报提交
+    if report_path(t.strftime("%Y-%m-%d"), EDITIONS["close"]).exists() and _topics_due(t):
+        print(f"[auto] {t:%m-%d %H:%M} 更新题材档案")
+        try:
+            _print_topic_results(_build_topics(None, no_wencai=False))
+            did = True
+        except Exception as e:  # noqa: BLE001
+            print(f"::warning::题材档案生成失败：{e}")
     if not did and not failed:
         print(f"[auto] {t:%m-%d %H:%M} 当前时段无需生成（已生成或不在时段内）")
+    return 0
+
+
+def _topics_due(t) -> bool:
+    from .config import env
+    return bool(env("IWENCAI_API_KEY")) and not (DATA_DIR / "topics" / t.strftime("%Y-%m-%d")).exists()
+
+
+def _build_topics(names: list[str] | None, no_wencai: bool):
+    from .topic.build import build_all
+    from .wencai import Wencai
+    client = None if no_wencai else Wencai.from_env()
+    if client is None and not no_wencai:
+        print("没有设置 IWENCAI_API_KEY：只用知识层和 FinHOT 本地数据，行情和成分股部分会是空的", file=sys.stderr)
+    return build_all(names, client)
+
+
+def _print_topic_results(results) -> None:
+    for r in results:
+        wd = r.wencai
+        extra = f"，问财调用 {wd.calls} 次、缓存 {wd.cache_hits} 次、成分股 {wd.total} 只" if wd else ""
+        print(f"{r.topic.title}：{r.stage.name}{extra} → {r.path}")
+        for e in r.errors[:5]:
+            print(f"  ⚠️ {e}")
+
+
+def cmd_topic(args) -> int:
+    from .topic import kb
+    from .wencai import Wencai, usage
+
+    if args.action == "list":
+        for t in kb.all_topics():
+            print(f"{t.title:<8} {t.slug:<10} {'已校对' if t.get('reviewed') else '未校对'}  更新于 {t.get('updated', '—')}"
+                  f"  别名：{'、'.join(t.get('aliases', []))}")
+        return 0
+    if args.action == "build":
+        _print_topic_results(_build_topics(args.names or None, args.no_wencai))
+        return 0
+    if args.action == "usage":
+        rows = usage(DATA_DIR, args.days)
+        if not rows:
+            print("还没有问财调用记录（data/topics/wencai-usage.jsonl）")
+        for r in rows:
+            skills = "、".join(f"{k} {v}" for k, v in sorted(r["skills"].items()))
+            print(f"{r['day']}  调用 {r['calls']:>3} 次（成功 {r['ok']}，失败 {r['failed']}）  {skills}")
+        return 0
+    if args.action == "draft":
+        from .llm import LLMClient
+        from .topic.draft import draft
+        if not args.names:
+            print("用法：python -m finhot topic draft 题材名称 [--universe 问财选股问句]", file=sys.stderr)
+            return 2
+        llm = LLMClient.from_env()
+        if llm is None:
+            print("起草需要模型：设置 LLM_API_KEY（见 README）", file=sys.stderr)
+            return 2
+        print(draft(args.names[0], llm, Wencai.from_env(), args.universe, force=args.force))
+        return 0
+    # probe
+    from .topic.build import probe
+    client = Wencai.from_env()
+    if client is None:
+        print("没有设置 IWENCAI_API_KEY（在 https://www.iwencai.com/skillhub 登录后，点任意官方技能卡片可见）",
+              file=sys.stderr)
+        return 2
+    topic = kb.find(args.names[0]) if args.names else kb.all_topics()[0]
+    if topic is None:
+        print(f"找不到题材：{args.names[0]}", file=sys.stderr)
+        return 2
+    print("\n".join(probe(topic, client)))
     return 0
 
 
@@ -280,6 +360,15 @@ def main(argv: list[str] | None = None) -> int:
     bk.add_argument("--days", type=int, default=90, help="统计最近多少天的信号")
     bk.add_argument("--out", help="输出目录（默认写入仓库 reports/ 和 data/）")
     bk.set_defaults(func=cmd_backtest)
+
+    tp = sub.add_parser("topic", help="题材档案：build / list / probe / usage / draft（见 topics/README.md）")
+    tp.add_argument("action", choices=["build", "list", "probe", "usage", "draft"])
+    tp.add_argument("names", nargs="*", help="题材名称、slug 或别名；build 不写就是全部")
+    tp.add_argument("--no-wencai", action="store_true", help="不调问财，只用知识层和 FinHOT 本地数据")
+    tp.add_argument("--days", type=int, default=7, help="usage：统计最近多少天")
+    tp.add_argument("--universe", help="draft：问财选股问句主体，默认“<名称>概念股”")
+    tp.add_argument("--force", action="store_true", help="draft：覆盖已有的 YAML")
+    tp.set_defaults(func=cmd_topic)
 
     g = sub.add_parser("gold", help="抽金标样本、生成标注页、合成 gold.jsonl")
     g.add_argument("--n", type=int, default=200, help="抽多少条")
