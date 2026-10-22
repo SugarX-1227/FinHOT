@@ -1,0 +1,30 @@
+# 上市公司公告的类型表：标题按顺序匹配，第一个命中的就是它的类型。改标准只改这里。
+#
+#   importance  这类公告的“通用重要性”（0~10），个人简报里和关联强度相乘排序；快讯用的 rule_score 不适用于公告
+#   push        持仓股出这类公告时即时提醒（免打扰时段延后到下一份简报）
+#   catalyst    涨停归因里算“催化”（true）、“提示”（notice：公司在给炒作降温）还是都不算（不写）
+#   whitelist   进简报和涨停归因的类型（false 的只存不用，比如董事会决议、法律意见书）
+#
+# 没命中任何类型的归“其他”，不进白名单。exclude 里的标题直接跳过（摘要、英文版、更正前的版本……）。
+
+exclude: "摘要|英文版|English|（已取消）|取消$"
+
+types:
+  - {name: 业绩预告, pattern: "业绩预告|业绩快报|预增|预减|扭亏|首亏|续亏|略增|略减|业绩预盈|业绩预亏", importance: 8, push: true, catalyst: true, whitelist: true}
+  - {name: 停复牌, pattern: "停牌|复牌", importance: 8, push: true, whitelist: true}
+  - {name: 退市与ST, pattern: "退市|终止上市|其他风险警示|撤销.{0,8}风险警示|\\*ST|摘帽|戴帽", importance: 9, push: true, catalyst: notice, whitelist: true}
+  - {name: 监管问询, pattern: "问询函|监管函|关注函|警示函|监管工作函|立案|行政处罚|纪律处分|通报批评|责令改正", importance: 8, push: true, catalyst: notice, whitelist: true}
+  - {name: 控制权变更, pattern: "控制权|实际控制人.{0,4}变更|控股股东.{0,6}变更|要约收购|表决权委托|协议转让", importance: 9, push: true, catalyst: true, whitelist: true}
+  - {name: 重组并购, pattern: "重大资产重组|资产重组|发行股份.{0,6}购买资产|吸收合并|收购.{0,12}股权|购买.{0,12}股权|出售.{0,12}股权|重组", importance: 9, push: true, catalyst: true, whitelist: true}
+  - {name: 澄清与异动, pattern: "澄清|异常波动|严重异常|风险提示|交易风险", importance: 5, push: false, catalyst: notice, whitelist: true}
+  - {name: 增持, pattern: "增持", importance: 7, push: true, catalyst: true, whitelist: true}
+  - {name: 减持, pattern: "减持", importance: 7, push: true, whitelist: true}
+  - {name: 回购, pattern: "回购", importance: 6, push: false, catalyst: true, whitelist: true}
+  - {name: 解禁, pattern: "限售.{0,10}上市流通|解除限售|解禁", importance: 6, push: false, whitelist: true}
+  - {name: 重大合同, pattern: "重大合同|中标|签订.{0,10}合同|签署.{0,10}(?:合同|协议)|日常经营重大|项目定点|战略合作", importance: 7, push: true, catalyst: true, whitelist: true}
+  - {name: 股东变动, pattern: "权益变动|股份转让|质押|冻结|司法拍卖|举牌", importance: 6, push: false, whitelist: true}
+  - {name: 定期报告, pattern: "年度报告|半年度报告|季度报告|年报|中报|季报", importance: 6, push: false, catalyst: true, whitelist: true}
+  - {name: 分红送转, pattern: "权益分派|利润分配|分红|送转|转增", importance: 5, push: false, catalyst: true, whitelist: true}
+  - {name: 融资, pattern: "向特定对象发行|非公开发行|定增|可转换公司债|可转债|配股", importance: 6, push: false, catalyst: true, whitelist: true}
+  - {name: 股东大会, pattern: "股东大会", importance: 3, push: false, whitelist: true}
+  - {name: 经营动态, pattern: "获批|获得.{0,10}(?:批准|注册|认证)|临床试验|投产|量产|新产品|专利", importance: 6, push: false, catalyst: true, whitelist: true}

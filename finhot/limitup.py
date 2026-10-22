@@ -1,6 +1,7 @@
 """涨停原因归因：每只涨停股为什么涨停，附上依据。
 
 依据按可信度从高到低：
+0. 公告：巨潮等公告源里这家公司（按代码对上）前两天的公告，类型表说是催化的（业绩预增、重组、控制权变更、重大合同……）；
 1. 公司消息：标题点名这家公司的新闻（业绩、中标、重组、获批、澄清……）；
 2. 盘面播报：收评、异动里点名它的那句话（“影视传媒板块爆发，上海电影、……涨停”），从句子里读出板块；
 3. 同花顺涨停原因（能取到时）：专业整理的题材标签，如“固态电池+业绩增长”；
@@ -45,7 +46,7 @@ _PHRASE_STOP = re.compile(r"^(?:其中|今日|午后|早盘|盘中|尾盘|随后
 
 @dataclass
 class Evidence:
-    kind: str          # 公司 / 盘面 / 同花顺 / 题材 / 板块
+    kind: str          # 公告 / 公司 / 盘面 / 同花顺 / 题材 / 板块
     text: str
     source: str = ""
     url: str = ""
@@ -110,11 +111,30 @@ def _gist(title: str, name: str, limit: int = 30) -> str:
     return t[:cut] if cut >= limit // 2 else t[:limit] + "…"
 
 
+# 带“营收 / 净利润”的标题不一定是好消息：“上半年营收 1.41 亿元 净亏损 1.30 亿元”以前被当成了催化（威派格，10/13）
+_NEGATIVE = re.compile(r"亏损|下滑|下降|减少|预减|首亏|续亏|预亏|未能|失败|未通过|撤回|不予")
+_TURNAROUND = re.compile(r"扭亏|减亏|亏损收窄|同比转盈")
+
+
 def _kind(title: str) -> str:
     """公司新闻的类别：催化 / 提示 / 其他。"""
     if _NOTICE.search(title):
         return "提示"
-    return "催化" if _CATALYST.search(title) else "其他"
+    if _CATALYST.search(title) and not (_NEGATIVE.search(title) and not _TURNAROUND.search(title)):
+        return "催化"
+    return "其他"
+
+
+def _announcement_kind(it: NewsItem) -> str:
+    """公告的类别：类型表（sources/announcements.yaml）说是催化的，还要标题本身不是坏消息（业绩预告里的预亏）。"""
+    from .announce import type_of
+    t = type_of(it)
+    if t.catalyst == "提示" or _NOTICE.search(it.content or it.title):
+        return "提示"
+    if t.catalyst == "催化" and _kind(it.content or it.title) != "提示" and not (
+            _NEGATIVE.search(it.content or it.title) and not _TURNAROUND.search(it.content or it.title)):
+        return "催化"
+    return "其他"
 
 
 def _company_evidence(name: str, items: list[NewsItem]) -> list[Evidence]:
@@ -146,9 +166,14 @@ def _recap_evidence(name: str, items: list[NewsItem], zt_names: set[str]) -> lis
 
 
 def attribute(snap: MarketSnapshot, items: list[NewsItem], themes: list[ThemeRow] | None = None,
-              ths_reasons: dict[str, str] | None = None) -> list[LimitUp]:
-    """给快照里的每只涨停股找原因。items 是用来找依据的新闻（越全越好，含前一两天的）。"""
+              ths_reasons: dict[str, str] | None = None, announcements: list[NewsItem] | None = None) -> list[LimitUp]:
+    """给快照里的每只涨停股找原因。items 是用来找依据的新闻（越全越好，含前一两天的）；
+    announcements 是公告（按代码对上，比按名字找新闻可靠），有催化类公告的可信度为“高”。"""
     ths_reasons = ths_reasons if ths_reasons is not None else snap.zt_reasons
+    by_code: dict[str, list[NewsItem]] = {}
+    for a in announcements or []:
+        for c in a.codes[:1]:
+            by_code.setdefault(c, []).append(a)
     theme_rows = {r.theme: r for r in (themes or [])}
     zt_names = {s["name"] for s in snap.zt_stocks}
     leaders = {b.leader: b for b in sorted(snap.concepts, key=lambda b: -b.pct) if b.leader and b.pct > 0}
@@ -157,6 +182,9 @@ def attribute(snap: MarketSnapshot, items: list[NewsItem], themes: list[ThemeRow
     for s in snap.zt_stocks:
         r = LimitUp(code=s["code"], name=s["name"], boards=s.get("boards", 1), first_time=s.get("first_time", ""),
                     industry=s.get("industry", ""), stat=s.get("stat", ""), ths_reason=ths_reasons.get(s["code"], ""))
+        anns = sorted(by_code.get(r.code, []), key=lambda a: ({"催化": 0, "提示": 1}.get(_announcement_kind(a), 2), -a.published.timestamp()))
+        r.evidence += [Evidence("公告", f"{a.tags[0] if a.tags else '公告'}：{a.content or a.title}", a.source_name, a.url)
+                       for a in anns[:2]]
         company = _company_evidence(r.name, items)
         recap = _recap_evidence(r.name, items, zt_names)
         r.evidence += company[:2] + recap[:2]
@@ -175,8 +203,15 @@ def attribute(snap: MarketSnapshot, items: list[NewsItem], themes: list[ThemeRow
     peers = Counter(t for r in rows for t in r.themes[:1])
     for r in rows:
         company = [e for e in r.evidence if e.kind == "公司"]
+        anns = sorted(by_code.get(r.code, []), key=lambda a: -a.published.timestamp())
+        ann_catalyst = next((a for a in anns if _announcement_kind(a) == "催化"), None)
+        ann_notice = next((a for a in anns if _announcement_kind(a) == "提示"), None)
         catalyst = next((e for e in company if _kind(e.text) == "催化"), None)
         notice = next((e for e in company if _kind(e.text) == "提示"), None)
+        if ann_catalyst:
+            catalyst = Evidence("公告", ann_catalyst.content or ann_catalyst.title, ann_catalyst.source_name, ann_catalyst.url)
+        if ann_notice and not notice:
+            notice = Evidence("公告", ann_notice.content or ann_notice.title)
         other = next((e for e in company if _kind(e.text) == "其他"), None)
         recap = [e for e in r.evidence if e.kind == "盘面"]
         phrase = next((p for p in (_board_phrase(e.text.replace(r.name, "")) for e in recap) if p), "")
@@ -212,11 +247,16 @@ def attribute(snap: MarketSnapshot, items: list[NewsItem], themes: list[ThemeRow
 
 
 def coverage(rows: list[LimitUp]) -> float:
-    """有实际依据（公司消息、盘面播报、同花顺原因或领涨概念）的涨停股占比。"""
+    """有实际依据（公告、公司消息、盘面播报、同花顺原因或领涨概念）的涨停股占比。"""
     if not rows:
         return 0.0
-    ok = sum(1 for r in rows if any(e.kind in ("公司", "盘面", "同花顺", "板块") for e in r.evidence))
+    ok = sum(1 for r in rows if any(e.kind in ("公告", "公司", "盘面", "同花顺", "板块") for e in r.evidence))
     return round(ok / len(rows) * 100, 1)
+
+
+def announced(rows: list[LimitUp]) -> int:
+    """用上了公告作依据的涨停股只数。"""
+    return sum(1 for r in rows if any(e.kind == "公告" for e in r.evidence))
 
 
 def recent_items(data_dir: Path, until: datetime, days: int = 2) -> list[NewsItem]:

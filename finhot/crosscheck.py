@@ -34,7 +34,8 @@ class ThemeRow:
 
 
 def cross_check(items: list[NewsItem], snap: MarketSnapshot, min_score: float = 5.0,
-                top_items: int = 300, limit: int = 10) -> list[ThemeRow]:
+                top_items: int = 300, limit: int = 10, keep_all: bool = False) -> list[ThemeRow]:
+    """keep_all：没有判断（共振 / 资金先行 / 新闻热·资金冷）的题材也返回（个人简报要看每个关注题材的状态）。"""
     rows: dict[str, ThemeRow] = {}
 
     def row(t: str) -> ThemeRow:
@@ -84,6 +85,6 @@ def cross_check(items: list[NewsItem], snap: MarketSnapshot, min_score: float = 
             r.verdict = "新闻热·资金冷"
 
     order = {"共振": 0, "资金先行": 1, "新闻热·资金冷": 2}
-    picked = [r for r in rows.values() if r.verdict and r.pct is not None]
-    picked.sort(key=lambda r: (order[r.verdict], -(r.heat + r.zt * 3 + max(r.pct or 0, 0) * 2)))
+    picked = [r for r in rows.values() if keep_all or (r.verdict and r.pct is not None)]
+    picked.sort(key=lambda r: (order.get(r.verdict, 3), -(r.heat + r.zt * 3 + max(r.pct or 0, 0) * 2)))
     return picked[:limit]

@@ -119,10 +119,22 @@ def load_signals(data_dir: Path = DATA_DIR, since: date | None = None, into: Sig
                     continue
                 it = NewsItem.from_dict(json.loads(line))
                 llm = it.llm or {}
-                if llm.get("direction") not in ("利好", "利空") or float(llm.get("score") or 0) < MIN_LLM_SCORE:
+                if float(llm.get("score") or 0) < MIN_LLM_SCORE:
+                    continue
+                title = llm.get("title") or it.title
+                if llm.get("impacts"):  # 每个板块各自的方向（2026-10-16 起的数据）
+                    picked: dict[str, str] = {}
+                    for x in llm["impacts"]:
+                        if x.get("direction") in ("利好", "利空"):
+                            for theme in board_themes(x["sector"]) or themes_in(x["sector"]):
+                                picked.setdefault(theme, x["direction"])
+                    for theme, direction in list(picked.items())[:2]:
+                        add(f"{direction}新闻", it.published, theme, title)
+                    continue
+                if llm.get("direction") not in ("利好", "利空"):
                     continue
                 for theme in item_themes(it)[:2]:
-                    add(f"{llm['direction']}新闻", it.published, theme, llm.get("title") or it.title)
+                    add(f"{llm['direction']}新闻", it.published, theme, title)
         for path in sorted(day_dir.glob("meta*.json")):
             meta = json.loads(path.read_text(encoding="utf-8"))
             at = datetime.fromisoformat(meta["until"]) if meta.get("until") else None

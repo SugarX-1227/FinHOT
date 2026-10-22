@@ -1,0 +1,25 @@
+# 个人画像示例（这一份入库，只是示例；你自己的画像放 profiles/<名字>.yaml，profiles/ 下除本文件外都不入库）。
+# 也可以用命令生成：
+#   python -m finhot profile init 我 --themes 锂电储能,算力,半导体
+#   python -m finhot profile import 我 自选股导出.csv --as holdings     # 同花顺 / 东方财富导出的文件、或随手粘贴的代码清单
+#   python -m finhot profile show 我
+
+name: example
+holdings: ["002594", "300750"]       # 持仓（代码）
+watch: ["688981", "601138"]          # 自选观察
+themes: [锂电储能, 算力, 半导体]       # 关注题材，名字和 finhot/themes.py 的一致
+style: 波段                           # 短线 / 波段 / 中长线
+hours: ["08:20", "15:45"]            # 常看时段：到点在服务器上生成简报（12 点前是盘前版，15 点后是盘后版）
+
+push:
+  channel: none                      # feishu / wecom / none
+  webhook: env:FINHOT_WEBHOOK_EXAMPLE # 写 env:变量名 从环境变量读；直接写地址也行（这个文件不入库）
+  secret: ""                         # 飞书机器人“签名校验”的密钥（可选）
+  daily_limit: 8
+  quiet: "22:30-07:30"
+
+aliases:                             # 新闻里对你的股票的其他叫法（可选）
+  "002594": [比亚迪股份]
+
+relations:                           # 关系库：只走一层；status 为“待审核”的不参与排序，改成“已确认”或自己写的才用
+  - {code: "300750", target: "002460", kind: 上游, source: 人工维护, confidence: 1.0, status: 已确认}

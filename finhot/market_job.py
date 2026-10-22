@@ -23,7 +23,7 @@ from .backtest import run_backtest
 from .collect import collect
 from .crosscheck import cross_check
 from .dedup import dedup
-from .limitup import attribute, coverage, write_reasons
+from .limitup import announced, attribute, coverage, write_reasons
 from .scoring import score_all
 from .site_api import Site
 from .timeutil import TZ, now
@@ -33,6 +33,7 @@ log = logging.getLogger(__name__)
 AFTER_CLOSE = time(15, 10)
 RETRY = timedelta(minutes=30)
 EVIDENCE_HOURS = 30
+ANNOUNCE_HOURS = 48   # 公告常在前一天晚上发
 
 
 def due(at: datetime, done: str | None, tried: str | None) -> bool:
@@ -43,8 +44,24 @@ def due(at: datetime, done: str | None, tried: str | None) -> bool:
     return not tried or at - datetime.fromisoformat(tried) >= RETRY
 
 
+def limitup_announcements(snap: MarketSnapshot, at: datetime, fetch=None) -> tuple[list, str]:
+    """涨停股前两天的公告（按代码查，比全市场翻页省得多）。公告源都连不上时返回空列表，涨停原因照常出。"""
+    from . import announce
+    from .entities import book
+
+    fetch = fetch or announce.fetch
+    b = book()
+    codes = {s["code"]: (b.get(s["code"]).org_id if b.get(s["code"]) else "") for s in snap.zt_stocks}
+    try:
+        items, results = fetch(at - timedelta(hours=ANNOUNCE_HOURS), codes)
+    except Exception as e:  # noqa: BLE001
+        return [], f"公告取不到：{type(e).__name__}"
+    bad = [r.source_id for r in results if not r.ok]
+    return items, f"公告 {len(items)} 条" + (f"，{'、'.join(bad)} 没连上" if bad else "")
+
+
 def limitup_day(snap: MarketSnapshot, rows: list) -> dict:
-    return {"trade_date": snap.trade_date, "coverage": coverage(rows), "breadth": snap.breadth,
+    return {"trade_date": snap.trade_date, "coverage": coverage(rows), "announced": announced(rows), "breadth": snap.breadth,
             "ladder": snap.ladder, "stocks": [r.to_dict() for r in rows]}
 
 
@@ -72,15 +89,16 @@ def run_market(site: Site, sources: list[dict], data_dir: Path, at: datetime | N
 
     raw = [it for r in collect(sources, since=at - timedelta(hours=EVIDENCE_HOURS)) for it in r.items]
     items = score_all(dedup(raw))
-    rows = attribute(snap, items, cross_check(items, snap) if snap.ok else [])
+    anns, ann_note = limitup_announcements(snap, at)
+    rows = attribute(snap, items, cross_check(items, snap) if snap.ok else [], announcements=anns)
     rewritten = write_reasons(rows, llm) if llm else 0
     day = limitup_day(snap, rows)
     ddir = data_dir / today.isoformat()
     ddir.mkdir(parents=True, exist_ok=True)
     (ddir / "limitup.json").write_text(json.dumps(day, ensure_ascii=False, indent=1), encoding="utf-8")
     site.push("limitup", snap.trade_date, day)
-    msg = (f"涨停 {len(rows)} 只，有依据 {coverage(rows):.0f}%，同花顺原因 {len(snap.zt_reasons)} 条，"
-           f"模型改写 {rewritten} 条；依据新闻 {len(items)} 条")
+    msg = (f"涨停 {len(rows)} 只，有依据 {coverage(rows):.0f}%，用上公告 {announced(rows)} 只（{ann_note}），"
+           f"同花顺原因 {len(snap.zt_reasons)} 条，模型改写 {rewritten} 条；依据新闻 {len(items)} 条")
     try:
         return f"{msg}；{record(site, data_dir)}"
     except Exception as e:  # noqa: BLE001 —— 涨停原因已经推了，战绩下一个交易日再算

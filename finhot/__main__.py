@@ -14,6 +14,15 @@
   python -m finhot backtest            # 信号战绩：日报里存下的信号之后几天的表现（reports/backtest/latest.md）
   python -m finhot push-market         # 马上算一次涨停原因，推给网站“盘面”页（平时推送进程收盘后自动跑）
   python -m finhot probe               # 检查行情数据接口（东方财富、同花顺、新浪）在这台机器上能不能连通
+
+个性化（见 docs/PERSONALIZATION.md；画像和个人数据都不入库）：
+  python -m finhot entities sync       # 同步全 A 股清单（巨潮），记改名、ST、退市
+  python -m finhot entities link       # 抽查最近几天快讯的实体链接
+  python -m finhot profile init 我 --themes 锂电储能,算力,半导体
+  python -m finhot profile import 我 自选.csv --as holdings
+  python -m finhot brief --profile 我 [--send] [--weekly]
+  python -m finhot eval --profile 我 [--pool | --labels labels.json]
+  python -m finhot backtest --announcements   # 按公告类型的事件研究
 """
 
 from __future__ import annotations
@@ -46,6 +55,17 @@ def cmd_sources(args) -> int:
         print(f"{r.source_id:<14}{'OK' if r.ok else 'FAIL':<6}{len(r.items):>5}  {r.seconds:>5.1f}s  {detail}")
     ok = sum(r.ok for r in results)
     print(f"\n{ok}/{len(results)} 个信源正常")
+    from collections import Counter
+
+    from .announce import announcement_sources
+    from .entities import exchange_of
+    anns = collect(announcement_sources(cfg), now() - timedelta(hours=max(args.hours, 24)), max_pages=2)
+    if anns:
+        print("\n公告源（各取 2 页，看能不能连上、沪深京是不是都有）：")
+        for r in anns:
+            ex = Counter(exchange_of(it.codes[0]) for it in r.items if it.codes)
+            detail = r.error or "  ".join(f"{k} {v}" for k, v in sorted(ex.items())) or "（窗口内无数据）"
+            print(f"{r.source_id:<14}{'OK' if r.ok else 'FAIL':<6}{len(r.items):>5}  {r.seconds:>5.1f}s  {detail}")
     return 0 if ok else 1
 
 
@@ -98,6 +118,21 @@ def cmd_auto(args) -> int:
             did = True
         except Exception as e:  # noqa: BLE001
             print(f"::warning::回测失败：{e}")
+    # 股票清单每天同步一次（新股、改名、ST、退市）；按公告类型的事件研究跟着盘后版更新。都是公开数据，失败不影响日报
+    from . import entities
+    if (entities.load_file().get("updated") or "")[:10] != t.strftime("%Y-%m-%d"):
+        try:
+            path, changes = entities.sync()
+            print(f"[auto] 股票清单已同步：{path}；" + "，".join(f"{k} {len(v)}" for k, v in changes.items()))
+            did = True
+        except Exception as e:  # noqa: BLE001
+            print(f"::warning::股票清单同步失败：{e}")
+    if ed and ed.key == "close":
+        try:
+            from .evaluate import run_event_study
+            print(run_event_study())
+        except Exception as e:  # noqa: BLE001
+            print(f"::warning::公告事件研究没算成：{e}")
     # 周六/周日：本周周报还没出就出一份。周报失败不能影响已生成的日报被提交，所以单独兜住
     if t.weekday() >= 5 and t.hour >= 6 and not weekly_exists(t.date()):
         print("[auto] 生成本周周报")
@@ -207,11 +242,167 @@ def cmd_backtest(args) -> int:
     from .backtest import PricesUnavailable, run_backtest
 
     try:
+        if args.announcements:
+            from .evaluate import run_event_study
+            print(run_event_study(days=args.days, out_dir=Path(args.out) if args.out else None))
+            return 0
         print(run_backtest(days=args.days, out_dir=Path(args.out) if args.out else None))
     except PricesUnavailable as e:
         # 行情接口暂时连不上（海外机器上常见）：上一次的结果原样保留。退出码 3 让调用方能和真正的错误区分开
         print(f"::warning::回测跳过：{e}", file=sys.stderr)
         return 3
+    return 0
+
+
+def cmd_entities(args) -> int:
+    from . import entities
+
+    if args.action == "sync":
+        path, changes = entities.sync()
+        print(f"股票清单 → {path}")
+        for k, v in changes.items():
+            print(f"{k} {len(v)}：{'；'.join(v[:20])}{' …' if len(v) > 20 else ''}")
+        return 0
+    b = entities.book()
+    if args.action == "show":
+        print(f"股票清单：{len(b.stocks)} 只（{'全市场' if b.complete else '种子清单，先运行 entities sync'}，更新于 {b.updated}）")
+        for q in args.names:
+            hits = [b.get(q)] if b.get(q) else b.resolve(q)
+            for st in hits:
+                print(f"  {st.code} {st.name} {st.exchange} 行业:{st.industry or '-'} 曾用名:{'、'.join(st.former) or '-'}"
+                      f" 别称:{'、'.join(st.aliases) or '-'} H股:{st.hk or '-'} {'ST ' if st.st else ''}{st.status}")
+            if not hits:
+                print(f"  {q}：没找到")
+        return 0
+    # link：抽查最近几天快讯的实体链接，人工核对查准率
+    import random
+    from collections import Counter
+
+    from .linker import Linker
+    from .models import NewsItem
+    linker = Linker(b)
+    rows, seen = [], set()
+    for day in sorted(DATA_DIR.glob("20??-??-??"))[-args.days:]:
+        for path in sorted(day.glob("items*.jsonl")):
+            for line in path.read_text(encoding="utf-8").splitlines():
+                it = NewsItem.from_dict(json.loads(line))
+                if it.uid in seen:
+                    continue
+                seen.add(it.uid)
+                rows += [(m, it) for m in linker.link(it)]
+    roles = Counter(m.role for m, _ in rows)
+    print(f"{len(seen)} 条快讯，{len(rows)} 次点名：" + "，".join(f"{k} {v}" for k, v in roles.most_common()))
+    # 分层抽样：每种角色都抽一些，易混的名字（一名多码、常用词）全放进来
+    rng = random.Random(args.seed)
+    by_role: dict[str, list] = {}
+    for m, it in rows:
+        by_role.setdefault(m.role, []).append((m, it))
+    picked = []
+    for role, group in by_role.items():
+        picked += rng.sample(group, min(len(group), max(2, args.sample * len(group) // max(1, len(rows)))))
+    for m, it in picked[: args.sample]:
+        print(f"[{m.role}] {m.code} {m.name}（原文写作“{m.text}”）｜{it.title[:50]}")
+    return 0
+
+
+def cmd_profile(args) -> int:
+    from . import profile as P
+
+    if args.action == "list":
+        for pr in P.all_profiles():
+            print(f"{pr.name}：持仓 {len(pr.holdings)}，自选 {len(pr.watch)}，题材 {'、'.join(pr.themes) or '-'}，推送 {pr.push.channel}")
+        return 0
+    if args.action == "init":
+        path = P.path_of(args.name)
+        if path.exists() and not args.force:
+            print(f"{path} 已经有了（覆盖加 --force）", file=sys.stderr)
+            return 1
+        pr = P.Profile(args.name, holdings=P._codes(_only(args.holdings) or []), watch=P._codes(_only(args.watch) or []),
+                       themes=_only(args.themes) or [], style=args.style)
+        print(f"画像 → {P.save(pr)}")
+        for w in P.validate(pr):
+            print("⚠️", w)
+        return 0
+    pr = P.load(args.name)
+    if args.action == "import":
+        codes, unresolved = P.extract(P.read_text(Path(args.file)))
+        target = pr.holdings if args.as_ == "holdings" else pr.watch
+        before = len(target)
+        target += [c for c in codes if c not in target]
+        print(f"认出 {len(codes)} 只，新加进{'持仓' if args.as_ == 'holdings' else '自选'} {len(target) - before} 只 → {P.save(pr)}")
+        if unresolved:
+            print("没认出来的名字（可以手动写代码）：" + "、".join(unresolved))
+        return 0
+    if args.action == "relations":
+        from .relations import load_items, suggest
+        found = suggest(pr, load_items(args.days, now()))
+        pr.relations, added = P.merge_relations(pr.relations, found)
+        P.save(pr)
+        print(f"找到 {len(found)} 条候选关系，新加 {added} 条（状态“待审核”，在画像里改成“已确认”才参与排序）")
+        for r in found:
+            print(f"  {r.code} 的{r.kind}：{r.target}（置信度 {r.confidence}）“{r.quote}”")
+        return 0
+    from .entities import book
+    b = book()
+    print(f"画像 {pr.name}（{P.path_of(pr.name)}）")
+    print("持仓：" + ("、".join(b.label(c) for c in pr.holdings) or "-"))
+    print("自选：" + ("、".join(b.label(c) for c in pr.watch) or "-"))
+    print(f"题材：{'、'.join(pr.themes) or '-'}；风格：{pr.style}；常看时段：{'、'.join(pr.hours)}")
+    print(f"推送：{pr.push.channel}（{'地址已配置' if pr.push.url else '没有地址'}）")
+    for r in pr.relations:
+        print(f"关系：{b.label(r.code)} 的{r.kind} {r.target} · {r.status} · {r.source}" + (f"“{r.quote}”" if r.quote else ""))
+    for w in P.validate(pr, b):
+        print("⚠️", w)
+    return 0
+
+
+def cmd_brief(args) -> int:
+    from . import brief, profile as P
+    pr = P.load(args.profile)
+    if args.weekly:
+        from .evaluate import weekly_personal
+        md = weekly_personal(pr)
+        out = P.private_dir() / "briefs" / pr.name / f"{now():%Y-%m-%d}-weekly.md"
+        out.parent.mkdir(parents=True, exist_ok=True)
+        out.write_text(md, encoding="utf-8")
+        print(md)
+        if args.send:
+            from .notify import send
+            send(pr, f"我的周报 · {now():%m-%d}", md.split("\n", 2)[2])
+        print(f"\n（存在 {out}）", file=sys.stderr)
+        return 0
+    br = brief.run(pr, hours=args.hours, edition=args.edition, market=not args.no_market, site=not args.no_site,
+                   send=args.send)
+    print(br.markdown)
+    print(f"（存在 {brief.save_path(pr, br.at, br.edition)}）", file=sys.stderr)
+    return 0
+
+
+def cmd_feedback(args) -> int:
+    from . import history
+    if args.action == "serve":
+        from .feedback_server import serve
+        return 0 if serve(port=args.port) else 2
+    row = history.add_feedback(args.profile, args.item, args.label, now())
+    print(f"已记录：{history.LABELS[row['label']]}")
+    return 0
+
+
+def cmd_eval(args) -> int:
+    from . import evaluate
+    if args.pool:
+        page, n = evaluate.write_pool(args.profile, args.days, args.top)
+        print(f"盲标页（{n} 条）→ {page}；标完导出 labels.json，再运行：python -m finhot eval --profile {args.profile} --labels labels.json")
+        return 0
+    if args.labels:
+        from .profile import private_dir
+        rows = json.loads((private_dir() / "eval" / args.profile / "pool.json").read_text(encoding="utf-8"))
+        labels = json.loads(Path(args.labels).read_text(encoding="utf-8"))
+        for name, r in evaluate.compare(rows, labels).items():
+            label = "个性化排序" if name == "personal" else "通用排序"
+            print(f"{label}：标过 {r['labeled']} 条，有关 {r['useful']} 条，precision {r['precision']}%")
+        return 0
+    print(evaluate.feedback_report(args.profile, args.days))
     return 0
 
 
@@ -279,7 +470,55 @@ def main(argv: list[str] | None = None) -> int:
     bk = sub.add_parser("backtest", help="信号战绩：日报存下的信号之后几天的表现")
     bk.add_argument("--days", type=int, default=90, help="统计最近多少天的信号")
     bk.add_argument("--out", help="输出目录（默认写入仓库 reports/ 和 data/）")
+    bk.add_argument("--announcements", action="store_true", help="按公告类型的事件研究（reports/backtest/announcements.md）")
     bk.set_defaults(func=cmd_backtest)
+
+    en = sub.add_parser("entities", help="实体库：同步全 A 股清单、查股票、抽查实体链接")
+    en.add_argument("action", choices=["sync", "show", "link"])
+    en.add_argument("names", nargs="*", help="show：代码或简称")
+    en.add_argument("--days", type=int, default=5, help="link：最近几天的快讯")
+    en.add_argument("--sample", type=int, default=50, help="link：抽多少条")
+    en.add_argument("--seed", type=int, default=1)
+    en.set_defaults(func=cmd_entities)
+
+    pf = sub.add_parser("profile", help="个人画像（不入库）：init / import / show / relations / list")
+    pf.add_argument("action", choices=["init", "import", "show", "relations", "list"])
+    pf.add_argument("name", nargs="?", default="")
+    pf.add_argument("file", nargs="?", help="import：同花顺 / 东方财富导出的自选、或任意含代码的文本")
+    pf.add_argument("--as", dest="as_", choices=["holdings", "watch"], default="watch", help="import：导入到持仓还是自选")
+    pf.add_argument("--themes", help="init：关注题材，逗号分隔（冷启动选 3 个就能出简报）")
+    pf.add_argument("--holdings", help="init：持仓代码，逗号分隔")
+    pf.add_argument("--watch", help="init：自选代码，逗号分隔")
+    pf.add_argument("--style", default="波段", choices=["短线", "波段", "中长线"])
+    pf.add_argument("--days", type=int, default=30, help="relations：从最近多少天的快讯和公告里找")
+    pf.add_argument("--force", action="store_true")
+    pf.set_defaults(func=cmd_profile)
+
+    br = sub.add_parser("brief", help="我的盘前 5 分钟 / 盘后简报 / 我的周报（只在本地或服务器上生成）")
+    br.add_argument("--profile", required=True)
+    br.add_argument("--hours", type=float, help="采集最近多少小时（默认接着上一份简报，6~72 小时）")
+    br.add_argument("--edition", choices=["pre", "noon", "close"])
+    br.add_argument("--no-market", action="store_true", help="不取行情和日程")
+    br.add_argument("--no-site", action="store_true", help="不读网站精选")
+    br.add_argument("--send", action="store_true", help="发到画像里配的群")
+    br.add_argument("--weekly", action="store_true", help="我的周报")
+    br.set_defaults(func=cmd_brief)
+
+    fb = sub.add_parser("feedback", help="反馈：add 记一条；serve 起收反馈链接的服务")
+    fb.add_argument("action", choices=["add", "serve"])
+    fb.add_argument("--profile")
+    fb.add_argument("--item", help="条目 id（简报候选里的 id）")
+    fb.add_argument("--label", choices=["useful", "irrelevant", "known"])
+    fb.add_argument("--port", type=int)
+    fb.set_defaults(func=cmd_feedback)
+
+    ev = sub.add_parser("eval", help="个性化评估：反馈报告 / 盲标对比")
+    ev.add_argument("--profile", required=True)
+    ev.add_argument("--days", type=int, default=7)
+    ev.add_argument("--pool", action="store_true", help="生成盲标页（个性化与通用排序的前 N 条合并打乱）")
+    ev.add_argument("--top", type=int, default=10)
+    ev.add_argument("--labels", help="导入盲标结果，算两种排序的 precision")
+    ev.set_defaults(func=cmd_eval)
 
     g = sub.add_parser("gold", help="抽金标样本、生成标注页、合成 gold.jsonl")
     g.add_argument("--n", type=int, default=200, help="抽多少条")
@@ -292,7 +531,12 @@ def main(argv: list[str] | None = None) -> int:
     logging.basicConfig(level=logging.DEBUG if args.verbose else logging.INFO,
                         format="%(asctime)s %(levelname)s %(message)s", datefmt="%H:%M:%S")
     logging.getLogger("urllib3").setLevel(logging.WARNING)
-    return args.func(args)
+    from .profile import PrivacyError
+    try:
+        return args.func(args)
+    except (PrivacyError, FileNotFoundError) as e:
+        print(f"❌ {e}", file=sys.stderr)
+        return 2
 
 
 if __name__ == "__main__":

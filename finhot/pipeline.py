@@ -9,6 +9,7 @@ from dataclasses import asdict
 from datetime import timedelta
 from pathlib import Path
 
+from . import announce
 from . import llm as llm_mod
 from .ashare import MarketSnapshot, fetch_snapshot
 from .backtest import remember_boards
@@ -16,7 +17,7 @@ from .calendar_watch import Watchlist, fetch_watchlist
 from .collect import collect
 from .config import DATA_DIR, REPORTS_DIR, load_sources
 from .crosscheck import cross_check
-from .limitup import attribute, coverage, recent_items, write_reasons
+from .limitup import announced, attribute, coverage, recent_items, write_reasons
 from .dedup import dedup
 from .editions import EDITIONS, edition_by_time, window_since
 from .market import fetch_quotes
@@ -50,14 +51,17 @@ def run(hours: float | None = None, use_llm: bool = True, only: list[str] | None
 
     log.info("%s · 采集窗口 %s ~ %s", ed.name, since.strftime("%m-%d %H:%M"), until.strftime("%m-%d %H:%M"))
     watch_day = until + timedelta(days=1) if ed.key == "close" else until
-    with ThreadPoolExecutor(max_workers=3) as pool:
+    with ThreadPoolExecutor(max_workers=4) as pool:
         f_quotes = pool.submit(fetch_quotes, cfg["markets"])
         f_snap = pool.submit(fetch_snapshot) if market else None
         f_watch = pool.submit(fetch_watchlist, watch_day) if market else None
+        # 全市场公告（按类型白名单过滤，不按任何人的自选过滤，是公开数据）：涨停归因、事件研究、个人简报都用
+        f_ann = pool.submit(announce.fetch, since, None, announce.announcement_sources(cfg)) if market and not only else None
         results = collect(cfg["sources"], since, only=only)
         quotes = f_quotes.result()
         snap = f_snap.result() if f_snap else MarketSnapshot()
         watch = f_watch.result() if f_watch else Watchlist()
+        announcements, ann_results = f_ann.result() if f_ann else ([], [])
     if snap.industries or snap.concepts:  # 回测要用的板块代码：这里取到的全量东财板块并进存下的列表
         try:
             remember_boards([asdict(b) for b in snap.industries + snap.concepts], data_root)
@@ -83,7 +87,8 @@ def run(hours: float | None = None, use_llm: bool = True, only: list[str] | None
         # 找依据的新闻：本期全部 + 前两天存下的（公司公告常在前一天晚上）
         seen = {it.uid for it in items}
         evidence = items + [it for it in recent_items(DATA_DIR, until, days=2) if it.uid not in seen]
-        limitups = attribute(snap, evidence, themes)
+        anns = announcements + [a for a in announce.load_recent(until, days=2) if a.uid not in {x.uid for x in announcements}]
+        limitups = attribute(snap, evidence, themes, announcements=anns)
         if client:
             n = write_reasons(limitups, client)
             log.info("涨停原因：%d 只，有依据 %.0f%%，模型改写 %d 条", len(limitups), coverage(limitups), n)
@@ -102,7 +107,7 @@ def run(hours: float | None = None, use_llm: bool = True, only: list[str] | None
         llm_stats.update(client.usage, calls=client.calls, model=client.model)
 
     ctx = ReportContext(date=date, edition=ed.name, edition_key=ed.key, since=since, until=until, items=items,
-                        results=results, quotes=quotes, overview=overview, raw_count=len(raw),
+                        results=results + ann_results, quotes=quotes, overview=overview, raw_count=len(raw),
                         llm_stats=llm_stats, snapshot=snap, watch=watch, themes=themes, limitups=limitups)
     md = render(ctx)
 
@@ -127,12 +132,15 @@ def run(hours: float | None = None, use_llm: bool = True, only: list[str] | None
         "themes": [{"theme": r.theme, "verdict": r.verdict, "news": r.news_count, "heat": round(r.heat, 1),
                     "pct": r.pct, "inflow": r.inflow, "zt": r.zt} for r in themes],
         "sources": [{"id": r.source_id, "name": r.name, "ok": r.ok, "count": len(r.items),
-                     "pages": r.pages, "seconds": r.seconds, "error": r.error} for r in results],
+                     "pages": r.pages, "seconds": r.seconds, "error": r.error} for r in results + ann_results],
     }
     (ddir / f"meta{ed.suffix}.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
+    if announcements:
+        announce.save(announcements, ddir / f"announcements{ed.suffix}.jsonl")
     if limitups:
         (ddir / f"limitup{ed.suffix}.json").write_text(json.dumps(
-            {"trade_date": snap.trade_date, "coverage": coverage(limitups), "stocks": [r.to_dict() for r in limitups]},
+            {"trade_date": snap.trade_date, "coverage": coverage(limitups), "announced": announced(limitups),
+             "stocks": [r.to_dict() for r in limitups]},
             ensure_ascii=False, indent=1), encoding="utf-8")
     log.info("日报已生成：%s", report_path)
     return report_path

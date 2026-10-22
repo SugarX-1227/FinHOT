@@ -35,6 +35,7 @@
 | 类别 | 信源 |
 |---|---|
 | 7x24 快讯 | 财联社电报、华尔街见闻、金十数据、东方财富、新浪财经、同花顺、证券时报、第一财经 |
+| 上市公司公告 | 巨潮资讯（主）、东方财富公告中心（备用）：按类型白名单过滤，用于涨停归因和个人简报，不进快讯流 |
 | 官方政策 | 中国政府网·最新政策、美联储新闻稿、美联储讲话 |
 | 海外媒体 | CNBC、MarketWatch（英文 RSS） |
 | 行情快照 | 美股三大指数、中概金龙、恒指、日经、A50 期指、美元指数、离岸人民币、美债、黄金、原油、铜 |
@@ -128,6 +129,23 @@ GitHub 的定时任务实测经常延迟 3~7 小时（原来 07:30 的任务 10~
 - 精选质量校准：`python -m finhot gold` 抽 200 条样本、生成标注页 `data/gold/label.html`，标完导出 `gold.jsonl`，
   用 `web/scripts/eval-selection.ts` 校准门槛（见 `web/docs/selection.md`）
 
+## 个性化：我的盘前 5 分钟（内测）
+
+同一份日报给所有人，内容必然偏泛。个性化这一层只给“与你有关”的：持仓和自选的公告与新闻、关系库里的关联公司、关注题材的新闻 × 资金状态、
+持仓相关的日程，宏观压成一段；每条写明“为什么给你”（`持仓 比亚迪 · 新闻主体`、`持仓 宁德时代 · 公告（业绩预告）`），不写利好利空。
+
+```bash
+python -m finhot profile init 我 --themes 锂电储能,算力,半导体 --holdings 300750   # 画像存在 profiles/，不入库
+python -m finhot profile import 我 自选.csv --as watch     # 同花顺 / 东方财富导出的自选，或任意含代码的文本
+python -m finhot brief --profile 我                         # 出一份简报（不配模型也能出）；--send 发到飞书 / 企业微信群
+python -m finhot brief --profile 我 --weekly                # 我的周报
+python -m finhot eval --profile 我                          # 反馈报告；--pool 盲标对比个性化和通用排序
+```
+
+服务器上的推送进程按画像的常看时段自动出简报，持仓 / 自选的重大公告和持仓股盘中异动即时提醒（每人每天有上限、有免打扰）。
+画像、简报、推送记录、反馈都只在本机或服务器上，不进仓库、不上网站。设计与验收见 [docs/PERSONALIZATION.md](docs/PERSONALIZATION.md)，
+服务器上怎么配见 [docs/SERVER_SETUP.md](docs/SERVER_SETUP.md) 的“个人简报与持仓提醒”。
+
 ## 处理流程
 
 ```
@@ -171,7 +189,18 @@ finhot/
   site_api.py   网站接口：读精选快照、往“盘面”页推数据
   probe.py      行情数据接口体检（python -m finhot probe）
   gold.py       金标样本抽样与标注页
-sources/sources.yaml   信源与行情品种配置
+  entities.py   实体库：全 A 股清单、曾用名、ST、退市、别称
+  linker.py     实体链接：新闻点到了哪些公司、各自什么角色（主体 / 观点来源 / 行情名单……）
+  announce.py   上市公司公告：取、按类型过滤、落盘（适配器在 fetchers/notices.py）
+  profile.py    个人画像（不入库）与隐私守卫
+  personal.py   个人排序与“为什么给你”
+  brief.py      我的盘前 5 分钟 / 盘后简报
+  alerts.py     推送进程里的个人提醒：到点简报、公告、异动、上限、免打扰
+  evaluate.py   个性化评估、盲标对比、公告事件研究、我的周报
+sources/sources.yaml   信源与行情品种配置（announcements 段是公告源）
+sources/announcements.yaml  公告类型表；sources/personal.yaml 个人排序权重；sources/stories.yaml 宏观主线
+sources/entities/      股票清单（公开，每天同步）与人工维护的别称
+profiles/              个人画像（只有 example.yaml 入库）
 web/                   网站引擎（AIHOT，git subtree），财经定制在 web/industry/ 和 web/site/
 deploy/                服务器部署脚本（装机、生成配置、日常命令）
 docker-compose.yml     网站引擎 + 推送进程一起启动
@@ -201,6 +230,10 @@ docs/DESIGN.md         设计文档
 - [x] 涨停原因归因：公司消息、收评点名、同花顺原因、领涨概念、题材推断，带可信度（日报“涨停原因”、网站“盘面”）
 - [x] 回测与战绩：利好利空新闻、新闻×资金判断、涨停主线、网站精选的 A股影响 → 对应板块 T+1/3/5 超额与胜率
   （`python -m finhot backtest`，静态站“战绩”页，网站“盘面”页）
+- [x] 个性化 v1：画像、全 A 股实体库与实体链接（带角色）、巨潮 / 东财公告源、涨停归因用公告、我的盘前 5 分钟、
+  持仓提醒（飞书 / 企业微信）、反馈链接、盲标对比、按公告类型的事件研究（`docs/PERSONALIZATION.md`；服务器上待实测）
+- [x] 通用日报：每个板块各自给利好 / 利空方向；必读里同一件事最多 2 条；“XX：”只有上市公司才算公司新闻
+- [ ] 互动易 / 上证 e 互动；事件订阅；网站“只看我的”（已给方案）
 - [ ] 题材词典自动扩充（用 LLM 从板块成分与新闻中归纳新题材）
 
 ## 免责声明

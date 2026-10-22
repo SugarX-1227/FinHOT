@@ -9,8 +9,11 @@ from .ashare import MarketSnapshot
 from .calendar_watch import Watchlist
 from .crosscheck import ThemeRow
 from .limitup import LimitUp, coverage
+from .llm import impacts_of
 from .fetchers import FetchResult
 from .models import NewsItem
+from .textutil import normalize
+from .themes import item_themes, story_of
 
 SECTIONS = [
     ("宏观与政策", ("政策", "宏观")),
@@ -43,6 +46,7 @@ class ReportContext:
     themes: list[ThemeRow] = field(default_factory=list)
     edition_key: str = "pre"
     limitups: list[LimitUp] = field(default_factory=list)
+    per_story: int = 2     # 今日必读里同一件事最多几条（10/14 盘前版 10 条里 8 条是中东和美联储）
 
 
 def _brief(it: NewsItem, limit: int = 140) -> str:
@@ -79,9 +83,7 @@ def _entry(it: NewsItem, idx: int | None = None) -> str:
     body.append(f"<sub>{meta}{link}</sub>")
     lines = [head + "\\\n".join(body).replace("\n", "\n" + pad)]
     if it.llm.get("direction"):
-        parts = [DIR_ICON.get(it.llm["direction"], it.llm["direction"])]
-        if it.llm.get("sectors"):
-            parts.append("板块：" + "、".join(it.llm["sectors"]))
+        parts = [_impacts_text(it.llm)]
         if it.llm.get("stocks"):
             parts.append("个股：" + "、".join(it.llm["stocks"]))
         if it.llm.get("horizon"):
@@ -92,6 +94,46 @@ def _entry(it: NewsItem, idx: int | None = None) -> str:
         lines.append("")
         lines.append(pad + "> " + ("\\\n" + pad + "> ").join(quote))
     return "\n".join(lines)
+
+
+def _impacts_text(llm: dict) -> str:
+    """“🔺利好 · 板块：石油石化、军工；🔻利空 · 板块：航空”：同方向的板块并在一起；没有板块时只写方向。"""
+    groups: dict[str, list[str]] = {}
+    for x in impacts_of(llm):
+        groups.setdefault(x["direction"], []).append(x["sector"])
+    if not groups:
+        return DIR_ICON.get(llm["direction"], llm["direction"])
+    return "；".join(f"{DIR_ICON.get(d, d)} · 板块：{'、'.join(v)}" for d, v in groups.items())
+
+
+def _title_grams(it: NewsItem) -> set[str]:
+    t = normalize(it.llm.get("title") or it.title)
+    return {t[i:i + 2] for i in range(len(t) - 1)}
+
+
+def pick_top(items: list[NewsItem], n: int, per_story: int = 2) -> list[NewsItem]:
+    """按分数取前 n 条，同一件事（主题材相同，或标题字面很像）最多 per_story 条，多出来的让给后面的事。
+
+    去重聚簇只合并“同一条消息”，同一件事的不同进展（袭击、表态、军方声明）会各占一条，必读就被一件事占满。"""
+    picked: list[NewsItem] = []
+    stories: list[str] = []
+    counts: dict[str, int] = {}
+    for it in items:
+        if len(picked) >= n:
+            break
+        grams = _title_grams(it)
+        story = next((stories[k] for k, p in enumerate(picked)
+                      if len(grams & _title_grams(p)) >= 0.5 * max(1, min(len(grams), len(_title_grams(p))))), "")
+        if not story:
+            themes = item_themes(it)
+            main = story_of(it.llm.get("title") or it.title)
+            story = (f"主线:{main}" if main else f"题材:{themes[0]}" if themes else f"条目:{it.uid}")
+        if counts.get(story, 0) >= per_story:
+            continue
+        counts[story] = counts.get(story, 0) + 1
+        picked.append(it)
+        stories.append(story)
+    return picked
 
 
 def _fmt_num(v, digits: int = 2) -> str:
@@ -275,7 +317,7 @@ def render(ctx: ReportContext) -> str:
         out += ["## 要点速览", "", ctx.overview, ""]
 
     shown: set[str] = set()
-    top = [it for it in ctx.items if it.score >= ctx.min_score][: ctx.top_n]
+    top = pick_top([it for it in ctx.items if it.score >= ctx.min_score], ctx.top_n, ctx.per_story)
     out += [sec.title("今日必读"), ""]
     for i, it in enumerate(top, 1):
         out += [_entry(it, i), ""]

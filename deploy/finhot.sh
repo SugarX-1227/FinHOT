@@ -13,6 +13,9 @@
 #   market    马上算一次涨停原因，推到网站“盘面”页（平时交易日收盘后自动跑）
 #   probe     检查行情数据接口（东方财富、同花顺、新浪）在这台服务器上能不能连通
 #   doctor [--fix]  精选 / 日报为什么是空的：从入库到日报逐层体检；--fix 把分析失败的重新排队、卡住的精选候选重新归组
+#   profile <init|import|show|relations|list> ...  个人画像（存在仓库目录的 profiles/，不入库），参数同 python -m finhot profile
+#   brief <画像> [--send] [--weekly]  马上出一份个人简报（平时按画像里的常看时段自动出、自动发）
+#   personal-eval <画像> [--days 7]   个性化评估：反馈报告
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
@@ -95,6 +98,27 @@ case "${1:-help}" in
   probe)
     need_env
     compose exec -T pusher python -m finhot probe
+    ;;
+  profile)
+    need_env
+    shift
+    mkdir -p profiles
+    # 容器里的用户和这台机器上的用户不是同一个：用 root 写，再把文件交还给 profiles/ 的主人
+    compose exec -T -u root pusher sh -c 'python -m finhot profile "$@"; s=$?; chown -R --reference=/app/profiles /app/profiles; exit $s' sh "$@"
+    ;;
+  brief)
+    need_env
+    shift
+    name=${1:?用法：deploy/finhot.sh brief <画像名> [--send] [--weekly]}
+    shift
+    compose exec -T pusher python -m finhot brief --profile "$name" "$@"
+    ;;
+  personal-eval)
+    need_env
+    shift
+    name=${1:?用法：deploy/finhot.sh personal-eval <画像名> [--days 7]}
+    shift
+    compose exec -T pusher python -m finhot eval --profile "$name" "$@"
     ;;
   doctor)
     need_env
