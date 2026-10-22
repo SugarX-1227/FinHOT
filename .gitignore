@@ -11,6 +11,8 @@ venv/
 # 数据缓存
 data/raw/
 data/cache/
+# 问财原始返回的缓存（同一交易日内复用，不入库）；调用记录 wencai-usage.jsonl 和每日快照照常入库
+data/topics/cache/
 
 # 编辑器 / 系统
 .DS_Store

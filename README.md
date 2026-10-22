@@ -128,6 +128,27 @@ GitHub 的定时任务实测经常延迟 3~7 小时（原来 07:30 的任务 10~
 - 精选质量校准：`python -m finhot gold` 抽 200 条样本、生成标注页 `data/gold/label.html`，标完导出 `gold.jsonl`，
   用 `web/scripts/eval-selection.ts` 校准门槛（见 `web/docs/selection.md`）
 
+## 题材档案（问财取数）
+
+板块异动时快速看懂一个陌生题材：是什么、为什么炒、产业链、炒到哪个阶段、趋势中军和正宗龙头、近期催化、历史上怎么炒的、什么会证伪。
+冷门题材同样可查。每个题材一份档案卡 `reports/topics/<slug>.md`，静态站“题材”栏目可看。
+
+- **知识层**（`topics/<名称>.yaml`，人工校对）：产业链、驱动与政策、海外映射、历史行情、证伪节点，每条尽量带出处。字段见 [topics/README.md](topics/README.md)。
+- **数据层**（每次现取）：问财的成分股、市值、20/60 日涨幅、主营产品、营收净利增速、站上均线和创新高家数、新闻研报公告；
+  FinHOT 自己存下的快讯、涨停原因、板块记录。阶段按收盘数据判断：启动 / 发酵 / 主升 / 分歧 / 退潮 / 蛰伏。
+- 已有题材：机器人、券商（非银金融）、AI应用。新题材可以 `python -m finhot topic draft 名称` 让模型起草，校对后再用。
+
+```bash
+export IWENCAI_API_KEY=...              # 登录 https://www.iwencai.com/skillhub ，点任意官方技能卡片可见；不要提交到仓库
+python -m finhot topic probe 机器人      # 先看问财返回的列名对不对（约 4 次调用）
+python -m finhot topic build            # 生成全部档案卡（每个题材约 10~14 次调用，同一交易日重跑走缓存）
+python -m finhot topic usage            # 最近 7 天问财调用次数，用来摸清额度
+python -m finhot topic build --no-wencai   # 不调问财，只用知识层和本地数据
+```
+
+自动运行：GitHub Actions 里添加 Secret `IWENCAI_API_KEY` 后，每个交易日盘后版之后自动更新档案并存一份成分股快照
+（`data/topics/<日期>/`）；服务器上把 `IWENCAI_API_KEY` 写进 `web/.env`，用 `deploy/finhot.sh topic build`。
+
 ## 处理流程
 
 ```
@@ -171,6 +192,9 @@ finhot/
   site_api.py   网站接口：读精选快照、往“盘面”页推数据
   probe.py      行情数据接口体检（python -m finhot probe）
   gold.py       金标样本抽样与标注页
+  wencai.py     问财 OpenAPI 客户端（协议头、缓存、预算熔断、调用记录）
+  topic/        题材档案：知识层读取、问财与本地数据、阶段判断、档案卡渲染、模型起草
+topics/                题材档案的知识层（每个题材一个 YAML，人工校对）
 sources/sources.yaml   信源与行情品种配置
 web/                   网站引擎（AIHOT，git subtree），财经定制在 web/industry/ 和 web/site/
 deploy/                服务器部署脚本（装机、生成配置、日常命令）
@@ -201,6 +225,8 @@ docs/DESIGN.md         设计文档
 - [x] 涨停原因归因：公司消息、收评点名、同花顺原因、领涨概念、题材推断，带可信度（日报“涨停原因”、网站“盘面”）
 - [x] 回测与战绩：利好利空新闻、新闻×资金判断、涨停主线、网站精选的 A股影响 → 对应板块 T+1/3/5 超额与胜率
   （`python -m finhot backtest`，静态站“战绩”页，网站“盘面”页）
+- [x] 题材档案 v1：知识层 + 问财数据 → 档案卡（机器人、券商、AI应用），阶段判断、正宗度提示、成分股每日快照
+- [ ] 题材档案 v2：盘后雷达（自动发现连续走强的板块）、复盘库（3 年行情回算爆炒窗口与龙头）、港美股映射行情
 - [ ] 题材词典自动扩充（用 LLM 从板块成分与新闻中归纳新题材）
 
 ## 免责声明

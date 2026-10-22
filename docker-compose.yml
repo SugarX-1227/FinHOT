@@ -25,6 +25,10 @@ services:
       LLM_MODEL: ${LLM_MODEL:-}
       LLM_BODY_EXTRA: ${LLM_EXTRA_JSON:-}
       LLM_TRUST_ENV: "0"
+      # 题材档案（deploy/finhot.sh topic build）用问财取数；写在 web/.env 里，不要提交到仓库
+      IWENCAI_API_KEY: ${IWENCAI_API_KEY:-}
+      IWENCAI_BASE_URL: ${IWENCAI_BASE_URL:-}
+      IWENCAI_TRUST_ENV: "0"
     volumes:
       - pusher:/app/data
     depends_on:

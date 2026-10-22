@@ -1,0 +1,253 @@
+# 题材档案 · 知识层（人工维护，程序只读）。字段说明见 topics/README.md。
+# 数据层（成分股、涨幅、市值、主营、阶段指标、最新新闻研报）由 python -m finhot topic build 每次从问财和 FinHOT 数据现取。
+name: 机器人
+slug: robot
+aliases: [人形机器人, 具身智能, 机器人概念]
+updated: 2026-10-22
+reviewed: false   # 你校对过后改成 true；未校对的档案卡顶部会提示
+
+one_liner: >-
+  能像人一样行走、操作的通用机器人。A股炒的主要是零部件供应链（关节执行器、丝杠、减速器、灵巧手、传感器），
+  整机公司少；最大的外部催化是特斯拉 Optimus 的量产节奏，其次是国内本体公司上市和出货数据。
+
+boundary:
+  includes:
+    - 人形机器人整机与核心零部件（执行器、丝杠、减速器、电机、灵巧手、传感器、结构件与材料）
+    - 具身智能的“大脑、小脑”（模型、控制芯片）与四足机器人
+  excludes:
+    - 扫地机器人等消费电器：只是名字里有“机器人”
+  related:
+    - name: 工业机器人
+      diff: 焊接、搬运机械臂，看制造业资本开支，是周期逻辑；和人形机器人共用减速器、伺服电机，所以常被一起炒
+    - name: 具身智能
+      diff: 更宽，含 AI 模型和非人形形态（四足、轮式、机械臂）；政策文件多用这个词
+    - name: 特斯拉链 / 汽车零部件
+      diff: 拓普、三花等本来是汽车零部件公司，人形机器人是第二增长曲线，股价同时受汽车业务影响
+
+status:
+  - text: 2026 年上半年全球人形机器人销量 3.6 万台，超过 2025 年全年的 3.5 万台；收入 5.4 亿美元，按收入计前五名都是中国企业（弗若斯特沙利文）
+    url: https://m.21jingji.com/article/20261020/herald/02370b8a917b1b9dc3dd3b3d7d275850.html
+  - text: 工信部：上半年人形机器人整机产品突破 400 款、产量超 4 万台，预计全年产量突破 10 万台
+    url: https://m.21jingji.com/article/20261020/herald/02370b8a917b1b9dc3dd3b3d7d275850.html
+  - text: 宇树科技 2026-08-19 登陆科创板，成为 A 股人形机器人第一股，发行价 150.80 元，首日收盘 845 元
+    url: https://www.news.cn/20260819/9cf9af5185ba4f93b5b6843b45fe9e2d/c.html
+  - text: 所处阶段：导入期（0→1）。券商判断 2026 年出货量从数千台跨向数万台，卡点在数据和算法
+    url: https://m.21jingji.com/article/20261020/herald/02370b8a917b1b9dc3dd3b3d7d275850.html
+
+drivers:
+  types: [产业趋势, 海外映射, 政策]
+  evidence: 预期为主，零部件订单开始兑现
+  summary: >-
+    主线是“量产临界点”：海外看特斯拉 Optimus V3 何时量产、量多大，国内看本体公司出货和上市。
+    零部件公司的机器人收入目前占比普遍很小，股价炒的是未来定点和份额，所以对海外龙头的消息极其敏感。
+
+policy:
+  - date: 2023-11-02
+    name: 《人形机器人创新发展指导意见》
+    issuer: 工信部
+    points: 到 2025 年初步建立创新体系、突破“大脑、小脑、肢体”关键技术；到 2027 年综合实力达到世界先进水平
+    url: https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2023/art_48fe01d562644aedb7ea3f4256df8190.html
+  - date: 2025-03-05
+    name: 2025 年政府工作报告
+    issuer: 国务院
+    points: 首次写入“具身智能”，列为培育的未来产业
+    url: https://paper.people.com.cn/zgcsb/pc/content/202503/17/content_30062313.html
+  - date: 2026-03
+    name: “十五五”规划纲要
+    issuer: 全国人大
+    points: 推动量子科技、生物制造、氢能和核聚变能、脑机接口、具身智能、第六代移动通信等成为新的经济增长点
+    url: https://www.ndrc.gov.cn/xwdt/spfg/mtjj/202604/t20260401_1404454.html
+  - date: 2026-10-19
+    name: 九部门推动前沿科技成果转化
+    issuer: 九部门
+    points: 加速脑机接口、具身智能等前沿科技成果向市场转化
+    url: https://www.cls.cn/detail/2507952
+
+overseas:
+  - name: 特斯拉 Optimus
+    ticker: TSLA
+    link: >-
+      2026-10-19 向 SEC 提交的股东大会文件称第三代 Optimus“已为大规模量产做好准备”、正在建首批产线；
+      次日（10-20）A 股人形机器人近 50 股涨停或涨超 10%。传导：当日到次日，最受益的是特斯拉链（执行器、丝杠、灵巧手）
+    url: https://m.21jingji.com/article/20261020/herald/02370b8a917b1b9dc3dd3b3d7d275850.html
+  - name: 英伟达 Isaac / GR00T
+    ticker: NVDA
+    link: 机器人仿真与模型平台；10-21 升级 Isaac 并推出人形机器人参考框架。10-07 报道称讨论再向 Figure 投资 10 亿美元
+    url: https://www.cls.cn/detail/2511285
+  - name: OpenAI 机器人团队
+    ticker: 未上市
+    link: 截至 10-19 官网挂出 19 个机器人相关职位（控制、执行器、电机设计、制造等），券商列为“海外其他供应链”方向
+    url: https://m.21jingji.com/article/20261020/herald/02370b8a917b1b9dc3dd3b3d7d275850.html
+  - name: 优必选
+    ticker: 9880.HK
+    link: 港股人形机器人本体，订单公告常带动 A 股本体与供应链
+
+chain:
+  - stage: 上游 · 核心零部件
+    segments:
+      - name: 执行器总成（旋转、线性关节）
+        what: 电机 + 减速器/丝杠 + 传感器集成的关节模组，单机价值量最大的部分
+        moat: 系统集成能力和整机厂定点；谁进特斯拉、国内头部本体的供应链决定格局
+        keywords: [执行器, 关节模组, 机器人关节]
+        stocks:
+          - {name: 拓普集团, code: "601689", tier: 核心, note: 特斯拉链，执行器总成（国金证券列为特斯拉链）}
+          - {name: 三花智控, code: "002050", tier: 核心, note: 特斯拉链，执行器（国金证券列为特斯拉链）}
+          - {name: 富临精工, code: "300432", tier: 相关, note: 10-20 公告拟 5 亿元投建机器人智能电关节项目}
+      - name: 丝杠（行星滚柱、滚珠）
+        what: 把旋转变成直线运动，线性关节的核心件
+        moat: 磨削设备和工艺壁垒高，高端产品国产化率低，是弹性最大的环节之一
+        keywords: [丝杠, 滚柱, 滚珠]
+        stocks:
+          - {name: 恒立液压, code: "601100", tier: 核心, note: 国泰海通推荐（核心零部件）}
+          - {name: 五洲新春, code: "603667", tier: 相关, note: 轴承企业切入丝杠}
+          - {name: 北特科技, code: "603009", tier: 相关, note: 汽车零部件企业切入丝杠}
+      - name: 减速器（谐波、行星、RV）
+        what: 降速增扭，旋转关节必需
+        moat: 精度寿命与规模化成本；谐波减速器国产化程度较高
+        keywords: [减速器, 谐波, 行星减速, RV]
+        stocks:
+          - {name: 绿的谐波, code: "688017", tier: 核心, note: 谐波减速器龙头；国泰海通推荐、国金列为长期优质格局}
+          - {name: 双环传动, code: "002472", tier: 相关, note: 精密齿轮与减速器（国泰海通相关标的）}
+          - {name: 中大力德, code: "002896", tier: 相关, note: 减速器与电机一体化}
+      - name: 灵巧手与微型传动
+        what: 手部多自由度执行机构，含微型电机、齿轮箱、腱绳
+        moat: 自由度、负载与成本平衡；方案还在快速迭代
+        keywords: [灵巧手, 微型传动, 微特电机]
+        stocks:
+          - {name: 兆威机电, code: "003021", tier: 核心, note: 微型传动与灵巧手；国泰海通推荐}
+      - name: 电机与驱动
+        what: 无框力矩电机、空心杯电机、驱动器与驱动芯片
+        moat: 功率密度与控制算法；新技术方向有谐波磁场电机、GaN 驱动
+        keywords: [无框力矩电机, 空心杯, 伺服, 驱动器, 电机]
+        stocks:
+          - {name: 步科股份, code: "688160", tier: 相关, note: 伺服与无框电机（国泰海通相关标的）}
+          - {name: 鸣志电器, code: "603728", tier: 相关, note: 空心杯电机}
+          - {name: 峰岹科技, code: "688279", tier: 相关, note: 电机驱动芯片（国泰海通相关标的）}
+      - name: 传感器
+        what: 六维力/力矩、触觉、关节编码器、3D 视觉
+        moat: 精度与可靠性，高端力传感国产化低
+        keywords: [力传感, 六维力, 触觉, 编码器, 3D视觉, 传感器]
+        stocks:
+          - {name: 奥比中光, code: "688322", tier: 核心, note: 3D 视觉；国金列为长期优质格局}
+          - {name: 柯力传感, code: "603662", tier: 相关, note: 力传感器}
+          - {name: 安培龙, code: "301413", tier: 相关, note: 压力与力传感器（国泰海通相关标的）}
+      - name: 结构件与材料
+        what: 精密结构件、轻量化材料（PEEK）、热管理
+        moat: 精密制造与客户认证，壁垒相对低
+        keywords: [精密零组件, 结构件, PEEK, 轻量化]
+        stocks:
+          - {name: 长盈精密, code: "300115", tier: 核心, note: 1-8 月交付超 110 万件人形机器人精密零组件；国泰海通推荐}
+          - {name: 科达利, code: "002850", tier: 相关, note: 精密结构件（国泰海通相关标的）}
+          - {name: 浙江荣泰, code: "603119", tier: 相关, note: 国泰海通相关标的}
+          - {name: 宁波东力, code: "002164", tier: 相关, note: 国泰海通相关标的}
+          - {name: 银轮股份, code: "002126", tier: 相关, note: 热管理；国金列为海外其他供应链}
+  - stage: 中游 · 本体与大小脑
+    segments:
+      - name: 整机（本体）
+        what: 设计与组装整机，掌握运动控制和场景落地
+        moat: 运控算法、数据积累、规模化交付；A 股标的少，2026 年起陆续上市
+        keywords: [人形机器人整机, 机器人本体, 四足机器人]
+        stocks:
+          - {name: 宇树科技, code: "", tier: 核心, note: 2026-08-19 科创板上市，A 股人形机器人第一股}
+          - {name: 埃斯顿, code: "002747", tier: 相关, note: 工业机器人龙头，布局人形（国泰海通关注）}
+          - {name: 上纬新材, code: "688585", tier: 相关, note: 智元机器人取得控制权后的上市平台}
+      - name: 大脑与小脑
+        what: 具身大模型、运动控制、端侧算力芯片
+        moat: 数据与算法；A 股纯标的少，多在海外或未上市
+        keywords: [具身智能大模型, 运动控制, 机器人芯片]
+        stocks: []
+  - stage: 下游 · 应用场景
+    segments:
+      - name: 制造、物流、商用与家庭
+        what: 汽车与 3C 工厂、仓储搬运、导览教育、家庭服务，工信部称已在 300 多个重点场景验证部署
+        moat: 场景数据与可靠性
+        keywords: []
+        stocks: []
+
+focus:
+  - segment: 特斯拉链（执行器、丝杠、灵巧手）
+    why: 特斯拉 10-19 称 V3 已为量产做好准备，10-20 板块涨停潮；国金把特斯拉链排在第一方向（确定性和空间）
+    url: https://m.21jingji.com/article/20261020/herald/02370b8a917b1b9dc3dd3b3d7d275850.html
+  - segment: 本体上市潮及其供应链
+    why: 宇树 8 月上市后，智元、乐聚、银河通用等陆续上市，带动本体和国内供应链
+    url: https://m.21jingji.com/article/20261020/herald/02370b8a917b1b9dc3dd3b3d7d275850.html
+  - segment: 技术迭代
+    why: 谐波磁场电机、GaN 驱动、灵巧手、PEEK、高端轴承（国金证券五大方向之一）
+    url: https://m.21jingji.com/article/20261020/herald/02370b8a917b1b9dc3dd3b3d7d275850.html
+
+history:
+  - window: 2023-11 ~ 2023-12
+    trigger: 工信部发布《人形机器人创新发展指导意见》（11-02）；特斯拉发布 Optimus Gen 2 视频（12 月）
+    driver: 政策 + 海外映射
+    leaders: ""
+    fade: ""
+    verified: false
+  - window: 2024-10 ~ 2025-03
+    trigger: 特斯拉 We Robot 发布会（2024-10）→ 宇树机器人登上 2025 春晚（2025-01-28）→ 政府工作报告首提具身智能（2025-03-05）
+    driver: 海外映射 + 事件 + 政策
+    leaders: 中军拓普集团、三花智控；丝杠、灵巧手方向弹性最大
+    fade: ""
+    verified: false
+  - window: 2025-07 ~ 2025-09
+    trigger: 智元机器人拟取得上纬新材控制权（2025-07-08），宇树启动上市辅导
+    driver: 资本运作（本体借壳/上市预期）
+    leaders: 上纬新材
+    fade: ""
+    verified: false
+  - window: 2026-08
+    trigger: 宇树科技 8-19 科创板上市，首日收盘较发行价涨约 460%
+    driver: 事件（本体上市，估值锚）
+    leaders: 宇树科技
+    fade: ""
+    url: https://www.news.cn/20260819/9cf9af5185ba4f93b5b6843b45fe9e2d/c.html
+    verified: true
+  - window: 2026-10 起
+    trigger: 特斯拉称 Optimus V3 已为量产做好准备（10-19），10-20 涨停潮
+    driver: 海外映射 + 产业趋势
+    leaders: 当日 20cm 涨停有凡拓数创、赛摩智能、长盈精密，北交所嘉晨智能 30cm
+    fade: 进行中
+    url: https://finance.sina.com.cn/stock/marketresearch/2026-10-20/doc-inivwitp6450814.shtml
+    verified: true
+
+falsifiers:
+  - 特斯拉 V3 量产再延期，或年度股东大会（巴克莱预计最迟 12-06）没给出量产规模和供应商定点
+  - 全年产量明显低于工信部预计的 10 万台；本体公司营收增速放缓（宇树 10-20 已提示“行业尚处于商业化早期”）
+  - 零部件降价快于放量，供应商机器人业务毛利被压缩
+  - 本体新股解禁、估值回落，拖累整个板块的估值锚
+
+risks:
+  - 澄清公告：零部件公司常发“机器人业务收入占比很小”的澄清，属于蹭概念信号
+  - 异常波动公告、监管问询函、大股东减持
+
+calendar:
+  - date: 2026-10-22
+    event: 宇树科技 2026 世界物理 AI 大会暨合作伙伴生态大会
+    url: https://wallstreetcn.com/livenews/3180982
+  - date: 2026-10 下旬
+    event: 特斯拉三季度财报（看 Optimus 产线和量产表述）
+    url: https://flash.jin10.com/detail/20261018200452509800
+  - date: 2026-10-31
+    event: A 股三季报披露截止，看零部件公司机器人业务收入
+  - date: 2026-12-06 前
+    event: 特斯拉 2026 年度股东大会（巴克莱预计最迟 12-06）
+    url: https://www.cls.cn/detail/2505088
+
+wencai:
+  universe: 人形机器人概念股
+  index: 人形机器人
+  search: 人形机器人
+
+local:
+  keywords: 人形机器人|具身智能|灵巧手|减速器|丝杠|Optimus|擎天柱|宇树|智元|优必选|Figure|机器人
+  exclude: 扫地机器人|机器人流程自动化|RPA
+  boards: 人形机器人|机器人|减速器|具身|灵巧手
+
+sources:
+  - title: 21财经：特斯拉、OpenAI 等海外龙头同步发力，人形机器人板块行情升温（2026-10-20）
+    url: https://m.21jingji.com/article/20261020/herald/02370b8a917b1b9dc3dd3b3d7d275850.html
+  - title: 新浪财经：特斯拉引爆！A股人形机器人，批量涨停（2026-10-20）
+    url: https://finance.sina.com.cn/stock/marketresearch/2026-10-20/doc-inivwitp6450814.shtml
+  - title: 新华网：宇树科技登陆科创板（2026-08-19）
+    url: https://www.news.cn/20260819/9cf9af5185ba4f93b5b6843b45fe9e2d/c.html
+  - title: 工信部：《人形机器人创新发展指导意见》
+    url: https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2023/art_48fe01d562644aedb7ea3f4256df8190.html
