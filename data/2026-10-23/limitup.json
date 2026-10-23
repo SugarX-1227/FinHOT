@@ -1,0 +1,1242 @@
+{
+ "trade_date": "2026-10-22",
+ "coverage": 100.0,
+ "announced": 17,
+ "stocks": [
+  {
+   "code": "002724",
+   "name": "海洋王",
+   "boards": 5,
+   "first_time": "0925",
+   "industry": "照明设备",
+   "stat": "5天5板",
+   "reason": "军工题材炒作，专业照明叠加\"羊\"字辈5连板",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "军工"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：关于股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002724&announcementId=1225614919&orgId=9900023121&announcementTime=2026-10-22"
+    },
+    {
+     "kind": "盘面",
+     "text": "军工板块海洋王（4板）竞价涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2511744"
+    },
+    {
+     "kind": "盘面",
+     "text": "军工板块海洋王（3板）竞价涨停、长春一东（3板）低开3.30%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2510552"
+    },
+    {
+     "kind": "同花顺",
+     "text": "专业照明+AI照明+军工+“羊”字辈",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "专业照明+AI照明+军工+“羊”字辈",
+   "written_by": "模型"
+  },
+  {
+   "code": "603278",
+   "name": "大业股份",
+   "boards": 5,
+   "first_time": "0930",
+   "industry": "通用设备",
+   "stat": "5天5板",
+   "reason": "炒作机器人腱绳概念5连板，收监管工作函",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易风险提示公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603278&announcementId=1225616572&orgId=9900024931&announcementTime=2026-10-23"
+    },
+    {
+     "kind": "公告",
+     "text": "监管问询：关于山东大业股份有限公司有关股价波动事项的监管工作函",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603278/AN202610221830810029.html"
+    },
+    {
+     "kind": "公司",
+     "text": "上交所向大业股份下发监管工作函",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261022/c680995619.shtml"
+    },
+    {
+     "kind": "公司",
+     "text": "五连板大业股份：公司机器人腱绳产品目前仅处于客户送样验证阶段 未产生实质性收益",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261022210614754800"
+    },
+    {
+     "kind": "盘面",
+     "text": "大业股份收获5连板",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610233904643585.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "机器人概念股大业股份（4板）高开9.93%、泰尔股份（2板）低开7.02%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2511744"
+    },
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+橡胶骨架材料+全球销售",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：A股AI产业链迎多重事件催化 配套环节受关注",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103405250.html"
+    }
+   ],
+   "ths_reason": "人形机器人+橡胶骨架材料+全球销售",
+   "written_by": "模型"
+  },
+  {
+   "code": "002076",
+   "name": "星光股份",
+   "boards": 3,
+   "first_time": "0925",
+   "industry": "照明设备",
+   "stat": "5天4板",
+   "reason": "数据要素+量子科技题材炒作，4天3板",
+   "confidence": "中",
+   "themes": [
+    "数字经济",
+    "前沿科技"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002076&announcementId=1225613814&orgId=9900001102&announcementTime=2026-10-22"
+    },
+    {
+     "kind": "盘面",
+     "text": "南威软件、星光股份4天3板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2510917"
+    },
+    {
+     "kind": "同花顺",
+     "text": "数据要素+信息安全+LED封装+量子科技",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "数据要素+信息安全+LED封装+量子科技",
+   "written_by": "模型"
+  },
+  {
+   "code": "600293",
+   "name": "三峡新材",
+   "boards": 3,
+   "first_time": "0925",
+   "industry": "玻璃玻纤",
+   "stat": "10天5板",
+   "reason": "重大重组+锂电电解液+汽车电子玻璃题材炒作",
+   "confidence": "中",
+   "themes": [
+    "汽车",
+    "锂电储能"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：湖北三峡新型建材股份有限公司股票交易风险提示公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600293&announcementId=1225616228&orgId=gssh0600293&announcementTime=2026-10-23"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：湖北三峡新型建材股份有限公司股票交易风险提示公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/600293/AN202610221830803180.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "重大重组+锂电电解液+汽车电子玻璃",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "汽车：纳指大跌2.6% 费半指数重挫6.72%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2512863"
+    }
+   ],
+   "ths_reason": "重大重组+锂电电解液+汽车电子玻璃",
+   "written_by": "模型"
+  },
+  {
+   "code": "603138",
+   "name": "海量数据",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "IT服务Ⅱ",
+   "stat": "2天2板",
+   "reason": "数据库+AI应用题材炒作，定增注册概念",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603138&announcementId=1225616219&orgId=9900030534&announcementTime=2026-10-23"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：海量数据股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603138/AN202610221830803182.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "南威软件、星光股份4天3板，海量数据、天威视讯、三维天地涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2510917"
+    },
+    {
+     "kind": "盘面",
+     "text": "三维天地、海量数据、太极股份、南威软件等涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3182418"
+    },
+    {
+     "kind": "同花顺",
+     "text": "数据库+AI应用+定增注册",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "数据库+AI应用+定增注册",
+   "written_by": "模型"
+  },
+  {
+   "code": "601999",
+   "name": "出版传媒",
+   "boards": 2,
+   "first_time": "0930",
+   "industry": "出版",
+   "stat": "5天3板",
+   "reason": "AI出版题材炒作，出版板块联动涨停",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601999&announcementId=1225617036&orgId=9900003948&announcementTime=2026-10-23"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：出版传媒股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/601999/AN202610221830806778.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "读者传媒、出版传媒、粤传媒、天威视讯涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261021/c680924920.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "出版发行+AI出版+数智基金",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "出版发行+AI出版+数智基金",
+   "written_by": "模型"
+  },
+  {
+   "code": "600202",
+   "name": "哈空调",
+   "boards": 2,
+   "first_time": "0931",
+   "industry": "通用设备",
+   "stat": "8天4板",
+   "reason": "空冷器主业题材+股东增持概念2连板",
+   "confidence": "中",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：哈尔滨空调股份有限公司股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600202&announcementId=1225616070&orgId=gssh0600202&announcementTime=2026-10-23"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：哈尔滨空调股份有限公司股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/600202/AN202610221830802585.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "空冷器+飞翼空冷器+股东增持",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "空冷器+飞翼空冷器+股东增持",
+   "written_by": "模型"
+  },
+  {
+   "code": "600838",
+   "name": "上海九百",
+   "boards": 2,
+   "first_time": "1052",
+   "industry": "一般零售",
+   "stat": "2天2板",
+   "reason": "商贸零售+商业地产题材炒作2连板",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "监管问询：股票交易异常波动的问询函的回函",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600838&announcementId=1225617031&orgId=gssh0600838&announcementTime=2026-10-23"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600838&announcementId=1225617027&orgId=gssh0600838&announcementTime=2026-10-23"
+    },
+    {
+     "kind": "同花顺",
+     "text": "商贸零售+商业地产+洗染服务",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "商贸零售+商业地产+洗染服务",
+   "written_by": "模型"
+  },
+  {
+   "code": "603330",
+   "name": "天洋新材",
+   "boards": 2,
+   "first_time": "1354",
+   "industry": "塑料",
+   "stat": "4天3板",
+   "reason": "电子胶+光模块胶题材炒作，叠加\"羊\"字辈",
+   "confidence": "中",
+   "themes": [
+    "算力"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603330&announcementId=1225616263&orgId=9900030398&announcementTime=2026-10-23"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603330/AN202610221830803304.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "电子胶+光模块胶+热熔胶+“羊”字辈",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "电子胶+光模块胶+热熔胶+“羊”字辈",
+   "written_by": "模型"
+  },
+  {
+   "code": "001360",
+   "name": "南矿集团",
+   "boards": 1,
+   "first_time": "0925",
+   "industry": "专用设备",
+   "stat": "1天1板",
+   "reason": "拟1275万美元收购海外金矿公司51%股权",
+   "confidence": "高",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：年报信息披露重大差错责任追究制度",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=001360&announcementId=1225617427&orgId=9900055633&announcementTime=2026-10-23"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=001360&announcementId=1225617421&orgId=9900055633&announcementTime=2026-10-23"
+    },
+    {
+     "kind": "公司",
+     "text": "逆市涨停！南矿集团收购海外金矿 副董事长却反对",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610223904582680.html"
+    },
+    {
+     "kind": "公司",
+     "text": "南矿集团：拟1275万美元收购BDLP公司51%股权",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103404775.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "矿山装备+金属矿山+智能运维",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "矿山装备+金属矿山+智能运维",
+   "written_by": "模型"
+  },
+  {
+   "code": "002307",
+   "name": "北新路桥",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "基础建设",
+   "stat": "1天1板",
+   "reason": "基建盘活+公路施工+海外布局",
+   "confidence": "中",
+   "themes": [
+    "基建建材"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "净买入较多个股分别是北新路桥、沈鼓集团、襄阳轴承等",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103405024.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "基建盘活+公路施工+海外布局",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "基建建材：央企协同建设六张网年投资约2万亿",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103405247.html"
+    }
+   ],
+   "ths_reason": "基建盘活+公路施工+海外布局",
+   "written_by": "规则"
+  },
+  {
+   "code": "003021",
+   "name": "兆威机电",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "电机Ⅱ",
+   "stat": "4天2板",
+   "reason": "人形机器人概念走强，灵巧手+微型传动题材",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=003021&announcementId=1225614181&orgId=9900039718&announcementTime=2026-10-22"
+    },
+    {
+     "kind": "盘面",
+     "text": "兆威机电、大洋电机、鸣志电器等多只个股涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610233904643585.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "人形机器人概念盘中持续走高，奕帆传动20cm涨停，鸣志电器回封涨停，此前兆威机电、赛福天、大洋电机涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2511907"
+    },
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+灵巧手+微型传动",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：A股AI产业链迎多重事件催化 配套环节受关注",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103405250.html"
+    }
+   ],
+   "ths_reason": "人形机器人+灵巧手+微型传动",
+   "written_by": "模型"
+  },
+  {
+   "code": "000530",
+   "name": "冰山冷热",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "通用设备",
+   "stat": "8天5板",
+   "reason": "冰雪经济概念逆势走强，8天5板",
+   "confidence": "高",
+   "themes": [
+    "算力",
+    "军工"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000530&announcementId=1225613815&orgId=gssz0000530&announcementTime=2026-10-22"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000530&announcementId=1225617521&orgId=gssz0000530&announcementTime=2026-10-23"
+    },
+    {
+     "kind": "公司",
+     "text": "冰雪经济概念逆势走强 冰山冷热8天5板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2511767"
+    },
+    {
+     "kind": "盘面",
+     "text": "净流入资金居前的还有冰山冷热、大洋电机、鸣志电器等",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103405005.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "冰雪经济概念震荡拉升，雪人集团涨停，冰山冷热、晶雪节能、大连圣亚、长白山跟涨",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2510603"
+    },
+    {
+     "kind": "同花顺",
+     "text": "冰雪工程+数据中心液冷+军工+冷热设备",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "冰雪工程+数据中心液冷+军工+冷热设备",
+   "written_by": "模型"
+  },
+  {
+   "code": "300839",
+   "name": "博汇股份",
+   "boards": 1,
+   "first_time": "0931",
+   "industry": "炼化及贸",
+   "stat": "1天1板",
+   "reason": "液冷算力题材+特种油升级+三季报增长",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "油气"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：关于股票交易异常波动的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=300839&announcementId=1225616017&orgId=gfbj0831213&announcementTime=2026-10-22"
+    },
+    {
+     "kind": "同花顺",
+     "text": "液冷算力+特种油升级+三季报增长",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "液冷算力+特种油升级+三季报增长",
+   "written_by": "模型"
+  },
+  {
+   "code": "002535",
+   "name": "林州重机",
+   "boards": 1,
+   "first_time": "0931",
+   "industry": "专用设备",
+   "stat": "1天1板",
+   "reason": "军工配套题材受地缘局势催化，煤矿机械涨停",
+   "confidence": "中",
+   "themes": [
+    "军工"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "煤矿机械+煤矿服务+军工配套",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "军工：特朗普：已狠狠打击伊朗，可能还会再进一步",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261023042849849800"
+    }
+   ],
+   "ths_reason": "煤矿机械+煤矿服务+军工配套",
+   "written_by": "模型"
+  },
+  {
+   "code": "600261",
+   "name": "阳光照明",
+   "boards": 1,
+   "first_time": "0932",
+   "industry": "照明设备",
+   "stat": "1天1板",
+   "reason": "照明主业叠加激光通信投资、氢能装备题材",
+   "confidence": "中",
+   "themes": [
+    "通信"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "照明业务+LED+激光通信投资+氢能装备",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "通信：费城半导体指数开盘跌4% AI硬件个股普跌",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2512710"
+    }
+   ],
+   "ths_reason": "照明业务+LED+激光通信投资+氢能装备",
+   "written_by": "模型"
+  },
+  {
+   "code": "603028",
+   "name": "赛福天",
+   "boards": 1,
+   "first_time": "0932",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "人形机器人概念走高，机器人腱绳题材涨停",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "人形机器人概念盘中持续走高，奕帆传动20cm涨停，鸣志电器回封涨停，此前兆威机电、赛福天、大洋电机涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2511907"
+    },
+    {
+     "kind": "同花顺",
+     "text": "机器人腱绳+特种钢索",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：A股AI产业链迎多重事件催化 配套环节受关注",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103405250.html"
+    }
+   ],
+   "ths_reason": "机器人腱绳+特种钢索",
+   "written_by": "模型"
+  },
+  {
+   "code": "603350",
+   "name": "安乃达",
+   "boards": 1,
+   "first_time": "0934",
+   "industry": "电机Ⅱ",
+   "stat": "1天1板",
+   "reason": "具身智能题材，领涨轮毂电机概念涨停",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "具身智能+两轮电驱+系统集成",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“轮毂电机”概念（+0.16%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：A股AI产业链迎多重事件催化 配套环节受关注",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103405250.html"
+    }
+   ],
+   "ths_reason": "具身智能+两轮电驱+系统集成",
+   "written_by": "模型"
+  },
+  {
+   "code": "002249",
+   "name": "大洋电机",
+   "boards": 1,
+   "first_time": "0936",
+   "industry": "电机Ⅱ",
+   "stat": "1天1板",
+   "reason": "人形机器人涨停，机器人关节+数据中心风机题材",
+   "confidence": "高",
+   "themes": [
+    "算力",
+    "机器人",
+    "风电"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "分红送转：2026年半年度权益分派实施公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002249&announcementId=1225616277&orgId=9900004896&announcementTime=2026-10-23"
+    },
+    {
+     "kind": "公告",
+     "text": "分红送转：2026年半年度权益分派实施公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002249/AN202610221830804098.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "净流入资金居前的还有冰山冷热、大洋电机、鸣志电器等",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103405005.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "兆威机电、大洋电机、鸣志电器等多只个股涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610233904643585.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "机器人关节+电机业务+数据中心风机+“羊”字辈",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "机器人关节+电机业务+数据中心风机+“羊”字辈",
+   "written_by": "模型"
+  },
+  {
+   "code": "301502",
+   "name": "华阳智能",
+   "boards": 1,
+   "first_time": "0936",
+   "industry": "电机Ⅱ",
+   "stat": "1天1板",
+   "reason": "人形机器人概念催化，机器人关节+微特电机题材",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：关于股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=301502&announcementId=1225617056&orgId=9900048390&announcementTime=2026-10-23"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：关于股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/301502/AN202610221830807594.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "机器人关节+无框电机+微特电机",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：A股AI产业链迎多重事件催化 配套环节受关注",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103405250.html"
+    }
+   ],
+   "ths_reason": "机器人关节+无框电机+微特电机",
+   "written_by": "模型"
+  },
+  {
+   "code": "601091",
+   "name": "沈鼓集团",
+   "boards": 1,
+   "first_time": "0937",
+   "industry": "专用设备",
+   "stat": "1天1板",
+   "reason": "离心压缩机+煤化工+核电装备",
+   "confidence": "中",
+   "themes": [
+    "电力",
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "净买入较多个股分别是北新路桥、沈鼓集团、襄阳轴承等",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103405024.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "离心压缩机+煤化工+核电装备",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "离心压缩机+煤化工+核电装备",
+   "written_by": "规则"
+  },
+  {
+   "code": "603728",
+   "name": "鸣志电器",
+   "boards": 1,
+   "first_time": "0943",
+   "industry": "电机Ⅱ",
+   "stat": "1天1板",
+   "reason": "人形机器人+数据中心液冷题材，资金净流入",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "净流入资金居前的还有冰山冷热、大洋电机、鸣志电器等",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103405005.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "兆威机电、大洋电机、鸣志电器等多只个股涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610233904643585.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+运动控制+数据中心液冷",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "人形机器人+运动控制+数据中心液冷",
+   "written_by": "模型"
+  },
+  {
+   "code": "603280",
+   "name": "南方路机",
+   "boards": 1,
+   "first_time": "0943",
+   "industry": "工程机械",
+   "stat": "1天1板",
+   "reason": "工程搅拌主业叠加智能机器人+AI智能体题材",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "机器人",
+    "基建建材"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "工程搅拌+智能机器人+AI智能体",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "工程搅拌+智能机器人+AI智能体",
+   "written_by": "模型"
+  },
+  {
+   "code": "002097",
+   "name": "山河智能",
+   "boards": 1,
+   "first_time": "0944",
+   "industry": "工程机械",
+   "stat": "1天1板",
+   "reason": "机器人概念+无人应急装备题材，受AI产业链催化",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "基建建材"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "股东变动：关于持股5%以上股东权益变动触及1%整数倍的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002097&announcementId=1225613940&orgId=9900001621&announcementTime=2026-10-22"
+    },
+    {
+     "kind": "同花顺",
+     "text": "工程机械+无人应急装备+机器人概念+电动化",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：A股AI产业链迎多重事件催化 配套环节受关注",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103405250.html"
+    }
+   ],
+   "ths_reason": "工程机械+无人应急装备+机器人概念+电动化",
+   "written_by": "模型"
+  },
+  {
+   "code": "603089",
+   "name": "正裕工业",
+   "boards": 1,
+   "first_time": "0948",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "机器人零部件+柔性触觉题材，受机器人产业催化",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603089&announcementId=1225615849&orgId=9900023726&announcementTime=2026-10-23"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603089/AN202610221830800673.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "机器人零部件+柔性触觉+汽车减震器",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：A股AI产业链迎多重事件催化 配套环节受关注",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103405250.html"
+    }
+   ],
+   "ths_reason": "机器人零部件+柔性触觉+汽车减震器",
+   "written_by": "模型"
+  },
+  {
+   "code": "000678",
+   "name": "襄阳轴承",
+   "boards": 1,
+   "first_time": "0949",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "机器人轴承+汽车轴承+湖北国资",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "净买入较多个股分别是北新路桥、沈鼓集团、襄阳轴承等",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103405024.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "机器人轴承+汽车轴承+湖北国资",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：A股AI产业链迎多重事件催化 配套环节受关注",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103405250.html"
+    }
+   ],
+   "ths_reason": "机器人轴承+汽车轴承+湖北国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "600192",
+   "name": "长城电工",
+   "boards": 1,
+   "first_time": "1024",
+   "industry": "电网设备",
+   "stat": "1天1板",
+   "reason": "电网设备板块异动，输配电+核电项目概念直线涨停",
+   "confidence": "中",
+   "themes": [
+    "电力"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "电网设备板块局部异动 长城电工直线涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2511836"
+    },
+    {
+     "kind": "同花顺",
+     "text": "输配电设备+核电项目+资产处置",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "输配电设备+核电项目+资产处置",
+   "written_by": "模型"
+  },
+  {
+   "code": "600698",
+   "name": "湖南天雁",
+   "boards": 1,
+   "first_time": "1044",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "涡轮增压器+电子水泵题材，汽车零部件跟涨",
+   "confidence": "中",
+   "themes": [
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "涡轮增压器+电子水泵+汽车零部件",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "汽车：纳指大跌2.6% 费半指数重挫6.72%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2512863"
+    }
+   ],
+   "ths_reason": "涡轮增压器+电子水泵+汽车零部件",
+   "written_by": "模型"
+  },
+  {
+   "code": "301023",
+   "name": "奕帆传动",
+   "boards": 1,
+   "first_time": "1110",
+   "industry": "电机Ⅱ",
+   "stat": "1天1板",
+   "reason": "人形机器人概念持续走高，20cm涨停",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "人形机器人概念持续走高 奕帆传动20cm涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2511907"
+    },
+    {
+     "kind": "盘面",
+     "text": "人形机器人板块持续活跃，奕帆传动20CM涨停",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261022150611734800"
+    },
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+微特减速电机+伺服电机",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“机器人执行器”概念（+0.76%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：A股AI产业链迎多重事件催化 配套环节受关注",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103405250.html"
+    }
+   ],
+   "ths_reason": "人形机器人+微特减速电机+伺服电机",
+   "written_by": "模型"
+  },
+  {
+   "code": "603528",
+   "name": "多伦科技",
+   "boards": 1,
+   "first_time": "1304",
+   "industry": "软件开发",
+   "stat": "1天1板",
+   "reason": "人形机器人题材催化，智慧交管+智慧驾培概念",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+智慧交管+智慧驾培",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：A股AI产业链迎多重事件催化 配套环节受关注",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103405250.html"
+    }
+   ],
+   "ths_reason": "人形机器人+智慧交管+智慧驾培",
+   "written_by": "模型"
+  },
+  {
+   "code": "603933",
+   "name": "睿能科技",
+   "boards": 1,
+   "first_time": "1359",
+   "industry": "其他电子",
+   "stat": "1天1板",
+   "reason": "存储芯片概念回暖，IC分销+工业自动化题材",
+   "confidence": "中",
+   "themes": [
+    "半导体",
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "午后存储芯片概念回暖，云汉芯城、华天科技直线涨停，大普微、德明利、有研新材、睿能科技、盈方微等冲高",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2512076"
+    },
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+工业自动化+IC分销",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "半导体：费城半导体指数重挫5.67% 美股芯片股集体抛售",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2512771"
+    }
+   ],
+   "ths_reason": "人形机器人+工业自动化+IC分销",
+   "written_by": "模型"
+  },
+  {
+   "code": "002983",
+   "name": "芯瑞达",
+   "boards": 1,
+   "first_time": "1435",
+   "industry": "光学光电",
+   "stat": "1天1板",
+   "reason": "Mini/Micro-LED+AR-AI显示题材炒作涨停",
+   "confidence": "中",
+   "themes": [
+    "人工智能"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "Mini/Micro-LED+AR-AI显示+像素车灯",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "Mini/Micro-LED+AR-AI显示+像素车灯",
+   "written_by": "模型"
+  },
+  {
+   "code": "603370",
+   "name": "华新精科",
+   "boards": 1,
+   "first_time": "1453",
+   "industry": "电机Ⅱ",
+   "stat": "1天1板",
+   "reason": "人形机器人题材催化，精密铁芯概念涨停",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+精密铁芯",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：A股AI产业链迎多重事件催化 配套环节受关注",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103405250.html"
+    }
+   ],
+   "ths_reason": "人形机器人+精密铁芯",
+   "written_by": "模型"
+  }
+ ]
+}
