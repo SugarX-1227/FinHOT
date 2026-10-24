@@ -1,0 +1,3391 @@
+{
+ "trade_date": "2026-10-23",
+ "coverage": 100.0,
+ "announced": 38,
+ "stocks": [
+  {
+   "code": "002724",
+   "name": "海洋王",
+   "boards": 6,
+   "first_time": "0953",
+   "industry": "照明设备",
+   "stat": "6天6板",
+   "reason": "军工+AI照明及\"羊\"字辈题材炒作六连板",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "军工"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：关于股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002724&announcementId=1225621455&orgId=9900023121&announcementTime=2026-10-24"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：关于股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002724/AN202610231830849631.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "市场焦点股海洋王（5板）低开0.62%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2513019"
+    },
+    {
+     "kind": "盘面",
+     "text": "军工板块海洋王（4板）竞价涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2511744"
+    },
+    {
+     "kind": "同花顺",
+     "text": "专业照明+AI照明+军工+“羊”字辈",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“石墨烯”概念（+1.56%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：寒武纪Q3净利同比增148%，风华高科增470%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2514038"
+    }
+   ],
+   "ths_reason": "专业照明+AI照明+军工+“羊”字辈",
+   "written_by": "模型"
+  },
+  {
+   "code": "603278",
+   "name": "大业股份",
+   "boards": 6,
+   "first_time": "1309",
+   "industry": "通用设备",
+   "stat": "16天8板",
+   "reason": "机器人概念爆发，机器人腱绳题材炒作六连板",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603278&announcementId=1225620006&orgId=9900024931&announcementTime=2026-10-24"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：大业股份股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603278/AN202610231830845402.html"
+    },
+    {
+     "kind": "公司",
+     "text": "上交所向大业股份下发监管工作函",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261022/c680995619.shtml"
+    },
+    {
+     "kind": "公司",
+     "text": "五连板大业股份：公司机器人腱绳产品目前仅处于客户送样验证阶段 未产生实质性收益",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261022210614754800"
+    },
+    {
+     "kind": "盘面",
+     "text": "机器人概念爆发，大业股份6连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2513429"
+    },
+    {
+     "kind": "盘面",
+     "text": "机器人概念股大业股份（5板）低开4.00%、兆威机电（4天2板）高开1.93%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2513019"
+    },
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+橡胶骨架材料+全球销售",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“新能源”概念（+0.84%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "人形机器人+橡胶骨架材料+全球销售",
+   "written_by": "模型"
+  },
+  {
+   "code": "600838",
+   "name": "上海九百",
+   "boards": 3,
+   "first_time": "0925",
+   "industry": "一般零售",
+   "stat": "3天3板",
+   "reason": "零售板块逆势走强，公司三连板领涨",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易风险提示公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600838&announcementId=1225620896&orgId=gssh0600838&announcementTime=2026-10-24"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：上海九百股票交易风险提示公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/600838/AN202610231830847770.html"
+    },
+    {
+     "kind": "公司",
+     "text": "零售板块逆势走强 上海九百3连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2513027"
+    },
+    {
+     "kind": "盘面",
+     "text": "零售上海九百3连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2513429"
+    },
+    {
+     "kind": "盘面",
+     "text": "零售板块上海九百（2板）竞价涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2513019"
+    },
+    {
+     "kind": "同花顺",
+     "text": "商贸零售+商业地产+洗染服务",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“参股券商”概念（+0.94%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：对高物价担忧加剧 美10月消费者信心指数继续下跌",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103407376.html"
+    }
+   ],
+   "ths_reason": "商贸零售+商业地产+洗染服务",
+   "written_by": "模型"
+  },
+  {
+   "code": "603028",
+   "name": "赛福天",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "通用设备",
+   "stat": "2天2板",
+   "reason": "人形机器人概念走高，机器人腱绳题材炒作",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603028&announcementId=1225620185&orgId=9900024903&announcementTime=2026-10-24"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603028/AN202610231830845885.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "人形机器人概念盘中持续走高，奕帆传动20cm涨停，鸣志电器回封涨停，此前兆威机电、赛福天、大洋电机涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2511907"
+    },
+    {
+     "kind": "同花顺",
+     "text": "机器人腱绳+特种钢索",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“TOPCon电池”概念（+1.10%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "机器人腱绳+特种钢索",
+   "written_by": "模型"
+  },
+  {
+   "code": "603933",
+   "name": "睿能科技",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "其他电子",
+   "stat": "2天2板",
+   "reason": "存储芯片概念回暖，存储分销+机器人题材炒作",
+   "confidence": "中",
+   "themes": [
+    "半导体",
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603933&announcementId=1225621483&orgId=9900031816&announcementTime=2026-10-24"
+    },
+    {
+     "kind": "公告",
+     "text": "监管问询：关于延期回复《关于福建睿能科技股份有限公司发行股份及支付现金购买资产并募集配套资金申请的审核问询函》的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603933&announcementId=1225621482&orgId=9900031816&announcementTime=2026-10-24"
+    },
+    {
+     "kind": "盘面",
+     "text": "午后存储芯片概念回暖，云汉芯城、华天科技直线涨停，大普微、德明利、有研新材、睿能科技、盈方微等冲高",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2512076"
+    },
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+工业自动化+存储分销",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“无人机”概念（+2.22%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "半导体：寒武纪Q3净利同比增148%，风华高科增470%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2514038"
+    }
+   ],
+   "ths_reason": "人形机器人+工业自动化+存储分销",
+   "written_by": "模型"
+  },
+  {
+   "code": "002535",
+   "name": "林州重机",
+   "boards": 2,
+   "first_time": "0930",
+   "industry": "专用设备",
+   "stat": "6天3板",
+   "reason": "机器人+煤矿机械多题材炒作二连板",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "军工"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002535&announcementId=1225619268&orgId=9900016930&announcementTime=2026-10-24"
+    },
+    {
+     "kind": "同花顺",
+     "text": "机器人+煤矿机械+煤矿服务+军工配套",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“储能概念”（+1.89%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "机器人+煤矿机械+煤矿服务+军工配套",
+   "written_by": "模型"
+  },
+  {
+   "code": "603280",
+   "name": "南方路机",
+   "boards": 2,
+   "first_time": "0930",
+   "industry": "工程机械",
+   "stat": "2天2板",
+   "reason": "分拣机器人+智能体题材炒作二连板",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "通信",
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：福建南方路面机械股份有限公司股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603280&announcementId=1225620024&orgId=nssc1000815&announcementTime=2026-10-24"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：福建南方路面机械股份有限公司股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603280/AN202610231830844976.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "移远通信涨超20%，南方路机、密尔克卫、国机精工、三一重能、石头科技涨超10%",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610243906815218.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "分拣机器人+智能体+工程搅拌",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“一带一路”概念（+1.03%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：寒武纪Q3净利同比增148%，风华高科增470%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2514038"
+    }
+   ],
+   "ths_reason": "分拣机器人+智能体+工程搅拌",
+   "written_by": "模型"
+  },
+  {
+   "code": "603089",
+   "name": "正裕工业",
+   "boards": 2,
+   "first_time": "0932",
+   "industry": "汽车零部",
+   "stat": "2天2板",
+   "reason": "机器人概念爆发，柔性触觉题材二连板",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易风险提示公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603089&announcementId=1225618519&orgId=9900023726&announcementTime=2026-10-24"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603089&announcementId=1225615849&orgId=9900023726&announcementTime=2026-10-23"
+    },
+    {
+     "kind": "公司",
+     "text": "2连板正裕工业：柔性触觉产品尚处于提供样品阶段 未形成批量生产",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2513546"
+    },
+    {
+     "kind": "盘面",
+     "text": "机器人概念爆发，大业股份6连板，福莱新材5天3板，华阳智能、正裕工业、襄阳轴承2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2513429"
+    },
+    {
+     "kind": "同花顺",
+     "text": "机器人零部件+柔性触觉+汽车减震器",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“贬值受益”概念（+1.68%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "机器人零部件+柔性触觉+汽车减震器",
+   "written_by": "模型"
+  },
+  {
+   "code": "301502",
+   "name": "华阳智能",
+   "boards": 2,
+   "first_time": "0933",
+   "industry": "电机Ⅱ",
+   "stat": "2天2板",
+   "reason": "机器人概念爆发，关节模组题材二连板",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：关于股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=301502&announcementId=1225617056&orgId=9900048390&announcementTime=2026-10-23"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：关于股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/301502/AN202610221830807594.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "机器人概念爆发，大业股份6连板，福莱新材5天3板，华阳智能、正裕工业、襄阳轴承2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2513429"
+    },
+    {
+     "kind": "同花顺",
+     "text": "机器人关节模组+无框电机+微特电机",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“养老概念”（+1.80%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "机器人关节模组+无框电机+微特电机",
+   "written_by": "模型"
+  },
+  {
+   "code": "003021",
+   "name": "兆威机电",
+   "boards": 2,
+   "first_time": "0943",
+   "industry": "电机Ⅱ",
+   "stat": "5天3板",
+   "reason": "机器人概念爆发，人形机器人题材炒作封板",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=003021&announcementId=1225619876&orgId=9900039718&announcementTime=2026-10-24"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/003021/AN202610231830845865.html"
+    },
+    {
+     "kind": "公司",
+     "text": "5天3板兆威机电：涉及人形机器人领域业务收入占比极低",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103406818.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "机器人概念股大业股份（5板）低开4.00%、兆威机电（4天2板）高开1.93%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2513019"
+    },
+    {
+     "kind": "盘面",
+     "text": "兆威机电、大洋电机、鸣志电器等多只个股涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610233904643585.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+灵巧手+微型传动",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“通信技术”概念（+2.02%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "人形机器人+灵巧手+微型传动",
+   "written_by": "模型"
+  },
+  {
+   "code": "000678",
+   "name": "襄阳轴承",
+   "boards": 2,
+   "first_time": "1003",
+   "industry": "汽车零部",
+   "stat": "2天2板",
+   "reason": "机器人概念爆发，机器人轴承题材二连板",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000678&announcementId=1225619725&orgId=gssz0000678&announcementTime=2026-10-24"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/000678/AN202610231830847764.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "机器人概念爆发，大业股份6连板，福莱新材5天3板，华阳智能、正裕工业、襄阳轴承2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2513429"
+    },
+    {
+     "kind": "同花顺",
+     "text": "机器人轴承+汽车轴承+湖北国资",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“湖北自贸”概念（+1.50%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "机器人轴承+汽车轴承+湖北国资",
+   "written_by": "模型"
+  },
+  {
+   "code": "603528",
+   "name": "多伦科技",
+   "boards": 2,
+   "first_time": "1319",
+   "industry": "软件开发",
+   "stat": "2天2板",
+   "reason": "人形机器人+智能交通题材炒作二连板",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603528&announcementId=1225619585&orgId=9900026209&announcementTime=2026-10-24"
+    },
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+智能交通+智慧驾培",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“卫星导航”概念（+1.80%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "人形机器人+智能交通+智慧驾培",
+   "written_by": "模型"
+  },
+  {
+   "code": "002982",
+   "name": "湘佳股份",
+   "boards": 1,
+   "first_time": "0925",
+   "industry": "养殖业",
+   "stat": "1天1板",
+   "reason": "三季报披露，业绩增长+黄羽肉鸡题材涨停",
+   "confidence": "高",
+   "themes": [
+    "农业"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002982&announcementId=1225615254&orgId=gfbj0831102&announcementTime=2026-10-23"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002982/AN202610221830798844.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "业绩增长+黄羽肉鸡",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“猪肉概念”（+0.38%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "业绩增长+黄羽肉鸡",
+   "written_by": "模型"
+  },
+  {
+   "code": "002474",
+   "name": "榕基软件",
+   "boards": 1,
+   "first_time": "0931",
+   "industry": "IT服务Ⅱ",
+   "stat": "1天1板",
+   "reason": "AI政务+信创政务+数据要素题材炒作涨停",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "AI政务+信创政务+数据要素",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“核污染防治”概念（+1.90%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：寒武纪Q3净利同比增148%，风华高科增470%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2514038"
+    }
+   ],
+   "ths_reason": "AI政务+信创政务+数据要素",
+   "written_by": "模型"
+  },
+  {
+   "code": "600785",
+   "name": "新华百货",
+   "boards": 1,
+   "first_time": "0933",
+   "industry": "一般零售",
+   "stat": "1天1板",
+   "reason": "零售板块走强，叠加股份回购题材涨停",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "回购：银川新华百货商业集团股份有限公司关于回购股份比例达7%的进展公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600785&announcementId=1225613520&orgId=gssh0600785&announcementTime=2026-10-22"
+    },
+    {
+     "kind": "盘面",
+     "text": "零售上海九百3连板，百大集团、新华百货涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2513429"
+    },
+    {
+     "kind": "盘面",
+     "text": "早盘零售板块逆势走强，上海九百3连板，徐家汇触及涨停，新华百货、三江购物、益民集团、新世界跟涨",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2513027"
+    },
+    {
+     "kind": "同花顺",
+     "text": "零售促销+股份回购+硬折扣",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“私募新进”概念（+1.73%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：对高物价担忧加剧 美10月消费者信心指数继续下跌",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103407376.html"
+    }
+   ],
+   "ths_reason": "零售促销+股份回购+硬折扣",
+   "written_by": "模型"
+  },
+  {
+   "code": "002343",
+   "name": "慈文传媒",
+   "boards": 1,
+   "first_time": "0934",
+   "industry": "影视院线",
+   "stat": "11天7板",
+   "reason": "AI漫剧概念回升，影视院线板块走强涨停",
+   "confidence": "中",
+   "themes": [
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "AI漫剧概念震荡回升 慈文传媒11天7板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2513037"
+    },
+    {
+     "kind": "盘面",
+     "text": "影视院线板块走高，中广天择、慈文传媒涨停",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261023150823868800"
+    },
+    {
+     "kind": "同花顺",
+     "text": "影视剧+微短剧+影视IP",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "影视剧+微短剧+影视IP",
+   "written_by": "模型"
+  },
+  {
+   "code": "600506",
+   "name": "统一股份",
+   "boards": 1,
+   "first_time": "0935",
+   "industry": "炼化及贸",
+   "stat": "1天1板",
+   "reason": "液冷+润滑油脂题材，业绩增长受资金关注",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "油气"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "液冷+润滑油脂+业绩增长",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“碳交易”概念（+0.87%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：寒武纪Q3净利同比增148%，风华高科增470%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2514038"
+    }
+   ],
+   "ths_reason": "液冷+润滑油脂+业绩增长",
+   "written_by": "模型"
+  },
+  {
+   "code": "002354",
+   "name": "天娱数科",
+   "boards": 1,
+   "first_time": "0937",
+   "industry": "广告营销",
+   "stat": "1天1板",
+   "reason": "物理AI概念走高，具身智能+AI营销题材涨停",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "算力",
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "净买入较多个股分别是天娱数科、歌尔股份、利亚德等",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103407272.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "午后物理AI概念持续走高，凡拓数创触及20cm涨停，此前天娱数科涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2513298"
+    },
+    {
+     "kind": "同花顺",
+     "text": "具身智能数据集+AI影视+AI营销+算力",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“股权分散”概念（+2.05%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：寒武纪Q3净利同比增148%，风华高科增470%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2514038"
+    }
+   ],
+   "ths_reason": "具身智能数据集+AI影视+AI营销+算力",
+   "written_by": "模型"
+  },
+  {
+   "code": "001328",
+   "name": "登康口腔",
+   "boards": 1,
+   "first_time": "0939",
+   "industry": "个护用品",
+   "stat": "1天1板",
+   "reason": "三季报业绩增长，抗敏牙膏+智能口腔题材",
+   "confidence": "高",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=001328&announcementId=1225616178&orgId=GD081685&announcementTime=2026-10-23"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/001328/AN202610221830807246.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报增长+抗敏牙膏+智能口腔",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“超级品牌”概念（+1.47%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "三季报增长+抗敏牙膏+智能口腔",
+   "written_by": "模型"
+  },
+  {
+   "code": "002009",
+   "name": "天奇股份",
+   "boards": 1,
+   "first_time": "0943",
+   "industry": "专用设备",
+   "stat": "1天1板",
+   "reason": "具身智能+工业机器人题材，与优必选产业合作",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "具身智能+工业机器人+产业合作+优必选",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“小金属概念”（+1.47%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "具身智能+工业机器人+产业合作+优必选",
+   "written_by": "模型"
+  },
+  {
+   "code": "603677",
+   "name": "奇精机械",
+   "boards": 1,
+   "first_time": "0944",
+   "industry": "家电零部",
+   "stat": "1天1板",
+   "reason": "机器人零部件+光模块题材炒作涨停",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "机器人",
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "机器人零部件+光模块+洗衣机离合器",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“2026中报预减”概念（+1.06%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：寒武纪Q3净利同比增148%，风华高科增470%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2514038"
+    }
+   ],
+   "ths_reason": "机器人零部件+光模块+洗衣机离合器",
+   "written_by": "模型"
+  },
+  {
+   "code": "300584",
+   "name": "海辰药业",
+   "boards": 1,
+   "first_time": "0944",
+   "industry": "化学制药",
+   "stat": "1天1板",
+   "reason": "三季报增长，锂电添加剂+固态电池题材炒作",
+   "confidence": "高",
+   "themes": [
+    "锂电储能",
+    "医药"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=300584&announcementId=1225615419&orgId=9900030869&announcementTime=2026-10-23"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/300584/AN202610221830800461.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "锂电添加剂+三季报增长+固态电池",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“病原体防治”概念（+1.44%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "锂电添加剂+三季报增长+固态电池",
+   "written_by": "模型"
+  },
+  {
+   "code": "002421",
+   "name": "达实智能",
+   "boards": 1,
+   "first_time": "0945",
+   "industry": "IT服务Ⅱ",
+   "stat": "1天1板",
+   "reason": "物理AI概念走高，AIoT+AI智能体题材涨停",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "机器人",
+    "航运物流"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "午后物理AI概念持续走高，凡拓数创触及20cm涨停，此前天娱数科涨停，达实智能触及涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2513298"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AIoT+AI智能体+医疗物流机器人+新皇岗口岸",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“建筑节能”概念（+1.59%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：寒武纪Q3净利同比增148%，风华高科增470%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2514038"
+    }
+   ],
+   "ths_reason": "AIoT+AI智能体+医疗物流机器人+新皇岗口岸",
+   "written_by": "模型"
+  },
+  {
+   "code": "002077",
+   "name": "大港股份",
+   "boards": 1,
+   "first_time": "0948",
+   "industry": "半导体",
+   "stat": "1天1板",
+   "reason": "集成电路测试+股权转让议案题材，半导体活跃",
+   "confidence": "中",
+   "themes": [
+    "半导体"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "集成电路测试+股权转让议案+半年报增长",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“节能环保”概念（+1.09%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "半导体：寒武纪Q3净利同比增148%，风华高科增470%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2514038"
+    }
+   ],
+   "ths_reason": "集成电路测试+股权转让议案+半年报增长",
+   "written_by": "模型"
+  },
+  {
+   "code": "603721",
+   "name": "中广天择",
+   "boards": 1,
+   "first_time": "0955",
+   "industry": "影视院线",
+   "stat": "3天2板",
+   "reason": "影视院线板块走高，AI语料+AI漫剧题材涨停",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "影视院线板块走高，中广天择、慈文传媒涨停",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261023150823868800"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI语料+AI漫剧+传媒内容",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“影视概念”（+2.75%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：寒武纪Q3净利同比增148%，风华高科增470%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2514038"
+    }
+   ],
+   "ths_reason": "AI语料+AI漫剧+传媒内容",
+   "written_by": "模型"
+  },
+  {
+   "code": "002945",
+   "name": "华林证券",
+   "boards": 1,
+   "first_time": "1023",
+   "industry": "证券Ⅱ",
+   "stat": "1天1板",
+   "reason": "大金融板块拉升，AI金融题材炒作涨停",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "券商"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "大金融板块拉升，汇金科技、华林证券、大智慧涨停",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261023150823868800"
+    },
+    {
+     "kind": "盘面",
+     "text": "非银金融方向表现活跃，华林证券、汇金科技、大智慧涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2513429"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI金融+证券业务+西藏券商",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“金融地产风格”概念（+0.69%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：寒武纪Q3净利同比增148%，风华高科增470%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2514038"
+    }
+   ],
+   "ths_reason": "AI金融+证券业务+西藏券商",
+   "written_by": "模型"
+  },
+  {
+   "code": "301660",
+   "name": "粤芯半导-U",
+   "boards": 1,
+   "first_time": "1034",
+   "industry": "半导体",
+   "stat": "1天1板",
+   "reason": "晶圆代工次新股，半导体板块活跃涨停",
+   "confidence": "中",
+   "themes": [
+    "半导体"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "晶圆代工+硅光工艺+特色工艺+次新股",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“光通信模块”概念（+1.81%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "半导体：寒武纪Q3净利同比增148%，风华高科增470%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2514038"
+    }
+   ],
+   "ths_reason": "晶圆代工+硅光工艺+特色工艺+次新股",
+   "written_by": "模型"
+  },
+  {
+   "code": "001216",
+   "name": "华瓷股份",
+   "boards": 1,
+   "first_time": "1045",
+   "industry": "家居用品",
+   "stat": "8天4板",
+   "reason": "MLCC粉体+氧化锆材料题材炒作，8天4板",
+   "confidence": "高",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：关于股票交易异常波动的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=001216&announcementId=1225619273&orgId=9900023696&announcementTime=2026-10-24"
+    },
+    {
+     "kind": "公司",
+     "text": "8天4板华瓷股份：上半年含氧化锆的陶瓷新材料业务营收占比仅1.15%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2513661"
+    },
+    {
+     "kind": "同花顺",
+     "text": "MLCC粉体+氧化锆微珠+日用陶瓷",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“参股银行”概念（+0.92%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "MLCC粉体+氧化锆微珠+日用陶瓷",
+   "written_by": "模型"
+  },
+  {
+   "code": "001298",
+   "name": "好上好",
+   "boards": 1,
+   "first_time": "1046",
+   "industry": "其他电子",
+   "stat": "1天1板",
+   "reason": "存储芯片概念回暖，半导体分销题材涨停",
+   "confidence": "中",
+   "themes": [
+    "半导体",
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "存储芯片+半导体分销+人形机器人",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“深圳特区”概念（+2.09%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "半导体：寒武纪Q3净利同比增148%，风华高科增470%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2514038"
+    }
+   ],
+   "ths_reason": "存储芯片+半导体分销+人形机器人",
+   "written_by": "模型"
+  },
+  {
+   "code": "600094",
+   "name": "大名城",
+   "boards": 1,
+   "first_time": "1117",
+   "industry": "房地产开",
+   "stat": "1天1板",
+   "reason": "低空经济+算力运营+6G通信题材炒作涨停",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "通信",
+    "低空经济"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "房地产开发+低空经济+算力运营+6G通信",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“AB股”概念（+1.16%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：寒武纪Q3净利同比增148%，风华高科增470%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2514038"
+    }
+   ],
+   "ths_reason": "房地产开发+低空经济+算力运营+6G通信",
+   "written_by": "模型"
+  },
+  {
+   "code": "603337",
+   "name": "杰克科技",
+   "boards": 1,
+   "first_time": "1300",
+   "industry": "专用设备",
+   "stat": "1天1板",
+   "reason": "人形机器人+工业缝纫机题材炒作涨停",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+数字成套+工业缝纫机",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“基金增仓”概念（+2.38%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "人形机器人+数字成套+工业缝纫机",
+   "written_by": "模型"
+  },
+  {
+   "code": "000972",
+   "name": "中基健康",
+   "boards": 1,
+   "first_time": "1300",
+   "industry": "农产品加",
+   "stat": "1天1板",
+   "reason": "番茄制品+大消费+国企改革题材炒作涨停",
+   "confidence": "中",
+   "themes": [
+    "消费",
+    "农业"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "番茄制品+大消费+国企改革",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“低市净率”概念（+0.51%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：对高物价担忧加剧 美10月消费者信心指数继续下跌",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103407376.html"
+    }
+   ],
+   "ths_reason": "番茄制品+大消费+国企改革",
+   "written_by": "模型"
+  },
+  {
+   "code": "002322",
+   "name": "理工能科",
+   "boards": 1,
+   "first_time": "1302",
+   "industry": "软件开发",
+   "stat": "1天1板",
+   "reason": "三季报业绩预增，AI应用+电力软件题材炒作",
+   "confidence": "高",
+   "themes": [
+    "人工智能",
+    "电力",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002322&announcementId=1225618622&orgId=9900009448&announcementTime=2026-10-24"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI应用+电力软件+业绩预增",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“价值股”概念（+0.37%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：寒武纪Q3净利同比增148%，风华高科增470%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2514038"
+    }
+   ],
+   "ths_reason": "AI应用+电力软件+业绩预增",
+   "written_by": "模型"
+  },
+  {
+   "code": "600865",
+   "name": "百大集团",
+   "boards": 1,
+   "first_time": "1304",
+   "industry": "一般零售",
+   "stat": "1天1板",
+   "reason": "零售板块走强，净利润增长+信托股权题材涨停",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：股份有限公司关于2026年第三季度报告的更正公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600865&announcementId=1225619482&orgId=gssh0600865&announcementTime=2026-10-24"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：股份有限公司2026年第三季度报告（更正后）",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600865&announcementId=1225619480&orgId=gssh0600865&announcementTime=2026-10-24"
+    },
+    {
+     "kind": "盘面",
+     "text": "零售上海九百3连板，百大集团、新华百货涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2513429"
+    },
+    {
+     "kind": "同花顺",
+     "text": "商业零售+净利润增长+信托股权交易",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“退税商店”概念（+2.41%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：对高物价担忧加剧 美10月消费者信心指数继续下跌",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103407376.html"
+    }
+   ],
+   "ths_reason": "商业零售+净利润增长+信托股权交易",
+   "written_by": "模型"
+  },
+  {
+   "code": "300561",
+   "name": "汇金科技",
+   "boards": 1,
+   "first_time": "1307",
+   "industry": "软件开发",
+   "stat": "1天1板",
+   "reason": "大金融板块拉升，金融科技题材炒作涨停",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "大金融板块拉升，汇金科技、华林证券、大智慧涨停",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261023150823868800"
+    },
+    {
+     "kind": "盘面",
+     "text": "非银金融方向表现活跃，华林证券、汇金科技、大智慧涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2513429"
+    },
+    {
+     "kind": "同花顺",
+     "text": "金融科技+人工智能+股权转让",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：寒武纪Q3净利同比增148%，风华高科增470%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2514038"
+    }
+   ],
+   "ths_reason": "金融科技+人工智能+股权转让",
+   "written_by": "模型"
+  },
+  {
+   "code": "601519",
+   "name": "大智慧",
+   "boards": 1,
+   "first_time": "1308",
+   "industry": "软件开发",
+   "stat": "1天1板",
+   "reason": "大金融板块拉升，互联网金融+并购重组题材",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "大金融板块拉升，汇金科技、华林证券、大智慧涨停",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261023150823868800"
+    },
+    {
+     "kind": "盘面",
+     "text": "非银金融方向表现活跃，华林证券、汇金科技、大智慧涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2513429"
+    },
+    {
+     "kind": "同花顺",
+     "text": "互联网金融+AI投研+并购重组",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“高市净率”概念（+2.29%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：寒武纪Q3净利同比增148%，风华高科增470%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2514038"
+    }
+   ],
+   "ths_reason": "互联网金融+AI投研+并购重组",
+   "written_by": "模型"
+  },
+  {
+   "code": "001301",
+   "name": "尚太科技",
+   "boards": 1,
+   "first_time": "1310",
+   "industry": "电池",
+   "stat": "1天1板",
+   "reason": "负极材料三季度增长，产能扩建题材涨停",
+   "confidence": "中",
+   "themes": [
+    "锂电储能"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "负极材料+三季度增长+产能扩建",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "负极材料+三季度增长+产能扩建",
+   "written_by": "模型"
+  },
+  {
+   "code": "603081",
+   "name": "大丰实业",
+   "boards": 1,
+   "first_time": "1313",
+   "industry": "专用设备",
+   "stat": "1天1板",
+   "reason": "机器人概念爆发，机器人乐队题材炒作涨停",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "机器人概念爆发，大业股份6连板，福莱新材5天3板，华阳智能、正裕工业、襄阳轴承2连板，宇树科技20CM涨停，万向钱潮、山东威达、派斯林、大丰实业涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2513429"
+    },
+    {
+     "kind": "同花顺",
+     "text": "机器人+文体旅集成+机器人乐队",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“PPP模式”概念（+0.94%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "机器人+文体旅集成+机器人乐队",
+   "written_by": "模型"
+  },
+  {
+   "code": "301699",
+   "name": "洛轴股份",
+   "boards": 1,
+   "first_time": "1316",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "人形机器人板块大涨，机器人轴承题材20cm涨停",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "风电"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "A股人形机器人板块持续拉升，众诚科技30CM涨停，宇树科技、洛轴股份、利亚德等多股20CM涨停，奥比中光、云从科技、上纬…",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261023141801772800"
+    },
+    {
+     "kind": "盘面",
+     "text": "人形机器人板块大涨，宇树科技20CM涨停本周累涨超46%，众诚科技、洛轴股份、利亚德、海天瑞声等多股涨停",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261023150823868800"
+    },
+    {
+     "kind": "同花顺",
+     "text": "机器人轴承+风电轴承+次新股",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“海洋经济”概念（+1.38%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "机器人轴承+风电轴承+次新股",
+   "written_by": "模型"
+  },
+  {
+   "code": "920091",
+   "name": "大鹏工业",
+   "boards": 1,
+   "first_time": "1317",
+   "industry": "专用设备",
+   "stat": "1天1板",
+   "reason": "机器视觉概念领涨，公司相关题材跟涨涨停",
+   "confidence": "中",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "板块",
+     "text": "领涨“机器视觉”概念（+4.89%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "模型"
+  },
+  {
+   "code": "600215",
+   "name": "派斯林",
+   "boards": 1,
+   "first_time": "1317",
+   "industry": "自动化设",
+   "stat": "1天1板",
+   "reason": "机器人概念爆发，仿生机器人+工业自动化题材",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "机器人概念爆发，大业股份6连板，福莱新材5天3板，华阳智能、正裕工业、襄阳轴承2连板，宇树科技20CM涨停，万向钱潮、山东威达、派斯林、大丰实业涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2513429"
+    },
+    {
+     "kind": "同花顺",
+     "text": "仿生机器人+工业自动化+北美订单",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“东北振兴”概念（+0.40%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "仿生机器人+工业自动化+北美订单",
+   "written_by": "模型"
+  },
+  {
+   "code": "002612",
+   "name": "朗姿股份",
+   "boards": 1,
+   "first_time": "1320",
+   "industry": "医疗美容",
+   "stat": "1天1板",
+   "reason": "医美概念领涨，医疗美容+时尚女装题材炒作",
+   "confidence": "中",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "医疗美容+时尚女装+中韩自贸区",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“医美概念”（+0.79%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "医疗美容+时尚女装+中韩自贸区",
+   "written_by": "模型"
+  },
+  {
+   "code": "002026",
+   "name": "山东威达",
+   "boards": 1,
+   "first_time": "1324",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "机器人概念爆发，换电站题材炒作涨停",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "机器人概念爆发，大业股份6连板，福莱新材5天3板，华阳智能、正裕工业、襄阳轴承2连板，宇树科技20CM涨停，万向钱潮、山东威达、派斯林、大丰实业涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2513429"
+    },
+    {
+     "kind": "同花顺",
+     "text": "机器人+换电站+电动工具",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“换电概念”（+2.38%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "机器人+换电站+电动工具",
+   "written_by": "模型"
+  },
+  {
+   "code": "301313",
+   "name": "凡拓数创",
+   "boards": 1,
+   "first_time": "1324",
+   "industry": "数字媒体",
+   "stat": "5天3板",
+   "reason": "物理AI概念持续走高，5天3板强势封板",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：关于公司股票交易严重异常波动及股票交易异常波动的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=301313&announcementId=1225621200&orgId=gfbj0833414&announcementTime=2026-10-23"
+    },
+    {
+     "kind": "公司",
+     "text": "物理AI概念持续走高 凡拓数创触及20cm涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2513298"
+    },
+    {
+     "kind": "盘面",
+     "text": "凡拓数创、海天瑞声、华依科技等多只物理AI概念股涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610243906817592.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "物理AI凡拓数创5天3板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2513429"
+    },
+    {
+     "kind": "同花顺",
+     "text": "物理AI+数字孪生+具身智能",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“空间计算”概念（+4.03%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：寒武纪Q3净利同比增148%，风华高科增470%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2514038"
+    }
+   ],
+   "ths_reason": "物理AI+数字孪生+具身智能",
+   "written_by": "模型"
+  },
+  {
+   "code": "603713",
+   "name": "密尔克卫",
+   "boards": 1,
+   "first_time": "1332",
+   "industry": "物流",
+   "stat": "1天1板",
+   "reason": "三季报增长，All in AI战略+半导体物流题材",
+   "confidence": "中",
+   "themes": [
+    "半导体",
+    "通信",
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：智能供应链服务集团股份有限公司2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603713&announcementId=1225615356&orgId=9900035585&announcementTime=2026-10-23"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：密尔克卫智能供应链服务集团股份有限公司2026年第三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603713/AN202610221830797808.html"
+    },
+    {
+     "kind": "公司",
+     "text": "密尔克卫：“All in AI”战略达到一定效果，从第四季度开始将逐步显现",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610233906192844.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "移远通信涨超20%，南方路机、密尔克卫、国机精工、三一重能、石头科技涨超10%",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610243906815218.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报增长+半导体物流+化工供应链",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“统一大市场”概念（+1.01%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "半导体：寒武纪Q3净利同比增148%，风华高科增470%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2514038"
+    }
+   ],
+   "ths_reason": "三季报增长+半导体物流+化工供应链",
+   "written_by": "模型"
+  },
+  {
+   "code": "605488",
+   "name": "福莱新材",
+   "boards": 1,
+   "first_time": "1337",
+   "industry": "塑料",
+   "stat": "5天3板",
+   "reason": "机器人概念爆发，柔性触觉题材5天3板",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "监管问询：控股股东及实际控制人关于《浙江福莱新材料股份有限公司股票交易异常波动问询函》的回函",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=605488&announcementId=1225619062&orgId=nssc1000227&announcementTime=2026-10-24"
+    },
+    {
+     "kind": "公告",
+     "text": "监管问询：一致行动人嘉兴市进取企业管理合伙企业（有限合伙）关于《浙江福莱新材料股份有限公司股票交易异常波动问询函》的回函",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=605488&announcementId=1225619047&orgId=nssc1000227&announcementTime=2026-10-24"
+    },
+    {
+     "kind": "盘面",
+     "text": "机器人概念爆发，大业股份6连板，福莱新材5天3板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2513429"
+    },
+    {
+     "kind": "盘面",
+     "text": "人形机器人概念盘中持续走高，奕帆传动20cm涨停，鸣志电器回封涨停，此前兆威机电、赛福天、大洋电机涨停，福莱新材、三协电机、浙江荣泰、方正电机等涨幅靠前",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2511907"
+    },
+    {
+     "kind": "同花顺",
+     "text": "机器人触觉+柔性传感+广告喷墨",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“降解塑料”概念（+1.07%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "机器人触觉+柔性传感+广告喷墨",
+   "written_by": "模型"
+  },
+  {
+   "code": "688787",
+   "name": "海天瑞声",
+   "boards": 1,
+   "first_time": "1342",
+   "industry": "IT服务Ⅱ",
+   "stat": "1天1板",
+   "reason": "人形机器人板块大涨，物理AI概念炒作涨停",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "机器人",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=688787&announcementId=1225619999&orgId=9900039125&announcementTime=2026-10-24"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：海天瑞声股票交易异常波动的公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/688787/AN202610231830845192.html"
+    },
+    {
+     "kind": "公司",
+     "text": "A股人形机器人板块持续拉升，宇树科技涨超15%，利亚德、海天瑞声、众诚科技纷纷上扬",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3184207"
+    },
+    {
+     "kind": "盘面",
+     "text": "凡拓数创、海天瑞声、华依科技等多只物理AI概念股涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610243906817592.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "人形机器人板块大涨，宇树科技20CM涨停本周累涨超46%，众诚科技、洛轴股份、利亚德、海天瑞声等多股涨停",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261023150823868800"
+    },
+    {
+     "kind": "同花顺",
+     "text": "具身智能+训练数据+数据要素",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“智谱AI概念”（+4.53%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：寒武纪Q3净利同比增148%，风华高科增470%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2514038"
+    }
+   ],
+   "ths_reason": "具身智能+训练数据+数据要素",
+   "written_by": "模型"
+  },
+  {
+   "code": "603448",
+   "name": "天博智能",
+   "boards": 1,
+   "first_time": "1342",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "六维力传感器+液冷题材，次新股炒作涨停",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "机器人+六维力传感器+液冷+次新股",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：寒武纪Q3净利同比增148%，风华高科增470%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2514038"
+    }
+   ],
+   "ths_reason": "机器人+六维力传感器+液冷+次新股",
+   "written_by": "模型"
+  },
+  {
+   "code": "300296",
+   "name": "利亚德",
+   "boards": 1,
+   "first_time": "1343",
+   "industry": "光学光电",
+   "stat": "3天2板",
+   "reason": "人形机器人板块拉升，物理AI概念炒作涨停",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=300296&announcementId=1225616931&orgId=9900021901&announcementTime=2026-10-22"
+    },
+    {
+     "kind": "公司",
+     "text": "A股人形机器人板块持续拉升，宇树科技涨超15%，利亚德、海天瑞声、众诚科技纷纷上扬",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3184207"
+    },
+    {
+     "kind": "公司",
+     "text": "A股人形机器人板块持续拉升，众诚科技30CM涨停，宇树科技、洛轴股份、利亚德等多股20CM涨停，奥比中光、云从科技、上纬…",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261023141801772800"
+    },
+    {
+     "kind": "盘面",
+     "text": "净买入较多个股分别是天娱数科、歌尔股份、利亚德等",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103407272.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "午后物理AI概念持续走高，凡拓数创触及20cm涨停，此前天娱数科涨停，达实智能触及涨停，鼎捷数智、能科科技、利亚德、格灵深瞳、宝通科技等涨幅靠前",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2513298"
+    },
+    {
+     "kind": "同花顺",
+     "text": "具身智能+物理AI+光学动捕+智能显示",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“第三代半导体”概念（+2.21%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：寒武纪Q3净利同比增148%，风华高科增470%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2514038"
+    }
+   ],
+   "ths_reason": "具身智能+物理AI+光学动捕+智能显示",
+   "written_by": "模型"
+  },
+  {
+   "code": "603160",
+   "name": "汇顶科技",
+   "boards": 1,
+   "first_time": "1343",
+   "industry": "半导体",
+   "stat": "1天1板",
+   "reason": "指纹识别+折叠屏题材活跃，中芯概念领涨",
+   "confidence": "高",
+   "themes": [
+    "消费电子",
+    "半导体"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603160&announcementId=1225615269&orgId=9900027319&announcementTime=2026-10-23"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年第三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603160/AN202610221830796972.html"
+    },
+    {
+     "kind": "公司",
+     "text": "汇顶科技：2026年第三季度净利润1.05亿元，同比下降57.18%",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3183296"
+    },
+    {
+     "kind": "同花顺",
+     "text": "指纹识别+超声波指纹传感器+端侧安全+折叠屏",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“中芯概念”（+2.31%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费电子：寒武纪Q3净利同比增148%，风华高科增470%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2514038"
+    }
+   ],
+   "ths_reason": "指纹识别+超声波指纹传感器+端侧安全+折叠屏",
+   "written_by": "模型"
+  },
+  {
+   "code": "603859",
+   "name": "能科科技",
+   "boards": 1,
+   "first_time": "1343",
+   "industry": "IT服务Ⅱ",
+   "stat": "1天1板",
+   "reason": "物理AI概念走高，具身智能+工业软件题材涨停",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "机器人",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "午后物理AI概念持续走高，凡拓数创触及20cm涨停，此前天娱数科涨停，达实智能触及涨停，鼎捷数智、能科科技、利亚德、格灵深瞳、宝通科技等涨幅靠前",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2513298"
+    },
+    {
+     "kind": "同花顺",
+     "text": "具身智能+工业智能+工业软件",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“军民融合”概念（+1.70%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：寒武纪Q3净利同比增148%，风华高科增470%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2514038"
+    }
+   ],
+   "ths_reason": "具身智能+工业智能+工业软件",
+   "written_by": "模型"
+  },
+  {
+   "code": "603171",
+   "name": "税友股份",
+   "boards": 1,
+   "first_time": "1345",
+   "industry": "IT服务Ⅱ",
+   "stat": "1天1板",
+   "reason": "三季度净利增240.98%，AI智能体+财税题材",
+   "confidence": "高",
+   "themes": [
+    "人工智能",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603171&announcementId=1225618144&orgId=9900041900&announcementTime=2026-10-24"
+    },
+    {
+     "kind": "公司",
+     "text": "税友股份三季度净利润同比增240.98%",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610233906245834.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI智能体+财税数字化+阿里云合作",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“云计算”概念（+3.51%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：寒武纪Q3净利同比增148%，风华高科增470%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2514038"
+    }
+   ],
+   "ths_reason": "AI智能体+财税数字化+阿里云合作",
+   "written_by": "模型"
+  },
+  {
+   "code": "688368",
+   "name": "晶丰明源",
+   "boards": 1,
+   "first_time": "1346",
+   "industry": "半导体",
+   "stat": "1天1板",
+   "reason": "三季报增长，算力电源题材+英伟达概念领涨",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "半导体"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：上海晶丰明源半导体股份有限公司2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=688368&announcementId=1225617025&orgId=9900036061&announcementTime=2026-10-23"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：上海晶丰明源半导体股份有限公司2026年第三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/688368/AN202610221830806488.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报增长+充电管理+算力电源",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“英伟达概念”（+4.15%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：寒武纪Q3净利同比增148%，风华高科增470%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2514038"
+    }
+   ],
+   "ths_reason": "三季报增长+充电管理+算力电源",
+   "written_by": "模型"
+  },
+  {
+   "code": "301101",
+   "name": "明月镜片",
+   "boards": 1,
+   "first_time": "1353",
+   "industry": "文娱用品",
+   "stat": "1天1板",
+   "reason": "AI眼镜概念拉升，业绩增长驱动20cm涨停",
+   "confidence": "高",
+   "themes": [
+    "人工智能"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=301101&announcementId=1225615696&orgId=nssc1000579&announcementTime=2026-10-23"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/301101/AN202610221830801944.html"
+    },
+    {
+     "kind": "公司",
+     "text": "AI眼镜概念震荡拉升 明月镜片20cm涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2513331"
+    },
+    {
+     "kind": "同花顺",
+     "text": "业绩增长+AI眼镜+镜片主业",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：寒武纪Q3净利同比增148%，风华高科增470%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2514038"
+    }
+   ],
+   "ths_reason": "业绩增长+AI眼镜+镜片主业",
+   "written_by": "模型"
+  },
+  {
+   "code": "000559",
+   "name": "万向钱潮",
+   "boards": 1,
+   "first_time": "1355",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "机器人概念爆发，轮毂单元+高速轴承题材涨停",
+   "confidence": "高",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000559&announcementId=1225618811&orgId=gssz0000559&announcementTime=2026-10-24"
+    },
+    {
+     "kind": "盘面",
+     "text": "机器人概念爆发，大业股份6连板，福莱新材5天3板，华阳智能、正裕工业、襄阳轴承2连板，宇树科技20CM涨停，万向钱潮、山东威达、派斯林、大丰实业涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2513429"
+    },
+    {
+     "kind": "同花顺",
+     "text": "机器人+轮毂单元+高速轴承",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "机器人+轮毂单元+高速轴承",
+   "written_by": "模型"
+  },
+  {
+   "code": "603466",
+   "name": "风语筑",
+   "boards": 1,
+   "first_time": "1358",
+   "industry": "数字媒体",
+   "stat": "1天1板",
+   "reason": "物理AI+具身智能题材炒作，数字展示概念涨停",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "净卖出的有索辰科技、风语筑、奥普特等",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103407270.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "物理AI+具身智能+数字展示",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“新型城镇化”概念（+1.15%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：寒武纪Q3净利同比增148%，风华高科增470%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2514038"
+    }
+   ],
+   "ths_reason": "物理AI+具身智能+数字展示",
+   "written_by": "模型"
+  },
+  {
+   "code": "688071",
+   "name": "华依科技",
+   "boards": 1,
+   "first_time": "1358",
+   "industry": "专用设备",
+   "stat": "1天1板",
+   "reason": "物理AI概念走高，人形机器人+IMU题材涨停",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "凡拓数创、海天瑞声、华依科技等多只物理AI概念股涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610243906817592.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "物理AI+人形机器人+IMU",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“燃料电池概念”（+2.31%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：寒武纪Q3净利同比增148%，风华高科增470%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2514038"
+    }
+   ],
+   "ths_reason": "物理AI+人形机器人+IMU",
+   "written_by": "模型"
+  },
+  {
+   "code": "002988",
+   "name": "豪美新材",
+   "boards": 1,
+   "first_time": "1400",
+   "industry": "工业金属",
+   "stat": "1天1板",
+   "reason": "三季报披露，机器人轻量化+铝型材题材炒作",
+   "confidence": "高",
+   "themes": [
+    "机器人",
+    "汽车",
+    "有色金属"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002988&announcementId=1225613582&orgId=9900039755&announcementTime=2026-10-22"
+    },
+    {
+     "kind": "同花顺",
+     "text": "机器人轻量化+汽车轻量化+铝型材",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "机器人轻量化+汽车轻量化+铝型材",
+   "written_by": "模型"
+  },
+  {
+   "code": "603901",
+   "name": "永创智能",
+   "boards": 1,
+   "first_time": "1400",
+   "industry": "专用设备",
+   "stat": "1天1板",
+   "reason": "人形机器人题材炒作，叠加智能包装+半年报增长",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+智能包装+半年报增长",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "人形机器人+智能包装+半年报增长",
+   "written_by": "模型"
+  },
+  {
+   "code": "000810",
+   "name": "创维数字",
+   "boards": 1,
+   "first_time": "1402",
+   "industry": "黑色家电",
+   "stat": "1天1板",
+   "reason": "前三季度净利增184.42%，AI眼镜题材炒作",
+   "confidence": "高",
+   "themes": [
+    "人工智能",
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000810&announcementId=1225619557&orgId=gssz0000810&announcementTime=2026-10-24"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/000810/AN202610231830847971.html"
+    },
+    {
+     "kind": "公司",
+     "text": "创维数字：前三季度净利润同比增长184.42%",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610233906599835.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "智能终端+谷歌合作+AI眼镜",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“F5G概念”（+1.78%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：寒武纪Q3净利同比增148%，风华高科增470%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2514038"
+    }
+   ],
+   "ths_reason": "智能终端+谷歌合作+AI眼镜",
+   "written_by": "模型"
+  },
+  {
+   "code": "002687",
+   "name": "乔治白",
+   "boards": 1,
+   "first_time": "1403",
+   "industry": "服装家纺",
+   "stat": "1天1板",
+   "reason": "职业装+校服+股东户数下降",
+   "confidence": "中",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "职业装+校服+股东户数下降",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "职业装+校服+股东户数下降",
+   "written_by": "规则"
+  },
+  {
+   "code": "301428",
+   "name": "世纪恒通",
+   "boards": 1,
+   "first_time": "1404",
+   "industry": "通信服务",
+   "stat": "1天1板",
+   "reason": "数据标注+具身智能+智能驾驶",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车",
+    "通信"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "数据标注+具身智能+智能驾驶",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“宠物经济”概念（+1.64%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "数据标注+具身智能+智能驾驶",
+   "written_by": "规则"
+  },
+  {
+   "code": "920207",
+   "name": "众诚科技",
+   "boards": 1,
+   "first_time": "1411",
+   "industry": "软件开发",
+   "stat": "1天1板",
+   "reason": "人形机器人走强",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "A股人形机器人板块持续拉升，宇树科技涨超15%，利亚德、海天瑞声、众诚科技纷纷上扬",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3184207"
+    },
+    {
+     "kind": "公司",
+     "text": "A股人形机器人板块持续拉升，众诚科技30CM涨停，宇树科技、洛轴股份、利亚德等多股20CM涨停，奥比中光、云从科技、上纬…",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261023141801772800"
+    },
+    {
+     "kind": "盘面",
+     "text": "人形机器人板块大涨，宇树科技20CM涨停本周累涨超46%，众诚科技、洛轴股份、利亚德、海天瑞声等多股涨停",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261023150823868800"
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“互联网医疗”概念（+2.56%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "300307",
+   "name": "慈星股份",
+   "boards": 1,
+   "first_time": "1411",
+   "industry": "专用设备",
+   "stat": "1天1板",
+   "reason": "机器人+电脑横机+电子皮肤",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "机器人+电脑横机+电子皮肤",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "机器人+电脑横机+电子皮肤",
+   "written_by": "规则"
+  },
+  {
+   "code": "002241",
+   "name": "歌尔股份",
+   "boards": 1,
+   "first_time": "1413",
+   "industry": "消费电子",
+   "stat": "1天1板",
+   "reason": "机器人+智能眼镜+精密零组件",
+   "confidence": "高",
+   "themes": [
+    "人工智能",
+    "消费电子",
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "分红送转：关于2026年中期利润分配方案的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002241&announcementId=1225619739&orgId=9900004688&announcementTime=2026-10-24"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002241&announcementId=1225619737&orgId=9900004688&announcementTime=2026-10-24"
+    },
+    {
+     "kind": "公司",
+     "text": "歌尔股份：前三季度归母净利润26.19亿元，同比增长1.21%",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3184687"
+    },
+    {
+     "kind": "公司",
+     "text": "歌尔股份：第三季度净利润同比下降1.51% 环比增长19%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2513797"
+    },
+    {
+     "kind": "盘面",
+     "text": "净买入较多个股分别是天娱数科、歌尔股份、利亚德等",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103407272.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "午后AI眼镜概念震荡拉升，明月镜片20cm涨停，博士眼镜、视涯科技、极米科技、龙旗科技、歌尔股份、星宸科技涨幅靠前",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2513331"
+    },
+    {
+     "kind": "同花顺",
+     "text": "机器人+智能眼镜+精密零组件",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“科技风格”概念（+2.81%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：寒武纪Q3净利同比增148%，风华高科增470%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2514038"
+    }
+   ],
+   "ths_reason": "机器人+智能眼镜+精密零组件",
+   "written_by": "规则"
+  },
+  {
+   "code": "002979",
+   "name": "雷赛智能",
+   "boards": 1,
+   "first_time": "1415",
+   "industry": "自动化设",
+   "stat": "1天1板",
+   "reason": "三季报增长+人形机器人+伺服系统",
+   "confidence": "高",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002979&announcementId=1225615257&orgId=9900023947&announcementTime=2026-10-23"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002979/AN202610221830798852.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报增长+人形机器人+伺服系统",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "三季报增长+人形机器人+伺服系统",
+   "written_by": "规则"
+  },
+  {
+   "code": "688836",
+   "name": "宇树科技-W",
+   "boards": 1,
+   "first_time": "1415",
+   "industry": "自动化设",
+   "stat": "1天1板",
+   "reason": "人形机器人+物理AI+H2-X",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+物理AI+H2-X",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：寒武纪Q3净利同比增148%，风华高科增470%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2514038"
+    }
+   ],
+   "ths_reason": "人形机器人+物理AI+H2-X",
+   "written_by": "规则"
+  },
+  {
+   "code": "000700",
+   "name": "模塑科技",
+   "boards": 1,
+   "first_time": "1416",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "人形机器人+汽车外饰件+毛利率提升",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "股东变动：关于控股股东部分股权解除质押的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000700&announcementId=1225617738&orgId=gssz0000700&announcementTime=2026-10-24"
+    },
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+汽车外饰件+毛利率提升",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "人形机器人+汽车外饰件+毛利率提升",
+   "written_by": "规则"
+  },
+  {
+   "code": "002931",
+   "name": "锋龙股份",
+   "boards": 1,
+   "first_time": "1416",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "机器人概念+优必选入主+机电组件+电控产品",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "机器人概念+优必选入主+机电组件+电控产品",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "机器人概念+优必选入主+机电组件+电控产品",
+   "written_by": "规则"
+  },
+  {
+   "code": "002380",
+   "name": "科远智慧",
+   "boards": 1,
+   "first_time": "1418",
+   "industry": "IT服务Ⅱ",
+   "stat": "1天1板",
+   "reason": "机器人+工业人工智能+半年报增长",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "机器人",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "机器人+工业人工智能+半年报增长",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“超超临界发电”概念（+0.32%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：寒武纪Q3净利同比增148%，风华高科增470%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2514038"
+    }
+   ],
+   "ths_reason": "机器人+工业人工智能+半年报增长",
+   "written_by": "规则"
+  },
+  {
+   "code": "001283",
+   "name": "豪鹏科技",
+   "boards": 1,
+   "first_time": "1418",
+   "industry": "电池",
+   "stat": "4天2板",
+   "reason": "机器人电池+智能眼镜电池+三季报增长",
+   "confidence": "高",
+   "themes": [
+    "消费电子",
+    "机器人",
+    "锂电储能"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=001283&announcementId=1225613475&orgId=9900048773&announcementTime=2026-10-22"
+    },
+    {
+     "kind": "同花顺",
+     "text": "机器人电池+智能眼镜电池+三季报增长",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费电子：寒武纪Q3净利同比增148%，风华高科增470%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2514038"
+    }
+   ],
+   "ths_reason": "机器人电池+智能眼镜电池+三季报增长",
+   "written_by": "规则"
+  },
+  {
+   "code": "603838",
+   "name": "四通股份",
+   "boards": 1,
+   "first_time": "1419",
+   "industry": "家居用品",
+   "stat": "1天1板",
+   "reason": "日用陶瓷+锆钛精炼+摘帽（公司提示：股票交易异常波动的公告）",
+   "confidence": "中",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603838&announcementId=1225620025&orgId=9900024445&announcementTime=2026-10-24"
+    },
+    {
+     "kind": "同花顺",
+     "text": "日用陶瓷+锆钛精炼+摘帽",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "日用陶瓷+锆钛精炼+摘帽",
+   "written_by": "规则"
+  },
+  {
+   "code": "300369",
+   "name": "绿盟科技",
+   "boards": 1,
+   "first_time": "1421",
+   "industry": "软件开发",
+   "stat": "1天1板",
+   "reason": "AI安全+智慧安全4.0+网络安全",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "PHP曝严重漏洞 网络安全概念集体拉升",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2513358"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI安全+智慧安全4.0+网络安全",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“工业互联网”概念（+3.21%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：寒武纪Q3净利同比增148%，风华高科增470%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2514038"
+    }
+   ],
+   "ths_reason": "AI安全+智慧安全4.0+网络安全",
+   "written_by": "规则"
+  },
+  {
+   "code": "603341",
+   "name": "龙旗科技",
+   "boards": 1,
+   "first_time": "1422",
+   "industry": "消费电子",
+   "stat": "4天2板",
+   "reason": "AI眼镜+AI PC+机器人+智能终端（公司提示：股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "消费电子",
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603341&announcementId=1225614556&orgId=9900031780&announcementTime=2026-10-22"
+    },
+    {
+     "kind": "盘面",
+     "text": "午后AI眼镜概念震荡拉升，明月镜片20cm涨停，博士眼镜、视涯科技、极米科技、龙旗科技、歌尔股份、星宸科技涨幅靠前",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2513331"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI眼镜+AI PC+机器人+智能终端",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“AIPC”概念（+3.52%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：寒武纪Q3净利同比增148%，风华高科增470%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2514038"
+    }
+   ],
+   "ths_reason": "AI眼镜+AI PC+机器人+智能终端",
+   "written_by": "规则"
+  },
+  {
+   "code": "002439",
+   "name": "启明星辰",
+   "boards": 1,
+   "first_time": "1437",
+   "industry": "软件开发",
+   "stat": "1天1板",
+   "reason": "AI安全+数据安全+中移动协同",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "AI安全+数据安全+中移动协同",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“量子科技”概念（+2.27%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：寒武纪Q3净利同比增148%，风华高科增470%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2514038"
+    }
+   ],
+   "ths_reason": "AI安全+数据安全+中移动协同",
+   "written_by": "规则"
+  },
+  {
+   "code": "603286",
+   "name": "日盈电子",
+   "boards": 1,
+   "first_time": "1437",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "人形机器人+汽车零部件+电子皮肤",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+汽车零部件+电子皮肤",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "人形机器人+汽车零部件+电子皮肤",
+   "written_by": "规则"
+  },
+  {
+   "code": "002747",
+   "name": "埃斯顿",
+   "boards": 1,
+   "first_time": "1438",
+   "industry": "自动化设",
+   "stat": "1天1板",
+   "reason": "工业机器人+具身智能+人形机器人",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "工业机器人+具身智能+人形机器人",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“密集调研”概念（+2.25%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "工业机器人+具身智能+人形机器人",
+   "written_by": "规则"
+  },
+  {
+   "code": "002812",
+   "name": "恩捷股份",
+   "boards": 1,
+   "first_time": "1441",
+   "industry": "电池",
+   "stat": "1天1板",
+   "reason": "锂电池隔膜+业绩扭亏+固态电池材料",
+   "confidence": "中",
+   "themes": [
+    "锂电储能"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "股东变动：关于股东部分股份质押变动的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002812&announcementId=1225613758&orgId=9900026450&announcementTime=2026-10-22"
+    },
+    {
+     "kind": "同花顺",
+     "text": "锂电池隔膜+业绩扭亏+固态电池材料",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“钠离子电池”概念（+2.40%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "锂电池隔膜+业绩扭亏+固态电池材料",
+   "written_by": "规则"
+  },
+  {
+   "code": "688686",
+   "name": "奥普特",
+   "boards": 1,
+   "first_time": "1442",
+   "industry": "自动化设",
+   "stat": "1天1板",
+   "reason": "具身智能+机器视觉+工业智能",
+   "confidence": "中",
+   "themes": [
+    "半导体",
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "净卖出的有索辰科技、风语筑、奥普特等",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103407270.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "粤芯半导体、利亚德、奥普特等多股涨停",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261023150823868800"
+    },
+    {
+     "kind": "同花顺",
+     "text": "具身智能+机器视觉+工业智能",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“科创板做市股”概念（+3.34%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "半导体：寒武纪Q3净利同比增148%，风华高科增470%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2514038"
+    }
+   ],
+   "ths_reason": "具身智能+机器视觉+工业智能",
+   "written_by": "规则"
+  },
+  {
+   "code": "001359",
+   "name": "平安电工",
+   "boards": 1,
+   "first_time": "1446",
+   "industry": "塑料",
+   "stat": "1天1板",
+   "reason": "电子布+PCB概念+泰国建厂",
+   "confidence": "中",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "电子布+PCB概念+泰国建厂",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“PCB”概念（+1.39%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "电子布+PCB概念+泰国建厂",
+   "written_by": "规则"
+  },
+  {
+   "code": "600303",
+   "name": "曙光股份",
+   "boards": 1,
+   "first_time": "1446",
+   "industry": "商用车",
+   "stat": "1天1板",
+   "reason": "新能源客车+汽车车桥+军工",
+   "confidence": "中",
+   "themes": [
+    "汽车",
+    "军工"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "新能源客车+汽车车桥+军工",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“氢能源”概念（+1.26%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "汽车：通用汽车收跌9.6%，创2023年以来最大单周跌幅",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3185018"
+    }
+   ],
+   "ths_reason": "新能源客车+汽车车桥+军工",
+   "written_by": "规则"
+  },
+  {
+   "code": "000156",
+   "name": "华数传媒",
+   "boards": 1,
+   "first_time": "1447",
+   "industry": "电视广播",
+   "stat": "1天1板",
+   "reason": "广电智能体+具身智能+智慧家庭+内容安全审核",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "广电智能体+具身智能+智慧家庭+内容安全审核",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“蚂蚁金服概念”（+2.53%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：寒武纪Q3净利同比增148%，风华高科增470%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2514038"
+    }
+   ],
+   "ths_reason": "广电智能体+具身智能+智慧家庭+内容安全审核",
+   "written_by": "规则"
+  }
+ ]
+}
