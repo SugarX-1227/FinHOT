@@ -1,0 +1,1914 @@
+{
+ "trade_date": "2026-10-27",
+ "coverage": 100.0,
+ "announced": 29,
+ "stocks": [
+  {
+   "code": "600838",
+   "name": "上海九百",
+   "boards": 5,
+   "first_time": "0930",
+   "industry": "一般零售",
+   "stat": "5天5板",
+   "reason": "三季报净利微增2.41%，零售概念活跃5连板",
+   "confidence": "高",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：上海九百2026年第三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/600838/AN202610271831041729.html"
+    },
+    {
+     "kind": "公告",
+     "text": "分红送转：上海九百关于2026年度中期利润分配方案的公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/600838/AN202610271831041724.html"
+    },
+    {
+     "kind": "公司",
+     "text": "上海九百：前三季度归母净利润2910.96万元，同比增长2.41%",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3187684"
+    },
+    {
+     "kind": "公司",
+     "text": "5连板上海九百：前三季度净利润同比增长2.41%",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610273910302586.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "零售概念表现活跃，茂业商业涨停，此前上海九百5连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516061"
+    },
+    {
+     "kind": "盘面",
+     "text": "大消费板块上海九百（4板）高开7.19%、东方海洋（4天2板）高开4.78%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516032"
+    },
+    {
+     "kind": "同花顺",
+     "text": "商贸零售+商业地产+洗染服务",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：泡泡玛特Q3整体收益同比下降45%-50%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516581"
+    }
+   ],
+   "ths_reason": "商贸零售+商业地产+洗染服务",
+   "written_by": "模型"
+  },
+  {
+   "code": "603528",
+   "name": "多伦科技",
+   "boards": 4,
+   "first_time": "0925",
+   "industry": "软件开发",
+   "stat": "4天4板",
+   "reason": "机器人概念炒作，前三季亏损仍封4连板",
+   "confidence": "高",
+   "themes": [
+    "机器人",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：多伦科技2026年第三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603528/AN202610271831038073.html"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：多伦科技股票交易异常波动暨风险提示公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603528/AN202610271831038074.html"
+    },
+    {
+     "kind": "公司",
+     "text": "多伦科技：前三季度营收3.00亿元 净亏损2771.07万元",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/2026-10-27/doc-iniwsfqw3849819.shtml"
+    },
+    {
+     "kind": "公司",
+     "text": "多伦科技涨停走出4连板",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103410503.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "机器人多伦科技、赛福天、襄阳轴承4连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516420"
+    },
+    {
+     "kind": "盘面",
+     "text": "机器人概念股林州重机（7天4板）高开2.10%、华阳智能（创业板3板）低开12.36%、多伦科技（3板）竞价涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516032"
+    },
+    {
+     "kind": "同花顺",
+     "text": "交通机器人+具身智能+智慧交通",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：智元发布具身Agent框架Genie Master",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3186704"
+    }
+   ],
+   "ths_reason": "交通机器人+具身智能+智慧交通",
+   "written_by": "模型"
+  },
+  {
+   "code": "603028",
+   "name": "赛福天",
+   "boards": 4,
+   "first_time": "0925",
+   "industry": "通用设备",
+   "stat": "4天4板",
+   "reason": "人形机器人腱绳题材炒作，尚处送样验证仍4连板",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603028/AN202610271831039492.html"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易风险提示性公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603028&announcementId=1225625187&orgId=9900024903&announcementTime=2026-10-27"
+    },
+    {
+     "kind": "公司",
+     "text": "4连板赛福天：人形机器人腱绳相关产品目前尚处于研发及客户送样验证阶段",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516816"
+    },
+    {
+     "kind": "公司",
+     "text": "人形机器人概念活跃 赛福天4连板",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610273909420118.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "机器人多伦科技、赛福天、襄阳轴承4连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516420"
+    },
+    {
+     "kind": "盘面",
+     "text": "人形机器人概念反复活跃，光洋股份2连板，华培动力、东贝集团涨停，此前赛福天4连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516058"
+    },
+    {
+     "kind": "同花顺",
+     "text": "机器人钢丝绳+高端特种钢索",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：智元发布具身Agent框架Genie Master",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3186704"
+    }
+   ],
+   "ths_reason": "机器人钢丝绳+高端特种钢索",
+   "written_by": "模型"
+  },
+  {
+   "code": "000678",
+   "name": "襄阳轴承",
+   "boards": 4,
+   "first_time": "0934",
+   "industry": "汽车零部",
+   "stat": "4天4板",
+   "reason": "机器人轴承+羊字辈题材炒作，走出4连板",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/000678/AN202610271831040373.html"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000678&announcementId=1225619725&orgId=gssz0000678&announcementTime=2026-10-24"
+    },
+    {
+     "kind": "盘面",
+     "text": "机器人多伦科技、赛福天、襄阳轴承4连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516420"
+    },
+    {
+     "kind": "盘面",
+     "text": "机器人概念反复活跃，多伦科技、赛福天、襄阳轴承4连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516194"
+    },
+    {
+     "kind": "同花顺",
+     "text": "机器人轴承+汽车轴承+“羊”字辈",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：智元发布具身Agent框架Genie Master",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3186704"
+    }
+   ],
+   "ths_reason": "机器人轴承+汽车轴承+“羊”字辈",
+   "written_by": "模型"
+  },
+  {
+   "code": "001219",
+   "name": "青岛食品",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "休闲食品",
+   "stat": "2天2板",
+   "reason": "控股股东拟转让股份，实控人将变更为青岛市国资委",
+   "confidence": "高",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=001219&announcementId=1225618266&orgId=gfbj0872387&announcementTime=2026-10-24"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/001219/AN202610271831040470.html"
+    },
+    {
+     "kind": "公司",
+     "text": "青岛食品：控股股东华通集团拟向青啤集团转让29.24%股份，实控人将变更为青岛市国资委",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3187616"
+    },
+    {
+     "kind": "公司",
+     "text": "A股食品等消费股震荡拉升，桂发祥、阳光乳业、青岛食品均2连板，一鸣食品、朱老六、海欣食品涨幅居前",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3186589"
+    },
+    {
+     "kind": "盘面",
+     "text": "食品饮料、零售方向领涨，桂发祥、阳光乳业、青岛食品2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516420"
+    },
+    {
+     "kind": "盘面",
+     "text": "食品饮料板块盘中异动拉升，桂发祥2连板，此前青岛食品2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516097"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报增长+饼干食品+渠道拓展",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：泡泡玛特Q3整体收益同比下降45%-50%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516581"
+    }
+   ],
+   "ths_reason": "三季报增长+饼干食品+渠道拓展",
+   "written_by": "模型"
+  },
+  {
+   "code": "002708",
+   "name": "光洋股份",
+   "boards": 2,
+   "first_time": "0930",
+   "industry": "汽车零部",
+   "stat": "2天2板",
+   "reason": "人形机器人概念活跃+减速器板块冲高2连板",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002708/AN202610271831032908.html"
+    },
+    {
+     "kind": "公司",
+     "text": "人形机器人概念反复活跃 光洋股份等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516058"
+    },
+    {
+     "kind": "公司",
+     "text": "减速器板块短线冲高，光洋股份2连板",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261027/c681117846.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "机器人多伦科技、赛福天、襄阳轴承4连板，光洋股份2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516420"
+    },
+    {
+     "kind": "盘面",
+     "text": "机器人概念反复活跃，多伦科技、赛福天、襄阳轴承4连板，大西洋、光洋股份2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516194"
+    },
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+PCB+汽车零部件+“羊”字辈",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：智元发布具身Agent框架Genie Master",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3186704"
+    }
+   ],
+   "ths_reason": "人形机器人+PCB+汽车零部件+“羊”字辈",
+   "written_by": "模型"
+  },
+  {
+   "code": "002093",
+   "name": "国脉科技",
+   "boards": 2,
+   "first_time": "0930",
+   "industry": "教育",
+   "stat": "2天2板",
+   "reason": "AI应用、养老AI、身联网等题材炒作",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "通信"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002093/AN202610271831036491.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI应用+养老AI+身联网+通信服务",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "AI应用+养老AI+身联网+通信服务",
+   "written_by": "模型"
+  },
+  {
+   "code": "001331",
+   "name": "胜通能源",
+   "boards": 2,
+   "first_time": "0939",
+   "industry": "燃气Ⅱ",
+   "stat": "2天2板",
+   "reason": "机器人概念带动，前三季亏损仍封2连板",
+   "confidence": "高",
+   "themes": [
+    "机器人",
+    "油气"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/001331/AN202610271831035483.html"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/001331/AN202610271831036546.html"
+    },
+    {
+     "kind": "公司",
+     "text": "2连板胜通能源：前三季度净亏损707.99万元",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610273910146776.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "机器人概念继续分化，赛福天、多伦科技晋级4连板，沪光股份、胜通能源2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516488"
+    },
+    {
+     "kind": "盘面",
+     "text": "午后机器人概念持续走高，江苏北人20cm涨停，永创智能走出2连板，此前福莱新材、模塑科技、锋龙股份、胜通能源、万向钱潮等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2514867"
+    },
+    {
+     "kind": "同花顺",
+     "text": "工业机器人+LNG运贸",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：智元发布具身Agent框架Genie Master",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3186704"
+    }
+   ],
+   "ths_reason": "工业机器人+LNG运贸",
+   "written_by": "模型"
+  },
+  {
+   "code": "001318",
+   "name": "阳光乳业",
+   "boards": 2,
+   "first_time": "1011",
+   "industry": "饮料乳品",
+   "stat": "2天2板",
+   "reason": "食品饮料方向领涨，乳业板块拉升2连板",
+   "confidence": "高",
+   "themes": [
+    "消费",
+    "航运物流"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/001318/AN202610271831025728.html"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/001318/AN202610271831033013.html"
+    },
+    {
+     "kind": "公司",
+     "text": "阳光乳业：前三季营收3.27亿元 净利同比降25.71%",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/2026-10-27/doc-iniwrzhw7063573.shtml"
+    },
+    {
+     "kind": "公司",
+     "text": "乳业板块短线拉升，阳光乳业涨超8%",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261027/c681119814.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "食品饮料、零售方向领涨，桂发祥、阳光乳业、青岛食品2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516420"
+    },
+    {
+     "kind": "盘面",
+     "text": "食品饮料板块盘中异动拉升，桂发祥2连板，此前青岛食品2连板，阳光乳业涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516097"
+    },
+    {
+     "kind": "同花顺",
+     "text": "乳制品+绿色食品+冷链物流+“羊”字辈",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：泡泡玛特Q3整体收益同比下降45%-50%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516581"
+    }
+   ],
+   "ths_reason": "乳制品+绿色食品+冷链物流+“羊”字辈",
+   "written_by": "模型"
+  },
+  {
+   "code": "002820",
+   "name": "桂发祥",
+   "boards": 2,
+   "first_time": "1011",
+   "industry": "休闲食品",
+   "stat": "2天2板",
+   "reason": "食品饮料板块异动拉升，消费零售走强2连板",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002820/AN202610271831036275.html"
+    },
+    {
+     "kind": "公司",
+     "text": "食品饮料板块异动拉升 桂发祥2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516097"
+    },
+    {
+     "kind": "公司",
+     "text": "A股食品等消费股震荡拉升，桂发祥、阳光乳业、青岛食品均2连板，一鸣食品、朱老六、海欣食品涨幅居前",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3186589"
+    },
+    {
+     "kind": "盘面",
+     "text": "食品饮料、零售方向领涨，桂发祥、阳光乳业、青岛食品2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516420"
+    },
+    {
+     "kind": "盘面",
+     "text": "食品饮料、零售方向领涨，桂发祥、青岛食品双双2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516194"
+    },
+    {
+     "kind": "同花顺",
+     "text": "休闲食品+非遗麻花+全国拓展",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：泡泡玛特Q3整体收益同比下降45%-50%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516581"
+    }
+   ],
+   "ths_reason": "休闲食品+非遗麻花+全国拓展",
+   "written_by": "模型"
+  },
+  {
+   "code": "605333",
+   "name": "沪光股份",
+   "boards": 2,
+   "first_time": "1021",
+   "industry": "汽车零部",
+   "stat": "2天2板",
+   "reason": "机器人线束业务+为上纬新材代工，题材2连板",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/605333/AN202610271831042992.html"
+    },
+    {
+     "kind": "公司",
+     "text": "沪光股份：1—10月机器人专用线束业务实现营业收入约961万元",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103411849.html"
+    },
+    {
+     "kind": "公司",
+     "text": "2连板沪光股份：目前为上纬新材机器人产品提供整机组装及代加工服务",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516938"
+    },
+    {
+     "kind": "盘面",
+     "text": "机器人概念继续分化，赛福天、多伦科技晋级4连板，沪光股份、胜通能源2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516488"
+    },
+    {
+     "kind": "同花顺",
+     "text": "具身智能+机器人量产+汽车线束",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：智元发布具身Agent框架Genie Master",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3186704"
+    }
+   ],
+   "ths_reason": "具身智能+机器人量产+汽车线束",
+   "written_by": "模型"
+  },
+  {
+   "code": "301314",
+   "name": "科瑞思",
+   "boards": 2,
+   "first_time": "1346",
+   "industry": "通信设备",
+   "stat": "2天2板",
+   "reason": "重大资产重组方案公布复牌，叠加光通信题材",
+   "confidence": "高",
+   "themes": [
+    "通信"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "重组并购：董事会关于本次交易符合《上市公司监管指引第9号——上市公司筹划和实施重大资产重组的监管要求》第四条规定的说明",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=301314&announcementId=1225620980&orgId=9900048072&announcementTime=2026-10-26"
+    },
+    {
+     "kind": "公告",
+     "text": "重组并购：董事会关于本次交易符合《上市公司重大资产重组管理办法》第十一条、第四十三条和第四十四条有关规定的说明",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=301314&announcementId=1225620979&orgId=9900048072&announcementTime=2026-10-26"
+    },
+    {
+     "kind": "公司",
+     "text": "停牌近两周 科瑞思重大资产重组方案公布！今天复牌",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610253907350379.html"
+    },
+    {
+     "kind": "公司",
+     "text": "科瑞思：披露重大资产重组相关保密措施情况",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/2026-10-25/doc-iniwmpas3085366.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "重大重组+光通信+磁性元器件",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "通信：美耐用品订单大增 胡塞袭击沙特最大石油出口终端",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3187731"
+    }
+   ],
+   "ths_reason": "重大重组+光通信+磁性元器件",
+   "written_by": "模型"
+  },
+  {
+   "code": "000058",
+   "name": "深 赛 格",
+   "boards": 1,
+   "first_time": "0925",
+   "industry": "一般零售",
+   "stat": "1天1板",
+   "reason": "半导体题材升温，公司布局半导体检测受关注",
+   "confidence": "中",
+   "themes": [
+    "半导体",
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "布局半导体检测+罗山基地+检验检测+电子市场",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "半导体：台积电传拟上调先进封装价格最高20%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516273"
+    }
+   ],
+   "ths_reason": "布局半导体检测+罗山基地+检验检测+电子市场",
+   "written_by": "模型"
+  },
+  {
+   "code": "002011",
+   "name": "盾安环境",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "家电零部",
+   "stat": "1天1板",
+   "reason": "冰雪经济板块领涨，数据中心温控题材受关注",
+   "confidence": "高",
+   "themes": [
+    "算力",
+    "半导体",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002011&announcementId=1225626236&orgId=gssz0002011&announcementTime=2026-10-27"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002011/AN202610261830939764.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "冰雪经济板块领涨，上涨1.98%，其中雪人集团上涨10.03%，盾安环境上涨9.96%",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103410642.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "雪人集团、盾安环境双双涨停",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103410624.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "数据中心温控+半导体温控+汽车热管理",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "数据中心温控+半导体温控+汽车热管理",
+   "written_by": "模型"
+  },
+  {
+   "code": "002284",
+   "name": "亚太股份",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "轮毂电机概念领涨+机器人模组题材炒作",
+   "confidence": "高",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002284/AN202610261830920107.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "股权受让+业绩增长+汽车制动+机器人模组",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“轮毂电机”概念（+2.43%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：智元发布具身Agent框架Genie Master",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3186704"
+    }
+   ],
+   "ths_reason": "股权受让+业绩增长+汽车制动+机器人模组",
+   "written_by": "模型"
+  },
+  {
+   "code": "603565",
+   "name": "中谷物流",
+   "boards": 1,
+   "first_time": "0931",
+   "industry": "航运港口",
+   "stat": "1天1板",
+   "reason": "三季报业绩增长+股权激励，集装箱物流题材",
+   "confidence": "高",
+   "themes": [
+    "航运物流"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603565&announcementId=1225624421&orgId=gfbj0836283&announcementTime=2026-10-27"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年第三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603565/AN202610261830927120.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报增长+股权激励+集装箱物流",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "三季报增长+股权激励+集装箱物流",
+   "written_by": "模型"
+  },
+  {
+   "code": "601566",
+   "name": "九牧王",
+   "boards": 1,
+   "first_time": "0931",
+   "industry": "服装家纺",
+   "stat": "1天1板",
+   "reason": "纺服板块盘初走强，羊毛羊绒男裤题材炒作",
+   "confidence": "高",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：九牧王2026年第三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/601566/AN202610271831035294.html"
+    },
+    {
+     "kind": "公司",
+     "text": "纺服行业板块盘初走强 九牧王涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610273909231710.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "羊毛羊绒+男裤+太空裤+海峡两岸",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "羊毛羊绒+男裤+太空裤+海峡两岸",
+   "written_by": "模型"
+  },
+  {
+   "code": "600303",
+   "name": "曙光股份",
+   "boards": 1,
+   "first_time": "0932",
+   "industry": "商用车",
+   "stat": "3天2板",
+   "reason": "汽车整车板块直线拉升，车桥+新能源客车题材",
+   "confidence": "中",
+   "themes": [
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "汽车整车板块直线拉升，曙光股份涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261027/c681117864.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "汽车车桥+新能源客车+军用方舱",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "汽车：崔东树：2026年1-9月汽车行业利润率为3.3%",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261027130120699800"
+    }
+   ],
+   "ths_reason": "汽车车桥+新能源客车+军用方舱",
+   "written_by": "模型"
+  },
+  {
+   "code": "603758",
+   "name": "秦安股份",
+   "boards": 1,
+   "first_time": "0933",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "机器人概念活跃，澄清无一体化压铸仍涨停",
+   "confidence": "高",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603758&announcementId=1225620005&orgId=9900030635&announcementTime=2026-10-24"
+    },
+    {
+     "kind": "公司",
+     "text": "秦安股份：未布局一体化压铸产能 也未开展相关产线建设",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2514837"
+    },
+    {
+     "kind": "盘面",
+     "text": "机器人概念股继续活跃，横河精密、多伦科技、秦安股份、大洋电机等涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3186711"
+    },
+    {
+     "kind": "同花顺",
+     "text": "柔性压力传感器+参投墨现科技+真空镀膜+汽车零部件",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：智元发布具身Agent框架Genie Master",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3186704"
+    }
+   ],
+   "ths_reason": "柔性压力传感器+参投墨现科技+真空镀膜+汽车零部件",
+   "written_by": "模型"
+  },
+  {
+   "code": "601956",
+   "name": "东贝集团",
+   "boards": 1,
+   "first_time": "0933",
+   "industry": "家电零部",
+   "stat": "1天1板",
+   "reason": "人形机器人概念活跃，机器人电机题材受关注",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车",
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：湖北东贝机电集团股份有限公司2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601956&announcementId=1225619502&orgId=GD008131&announcementTime=2026-10-24"
+    },
+    {
+     "kind": "盘面",
+     "text": "人形机器人概念反复活跃，光洋股份2连板，华培动力、东贝集团涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516058"
+    },
+    {
+     "kind": "盘面",
+     "text": "人形机器人概念表现活跃，赛福天4连板，光洋股份2连板，华培动力、东贝集团涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610273909420118.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "汽车零部件+机器人电机+制冷压缩机",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：智元发布具身Agent框架Genie Master",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3186704"
+    }
+   ],
+   "ths_reason": "汽车零部件+机器人电机+制冷压缩机",
+   "written_by": "模型"
+  },
+  {
+   "code": "001400",
+   "name": "江顺科技",
+   "boards": 1,
+   "first_time": "0935",
+   "industry": "专用设备",
+   "stat": "1天1板",
+   "reason": "三季报营收净利双增，3D打印+液冷题材",
+   "confidence": "高",
+   "themes": [
+    "算力",
+    "有色金属",
+    "商业航天"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/001400/AN202610271831025831.html"
+    },
+    {
+     "kind": "公司",
+     "text": "江顺科技：前三季度营收增长10.79%，归母净利润增长10.77%",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103411332.html"
+    },
+    {
+     "kind": "公司",
+     "text": "江顺科技：2026年第三季度净利润1705.79万元，同比增长7.31%",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261027/c681131895.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "3D打印+液冷+商业航天+铝挤压模具",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "3D打印+液冷+商业航天+铝挤压模具",
+   "written_by": "模型"
+  },
+  {
+   "code": "600828",
+   "name": "茂业商业",
+   "boards": 1,
+   "first_time": "0940",
+   "industry": "一般零售",
+   "stat": "1天1板",
+   "reason": "零售概念表现活跃，百货+信托题材涨停",
+   "confidence": "中",
+   "themes": [
+    "房地产",
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "零售概念表现活跃 茂业商业涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516061"
+    },
+    {
+     "kind": "公司",
+     "text": "A股信托概念震荡反弹，茂业商业此前涨停，德龙汇能涨超5%，百大集团涨超4%，江苏国信、浦发银行跟涨",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261027102322729800"
+    },
+    {
+     "kind": "盘面",
+     "text": "食品饮料、零售方向领涨，桂发祥、阳光乳业、青岛食品2连板，茂业商业、广百股份涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516420"
+    },
+    {
+     "kind": "盘面",
+     "text": "食品饮料、零售方向领涨，桂发祥、青岛食品双双2连板，阳光乳业、茂业商业、广百股份涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516194"
+    },
+    {
+     "kind": "同花顺",
+     "text": "百货零售+全渠道运营+自有物业",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“退税商店”概念（+0.99%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "百货零售+全渠道运营+自有物业",
+   "written_by": "模型"
+  },
+  {
+   "code": "600715",
+   "name": "文投控股",
+   "boards": 1,
+   "first_time": "0941",
+   "industry": "游戏Ⅱ",
+   "stat": "1天1板",
+   "reason": "影视院线板块拉升，AI漫剧题材受关注",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "影视院线板块短线拉升，文投控股涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261027/c681118405.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "文投控股、粤传媒涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516078"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI漫剧+游戏运营+影院运营",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "AI漫剧+游戏运营+影院运营",
+   "written_by": "模型"
+  },
+  {
+   "code": "002187",
+   "name": "广百股份",
+   "boards": 1,
+   "first_time": "0943",
+   "industry": "一般零售",
+   "stat": "1天1板",
+   "reason": "食品饮料零售领涨，百货零售+免税题材涨停",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "食品饮料、零售方向领涨，桂发祥、阳光乳业、青岛食品2连板，茂业商业、广百股份涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516420"
+    },
+    {
+     "kind": "盘面",
+     "text": "食品饮料、零售方向领涨，桂发祥、青岛食品双双2连板，阳光乳业、茂业商业、广百股份涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516194"
+    },
+    {
+     "kind": "同花顺",
+     "text": "百货零售+免税退税+新零售业态",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：泡泡玛特Q3整体收益同比下降45%-50%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516581"
+    }
+   ],
+   "ths_reason": "百货零售+免税退税+新零售业态",
+   "written_by": "模型"
+  },
+  {
+   "code": "603376",
+   "name": "大明电子",
+   "boards": 1,
+   "first_time": "0948",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "智能驾驶板块活跃，汽车电子+驾驶辅助题材",
+   "confidence": "中",
+   "themes": [
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "智能驾驶浙江世宝、大明电子、通达电气涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516194"
+    },
+    {
+     "kind": "同花顺",
+     "text": "汽车电子+驾驶辅助+新能源车型",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "汽车：崔东树：2026年1-9月汽车行业利润率为3.3%",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261027130120699800"
+    }
+   ],
+   "ths_reason": "汽车电子+驾驶辅助+新能源车型",
+   "written_by": "模型"
+  },
+  {
+   "code": "301682",
+   "name": "宏明电子",
+   "boards": 1,
+   "first_time": "0955",
+   "industry": "军工电子",
+   "stat": "1天1板",
+   "reason": "机器人概念活跃，精密零组件+特种电容题材",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "军工"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "机器人概念继续分化，赛福天、多伦科技晋级4连板，沪光股份、胜通能源2连板，华新精科4天2板，横河精密、宏明电子、弘景光电20cm涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516488"
+    },
+    {
+     "kind": "同花顺",
+     "text": "精密零组件+人形机器人+特种电容",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：智元发布具身Agent框架Genie Master",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3186704"
+    }
+   ],
+   "ths_reason": "精密零组件+人形机器人+特种电容",
+   "written_by": "模型"
+  },
+  {
+   "code": "002249",
+   "name": "大洋电机",
+   "boards": 1,
+   "first_time": "0956",
+   "industry": "电机Ⅱ",
+   "stat": "4天2板",
+   "reason": "电机板块短线拉升，叠加机器人概念活跃",
+   "confidence": "高",
+   "themes": [
+    "算力",
+    "机器人",
+    "风电"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002249&announcementId=1225621272&orgId=9900004896&announcementTime=2026-10-24"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002249&announcementId=1225621282&orgId=9900004896&announcementTime=2026-10-24"
+    },
+    {
+     "kind": "公司",
+     "text": "电机板块短线拉升，大洋电机涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261027/c681119309.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "机器人多伦科技、赛福天、襄阳轴承4连板，光洋股份2连板，大洋电机涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516420"
+    },
+    {
+     "kind": "盘面",
+     "text": "机器人概念股继续活跃，横河精密、多伦科技、秦安股份、大洋电机等涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3186711"
+    },
+    {
+     "kind": "同花顺",
+     "text": "机器人关节+电机业务+数据中心风机+“羊”字辈",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "机器人关节+电机业务+数据中心风机+“羊”字辈",
+   "written_by": "模型"
+  },
+  {
+   "code": "301479",
+   "name": "弘景光电",
+   "boards": 1,
+   "first_time": "0957",
+   "industry": "光学光电",
+   "stat": "1天1板",
+   "reason": "机器人概念活跃，机器人视觉+全景相机题材",
+   "confidence": "高",
+   "themes": [
+    "通信",
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=301479&announcementId=1225618584&orgId=gfbj0870900&announcementTime=2026-10-26"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：关于股票交易异常波动的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=301479&announcementId=1225631884&orgId=gfbj0870900&announcementTime=2026-10-27"
+    },
+    {
+     "kind": "盘面",
+     "text": "机器人概念继续分化，赛福天、多伦科技晋级4连板，沪光股份、胜通能源2连板，华新精科4天2板，横河精密、宏明电子、弘景光电20cm涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516488"
+    },
+    {
+     "kind": "同花顺",
+     "text": "机器人视觉+全景相机+光通信",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "通信：美耐用品订单大增 胡塞袭击沙特最大石油出口终端",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3187731"
+    }
+   ],
+   "ths_reason": "机器人视觉+全景相机+光通信",
+   "written_by": "模型"
+  },
+  {
+   "code": "300539",
+   "name": "横河精密",
+   "boards": 1,
+   "first_time": "1004",
+   "industry": "塑料",
+   "stat": "1天1板",
+   "reason": "机器人概念活跃，PEEK材料板块震荡走高",
+   "confidence": "高",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=300539&announcementId=1225625224&orgId=9900026809&announcementTime=2026-10-27"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/300539/AN202610261830935242.html"
+    },
+    {
+     "kind": "公司",
+     "text": "A股PEEK材料板块震荡走高，明阳科技涨超17%，横河精密涨超15%，恒勃股份涨超6%，长盈精密跟涨",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261027100228814800"
+    },
+    {
+     "kind": "盘面",
+     "text": "机器人概念股继续活跃，横河精密、多伦科技、秦安股份、大洋电机等涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3186711"
+    },
+    {
+     "kind": "盘面",
+     "text": "机器人概念继续分化，赛福天、多伦科技晋级4连板，沪光股份、胜通能源2连板，华新精科4天2板，横河精密、宏明电子、弘景光电20cm涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516488"
+    },
+    {
+     "kind": "同花顺",
+     "text": "减速器+精密模具+汽车零部件",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：智元发布具身Agent框架Genie Master",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3186704"
+    }
+   ],
+   "ths_reason": "减速器+精密模具+汽车零部件",
+   "written_by": "模型"
+  },
+  {
+   "code": "002724",
+   "name": "海洋王",
+   "boards": 1,
+   "first_time": "1007",
+   "industry": "照明设备",
+   "stat": "8天7板",
+   "reason": "军工股题材炒作延续，走出8天7板",
+   "confidence": "高",
+   "themes": [
+    "人工智能",
+    "军工",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002724&announcementId=1225625798&orgId=9900023121&announcementTime=2026-10-27"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002724/AN202610261830938763.html"
+    },
+    {
+     "kind": "公司",
+     "text": "10月27日连板股分析：连板股晋级率不足三成 海洋王走出8天7板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516488"
+    },
+    {
+     "kind": "盘面",
+     "text": "军工股海洋王8天7板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516442"
+    },
+    {
+     "kind": "盘面",
+     "text": "其次分别是雪人集团（6.12亿元）、粤传媒（3.86亿元）、光库科技（3.60亿元）、大洋电机（3.52亿元）、海洋王（2.89亿元）、长鑫科技（2.42亿元）、方正电机（2.19亿元）、慈文传媒（2.17亿元）、福晶科技（2.04亿元）",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261027104045483800"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报增长+专业照明+AI智慧照明+“羊”字辈",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "三季报增长+专业照明+AI智慧照明+“羊”字辈",
+   "written_by": "模型"
+  },
+  {
+   "code": "000888",
+   "name": "峨眉山Ａ",
+   "boards": 1,
+   "first_time": "1029",
+   "industry": "旅游及景",
+   "stat": "1天1板",
+   "reason": "景区索道+文旅+冰雪旅游题材炒作带动涨停",
+   "confidence": "中",
+   "themes": [
+    "文旅"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "景区索道+文旅产业+冰雪旅游",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "景区索道+文旅产业+冰雪旅游",
+   "written_by": "模型"
+  },
+  {
+   "code": "603813",
+   "name": "原尚股份",
+   "boards": 1,
+   "first_time": "1034",
+   "industry": "物流",
+   "stat": "1天1板",
+   "reason": "汽车板块题材活跃，汽车物流+仓储题材炒作",
+   "confidence": "中",
+   "themes": [
+    "汽车",
+    "航运物流"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "汽车物流+仓储资源",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "汽车：崔东树：2026年1-9月汽车行业利润率为3.3%",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261027130120699800"
+    }
+   ],
+   "ths_reason": "汽车物流+仓储资源",
+   "written_by": "模型"
+  },
+  {
+   "code": "002205",
+   "name": "国统股份",
+   "boards": 1,
+   "first_time": "1049",
+   "industry": "水泥",
+   "stat": "1天1板",
+   "reason": "三季报披露，PCCP管道+风电混塔题材炒作",
+   "confidence": "高",
+   "themes": [
+    "风电",
+    "基建建材"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002205/AN202610271831035551.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "PCCP管道+风电混塔+央企控股",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "PCCP管道+风电混塔+央企控股",
+   "written_by": "模型"
+  },
+  {
+   "code": "603370",
+   "name": "华新精科",
+   "boards": 1,
+   "first_time": "1051",
+   "industry": "电机Ⅱ",
+   "stat": "4天2板",
+   "reason": "电机板块全天强势，人形机器人铁芯题材",
+   "confidence": "高",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年第三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603370/AN202610271831038681.html"
+    },
+    {
+     "kind": "公司",
+     "text": "华新精科：2026年第三季度净利润2946.58万元，同比下降20.94%",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261027/c681147709.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "电机板块全天强势，凯中精密、大洋电机、华新精科、八方股份涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261027/c681130011.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "机器人概念继续分化，赛福天、多伦科技晋级4连板，沪光股份、胜通能源2连板，华新精科4天2板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516488"
+    },
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+关节电机铁芯+新能源车铁芯",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：智元发布具身Agent框架Genie Master",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3186704"
+    }
+   ],
+   "ths_reason": "人形机器人+关节电机铁芯+新能源车铁芯",
+   "written_by": "模型"
+  },
+  {
+   "code": "002823",
+   "name": "凯中精密",
+   "boards": 1,
+   "first_time": "1105",
+   "industry": "电机Ⅱ",
+   "stat": "1天1板",
+   "reason": "电机板块低开高走，机器人布局+连接器题材",
+   "confidence": "高",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002823&announcementId=1225625065&orgId=9900028776&announcementTime=2026-10-27"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002823/AN202610261830932975.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "电机板块低开高走，方正电机、凯中精密、大洋电机、华新清科涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261027/c681123761.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "电机板块全天强势，凯中精密、大洋电机、华新精科、八方股份涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261027/c681130011.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "精密零组件+机器人布局+汽车连接器",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：智元发布具身Agent框架Genie Master",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3186704"
+    }
+   ],
+   "ths_reason": "精密零组件+机器人布局+汽车连接器",
+   "written_by": "模型"
+  },
+  {
+   "code": "300504",
+   "name": "天邑股份",
+   "boards": 1,
+   "first_time": "1112",
+   "industry": "通信设备",
+   "stat": "1天1板",
+   "reason": "三季报扭亏，通信设备+MPO跳线题材",
+   "confidence": "高",
+   "themes": [
+    "通信"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=300504&announcementId=1225624377&orgId=9900029631&announcementTime=2026-10-27"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/300504/AN202610261830933052.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报扭亏+通信设备+MPO跳线",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "通信：美耐用品订单大增 胡塞袭击沙特最大石油出口终端",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3187731"
+    }
+   ],
+   "ths_reason": "三季报扭亏+通信设备+MPO跳线",
+   "written_by": "模型"
+  },
+  {
+   "code": "603037",
+   "name": "凯众股份",
+   "boards": 1,
+   "first_time": "1301",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "机器人零部件题材+拟收购拓盛，受资金炒作",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "机器人零部件+汽车减震+拟收购拓盛",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：智元发布具身Agent框架Genie Master",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3186704"
+    }
+   ],
+   "ths_reason": "机器人零部件+汽车减震+拟收购拓盛",
+   "written_by": "模型"
+  },
+  {
+   "code": "002623",
+   "name": "亚玛顿",
+   "boards": 1,
+   "first_time": "1319",
+   "industry": "光伏设备",
+   "stat": "1天1板",
+   "reason": "光伏设备板块拉升，玻璃基板+钙钛矿题材",
+   "confidence": "高",
+   "themes": [
+    "光伏"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002623/AN202610271831025743.html"
+    },
+    {
+     "kind": "公司",
+     "text": "亚玛顿：前三季营收11.30亿元 同比降28.51%",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/2026-10-27/doc-iniwrzhy3840158.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "光伏设备板块短线拉升，奥特维涨超10%，首航新能、钧达股份、泽润新能、亚玛顿、通灵股份等跟涨",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261027/c681117823.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "玻璃基板+光伏玻璃+钙钛矿玻璃",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "玻璃基板+光伏玻璃+钙钛矿玻璃",
+   "written_by": "模型"
+  },
+  {
+   "code": "600626",
+   "name": "申达股份",
+   "boards": 1,
+   "first_time": "1324",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "汽车板块题材活跃，汽车内饰+上海国资题材",
+   "confidence": "中",
+   "themes": [
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "汽车内饰+整车配套+中报扭亏+上海国资",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "汽车：崔东树：2026年1-9月汽车行业利润率为3.3%",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261027130120699800"
+    }
+   ],
+   "ths_reason": "汽车内饰+整车配套+中报扭亏+上海国资",
+   "written_by": "模型"
+  },
+  {
+   "code": "600785",
+   "name": "新华百货",
+   "boards": 1,
+   "first_time": "1450",
+   "industry": "一般零售",
+   "stat": "3天2板",
+   "reason": "大消费板块尾盘异动，零售股涨停",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：银川新华百货商业集团股份有限公司股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/600785/AN202610271831039809.html"
+    },
+    {
+     "kind": "公司",
+     "text": "临近尾盘大消费板块再度异动 新华百货等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516411"
+    },
+    {
+     "kind": "盘面",
+     "text": "零售板块表现活跃，茂业商业、深赛格、广百股份、上海九百涨停，百大集团、新华百货、国芳集团涨幅居前",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261027/c681123761.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "零售板块冲高回落，局部强势，茂业商业、深赛格、广百股份、上海九百涨停，新华百货、百大集团、国芳集团涨幅居前",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261027/c681130011.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "零售促销+股份回购+硬折扣",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：泡泡玛特Q3整体收益同比下降45%-50%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516581"
+    }
+   ],
+   "ths_reason": "零售促销+股份回购+硬折扣",
+   "written_by": "模型"
+  },
+  {
+   "code": "601086",
+   "name": "国芳集团",
+   "boards": 1,
+   "first_time": "1452",
+   "industry": "一般零售",
+   "stat": "1天1板",
+   "reason": "大消费板块拉升，区域连锁零售股涨停",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "大消费板块再度拉升，新华百货、百大集团走出3天2板，国芳集团涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516411"
+    },
+    {
+     "kind": "盘面",
+     "text": "零售板块表现活跃，茂业商业、深赛格、广百股份、上海九百涨停，百大集团、新华百货、国芳集团涨幅居前",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261027/c681123761.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "连锁零售+消费场景+区域优势",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：泡泡玛特Q3整体收益同比下降45%-50%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516581"
+    }
+   ],
+   "ths_reason": "连锁零售+消费场景+区域优势",
+   "written_by": "模型"
+  }
+ ]
+}
