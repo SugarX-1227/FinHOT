@@ -1,5 +1,5 @@
 {
-"updated": "2026-10-26T07:31:49+08:00",
+"updated": "2026-10-27T08:45:18+08:00",
 "source": "巨潮资讯股票清单",
 "complete": true,
 "stocks": [
@@ -82442,6 +82442,20 @@
 "org_id": "gfbj0873524",
 "pinyin": "jgxc",
 "industry": "非金属材料Ⅱ",
+"former": [],
+"st": false,
+"status": "listed",
+"hk": "",
+"us": "",
+"aliases": []
+},
+{
+"code": "920085",
+"name": "森峰激光",
+"exchange": "BJ",
+"org_id": "9900053188",
+"pinyin": "sfjg",
+"industry": "",
 "former": [],
 "st": false,
 "status": "listed",
