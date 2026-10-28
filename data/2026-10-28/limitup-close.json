@@ -1,0 +1,3038 @@
+{
+ "trade_date": "2026-10-28",
+ "coverage": 97.2,
+ "announced": 47,
+ "stocks": [
+  {
+   "code": "000678",
+   "name": "襄阳轴承",
+   "boards": 5,
+   "first_time": "0932",
+   "industry": "汽车零部",
+   "stat": "5天5板",
+   "reason": "机器人轴承+汽车轴承+“羊”字辈",
+   "confidence": "高",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/000678/AN202610281831102081.html"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000678&announcementId=1225632038&orgId=gssz0000678&announcementTime=2026-10-28"
+    },
+    {
+     "kind": "公司",
+     "text": "襄阳轴承：2026年第三季度净利润亏损556.17万元",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261028/c681183961.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "人形机器人概念爆发，襄阳轴承5连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517749"
+    },
+    {
+     "kind": "盘面",
+     "text": "机器人概念股襄阳轴承（4板）高开5.93%、赛福天（4板）低开6.97%、多伦科技（4板）低开3.55%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517354"
+    },
+    {
+     "kind": "同花顺",
+     "text": "机器人轴承+汽车轴承+“羊”字辈",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：宇树将与红杉中国成立“杉宇·创计划”",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517927"
+    }
+   ],
+   "ths_reason": "机器人轴承+汽车轴承+“羊”字辈",
+   "written_by": "规则"
+  },
+  {
+   "code": "001219",
+   "name": "青岛食品",
+   "boards": 3,
+   "first_time": "0925",
+   "industry": "休闲食品",
+   "stat": "3天3板",
+   "reason": "股权转让+三季报增长+饼干食品",
+   "confidence": "高",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=001219&announcementId=1225632089&orgId=gfbj0872387&announcementTime=2026-10-28"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/001219/AN202610271831040470.html"
+    },
+    {
+     "kind": "公司",
+     "text": "青岛食品三连板：控股股东拟转让所持29.24%股权 实控人或变更为青岛市国资委",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610283911764370.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "食品饮料行业青岛食品（2板）竞价涨停、阳光乳业（2板）高开1.73%、桂发祥（2板）高开1.07%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517354"
+    },
+    {
+     "kind": "盘面",
+     "text": "桂发祥、阳光乳业、青岛食品2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516420"
+    },
+    {
+     "kind": "同花顺",
+     "text": "股权转让+三季报增长+饼干食品",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：全国消费品以旧换新推进会召开，销售超2万亿",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3188204"
+    }
+   ],
+   "ths_reason": "股权转让+三季报增长+饼干食品",
+   "written_by": "规则"
+  },
+  {
+   "code": "002708",
+   "name": "光洋股份",
+   "boards": 3,
+   "first_time": "0930",
+   "industry": "汽车零部",
+   "stat": "3天3板",
+   "reason": "人形机器人+PCB+汽车零部件+“羊”字辈（公司提示：股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002708&announcementId=1225628784&orgId=9900023255&announcementTime=2026-10-28"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002708/AN202610271831032908.html"
+    },
+    {
+     "kind": "公司",
+     "text": "PCB概念板块高开，金安国纪、光洋股份涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261028/c681168983.shtml"
+    },
+    {
+     "kind": "公司",
+     "text": "人形机器人概念反复活跃 光洋股份等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516058"
+    },
+    {
+     "kind": "盘面",
+     "text": "人形机器人概念爆发，襄阳轴承5连板，光洋股份3连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517749"
+    },
+    {
+     "kind": "盘面",
+     "text": "PCB板块领涨，上涨2.26%，其中金安国纪上涨10.01%，光洋股份上涨9.99%",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103412368.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+PCB+汽车零部件+“羊”字辈",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：宇树将与红杉中国成立“杉宇·创计划”",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517927"
+    }
+   ],
+   "ths_reason": "人形机器人+PCB+汽车零部件+“羊”字辈",
+   "written_by": "规则"
+  },
+  {
+   "code": "601956",
+   "name": "东贝集团",
+   "boards": 2,
+   "first_time": "0930",
+   "industry": "家电零部",
+   "stat": "2天2板",
+   "reason": "机器人电机+制冷压缩机+商用制冷（公司提示：湖北东贝机电集团股份有限公司股票交易…）",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：湖北东贝机电集团股份有限公司股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/601956/AN202610281831123561.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "其中机器人概念多股连板，襄阳轴承收获5连板、东贝集团2连板",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103413222.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "机器人概念再度爆发，襄阳轴承5连板，万向钱潮、杰克科技4天3板，东贝集团、凯众股份2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517825"
+    },
+    {
+     "kind": "同花顺",
+     "text": "机器人电机+制冷压缩机+商用制冷",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“光伏”概念（+1.86%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：宇树将与红杉中国成立“杉宇·创计划”",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517927"
+    }
+   ],
+   "ths_reason": "机器人电机+制冷压缩机+商用制冷",
+   "written_by": "规则"
+  },
+  {
+   "code": "600828",
+   "name": "茂业商业",
+   "boards": 2,
+   "first_time": "0956",
+   "industry": "一般零售",
+   "stat": "2天2板",
+   "reason": "百货零售+全渠道运营+自有物业（公司提示：茂业商业股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "房地产",
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：茂业商业股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/600828/AN202610281831121901.html"
+    },
+    {
+     "kind": "公司",
+     "text": "零售板块探底回升 茂业商业2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517397"
+    },
+    {
+     "kind": "公司",
+     "text": "百货零售板块直线拉升，茂业商业、深赛格涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261028/c681180772.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "桂发祥、阳光乳业、青岛食品2连板，茂业商业、广百股份涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516420"
+    },
+    {
+     "kind": "同花顺",
+     "text": "百货零售+全渠道运营+自有物业",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“参股金融”概念（+0.53%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "百货零售+全渠道运营+自有物业",
+   "written_by": "规则"
+  },
+  {
+   "code": "603037",
+   "name": "凯众股份",
+   "boards": 2,
+   "first_time": "1014",
+   "industry": "汽车零部",
+   "stat": "2天2板",
+   "reason": "机器人零部件+汽车减震+拟收购拓盛",
+   "confidence": "高",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年第三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603037/AN202610281831105749.html"
+    },
+    {
+     "kind": "公告",
+     "text": "监管问询：关于《上海凯众材料科技股份有限公司股票交易异常波动问询函》的回复(侯振坤)",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603037/AN202610281831105750.html"
+    },
+    {
+     "kind": "公司",
+     "text": "凯众股份：前三季度营收6.20亿元 净利同比降37.65%",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/2026-10-28/doc-iniwukpw3380895.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "机器人概念再度爆发，襄阳轴承5连板，万向钱潮、杰克科技4天3板，东贝集团、凯众股份2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517825"
+    },
+    {
+     "kind": "同花顺",
+     "text": "机器人零部件+汽车减震+拟收购拓盛",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：宇树将与红杉中国成立“杉宇·创计划”",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517927"
+    }
+   ],
+   "ths_reason": "机器人零部件+汽车减震+拟收购拓盛",
+   "written_by": "规则"
+  },
+  {
+   "code": "600715",
+   "name": "文投控股",
+   "boards": 2,
+   "first_time": "1052",
+   "industry": "游戏Ⅱ",
+   "stat": "6天3板",
+   "reason": "AI漫剧+游戏运营+影院运营（公司提示：文投控股股份有限公司股票交易异常波动…）",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：文投控股股份有限公司股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/600715/AN202610281831125829.html"
+    },
+    {
+     "kind": "公司",
+     "text": "影视院线板块异动拉升，文投控股直线涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261028/c681174654.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "影视院线板块震荡反弹，百纳千成、文投控股涨停",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261028150034629800"
+    },
+    {
+     "kind": "盘面",
+     "text": "短剧概念表现活跃，文投控股2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517749"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI漫剧+游戏运营+影院运营",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“振兴沈阳”概念（+0.10%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "AI漫剧+游戏运营+影院运营",
+   "written_by": "规则"
+  },
+  {
+   "code": "001400",
+   "name": "江顺科技",
+   "boards": 2,
+   "first_time": "1105",
+   "industry": "专用设备",
+   "stat": "2天2板",
+   "reason": "三季报增长+3D打印+铝挤压模具+液冷",
+   "confidence": "高",
+   "themes": [
+    "算力",
+    "有色金属"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/001400/AN202610271831025831.html"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：2026-051江苏江顺精密科技集团股份有限公司股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/001400/AN202610281831125114.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报增长+3D打印+铝挤压模具+液冷",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "三季报增长+3D打印+铝挤压模具+液冷",
+   "written_by": "规则"
+  },
+  {
+   "code": "002636",
+   "name": "金安国纪",
+   "boards": 1,
+   "first_time": "0925",
+   "industry": "元件",
+   "stat": "1天1板",
+   "reason": "覆铜板+三季报高增+产能扩张",
+   "confidence": "高",
+   "themes": [
+    "算力",
+    "有色金属",
+    "消费电子"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002636/AN202610271831025813.html"
+    },
+    {
+     "kind": "公司",
+     "text": "金安国纪：2026年第三季度净利润11.58亿元，同比增长1,030.57%",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3186758"
+    },
+    {
+     "kind": "公司",
+     "text": "PCB概念开盘活跃 金安国纪涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517352"
+    },
+    {
+     "kind": "盘面",
+     "text": "算力硬件股反弹，斯迪克、金安国纪、方正科技、世运电路等涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3188182"
+    },
+    {
+     "kind": "盘面",
+     "text": "方正科技、金安国纪封上涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610283911662223.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "覆铜板+三季报高增+产能扩张",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "覆铜板+三季报高增+产能扩张",
+   "written_by": "规则"
+  },
+  {
+   "code": "301488",
+   "name": "豪恩汽电",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "前一交易日竞价波动+机器人域控+机器人感知+智能驾驶",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车",
+    "贸易摩擦"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "人形机器人概念活跃 豪恩汽电涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610283911272356.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "今日机器人概念股爆发涨停潮，各细分全线上涨，豪恩汽电、恒工精密、儒竞科技等20CM涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610283912232678.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "昨日尾盘“闪崩”的豪恩汽电（301488）今日开盘直接“20CM”涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610283911668835.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "前一交易日竞价波动+机器人域控+机器人感知+智能驾驶",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：宇树将与红杉中国成立“杉宇·创计划”",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517927"
+    }
+   ],
+   "ths_reason": "前一交易日竞价波动+机器人域控+机器人感知+智能驾驶",
+   "written_by": "规则"
+  },
+  {
+   "code": "603006",
+   "name": "联明股份",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "三季报增长+新能源水冷板+供应链服务",
+   "confidence": "高",
+   "themes": [
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603006&announcementId=1225629513&orgId=9900023816&announcementTime=2026-10-28"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年第三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603006/AN202610271831033391.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报增长+新能源水冷板+供应链服务",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "汽车：全国消费品以旧换新推进会召开，销售超2万亿",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3188204"
+    }
+   ],
+   "ths_reason": "三季报增长+新能源水冷板+供应链服务",
+   "written_by": "规则"
+  },
+  {
+   "code": "603897",
+   "name": "长城科技",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "电网设备",
+   "stat": "1天1板",
+   "reason": "三季报增长+机器人应用+电磁线",
+   "confidence": "高",
+   "themes": [
+    "机器人",
+    "电力"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603897&announcementId=1225628750&orgId=9900034846&announcementTime=2026-10-28"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：长城科技2026年第三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603897/AN202610271831028722.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报增长+机器人应用+电磁线",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：宇树将与红杉中国成立“杉宇·创计划”",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517927"
+    }
+   ],
+   "ths_reason": "三季报增长+机器人应用+电磁线",
+   "written_by": "规则"
+  },
+  {
+   "code": "603612",
+   "name": "索通发展",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "非金属材",
+   "stat": "1天1板",
+   "reason": "三季报增长+预焙阳极+炭材料项目（公司提示：股份有限公司2026年第三季度报告）",
+   "confidence": "中",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：股份有限公司2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603612&announcementId=1225630687&orgId=9900023754&announcementTime=2026-10-28"
+    },
+    {
+     "kind": "公告",
+     "text": "重大合同：股份有限公司关于投资建设年产20万吨高电流密度节能型炭材料项目暨签署《增资协议》的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603612&announcementId=1225630682&orgId=9900023754&announcementTime=2026-10-28"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报增长+预焙阳极+炭材料项目",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "三季报增长+预焙阳极+炭材料项目",
+   "written_by": "规则"
+  },
+  {
+   "code": "003028",
+   "name": "振邦智能",
+   "boards": 1,
+   "first_time": "0931",
+   "industry": "家电零部",
+   "stat": "1天1板",
+   "reason": "三季报+人形机器人+智能控制器",
+   "confidence": "高",
+   "themes": [
+    "机器人",
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=003028&announcementId=1225632464&orgId=9900039781&announcementTime=2026-10-28"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/003028/AN202610271831042132.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报+人形机器人+智能控制器",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：宇树将与红杉中国成立“杉宇·创计划”",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517927"
+    }
+   ],
+   "ths_reason": "三季报+人形机器人+智能控制器",
+   "written_by": "规则"
+  },
+  {
+   "code": "600078",
+   "name": "澄星股份",
+   "boards": 1,
+   "first_time": "0931",
+   "industry": "农化制品",
+   "stat": "1天1板",
+   "reason": "三季报增长+磷化工+电子级磷酸",
+   "confidence": "高",
+   "themes": [
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：江苏澄星磷化工股份有限公司2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600078&announcementId=1225632289&orgId=gssh0600078&announcementTime=2026-10-28"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：江苏澄星磷化工股份有限公司2026年第三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/600078/AN202610271831040804.html"
+    },
+    {
+     "kind": "公司",
+     "text": "澄星股份：2026年第三季度净利润1.47亿元，同比增长1,471.96%",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261027/c681151110.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报增长+磷化工+电子级磷酸",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“出口退税”概念（+0.46%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "化工：乙二醇期货主力合约触及涨停，涨幅6%，报5276元/吨",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517704"
+    }
+   ],
+   "ths_reason": "三季报增长+磷化工+电子级磷酸",
+   "written_by": "规则"
+  },
+  {
+   "code": "002164",
+   "name": "宁波东力",
+   "boards": 1,
+   "first_time": "0931",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "三季报增长+精密减速器+齿轮传动+机器人",
+   "confidence": "高",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002164&announcementId=1225631439&orgId=9900003443&announcementTime=2026-10-28"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002164/AN202610271831039069.html"
+    },
+    {
+     "kind": "公司",
+     "text": "人形机器人概念反复活跃 宁波东力直线涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517369"
+    },
+    {
+     "kind": "公司",
+     "text": "减速器板块再度活跃，宁波东力等多股涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261028/c681169717.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "人形机器人板块全天强势，恒工精密、宁波东力、五洲新春、万向钱潮、大丰实业等十余股涨停",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261028150034629800"
+    },
+    {
+     "kind": "盘面",
+     "text": "人形机器人概念爆发，襄阳轴承5连板，光洋股份3连板，万向钱潮4天3板，宁波东力、五洲新春等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517749"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报增长+精密减速器+齿轮传动+机器人",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“新能源”概念（+0.92%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：宇树将与红杉中国成立“杉宇·创计划”",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517927"
+    }
+   ],
+   "ths_reason": "三季报增长+精密减速器+齿轮传动+机器人",
+   "written_by": "规则"
+  },
+  {
+   "code": "301359",
+   "name": "东南电子",
+   "boards": 1,
+   "first_time": "0932",
+   "industry": "其他电子",
+   "stat": "1天1板",
+   "reason": "三季报增长+微动开关+募投变更",
+   "confidence": "高",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=301359&announcementId=1225631760&orgId=gfbj0839543&announcementTime=2026-10-28"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/301359/AN202610271831039755.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报增长+微动开关+募投变更",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "三季报增长+微动开关+募投变更",
+   "written_by": "规则"
+  },
+  {
+   "code": "300613",
+   "name": "富瀚微",
+   "boards": 1,
+   "first_time": "0932",
+   "industry": "半导体",
+   "stat": "1天1板",
+   "reason": "三季报高增+视觉芯片+端侧AI+供货机器人",
+   "confidence": "高",
+   "themes": [
+    "人工智能",
+    "半导体",
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "富瀚微三季度净利润4.25亿元同比增620.99%",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3186769"
+    },
+    {
+     "kind": "公司",
+     "text": "半导体板块再度拉升，富瀚微涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261028/c681170286.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "半导体芯片股走强，富瀚微、必易微、金海通、盈方微等涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3188182"
+    },
+    {
+     "kind": "盘面",
+     "text": "半导体芯片股走强，富瀚微、必易微、盈方微等涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3188096"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报高增+视觉芯片+端侧AI+供货机器人",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "三季报高增+视觉芯片+端侧AI+供货机器人",
+   "written_by": "规则"
+  },
+  {
+   "code": "002526",
+   "name": "山东矿机",
+   "boards": 1,
+   "first_time": "0933",
+   "industry": "专用设备",
+   "stat": "1天1板",
+   "reason": "煤炭机械+焊接机器人+第三季度业绩增长",
+   "confidence": "高",
+   "themes": [
+    "机器人",
+    "煤炭"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002526&announcementId=1225622937&orgId=9900016432&announcementTime=2026-10-27"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002526/AN202610261830925073.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "减速器板块再度活跃，宁波东力、山东矿机、五洲新春、襄阳轴承、光洋股份涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261028/c681169717.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "煤炭机械+焊接机器人+第三季度业绩增长",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：宇树将与红杉中国成立“杉宇·创计划”",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517927"
+    }
+   ],
+   "ths_reason": "煤炭机械+焊接机器人+第三季度业绩增长",
+   "written_by": "规则"
+  },
+  {
+   "code": "603667",
+   "name": "五洲新春",
+   "boards": 1,
+   "first_time": "0933",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "三季报业绩+机器人丝杠+轴承主业",
+   "confidence": "高",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603667&announcementId=1225631730&orgId=9900027666&announcementTime=2026-10-28"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：五洲新春2026年第三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603667/AN202610271831039147.html"
+    },
+    {
+     "kind": "公司",
+     "text": "五洲新春前三季净利增898% 系洛轴公允价值变动",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610273910150481.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "人形机器人板块全天强势，恒工精密、宁波东力、五洲新春、万向钱潮、大丰实业等十余股涨停",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261028150034629800"
+    },
+    {
+     "kind": "盘面",
+     "text": "人形机器人概念爆发，襄阳轴承5连板，光洋股份3连板，万向钱潮4天3板，宁波东力、五洲新春等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517749"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报业绩+机器人丝杠+轴承主业",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：宇树将与红杉中国成立“杉宇·创计划”",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517927"
+    }
+   ],
+   "ths_reason": "三季报业绩+机器人丝杠+轴承主业",
+   "written_by": "规则"
+  },
+  {
+   "code": "603081",
+   "name": "大丰实业",
+   "boards": 1,
+   "first_time": "0934",
+   "industry": "专用设备",
+   "stat": "4天2板",
+   "reason": "具身智能+文体旅集成+舞台机械",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "人形机器人板块全天强势，恒工精密、宁波东力、五洲新春、万向钱潮、大丰实业等十余股涨停",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261028150034629800"
+    },
+    {
+     "kind": "盘面",
+     "text": "机器人概念再度爆发，襄阳轴承5连板，万向钱潮、杰克科技4天3板，东贝集团、凯众股份2连板，大丰实业4天2板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517825"
+    },
+    {
+     "kind": "同花顺",
+     "text": "具身智能+文体旅集成+舞台机械",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：宇树将与红杉中国成立“杉宇·创计划”",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517927"
+    }
+   ],
+   "ths_reason": "具身智能+文体旅集成+舞台机械",
+   "written_by": "规则"
+  },
+  {
+   "code": "600173",
+   "name": "卧龙新能",
+   "boards": 1,
+   "first_time": "0934",
+   "industry": "房地产开",
+   "stat": "1天1板",
+   "reason": "储能并网+海外储能+氢能",
+   "confidence": "中",
+   "themes": [
+    "锂电储能",
+    "房地产"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "储能并网+海外储能+氢能",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "储能并网+海外储能+氢能",
+   "written_by": "规则"
+  },
+  {
+   "code": "603109",
+   "name": "神驰机电",
+   "boards": 1,
+   "first_time": "0935",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "机器人+小型发电机+户用储能",
+   "confidence": "高",
+   "themes": [
+    "机器人",
+    "锂电储能",
+    "电力"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年第三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603109/AN202610281831104124.html"
+    },
+    {
+     "kind": "公司",
+     "text": "神驰机电：2026年第三季度净利润1834.54万元，同比下降64.00%",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261028/c681185970.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "机器人+小型发电机+户用储能",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：宇树将与红杉中国成立“杉宇·创计划”",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517927"
+    }
+   ],
+   "ths_reason": "机器人+小型发电机+户用储能",
+   "written_by": "规则"
+  },
+  {
+   "code": "000670",
+   "name": "盈方微",
+   "boards": 1,
+   "first_time": "0937",
+   "industry": "其他电子",
+   "stat": "1天1板",
+   "reason": "三季度增长+存储芯片+元器件分销",
+   "confidence": "高",
+   "themes": [
+    "半导体"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000670&announcementId=1225624480&orgId=gssz0000670&announcementTime=2026-10-27"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/000670/AN202610261830932981.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "半导体芯片股走强，富瀚微、必易微、金海通、盈方微等涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3188182"
+    },
+    {
+     "kind": "盘面",
+     "text": "半导体芯片股走强，富瀚微、必易微、盈方微等涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3188096"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季度增长+存储芯片+元器件分销",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "半导体：SK海力士Q3营收首破100万亿韩元 股价涨10%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517496"
+    }
+   ],
+   "ths_reason": "三季度增长+存储芯片+元器件分销",
+   "written_by": "规则"
+  },
+  {
+   "code": "603868",
+   "name": "飞科电器",
+   "boards": 1,
+   "first_time": "0937",
+   "industry": "小家电",
+   "stat": "1天1板",
+   "reason": "三季报增长+个护电器（公司提示：上海飞科电器股份有限公司2026年第…）",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：上海飞科电器股份有限公司2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603868&announcementId=1225629674&orgId=9900026668&announcementTime=2026-10-28"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：上海飞科电器股份有限公司2026年第三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603868/AN202610271831033550.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报增长+个护电器",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：全国消费品以旧换新推进会召开，销售超2万亿",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3188204"
+    }
+   ],
+   "ths_reason": "三季报增长+个护电器",
+   "written_by": "规则"
+  },
+  {
+   "code": "603633",
+   "name": "徕木股份",
+   "boards": 1,
+   "first_time": "0938",
+   "industry": "消费电子",
+   "stat": "1天1板",
+   "reason": "人形机器人+汽车连接器",
+   "confidence": "高",
+   "themes": [
+    "机器人",
+    "汽车",
+    "消费电子"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：徕木股份2026年第三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603633/AN202610281831120788.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+汽车连接器",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：宇树将与红杉中国成立“杉宇·创计划”",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517927"
+    }
+   ],
+   "ths_reason": "人形机器人+汽车连接器",
+   "written_by": "规则"
+  },
+  {
+   "code": "000559",
+   "name": "万向钱潮",
+   "boards": 1,
+   "first_time": "0944",
+   "industry": "汽车零部",
+   "stat": "4天3板",
+   "reason": "人形机器人+精密减速器+汽车零部件（公司提示：股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000559&announcementId=1225626536&orgId=gssz0000559&announcementTime=2026-10-27"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/000559/AN202610261830939328.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "人形机器人板块全天强势，恒工精密、宁波东力、五洲新春、万向钱潮、大丰实业等十余股涨停",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261028150034629800"
+    },
+    {
+     "kind": "盘面",
+     "text": "人形机器人概念爆发，襄阳轴承5连板，光洋股份3连板，万向钱潮4天3板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517749"
+    },
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+精密减速器+汽车零部件",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“特斯拉”概念（+2.10%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：宇树将与红杉中国成立“杉宇·创计划”",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517927"
+    }
+   ],
+   "ths_reason": "人形机器人+精密减速器+汽车零部件",
+   "written_by": "规则"
+  },
+  {
+   "code": "920896",
+   "name": "旺成科技",
+   "boards": 1,
+   "first_time": "0946",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "汽车题材（同题材涨停 3 家）",
+   "confidence": "低",
+   "themes": [
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "题材",
+     "text": "汽车：全国消费品以旧换新推进会召开，销售超2万亿",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3188204"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "603626",
+   "name": "科森科技",
+   "boards": 1,
+   "first_time": "0947",
+   "industry": "消费电子",
+   "stat": "1天1板",
+   "reason": "机器人结构件+消费电子结构件+三季报扭亏",
+   "confidence": "高",
+   "themes": [
+    "消费电子",
+    "机器人",
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603626&announcementId=1225621875&orgId=9900029914&announcementTime=2026-10-26"
+    },
+    {
+     "kind": "公告",
+     "text": "股东变动：关于控股股东部分股份解除质押及延期购回的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603626&announcementId=1225629141&orgId=9900029914&announcementTime=2026-10-28"
+    },
+    {
+     "kind": "同花顺",
+     "text": "机器人结构件+消费电子结构件+三季报扭亏",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费电子：三环集团Q3净利19.33亿元同比增168%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517900"
+    }
+   ],
+   "ths_reason": "机器人结构件+消费电子结构件+三季报扭亏",
+   "written_by": "规则"
+  },
+  {
+   "code": "600601",
+   "name": "方正科技",
+   "boards": 1,
+   "first_time": "0948",
+   "industry": "元件",
+   "stat": "1天1板",
+   "reason": "PCB+业绩高增+AI扩产",
+   "confidence": "高",
+   "themes": [
+    "人工智能",
+    "算力",
+    "消费电子"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600601&announcementId=1225631269&orgId=gssh0600601&announcementTime=2026-10-28"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：方正科技2026年第三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/600601/AN202610271831037040.html"
+    },
+    {
+     "kind": "公司",
+     "text": "方正科技：第三季度净利润同比增长327%环比增长80% PCB业务平均售价及销量提升",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516758"
+    },
+    {
+     "kind": "公司",
+     "text": "方正科技：2026年第三季度净利润6.16亿元 同比增长327.49%",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261027180801893800"
+    },
+    {
+     "kind": "盘面",
+     "text": "算力硬件股反弹，斯迪克、金安国纪、方正科技、世运电路等涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3188182"
+    },
+    {
+     "kind": "盘面",
+     "text": "方正科技、金安国纪封上涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610283911662223.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "PCB+业绩高增+AI扩产",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“上海本地”概念（+0.52%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "PCB+业绩高增+AI扩产",
+   "written_by": "规则"
+  },
+  {
+   "code": "002741",
+   "name": "光华科技",
+   "boards": 1,
+   "first_time": "0948",
+   "industry": "电子化学",
+   "stat": "1天1板",
+   "reason": "PCB化学品+硫化锂+业绩增长",
+   "confidence": "中",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "PCB化学品+硫化锂+业绩增长",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "PCB化学品+硫化锂+业绩增长",
+   "written_by": "规则"
+  },
+  {
+   "code": "301261",
+   "name": "恒工精密",
+   "boards": 1,
+   "first_time": "0948",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "三季报增长+人形机器人+减速器零部件",
+   "confidence": "高",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/301261/AN202610271831036717.html"
+    },
+    {
+     "kind": "公司",
+     "text": "恒工精密：前三季度净利润同比增长71% 具身机器人业务收入同比增长1174%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516811"
+    },
+    {
+     "kind": "盘面",
+     "text": "人形机器人板块全天强势，恒工精密、宁波东力、五洲新春、万向钱潮、大丰实业等十余股涨停",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261028150034629800"
+    },
+    {
+     "kind": "盘面",
+     "text": "今日机器人概念股爆发涨停潮，各细分全线上涨，豪恩汽电、恒工精密、儒竞科技等20CM涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610283912232678.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报增长+人形机器人+减速器零部件",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：宇树将与红杉中国成立“杉宇·创计划”",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517927"
+    }
+   ],
+   "ths_reason": "三季报增长+人形机器人+减速器零部件",
+   "written_by": "规则"
+  },
+  {
+   "code": "603219",
+   "name": "富佳股份",
+   "boards": 1,
+   "first_time": "0949",
+   "industry": "小家电",
+   "stat": "1天1板",
+   "reason": "三季报增长+粮仓机器人+清洁家电（公司提示：宁波富佳实业股份有限公司2026年第…）",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：宁波富佳实业股份有限公司2026年第三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603219/AN202610271831025243.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "成分股富佳股份10cm涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610283911381847.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报增长+粮仓机器人+清洁家电",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：宇树将与红杉中国成立“杉宇·创计划”",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517927"
+    }
+   ],
+   "ths_reason": "三季报增长+粮仓机器人+清洁家电",
+   "written_by": "规则"
+  },
+  {
+   "code": "605288",
+   "name": "凯迪股份",
+   "boards": 1,
+   "first_time": "0951",
+   "industry": "自动化设",
+   "stat": "1天1板",
+   "reason": "具身机器人送样+线性驱动+汽车零部件",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "具身机器人送样+线性驱动+汽车零部件",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：宇树将与红杉中国成立“杉宇·创计划”",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517927"
+    }
+   ],
+   "ths_reason": "具身机器人送样+线性驱动+汽车零部件",
+   "written_by": "规则"
+  },
+  {
+   "code": "603992",
+   "name": "松霖科技",
+   "boards": 1,
+   "first_time": "1005",
+   "industry": "家居用品",
+   "stat": "1天1板",
+   "reason": "服务机器人+智能厨卫+业绩预增",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "松霖科技上涨8.25%",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610283911381847.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "服务机器人+智能厨卫+业绩预增",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：宇树将与红杉中国成立“杉宇·创计划”",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517927"
+    }
+   ],
+   "ths_reason": "服务机器人+智能厨卫+业绩预增",
+   "written_by": "规则"
+  },
+  {
+   "code": "002265",
+   "name": "建设工业",
+   "boards": 1,
+   "first_time": "1009",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "机器人装备+三季报增长+兵装重组",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "机器人概念股集体爆发，宁波东力、万向钱潮、五洲新春、建设工业等十余股涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3188182"
+    },
+    {
+     "kind": "同花顺",
+     "text": "机器人装备+三季报增长+兵装重组",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“准ST股”概念（+1.39%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：宇树将与红杉中国成立“杉宇·创计划”",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517927"
+    }
+   ],
+   "ths_reason": "机器人装备+三季报增长+兵装重组",
+   "written_by": "规则"
+  },
+  {
+   "code": "603337",
+   "name": "杰克科技",
+   "boards": 1,
+   "first_time": "1018",
+   "industry": "专用设备",
+   "stat": "4天3板",
+   "reason": "人形机器人+数字成套+工业缝纫机（公司提示：股票交易风险提示公告）",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易风险提示公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603337/AN202610281831119266.html"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603337&announcementId=1225629975&orgId=9900030371&announcementTime=2026-10-28"
+    },
+    {
+     "kind": "盘面",
+     "text": "机器人概念再度爆发，襄阳轴承5连板，万向钱潮、杰克科技4天3板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517825"
+    },
+    {
+     "kind": "盘面",
+     "text": "人形机器人概念反复活跃，光洋股份2连板，华培动力、东贝集团涨停，此前赛福天4连板，杰克科技触及涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516058"
+    },
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+数字成套+工业缝纫机",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：宇树将与红杉中国成立“杉宇·创计划”",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517927"
+    }
+   ],
+   "ths_reason": "人形机器人+数字成套+工业缝纫机",
+   "written_by": "规则"
+  },
+  {
+   "code": "002915",
+   "name": "中欣氟材",
+   "boards": 1,
+   "first_time": "1022",
+   "industry": "化学制品",
+   "stat": "1天1板",
+   "reason": "PEEK材料+新能源材料+氟化工+萤石",
+   "confidence": "高",
+   "themes": [
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002915&announcementId=1225622814&orgId=9900033856&announcementTime=2026-10-27"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002915/AN202610261830924369.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "PEEK材料+新能源材料+氟化工+萤石",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "化工：乙二醇期货主力合约触及涨停，涨幅6%，报5276元/吨",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517704"
+    }
+   ],
+   "ths_reason": "PEEK材料+新能源材料+氟化工+萤石",
+   "written_by": "规则"
+  },
+  {
+   "code": "605566",
+   "name": "福莱蒽特",
+   "boards": 1,
+   "first_time": "1029",
+   "industry": "化学制品",
+   "stat": "1天1板",
+   "reason": "三季报增长+机器人传感+服务器采购+分散染料（公司提示：杭州福莱蒽特股份有限公司2026年第…）",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "机器人",
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：杭州福莱蒽特股份有限公司2026年第三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/605566/AN202610271831025387.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报增长+机器人传感+服务器采购+分散染料",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "三季报增长+机器人传感+服务器采购+分散染料",
+   "written_by": "规则"
+  },
+  {
+   "code": "603920",
+   "name": "世运电路",
+   "boards": 1,
+   "first_time": "1034",
+   "industry": "元件",
+   "stat": "1天1板",
+   "reason": "机器人PCB+算力PCB+调价落地",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "机器人",
+    "消费电子"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "算力硬件股反弹，斯迪克、金安国纪、方正科技、世运电路等涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3188182"
+    },
+    {
+     "kind": "盘面",
+     "text": "PCB等算力硬件股反弹，金安国纪、方正科技、世运电路等涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3188096"
+    },
+    {
+     "kind": "同花顺",
+     "text": "机器人PCB+算力PCB+调价落地",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "机器人PCB+算力PCB+调价落地",
+   "written_by": "规则"
+  },
+  {
+   "code": "603226",
+   "name": "菲林格尔",
+   "boards": 1,
+   "first_time": "1037",
+   "industry": "家居用品",
+   "stat": "1天1板",
+   "reason": "PCB设备+英伟达+木地板",
+   "confidence": "中",
+   "themes": [
+    "算力"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "PCB设备+英伟达+木地板",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "PCB设备+英伟达+木地板",
+   "written_by": "规则"
+  },
+  {
+   "code": "002731",
+   "name": "萃华退",
+   "boards": 1,
+   "first_time": "1038",
+   "industry": "饰品",
+   "stat": "1天1板",
+   "reason": "饰品（公司提示：发布股票进入退市整理期第二次风险提示）",
+   "confidence": "低",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "退市与ST：关于公司股票进入退市整理期交易的第二次风险提示公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002731/AN202610281831106685.html"
+    },
+    {
+     "kind": "公司",
+     "text": "萃华退：发布股票进入退市整理期第二次风险提示",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/2026-10-28/doc-iniwukpx9529554.shtml"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "000554",
+   "name": "泰山石油",
+   "boards": 1,
+   "first_time": "1044",
+   "industry": "炼化及贸",
+   "stat": "1天1板",
+   "reason": "三季报增长+成品油+充换电",
+   "confidence": "高",
+   "themes": [
+    "油气"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/000554/AN202610271831026288.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报增长+成品油+充换电",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“油气改革”概念（+3.57%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "三季报增长+成品油+充换电",
+   "written_by": "规则"
+  },
+  {
+   "code": "603533",
+   "name": "掌阅科技",
+   "boards": 1,
+   "first_time": "1049",
+   "industry": "数字媒体",
+   "stat": "1天1板",
+   "reason": "AI短剧+短剧出海+数字阅读",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "短剧概念表现活跃，文投控股2连板，百纳千成、掌阅科技涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517749"
+    },
+    {
+     "kind": "盘面",
+     "text": "AI漫剧概念表现活跃，文投控股2连板，掌阅科技涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517493"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI短剧+短剧出海+数字阅读",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "AI短剧+短剧出海+数字阅读",
+   "written_by": "规则"
+  },
+  {
+   "code": "605366",
+   "name": "宏柏新材",
+   "boards": 1,
+   "first_time": "1057",
+   "industry": "化学制品",
+   "stat": "1天1板",
+   "reason": "光纤级四氯化硅+功能性硅烷+电子级材料",
+   "confidence": "中",
+   "themes": [
+    "通信",
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "光纤级四氯化硅+功能性硅烷+电子级材料",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "通信：天孚通信Q3净利增55% AI需求带动",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517951"
+    }
+   ],
+   "ths_reason": "光纤级四氯化硅+功能性硅烷+电子级材料",
+   "written_by": "规则"
+  },
+  {
+   "code": "603926",
+   "name": "铁流股份",
+   "boards": 1,
+   "first_time": "1102",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "三季报净利增长+机器人部件+电机轴",
+   "confidence": "高",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：铁流股份2026年第三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603926/AN202610271831025021.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报净利增长+机器人部件+电机轴",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：宇树将与红杉中国成立“杉宇·创计划”",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517927"
+    }
+   ],
+   "ths_reason": "三季报净利增长+机器人部件+电机轴",
+   "written_by": "规则"
+  },
+  {
+   "code": "603131",
+   "name": "上海沪工",
+   "boards": 1,
+   "first_time": "1104",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "三季报扭亏+焊接机器人+商业航天+焊接切割设备（公司提示：焊接集团股份有限公司2026年第三季…）",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "商业航天"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：焊接集团股份有限公司2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603131&announcementId=1225630270&orgId=9900023707&announcementTime=2026-10-28"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：上海沪工焊接集团股份有限公司2026年第三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603131/AN202610271831034904.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报扭亏+焊接机器人+商业航天+焊接切割设备",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“国防军工”概念（+1.73%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：宇树将与红杉中国成立“杉宇·创计划”",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517927"
+    }
+   ],
+   "ths_reason": "三季报扭亏+焊接机器人+商业航天+焊接切割设备",
+   "written_by": "规则"
+  },
+  {
+   "code": "688045",
+   "name": "必易微",
+   "boards": 1,
+   "first_time": "1104",
+   "industry": "半导体",
+   "stat": "1天1板",
+   "reason": "模拟芯片+数字电源+机器人传感",
+   "confidence": "中",
+   "themes": [
+    "半导体",
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "半导体芯片股走强，富瀚微、必易微、金海通、盈方微等涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3188182"
+    },
+    {
+     "kind": "盘面",
+     "text": "半导体板块再度拉升，富瀚微涨停，君正股份、联动科技涨超15%，敏芯股份、银河微电、必易微、凯华材料、恒运昌涨超10%",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261028/c681170286.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "模拟芯片+数字电源+机器人传感",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "半导体：SK海力士Q3营收首破100万亿韩元 股价涨10%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517496"
+    }
+   ],
+   "ths_reason": "模拟芯片+数字电源+机器人传感",
+   "written_by": "规则"
+  },
+  {
+   "code": "002862",
+   "name": "实丰文化",
+   "boards": 1,
+   "first_time": "1109",
+   "industry": "文娱用品",
+   "stat": "1天1板",
+   "reason": "AI玩具+IP潮玩+玩具出海",
+   "confidence": "中",
+   "themes": [
+    "人工智能"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "AI玩具+IP潮玩+玩具出海",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "AI玩具+IP潮玩+玩具出海",
+   "written_by": "规则"
+  },
+  {
+   "code": "605060",
+   "name": "联德股份",
+   "boards": 1,
+   "first_time": "1119",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "三季报增长+数据中心温控+燃气轮机",
+   "confidence": "高",
+   "themes": [
+    "算力"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=605060&announcementId=1225624585&orgId=9900039810&announcementTime=2026-10-27"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：联德股份2026年第三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/605060/AN202610261830927770.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报增长+数据中心温控+燃气轮机",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "三季报增长+数据中心温控+燃气轮机",
+   "written_by": "规则"
+  },
+  {
+   "code": "300006",
+   "name": "莱美药业",
+   "boards": 1,
+   "first_time": "1121",
+   "industry": "化学制药",
+   "stat": "1天1板",
+   "reason": "纳米炭铁+三季报减亏+卡纳琳",
+   "confidence": "中",
+   "themes": [
+    "医药"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "午后创新药、CRO概念持续走高，百普赛斯触及20cm涨停，此前莱美药业20cm涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517597"
+    },
+    {
+     "kind": "盘面",
+     "text": "创新药板块持续走高，莱美药业、百普赛斯涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261028/c681180196.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "纳米炭铁+三季报减亏+卡纳琳",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“超级细菌”概念（+0.04%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "医药：国际癌症研究机构：全球近四成癌症可预防",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517723"
+    }
+   ],
+   "ths_reason": "纳米炭铁+三季报减亏+卡纳琳",
+   "written_by": "规则"
+  },
+  {
+   "code": "001296",
+   "name": "长江材料",
+   "boards": 1,
+   "first_time": "1122",
+   "industry": "非金属材",
+   "stat": "1天1板",
+   "reason": "3D打印砂+覆膜砂+油气勘探",
+   "confidence": "中",
+   "themes": [
+    "油气"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "3D打印砂+覆膜砂+油气勘探",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "3D打印砂+覆膜砂+油气勘探",
+   "written_by": "规则"
+  },
+  {
+   "code": "002962",
+   "name": "五方光电",
+   "boards": 1,
+   "first_time": "1124",
+   "industry": "光学光电",
+   "stat": "1天1板",
+   "reason": "三季报增长+TGV光学+红外截止滤光片",
+   "confidence": "高",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002962&announcementId=1225632283&orgId=9900037010&announcementTime=2026-10-28"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002962/AN202610271831041189.html"
+    },
+    {
+     "kind": "公司",
+     "text": "五方光电：2026年第三季度净利润同比增长160.42%",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103411858.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报增长+TGV光学+红外截止滤光片",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "三季报增长+TGV光学+红外截止滤光片",
+   "written_by": "规则"
+  },
+  {
+   "code": "603418",
+   "name": "友升股份",
+   "boards": 1,
+   "first_time": "1127",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "机器人业务+汽车轻量化+特斯拉客户",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "机器人业务+汽车轻量化+特斯拉客户",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：宇树将与红杉中国成立“杉宇·创计划”",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517927"
+    }
+   ],
+   "ths_reason": "机器人业务+汽车轻量化+特斯拉客户",
+   "written_by": "规则"
+  },
+  {
+   "code": "301525",
+   "name": "儒竞科技",
+   "boards": 1,
+   "first_time": "1301",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "机器人+数据中心温控+新能源汽车热管理",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "今日机器人概念股爆发涨停潮，各细分全线上涨，豪恩汽电、恒工精密、儒竞科技等20CM涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610283912232678.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "机器人+数据中心温控+新能源汽车热管理",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "机器人+数据中心温控+新能源汽车热管理",
+   "written_by": "规则"
+  },
+  {
+   "code": "603135",
+   "name": "中重科技",
+   "boards": 1,
+   "first_time": "1301",
+   "industry": "专用设备",
+   "stat": "1天1板",
+   "reason": "工业机器人+冶金装备+海外项目",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "工业机器人+冶金装备+海外项目",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：宇树将与红杉中国成立“杉宇·创计划”",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517927"
+    }
+   ],
+   "ths_reason": "工业机器人+冶金装备+海外项目",
+   "written_by": "规则"
+  },
+  {
+   "code": "002943",
+   "name": "宇晶股份",
+   "boards": 1,
+   "first_time": "1303",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "机器人+切磨抛设备+碳化硅设备",
+   "confidence": "高",
+   "themes": [
+    "半导体",
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002943&announcementId=1225618256&orgId=gfbj0834124&announcementTime=2026-10-26"
+    },
+    {
+     "kind": "公告",
+     "text": "股东变动：关于公司控股股东部分股份补充质押的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002943&announcementId=1225623496&orgId=gfbj0834124&announcementTime=2026-10-27"
+    },
+    {
+     "kind": "盘面",
+     "text": "午后半导体设备板块持续走高，东方嘉盛、金海通、宇晶股份涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517606"
+    },
+    {
+     "kind": "同花顺",
+     "text": "机器人+切磨抛设备+碳化硅设备",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "半导体：SK海力士Q3营收首破100万亿韩元 股价涨10%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517496"
+    }
+   ],
+   "ths_reason": "机器人+切磨抛设备+碳化硅设备",
+   "written_by": "规则"
+  },
+  {
+   "code": "301080",
+   "name": "百普赛斯",
+   "boards": 1,
+   "first_time": "1312",
+   "industry": "生物制品",
+   "stat": "1天1板",
+   "reason": "重组蛋白+三季报增长+回购提价",
+   "confidence": "高",
+   "themes": [
+    "人工智能",
+    "医药"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "回购：关于调整回购股份价格上限的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=301080&announcementId=1225624709&orgId=nssc1000848&announcementTime=2026-10-27"
+    },
+    {
+     "kind": "公告",
+     "text": "分红送转：关于2026年前三季度利润分配预案的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=301080&announcementId=1225624708&orgId=nssc1000848&announcementTime=2026-10-27"
+    },
+    {
+     "kind": "公司",
+     "text": "创新药、CRO概念持续走高 百普赛斯触及20cm涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517597"
+    },
+    {
+     "kind": "公司",
+     "text": "AI制药概念震荡反弹 百普赛斯涨超10%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517390"
+    },
+    {
+     "kind": "盘面",
+     "text": "创新药、CRO概念盘中走高，百普赛斯、近岸蛋白20CM涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517749"
+    },
+    {
+     "kind": "盘面",
+     "text": "AI制药百普赛斯、义翘神州均涨超11%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517493"
+    },
+    {
+     "kind": "同花顺",
+     "text": "重组蛋白+三季报增长+回购提价",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "重组蛋白+三季报增长+回购提价",
+   "written_by": "规则"
+  },
+  {
+   "code": "603061",
+   "name": "金海通",
+   "boards": 1,
+   "first_time": "1313",
+   "industry": "半导体",
+   "stat": "1天1板",
+   "reason": "半导体测试分选机+三季报增长",
+   "confidence": "中",
+   "themes": [
+    "半导体"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "半导体芯片股走强，富瀚微、必易微、金海通、盈方微等涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3188182"
+    },
+    {
+     "kind": "盘面",
+     "text": "午后半导体设备板块持续走高，东方嘉盛、金海通、宇晶股份涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517606"
+    },
+    {
+     "kind": "同花顺",
+     "text": "半导体测试分选机+三季报增长",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "半导体：SK海力士Q3营收首破100万亿韩元 股价涨10%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517496"
+    }
+   ],
+   "ths_reason": "半导体测试分选机+三季报增长",
+   "written_by": "规则"
+  },
+  {
+   "code": "688137",
+   "name": "近岸蛋白",
+   "boards": 1,
+   "first_time": "1314",
+   "industry": "生物制品",
+   "stat": "1天1板",
+   "reason": "mRNA原料酶+智能蛋白设计+重组抗体",
+   "confidence": "中",
+   "themes": [
+    "医药"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "CRO概念震荡回落 近岸蛋白跌超10%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2516069"
+    },
+    {
+     "kind": "盘面",
+     "text": "创新药、CRO概念盘中走高，百普赛斯、近岸蛋白20CM涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517749"
+    },
+    {
+     "kind": "盘面",
+     "text": "午后创新药、CRO概念持续走高，百普赛斯触及20cm涨停，此前莱美药业20cm涨停，义翘神州、近岸蛋白、奥浦迈、诺思格均涨超10%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517597"
+    },
+    {
+     "kind": "同花顺",
+     "text": "mRNA原料酶+智能蛋白设计+重组抗体",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "医药：国际癌症研究机构：全球近四成癌症可预防",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517723"
+    }
+   ],
+   "ths_reason": "mRNA原料酶+智能蛋白设计+重组抗体",
+   "written_by": "规则"
+  },
+  {
+   "code": "920220",
+   "name": "朗信电气",
+   "boards": 1,
+   "first_time": "1314",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "汽车题材（同题材涨停 3 家）",
+   "confidence": "低",
+   "themes": [
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "题材",
+     "text": "汽车：全国消费品以旧换新推进会召开，销售超2万亿",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3188204"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "603303",
+   "name": "得邦照明",
+   "boards": 1,
+   "first_time": "1322",
+   "industry": "照明设备",
+   "stat": "1天1板",
+   "reason": "车载照明+收购嘉利+通用照明",
+   "confidence": "中",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "车载照明+收购嘉利+通用照明",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "车载照明+收购嘉利+通用照明",
+   "written_by": "规则"
+  },
+  {
+   "code": "603680",
+   "name": "今创集团",
+   "boards": 1,
+   "first_time": "1322",
+   "industry": "轨交设备",
+   "stat": "1天1板",
+   "reason": "轨道交通+港口起重+商业航天",
+   "confidence": "高",
+   "themes": [
+    "商业航天",
+    "航运物流"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年第三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603680/AN202610281831123187.html"
+    },
+    {
+     "kind": "公司",
+     "text": "今创集团：前三季度营收33.50亿元 净利同比增19.26%",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/2026-10-28/doc-iniwuqvu3330199.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "轨道交通+港口起重+商业航天",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "商业航天：中国卫星：前三季度净利润同比增长473.40%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2518110"
+    }
+   ],
+   "ths_reason": "轨道交通+港口起重+商业航天",
+   "written_by": "规则"
+  },
+  {
+   "code": "002879",
+   "name": "长缆科技",
+   "boards": 1,
+   "first_time": "1324",
+   "industry": "电网设备",
+   "stat": "1天1板",
+   "reason": "管道机器人+浸没液冷+电缆附件+三季报",
+   "confidence": "高",
+   "themes": [
+    "算力",
+    "机器人",
+    "电力"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002879&announcementId=1225618680&orgId=9900031441&announcementTime=2026-10-26"
+    },
+    {
+     "kind": "同花顺",
+     "text": "管道机器人+浸没液冷+电缆附件+三季报",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "管道机器人+浸没液冷+电缆附件+三季报",
+   "written_by": "规则"
+  },
+  {
+   "code": "002889",
+   "name": "东方嘉盛",
+   "boards": 1,
+   "first_time": "1325",
+   "industry": "物流",
+   "stat": "1天1板",
+   "reason": "半导体供应链+光刻机保税寄售维修+智慧仓储+机器人概念",
+   "confidence": "高",
+   "themes": [
+    "半导体",
+    "机器人",
+    "航运物流"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002889/AN202610281831124626.html"
+    },
+    {
+     "kind": "公司",
+     "text": "半导体设备板块持续走高 东方嘉盛等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517606"
+    },
+    {
+     "kind": "盘面",
+     "text": "光刻机板块盘中走强，江丰电子、东方嘉盛双双涨停",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261028150034629800"
+    },
+    {
+     "kind": "同花顺",
+     "text": "半导体供应链+光刻机保税寄售维修+智慧仓储+机器人概念",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“华为概念”（+4.11%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "半导体：SK海力士Q3营收首破100万亿韩元 股价涨10%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517496"
+    }
+   ],
+   "ths_reason": "半导体供应链+光刻机保税寄售维修+智慧仓储+机器人概念",
+   "written_by": "规则"
+  },
+  {
+   "code": "001270",
+   "name": "铖昌科技",
+   "boards": 1,
+   "first_time": "1327",
+   "industry": "军工电子",
+   "stat": "1天1板",
+   "reason": "卫星通信+相控阵T/R芯片+订单交付",
+   "confidence": "高",
+   "themes": [
+    "半导体",
+    "通信",
+    "商业航天"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "回购：浙江铖昌科技股份有限公司关于部分限制性股票回购注销完成的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=001270&announcementId=1225618988&orgId=9900052541&announcementTime=2026-10-26"
+    },
+    {
+     "kind": "公司",
+     "text": "铖昌科技：完成部分限制性股票回购注销",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/2026-10-25/doc-iniwmpas3113297.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "卫星通信+相控阵T/R芯片+订单交付",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "半导体：SK海力士Q3营收首破100万亿韩元 股价涨10%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517496"
+    }
+   ],
+   "ths_reason": "卫星通信+相控阵T/R芯片+订单交付",
+   "written_by": "规则"
+  },
+  {
+   "code": "002172",
+   "name": "澳洋健康",
+   "boards": 1,
+   "first_time": "1329",
+   "industry": "医疗服务",
+   "stat": "1天1板",
+   "reason": "脑机接口+医疗服务+国资控股+“羊”字辈",
+   "confidence": "中",
+   "themes": [
+    "医药",
+    "前沿科技"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "脑机接口+医疗服务+国资控股+“羊”字辈",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "医药：国际癌症研究机构：全球近四成癌症可预防",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517723"
+    }
+   ],
+   "ths_reason": "脑机接口+医疗服务+国资控股+“羊”字辈",
+   "written_by": "规则"
+  },
+  {
+   "code": "300291",
+   "name": "百纳千成",
+   "boards": 1,
+   "first_time": "1345",
+   "industry": "影视院线",
+   "stat": "1天1板",
+   "reason": "AI漫剧+多格式影视+营收增长",
+   "confidence": "高",
+   "themes": [
+    "人工智能",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/300291/AN202610281831124614.html"
+    },
+    {
+     "kind": "公司",
+     "text": "AI漫剧概念涨势扩大 百纳千成20cm涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517624"
+    },
+    {
+     "kind": "公司",
+     "text": "影视院线板块走高，百纳千成涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261028/c681180955.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "影视院线板块震荡反弹，百纳千成、文投控股涨停",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261028150034629800"
+    },
+    {
+     "kind": "盘面",
+     "text": "短剧概念表现活跃，文投控股2连板，百纳千成、掌阅科技涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517749"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI漫剧+多格式影视+营收增长",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“体育概念”（+0.66%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "AI漫剧+多格式影视+营收增长",
+   "written_by": "规则"
+  },
+  {
+   "code": "002534",
+   "name": "西子洁能",
+   "boards": 1,
+   "first_time": "1427",
+   "industry": "其他电源",
+   "stat": "1天1板",
+   "reason": "订单增长+燃机余热锅炉+算力储能",
+   "confidence": "高",
+   "themes": [
+    "算力",
+    "锂电储能"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002534/AN202610281831114039.html"
+    },
+    {
+     "kind": "公司",
+     "text": "西子洁能：2026年第三季度净利润9340.62万元，同比增长224.72%",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261028/c681192746.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "订单增长+燃机余热锅炉+算力储能",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“核电核能”概念（+1.31%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "订单增长+燃机余热锅炉+算力储能",
+   "written_by": "规则"
+  },
+  {
+   "code": "002975",
+   "name": "博杰股份",
+   "boards": 1,
+   "first_time": "1431",
+   "industry": "自动化设",
+   "stat": "1天1板",
+   "reason": "机器人测试+磷化铟+MLCC设备+液冷测试",
+   "confidence": "高",
+   "themes": [
+    "算力",
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002975/AN202610281831124771.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "机器人测试+磷化铟+MLCC设备+液冷测试",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "机器人测试+磷化铟+MLCC设备+液冷测试",
+   "written_by": "规则"
+  },
+  {
+   "code": "300806",
+   "name": "斯迪克",
+   "boards": 1,
+   "first_time": "1432",
+   "industry": "塑料",
+   "stat": "1天1板",
+   "reason": "MLCC离型膜+折叠屏OCA+功能性材料",
+   "confidence": "高",
+   "themes": [
+    "算力",
+    "消费电子"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/300806/AN202610281831125882.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "算力硬件股反弹，斯迪克、金安国纪、方正科技、世运电路等涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3188182"
+    },
+    {
+     "kind": "同花顺",
+     "text": "MLCC离型膜+折叠屏OCA+功能性材料",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "MLCC离型膜+折叠屏OCA+功能性材料",
+   "written_by": "规则"
+  },
+  {
+   "code": "002696",
+   "name": "百洋股份",
+   "boards": 1,
+   "first_time": "1449",
+   "industry": "饲料",
+   "stat": "14天9板",
+   "reason": "水产加工+鱼粉鱼油+“羊”字辈",
+   "confidence": "高",
+   "themes": [
+    "农业"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002696/AN202610281831102185.html"
+    },
+    {
+     "kind": "公司",
+     "text": "百洋股份：2026年第三季度净利润亏损4800.21万元",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261028/c681183993.shtml"
+    },
+    {
+     "kind": "公司",
+     "text": "10月28日涨停复盘：73只股涨停 百洋股份7天4板",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610283912031017.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "鱼粉概念股百洋股份14天9板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517769"
+    },
+    {
+     "kind": "盘面",
+     "text": "百洋股份午后强势拉升走出14天9板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2517825"
+    },
+    {
+     "kind": "同花顺",
+     "text": "水产加工+鱼粉鱼油+“羊”字辈",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“水产品”概念（+1.93%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "水产加工+鱼粉鱼油+“羊”字辈",
+   "written_by": "规则"
+  }
+ ]
+}
