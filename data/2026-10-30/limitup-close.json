@@ -1,0 +1,2154 @@
+{
+ "trade_date": "2026-10-30",
+ "coverage": 100.0,
+ "announced": 29,
+ "stocks": [
+  {
+   "code": "001219",
+   "name": "青岛食品",
+   "boards": 5,
+   "first_time": "0930",
+   "industry": "休闲食品",
+   "stat": "5天5板",
+   "reason": "青啤拟入主+三季报增长+饼干食品（公司提示：股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=001219&announcementId=1225632089&orgId=gfbj0872387&announcementTime=2026-10-28"
+    },
+    {
+     "kind": "公司",
+     "text": "青岛食品涨停走出5连板",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103417363.html"
+    },
+    {
+     "kind": "公司",
+     "text": "大消费板块持续走高，白酒、食品加工等方向领涨，青岛食品5连板，迎驾贡酒、古井贡酒、泉阳泉、好想你、黑芝麻等多股涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3190928"
+    },
+    {
+     "kind": "盘面",
+     "text": "以白酒为首的消费股走强，青岛食品5连板",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3191073"
+    },
+    {
+     "kind": "盘面",
+     "text": "大消费黑芝麻、迎驾贡酒、泉阳泉、皇台酒业涨停，青岛食品触及涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2520248"
+    },
+    {
+     "kind": "同花顺",
+     "text": "青啤拟入主+三季报增长+饼干食品",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“乳业”概念（+0.12%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：发改委等部门：推进新型消费设施建设",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3191381"
+    }
+   ],
+   "ths_reason": "青啤拟入主+三季报增长+饼干食品",
+   "written_by": "规则"
+  },
+  {
+   "code": "603131",
+   "name": "上海沪工",
+   "boards": 3,
+   "first_time": "0925",
+   "industry": "通用设备",
+   "stat": "3天3板",
+   "reason": "三季报扭亏+商业航天+焊接机器人+焊接切割设备（公司提示：股票交易风险提示公告）",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "商业航天"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易风险提示公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603131/AN202610301831245859.html"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603131&announcementId=1225643359&orgId=9900023707&announcementTime=2026-10-30"
+    },
+    {
+     "kind": "公司",
+     "text": "上海沪工涨停走出3连板",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103417400.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "商业航天概念股上海沪工3连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2520495"
+    },
+    {
+     "kind": "盘面",
+     "text": "商业航天板块上海沪工3连板",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103418312.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报扭亏+商业航天+焊接机器人+焊接切割设备",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "三季报扭亏+商业航天+焊接机器人+焊接切割设备",
+   "written_by": "规则"
+  },
+  {
+   "code": "002172",
+   "name": "澳洋健康",
+   "boards": 3,
+   "first_time": "1025",
+   "industry": "医疗服务",
+   "stat": "3天3板",
+   "reason": "脑机接口+医疗服务+国资控股+“羊”字辈（公司提示：东吴证券股份有限公司关于江苏澳洋健康…）",
+   "confidence": "中",
+   "themes": [
+    "医药",
+    "前沿科技"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "股东变动：东吴证券股份有限公司关于江苏澳洋健康产业股份有限公司详式权益变动报告书之2026年第三季度持续督导意见",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002172&announcementId=1225643472&orgId=9900003621&announcementTime=2026-10-30"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：江苏澳洋健康产业股份有限公司股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002172&announcementId=1225643471&orgId=9900003621&announcementTime=2026-10-30"
+    },
+    {
+     "kind": "盘面",
+     "text": "医药医疗股拉升，万邦医药、百花医药、澳洋健康、羚锐制药等涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3191073"
+    },
+    {
+     "kind": "盘面",
+     "text": "百洋医药、美好医疗涨超10%，此前澳洋健康3连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2520310"
+    },
+    {
+     "kind": "同花顺",
+     "text": "脑机接口+医疗服务+国资控股+“羊”字辈",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“毛发医疗”概念（+0.53%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "医药：国家药监局副局长杨胜在广东调研大湾区药物创新研发工作",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2521218"
+    }
+   ],
+   "ths_reason": "脑机接口+医疗服务+国资控股+“羊”字辈",
+   "written_by": "规则"
+  },
+  {
+   "code": "603703",
+   "name": "盛洋科技",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "光学光电",
+   "stat": "2天2板",
+   "reason": "卫星通信终端+高速铜缆+“羊”字辈",
+   "confidence": "高",
+   "themes": [
+    "通信",
+    "有色金属",
+    "商业航天"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603703&announcementId=1225630389&orgId=9900023745&announcementTime=2026-10-28"
+    },
+    {
+     "kind": "盘面",
+     "text": "红太阳、泉阳泉、阳普医疗、明阳电路、阳光照明、天洋新材、沈阳机床、盛洋科技等多股涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610303916025912.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "阳光照明、盛洋科技、东方海洋晋级2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2520547"
+    },
+    {
+     "kind": "同花顺",
+     "text": "卫星通信终端+高速铜缆+“羊”字辈",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "通信：发改委等部门：推进新型消费设施建设",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3191381"
+    }
+   ],
+   "ths_reason": "卫星通信终端+高速铜缆+“羊”字辈",
+   "written_by": "规则"
+  },
+  {
+   "code": "600261",
+   "name": "阳光照明",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "照明设备",
+   "stat": "2天2板",
+   "reason": "商业航天+激光通信投资+LED照明+“羊”字辈",
+   "confidence": "中",
+   "themes": [
+    "通信",
+    "商业航天"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "阳光照明涨停走出2连板",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103417383.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "红太阳、泉阳泉、阳普医疗、明阳电路、阳光照明、天洋新材、沈阳机床、盛洋科技等多股涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610303916025912.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "阳光照明、盛洋科技、东方海洋晋级2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2520547"
+    },
+    {
+     "kind": "同花顺",
+     "text": "商业航天+激光通信投资+LED照明+“羊”字辈",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "通信：发改委等部门：推进新型消费设施建设",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3191381"
+    }
+   ],
+   "ths_reason": "商业航天+激光通信投资+LED照明+“羊”字辈",
+   "written_by": "规则"
+  },
+  {
+   "code": "002275",
+   "name": "桂林三金",
+   "boards": 2,
+   "first_time": "0930",
+   "industry": "中药Ⅱ",
+   "stat": "2天2板",
+   "reason": "三季报增长+中成药+西瓜霜+抗体研发",
+   "confidence": "高",
+   "themes": [
+    "医药"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "分红送转：关于2026年前三季度利润分配方案的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002275&announcementId=1225628987&orgId=9900007027&announcementTime=2026-10-28"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002275&announcementId=1225628985&orgId=9900007027&announcementTime=2026-10-28"
+    },
+    {
+     "kind": "盘面",
+     "text": "医药板块逆势活跃，桂林三金走出2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2520248"
+    },
+    {
+     "kind": "盘面",
+     "text": "毕得医药、澳洋健康、羚锐制药、桂林三金等涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3190973"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报增长+中成药+西瓜霜+抗体研发",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“反转股”概念（+0.02%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "医药：国家药监局副局长杨胜在广东调研大湾区药物创新研发工作",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2521218"
+    }
+   ],
+   "ths_reason": "三季报增长+中成药+西瓜霜+抗体研发",
+   "written_by": "规则"
+  },
+  {
+   "code": "003032",
+   "name": "传智教育",
+   "boards": 2,
+   "first_time": "0931",
+   "industry": "教育",
+   "stat": "2天2板",
+   "reason": "三季报增长+人工智能培训+具身智能",
+   "confidence": "高",
+   "themes": [
+    "人工智能",
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/003032/AN202610281831101615.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "传智教育涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2518717"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报增长+人工智能培训+具身智能",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：十五五算力用电量年均预计新增超1000亿千瓦时",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2520461"
+    }
+   ],
+   "ths_reason": "三季报增长+人工智能培训+具身智能",
+   "written_by": "规则"
+  },
+  {
+   "code": "002086",
+   "name": "东方海洋",
+   "boards": 2,
+   "first_time": "0954",
+   "industry": "农产品加",
+   "stat": "8天4板",
+   "reason": "“羊”字辈+体外诊断+海参养殖+水溶性维生素试剂",
+   "confidence": "高",
+   "themes": [
+    "消费",
+    "农业"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002086/AN202610281831106191.html"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002086/AN202610301831246023.html"
+    },
+    {
+     "kind": "公司",
+     "text": "东方海洋：股票交易异常波动 前三季净亏损6793.11万元",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/2026-10-30/doc-iniwzazs2281895.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "大消费板块青岛食品5连板、东方海洋8天4板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2520495"
+    },
+    {
+     "kind": "盘面",
+     "text": "阳光照明、盛洋科技、东方海洋晋级2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2520547"
+    },
+    {
+     "kind": "同花顺",
+     "text": "“羊”字辈+体外诊断+海参养殖+水溶性维生素试剂",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：发改委等部门：推进新型消费设施建设",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3191381"
+    }
+   ],
+   "ths_reason": "“羊”字辈+体外诊断+海参养殖+水溶性维生素试剂",
+   "written_by": "规则"
+  },
+  {
+   "code": "605338",
+   "name": "巴比食品",
+   "boards": 2,
+   "first_time": "1332",
+   "industry": "食品加工",
+   "stat": "2天2板",
+   "reason": "中式面点+大消费+小笼包+三季报增",
+   "confidence": "高",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "分红送转：关于2026年中期利润分配方案的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=605338&announcementId=1225634849&orgId=9900039853&announcementTime=2026-10-29"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=605338&announcementId=1225634824&orgId=9900039853&announcementTime=2026-10-29"
+    },
+    {
+     "kind": "公司",
+     "text": "食品饮料板块震荡回升 巴比食品、惠发食品双双涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2518754"
+    },
+    {
+     "kind": "盘面",
+     "text": "金丹科技、黑芝麻、巴比食品、阳光乳业、新乳业、泸州老窖、古井贡酒涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610303916270027.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "以白酒为代表的大消费板块逆势走强，青岛食品5连板，巴比食品2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2520547"
+    },
+    {
+     "kind": "同花顺",
+     "text": "中式面点+大消费+小笼包+三季报增",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：发改委等部门：推进新型消费设施建设",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3191381"
+    }
+   ],
+   "ths_reason": "中式面点+大消费+小笼包+三季报增",
+   "written_by": "规则"
+  },
+  {
+   "code": "000897",
+   "name": "津滨发展",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "房地产开",
+   "stat": "1天1板",
+   "reason": "三季报增长+房地产开发+天津国资",
+   "confidence": "中",
+   "themes": [
+    "房地产"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "三季报增长+房地产开发+天津国资",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "房地产：金融监管总局：稳妥推进中小金融机构改革化险、减量提质，积极支持配合化解房地产和地",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261030/c681310025.shtml"
+    }
+   ],
+   "ths_reason": "三季报增长+房地产开发+天津国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "002365",
+   "name": "永安药业",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "化学制药",
+   "stat": "1天1板",
+   "reason": "三季报大增+牛磺酸+量价齐升",
+   "confidence": "中",
+   "themes": [
+    "医药"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "三季报大增+牛磺酸+量价齐升",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "医药：国家药监局副局长杨胜在广东调研大湾区药物创新研发工作",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2521218"
+    }
+   ],
+   "ths_reason": "三季报大增+牛磺酸+量价齐升",
+   "written_by": "规则"
+  },
+  {
+   "code": "605169",
+   "name": "洪通燃气",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "燃气Ⅱ",
+   "stat": "1天1板",
+   "reason": "三季报高增+天然气+新疆燃气（公司提示：新疆洪通燃气股份有限公司）",
+   "confidence": "中",
+   "themes": [
+    "油气"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：新疆洪通燃气股份有限公司 2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=605169&announcementId=1225642497&orgId=9900039840&announcementTime=2026-10-30"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报高增+天然气+新疆燃气",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "三季报高增+天然气+新疆燃气",
+   "written_by": "规则"
+  },
+  {
+   "code": "603029",
+   "name": "天鹅股份",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "专用设备",
+   "stat": "1天1板",
+   "reason": "三季报增长+采棉机+供销社（公司提示：山东天鹅棉业机械股份有限公司2026…）",
+   "confidence": "中",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：山东天鹅棉业机械股份有限公司2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603029&announcementId=1225644968&orgId=9900024504&announcementTime=2026-10-30"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：山东天鹅棉业机械股份有限公司2026年第三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603029/AN202610291831183771.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报增长+采棉机+供销社",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "三季报增长+采棉机+供销社",
+   "written_by": "规则"
+  },
+  {
+   "code": "000716",
+   "name": "黑芝麻",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "休闲食品",
+   "stat": "1天1板",
+   "reason": "三季报大增+黑色食养+药食同源",
+   "confidence": "高",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000716&announcementId=1225641611&orgId=gssz0000716&announcementTime=2026-10-30"
+    },
+    {
+     "kind": "公司",
+     "text": "大消费板块持续走高，白酒、食品加工等方向领涨，青岛食品5连板，迎驾贡酒、古井贡酒、泉阳泉、好想你、黑芝麻等多股涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3190928"
+    },
+    {
+     "kind": "盘面",
+     "text": "大消费黑芝麻、迎驾贡酒、泉阳泉、皇台酒业涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2520248"
+    },
+    {
+     "kind": "盘面",
+     "text": "金丹科技、黑芝麻、巴比食品、阳光乳业、新乳业、泸州老窖、古井贡酒涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610303916270027.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报大增+黑色食养+药食同源",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：发改委等部门：推进新型消费设施建设",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3191381"
+    }
+   ],
+   "ths_reason": "三季报大增+黑色食养+药食同源",
+   "written_by": "规则"
+  },
+  {
+   "code": "001287",
+   "name": "中电港",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "其他电子",
+   "stat": "1天1板",
+   "reason": "三季报大增+存储分销+分销龙头",
+   "confidence": "中",
+   "themes": [
+    "半导体"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "三季报大增+存储分销+分销龙头",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "半导体：长鑫科技前三季净利1320.4亿元 同比扭亏为盈",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3191510"
+    }
+   ],
+   "ths_reason": "三季报大增+存储分销+分销龙头",
+   "written_by": "规则"
+  },
+  {
+   "code": "600285",
+   "name": "羚锐制药",
+   "boards": 1,
+   "first_time": "0932",
+   "industry": "中药Ⅱ",
+   "stat": "1天1板",
+   "reason": "三季报增长+中药+高股息",
+   "confidence": "中",
+   "themes": [
+    "医药"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "医药医疗股拉升，万邦医药、百花医药、澳洋健康、羚锐制药等涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3191073"
+    },
+    {
+     "kind": "盘面",
+     "text": "医药板块逆势活跃，桂林三金走出2连板，羚锐制药涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2520248"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报增长+中药+高股息",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "医药：国家药监局副局长杨胜在广东调研大湾区药物创新研发工作",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2521218"
+    }
+   ],
+   "ths_reason": "三季报增长+中药+高股息",
+   "written_by": "规则"
+  },
+  {
+   "code": "603587",
+   "name": "地素时尚",
+   "boards": 1,
+   "first_time": "0932",
+   "industry": "服装家纺",
+   "stat": "1天1板",
+   "reason": "三季报增长+高端女装+经销回暖",
+   "confidence": "中",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "三季报增长+高端女装+经销回暖",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“红利股”概念（+0.10%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "三季报增长+高端女装+经销回暖",
+   "written_by": "规则"
+  },
+  {
+   "code": "688045",
+   "name": "必易微",
+   "boards": 1,
+   "first_time": "0932",
+   "industry": "半导体",
+   "stat": "3天2板",
+   "reason": "三季报扭亏+数字电源+机器人传感+模拟芯片",
+   "confidence": "高",
+   "themes": [
+    "半导体",
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=688045&announcementId=1225644268&orgId=9900047235&announcementTime=2026-10-30"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：必易微2026年第三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/688045/AN202610291831181653.html"
+    },
+    {
+     "kind": "公司",
+     "text": "半导体板块局部走高，必易微20cm涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261030/c681274155.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "半导体芯片股走强，富瀚微、必易微、金海通、盈方微等涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3188182"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报扭亏+数字电源+机器人传感+模拟芯片",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "半导体：长鑫科技前三季净利1320.4亿元 同比扭亏为盈",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3191510"
+    }
+   ],
+   "ths_reason": "三季报扭亏+数字电源+机器人传感+模拟芯片",
+   "written_by": "规则"
+  },
+  {
+   "code": "000525",
+   "name": "红太阳",
+   "boards": 1,
+   "first_time": "0932",
+   "industry": "农化制品",
+   "stat": "1天1板",
+   "reason": "百草枯+农业无人机+三季报扭亏+国企改革",
+   "confidence": "中",
+   "themes": [
+    "低空经济",
+    "农业"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "红太阳、泉阳泉、阳普医疗、明阳电路、阳光照明、天洋新材、沈阳机床、盛洋科技等多股涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610303916025912.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "沈阳机床、泉阳泉、阳普医疗、鲁阳节能、扬子新材、红太阳首板涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2520547"
+    },
+    {
+     "kind": "同花顺",
+     "text": "百草枯+农业无人机+三季报扭亏+国企改革",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "百草枯+农业无人机+三季报扭亏+国企改革",
+   "written_by": "规则"
+  },
+  {
+   "code": "000410",
+   "name": "沈阳机床",
+   "boards": 1,
+   "first_time": "0933",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "扭亏+工业母机+航空航天+购买资产",
+   "confidence": "高",
+   "themes": [
+    "机器人",
+    "商业航天"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000410&announcementId=1225644786&orgId=gssz0000410&announcementTime=2026-10-30"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/000410/AN202610291831183921.html"
+    },
+    {
+     "kind": "公司",
+     "text": "沈阳机床中捷友谊厂有限公司副总经理曹向东接受审查调查",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/2026-10-30/doc-iniwzazt8204409.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "红太阳、泉阳泉、阳普医疗、明阳电路、阳光照明、天洋新材、沈阳机床、盛洋科技等多股涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610303916025912.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "沈阳机床、泉阳泉、阳普医疗、鲁阳节能、扬子新材、红太阳首板涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2520547"
+    },
+    {
+     "kind": "同花顺",
+     "text": "扭亏+工业母机+航空航天+购买资产",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "扭亏+工业母机+航空航天+购买资产",
+   "written_by": "规则"
+  },
+  {
+   "code": "600215",
+   "name": "派斯林",
+   "boards": 1,
+   "first_time": "0933",
+   "industry": "自动化设",
+   "stat": "1天1板",
+   "reason": "自动化+减亏+北美订单+仿生机器人",
+   "confidence": "高",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600215&announcementId=1225641692&orgId=gssh0600215&announcementTime=2026-10-30"
+    },
+    {
+     "kind": "同花顺",
+     "text": "自动化+减亏+北美订单+仿生机器人",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "自动化+减亏+北美订单+仿生机器人",
+   "written_by": "规则"
+  },
+  {
+   "code": "002432",
+   "name": "九安医疗",
+   "boards": 1,
+   "first_time": "0933",
+   "industry": "医疗器械",
+   "stat": "1天1板",
+   "reason": "三季报大增+科创投资+糖尿病照护",
+   "confidence": "高",
+   "themes": [
+    "医药"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002432&announcementId=1225645012&orgId=9900012876&announcementTime=2026-10-30"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002432/AN202610291831184287.html"
+    },
+    {
+     "kind": "公司",
+     "text": "九安医疗：2026年第三季度净利润21.35亿元，同比增长219.21%",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261029/c681255689.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报大增+科创投资+糖尿病照护",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“医药医疗风格”概念（+0.35%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "医药：国家药监局副局长杨胜在广东调研大湾区药物创新研发工作",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2521218"
+    }
+   ],
+   "ths_reason": "三季报大增+科创投资+糖尿病照护",
+   "written_by": "规则"
+  },
+  {
+   "code": "301187",
+   "name": "欧圣电气",
+   "boards": 1,
+   "first_time": "0935",
+   "industry": "小家电",
+   "stat": "1天1板",
+   "reason": "三季度净利增+关税退税+空压机+护理机器人",
+   "confidence": "高",
+   "themes": [
+    "机器人",
+    "贸易摩擦",
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=301187&announcementId=1225644541&orgId=nssc1000463&announcementTime=2026-10-30"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/301187/AN202610291831183383.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季度净利增+关税退税+空压机+护理机器人",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "三季度净利增+关税退税+空压机+护理机器人",
+   "written_by": "规则"
+  },
+  {
+   "code": "601083",
+   "name": "锦江航运",
+   "boards": 1,
+   "first_time": "0935",
+   "industry": "航运港口",
+   "stat": "1天1板",
+   "reason": "三季报增长+集装箱航运+东南亚航线",
+   "confidence": "高",
+   "themes": [
+    "航运物流"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601083&announcementId=1225645781&orgId=9900057394&announcementTime=2026-10-30"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：锦江航运2026年第三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/601083/AN202610291831186348.html"
+    },
+    {
+     "kind": "公司",
+     "text": "港口航运板块短线拉升，锦江航运涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261030/c681274147.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "航运板块走强，锦江航运涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3190973"
+    },
+    {
+     "kind": "盘面",
+     "text": "港口航运板块表现活跃，锦江航运涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261030/c681287168.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报增长+集装箱航运+东南亚航线",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "三季报增长+集装箱航运+东南亚航线",
+   "written_by": "规则"
+  },
+  {
+   "code": "000417",
+   "name": "合百集团",
+   "boards": 1,
+   "first_time": "0936",
+   "industry": "一般零售",
+   "stat": "1天1板",
+   "reason": "三季报大增+间接投资长鑫科技+百货零售",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "三季报大增+间接投资长鑫科技+百货零售",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：发改委等部门：推进新型消费设施建设",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3191381"
+    }
+   ],
+   "ths_reason": "三季报大增+间接投资长鑫科技+百货零售",
+   "written_by": "规则"
+  },
+  {
+   "code": "000676",
+   "name": "智度股份",
+   "boards": 1,
+   "first_time": "0941",
+   "industry": "广告营销",
+   "stat": "1天1板",
+   "reason": "三季报增长+数字营销+鲸鸿动能",
+   "confidence": "中",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "三季报增长+数字营销+鲸鸿动能",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "三季报增长+数字营销+鲸鸿动能",
+   "written_by": "规则"
+  },
+  {
+   "code": "603273",
+   "name": "天元智能",
+   "boards": 1,
+   "first_time": "0942",
+   "industry": "工程机械",
+   "stat": "1天1板",
+   "reason": "机器人集成+混凝土装备+三季报落地",
+   "confidence": "高",
+   "themes": [
+    "机器人",
+    "基建建材"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603273&announcementId=1225636657&orgId=gfbj0837134&announcementTime=2026-10-29"
+    },
+    {
+     "kind": "公告",
+     "text": "分红送转：关于2026年三季度利润分配方案的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603273&announcementId=1225636634&orgId=gfbj0837134&announcementTime=2026-10-29"
+    },
+    {
+     "kind": "公司",
+     "text": "天元智能签约印尼60万方AAC生产线改造项目",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/2026-10-30/doc-iniwywtu2277539.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "机器人集成+混凝土装备+三季报落地",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "机器人集成+混凝土装备+三季报落地",
+   "written_by": "规则"
+  },
+  {
+   "code": "603198",
+   "name": "迎驾贡酒",
+   "boards": 1,
+   "first_time": "0944",
+   "industry": "白酒Ⅱ",
+   "stat": "1天1板",
+   "reason": "三季报增长+徽酒代表+中高档白酒",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "A股白酒板块午后再度拉升，皇台酒业、古井贡酒、迎驾贡酒、泉阳泉此前涨停，泸州老窖封板涨停，今世缘、山西汾酒涨超8%，舍得…",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3191008"
+    },
+    {
+     "kind": "公司",
+     "text": "白酒板块再度拉升，迎驾贡酒涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261030/c681274639.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "以白酒为首的消费股走强，青岛食品5连板，皇台酒业、泸州老窖、古井贡酒、迎驾贡酒等十余股涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3191073"
+    },
+    {
+     "kind": "盘面",
+     "text": "白酒概念持续拉升，泸州老窖涨停，此前皇台酒业、古井贡酒、迎驾贡酒涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2520330"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报增长+徽酒代表+中高档白酒",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“消费风格”概念（+0.07%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：发改委等部门：推进新型消费设施建设",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3191381"
+    }
+   ],
+   "ths_reason": "三季报增长+徽酒代表+中高档白酒",
+   "written_by": "规则"
+  },
+  {
+   "code": "600189",
+   "name": "泉阳泉",
+   "boards": 1,
+   "first_time": "0953",
+   "industry": "饮料乳品",
+   "stat": "1天1板",
+   "reason": "矿泉水+大消费+三季报增长+仓储",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "A股白酒板块午后再度拉升，皇台酒业、古井贡酒、迎驾贡酒、泉阳泉此前涨停，泸州老窖封板涨停，今世缘、山西汾酒涨超8%，舍得…",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3191008"
+    },
+    {
+     "kind": "公司",
+     "text": "饮料制造板块短线拉升，泉阳泉涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261030/c681275510.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "大消费黑芝麻、迎驾贡酒、泉阳泉、皇台酒业涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2520248"
+    },
+    {
+     "kind": "盘面",
+     "text": "白酒等消费股逆势走强，青岛食品5连板，皇台酒业、迎驾贡酒、泉阳泉等多股涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3190973"
+    },
+    {
+     "kind": "同花顺",
+     "text": "矿泉水+大消费+三季报增长+仓储",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：发改委等部门：推进新型消费设施建设",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3191381"
+    }
+   ],
+   "ths_reason": "矿泉水+大消费+三季报增长+仓储",
+   "written_by": "规则"
+  },
+  {
+   "code": "000596",
+   "name": "古井贡酒",
+   "boards": 1,
+   "first_time": "0954",
+   "industry": "白酒Ⅱ",
+   "stat": "1天1板",
+   "reason": "中期分红+三季报+白酒",
+   "confidence": "高",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "分红送转：21-2026年中期利润分配预案",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000596&announcementId=1225642372&orgId=gssz0000596&announcementTime=2026-10-30"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000596&announcementId=1225642369&orgId=gssz0000596&announcementTime=2026-10-30"
+    },
+    {
+     "kind": "公司",
+     "text": "A股白酒板块午后再度拉升，皇台酒业、古井贡酒、迎驾贡酒、泉阳泉此前涨停，泸州老窖封板涨停，今世缘、山西汾酒涨超8%，舍得…",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3191008"
+    },
+    {
+     "kind": "公司",
+     "text": "大消费板块持续走高，白酒、食品加工等方向领涨，青岛食品5连板，迎驾贡酒、古井贡酒、泉阳泉、好想你、黑芝麻等多股涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3190928"
+    },
+    {
+     "kind": "盘面",
+     "text": "以白酒为首的消费股走强，青岛食品5连板，皇台酒业、泸州老窖、古井贡酒、迎驾贡酒等十余股涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3191073"
+    },
+    {
+     "kind": "盘面",
+     "text": "白酒概念持续拉升，泸州老窖涨停，此前皇台酒业、古井贡酒、迎驾贡酒涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2520330"
+    },
+    {
+     "kind": "同花顺",
+     "text": "中期分红+三季报+白酒",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：发改委等部门：推进新型消费设施建设",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3191381"
+    }
+   ],
+   "ths_reason": "中期分红+三季报+白酒",
+   "written_by": "规则"
+  },
+  {
+   "code": "000995",
+   "name": "皇台酒业",
+   "boards": 1,
+   "first_time": "0954",
+   "industry": "白酒Ⅱ",
+   "stat": "1天1板",
+   "reason": "白酒+老窖池+葡萄酒",
+   "confidence": "高",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000995&announcementId=1225635606&orgId=gssz0000995&announcementTime=2026-10-29"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/000995/AN202610281831125269.html"
+    },
+    {
+     "kind": "公司",
+     "text": "A股白酒板块午后再度拉升，皇台酒业、古井贡酒、迎驾贡酒、泉阳泉此前涨停，泸州老窖封板涨停，今世缘、山西汾酒涨超8%，舍得…",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3191008"
+    },
+    {
+     "kind": "公司",
+     "text": "白酒股持续走强，皇台酒业、古井贡酒涨停",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103417603.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "以白酒为首的消费股走强，青岛食品5连板，皇台酒业、泸州老窖、古井贡酒、迎驾贡酒等十余股涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3191073"
+    },
+    {
+     "kind": "盘面",
+     "text": "白酒概念持续拉升，泸州老窖涨停，此前皇台酒业、古井贡酒、迎驾贡酒涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2520330"
+    },
+    {
+     "kind": "同花顺",
+     "text": "白酒+老窖池+葡萄酒",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：发改委等部门：推进新型消费设施建设",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3191381"
+    }
+   ],
+   "ths_reason": "白酒+老窖池+葡萄酒",
+   "written_by": "规则"
+  },
+  {
+   "code": "002582",
+   "name": "好想你",
+   "boards": 1,
+   "first_time": "0958",
+   "industry": "休闲食品",
+   "stat": "1天1板",
+   "reason": "三季报扭亏+红枣龙头+大消费+鸣鸣很忙",
+   "confidence": "高",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002582&announcementId=1225643595&orgId=9900019704&announcementTime=2026-10-30"
+    },
+    {
+     "kind": "公告",
+     "text": "股东变动：关于控股股东部分股份质押的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002582&announcementId=1225630156&orgId=9900019704&announcementTime=2026-10-28"
+    },
+    {
+     "kind": "公司",
+     "text": "大消费板块持续走高，白酒、食品加工等方向领涨，青岛食品5连板，迎驾贡酒、古井贡酒、泉阳泉、好想你、黑芝麻等多股涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3190928"
+    },
+    {
+     "kind": "盘面",
+     "text": "食品饮料概念表现活跃，青岛食品5连板，黑芝麻涨停，古井贡酒、迎驾贡酒、好想你、巴比食品、良品铺子跟涨",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610303915671695.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报扭亏+红枣龙头+大消费+鸣鸣很忙",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：发改委等部门：推进新型消费设施建设",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3191381"
+    }
+   ],
+   "ths_reason": "三季报扭亏+红枣龙头+大消费+鸣鸣很忙",
+   "written_by": "规则"
+  },
+  {
+   "code": "002636",
+   "name": "金安国纪",
+   "boards": 1,
+   "first_time": "1003",
+   "industry": "元件",
+   "stat": "3天2板",
+   "reason": "三季报高增+覆铜板+AI服务器",
+   "confidence": "高",
+   "themes": [
+    "人工智能",
+    "算力",
+    "有色金属"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002636/AN202610301831246157.html"
+    },
+    {
+     "kind": "公司",
+     "text": "3天2板金安国纪：年产6000万米电子级玻纤布扩建项目已建成投产 拟对原工厂改造升级再新增4000万米/年产能",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2520961"
+    },
+    {
+     "kind": "公司",
+     "text": "金安国纪：截至目前公司未与英伟达、华为有过接触，也未与其直接开展任何形式的业务合作",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261030184546887800"
+    },
+    {
+     "kind": "盘面",
+     "text": "金安国纪涨停",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103417639.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "PCB金安国纪、澳弘电子、宏昌电子涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2520248"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报高增+覆铜板+AI服务器",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：十五五算力用电量年均预计新增超1000亿千瓦时",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2520461"
+    }
+   ],
+   "ths_reason": "三季报高增+覆铜板+AI服务器",
+   "written_by": "规则"
+  },
+  {
+   "code": "605058",
+   "name": "澳弘电子",
+   "boards": 1,
+   "first_time": "1018",
+   "industry": "元件",
+   "stat": "1天1板",
+   "reason": "PCB+HDI板+AI服务器+三季报增长（公司提示：股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "算力",
+    "消费电子"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=605058&announcementId=1225631144&orgId=9900039836&announcementTime=2026-10-28"
+    },
+    {
+     "kind": "盘面",
+     "text": "PCB金安国纪、澳弘电子、宏昌电子涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2520248"
+    },
+    {
+     "kind": "盘面",
+     "text": "PCB板块上涨，金安国纪、澳弘电子、宏昌电子涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610303916087828.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "PCB+HDI板+AI服务器+三季报增长",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：十五五算力用电量年均预计新增超1000亿千瓦时",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2520461"
+    }
+   ],
+   "ths_reason": "PCB+HDI板+AI服务器+三季报增长",
+   "written_by": "规则"
+  },
+  {
+   "code": "300030",
+   "name": "阳普医疗",
+   "boards": 1,
+   "first_time": "1019",
+   "industry": "医疗器械",
+   "stat": "1天1板",
+   "reason": "“羊”字辈+智慧医疗+真空采血+许可证延续",
+   "confidence": "中",
+   "themes": [
+    "医药"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "医药医疗股震荡回升，阳普医疗20cm涨停，睿智医药、毕得医药涨超10%，皓元医药、万邦医药、百花医药、千红制药等跟涨",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3190934"
+    },
+    {
+     "kind": "盘面",
+     "text": "红太阳、泉阳泉、阳普医疗、明阳电路、阳光照明、天洋新材、沈阳机床、盛洋科技等多股涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610303916025912.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "沈阳机床、泉阳泉、阳普医疗、鲁阳节能、扬子新材、红太阳首板涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2520547"
+    },
+    {
+     "kind": "同花顺",
+     "text": "“羊”字辈+智慧医疗+真空采血+许可证延续",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“CAR-T细胞疗法”概念（+1.00%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "医药：国家药监局副局长杨胜在广东调研大湾区药物创新研发工作",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2521218"
+    }
+   ],
+   "ths_reason": "“羊”字辈+智慧医疗+真空采血+许可证延续",
+   "written_by": "规则"
+  },
+  {
+   "code": "603233",
+   "name": "大参林",
+   "boards": 1,
+   "first_time": "1057",
+   "industry": "医药商业",
+   "stat": "1天1板",
+   "reason": "三季报增长+回购注销+医药零售（公司提示：医药集团股份有限公司2026年第三季…）",
+   "confidence": "中",
+   "themes": [
+    "医药",
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：医药集团股份有限公司2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603233&announcementId=1225641982&orgId=9900031701&announcementTime=2026-10-30"
+    },
+    {
+     "kind": "公告",
+     "text": "回购：医药集团股份有限公司关于变更回购股份用途并注销的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603233&announcementId=1225641950&orgId=9900031701&announcementTime=2026-10-30"
+    },
+    {
+     "kind": "盘面",
+     "text": "医药商业板块再度拉升，开开实业涨停，大参林此前封板",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261030/c681284483.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报增长+回购注销+医药零售",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "医药：国家药监局副局长杨胜在广东调研大湾区药物创新研发工作",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2521218"
+    }
+   ],
+   "ths_reason": "三季报增长+回购注销+医药零售",
+   "written_by": "规则"
+  },
+  {
+   "code": "002088",
+   "name": "鲁阳节能",
+   "boards": 1,
+   "first_time": "1117",
+   "industry": "装修建材",
+   "stat": "1天1板",
+   "reason": "陶瓷纤维+锂电隔热+“羊”字辈+超跌反弹",
+   "confidence": "中",
+   "themes": [
+    "锂电储能",
+    "基建建材"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "沈阳机床、泉阳泉、阳普医疗、鲁阳节能、扬子新材、红太阳首板涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2520547"
+    },
+    {
+     "kind": "同花顺",
+     "text": "陶瓷纤维+锂电隔热+“羊”字辈+超跌反弹",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“可燃冰”概念（+0.41%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "陶瓷纤维+锂电隔热+“羊”字辈+超跌反弹",
+   "written_by": "规则"
+  },
+  {
+   "code": "301132",
+   "name": "满坤科技",
+   "boards": 1,
+   "first_time": "1126",
+   "industry": "元件",
+   "stat": "1天1板",
+   "reason": "三季报增长+PCB+服务器电源+光模块",
+   "confidence": "高",
+   "themes": [
+    "算力",
+    "消费电子"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "满坤科技：第三季度净利润同比增长231% 环比增长397%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2519329"
+    },
+    {
+     "kind": "盘面",
+     "text": "宏昌电子、回天新材、满坤科技、依顿电子、明阳电路、华正新材等跟涨",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103417639.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报增长+PCB+服务器电源+光模块",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "三季报增长+PCB+服务器电源+光模块",
+   "written_by": "规则"
+  },
+  {
+   "code": "002652",
+   "name": "扬子新材",
+   "boards": 1,
+   "first_time": "1128",
+   "industry": "装修建材",
+   "stat": "1天1板",
+   "reason": "有机涂层板+高洁净板+三季报减亏",
+   "confidence": "高",
+   "themes": [
+    "基建建材"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002652/AN202610281831106847.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "沈阳机床、泉阳泉、阳普医疗、鲁阳节能、扬子新材、红太阳首板涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2520547"
+    },
+    {
+     "kind": "同花顺",
+     "text": "有机涂层板+高洁净板+三季报减亏",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "有机涂层板+高洁净板+三季报减亏",
+   "written_by": "规则"
+  },
+  {
+   "code": "301520",
+   "name": "万邦医药",
+   "boards": 1,
+   "first_time": "1300",
+   "industry": "医疗服务",
+   "stat": "1天1板",
+   "reason": "CRO+创新药+赛德盛并购+数智化",
+   "confidence": "高",
+   "themes": [
+    "医药"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=301520&announcementId=1225642171&orgId=9900053910&announcementTime=2026-10-30"
+    },
+    {
+     "kind": "公司",
+     "text": "创新药、CRO概念午后持续拉升 睿智医药、万邦医药双双20CM涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2520317"
+    },
+    {
+     "kind": "公司",
+     "text": "CRO概念板块午后拉升，万邦医药、睿智医药涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261030/c681284722.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "CRO概念股今日逆势大涨，万邦医药20CM涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610303916687731.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "医药医疗股拉升，万邦医药、百花医药、澳洋健康、羚锐制药等涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3191073"
+    },
+    {
+     "kind": "同花顺",
+     "text": "CRO+创新药+赛德盛并购+数智化",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“减肥药”概念（+1.17%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "医药：国家药监局副局长杨胜在广东调研大湾区药物创新研发工作",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2521218"
+    }
+   ],
+   "ths_reason": "CRO+创新药+赛德盛并购+数智化",
+   "written_by": "规则"
+  },
+  {
+   "code": "600510",
+   "name": "黑牡丹",
+   "boards": 1,
+   "first_time": "1300",
+   "industry": "房地产开",
+   "stat": "1天1板",
+   "reason": "牛仔布+新型城镇化+园区运营",
+   "confidence": "中",
+   "themes": [
+    "房地产"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "牛仔布+新型城镇化+园区运营",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "房地产：金融监管总局：稳妥推进中小金融机构改革化险、减量提质，积极支持配合化解房地产和地",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261030/c681310025.shtml"
+    }
+   ],
+   "ths_reason": "牛仔布+新型城镇化+园区运营",
+   "written_by": "规则"
+  },
+  {
+   "code": "600721",
+   "name": "百花医药",
+   "boards": 1,
+   "first_time": "1300",
+   "industry": "医疗服务",
+   "stat": "1天1板",
+   "reason": "医药外包+复杂制剂+控制权变更（公司提示：新疆百花村医药集团股份有限公司202…）",
+   "confidence": "中",
+   "themes": [
+    "医药"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：新疆百花村医药集团股份有限公司2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600721&announcementId=1225629495&orgId=gssh0600721&announcementTime=2026-10-28"
+    },
+    {
+     "kind": "公司",
+     "text": "医药医疗股震荡回升，阳普医疗20cm涨停，睿智医药、毕得医药涨超10%，皓元医药、万邦医药、百花医药、千红制药等跟涨",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3190934"
+    },
+    {
+     "kind": "盘面",
+     "text": "医药医疗股拉升，万邦医药、百花医药、澳洋健康、羚锐制药等涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3191073"
+    },
+    {
+     "kind": "盘面",
+     "text": "睿智医药、万邦医药双双20CM涨停，近岸蛋白涨超18%，百花医药涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2520317"
+    },
+    {
+     "kind": "同花顺",
+     "text": "医药外包+复杂制剂+控制权变更",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "医药：国家药监局副局长杨胜在广东调研大湾区药物创新研发工作",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2521218"
+    }
+   ],
+   "ths_reason": "医药外包+复杂制剂+控制权变更",
+   "written_by": "规则"
+  },
+  {
+   "code": "600113",
+   "name": "浙江东日",
+   "boards": 1,
+   "first_time": "1302",
+   "industry": "一般零售",
+   "stat": "1天1板",
+   "reason": "农批市场+大消费+温州国资（公司提示：股份有限公司2026年第三季度报告）",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：股份有限公司2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600113&announcementId=1225641706&orgId=gssh0600113&announcementTime=2026-10-30"
+    },
+    {
+     "kind": "同花顺",
+     "text": "农批市场+大消费+温州国资",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：发改委等部门：推进新型消费设施建设",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3191381"
+    }
+   ],
+   "ths_reason": "农批市场+大消费+温州国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "603200",
+   "name": "上海洗霸",
+   "boards": 1,
+   "first_time": "1307",
+   "industry": "环境治理",
+   "stat": "1天1板",
+   "reason": "固态电池+数据中心液冷+水处理（公司提示：科技股份有限公司2026年第三季度报…）",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "锂电储能"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：科技股份有限公司2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603200&announcementId=1225636640&orgId=9900030775&announcementTime=2026-10-29"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：上海洗霸科技股份有限公司2026年第三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603200/AN202610281831122785.html"
+    },
+    {
+     "kind": "公司",
+     "text": "固态电池概念震荡反弹 上海洗霸涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2520315"
+    },
+    {
+     "kind": "同花顺",
+     "text": "固态电池+数据中心液冷+水处理",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "固态电池+数据中心液冷+水处理",
+   "written_by": "规则"
+  },
+  {
+   "code": "000568",
+   "name": "泸州老窖",
+   "boards": 1,
+   "first_time": "1327",
+   "industry": "白酒Ⅱ",
+   "stat": "1天1板",
+   "reason": "业绩环增+高端白酒+库存去化",
+   "confidence": "中",
+   "themes": [
+    "消费",
+    "农业"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "白酒概念持续拉升 泸州老窖涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2520330"
+    },
+    {
+     "kind": "公司",
+     "text": "A股白酒板块午后再度拉升，皇台酒业、古井贡酒、迎驾贡酒、泉阳泉此前涨停，泸州老窖封板涨停，今世缘、山西汾酒涨超8%，舍得…",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3191008"
+    },
+    {
+     "kind": "盘面",
+     "text": "以白酒为首的消费股走强，青岛食品5连板，皇台酒业、泸州老窖、古井贡酒、迎驾贡酒等十余股涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3191073"
+    },
+    {
+     "kind": "盘面",
+     "text": "皇台酒业、泸州老窖、今世缘、金种子酒、舍得酒业、五粮液等跟涨",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103417512.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "业绩环增+高端白酒+库存去化",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“超级品牌”概念（+1.28%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：发改委等部门：推进新型消费设施建设",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3191381"
+    }
+   ],
+   "ths_reason": "业绩环增+高端白酒+库存去化",
+   "written_by": "规则"
+  },
+  {
+   "code": "600258",
+   "name": "首旅酒店",
+   "boards": 1,
+   "first_time": "1330",
+   "industry": "酒店餐饮",
+   "stat": "1天1板",
+   "reason": "三季报净利增长+酒店扩张+大消费",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "三季报净利增长+酒店扩张+大消费",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：发改委等部门：推进新型消费设施建设",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3191381"
+    }
+   ],
+   "ths_reason": "三季报净利增长+酒店扩张+大消费",
+   "written_by": "规则"
+  },
+  {
+   "code": "002946",
+   "name": "新乳业",
+   "boards": 1,
+   "first_time": "1339",
+   "industry": "饮料乳品",
+   "stat": "1天1板",
+   "reason": "三季报增长+低温鲜奶+大消费",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "乳业板块午后拉升 阳光乳业、新乳业双双涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2520339"
+    },
+    {
+     "kind": "盘面",
+     "text": "金丹科技、黑芝麻、巴比食品、阳光乳业、新乳业、泸州老窖、古井贡酒涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610303916270027.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "新乳业、阳光乳业、品渥食品、南方乳业、红棉股份跟涨",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261030/c681275510.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报增长+低温鲜奶+大消费",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：发改委等部门：推进新型消费设施建设",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3191381"
+    }
+   ],
+   "ths_reason": "三季报增长+低温鲜奶+大消费",
+   "written_by": "规则"
+  }
+ ]
+}
