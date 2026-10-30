@@ -1,0 +1,1157 @@
+{
+ "trade_date": "2026-10-30",
+ "coverage": 79.5,
+ "announced": 28,
+ "stocks": [
+  {
+   "code": "002708",
+   "name": "光洋股份",
+   "boards": 4,
+   "first_time": "0925",
+   "industry": "汽车零部",
+   "stat": "4天4板",
+   "reason": "汽车题材（公司提示：股票交易异常波动公告）",
+   "confidence": "低",
+   "themes": [
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002708&announcementId=1225628784&orgId=9900023255&announcementTime=2026-10-28"
+    },
+    {
+     "kind": "盘面",
+     "text": "净买入的有东山精密、西部材料、光洋股份等",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103416269.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "1）4连板光洋股份第三季度净利润同比下降89.88%",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610303915377629.html"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "001219",
+   "name": "青岛食品",
+   "boards": 4,
+   "first_time": "0925",
+   "industry": "休闲食品",
+   "stat": "4天4板",
+   "reason": "食品饮料板块震荡回升，大消费概念4连板竞价涨停",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=001219&announcementId=1225632089&orgId=gfbj0872387&announcementTime=2026-10-28"
+    },
+    {
+     "kind": "盘面",
+     "text": "食品饮料板块震荡回升，青岛食品4连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2518852"
+    },
+    {
+     "kind": "盘面",
+     "text": "大消费板块青岛食品（3板）竞价涨停、茂业商业（2板）低开1.63%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2518704"
+    },
+    {
+     "kind": "题材",
+     "text": "消费：大湾区内地9市对APEC经济体进出口连增20个月",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2519964"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "模型"
+  },
+  {
+   "code": "601956",
+   "name": "东贝集团",
+   "boards": 3,
+   "first_time": "0925",
+   "industry": "家电零部",
+   "stat": "3天3板",
+   "reason": "消费题材催化，家电零部件股3连板异动",
+   "confidence": "低",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：湖北东贝机电集团股份有限公司股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601956&announcementId=1225636777&orgId=GD008131&announcementTime=2026-10-29"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：湖北东贝机电集团股份有限公司股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/601956/AN202610281831123561.html"
+    },
+    {
+     "kind": "题材",
+     "text": "消费：大湾区内地9市对APEC经济体进出口连增20个月",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2519964"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "模型"
+  },
+  {
+   "code": "600715",
+   "name": "文投控股",
+   "boards": 3,
+   "first_time": "0930",
+   "industry": "游戏Ⅱ",
+   "stat": "7天4板",
+   "reason": "AI漫剧与短剧概念活跃，影视院线板块反弹涨停",
+   "confidence": "中",
+   "themes": [
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：股份有限公司2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600715&announcementId=1225644055&orgId=gssh0600715&announcementTime=2026-10-30"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股份有限公司股票交易风险提示公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600715&announcementId=1225643911&orgId=gssh0600715&announcementTime=2026-10-30"
+    },
+    {
+     "kind": "公司",
+     "text": "AI漫剧概念震荡回升 文投控股7天4板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2518717"
+    },
+    {
+     "kind": "盘面",
+     "text": "短剧概念股文投控股（6天3板）高开6.80%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2518704"
+    },
+    {
+     "kind": "盘面",
+     "text": "影视院线板块震荡反弹，百纳千成、文投控股涨停",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261028150034629800"
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“振兴沈阳”概念（+0.55%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "模型"
+  },
+  {
+   "code": "002526",
+   "name": "山东矿机",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "专用设备",
+   "stat": "2天2板",
+   "reason": "仅见股价异动公告，两连板缺明确题材支撑",
+   "confidence": "低",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002526&announcementId=1225642389&orgId=9900016432&announcementTime=2026-10-30"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "模型"
+  },
+  {
+   "code": "002862",
+   "name": "实丰文化",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "文娱用品",
+   "stat": "2天2板",
+   "reason": "披露2026年三季报，两连板无其他明确题材",
+   "confidence": "高",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002862&announcementId=1225644029&orgId=9900030606&announcementTime=2026-10-30"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002862/AN202610291831181875.html"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "模型"
+  },
+  {
+   "code": "603006",
+   "name": "联明股份",
+   "boards": 2,
+   "first_time": "0930",
+   "industry": "汽车零部",
+   "stat": "2天2板",
+   "reason": "披露三季报并发布异动公告，两连板涨停",
+   "confidence": "高",
+   "themes": [
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603006&announcementId=1225629513&orgId=9900023816&announcementTime=2026-10-28"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603006&announcementId=1225642798&orgId=9900023816&announcementTime=2026-10-30"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "模型"
+  },
+  {
+   "code": "002172",
+   "name": "澳洋健康",
+   "boards": 2,
+   "first_time": "0930",
+   "industry": "医疗服务",
+   "stat": "2天2板",
+   "reason": "披露权益变动督导意见，叠加股价异动公告",
+   "confidence": "低",
+   "themes": [
+    "医药"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "股东变动：东吴证券股份有限公司关于江苏澳洋健康产业股份有限公司详式权益变动报告书之2026年第三季度持续督导意见",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002172&announcementId=1225643472&orgId=9900003621&announcementTime=2026-10-30"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：江苏澳洋健康产业股份有限公司股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002172&announcementId=1225643471&orgId=9900003621&announcementTime=2026-10-30"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "模型"
+  },
+  {
+   "code": "603131",
+   "name": "上海沪工",
+   "boards": 2,
+   "first_time": "0950",
+   "industry": "通用设备",
+   "stat": "2天2板",
+   "reason": "商业航天概念盘中拉升，两连板涨停",
+   "confidence": "中",
+   "themes": [
+    "商业航天"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603131&announcementId=1225643359&orgId=9900023707&announcementTime=2026-10-30"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：焊接集团股份有限公司2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603131&announcementId=1225630270&orgId=9900023707&announcementTime=2026-10-28"
+    },
+    {
+     "kind": "盘面",
+     "text": "商业航天概念今日表现活跃，飞沃科技、电科蓝天、天力复合等涨超10%，航天晨光、西部材料、上海沪工、中国卫星等多股涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610293914417375.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "商业航天概念盘中拉升，中国卫星、上海沪工、西部材料、航天晨光等多股涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3189659"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "模型"
+  },
+  {
+   "code": "002943",
+   "name": "宇晶股份",
+   "boards": 2,
+   "first_time": "1300",
+   "industry": "通用设备",
+   "stat": "2天2板",
+   "reason": "仅发布股价异动公告，两连板无明确题材",
+   "confidence": "低",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002943&announcementId=1225644548&orgId=gfbj0834124&announcementTime=2026-10-30"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002943/AN202610291831183204.html"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "模型"
+  },
+  {
+   "code": "600643",
+   "name": "爱建集团",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "多元金融",
+   "stat": "1天1板",
+   "reason": "披露2026年三季报，多元金融个股涨停",
+   "confidence": "高",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600643&announcementId=1225637020&orgId=gssh0600643&announcementTime=2026-10-29"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：爱建集团2026年三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/600643/AN202610281831124692.html"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "模型"
+  },
+  {
+   "code": "600592",
+   "name": "龙溪股份",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "领涨机器人概念，叠加披露三季报",
+   "confidence": "中",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：福建龙溪轴承（集团）股份有限公司2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600592&announcementId=1225637302&orgId=gssh0600592&announcementTime=2026-10-29"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：福建龙溪轴承(集团)股份有限公司2026年第三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/600592/AN202610281831125749.html"
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“机器人概念”（+1.44%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "模型"
+  },
+  {
+   "code": "600428",
+   "name": "中远海特",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "航运港口",
+   "stat": "1天1板",
+   "reason": "前三季度净利润同比增长96.91%，整体上市概念领涨",
+   "confidence": "高",
+   "themes": [
+    "航运物流"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：中远海运特种运输股份有限公司2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600428&announcementId=1225637420&orgId=gssh0600428&announcementTime=2026-10-29"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：中远海运特种运输股份有限公司2026年第三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/600428/AN202610281831126126.html"
+    },
+    {
+     "kind": "公司",
+     "text": "中远海特：前三季度净利润同比增长96.91%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2518132"
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“整体上市”概念（+0.35%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "模型"
+  },
+  {
+   "code": "002277",
+   "name": "友阿股份",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "一般零售",
+   "stat": "1天1板",
+   "reason": "拟收购尚阳通100%股权，重组并购事项推进",
+   "confidence": "高",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002277&announcementId=1225642641&orgId=9900007247&announcementTime=2026-10-30"
+    },
+    {
+     "kind": "公告",
+     "text": "重组并购：关于深圳证券交易所上市审核中心审核公司发行股份及支付现金购买资产并募集配套资金暨关联交易事项会议安排的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002277&announcementId=1225637618&orgId=9900007247&announcementTime=2026-10-29"
+    },
+    {
+     "kind": "公司",
+     "text": "友阿股份：拟发行股份及支付现金收购深圳尚阳通科技股份有限公司100%股权",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261028/c681202783.shtml"
+    },
+    {
+     "kind": "题材",
+     "text": "消费：大湾区内地9市对APEC经济体进出口连增20个月",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2519964"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "模型"
+  },
+  {
+   "code": "601188",
+   "name": "龙江交通",
+   "boards": 1,
+   "first_time": "0931",
+   "industry": "铁路公路",
+   "stat": "1天1板",
+   "reason": "冰雪经济概念活跃涨停，叠加中期分红方案",
+   "confidence": "高",
+   "themes": [
+    "基建建材"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "分红送转：关于2026年度中期分红方案的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601188&announcementId=1225644116&orgId=9900011628&announcementTime=2026-10-30"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601188&announcementId=1225644100&orgId=9900011628&announcementTime=2026-10-30"
+    },
+    {
+     "kind": "盘面",
+     "text": "冰雪经济概念表现活跃，冰山冷热、龙江交通涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2518852"
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“朝鲜改革”概念（+0.04%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "模型"
+  },
+  {
+   "code": "003032",
+   "name": "传智教育",
+   "boards": 1,
+   "first_time": "0932",
+   "industry": "教育",
+   "stat": "1天1板",
+   "reason": "披露2026年三季报，教育板块个股涨停",
+   "confidence": "高",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/003032/AN202610281831101615.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "传智教育涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2518717"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "模型"
+  },
+  {
+   "code": "600261",
+   "name": "阳光照明",
+   "boards": 1,
+   "first_time": "0932",
+   "industry": "照明设备",
+   "stat": "1天1板",
+   "reason": "照明设备题材跟涨，个股涨停",
+   "confidence": "低",
+   "themes": [],
+   "evidence": [],
+   "ths_reason": "",
+   "written_by": "模型"
+  },
+  {
+   "code": "000701",
+   "name": "厦门信达",
+   "boards": 1,
+   "first_time": "0940",
+   "industry": "贸易Ⅱ",
+   "stat": "1天1板",
+   "reason": "贸易板块题材跟涨，个股涨停",
+   "confidence": "低",
+   "themes": [],
+   "evidence": [],
+   "ths_reason": "",
+   "written_by": "模型"
+  },
+  {
+   "code": "600997",
+   "name": "开滦股份",
+   "boards": 1,
+   "first_time": "0941",
+   "industry": "焦炭Ⅱ",
+   "stat": "1天1板",
+   "reason": "披露三季报，煤炭防御与分红属性受资金关注",
+   "confidence": "低",
+   "themes": [
+    "煤炭"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：开滦能源化工股份有限公司2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600997&announcementId=1225634176&orgId=gssh0600997&announcementTime=2026-10-29"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：开滦能源化工股份有限公司2026年第三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/600997/AN202610281831105904.html"
+    },
+    {
+     "kind": "题材",
+     "text": "煤炭：防御属性与分红能力凸显 煤炭主题基金逆袭",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610303915139242.html"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "模型"
+  },
+  {
+   "code": "002275",
+   "name": "桂林三金",
+   "boards": 1,
+   "first_time": "0944",
+   "industry": "中药Ⅱ",
+   "stat": "1天1板",
+   "reason": "披露三季报并发布前三季度利润分配方案",
+   "confidence": "高",
+   "themes": [
+    "医药"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "分红送转：关于2026年前三季度利润分配方案的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002275&announcementId=1225628987&orgId=9900007027&announcementTime=2026-10-28"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002275&announcementId=1225628985&orgId=9900007027&announcementTime=2026-10-28"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "模型"
+  },
+  {
+   "code": "001225",
+   "name": "和泰机电",
+   "boards": 1,
+   "first_time": "0945",
+   "industry": "专用设备",
+   "stat": "4天2板",
+   "reason": "专用设备题材跟涨，个股涨停",
+   "confidence": "低",
+   "themes": [],
+   "evidence": [],
+   "ths_reason": "",
+   "written_by": "模型"
+  },
+  {
+   "code": "603103",
+   "name": "横店影视",
+   "boards": 1,
+   "first_time": "0946",
+   "industry": "影视院线",
+   "stat": "1天1板",
+   "reason": "披露三季报，影视院线板块反弹带动跟涨",
+   "confidence": "低",
+   "themes": [
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：股份有限公司2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603103&announcementId=1225636626&orgId=9900033195&announcementTime=2026-10-29"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：横店影视股份有限公司2026年第三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603103/AN202610281831122786.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "横店影视、华是科技、大晟文化、欢瑞世纪等跟涨",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2518717"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "模型"
+  },
+  {
+   "code": "002565",
+   "name": "顺灏股份",
+   "boards": 1,
+   "first_time": "0951",
+   "industry": "包装印刷",
+   "stat": "1天1板",
+   "reason": "包装印刷题材跟涨，个股涨停",
+   "confidence": "低",
+   "themes": [],
+   "evidence": [],
+   "ths_reason": "",
+   "written_by": "模型"
+  },
+  {
+   "code": "002865",
+   "name": "钧达股份",
+   "boards": 1,
+   "first_time": "0958",
+   "industry": "光伏设备",
+   "stat": "1天1板",
+   "reason": "光伏设备题材跟涨，个股涨停",
+   "confidence": "低",
+   "themes": [
+    "光伏"
+   ],
+   "evidence": [],
+   "ths_reason": "",
+   "written_by": "模型"
+  },
+  {
+   "code": "301079",
+   "name": "邵阳液压",
+   "boards": 1,
+   "first_time": "0958",
+   "industry": "工程机械",
+   "stat": "1天1板",
+   "reason": "仅见股价异常波动公告，无明确题材支撑",
+   "confidence": "低",
+   "themes": [
+    "基建建材"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：关于公司股价异常波动的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=301079&announcementId=1225640475&orgId=9900023822&announcementTime=2026-10-29"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "模型"
+  },
+  {
+   "code": "605338",
+   "name": "巴比食品",
+   "boards": 1,
+   "first_time": "0959",
+   "industry": "食品加工",
+   "stat": "1天1板",
+   "reason": "食品饮料板块震荡回升，叠加中期分红方案",
+   "confidence": "高",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "分红送转：关于2026年中期利润分配方案的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=605338&announcementId=1225634849&orgId=9900039853&announcementTime=2026-10-29"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=605338&announcementId=1225634824&orgId=9900039853&announcementTime=2026-10-29"
+    },
+    {
+     "kind": "公司",
+     "text": "食品饮料板块震荡回升 巴比食品、惠发食品双双涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2518754"
+    },
+    {
+     "kind": "盘面",
+     "text": "食品饮料板块震荡回升，青岛食品4连板，巴比食品、惠发食品双双涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2518852"
+    },
+    {
+     "kind": "题材",
+     "text": "消费：大湾区内地9市对APEC经济体进出口连增20个月",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2519964"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "模型"
+  },
+  {
+   "code": "603382",
+   "name": "海阳科技",
+   "boards": 1,
+   "first_time": "1000",
+   "industry": "化学纤维",
+   "stat": "1天1板",
+   "reason": "化学纤维题材跟涨，个股涨停",
+   "confidence": "低",
+   "themes": [],
+   "evidence": [],
+   "ths_reason": "",
+   "written_by": "模型"
+  },
+  {
+   "code": "603536",
+   "name": "惠发食品",
+   "boards": 1,
+   "first_time": "1000",
+   "industry": "食品加工",
+   "stat": "1天1板",
+   "reason": "食品饮料板块震荡回升，消费题材带动涨停",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "食品饮料板块震荡回升 巴比食品、惠发食品双双涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2518754"
+    },
+    {
+     "kind": "盘面",
+     "text": "食品饮料板块震荡回升，青岛食品4连板，巴比食品、惠发食品双双涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2518852"
+    },
+    {
+     "kind": "题材",
+     "text": "消费：大湾区内地9市对APEC经济体进出口连增20个月",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2519964"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "模型"
+  },
+  {
+   "code": "605598",
+   "name": "上海港湾",
+   "boards": 1,
+   "first_time": "1002",
+   "industry": "专业工程",
+   "stat": "1天1板",
+   "reason": "专业工程题材跟涨，个股涨停",
+   "confidence": "低",
+   "themes": [],
+   "evidence": [],
+   "ths_reason": "",
+   "written_by": "模型"
+  },
+  {
+   "code": "603703",
+   "name": "盛洋科技",
+   "boards": 1,
+   "first_time": "1005",
+   "industry": "光学光电",
+   "stat": "1天1板",
+   "reason": "披露2026年三季报，光学光电子股涨停",
+   "confidence": "高",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603703&announcementId=1225630389&orgId=9900023745&announcementTime=2026-10-28"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "模型"
+  },
+  {
+   "code": "002679",
+   "name": "福建金森",
+   "boards": 1,
+   "first_time": "1011",
+   "industry": "林业Ⅱ",
+   "stat": "1天1板",
+   "reason": "披露2026年三季报，林业股涨停",
+   "confidence": "高",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002679&announcementId=1225638421&orgId=9900022738&announcementTime=2026-10-29"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002679/AN202610281831130152.html"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "模型"
+  },
+  {
+   "code": "605179",
+   "name": "一鸣食品",
+   "boards": 1,
+   "first_time": "1012",
+   "industry": "饮料乳品",
+   "stat": "1天1板",
+   "reason": "大湾区消费题材催化，饮料乳品股跟涨",
+   "confidence": "低",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "题材",
+     "text": "消费：大湾区内地9市对APEC经济体进出口连增20个月",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2519964"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "模型"
+  },
+  {
+   "code": "600118",
+   "name": "中国卫星",
+   "boards": 1,
+   "first_time": "1024",
+   "industry": "航天装备",
+   "stat": "1天1板",
+   "reason": "前三季度净利增473.40%，商业航天概念活跃",
+   "confidence": "高",
+   "themes": [
+    "商业航天",
+    "军工"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600118&announcementId=1225637125&orgId=gssh0600118&announcementTime=2026-10-29"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：中国卫星2026年第三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/600118/AN202610281831125502.html"
+    },
+    {
+     "kind": "公司",
+     "text": "中国卫星：前三季度净利润同比增长473.40%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2518110"
+    },
+    {
+     "kind": "盘面",
+     "text": "商业航天概念今日表现活跃，飞沃科技、电科蓝天、天力复合等涨超10%，航天晨光、西部材料、上海沪工、中国卫星等多股涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610293914417375.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "商业航天概念盘中拉升，中国卫星、上海沪工、西部材料、航天晨光等多股涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3189659"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "模型"
+  },
+  {
+   "code": "600501",
+   "name": "航天晨光",
+   "boards": 1,
+   "first_time": "1025",
+   "industry": "专用设备",
+   "stat": "1天1板",
+   "reason": "商业航天概念盘中拉升，垃圾分类概念领涨",
+   "confidence": "中",
+   "themes": [
+    "商业航天"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "商业航天概念今日表现活跃，飞沃科技、电科蓝天、天力复合等涨超10%，航天晨光、西部材料、上海沪工、中国卫星等多股涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610293914417375.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "商业航天概念盘中拉升，中国卫星、上海沪工、西部材料、航天晨光等多股涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3189659"
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“垃圾分类”概念（+0.34%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "模型"
+  },
+  {
+   "code": "000530",
+   "name": "冰山冷热",
+   "boards": 1,
+   "first_time": "1036",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "冰雪经济概念表现活跃，个股涨停",
+   "confidence": "中",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "冰雪经济概念表现活跃，冰山冷热、龙江交通涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2518852"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "模型"
+  },
+  {
+   "code": "600576",
+   "name": "祥源文旅",
+   "boards": 1,
+   "first_time": "1051",
+   "industry": "旅游及景",
+   "stat": "1天1板",
+   "reason": "披露2026年三季报，旅游及景区股涨停",
+   "confidence": "高",
+   "themes": [
+    "文旅"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600576&announcementId=1225638250&orgId=gssh0600576&announcementTime=2026-10-29"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年第三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/600576/AN202610281831129221.html"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "模型"
+  },
+  {
+   "code": "002149",
+   "name": "西部材料",
+   "boards": 1,
+   "first_time": "1054",
+   "industry": "小金属",
+   "stat": "1天1板",
+   "reason": "2026年三季度报告",
+   "confidence": "高",
+   "themes": [
+    "商业航天",
+    "有色金属"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002149&announcementId=1225644068&orgId=9900003403&announcementTime=2026-10-30"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002149/AN202610291831181848.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "净买入的有东山精密、西部材料、光洋股份等",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103416269.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "商业航天概念今日表现活跃，飞沃科技、电科蓝天、天力复合等涨超10%，航天晨光、西部材料、上海沪工、中国卫星等多股涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610293914417375.html"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "002531",
+   "name": "天顺风能",
+   "boards": 1,
+   "first_time": "1059",
+   "industry": "风电设备",
+   "stat": "1天1板",
+   "reason": "风电设备板块逆势反弹，天顺风能涨停",
+   "confidence": "高",
+   "themes": [
+    "风电"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002531/AN202610281831109189.html"
+    },
+    {
+     "kind": "公司",
+     "text": "风电设备板块逆势反弹 天顺风能涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2518821"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "模型"
+  },
+  {
+   "code": "002086",
+   "name": "东方海洋",
+   "boards": 1,
+   "first_time": "1353",
+   "industry": "农产品加",
+   "stat": "4天2板",
+   "reason": "披露2026年三季报，农产品加工股涨停",
+   "confidence": "高",
+   "themes": [
+    "农业"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002086/AN202610281831106191.html"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "模型"
+  }
+ ]
+}
