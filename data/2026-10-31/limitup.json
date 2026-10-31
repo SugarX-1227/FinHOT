@@ -1,0 +1,1606 @@
+{
+ "trade_date": "2026-10-30",
+ "coverage": 100.0,
+ "announced": 26,
+ "stocks": [
+  {
+   "code": "001219",
+   "name": "青岛食品",
+   "boards": 5,
+   "first_time": "0930",
+   "industry": "休闲食品",
+   "stat": "5天5板",
+   "reason": "青啤拟入主+三季报增长，饼干食品大消费连板",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "食品饮料板块震荡回升，青岛食品4连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2518852"
+    },
+    {
+     "kind": "盘面",
+     "text": "大消费板块青岛食品（3板）竞价涨停、茂业商业（2板）低开1.63%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2518704"
+    },
+    {
+     "kind": "同花顺",
+     "text": "青啤拟入主+三季报增长+饼干食品",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：超5500家公司披露三季报 电子有色净利增幅居前",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2521429"
+    }
+   ],
+   "ths_reason": "青啤拟入主+三季报增长+饼干食品",
+   "written_by": "模型"
+  },
+  {
+   "code": "603131",
+   "name": "上海沪工",
+   "boards": 3,
+   "first_time": "0925",
+   "industry": "通用设备",
+   "stat": "3天3板",
+   "reason": "三季报扭亏+商业航天+焊接机器人涨停",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "商业航天"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易风险提示公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603131&announcementId=1225649986&orgId=9900023707&announcementTime=2026-10-31"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易风险提示公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603131/AN202610301831245859.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "航天晨光、西部材料、上海沪工、中国卫星等多股涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610293914417375.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "中国卫星、上海沪工、西部材料、航天晨光等多股涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3189659"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报扭亏+商业航天+焊接机器人+焊接切割设备",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "三季报扭亏+商业航天+焊接机器人+焊接切割设备",
+   "written_by": "模型"
+  },
+  {
+   "code": "002172",
+   "name": "澳洋健康",
+   "boards": 3,
+   "first_time": "1025",
+   "industry": "医疗服务",
+   "stat": "3天3板",
+   "reason": "国资控股权益变动+脑机接口，'羊'字辈炒作",
+   "confidence": "中",
+   "themes": [
+    "医药",
+    "前沿科技"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "股东变动：东吴证券股份有限公司关于江苏澳洋健康产业股份有限公司详式权益变动报告书之2026年第三季度持续督导意见",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002172&announcementId=1225643472&orgId=9900003621&announcementTime=2026-10-30"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：江苏澳洋健康产业股份有限公司股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002172&announcementId=1225643471&orgId=9900003621&announcementTime=2026-10-30"
+    },
+    {
+     "kind": "同花顺",
+     "text": "脑机接口+医疗服务+国资控股+“羊”字辈",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "医药：美股科技股重挫之际 消费、医药、能源等板块表现相对抗跌",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2521315"
+    }
+   ],
+   "ths_reason": "脑机接口+医疗服务+国资控股+“羊”字辈",
+   "written_by": "模型"
+  },
+  {
+   "code": "603703",
+   "name": "盛洋科技",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "光学光电",
+   "stat": "2天2板",
+   "reason": "卫星通信终端+高速铜缆，'羊'字辈炒作",
+   "confidence": "中",
+   "themes": [
+    "通信",
+    "有色金属",
+    "商业航天"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "监管问询：控股股东、实际控制人关于公司股票交易异常波动问询函的回复",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603703&announcementId=1225648177&orgId=9900023745&announcementTime=2026-10-31"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603703&announcementId=1225648135&orgId=9900023745&announcementTime=2026-10-31"
+    },
+    {
+     "kind": "同花顺",
+     "text": "卫星通信终端+高速铜缆+“羊”字辈",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "卫星通信终端+高速铜缆+“羊”字辈",
+   "written_by": "模型"
+  },
+  {
+   "code": "600261",
+   "name": "阳光照明",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "照明设备",
+   "stat": "2天2板",
+   "reason": "商业航天+激光通信投资，'羊'字辈炒作",
+   "confidence": "中",
+   "themes": [
+    "通信",
+    "商业航天"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动的公告.doc",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600261&announcementId=1225647882&orgId=gssh0600261&announcementTime=2026-10-31"
+    },
+    {
+     "kind": "公告",
+     "text": "监管问询：公司控股股东关于股票交易异常波动问询函的回复",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600261&announcementId=1225647814&orgId=gssh0600261&announcementTime=2026-10-31"
+    },
+    {
+     "kind": "同花顺",
+     "text": "商业航天+激光通信投资+LED照明+“羊”字辈",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "商业航天+激光通信投资+LED照明+“羊”字辈",
+   "written_by": "模型"
+  },
+  {
+   "code": "002275",
+   "name": "桂林三金",
+   "boards": 2,
+   "first_time": "0930",
+   "industry": "中药Ⅱ",
+   "stat": "2天2板",
+   "reason": "三季报增长+中成药，抗癌概念领涨",
+   "confidence": "中",
+   "themes": [
+    "医药"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002275&announcementId=1225650050&orgId=9900007027&announcementTime=2026-10-31"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002275/AN202610301831246616.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报增长+中成药+西瓜霜+抗体研发",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“抗癌”概念（+0.15%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "医药：美股科技股重挫之际 消费、医药、能源等板块表现相对抗跌",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2521315"
+    }
+   ],
+   "ths_reason": "三季报增长+中成药+西瓜霜+抗体研发",
+   "written_by": "模型"
+  },
+  {
+   "code": "003032",
+   "name": "传智教育",
+   "boards": 2,
+   "first_time": "0931",
+   "industry": "教育",
+   "stat": "2天2板",
+   "reason": "三季报增长+人工智能培训+具身智能题材",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=003032&announcementId=1225647201&orgId=gfbj0839976&announcementTime=2026-10-31"
+    },
+    {
+     "kind": "盘面",
+     "text": "传智教育实现2连板",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610313917302752.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "传智教育涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2518717"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报增长+人工智能培训+具身智能",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "三季报增长+人工智能培训+具身智能",
+   "written_by": "模型"
+  },
+  {
+   "code": "002086",
+   "name": "东方海洋",
+   "boards": 2,
+   "first_time": "0954",
+   "industry": "农产品加",
+   "stat": "8天4板",
+   "reason": "'羊'字辈炒作+体外诊断+海参养殖",
+   "confidence": "中",
+   "themes": [
+    "农业"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002086&announcementId=1225649848&orgId=9900001344&announcementTime=2026-10-31"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002086/AN202610301831246023.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "“羊”字辈+体外诊断+海参养殖+水溶性维生素试剂",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“生物育种”概念（+0.10%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "“羊”字辈+体外诊断+海参养殖+水溶性维生素试剂",
+   "written_by": "模型"
+  },
+  {
+   "code": "605338",
+   "name": "巴比食品",
+   "boards": 2,
+   "first_time": "1332",
+   "industry": "食品加工",
+   "stat": "2天2板",
+   "reason": "三季报增长+中期分红，中式面点涨停",
+   "confidence": "高",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "分红送转：关于2026年中期利润分配方案的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=605338&announcementId=1225634849&orgId=9900039853&announcementTime=2026-10-29"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=605338&announcementId=1225634824&orgId=9900039853&announcementTime=2026-10-29"
+    },
+    {
+     "kind": "公司",
+     "text": "食品饮料板块震荡回升 巴比食品、惠发食品双双涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2518754"
+    },
+    {
+     "kind": "盘面",
+     "text": "巴比食品、惠发食品双双涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2518852"
+    },
+    {
+     "kind": "同花顺",
+     "text": "中式面点+大消费+小笼包+三季报增",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：超5500家公司披露三季报 电子有色净利增幅居前",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2521429"
+    }
+   ],
+   "ths_reason": "中式面点+大消费+小笼包+三季报增",
+   "written_by": "模型"
+  },
+  {
+   "code": "000897",
+   "name": "津滨发展",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "房地产开",
+   "stat": "1天1板",
+   "reason": "三季报增长+天津国资房地产开发",
+   "confidence": "中",
+   "themes": [
+    "房地产"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "三季报增长+房地产开发+天津国资",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "三季报增长+房地产开发+天津国资",
+   "written_by": "模型"
+  },
+  {
+   "code": "002365",
+   "name": "永安药业",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "化学制药",
+   "stat": "1天1板",
+   "reason": "三季报大增+牛磺酸量价齐升",
+   "confidence": "中",
+   "themes": [
+    "医药"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "三季报大增+牛磺酸+量价齐升",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "医药：美股科技股重挫之际 消费、医药、能源等板块表现相对抗跌",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2521315"
+    }
+   ],
+   "ths_reason": "三季报大增+牛磺酸+量价齐升",
+   "written_by": "模型"
+  },
+  {
+   "code": "605169",
+   "name": "洪通燃气",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "燃气Ⅱ",
+   "stat": "1天1板",
+   "reason": "三季报高增+新疆燃气，地缘事件催化",
+   "confidence": "中",
+   "themes": [
+    "油气"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：新疆洪通燃气股份有限公司 2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=605169&announcementId=1225642497&orgId=9900039840&announcementTime=2026-10-30"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报高增+天然气+新疆燃气",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "油气：伊朗称第四艘违规油轮在霍尔木兹海峡触雷爆炸",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2521386"
+    }
+   ],
+   "ths_reason": "三季报高增+天然气+新疆燃气",
+   "written_by": "模型"
+  },
+  {
+   "code": "603029",
+   "name": "天鹅股份",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "专用设备",
+   "stat": "1天1板",
+   "reason": "三季报增长+采棉机+供销社题材",
+   "confidence": "中",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：山东天鹅棉业机械股份有限公司2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603029&announcementId=1225644968&orgId=9900024504&announcementTime=2026-10-30"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：山东天鹅棉业机械股份有限公司2026年第三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603029/AN202610291831183771.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报增长+采棉机+供销社",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "三季报增长+采棉机+供销社",
+   "written_by": "模型"
+  },
+  {
+   "code": "000716",
+   "name": "黑芝麻",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "休闲食品",
+   "stat": "1天1板",
+   "reason": "三季报大增+药食同源黑色食养",
+   "confidence": "高",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000716&announcementId=1225641611&orgId=gssz0000716&announcementTime=2026-10-30"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报大增+黑色食养+药食同源",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：超5500家公司披露三季报 电子有色净利增幅居前",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2521429"
+    }
+   ],
+   "ths_reason": "三季报大增+黑色食养+药食同源",
+   "written_by": "模型"
+  },
+  {
+   "code": "001287",
+   "name": "中电港",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "其他电子",
+   "stat": "1天1板",
+   "reason": "三季报大增+存储分销龙头",
+   "confidence": "中",
+   "themes": [
+    "半导体"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "三季报大增+存储分销+分销龙头",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "三季报大增+存储分销+分销龙头",
+   "written_by": "模型"
+  },
+  {
+   "code": "600285",
+   "name": "羚锐制药",
+   "boards": 1,
+   "first_time": "0932",
+   "industry": "中药Ⅱ",
+   "stat": "1天1板",
+   "reason": "三季报增长+中药高股息防御属性",
+   "confidence": "中",
+   "themes": [
+    "医药"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "三季报增长+中药+高股息",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "医药：美股科技股重挫之际 消费、医药、能源等板块表现相对抗跌",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2521315"
+    }
+   ],
+   "ths_reason": "三季报增长+中药+高股息",
+   "written_by": "模型"
+  },
+  {
+   "code": "603587",
+   "name": "地素时尚",
+   "boards": 1,
+   "first_time": "0932",
+   "industry": "服装家纺",
+   "stat": "1天1板",
+   "reason": "三季报增长+高端女装经销回暖",
+   "confidence": "中",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "三季报增长+高端女装+经销回暖",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "三季报增长+高端女装+经销回暖",
+   "written_by": "模型"
+  },
+  {
+   "code": "688045",
+   "name": "必易微",
+   "boards": 1,
+   "first_time": "0932",
+   "industry": "半导体",
+   "stat": "3天2板",
+   "reason": "三季报扭亏+数字电源+模拟芯片",
+   "confidence": "高",
+   "themes": [
+    "半导体",
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=688045&announcementId=1225644268&orgId=9900047235&announcementTime=2026-10-30"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：必易微2026年第三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/688045/AN202610291831181653.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报扭亏+数字电源+机器人传感+模拟芯片",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "三季报扭亏+数字电源+机器人传感+模拟芯片",
+   "written_by": "模型"
+  },
+  {
+   "code": "000525",
+   "name": "红太阳",
+   "boards": 1,
+   "first_time": "0932",
+   "industry": "农化制品",
+   "stat": "1天1板",
+   "reason": "三季报扭亏+百草枯+国企改革",
+   "confidence": "中",
+   "themes": [
+    "低空经济",
+    "农业"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "百草枯+农业无人机+三季报扭亏+国企改革",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "百草枯+农业无人机+三季报扭亏+国企改革",
+   "written_by": "模型"
+  },
+  {
+   "code": "000410",
+   "name": "沈阳机床",
+   "boards": 1,
+   "first_time": "0933",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "业绩扭亏+工业母机+购买资产",
+   "confidence": "高",
+   "themes": [
+    "机器人",
+    "商业航天"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000410&announcementId=1225644786&orgId=gssz0000410&announcementTime=2026-10-30"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/000410/AN202610291831183921.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "扭亏+工业母机+航空航天+购买资产",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "扭亏+工业母机+航空航天+购买资产",
+   "written_by": "模型"
+  },
+  {
+   "code": "600215",
+   "name": "派斯林",
+   "boards": 1,
+   "first_time": "0933",
+   "industry": "自动化设",
+   "stat": "1天1板",
+   "reason": "减亏+北美订单+仿生机器人题材",
+   "confidence": "高",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600215&announcementId=1225641692&orgId=gssh0600215&announcementTime=2026-10-30"
+    },
+    {
+     "kind": "同花顺",
+     "text": "自动化+减亏+北美订单+仿生机器人",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "自动化+减亏+北美订单+仿生机器人",
+   "written_by": "模型"
+  },
+  {
+   "code": "002432",
+   "name": "九安医疗",
+   "boards": 1,
+   "first_time": "0933",
+   "industry": "医疗器械",
+   "stat": "1天1板",
+   "reason": "三季报净利21.35亿元增219%+科创投资",
+   "confidence": "高",
+   "themes": [
+    "医药"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002432&announcementId=1225645012&orgId=9900012876&announcementTime=2026-10-30"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002432/AN202610291831184287.html"
+    },
+    {
+     "kind": "公司",
+     "text": "九安医疗：2026年第三季度净利润21.35亿元，同比增长219.21%",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261029/c681255689.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报大增+科创投资+糖尿病照护",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "医药：美股科技股重挫之际 消费、医药、能源等板块表现相对抗跌",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2521315"
+    }
+   ],
+   "ths_reason": "三季报大增+科创投资+糖尿病照护",
+   "written_by": "模型"
+  },
+  {
+   "code": "301187",
+   "name": "欧圣电气",
+   "boards": 1,
+   "first_time": "0935",
+   "industry": "小家电",
+   "stat": "1天1板",
+   "reason": "三季度净利增+关税退税+空压机",
+   "confidence": "高",
+   "themes": [
+    "机器人",
+    "贸易摩擦",
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=301187&announcementId=1225644541&orgId=nssc1000463&announcementTime=2026-10-30"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/301187/AN202610291831183383.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季度净利增+关税退税+空压机+护理机器人",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "三季度净利增+关税退税+空压机+护理机器人",
+   "written_by": "模型"
+  },
+  {
+   "code": "601083",
+   "name": "锦江航运",
+   "boards": 1,
+   "first_time": "0935",
+   "industry": "航运港口",
+   "stat": "1天1板",
+   "reason": "三季报增长+东南亚航线，地缘事件催化",
+   "confidence": "高",
+   "themes": [
+    "航运物流"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601083&announcementId=1225645781&orgId=9900057394&announcementTime=2026-10-30"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：锦江航运2026年第三季度报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/601083/AN202610291831186348.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报增长+集装箱航运+东南亚航线",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "航运物流：伊朗称第四艘违规油轮在霍尔木兹海峡触雷爆炸",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2521386"
+    }
+   ],
+   "ths_reason": "三季报增长+集装箱航运+东南亚航线",
+   "written_by": "模型"
+  },
+  {
+   "code": "000417",
+   "name": "合百集团",
+   "boards": 1,
+   "first_time": "0936",
+   "industry": "一般零售",
+   "stat": "1天1板",
+   "reason": "三季报大增+间接投资长鑫科技",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "三季报大增+间接投资长鑫科技+百货零售",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：超5500家公司披露三季报 电子有色净利增幅居前",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2521429"
+    }
+   ],
+   "ths_reason": "三季报大增+间接投资长鑫科技+百货零售",
+   "written_by": "模型"
+  },
+  {
+   "code": "000676",
+   "name": "智度股份",
+   "boards": 1,
+   "first_time": "0941",
+   "industry": "广告营销",
+   "stat": "1天1板",
+   "reason": "三季报增长+数字营销+鲸鸿动能",
+   "confidence": "中",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "三季报增长+数字营销+鲸鸿动能",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "三季报增长+数字营销+鲸鸿动能",
+   "written_by": "模型"
+  },
+  {
+   "code": "603273",
+   "name": "天元智能",
+   "boards": 1,
+   "first_time": "0942",
+   "industry": "工程机械",
+   "stat": "1天1板",
+   "reason": "机器人集成+三季报与分红落地",
+   "confidence": "高",
+   "themes": [
+    "机器人",
+    "基建建材"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603273&announcementId=1225636657&orgId=gfbj0837134&announcementTime=2026-10-29"
+    },
+    {
+     "kind": "公告",
+     "text": "分红送转：关于2026年三季度利润分配方案的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603273&announcementId=1225636634&orgId=gfbj0837134&announcementTime=2026-10-29"
+    },
+    {
+     "kind": "同花顺",
+     "text": "机器人集成+混凝土装备+三季报落地",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "机器人集成+混凝土装备+三季报落地",
+   "written_by": "模型"
+  },
+  {
+   "code": "603198",
+   "name": "迎驾贡酒",
+   "boards": 1,
+   "first_time": "0944",
+   "industry": "白酒Ⅱ",
+   "stat": "1天1板",
+   "reason": "三季报增长+徽酒中高档白酒",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "三季报增长+徽酒代表+中高档白酒",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：超5500家公司披露三季报 电子有色净利增幅居前",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2521429"
+    }
+   ],
+   "ths_reason": "三季报增长+徽酒代表+中高档白酒",
+   "written_by": "模型"
+  },
+  {
+   "code": "600189",
+   "name": "泉阳泉",
+   "boards": 1,
+   "first_time": "0953",
+   "industry": "饮料乳品",
+   "stat": "1天1板",
+   "reason": "矿泉水+三季报增长，大消费回暖",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "矿泉水+大消费+三季报增长+仓储",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：超5500家公司披露三季报 电子有色净利增幅居前",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2521429"
+    }
+   ],
+   "ths_reason": "矿泉水+大消费+三季报增长+仓储",
+   "written_by": "模型"
+  },
+  {
+   "code": "000596",
+   "name": "古井贡酒",
+   "boards": 1,
+   "first_time": "0954",
+   "industry": "白酒Ⅱ",
+   "stat": "1天1板",
+   "reason": "中期分红+三季报增长，白酒跟涨",
+   "confidence": "高",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "分红送转：21-2026年中期利润分配预案",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000596&announcementId=1225642372&orgId=gssz0000596&announcementTime=2026-10-30"
+    },
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000596&announcementId=1225642369&orgId=gssz0000596&announcementTime=2026-10-30"
+    },
+    {
+     "kind": "同花顺",
+     "text": "中期分红+三季报+白酒",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：超5500家公司披露三季报 电子有色净利增幅居前",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2521429"
+    }
+   ],
+   "ths_reason": "中期分红+三季报+白酒",
+   "written_by": "模型"
+  },
+  {
+   "code": "000995",
+   "name": "皇台酒业",
+   "boards": 1,
+   "first_time": "0954",
+   "industry": "白酒Ⅱ",
+   "stat": "1天1板",
+   "reason": "白酒概念领涨+老窖池+葡萄酒",
+   "confidence": "高",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000995&announcementId=1225635606&orgId=gssz0000995&announcementTime=2026-10-29"
+    },
+    {
+     "kind": "同花顺",
+     "text": "白酒+老窖池+葡萄酒",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“白酒概念”（+3.64%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：超5500家公司披露三季报 电子有色净利增幅居前",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2521429"
+    }
+   ],
+   "ths_reason": "白酒+老窖池+葡萄酒",
+   "written_by": "模型"
+  },
+  {
+   "code": "002582",
+   "name": "好想你",
+   "boards": 1,
+   "first_time": "0958",
+   "industry": "休闲食品",
+   "stat": "1天1板",
+   "reason": "三季报扭亏+红枣龙头+鸣鸣很忙",
+   "confidence": "高",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002582&announcementId=1225643595&orgId=9900019704&announcementTime=2026-10-30"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报扭亏+红枣龙头+大消费+鸣鸣很忙",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：超5500家公司披露三季报 电子有色净利增幅居前",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2521429"
+    }
+   ],
+   "ths_reason": "三季报扭亏+红枣龙头+大消费+鸣鸣很忙",
+   "written_by": "模型"
+  },
+  {
+   "code": "002636",
+   "name": "金安国纪",
+   "boards": 1,
+   "first_time": "1003",
+   "industry": "元件",
+   "stat": "3天2板",
+   "reason": "澄清与华为英伟达无合作仍封板，炒作AI服务器概念",
+   "confidence": "高",
+   "themes": [
+    "人工智能",
+    "算力",
+    "有色金属"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002636&announcementId=1225649855&orgId=9900021766&announcementTime=2026-10-31"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002636/AN202610301831246157.html"
+    },
+    {
+     "kind": "公司",
+     "text": "3天2板金安国纪：年产6000万米电子级玻纤布扩建项目已建成投产 拟对原工厂改造升级再新增4000万米/年产能",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2520961"
+    },
+    {
+     "kind": "公司",
+     "text": "金安国纪：截至目前公司未与英伟达、华为有过接触，也未与其直接开展任何形式的业务合作",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261030184546887800"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报高增+覆铜板+AI服务器",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "三季报高增+覆铜板+AI服务器",
+   "written_by": "模型"
+  },
+  {
+   "code": "605058",
+   "name": "澳弘电子",
+   "boards": 1,
+   "first_time": "1018",
+   "industry": "元件",
+   "stat": "1天1板",
+   "reason": "三季报增长+PCB/HDI板+AI服务器",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "算力",
+    "消费电子"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "PCB+HDI板+AI服务器+三季报增长",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "PCB+HDI板+AI服务器+三季报增长",
+   "written_by": "模型"
+  },
+  {
+   "code": "300030",
+   "name": "阳普医疗",
+   "boards": 1,
+   "first_time": "1019",
+   "industry": "医疗器械",
+   "stat": "1天1板",
+   "reason": "'羊'字辈炒作+智慧医疗+真空采血",
+   "confidence": "中",
+   "themes": [
+    "医药"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "“羊”字辈+智慧医疗+真空采血+许可证延续",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "医药：美股科技股重挫之际 消费、医药、能源等板块表现相对抗跌",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2521315"
+    }
+   ],
+   "ths_reason": "“羊”字辈+智慧医疗+真空采血+许可证延续",
+   "written_by": "模型"
+  },
+  {
+   "code": "603233",
+   "name": "大参林",
+   "boards": 1,
+   "first_time": "1057",
+   "industry": "医药商业",
+   "stat": "1天1板",
+   "reason": "三季报增长+回购注销，医药零售",
+   "confidence": "中",
+   "themes": [
+    "医药",
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：医药集团股份有限公司2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603233&announcementId=1225641982&orgId=9900031701&announcementTime=2026-10-30"
+    },
+    {
+     "kind": "公告",
+     "text": "回购：医药集团股份有限公司关于变更回购股份用途并注销的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603233&announcementId=1225641950&orgId=9900031701&announcementTime=2026-10-30"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报增长+回购注销+医药零售",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "医药：美股科技股重挫之际 消费、医药、能源等板块表现相对抗跌",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2521315"
+    }
+   ],
+   "ths_reason": "三季报增长+回购注销+医药零售",
+   "written_by": "模型"
+  },
+  {
+   "code": "002088",
+   "name": "鲁阳节能",
+   "boards": 1,
+   "first_time": "1117",
+   "industry": "装修建材",
+   "stat": "1天1板",
+   "reason": "陶瓷纤维+锂电隔热，'羊'字辈超跌反弹",
+   "confidence": "中",
+   "themes": [
+    "锂电储能",
+    "基建建材"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "陶瓷纤维+锂电隔热+“羊”字辈+超跌反弹",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "陶瓷纤维+锂电隔热+“羊”字辈+超跌反弹",
+   "written_by": "模型"
+  },
+  {
+   "code": "301132",
+   "name": "满坤科技",
+   "boards": 1,
+   "first_time": "1126",
+   "industry": "元件",
+   "stat": "1天1板",
+   "reason": "三季报净利增231%+PCB+服务器电源",
+   "confidence": "高",
+   "themes": [
+    "算力",
+    "消费电子"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "满坤科技：第三季度净利润同比增长231% 环比增长397%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2519329"
+    },
+    {
+     "kind": "同花顺",
+     "text": "三季报增长+PCB+服务器电源+光模块",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "三季报增长+PCB+服务器电源+光模块",
+   "written_by": "模型"
+  },
+  {
+   "code": "002652",
+   "name": "扬子新材",
+   "boards": 1,
+   "first_time": "1128",
+   "industry": "装修建材",
+   "stat": "1天1板",
+   "reason": "三季报减亏+有机涂层板+高洁净板",
+   "confidence": "中",
+   "themes": [
+    "基建建材"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "有机涂层板+高洁净板+三季报减亏",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "有机涂层板+高洁净板+三季报减亏",
+   "written_by": "模型"
+  },
+  {
+   "code": "301520",
+   "name": "万邦医药",
+   "boards": 1,
+   "first_time": "1300",
+   "industry": "医疗服务",
+   "stat": "1天1板",
+   "reason": "CRO逆势大涨，赛德盛并购+创新药",
+   "confidence": "高",
+   "themes": [
+    "医药"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=301520&announcementId=1225642171&orgId=9900053910&announcementTime=2026-10-30"
+    },
+    {
+     "kind": "盘面",
+     "text": "CRO概念股今日逆势大涨，万邦医药20CM涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202610303916687731.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "CRO+创新药+赛德盛并购+数智化",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "医药：美股科技股重挫之际 消费、医药、能源等板块表现相对抗跌",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2521315"
+    }
+   ],
+   "ths_reason": "CRO+创新药+赛德盛并购+数智化",
+   "written_by": "模型"
+  },
+  {
+   "code": "600510",
+   "name": "黑牡丹",
+   "boards": 1,
+   "first_time": "1300",
+   "industry": "房地产开",
+   "stat": "1天1板",
+   "reason": "牛仔布+园区运营+新型城镇化题材",
+   "confidence": "中",
+   "themes": [
+    "房地产"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "牛仔布+新型城镇化+园区运营",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "牛仔布+新型城镇化+园区运营",
+   "written_by": "模型"
+  },
+  {
+   "code": "600721",
+   "name": "百花医药",
+   "boards": 1,
+   "first_time": "1300",
+   "industry": "医疗服务",
+   "stat": "1天1板",
+   "reason": "医药外包+复杂制剂+控制权变更",
+   "confidence": "中",
+   "themes": [
+    "医药"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "医药外包+复杂制剂+控制权变更",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "医药：美股科技股重挫之际 消费、医药、能源等板块表现相对抗跌",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2521315"
+    }
+   ],
+   "ths_reason": "医药外包+复杂制剂+控制权变更",
+   "written_by": "模型"
+  },
+  {
+   "code": "600113",
+   "name": "浙江东日",
+   "boards": 1,
+   "first_time": "1302",
+   "industry": "一般零售",
+   "stat": "1天1板",
+   "reason": "农批市场+温州国资，大消费跟涨",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：股份有限公司2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600113&announcementId=1225641706&orgId=gssh0600113&announcementTime=2026-10-30"
+    },
+    {
+     "kind": "同花顺",
+     "text": "农批市场+大消费+温州国资",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：超5500家公司披露三季报 电子有色净利增幅居前",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2521429"
+    }
+   ],
+   "ths_reason": "农批市场+大消费+温州国资",
+   "written_by": "模型"
+  },
+  {
+   "code": "603200",
+   "name": "上海洗霸",
+   "boards": 1,
+   "first_time": "1307",
+   "industry": "环境治理",
+   "stat": "1天1板",
+   "reason": "固态电池+数据中心液冷题材",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "锂电储能"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：科技股份有限公司2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603200&announcementId=1225636640&orgId=9900030775&announcementTime=2026-10-29"
+    },
+    {
+     "kind": "同花顺",
+     "text": "固态电池+数据中心液冷+水处理",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "固态电池+数据中心液冷+水处理",
+   "written_by": "模型"
+  },
+  {
+   "code": "000568",
+   "name": "泸州老窖",
+   "boards": 1,
+   "first_time": "1327",
+   "industry": "白酒Ⅱ",
+   "stat": "1天1板",
+   "reason": "业绩环比改善+高端白酒库存去化",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "泸州老窖：前三季度归母净利润56.71亿元，同比下降47.31%",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3189716"
+    },
+    {
+     "kind": "同花顺",
+     "text": "业绩环增+高端白酒+库存去化",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：超5500家公司披露三季报 电子有色净利增幅居前",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2521429"
+    }
+   ],
+   "ths_reason": "业绩环增+高端白酒+库存去化",
+   "written_by": "模型"
+  },
+  {
+   "code": "600258",
+   "name": "首旅酒店",
+   "boards": 1,
+   "first_time": "1330",
+   "industry": "酒店餐饮",
+   "stat": "1天1板",
+   "reason": "三季报净利增长+酒店扩张+大消费",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "三季报净利增长+酒店扩张+大消费",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：超5500家公司披露三季报 电子有色净利增幅居前",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2521429"
+    }
+   ],
+   "ths_reason": "三季报净利增长+酒店扩张+大消费",
+   "written_by": "模型"
+  },
+  {
+   "code": "002946",
+   "name": "新乳业",
+   "boards": 1,
+   "first_time": "1339",
+   "industry": "饮料乳品",
+   "stat": "1天1板",
+   "reason": "三季报增长+低温鲜奶，大消费回暖",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "三季报增长+低温鲜奶+大消费",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：超5500家公司披露三季报 电子有色净利增幅居前",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2521429"
+    }
+   ],
+   "ths_reason": "三季报增长+低温鲜奶+大消费",
+   "written_by": "模型"
+  }
+ ]
+}
