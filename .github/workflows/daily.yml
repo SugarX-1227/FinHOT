@@ -48,7 +48,8 @@ jobs:
       - name: Generate
         env:
           # 在仓库 Settings → Secrets and variables → Actions 中配置；不配置则只用规则生成日报
-          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          # token 预算暂停（2026-10-22）：key 传空则所有 LLM 步骤跳过、日报退化为规则版。恢复 = 还原成 ${{ secrets.LLM_API_KEY }}
+          LLM_API_KEY: ""
           LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
           LLM_MODEL: ${{ vars.LLM_MODEL }}
           LLM_BODY_EXTRA: ${{ vars.LLM_BODY_EXTRA }}
