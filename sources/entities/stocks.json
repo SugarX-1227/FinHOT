@@ -1,6 +1,6 @@
 {
-"updated": "2026-11-02T08:56:46+08:00",
-"source": "巨潮资讯股票清单",
+"updated": "2026-11-03T01:28:12+08:00",
+"source": "巨潮资讯股票清单+东方财富行业",
 "complete": true,
 "stocks": [
 {
@@ -306,7 +306,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -586,7 +586,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -7532,7 +7532,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -12422,7 +12422,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -16176,7 +16176,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -18752,7 +18752,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -18892,7 +18892,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -24676,7 +24676,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -33174,7 +33174,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -43478,7 +43478,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -43492,7 +43492,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -43506,7 +43506,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -43520,7 +43520,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -43534,7 +43534,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -43548,7 +43548,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -43562,7 +43562,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -43576,7 +43576,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -43590,7 +43590,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -43604,7 +43604,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -43618,7 +43618,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -43632,7 +43632,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -43646,7 +43646,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -43660,7 +43660,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -43674,7 +43674,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -43688,7 +43688,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -44371,7 +44371,7 @@
 "exchange": "SH",
 "org_id": "gssh0600061",
 "pinyin": "gtzb",
-"industry": "多元金融",
+"industry": "证券Ⅱ",
 "former": [],
 "st": false,
 "status": "listed",
@@ -57016,7 +57016,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -57324,7 +57324,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -61591,7 +61591,7 @@
 "exchange": "SH",
 "org_id": "9900031491",
 "pinyin": "pycl",
-"industry": "服装家纺",
+"industry": "电池",
 "former": [],
 "st": false,
 "status": "listed",
@@ -62728,7 +62728,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -63428,7 +63428,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -77126,7 +77126,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -78229,7 +78229,7 @@
 "exchange": "SH",
 "org_id": "9900063202",
 "pinyin": "krs",
-"industry": "",
+"industry": "通用设备",
 "former": [],
 "st": false,
 "status": "listed",
@@ -78316,7 +78316,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -78330,7 +78330,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -78344,7 +78344,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -78358,7 +78358,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -78372,7 +78372,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -78386,7 +78386,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -78400,7 +78400,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -78414,7 +78414,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -78428,7 +78428,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -78442,7 +78442,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -78456,7 +78456,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -78470,7 +78470,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -78484,7 +78484,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -78498,7 +78498,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -78512,7 +78512,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -78526,7 +78526,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -78540,7 +78540,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -78554,7 +78554,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -78568,7 +78568,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -78582,7 +78582,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -78596,7 +78596,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -78610,7 +78610,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -78624,7 +78624,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -78638,7 +78638,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -78652,7 +78652,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -78666,7 +78666,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -78680,7 +78680,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -78694,7 +78694,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -78708,7 +78708,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -78722,7 +78722,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -78736,7 +78736,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -78750,7 +78750,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -78764,7 +78764,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -78778,7 +78778,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -78792,7 +78792,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -78806,7 +78806,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -78820,7 +78820,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -78834,7 +78834,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -78848,7 +78848,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -78862,7 +78862,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -78876,7 +78876,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -78890,7 +78890,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -78904,7 +78904,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -78918,7 +78918,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -78932,7 +78932,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -78960,7 +78960,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -78974,7 +78974,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -78988,7 +78988,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79002,7 +79002,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79016,7 +79016,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79030,7 +79030,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79044,7 +79044,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79058,7 +79058,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79072,7 +79072,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79086,7 +79086,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79100,7 +79100,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79114,7 +79114,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79128,7 +79128,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79142,7 +79142,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79156,7 +79156,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79170,7 +79170,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79184,7 +79184,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79198,7 +79198,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79212,7 +79212,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79226,7 +79226,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79240,7 +79240,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79254,7 +79254,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79268,7 +79268,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79282,7 +79282,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79296,7 +79296,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79310,7 +79310,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79324,7 +79324,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79338,7 +79338,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79352,7 +79352,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79366,7 +79366,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79380,7 +79380,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79394,7 +79394,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79408,7 +79408,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79422,7 +79422,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79436,7 +79436,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79450,7 +79450,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79478,7 +79478,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79492,7 +79492,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79520,7 +79520,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79534,7 +79534,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79548,7 +79548,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79562,7 +79562,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79576,7 +79576,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79590,7 +79590,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79604,7 +79604,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79618,7 +79618,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79632,7 +79632,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79646,7 +79646,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79660,7 +79660,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79674,7 +79674,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79688,7 +79688,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79702,7 +79702,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79716,7 +79716,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79730,7 +79730,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79744,7 +79744,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79758,7 +79758,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79772,7 +79772,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79786,7 +79786,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79800,7 +79800,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79814,7 +79814,7 @@
 "industry": "",
 "former": [],
 "st": true,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79828,7 +79828,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79842,7 +79842,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79856,7 +79856,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79870,7 +79870,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79884,7 +79884,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79898,7 +79898,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79912,7 +79912,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79926,7 +79926,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79940,7 +79940,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79954,7 +79954,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79968,7 +79968,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79982,7 +79982,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -79996,7 +79996,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80010,7 +80010,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80024,7 +80024,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80038,7 +80038,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80052,7 +80052,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80066,7 +80066,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80080,7 +80080,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80094,7 +80094,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80108,7 +80108,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80122,7 +80122,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80136,7 +80136,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80150,7 +80150,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80164,7 +80164,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80178,7 +80178,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80192,7 +80192,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80206,7 +80206,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80220,7 +80220,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80234,7 +80234,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80248,7 +80248,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80262,7 +80262,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80276,7 +80276,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80290,7 +80290,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80304,7 +80304,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80318,7 +80318,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80332,7 +80332,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80346,7 +80346,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80360,7 +80360,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80374,7 +80374,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80388,7 +80388,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80402,7 +80402,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80416,7 +80416,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80430,7 +80430,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80444,7 +80444,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80458,7 +80458,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80472,7 +80472,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80486,7 +80486,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80500,7 +80500,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80514,7 +80514,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80528,7 +80528,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80542,7 +80542,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80556,7 +80556,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80570,7 +80570,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80584,7 +80584,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80598,7 +80598,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80612,7 +80612,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80626,7 +80626,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80640,7 +80640,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80654,7 +80654,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80668,7 +80668,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80682,7 +80682,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80696,7 +80696,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80710,7 +80710,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80724,7 +80724,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80738,7 +80738,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80752,7 +80752,7 @@
 "industry": "",
 "former": [],
 "st": true,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80766,7 +80766,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80780,7 +80780,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80794,7 +80794,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80808,7 +80808,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80822,7 +80822,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80836,7 +80836,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80850,7 +80850,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80864,7 +80864,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80878,7 +80878,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80892,7 +80892,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80906,7 +80906,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80920,7 +80920,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80934,7 +80934,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80948,7 +80948,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80962,7 +80962,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80976,7 +80976,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -80990,7 +80990,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -81004,7 +81004,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -81018,7 +81018,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -81032,7 +81032,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -81046,7 +81046,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -81060,7 +81060,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -81074,7 +81074,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -81088,7 +81088,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -81102,7 +81102,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -81116,7 +81116,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -81130,7 +81130,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -81144,7 +81144,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -81158,7 +81158,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -81172,7 +81172,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -81186,7 +81186,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -81200,7 +81200,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -81214,7 +81214,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -81228,7 +81228,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -81242,7 +81242,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -81256,7 +81256,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -81270,7 +81270,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -81284,7 +81284,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -81298,7 +81298,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -81312,7 +81312,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -81326,7 +81326,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -81340,7 +81340,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -81354,7 +81354,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -81368,7 +81368,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -81382,7 +81382,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -81396,7 +81396,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -81410,7 +81410,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -81424,7 +81424,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -81438,7 +81438,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -81452,7 +81452,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -81466,7 +81466,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -81480,7 +81480,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -81494,7 +81494,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -81508,7 +81508,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -81522,7 +81522,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -81536,7 +81536,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -81550,7 +81550,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -81564,7 +81564,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -81578,7 +81578,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -81592,7 +81592,7 @@
 "industry": "",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -82457,7 +82457,7 @@
 "exchange": "BJ",
 "org_id": "9900053188",
 "pinyin": "sfjg",
-"industry": "",
+"industry": "自动化设备",
 "former": [],
 "st": false,
 "status": "listed",
@@ -84235,10 +84235,24 @@
 "exchange": "BJ",
 "org_id": "gfbj0833288",
 "pinyin": "tyzg",
-"industry": "",
+"industry": "专业工程",
 "former": [],
 "st": false,
 "status": "listed",
+"hk": "",
+"us": "",
+"aliases": []
+},
+{
+"code": "920309",
+"name": "菊乐股份",
+"exchange": "BJ",
+"org_id": "9900046762",
+"pinyin": "jlgf",
+"industry": "",
+"former": [],
+"st": false,
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
