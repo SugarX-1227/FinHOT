@@ -1,0 +1,2028 @@
+{
+ "trade_date": "2026-11-03",
+ "coverage": 100.0,
+ "announced": 20,
+ "stocks": [
+  {
+   "code": "002086",
+   "name": "东方海洋",
+   "boards": 4,
+   "first_time": "0925",
+   "industry": "农产品加",
+   "stat": "10天6板",
+   "reason": "“羊”字辈+体外诊断+海参养殖+水溶性维生素试剂（公司提示：股票交易异常波动暨风险提示公告）",
+   "confidence": "中",
+   "themes": [
+    "农业"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动暨风险提示公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002086/AN202611031831378122.html"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002086&announcementId=1225649848&orgId=9900001344&announcementTime=2026-10-31"
+    },
+    {
+     "kind": "公司",
+     "text": "10天6板东方海洋：主营业务分为海洋板块和大健康板块 均处于亏损状态",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2524107"
+    },
+    {
+     "kind": "公司",
+     "text": "11月3日涨停复盘：52只股涨停 东方海洋10天6板",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611033920254421.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "其中水产品概念东方海洋收获4连板",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103423731.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "“羊”字辈的百洋股份18天10板、东方海洋10天6板、阳光照明9天5板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523480"
+    },
+    {
+     "kind": "同花顺",
+     "text": "“羊”字辈+体外诊断+海参养殖+水溶性维生素试剂",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“预制菜概念”（+0.81%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "“羊”字辈+体外诊断+海参养殖+水溶性维生素试剂",
+   "written_by": "规则"
+  },
+  {
+   "code": "600261",
+   "name": "阳光照明",
+   "boards": 4,
+   "first_time": "0925",
+   "industry": "照明设备",
+   "stat": "9天5板",
+   "reason": "商业航天+激光通信+照明+“羊”字辈（公司提示：阳光照明股票交易异常波动的公告）",
+   "confidence": "中",
+   "themes": [
+    "通信",
+    "商业航天"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：阳光照明股票交易异常波动的公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/600261/AN202611031831373462.html"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易风险提示的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600261&announcementId=1225651705&orgId=gssh0600261&announcementTime=2026-11-03"
+    },
+    {
+     "kind": "盘面",
+     "text": "“羊”字辈的百洋股份18天10板、东方海洋10天6板、阳光照明9天5板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523480"
+    },
+    {
+     "kind": "盘面",
+     "text": "太阳能、大西洋、鲁阳节能、圣阳股份、华阳国际、阳光照明等多股涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611033920189032.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "商业航天+激光通信+照明+“羊”字辈",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“百日新高”概念（+0.32%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "商业航天+激光通信+照明+“羊”字辈",
+   "written_by": "规则"
+  },
+  {
+   "code": "000995",
+   "name": "皇台酒业",
+   "boards": 3,
+   "first_time": "0925",
+   "industry": "白酒Ⅱ",
+   "stat": "7天4板",
+   "reason": "白酒+老窖池+董事会换届（公司提示：关于股票交易异常波动的公告）",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：关于股票交易异常波动的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000995&announcementId=1225653639&orgId=gssz0000995&announcementTime=2026-11-03"
+    },
+    {
+     "kind": "盘面",
+     "text": "食品饮料概念局部活跃，皇台酒业3连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523690"
+    },
+    {
+     "kind": "盘面",
+     "text": "白酒、食品等消费股逆势活跃，皇台酒业3连板",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3193136"
+    },
+    {
+     "kind": "同花顺",
+     "text": "白酒+老窖池+董事会换届",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“题材股”概念（+0.17%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "白酒+老窖池+董事会换届",
+   "written_by": "规则"
+  },
+  {
+   "code": "002827",
+   "name": "高争民爆",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "化学制品",
+   "stat": "2天2板",
+   "reason": "重组复牌+拟注铜锂矿+民爆+西藏国资",
+   "confidence": "高",
+   "themes": [
+    "锂电储能",
+    "有色金属",
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "回购：关于回购公司股份进展的公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002827/AN202611031831376428.html"
+    },
+    {
+     "kind": "公告",
+     "text": "重组并购：关于本次重组前12个月内购买、出售资产情况的说明",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002827&announcementId=1225650636&orgId=9900031912&announcementTime=2026-11-02"
+    },
+    {
+     "kind": "公司",
+     "text": "2连板高争民爆：已累计回购358.52万股 成交总金额1.5亿元",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611033920368169.html"
+    },
+    {
+     "kind": "公司",
+     "text": "高争民爆拟购铜矿资产 新增矿山开发业务",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2521770"
+    },
+    {
+     "kind": "同花顺",
+     "text": "重组复牌+拟注铜锂矿+民爆+西藏国资",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“2026中报预减”概念（+0.07%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "锂电储能：锂电长时储能迈向规模化应用，宁德时代交付首批8小时储能系统",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3193292"
+    }
+   ],
+   "ths_reason": "重组复牌+拟注铜锂矿+民爆+西藏国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "600892",
+   "name": "大晟文化",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "游戏Ⅱ",
+   "stat": "2天2板",
+   "reason": "短剧+三季报减亏+股权转让",
+   "confidence": "高",
+   "themes": [
+    "人工智能",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600892&announcementId=1225649983&orgId=gssh0600892&announcementTime=2026-10-31"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/600892/AN202611031831377612.html"
+    },
+    {
+     "kind": "公司",
+     "text": "AI漫剧概念反复走强 大晟文化等多股2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523285"
+    },
+    {
+     "kind": "盘面",
+     "text": "AI漫剧概念盘中走强，文投控股6天5板，浙文影业、大晟文化、龙版传媒2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523690"
+    },
+    {
+     "kind": "盘面",
+     "text": "AI漫剧概念继续走强，浙文影业、大晟文化、奥飞娱乐均2连板",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3193136"
+    },
+    {
+     "kind": "同花顺",
+     "text": "短剧+三季报减亏+股权转让",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“影视概念”（+0.59%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：广东：支持商业银行用好服务消费与养老再贷款、支农支小再贷款、再贴现等结构性货币政",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523722"
+    }
+   ],
+   "ths_reason": "短剧+三季报减亏+股权转让",
+   "written_by": "规则"
+  },
+  {
+   "code": "601599",
+   "name": "浙文影业",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "纺织制造",
+   "stat": "2天2板",
+   "reason": "AI影视+微短剧+三季报增长（公司提示：股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/601599/AN202611031831376239.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "AI漫剧概念盘中走强，文投控股6天5板，浙文影业、大晟文化、龙版传媒2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523690"
+    },
+    {
+     "kind": "盘面",
+     "text": "AI漫剧概念继续走强，浙文影业、大晟文化、奥飞娱乐均2连板",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3193136"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI影视+微短剧+三季报增长",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“文娱消费”概念（+0.80%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：广东：支持商业银行用好服务消费与养老再贷款、支农支小再贷款、再贴现等结构性货币政",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523722"
+    }
+   ],
+   "ths_reason": "AI影视+微短剧+三季报增长",
+   "written_by": "规则"
+  },
+  {
+   "code": "603258",
+   "name": "电魂网络",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "游戏Ⅱ",
+   "stat": "2天2板",
+   "reason": "游戏+漫剧+衍生品（公司提示：关于股票交易异常波动的公告）",
+   "confidence": "中",
+   "themes": [
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：关于股票交易异常波动的公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603258/AN202611031831372896.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "游戏股再度走高，大晟文化、电魂网络均2连板",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3193039"
+    },
+    {
+     "kind": "盘面",
+     "text": "传媒板块大幅分化，文投控股10天6板，浙文影业、大晟文化、龙版传媒、奥飞娱乐、电魂网络均晋级2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523771"
+    },
+    {
+     "kind": "同花顺",
+     "text": "游戏+漫剧+衍生品",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“短剧互动游戏”概念（+0.95%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "传媒游戏：报告：红果用户数量首超豆包，移动互联网用户加速流向短剧和AI",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3193237"
+    }
+   ],
+   "ths_reason": "游戏+漫剧+衍生品",
+   "written_by": "规则"
+  },
+  {
+   "code": "605577",
+   "name": "龙版传媒",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "出版",
+   "stat": "2天2板",
+   "reason": "漫剧+出版发行+数字出版（公司提示：关于股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：关于股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/605577/AN202611031831373899.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "AI漫剧概念盘中走强，文投控股6天5板，浙文影业、大晟文化、龙版传媒2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523690"
+    },
+    {
+     "kind": "盘面",
+     "text": "AI漫剧概念走强，文投控股6天5板，掌阅科技5天3板，浙文影业、大晟文化、龙版传媒、华智数媒2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523473"
+    },
+    {
+     "kind": "同花顺",
+     "text": "漫剧+出版发行+数字出版",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：广东：支持商业银行用好服务消费与养老再贷款、支农支小再贷款、再贴现等结构性货币政",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523722"
+    }
+   ],
+   "ths_reason": "漫剧+出版发行+数字出版",
+   "written_by": "规则"
+  },
+  {
+   "code": "002292",
+   "name": "奥飞娱乐",
+   "boards": 2,
+   "first_time": "0930",
+   "industry": "文娱用品",
+   "stat": "2天2板",
+   "reason": "智能内容制作+喜羊羊+潮玩品牌+三季报增长",
+   "confidence": "高",
+   "themes": [
+    "人工智能"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "回购：关于回购股份的进展公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002292/AN202611031831379874.html"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002292/AN202611031831379866.html"
+    },
+    {
+     "kind": "公司",
+     "text": "奥飞娱乐：海外营收占比超半数，AI业务尚未规模化",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/2026-11-03/doc-inixnpzs2087553.shtml"
+    },
+    {
+     "kind": "公司",
+     "text": "奥飞娱乐：截至2026年10月31日已回购723.42万股",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261103/c681420836.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "AI漫剧概念继续走强，浙文影业、大晟文化、奥飞娱乐均2连板",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3193136"
+    },
+    {
+     "kind": "盘面",
+     "text": "AI漫剧概念延续强势，华智数媒、奥飞娱乐等涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3193039"
+    },
+    {
+     "kind": "同花顺",
+     "text": "智能内容制作+喜羊羊+潮玩品牌+三季报增长",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“电商概念”（+0.10%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：广东：支持商业银行用好服务消费与养老再贷款、支农支小再贷款、再贴现等结构性货币政",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523722"
+    }
+   ],
+   "ths_reason": "智能内容制作+喜羊羊+潮玩品牌+三季报增长",
+   "written_by": "规则"
+  },
+  {
+   "code": "002029",
+   "name": "七 匹 狼",
+   "boards": 2,
+   "first_time": "0932",
+   "industry": "服装家纺",
+   "stat": "2天2板",
+   "reason": "夹克男装+投资科技+基金备案+海峡两岸（公司提示：关于股票交易异常波动的公告）",
+   "confidence": "中",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：关于股票交易异常波动的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002029&announcementId=1225653588&orgId=gssz0002029&announcementTime=2026-11-03"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：七匹狼关于股票交易异常波动的公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002029/AN202611021831331690.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "夹克男装+投资科技+基金备案+海峡两岸",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“参股保险”概念（+0.63%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "夹克男装+投资科技+基金备案+海峡两岸",
+   "written_by": "规则"
+  },
+  {
+   "code": "000599",
+   "name": "青岛双星",
+   "boards": 2,
+   "first_time": "0943",
+   "industry": "汽车零部",
+   "stat": "2天2板",
+   "reason": "轮胎+锦湖并表+并购重组+青岛国资（公司提示：公司股票交易异常波动）",
+   "confidence": "中",
+   "themes": [
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/000599/AN202611031831375290.html"
+    },
+    {
+     "kind": "公司",
+     "text": "2连板青岛双星：公司股票交易异常波动，无任何应披露而未披露的事项",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103423930.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "轮胎+锦湖并表+并购重组+青岛国资",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "汽车：广东：支持商业银行用好服务消费与养老再贷款、支农支小再贷款、再贴现等结构性货币政",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523722"
+    }
+   ],
+   "ths_reason": "轮胎+锦湖并表+并购重组+青岛国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "002058",
+   "name": "紫竹高科",
+   "boards": 2,
+   "first_time": "0948",
+   "industry": "电池",
+   "stat": "2天2板",
+   "reason": "固态电池+铝塑膜+汽车检具（公司提示：控股子公司终止挂牌事项获股东会审议通…）",
+   "confidence": "中",
+   "themes": [
+    "汽车",
+    "锂电储能",
+    "有色金属"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "股东变动：关于控股子公司向全国中小企业股份转让系统申请股票终止挂牌事项进展的提示性公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002058/AN202611031831369739.html"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：关于股票交易异常波动的公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002058/AN202611031831369571.html"
+    },
+    {
+     "kind": "公司",
+     "text": "紫竹高科：控股子公司终止挂牌事项获股东会审议通过",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/2026-11-03/doc-inixmxcw6759177.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "电池紫竹高科2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523690"
+    },
+    {
+     "kind": "盘面",
+     "text": "锂电等新能源方向逆势走强，时代万恒、野马电池、紫竹高科等涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3193039"
+    },
+    {
+     "kind": "同花顺",
+     "text": "固态电池+铝塑膜+汽车检具",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "汽车：广东：支持商业银行用好服务消费与养老再贷款、支农支小再贷款、再贴现等结构性货币政",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523722"
+    }
+   ],
+   "ths_reason": "固态电池+铝塑膜+汽车检具",
+   "written_by": "规则"
+  },
+  {
+   "code": "600293",
+   "name": "三峡新材",
+   "boards": 2,
+   "first_time": "0954",
+   "industry": "玻璃玻纤",
+   "stat": "2天2板",
+   "reason": "赛纬重组+锂电电解液+浮法玻璃（公司提示：湖北三峡新型建材股份有限公司股票交易…）",
+   "confidence": "中",
+   "themes": [
+    "锂电储能"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：湖北三峡新型建材股份有限公司股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/600293/AN202611031831372469.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "赛纬重组+锂电电解液+浮法玻璃",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“稀缺资源”概念（+0.14%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "锂电储能：锂电长时储能迈向规模化应用，宁德时代交付首批8小时储能系统",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3193292"
+    }
+   ],
+   "ths_reason": "赛纬重组+锂电电解液+浮法玻璃",
+   "written_by": "规则"
+  },
+  {
+   "code": "600715",
+   "name": "文投控股",
+   "boards": 2,
+   "first_time": "1013",
+   "industry": "游戏Ⅱ",
+   "stat": "10天6板",
+   "reason": "AI漫剧+游戏运营+影院多元业态（公司提示：文投控股股份有限公司股票交易异常波动…）",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：文投控股股份有限公司股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/600715/AN202611031831376146.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "AI漫剧概念盘中走强，文投控股6天5板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523690"
+    },
+    {
+     "kind": "盘面",
+     "text": "AI漫剧概念走强，文投控股6天5板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523473"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI漫剧+游戏运营+影院多元业态",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：广东：支持商业银行用好服务消费与养老再贷款、支农支小再贷款、再贴现等结构性货币政",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523722"
+    }
+   ],
+   "ths_reason": "AI漫剧+游戏运营+影院多元业态",
+   "written_by": "规则"
+  },
+  {
+   "code": "002578",
+   "name": "闽发铝业",
+   "boards": 2,
+   "first_time": "1300",
+   "industry": "工业金属",
+   "stat": "2天2板",
+   "reason": "光伏边框+液冷铝材+机器人布局+三季报扭亏（公司提示：股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "机器人",
+    "光伏"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002578/AN202611031831376054.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "光伏边框+液冷铝材+机器人布局+三季报扭亏",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：英伟达股价上涨3% 总市值重回5万亿美元",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2524266"
+    }
+   ],
+   "ths_reason": "光伏边框+液冷铝材+机器人布局+三季报扭亏",
+   "written_by": "规则"
+  },
+  {
+   "code": "603289",
+   "name": "泰瑞机器",
+   "boards": 1,
+   "first_time": "0925",
+   "industry": "专用设备",
+   "stat": "1天1板",
+   "reason": "拟收购半导体公司+一体化压铸+汽车注塑+海外业务",
+   "confidence": "高",
+   "themes": [
+    "半导体",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "泰瑞机器：拟收购亿芯微不低于51%股权",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2522709"
+    },
+    {
+     "kind": "公司",
+     "text": "上交所发布关于泰瑞机器股份有限公司对外投资暨购买资产相关事项的监管工作函",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261102191458318800"
+    },
+    {
+     "kind": "同花顺",
+     "text": "拟收购半导体公司+一体化压铸+汽车注塑+海外业务",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "半导体：英伟达股价上涨3% 总市值重回5万亿美元",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2524266"
+    }
+   ],
+   "ths_reason": "拟收购半导体公司+一体化压铸+汽车注塑+海外业务",
+   "written_by": "规则"
+  },
+  {
+   "code": "605388",
+   "name": "均瑶健康",
+   "boards": 1,
+   "first_time": "0925",
+   "industry": "饮料乳品",
+   "stat": "1天1板",
+   "reason": "益生菌食品+益生菌出海+菌株研发",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "食品饮料概念局部活跃，皇台酒业3连板，均瑶健康、阳光乳业涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523690"
+    },
+    {
+     "kind": "盘面",
+     "text": "白酒、食品等消费股逆势活跃，皇台酒业3连板，均瑶健康、阳光乳业等涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3193136"
+    },
+    {
+     "kind": "同花顺",
+     "text": "益生菌食品+益生菌出海+菌株研发",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“乳业”概念（+1.93%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "益生菌食品+益生菌出海+菌株研发",
+   "written_by": "规则"
+  },
+  {
+   "code": "002692",
+   "name": "远程股份",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "电网设备",
+   "stat": "1天1板",
+   "reason": "拟收购中复碳芯股权+电线电缆",
+   "confidence": "高",
+   "themes": [
+    "电力"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "重组并购：关于拟组成联合体并通过公开摘牌方式收购中复碳芯电缆科技有限公司股权的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002692&announcementId=1225654319&orgId=9900023230&announcementTime=2026-11-03"
+    },
+    {
+     "kind": "公司",
+     "text": "远程股份：拟收购中复碳芯股权，进入拉挤复合材料及风电关键材料领域",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261102205842481800"
+    },
+    {
+     "kind": "同花顺",
+     "text": "拟收购中复碳芯股权+电线电缆",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "电力：中国西电：12家子公司中标国家电网项目，总中标金额约11.15亿元",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103423660.html"
+    }
+   ],
+   "ths_reason": "拟收购中复碳芯股权+电线电缆",
+   "written_by": "规则"
+  },
+  {
+   "code": "002105",
+   "name": "信隆健康",
+   "boards": 1,
+   "first_time": "0931",
+   "industry": "摩托车及",
+   "stat": "1天1板",
+   "reason": "外骨骼机器人+自行车配件",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "外骨骼机器人+自行车配件",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“共享经济”概念（+0.58%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "外骨骼机器人+自行车配件",
+   "written_by": "规则"
+  },
+  {
+   "code": "600358",
+   "name": "国旅联合",
+   "boards": 1,
+   "first_time": "0932",
+   "industry": "广告营销",
+   "stat": "1天1板",
+   "reason": "互联网营销+饮用水+跨境电商+三季报增长（公司提示：国旅文化投资集团股份有限公司2026…）",
+   "confidence": "中",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：国旅文化投资集团股份有限公司2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600358&announcementId=1225647851&orgId=gssh0600358&announcementTime=2026-10-31"
+    },
+    {
+     "kind": "同花顺",
+     "text": "互联网营销+饮用水+跨境电商+三季报增长",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“电子竞技”概念（+0.16%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "互联网营销+饮用水+跨境电商+三季报增长",
+   "written_by": "规则"
+  },
+  {
+   "code": "603381",
+   "name": "永臻股份",
+   "boards": 1,
+   "first_time": "0934",
+   "industry": "光伏设备",
+   "stat": "1天1板",
+   "reason": "光伏+电池铝箔+人形机器人+三季报增长",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "锂电储能",
+    "光伏"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "光伏+电池铝箔+人形机器人+三季报增长",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“反内卷概念”（+1.01%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "光伏+电池铝箔+人形机器人+三季报增长",
+   "written_by": "规则"
+  },
+  {
+   "code": "002580",
+   "name": "圣阳股份",
+   "boards": 1,
+   "first_time": "0935",
+   "industry": "电池",
+   "stat": "1天1板",
+   "reason": "固态电池+液冷储能+算力+“羊”字辈",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "锂电储能"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "电池板块冲高回落，尚水智能、丰元股份、野马电池、圣阳股份、时代万恒等股涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261103/c681399804.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "固态电池板块今日相对强势，板块中尚水智能、丰元股份、圣阳股份、宝明科技、紫竹高科、龙蟠科技涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611033920349521.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "固态电池+液冷储能+算力+“羊”字辈",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“雄安新区”概念（+0.01%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：英伟达股价上涨3% 总市值重回5万亿美元",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2524266"
+    }
+   ],
+   "ths_reason": "固态电池+液冷储能+算力+“羊”字辈",
+   "written_by": "规则"
+  },
+  {
+   "code": "600558",
+   "name": "大西洋",
+   "boards": 1,
+   "first_time": "0937",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "机器人焊接材料+可控核聚变+航空航天+“羊”字辈",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "商业航天",
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "太阳能、大西洋、鲁阳节能、圣阳股份、华阳国际、阳光照明等多股涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611033920189032.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "圣阳股份、大西洋、太阳电缆、太阳能、阳光股份、阳光乳业首板涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523771"
+    },
+    {
+     "kind": "同花顺",
+     "text": "机器人焊接材料+可控核聚变+航空航天+“羊”字辈",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“参股银行”概念（+0.39%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "机器人焊接材料+可控核聚变+航空航天+“羊”字辈",
+   "written_by": "规则"
+  },
+  {
+   "code": "002088",
+   "name": "鲁阳节能",
+   "boards": 1,
+   "first_time": "0939",
+   "industry": "装修建材",
+   "stat": "3天2板",
+   "reason": "陶瓷纤维+锂电隔热+“羊”字辈（公司提示：股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "锂电储能",
+    "基建建材"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002088/AN202611031831376342.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "太阳能、大西洋、鲁阳节能、圣阳股份、华阳国际、阳光照明等多股涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611033920189032.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "百洋股份18天10板、东方海洋10天6板、阳光照明9天5板、鲁阳节能3天2板、扬子新材3天2板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523771"
+    },
+    {
+     "kind": "同花顺",
+     "text": "陶瓷纤维+锂电隔热+“羊”字辈",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“可燃冰”概念（+0.54%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "锂电储能：锂电长时储能迈向规模化应用，宁德时代交付首批8小时储能系统",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3193292"
+    }
+   ],
+   "ths_reason": "陶瓷纤维+锂电隔热+“羊”字辈",
+   "written_by": "规则"
+  },
+  {
+   "code": "603906",
+   "name": "龙蟠科技",
+   "boards": 1,
+   "first_time": "0947",
+   "industry": "电池",
+   "stat": "1天1板",
+   "reason": "固态电池材料+磷酸铁锂+液冷+三季报扭亏",
+   "confidence": "高",
+   "themes": [
+    "算力",
+    "锂电储能"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "监管问询：江苏龙蟠科技集团股份有限公司关于日常经营重大合同相关事项的监管工作函的回复公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603906/AN202611031831379048.html"
+    },
+    {
+     "kind": "公告",
+     "text": "解禁：中信建投证券股份有限公司关于江苏龙蟠科技集团股份有限公司向特定对象发行A股股票限售股上市流通的核查意见",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603906/AN202611031831375920.html"
+    },
+    {
+     "kind": "公司",
+     "text": "龙蟠科技：9311.54万股定增限售股11月11日上市流通",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/2026-11-03/doc-inixncmu6696455.shtml"
+    },
+    {
+     "kind": "公司",
+     "text": "龙蟠科技：拟出售三级控股子公司76%股权",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/2026-11-03/doc-inixnits6622399.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "电池紫竹高科2连板，龙蟠科技、丰元股份、尚水智能涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523690"
+    },
+    {
+     "kind": "盘面",
+     "text": "电池紫竹高科2连板，龙蟠科技、盟固利、丰元股份、尚水智能涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523473"
+    },
+    {
+     "kind": "同花顺",
+     "text": "固态电池材料+磷酸铁锂+液冷+三季报扭亏",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：英伟达股价上涨3% 总市值重回5万亿美元",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2524266"
+    }
+   ],
+   "ths_reason": "固态电池材料+磷酸铁锂+液冷+三季报扭亏",
+   "written_by": "规则"
+  },
+  {
+   "code": "000591",
+   "name": "太阳能",
+   "boards": 1,
+   "first_time": "0947",
+   "industry": "电力",
+   "stat": "1天1板",
+   "reason": "光伏电站+机器人概念+央企+“羊”字辈",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "光伏",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "太阳能：1-10月，公司新增光伏运营项目容量1,311.24MW",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261103164742476800"
+    },
+    {
+     "kind": "盘面",
+     "text": "其次分别是阳光电源（4.74亿元）、皇冠新材（4.28亿元）、中国平安（3.74亿元）、圣阳股份（3.56亿元）、慈文传媒（3.45亿元）、太阳电缆（3.04亿元）、太阳能（2.83亿元）、百洋股份（2.63亿元）、盟固利（2.63亿元）",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261103141020224800"
+    },
+    {
+     "kind": "盘面",
+     "text": "太阳能、大西洋、鲁阳节能、圣阳股份、华阳国际、阳光照明等多股涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611033920189032.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "光伏电站+机器人概念+央企+“羊”字辈",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“绿色电力”概念（+0.40%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "光伏电站+机器人概念+央企+“羊”字辈",
+   "written_by": "规则"
+  },
+  {
+   "code": "605378",
+   "name": "野马电池",
+   "boards": 1,
+   "first_time": "0949",
+   "industry": "电池",
+   "stat": "1天1板",
+   "reason": "锌锰电池+锂电池+海外基地",
+   "confidence": "中",
+   "themes": [
+    "锂电储能",
+    "有色金属"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "电池板块冲高回落，尚水智能、丰元股份、野马电池、圣阳股份、时代万恒等股涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261103/c681399804.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "锂电等新能源方向逆势走强，时代万恒、野马电池、紫竹高科等涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3193039"
+    },
+    {
+     "kind": "同花顺",
+     "text": "锌锰电池+锂电池+海外基地",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "锂电储能：锂电长时储能迈向规模化应用，宁德时代交付首批8小时储能系统",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3193292"
+    }
+   ],
+   "ths_reason": "锌锰电池+锂电池+海外基地",
+   "written_by": "规则"
+  },
+  {
+   "code": "002300",
+   "name": "太阳电缆",
+   "boards": 1,
+   "first_time": "0951",
+   "industry": "电网设备",
+   "stat": "1天1板",
+   "reason": "电线电缆+海底电缆+海峡两岸+“羊”字辈",
+   "confidence": "中",
+   "themes": [
+    "消费",
+    "传媒游戏",
+    "电力"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "其次分别是阳光电源（4.74亿元）、皇冠新材（4.28亿元）、中国平安（3.74亿元）、圣阳股份（3.56亿元）、慈文传媒（3.45亿元）、太阳电缆（3.04亿元）、太阳能（2.83亿元）、百洋股份（2.63亿元）、盟固利（2.63亿元）",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261103141020224800"
+    },
+    {
+     "kind": "盘面",
+     "text": "圣阳股份、大西洋、太阳电缆、太阳能、阳光股份、阳光乳业首板涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523771"
+    },
+    {
+     "kind": "同花顺",
+     "text": "电线电缆+海底电缆+海峡两岸+“羊”字辈",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "电线电缆+海底电缆+海峡两岸+“羊”字辈",
+   "written_by": "规则"
+  },
+  {
+   "code": "002805",
+   "name": "丰元股份",
+   "boards": 1,
+   "first_time": "0955",
+   "industry": "电池",
+   "stat": "1天1板",
+   "reason": "固态电池+磷酸铁锂+比亚迪合作",
+   "confidence": "中",
+   "themes": [
+    "汽车",
+    "锂电储能"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "电池紫竹高科2连板，龙蟠科技、丰元股份、尚水智能涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523690"
+    },
+    {
+     "kind": "盘面",
+     "text": "电池紫竹高科2连板，龙蟠科技、盟固利、丰元股份、尚水智能涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523473"
+    },
+    {
+     "kind": "同花顺",
+     "text": "固态电池+磷酸铁锂+比亚迪合作",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“化工原料”概念（+0.11%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "汽车：广东：支持商业银行用好服务消费与养老再贷款、支农支小再贷款、再贴现等结构性货币政",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523722"
+    }
+   ],
+   "ths_reason": "固态电池+磷酸铁锂+比亚迪合作",
+   "written_by": "规则"
+  },
+  {
+   "code": "600327",
+   "name": "大东方",
+   "boards": 1,
+   "first_time": "0957",
+   "industry": "一般零售",
+   "stat": "1天1板",
+   "reason": "百货零售+医疗服务",
+   "confidence": "中",
+   "themes": [
+    "医药",
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "百货零售+医疗服务",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“内贸流通”概念（+0.41%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "百货零售+医疗服务",
+   "written_by": "规则"
+  },
+  {
+   "code": "600802",
+   "name": "福建水泥",
+   "boards": 1,
+   "first_time": "1000",
+   "industry": "水泥",
+   "stat": "1天1板",
+   "reason": "水泥熟料+重点工程+福建国资",
+   "confidence": "中",
+   "themes": [
+    "基建建材"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "水泥熟料+重点工程+福建国资",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "水泥熟料+重点工程+福建国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "000679",
+   "name": "大连友谊",
+   "boards": 1,
+   "first_time": "1003",
+   "industry": "一般零售",
+   "stat": "1天1板",
+   "reason": "新零售+进出口贸易+拟国资入主",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "新零售+进出口贸易+拟国资入主",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“东北振兴”概念（+0.49%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "新零售+进出口贸易+拟国资入主",
+   "written_by": "规则"
+  },
+  {
+   "code": "301513",
+   "name": "尚水智能",
+   "boards": 1,
+   "first_time": "1005",
+   "industry": "电池",
+   "stat": "1天1板",
+   "reason": "固态电池设备+锂电智能装备+制浆龙头",
+   "confidence": "中",
+   "themes": [
+    "锂电储能"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "电池紫竹高科2连板，龙蟠科技、丰元股份、尚水智能涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523690"
+    },
+    {
+     "kind": "盘面",
+     "text": "电池紫竹高科2连板，龙蟠科技、盟固利、丰元股份、尚水智能涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523473"
+    },
+    {
+     "kind": "同花顺",
+     "text": "固态电池设备+锂电智能装备+制浆龙头",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "锂电储能：锂电长时储能迈向规模化应用，宁德时代交付首批8小时储能系统",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3193292"
+    }
+   ],
+   "ths_reason": "固态电池设备+锂电智能装备+制浆龙头",
+   "written_by": "规则"
+  },
+  {
+   "code": "002696",
+   "name": "百洋股份",
+   "boards": 1,
+   "first_time": "1019",
+   "industry": "饲料",
+   "stat": "18天10板",
+   "reason": "水产加工+鱼粉鱼油+“羊”字辈",
+   "confidence": "中",
+   "themes": [
+    "传媒游戏",
+    "农业"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "其次分别是阳光电源（4.74亿元）、皇冠新材（4.28亿元）、中国平安（3.74亿元）、圣阳股份（3.56亿元）、慈文传媒（3.45亿元）、太阳电缆（3.04亿元）、太阳能（2.83亿元）、百洋股份（2.63亿元）、盟固利（2.63亿元）",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261103141020224800"
+    },
+    {
+     "kind": "盘面",
+     "text": "“羊”字辈的百洋股份18天10板、东方海洋10天6板、阳光照明9天5板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523480"
+    },
+    {
+     "kind": "同花顺",
+     "text": "水产加工+鱼粉鱼油+“羊”字辈",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“海南自贸”概念（+0.18%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "传媒游戏：报告：红果用户数量首超豆包，移动互联网用户加速流向短剧和AI",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3193237"
+    }
+   ],
+   "ths_reason": "水产加工+鱼粉鱼油+“羊”字辈",
+   "written_by": "规则"
+  },
+  {
+   "code": "600241",
+   "name": "时代万恒",
+   "boards": 1,
+   "first_time": "1021",
+   "industry": "电池",
+   "stat": "1天1板",
+   "reason": "锂电池+镍氢电池+辽宁国资",
+   "confidence": "中",
+   "themes": [
+    "锂电储能",
+    "有色金属"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "电池板块冲高回落，尚水智能、丰元股份、野马电池、圣阳股份、时代万恒等股涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261103/c681399804.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "锂电等新能源方向逆势走强，时代万恒、野马电池、紫竹高科等涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3193039"
+    },
+    {
+     "kind": "同花顺",
+     "text": "锂电池+镍氢电池+辽宁国资",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "锂电储能：锂电长时储能迈向规模化应用，宁德时代交付首批8小时储能系统",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3193292"
+    }
+   ],
+   "ths_reason": "锂电池+镍氢电池+辽宁国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "603402",
+   "name": "陕西旅游",
+   "boards": 1,
+   "first_time": "1049",
+   "industry": "旅游及景",
+   "stat": "1天1板",
+   "reason": "旅游演艺+旅游索道+次新股+陕西国资",
+   "confidence": "中",
+   "themes": [
+    "文旅"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "破发次新股板块震荡走高，截至午间收盘，陕西旅游涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611033920031290.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "旅游演艺+旅游索道+次新股+陕西国资",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“旅游酒店”概念（+0.88%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "旅游演艺+旅游索道+次新股+陕西国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "601188",
+   "name": "龙江交通",
+   "boards": 1,
+   "first_time": "1100",
+   "industry": "铁路公路",
+   "stat": "4天2板",
+   "reason": "冰雪旅游保障+高速公路运营",
+   "confidence": "中",
+   "themes": [
+    "文旅",
+    "基建建材"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "冰雪经济概念异动拉升 龙江交通4天2板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523427"
+    },
+    {
+     "kind": "同花顺",
+     "text": "冰雪旅游保障+高速公路运营",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“冰雪经济”概念（+0.13%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "冰雪旅游保障+高速公路运营",
+   "written_by": "规则"
+  },
+  {
+   "code": "601566",
+   "name": "九牧王",
+   "boards": 1,
+   "first_time": "1101",
+   "industry": "服装家纺",
+   "stat": "1天1板",
+   "reason": "羊毛羊绒+男裤+太空裤+海峡两岸",
+   "confidence": "中",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "羊毛羊绒+男裤+太空裤+海峡两岸",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "羊毛羊绒+男裤+太空裤+海峡两岸",
+   "written_by": "规则"
+  },
+  {
+   "code": "000151",
+   "name": "中成股份",
+   "boards": 1,
+   "first_time": "1114",
+   "industry": "贸易Ⅱ",
+   "stat": "1天1板",
+   "reason": "成套设备出口+央企+储能",
+   "confidence": "中",
+   "themes": [
+    "锂电储能"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "中字头板块异动拉升 中成股份直线涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523452"
+    },
+    {
+     "kind": "同花顺",
+     "text": "成套设备出口+央企+储能",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“低市盈率”概念（+0.25%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "锂电储能：锂电长时储能迈向规模化应用，宁德时代交付首批8小时储能系统",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3193292"
+    }
+   ],
+   "ths_reason": "成套设备出口+央企+储能",
+   "written_by": "规则"
+  },
+  {
+   "code": "600630",
+   "name": "龙头股份",
+   "boards": 1,
+   "first_time": "1117",
+   "industry": "服装家纺",
+   "stat": "1天1板",
+   "reason": "纺织服装+跨境电商+上海国资",
+   "confidence": "中",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "纺织服装+跨境电商+上海国资",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“沪企改革”概念（+1.12%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "纺织服装+跨境电商+上海国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "001318",
+   "name": "阳光乳业",
+   "boards": 1,
+   "first_time": "1125",
+   "industry": "饮料乳品",
+   "stat": "1天1板",
+   "reason": "低温乳制品+大消费+“羊”字辈",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "乳品板块走高 阳光乳业涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611033919974646.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "食品饮料概念局部活跃，皇台酒业3连板，均瑶健康、阳光乳业涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523690"
+    },
+    {
+     "kind": "盘面",
+     "text": "白酒、食品等消费股逆势活跃，皇台酒业3连板，均瑶健康、阳光乳业等涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3193136"
+    },
+    {
+     "kind": "同花顺",
+     "text": "低温乳制品+大消费+“羊”字辈",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "低温乳制品+大消费+“羊”字辈",
+   "written_by": "规则"
+  },
+  {
+   "code": "600778",
+   "name": "友好集团",
+   "boards": 1,
+   "first_time": "1300",
+   "industry": "一般零售",
+   "stat": "1天1板",
+   "reason": "零售+新疆商业+京东租赁",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "零售+新疆商业+京东租赁",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“退税商店”概念（+0.70%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "零售+新疆商业+京东租赁",
+   "written_by": "规则"
+  },
+  {
+   "code": "000608",
+   "name": "阳光股份",
+   "boards": 1,
+   "first_time": "1308",
+   "industry": "房地产开",
+   "stat": "1天1板",
+   "reason": "商业物业+智算业务+“羊字辈”",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "房地产",
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "圣阳股份、大西洋、太阳电缆、太阳能、阳光股份、阳光乳业首板涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523771"
+    },
+    {
+     "kind": "同花顺",
+     "text": "商业物业+智算业务+“羊字辈”",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“租售同权”概念（+0.52%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：英伟达股价上涨3% 总市值重回5万亿美元",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2524266"
+    }
+   ],
+   "ths_reason": "商业物业+智算业务+“羊字辈”",
+   "written_by": "规则"
+  },
+  {
+   "code": "601366",
+   "name": "利群股份",
+   "boards": 1,
+   "first_time": "1401",
+   "industry": "一般零售",
+   "stat": "1天1板",
+   "reason": "零售连锁+即时零售+大消费（公司提示：利群商业集团股份有限公司2026年第…）",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "定期报告：利群商业集团股份有限公司2026年第三季度报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601366&announcementId=1225649019&orgId=9900028735&announcementTime=2026-10-31"
+    },
+    {
+     "kind": "同花顺",
+     "text": "零售连锁+即时零售+大消费",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "零售连锁+即时零售+大消费",
+   "written_by": "规则"
+  },
+  {
+   "code": "002992",
+   "name": "宝明科技",
+   "boards": 1,
+   "first_time": "1425",
+   "industry": "光学光电",
+   "stat": "1天1板",
+   "reason": "固态电池+AI服务器+HVLP铜箔+复合铜箔",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "算力",
+    "锂电储能"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "固态电池板块今日相对强势，板块中尚水智能、丰元股份、圣阳股份、宝明科技、紫竹高科、龙蟠科技涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611033920349521.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "固态电池+AI服务器+HVLP铜箔+复合铜箔",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：广东：支持商业银行用好服务消费与养老再贷款、支农支小再贷款、再贴现等结构性货币政",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523722"
+    }
+   ],
+   "ths_reason": "固态电池+AI服务器+HVLP铜箔+复合铜箔",
+   "written_by": "规则"
+  },
+  {
+   "code": "002652",
+   "name": "扬子新材",
+   "boards": 1,
+   "first_time": "1432",
+   "industry": "装修建材",
+   "stat": "3天2板",
+   "reason": "有机涂层板+高洁净板+三季报减亏+“羊”字辈",
+   "confidence": "中",
+   "themes": [
+    "基建建材"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "百洋股份18天10板、东方海洋10天6板、阳光照明9天5板、鲁阳节能3天2板、扬子新材3天2板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523771"
+    },
+    {
+     "kind": "同花顺",
+     "text": "有机涂层板+高洁净板+三季报减亏+“羊”字辈",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "有机涂层板+高洁净板+三季报减亏+“羊”字辈",
+   "written_by": "规则"
+  },
+  {
+   "code": "002522",
+   "name": "浙江众成",
+   "boards": 1,
+   "first_time": "1436",
+   "industry": "塑料",
+   "stat": "1天1板",
+   "reason": "光纤油膏+三季报增长+POF热收缩膜+子公司完成增资",
+   "confidence": "中",
+   "themes": [
+    "通信"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "光纤油膏+三季报增长+POF热收缩膜+子公司完成增资",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "光纤油膏+三季报增长+POF热收缩膜+子公司完成增资",
+   "written_by": "规则"
+  },
+  {
+   "code": "601123",
+   "name": "马矿股份",
+   "boards": 1,
+   "first_time": "1447",
+   "industry": "冶钢原料",
+   "stat": "1天1板",
+   "reason": "铁精粉+采选扩能+三季报增长+次新股",
+   "confidence": "中",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "钢铁板块震荡反弹，马矿股份涨停",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/2026-11-03/doc-inixmxcu9880416.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "铁精粉+采选扩能+三季报增长+次新股",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "铁精粉+采选扩能+三季报增长+次新股",
+   "written_by": "规则"
+  }
+ ]
+}
