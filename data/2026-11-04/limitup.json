@@ -1,0 +1,1289 @@
+{
+ "trade_date": "2026-11-04",
+ "coverage": 50.0,
+ "announced": 18,
+ "stocks": [
+  {
+   "code": "002086",
+   "name": "东方海洋",
+   "boards": 4,
+   "first_time": "0925",
+   "industry": "农产品加",
+   "stat": "10天6板",
+   "reason": "大消费走强（公司提示：股票交易异常波动暨风险提示公告）",
+   "confidence": "中",
+   "themes": [
+    "消费",
+    "农业"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动暨风险提示公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002086&announcementId=1225656280&orgId=9900001344&announcementTime=2026-11-04"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动暨风险提示公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002086/AN202611031831378122.html"
+    },
+    {
+     "kind": "公司",
+     "text": "10天6板东方海洋：主营业务分为海洋板块和大健康板块 均处于亏损状态",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2524107"
+    },
+    {
+     "kind": "盘面",
+     "text": "大消费板块东方海洋（9天5板）竞价涨停、皇台酒业（6天3板）竞价涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523281"
+    },
+    {
+     "kind": "题材",
+     "text": "消费：长高电气：全资子公司中标约2.3亿元国家电网采购项目",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2524442"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "600261",
+   "name": "阳光照明",
+   "boards": 4,
+   "first_time": "0925",
+   "industry": "照明设备",
+   "stat": "9天5板",
+   "reason": "商业航天走强（公司提示：股票交易异常波动的公告）",
+   "confidence": "中",
+   "themes": [
+    "商业航天"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600261&announcementId=1225655592&orgId=gssh0600261&announcementTime=2026-11-04"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：阳光照明股票交易异常波动的公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/600261/AN202611031831373462.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "商业航天概念股阳光照明（8天4板）竞价涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523281"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "000995",
+   "name": "皇台酒业",
+   "boards": 3,
+   "first_time": "0925",
+   "industry": "白酒Ⅱ",
+   "stat": "7天4板",
+   "reason": "食品饮料走强（公司提示：关于股票交易异常波动的公告）",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：关于股票交易异常波动的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000995&announcementId=1225653639&orgId=gssz0000995&announcementTime=2026-11-03"
+    },
+    {
+     "kind": "盘面",
+     "text": "食品饮料概念局部活跃，皇台酒业3连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523690"
+    },
+    {
+     "kind": "盘面",
+     "text": "白酒、食品等消费股逆势活跃，皇台酒业3连板",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3193136"
+    },
+    {
+     "kind": "题材",
+     "text": "消费：长高电气：全资子公司中标约2.3亿元国家电网采购项目",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2524442"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "601599",
+   "name": "浙文影业",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "纺织制造",
+   "stat": "2天2板",
+   "reason": "AI漫剧走强（公司提示：股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601599&announcementId=1225656149&orgId=9900019840&announcementTime=2026-11-04"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/601599/AN202611031831376239.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "AI漫剧概念盘中走强，文投控股6天5板，浙文影业、大晟文化、龙版传媒2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523690"
+    },
+    {
+     "kind": "盘面",
+     "text": "AI漫剧概念继续走强，浙文影业、大晟文化、奥飞娱乐均2连板",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3193136"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "600892",
+   "name": "大晟文化",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "游戏Ⅱ",
+   "stat": "2天2板",
+   "reason": "AI漫剧走强（公司提示：股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600892&announcementId=1225656278&orgId=gssh0600892&announcementTime=2026-11-04"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/600892/AN202611031831377612.html"
+    },
+    {
+     "kind": "公司",
+     "text": "AI漫剧概念反复走强 大晟文化等多股2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523285"
+    },
+    {
+     "kind": "盘面",
+     "text": "AI漫剧概念盘中走强，文投控股6天5板，浙文影业、大晟文化、龙版传媒2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523690"
+    },
+    {
+     "kind": "盘面",
+     "text": "AI漫剧概念继续走强，浙文影业、大晟文化、奥飞娱乐均2连板",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3193136"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "002827",
+   "name": "高争民爆",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "化学制品",
+   "stat": "2天2板",
+   "reason": "关于回购公司股份进展的公告",
+   "confidence": "高",
+   "themes": [
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "回购：关于回购公司股份进展的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002827&announcementId=1225655876&orgId=9900031912&announcementTime=2026-11-04"
+    },
+    {
+     "kind": "公告",
+     "text": "回购：关于回购公司股份进展的公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002827/AN202611031831376428.html"
+    },
+    {
+     "kind": "公司",
+     "text": "高争民爆拟购铜矿资产 新增矿山开发业务",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2521770"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "603258",
+   "name": "电魂网络",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "游戏Ⅱ",
+   "stat": "2天2板",
+   "reason": "AI漫剧走强（公司提示：关于股票交易异常波动的公告）",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：关于股票交易异常波动的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603258&announcementId=1225655459&orgId=9900028871&announcementTime=2026-11-04"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：关于股票交易异常波动的公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603258/AN202611031831372896.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "AI漫剧概念反复走强，大晟文化、浙文影业、电魂网络走出2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523285"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "605577",
+   "name": "龙版传媒",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "出版",
+   "stat": "2天2板",
+   "reason": "AI漫剧走强（公司提示：关于股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：关于股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=605577&announcementId=1225655715&orgId=nssc1000394&announcementTime=2026-11-04"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：关于股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/605577/AN202611031831373899.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "AI漫剧概念盘中走强，文投控股6天5板，浙文影业、大晟文化、龙版传媒2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523690"
+    },
+    {
+     "kind": "盘面",
+     "text": "此前大晟文化、龙版传媒、慈文传媒、浙文影业等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523357"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "002292",
+   "name": "奥飞娱乐",
+   "boards": 2,
+   "first_time": "0930",
+   "industry": "文娱用品",
+   "stat": "2天2板",
+   "reason": "关于回购股份的进展公告",
+   "confidence": "高",
+   "themes": [
+    "人工智能",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "回购：关于回购股份的进展公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002292&announcementId=1225656430&orgId=9900007988&announcementTime=2026-11-04"
+    },
+    {
+     "kind": "公告",
+     "text": "回购：关于回购股份的进展公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002292/AN202611031831379874.html"
+    },
+    {
+     "kind": "公司",
+     "text": "奥飞娱乐：智能化内容制作平台已向内部开放，正探索“AI+IP”商业化合作",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103424054.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "AI漫剧概念继续走强，浙文影业、大晟文化、奥飞娱乐均2连板",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3193136"
+    },
+    {
+     "kind": "盘面",
+     "text": "AI漫剧概念爆发，捷成股份、果麦文化、海看股份、华是科技、芒果超媒20CM涨停，奥飞娱乐、大晟文化、龙版传媒、浙文影业涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2522388"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "002029",
+   "name": "七 匹 狼",
+   "boards": 2,
+   "first_time": "0932",
+   "industry": "服装家纺",
+   "stat": "2天2板",
+   "reason": "服装家纺（公司提示：关于股票交易异常波动的公告）",
+   "confidence": "低",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：关于股票交易异常波动的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002029&announcementId=1225653588&orgId=gssz0002029&announcementTime=2026-11-03"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：七匹狼关于股票交易异常波动的公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002029/AN202611021831331690.html"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "000599",
+   "name": "青岛双星",
+   "boards": 2,
+   "first_time": "0943",
+   "industry": "汽车零部",
+   "stat": "2天2板",
+   "reason": "汽车题材（公司提示：股票交易异常波动公告）",
+   "confidence": "低",
+   "themes": [
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000599&announcementId=1225655843&orgId=gssz0000599&announcementTime=2026-11-04"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/000599/AN202611031831375290.html"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "002058",
+   "name": "紫竹高科",
+   "boards": 2,
+   "first_time": "0948",
+   "industry": "电池",
+   "stat": "2天2板",
+   "reason": "锂电储能走强（公司提示：关于控股子公司向全国中小企业股份转让…）",
+   "confidence": "中",
+   "themes": [
+    "锂电储能"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "股东变动：关于控股子公司向全国中小企业股份转让系统申请股票终止挂牌事项进展的提示性公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002058&announcementId=1225654970&orgId=9900000201&announcementTime=2026-11-04"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：关于股票交易异常波动的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002058&announcementId=1225654969&orgId=9900000201&announcementTime=2026-11-04"
+    },
+    {
+     "kind": "盘面",
+     "text": "电池紫竹高科2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523690"
+    },
+    {
+     "kind": "题材",
+     "text": "锂电储能：固态电池产业化进程提速 上市公司抢抓行业机遇",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103424373.html"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "600293",
+   "name": "三峡新材",
+   "boards": 2,
+   "first_time": "0954",
+   "industry": "玻璃玻纤",
+   "stat": "2天2板",
+   "reason": "玻璃玻纤（公司提示：湖北三峡新型建材股份有限公司股票交易…）",
+   "confidence": "低",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：湖北三峡新型建材股份有限公司股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600293&announcementId=1225655462&orgId=gssh0600293&announcementTime=2026-11-04"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：湖北三峡新型建材股份有限公司股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/600293/AN202611031831372469.html"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "600715",
+   "name": "文投控股",
+   "boards": 2,
+   "first_time": "1013",
+   "industry": "游戏Ⅱ",
+   "stat": "10天6板",
+   "reason": "AI漫剧走强（公司提示：股份有限公司股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股份有限公司股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600715&announcementId=1225656138&orgId=gssh0600715&announcementTime=2026-11-04"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：文投控股股份有限公司股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/600715/AN202611031831376146.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "AI漫剧概念盘中走强，文投控股6天5板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523690"
+    },
+    {
+     "kind": "盘面",
+     "text": "传媒板块文投控股（9天5板）高开0.89%、掌阅科技（4天2板）高开4.68%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523281"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "002578",
+   "name": "闽发铝业",
+   "boards": 2,
+   "first_time": "1300",
+   "industry": "工业金属",
+   "stat": "2天2板",
+   "reason": "有色金属题材（公司提示：股票交易异常波动公告）",
+   "confidence": "低",
+   "themes": [
+    "有色金属"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002578&announcementId=1225656062&orgId=9900019314&announcementTime=2026-11-04"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002578/AN202611031831376054.html"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "603289",
+   "name": "泰瑞机器",
+   "boards": 1,
+   "first_time": "0925",
+   "industry": "专用设备",
+   "stat": "1天1板",
+   "reason": "拟收购亿芯微不低于51%股权",
+   "confidence": "高",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "泰瑞机器：拟收购亿芯微不低于51%股权",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2522709"
+    },
+    {
+     "kind": "公司",
+     "text": "上交所发布关于泰瑞机器股份有限公司对外投资暨购买资产相关事项的监管工作函",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261102191458318800"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "605388",
+   "name": "均瑶健康",
+   "boards": 1,
+   "first_time": "0925",
+   "industry": "饮料乳品",
+   "stat": "1天1板",
+   "reason": "食品饮料走强",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "食品饮料概念局部活跃，皇台酒业3连板，均瑶健康、阳光乳业涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523690"
+    },
+    {
+     "kind": "盘面",
+     "text": "白酒、食品等消费股逆势活跃，皇台酒业3连板，均瑶健康、阳光乳业等涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3193136"
+    },
+    {
+     "kind": "题材",
+     "text": "消费：长高电气：全资子公司中标约2.3亿元国家电网采购项目",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2524442"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "002692",
+   "name": "远程股份",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "电网设备",
+   "stat": "1天1板",
+   "reason": "拟收购中复碳芯股权，进入拉挤复合材料及风电关键材料领域",
+   "confidence": "高",
+   "themes": [
+    "电力"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "重组并购：关于拟组成联合体并通过公开摘牌方式收购中复碳芯电缆科技有限公司股权的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002692&announcementId=1225654319&orgId=9900023230&announcementTime=2026-11-03"
+    },
+    {
+     "kind": "公司",
+     "text": "远程股份：拟收购中复碳芯股权，进入拉挤复合材料及风电关键材料领域",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261102205842481800"
+    },
+    {
+     "kind": "题材",
+     "text": "电力：长高电气：全资子公司中标约2.3亿元国家电网采购项目",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2524442"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "002105",
+   "name": "信隆健康",
+   "boards": 1,
+   "first_time": "0931",
+   "industry": "摩托车及",
+   "stat": "1天1板",
+   "reason": "摩托车及",
+   "confidence": "低",
+   "themes": [],
+   "evidence": [],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "600358",
+   "name": "国旅联合",
+   "boards": 1,
+   "first_time": "0932",
+   "industry": "广告营销",
+   "stat": "1天1板",
+   "reason": "广告营销",
+   "confidence": "低",
+   "themes": [],
+   "evidence": [],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "603381",
+   "name": "永臻股份",
+   "boards": 1,
+   "first_time": "0934",
+   "industry": "光伏设备",
+   "stat": "1天1板",
+   "reason": "光伏题材",
+   "confidence": "低",
+   "themes": [
+    "光伏"
+   ],
+   "evidence": [],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "002580",
+   "name": "圣阳股份",
+   "boards": 1,
+   "first_time": "0935",
+   "industry": "电池",
+   "stat": "1天1板",
+   "reason": "锂电储能题材（同题材涨停 7 家）",
+   "confidence": "低",
+   "themes": [
+    "锂电储能"
+   ],
+   "evidence": [
+    {
+     "kind": "题材",
+     "text": "锂电储能：固态电池产业化进程提速 上市公司抢抓行业机遇",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103424373.html"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "600558",
+   "name": "大西洋",
+   "boards": 1,
+   "first_time": "0937",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "通用设备",
+   "confidence": "低",
+   "themes": [],
+   "evidence": [],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "002088",
+   "name": "鲁阳节能",
+   "boards": 1,
+   "first_time": "0939",
+   "industry": "装修建材",
+   "stat": "3天2板",
+   "reason": "基建建材题材（同题材涨停 4 家）（公司提示：股票交易异常波动公告）",
+   "confidence": "低",
+   "themes": [
+    "基建建材"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002088&announcementId=1225655977&orgId=9900001422&announcementTime=2026-11-04"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002088/AN202611031831376342.html"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "603906",
+   "name": "龙蟠科技",
+   "boards": 1,
+   "first_time": "0947",
+   "industry": "电池",
+   "stat": "1天1板",
+   "reason": "锂电储能走强（公司提示：江苏龙蟠科技集团股份有限公司关于日常…）",
+   "confidence": "中",
+   "themes": [
+    "锂电储能"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "监管问询：江苏龙蟠科技集团股份有限公司关于日常经营重大合同相关事项的监管工作函的回复公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603906&announcementId=1225656400&orgId=9900030660&announcementTime=2026-11-04"
+    },
+    {
+     "kind": "公告",
+     "text": "解禁：中信建投证券股份有限公司关于江苏龙蟠科技集团股份有限公司向特定对象发行A股股票限售股上市流通的核查意见",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603906&announcementId=1225656110&orgId=9900030660&announcementTime=2026-11-04"
+    },
+    {
+     "kind": "盘面",
+     "text": "电池紫竹高科2连板，龙蟠科技、丰元股份、尚水智能涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523690"
+    },
+    {
+     "kind": "题材",
+     "text": "锂电储能：固态电池产业化进程提速 上市公司抢抓行业机遇",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103424373.html"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "000591",
+   "name": "太阳能",
+   "boards": 1,
+   "first_time": "0947",
+   "industry": "电力",
+   "stat": "1天1板",
+   "reason": "电力题材（同题材涨停 3 家）",
+   "confidence": "低",
+   "themes": [
+    "电力"
+   ],
+   "evidence": [
+    {
+     "kind": "题材",
+     "text": "电力：长高电气：全资子公司中标约2.3亿元国家电网采购项目",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2524442"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "605378",
+   "name": "野马电池",
+   "boards": 1,
+   "first_time": "0949",
+   "industry": "电池",
+   "stat": "1天1板",
+   "reason": "锂电储能题材（同题材涨停 7 家）",
+   "confidence": "低",
+   "themes": [
+    "锂电储能"
+   ],
+   "evidence": [
+    {
+     "kind": "题材",
+     "text": "锂电储能：固态电池产业化进程提速 上市公司抢抓行业机遇",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103424373.html"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "002300",
+   "name": "太阳电缆",
+   "boards": 1,
+   "first_time": "0951",
+   "industry": "电网设备",
+   "stat": "1天1板",
+   "reason": "电力题材（同题材涨停 3 家）",
+   "confidence": "低",
+   "themes": [
+    "电力"
+   ],
+   "evidence": [
+    {
+     "kind": "题材",
+     "text": "电力：长高电气：全资子公司中标约2.3亿元国家电网采购项目",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2524442"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "002805",
+   "name": "丰元股份",
+   "boards": 1,
+   "first_time": "0955",
+   "industry": "电池",
+   "stat": "1天1板",
+   "reason": "锂电储能走强",
+   "confidence": "中",
+   "themes": [
+    "锂电储能"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "电池紫竹高科2连板，龙蟠科技、丰元股份、尚水智能涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523690"
+    },
+    {
+     "kind": "题材",
+     "text": "锂电储能：固态电池产业化进程提速 上市公司抢抓行业机遇",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103424373.html"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "600327",
+   "name": "大东方",
+   "boards": 1,
+   "first_time": "0957",
+   "industry": "一般零售",
+   "stat": "1天1板",
+   "reason": "消费题材（同题材涨停 8 家）",
+   "confidence": "低",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "题材",
+     "text": "消费：长高电气：全资子公司中标约2.3亿元国家电网采购项目",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2524442"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "600802",
+   "name": "福建水泥",
+   "boards": 1,
+   "first_time": "1000",
+   "industry": "水泥",
+   "stat": "1天1板",
+   "reason": "基建建材题材（同题材涨停 4 家）",
+   "confidence": "低",
+   "themes": [
+    "基建建材"
+   ],
+   "evidence": [],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "000679",
+   "name": "大连友谊",
+   "boards": 1,
+   "first_time": "1003",
+   "industry": "一般零售",
+   "stat": "1天1板",
+   "reason": "消费题材（同题材涨停 8 家）",
+   "confidence": "低",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "题材",
+     "text": "消费：长高电气：全资子公司中标约2.3亿元国家电网采购项目",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2524442"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "301513",
+   "name": "尚水智能",
+   "boards": 1,
+   "first_time": "1005",
+   "industry": "电池",
+   "stat": "1天1板",
+   "reason": "锂电储能走强",
+   "confidence": "中",
+   "themes": [
+    "锂电储能"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "电池紫竹高科2连板，龙蟠科技、丰元股份、尚水智能涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523690"
+    },
+    {
+     "kind": "题材",
+     "text": "锂电储能：固态电池产业化进程提速 上市公司抢抓行业机遇",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103424373.html"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "002696",
+   "name": "百洋股份",
+   "boards": 1,
+   "first_time": "1019",
+   "industry": "饲料",
+   "stat": "18天10板",
+   "reason": "农业题材",
+   "confidence": "低",
+   "themes": [
+    "农业"
+   ],
+   "evidence": [],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "600241",
+   "name": "时代万恒",
+   "boards": 1,
+   "first_time": "1021",
+   "industry": "电池",
+   "stat": "1天1板",
+   "reason": "锂电储能题材（同题材涨停 7 家）",
+   "confidence": "低",
+   "themes": [
+    "锂电储能"
+   ],
+   "evidence": [
+    {
+     "kind": "题材",
+     "text": "锂电储能：固态电池产业化进程提速 上市公司抢抓行业机遇",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103424373.html"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "603402",
+   "name": "陕西旅游",
+   "boards": 1,
+   "first_time": "1049",
+   "industry": "旅游及景",
+   "stat": "1天1板",
+   "reason": "文旅题材",
+   "confidence": "低",
+   "themes": [
+    "文旅"
+   ],
+   "evidence": [],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "601188",
+   "name": "龙江交通",
+   "boards": 1,
+   "first_time": "1100",
+   "industry": "铁路公路",
+   "stat": "4天2板",
+   "reason": "基建建材题材（同题材涨停 4 家）",
+   "confidence": "低",
+   "themes": [
+    "基建建材"
+   ],
+   "evidence": [],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "601566",
+   "name": "九牧王",
+   "boards": 1,
+   "first_time": "1101",
+   "industry": "服装家纺",
+   "stat": "1天1板",
+   "reason": "服装家纺",
+   "confidence": "低",
+   "themes": [],
+   "evidence": [],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "000151",
+   "name": "中成股份",
+   "boards": 1,
+   "first_time": "1114",
+   "industry": "贸易Ⅱ",
+   "stat": "1天1板",
+   "reason": "中字头板块异动拉升 中成股份直线涨停",
+   "confidence": "中",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "中字头板块异动拉升 中成股份直线涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523452"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "600630",
+   "name": "龙头股份",
+   "boards": 1,
+   "first_time": "1117",
+   "industry": "服装家纺",
+   "stat": "1天1板",
+   "reason": "服装家纺",
+   "confidence": "低",
+   "themes": [],
+   "evidence": [],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "001318",
+   "name": "阳光乳业",
+   "boards": 1,
+   "first_time": "1125",
+   "industry": "饮料乳品",
+   "stat": "1天1板",
+   "reason": "食品饮料走强",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "食品饮料概念局部活跃，皇台酒业3连板，均瑶健康、阳光乳业涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523690"
+    },
+    {
+     "kind": "盘面",
+     "text": "白酒、食品等消费股逆势活跃，皇台酒业3连板，均瑶健康、阳光乳业等涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3193136"
+    },
+    {
+     "kind": "题材",
+     "text": "消费：长高电气：全资子公司中标约2.3亿元国家电网采购项目",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2524442"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "600778",
+   "name": "友好集团",
+   "boards": 1,
+   "first_time": "1300",
+   "industry": "一般零售",
+   "stat": "1天1板",
+   "reason": "消费题材（同题材涨停 8 家）",
+   "confidence": "低",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "题材",
+     "text": "消费：长高电气：全资子公司中标约2.3亿元国家电网采购项目",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2524442"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "000608",
+   "name": "阳光股份",
+   "boards": 1,
+   "first_time": "1308",
+   "industry": "房地产开",
+   "stat": "1天1板",
+   "reason": "房地产题材",
+   "confidence": "低",
+   "themes": [
+    "房地产"
+   ],
+   "evidence": [],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "601366",
+   "name": "利群股份",
+   "boards": 1,
+   "first_time": "1401",
+   "industry": "一般零售",
+   "stat": "1天1板",
+   "reason": "消费题材（同题材涨停 8 家）",
+   "confidence": "低",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "题材",
+     "text": "消费：长高电气：全资子公司中标约2.3亿元国家电网采购项目",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2524442"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "002992",
+   "name": "宝明科技",
+   "boards": 1,
+   "first_time": "1425",
+   "industry": "光学光电",
+   "stat": "1天1板",
+   "reason": "光学光电",
+   "confidence": "低",
+   "themes": [],
+   "evidence": [],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "002652",
+   "name": "扬子新材",
+   "boards": 1,
+   "first_time": "1432",
+   "industry": "装修建材",
+   "stat": "3天2板",
+   "reason": "基建建材题材（同题材涨停 4 家）",
+   "confidence": "低",
+   "themes": [
+    "基建建材"
+   ],
+   "evidence": [],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "002522",
+   "name": "浙江众成",
+   "boards": 1,
+   "first_time": "1436",
+   "industry": "塑料",
+   "stat": "1天1板",
+   "reason": "塑料",
+   "confidence": "低",
+   "themes": [],
+   "evidence": [],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "601123",
+   "name": "马矿股份",
+   "boards": 1,
+   "first_time": "1447",
+   "industry": "冶钢原料",
+   "stat": "1天1板",
+   "reason": "冶钢原料",
+   "confidence": "低",
+   "themes": [],
+   "evidence": [],
+   "ths_reason": "",
+   "written_by": "规则"
+  }
+ ]
+}
