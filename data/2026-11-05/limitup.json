@@ -1,0 +1,161 @@
+{
+ "trade_date": "2026-11-05",
+ "coverage": 100.0,
+ "announced": 3,
+ "stocks": [
+  {
+   "code": "002578",
+   "name": "闽发铝业",
+   "boards": 4,
+   "first_time": "0925",
+   "industry": "工业金属",
+   "stat": "9天5板",
+   "reason": "有色金属题材（公司提示：股票交易异常波动公告）",
+   "confidence": "低",
+   "themes": [
+    "有色金属"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002578&announcementId=1225656062&orgId=9900019314&announcementTime=2026-11-04"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002578/AN202611031831376054.html"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "601599",
+   "name": "浙文影业",
+   "boards": 4,
+   "first_time": "0925",
+   "industry": "纺织制造",
+   "stat": "4天4板",
+   "reason": "AI漫剧走强（公司提示：股票交易风险提示性公告）",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易风险提示性公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601599&announcementId=1225657457&orgId=9900019840&announcementTime=2026-11-05"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易风险提示性公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/601599/AN202611041831410970.html"
+    },
+    {
+     "kind": "公司",
+     "text": "AI漫剧概念继续活跃 大晟文化、浙文影业3连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2524519"
+    },
+    {
+     "kind": "盘面",
+     "text": "浙文影业、大晟文化、龙版传媒2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2523690"
+    },
+    {
+     "kind": "盘面",
+     "text": "AI漫剧概念继续走强，浙文影业、大晟文化、奥飞娱乐均2连板",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3193136"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "603381",
+   "name": "永臻股份",
+   "boards": 3,
+   "first_time": "0925",
+   "industry": "光伏设备",
+   "stat": "3天3板",
+   "reason": "光伏题材（公司提示：股票交易异常波动公告）",
+   "confidence": "低",
+   "themes": [
+    "光伏"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603381&announcementId=1225657581&orgId=9900058333&announcementTime=2026-11-05"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603381/AN202611041831412255.html"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "000017",
+   "name": "深中华A",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "饰品",
+   "stat": "2天2板",
+   "reason": "未股改概念领涨",
+   "confidence": "中",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "黄金概念大面积高开 深中华A2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2525761"
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“未股改”概念（+0.44%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "002081",
+   "name": "金 螳 螂",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "装修装饰",
+   "stat": "2天2板",
+   "reason": "体育概念领涨",
+   "confidence": "中",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "板块",
+     "text": "领涨“体育概念”（+0.25%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  }
+ ]
+}
