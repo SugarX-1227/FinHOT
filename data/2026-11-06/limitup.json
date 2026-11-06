@@ -1,0 +1,248 @@
+{
+ "trade_date": "2026-11-06",
+ "coverage": 44.4,
+ "announced": 3,
+ "stocks": [
+  {
+   "code": "002578",
+   "name": "闽发铝业",
+   "boards": 5,
+   "first_time": "0925",
+   "industry": "工业金属",
+   "stat": "10天6板",
+   "reason": "光伏走强（公司提示：股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "光伏",
+    "有色金属"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002578&announcementId=1225656062&orgId=9900019314&announcementTime=2026-11-04"
+    },
+    {
+     "kind": "盘面",
+     "text": "光伏概念股闽发铝业（4板）竞价涨停、永臻股份（3板）竞价涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2526930"
+    },
+    {
+     "kind": "盘面",
+     "text": "光伏概念股闽发铝业（8天4板）竞价涨停、永臻股份（2板）竞价涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2525762"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "601599",
+   "name": "浙文影业",
+   "boards": 5,
+   "first_time": "0925",
+   "industry": "纺织制造",
+   "stat": "5天5板",
+   "reason": "短剧走强（公司提示：股票交易风险提示性公告）",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易风险提示性公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601599&announcementId=1225659682&orgId=9900019840&announcementTime=2026-11-06"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易风险提示性公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601599&announcementId=1225657457&orgId=9900019840&announcementTime=2026-11-05"
+    },
+    {
+     "kind": "公司",
+     "text": "AI漫剧概念继续活跃 大晟文化、浙文影业3连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2524519"
+    },
+    {
+     "kind": "盘面",
+     "text": "短剧概念股浙文影业（4板）竞价涨停、引力传媒（4天3板）高开3.65%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2526930"
+    },
+    {
+     "kind": "盘面",
+     "text": "AI漫剧概念持续走高，浙文影业4连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2526122"
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：纳斯达克100指数收跌6.5% 市值蒸发2.3万亿美元 AI产业链遭重挫",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2526773"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "603381",
+   "name": "永臻股份",
+   "boards": 4,
+   "first_time": "0925",
+   "industry": "光伏设备",
+   "stat": "4天4板",
+   "reason": "光伏走强（公司提示：股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "光伏",
+    "有色金属"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603381&announcementId=1225657581&orgId=9900058333&announcementTime=2026-11-05"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603381/AN202611041831412255.html"
+    },
+    {
+     "kind": "公司",
+     "text": "光伏设备板块短线拉升，永臻股份4连板",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261106/c681534094.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "光伏概念股闽发铝业（4板）竞价涨停、永臻股份（3板）竞价涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2526930"
+    },
+    {
+     "kind": "盘面",
+     "text": "光伏概念股闽发铝业（8天4板）竞价涨停、永臻股份（2板）竞价涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2525762"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "002529",
+   "name": "海源复材",
+   "boards": 3,
+   "first_time": "0930",
+   "industry": "专用设备",
+   "stat": "3天3板",
+   "reason": "专用设备",
+   "confidence": "低",
+   "themes": [],
+   "evidence": [],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "603657",
+   "name": "春光科技",
+   "boards": 3,
+   "first_time": "0931",
+   "industry": "家电零部",
+   "stat": "3天3板",
+   "reason": "机器人走强",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "机器人春光科技、福莱新材2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2526122"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "002045",
+   "name": "国光电器",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "消费电子",
+   "stat": "5天3板",
+   "reason": "消费电子题材",
+   "confidence": "低",
+   "themes": [
+    "消费电子",
+    "消费"
+   ],
+   "evidence": [],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "605339",
+   "name": "南侨食品",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "休闲食品",
+   "stat": "2天2板",
+   "reason": "消费题材",
+   "confidence": "低",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "600229",
+   "name": "城市传媒",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "出版",
+   "stat": "1天1板",
+   "reason": "传媒游戏题材",
+   "confidence": "低",
+   "themes": [
+    "传媒游戏"
+   ],
+   "evidence": [],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "000595",
+   "name": "新能股份",
+   "boards": 1,
+   "first_time": "0931",
+   "industry": "电力",
+   "stat": "1天1板",
+   "reason": "电力题材",
+   "confidence": "低",
+   "themes": [
+    "电力"
+   ],
+   "evidence": [],
+   "ths_reason": "",
+   "written_by": "规则"
+  }
+ ]
+}
