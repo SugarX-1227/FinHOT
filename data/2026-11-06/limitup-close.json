@@ -1,0 +1,1341 @@
+{
+ "trade_date": "2026-11-06",
+ "coverage": 100.0,
+ "announced": 15,
+ "stocks": [
+  {
+   "code": "002578",
+   "name": "闽发铝业",
+   "boards": 5,
+   "first_time": "0925",
+   "industry": "工业金属",
+   "stat": "10天6板",
+   "reason": "光伏边框+液冷铝材+机器人布局+三季报扭亏（公司提示：股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "机器人",
+    "光伏"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002578/AN202611061831502093.html"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002578&announcementId=1225656062&orgId=9900019314&announcementTime=2026-11-04"
+    },
+    {
+     "kind": "公司",
+     "text": "10天6板闽发铝业：当前铝型材行业市场竞争加剧 可能导致公司毛利率水平下降",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2527699"
+    },
+    {
+     "kind": "盘面",
+     "text": "其中光伏概念股闽发铝业收获5连板",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103429617.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "光伏概念股闽发铝业5连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2527311"
+    },
+    {
+     "kind": "同花顺",
+     "text": "光伏边框+液冷铝材+机器人布局+三季报扭亏",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "光伏边框+液冷铝材+机器人布局+三季报扭亏",
+   "written_by": "规则"
+  },
+  {
+   "code": "601599",
+   "name": "浙文影业",
+   "boards": 5,
+   "first_time": "0925",
+   "industry": "纺织制造",
+   "stat": "5天5板",
+   "reason": "AI漫剧+微短剧+三季报增长（公司提示：关于浙文影业集团股份有限公司有关股价…）",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "监管问询：关于浙文影业集团股份有限公司有关股价波动事项的监管工作函",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/601599/AN202611061831502142.html"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动暨风险提示公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/601599/AN202611061831501465.html"
+    },
+    {
+     "kind": "公司",
+     "text": "上交所对浙文影业下发监管工作函",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2527692"
+    },
+    {
+     "kind": "公司",
+     "text": "5连板浙文影业：无AI短剧相关业务",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103429916.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "AI漫剧浙文影业5连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2527287"
+    },
+    {
+     "kind": "盘面",
+     "text": "AI漫剧概念局部活跃，城市传媒直线涨停，浙文影业一字涨停走出5连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2526941"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI漫剧+微短剧+三季报增长",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "AI漫剧+微短剧+三季报增长",
+   "written_by": "规则"
+  },
+  {
+   "code": "603381",
+   "name": "永臻股份",
+   "boards": 4,
+   "first_time": "0925",
+   "industry": "光伏设备",
+   "stat": "4天4板",
+   "reason": "光伏+电池铝箔+人形机器人+三季报增长（公司提示：股票交易异常波动暨风险提示公告）",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "锂电储能",
+    "光伏"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动暨风险提示公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603381/AN202611061831501576.html"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603381&announcementId=1225657581&orgId=9900058333&announcementTime=2026-11-05"
+    },
+    {
+     "kind": "公司",
+     "text": "光伏概念延续强势 永臻股份4连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2526939"
+    },
+    {
+     "kind": "公司",
+     "text": "4连板永臻股份：公司股价短期涨幅较大 可能存在快速回落风险",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103429972.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "光伏概念反复活跃，永臻股份走出4连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2527287"
+    },
+    {
+     "kind": "盘面",
+     "text": "光伏板块继续活跃，永臻股份4连板",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3195698"
+    },
+    {
+     "kind": "同花顺",
+     "text": "光伏+电池铝箔+人形机器人+三季报增长",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "光伏+电池铝箔+人形机器人+三季报增长",
+   "written_by": "规则"
+  },
+  {
+   "code": "002088",
+   "name": "鲁阳节能",
+   "boards": 4,
+   "first_time": "1427",
+   "industry": "装修建材",
+   "stat": "6天5板",
+   "reason": "“羊”字辈+陶瓷纤维+锂电隔热（公司提示：股票交易异常波动暨风险提示公告）",
+   "confidence": "中",
+   "themes": [
+    "锂电储能",
+    "基建建材"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动暨风险提示公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002088/AN202611061831501415.html"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002088&announcementId=1225655977&orgId=9900001422&announcementTime=2026-11-04"
+    },
+    {
+     "kind": "公司",
+     "text": "鲁阳节能连续2日上演“地天板”",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2527270"
+    },
+    {
+     "kind": "公司",
+     "text": "鲁阳节能上演“地天板”",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261106/c681546464.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "“羊”字辈的东方海洋13天8板、阳光照明12天7板、鲁阳节能6天5板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2527311"
+    },
+    {
+     "kind": "盘面",
+     "text": "“羊”字辈的阳光照明（11天6板）高开5.09%、鲁阳节能（5天4板）低开3.27%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2526930"
+    },
+    {
+     "kind": "同花顺",
+     "text": "“羊”字辈+陶瓷纤维+锂电隔热",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "“羊”字辈+陶瓷纤维+锂电隔热",
+   "written_by": "规则"
+  },
+  {
+   "code": "603657",
+   "name": "春光科技",
+   "boards": 3,
+   "first_time": "0931",
+   "industry": "家电零部",
+   "stat": "3天3板",
+   "reason": "扫地机器人+家庭具身机器人+清洁电器代工（公司提示：春光科技股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：春光科技股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603657/AN202611061831495563.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "机器人春光科技、福莱新材2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2526122"
+    },
+    {
+     "kind": "同花顺",
+     "text": "扫地机器人+家庭具身机器人+清洁电器代工",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "扫地机器人+家庭具身机器人+清洁电器代工",
+   "written_by": "规则"
+  },
+  {
+   "code": "301697",
+   "name": "贝特利",
+   "boards": 3,
+   "first_time": "0934",
+   "industry": "光伏设备",
+   "stat": "3天3板",
+   "reason": "光伏银粉+低温光伏浆料+电子皮肤+次新股（公司提示：关于股票交易异常波动的公告）",
+   "confidence": "中",
+   "themes": [
+    "锂电储能",
+    "光伏"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：关于股票交易异常波动的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=301697&announcementId=1225659788&orgId=gfbj0834488&announcementTime=2026-11-06"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：关于股票交易异常波动的公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/301697/AN202611051831458281.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "早间光伏概念延续昨日强势，永臻股份走出4连板，海源复材走出3连板，贝特利、时创能源涨超10%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2526939"
+    },
+    {
+     "kind": "盘面",
+     "text": "HJT电池板块短线拉升，东方日升涨停，贝特利、海源复材此前封板",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261106/c681536291.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "光伏银粉+低温光伏浆料+电子皮肤+次新股",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "光伏银粉+低温光伏浆料+电子皮肤+次新股",
+   "written_by": "规则"
+  },
+  {
+   "code": "002388",
+   "name": "新亚制程",
+   "boards": 3,
+   "first_time": "1027",
+   "industry": "其他电子",
+   "stat": "3天3板",
+   "reason": "电解液+固态电池+启元气体收购+AI服务器电源（公司提示：关于公司股票交易异常波动的公告）",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "算力",
+    "锂电储能"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：关于公司股票交易异常波动的公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002388/AN202611061831503396.html"
+    },
+    {
+     "kind": "公司",
+     "text": "3连板新亚制程：公司生产经营基本面未发生重大变化",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611063925024073.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "固态电池概念延续昨日强势，紫竹高科3连板，新亚制程、圣阳股份触及涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2524532"
+    },
+    {
+     "kind": "同花顺",
+     "text": "电解液+固态电池+启元气体收购+AI服务器电源",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "电解液+固态电池+启元气体收购+AI服务器电源",
+   "written_by": "规则"
+  },
+  {
+   "code": "605339",
+   "name": "南侨食品",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "休闲食品",
+   "stat": "2天2板",
+   "reason": "烘焙油脂+乳制品+预制烘焙（公司提示：南侨食品集团(上海)股份有限公司股票…）",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：南侨食品集团(上海)股份有限公司股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/605339/AN202611061831500833.html"
+    },
+    {
+     "kind": "公司",
+     "text": "2连板南侨食品：子公司补缴税款及滞纳金约792万元",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611063924934381.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "烘焙油脂+乳制品+预制烘焙",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：国务院常务会议：加快重大项目和“六张网”建设实施进度",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2527711"
+    }
+   ],
+   "ths_reason": "烘焙油脂+乳制品+预制烘焙",
+   "written_by": "规则"
+  },
+  {
+   "code": "600261",
+   "name": "阳光照明",
+   "boards": 2,
+   "first_time": "0949",
+   "industry": "照明设备",
+   "stat": "12天7板",
+   "reason": "商业航天+激光通信+照明+“羊”字辈（公司提示：阳光照明股票交易异常波动的公告）",
+   "confidence": "中",
+   "themes": [
+    "通信",
+    "商业航天"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：阳光照明股票交易异常波动的公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/600261/AN202611061831495465.html"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600261&announcementId=1225655592&orgId=gssh0600261&announcementTime=2026-11-04"
+    },
+    {
+     "kind": "公司",
+     "text": "阳光照明：近期公司股价偏离基本面 警惕非理性炒作风险",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103429643.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "“羊”字辈的东方海洋13天8板、阳光照明12天7板、鲁阳节能6天5板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2527311"
+    },
+    {
+     "kind": "盘面",
+     "text": "“羊”字辈的阳光照明（11天6板）高开5.09%、鲁阳节能（5天4板）低开3.27%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2526930"
+    },
+    {
+     "kind": "同花顺",
+     "text": "商业航天+激光通信+照明+“羊”字辈",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "商业航天+激光通信+照明+“羊”字辈",
+   "written_by": "规则"
+  },
+  {
+   "code": "002086",
+   "name": "东方海洋",
+   "boards": 2,
+   "first_time": "1002",
+   "industry": "农产品加",
+   "stat": "13天8板",
+   "reason": "“羊”字辈+海洋养殖+体外诊断（公司提示：股票交易异常波动 净利润持续亏损）",
+   "confidence": "中",
+   "themes": [
+    "农业"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动暨风险提示公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002086/AN202611061831503050.html"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动暨风险提示公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002086&announcementId=1225656280&orgId=9900001344&announcementTime=2026-11-04"
+    },
+    {
+     "kind": "公司",
+     "text": "13天8板东方海洋：股票交易异常波动 净利润持续亏损",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611063924994931.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "“羊”字辈的东方海洋13天8板、阳光照明12天7板、鲁阳节能6天5板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2527311"
+    },
+    {
+     "kind": "盘面",
+     "text": "东方海洋实现“13日8板”",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611063924644633.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "“羊”字辈+海洋养殖+体外诊断",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“水产品”概念（+0.21%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "“羊”字辈+海洋养殖+体外诊断",
+   "written_by": "规则"
+  },
+  {
+   "code": "002929",
+   "name": "润建股份",
+   "boards": 2,
+   "first_time": "1305",
+   "industry": "通信服务",
+   "stat": "5天3板",
+   "reason": "词元出海+算力网络+机器人",
+   "confidence": "高",
+   "themes": [
+    "算力",
+    "机器人",
+    "通信"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "回购：关于回购公司股份的进展公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002929&announcementId=1225653440&orgId=gfbj0834571&announcementTime=2026-11-03"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：关于股票交易异常波动的公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002929/AN202611061831502954.html"
+    },
+    {
+     "kind": "公司",
+     "text": "5天3板润建股份：AI、算力、词元等业务占公司总营收比重仍然较低",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2527736"
+    },
+    {
+     "kind": "公司",
+     "text": "润建股份：股价异动主要系AI、算力等概念板块关注度较高，公司相关业务占总营收比重仍较低",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261106/c681567079.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "午后算力租赁概念持续走高，青云科技20cm涨停，此前润建股份涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2526064"
+    },
+    {
+     "kind": "同花顺",
+     "text": "词元出海+算力网络+机器人",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "词元出海+算力网络+机器人",
+   "written_by": "规则"
+  },
+  {
+   "code": "600229",
+   "name": "城市传媒",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "出版",
+   "stat": "1天1板",
+   "reason": "AIGC+IP运营+教育出版+青岛国资",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "AI漫剧概念局部活跃 城市传媒直线涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2526941"
+    },
+    {
+     "kind": "盘面",
+     "text": "AI漫剧浙文影业5连板，城市传媒、上海电影涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2527287"
+    },
+    {
+     "kind": "盘面",
+     "text": "文化传媒板块局部走高，思美传媒、城市传媒涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261106/c681541512.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AIGC+IP运营+教育出版+青岛国资",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "AIGC+IP运营+教育出版+青岛国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "000595",
+   "name": "新能股份",
+   "boards": 1,
+   "first_time": "0931",
+   "industry": "电力",
+   "stat": "1天1板",
+   "reason": "储能并网+风光储一体化+宁夏国资",
+   "confidence": "中",
+   "themes": [
+    "锂电储能",
+    "电力"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "绿电概念逆势拉升 新能股份、立新能源双双涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2526943"
+    },
+    {
+     "kind": "盘面",
+     "text": "电力板块盘中走强，新能股份、立新能源、东方新能涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2527287"
+    },
+    {
+     "kind": "盘面",
+     "text": "电力、电网股拉升，新能股份、立新能源、东方新能涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3195698"
+    },
+    {
+     "kind": "同花顺",
+     "text": "储能并网+风光储一体化+宁夏国资",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "储能并网+风光储一体化+宁夏国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "600207",
+   "name": "安彩高科",
+   "boards": 1,
+   "first_time": "0932",
+   "industry": "光伏设备",
+   "stat": "1天1板",
+   "reason": "光伏玻璃+高透产品+河南国资",
+   "confidence": "中",
+   "themes": [
+    "光伏"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "光伏概念反复活跃，永臻股份走出4连板，日出东方、安彩高科涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2527287"
+    },
+    {
+     "kind": "盘面",
+     "text": "光伏板块继续活跃，永臻股份4连板，安彩高科涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3195698"
+    },
+    {
+     "kind": "同花顺",
+     "text": "光伏玻璃+高透产品+河南国资",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "光伏：光伏概念延续强势 永臻股份4连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2526939"
+    }
+   ],
+   "ths_reason": "光伏玻璃+高透产品+河南国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "001258",
+   "name": "立新能源",
+   "boards": 1,
+   "first_time": "0934",
+   "industry": "电力",
+   "stat": "1天1板",
+   "reason": "风电光伏+疆电外送+三季报增长",
+   "confidence": "中",
+   "themes": [
+    "光伏",
+    "风电",
+    "电力"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "绿电概念逆势拉升 新能股份、立新能源双双涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2526943"
+    },
+    {
+     "kind": "盘面",
+     "text": "电力板块盘中走强，新能股份、立新能源、东方新能涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2527287"
+    },
+    {
+     "kind": "盘面",
+     "text": "电力、电网股拉升，新能股份、立新能源、东方新能涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3195698"
+    },
+    {
+     "kind": "同花顺",
+     "text": "风电光伏+疆电外送+三季报增长",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "光伏：光伏概念延续强势 永臻股份4连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2526939"
+    }
+   ],
+   "ths_reason": "风电光伏+疆电外送+三季报增长",
+   "written_by": "规则"
+  },
+  {
+   "code": "600371",
+   "name": "万向德农",
+   "boards": 1,
+   "first_time": "0936",
+   "industry": "种植业",
+   "stat": "3天2板",
+   "reason": "玉米种业+转基因玉米+新品研发（公司提示：万向德农股份公司股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "农业"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：万向德农股份公司股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/600371/AN202611061831500759.html"
+    },
+    {
+     "kind": "公司",
+     "text": "万向德农：国内玉米种子行业整体处于去库存周期，市场呈现供大于求的态势",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261106181532334800"
+    },
+    {
+     "kind": "公司",
+     "text": "农业板块震荡拉升 万向德农触及涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2526944"
+    },
+    {
+     "kind": "盘面",
+     "text": "农业万向德农3天2板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2527287"
+    },
+    {
+     "kind": "盘面",
+     "text": "农业股逆势走强，万向德农、新赛股份涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3195698"
+    },
+    {
+     "kind": "同花顺",
+     "text": "玉米种业+转基因玉米+新品研发",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“生态农业”概念（+0.86%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "玉米种业+转基因玉米+新品研发",
+   "written_by": "规则"
+  },
+  {
+   "code": "601188",
+   "name": "龙江交通",
+   "boards": 1,
+   "first_time": "0940",
+   "industry": "铁路公路",
+   "stat": "4天2板",
+   "reason": "冰雪旅游保障+高速公路运营+黑龙江国资",
+   "confidence": "中",
+   "themes": [
+    "文旅",
+    "基建建材"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "冰雪经济概念局部异动 龙江交通直线涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2526952"
+    },
+    {
+     "kind": "同花顺",
+     "text": "冰雪旅游保障+高速公路运营+黑龙江国资",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "冰雪旅游保障+高速公路运营+黑龙江国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "603366",
+   "name": "日出东方",
+   "boards": 1,
+   "first_time": "0945",
+   "industry": "厨卫电器",
+   "stat": "1天1板",
+   "reason": "“东方”+储能+空气能热泵+光伏",
+   "confidence": "中",
+   "themes": [
+    "锂电储能",
+    "光伏"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "光伏概念反复活跃，永臻股份走出4连板，日出东方、安彩高科涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2527287"
+    },
+    {
+     "kind": "盘面",
+     "text": "东方创业、大东方、日出东方、东方新能、东方嘉盛等纷纷涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611063924644633.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "“东方”+储能+空气能热泵+光伏",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "“东方”+储能+空气能热泵+光伏",
+   "written_by": "规则"
+  },
+  {
+   "code": "002310",
+   "name": "东方新能",
+   "boards": 1,
+   "first_time": "0948",
+   "industry": "电力",
+   "stat": "1天1板",
+   "reason": "“东方”+光伏+重组+三季报扭亏",
+   "confidence": "中",
+   "themes": [
+    "光伏",
+    "电力"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "电力板块盘中走强，新能股份、立新能源、东方新能涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2527287"
+    },
+    {
+     "kind": "盘面",
+     "text": "电力、电网股拉升，新能股份、立新能源、东方新能涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3195698"
+    },
+    {
+     "kind": "同花顺",
+     "text": "“东方”+光伏+重组+三季报扭亏",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "光伏：光伏概念延续强势 永臻股份4连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2526939"
+    }
+   ],
+   "ths_reason": "“东方”+光伏+重组+三季报扭亏",
+   "written_by": "规则"
+  },
+  {
+   "code": "600327",
+   "name": "大东方",
+   "boards": 1,
+   "first_time": "0957",
+   "industry": "一般零售",
+   "stat": "4天2板",
+   "reason": "“东方”+百货零售+儿科医疗+回购注销",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "东方创业、大东方、日出东方、东方新能、东方嘉盛等纷纷涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611063924644633.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "“东方”+百货零售+儿科医疗+回购注销",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：国务院常务会议：加快重大项目和“六张网”建设实施进度",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2527711"
+    }
+   ],
+   "ths_reason": "“东方”+百货零售+儿科医疗+回购注销",
+   "written_by": "规则"
+  },
+  {
+   "code": "001316",
+   "name": "润贝航科",
+   "boards": 1,
+   "first_time": "0957",
+   "industry": "炼化及贸",
+   "stat": "1天1板",
+   "reason": "航材国产化+AI航检眼镜+三季报增长",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "油气"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "航材国产化+AI航检眼镜+三季报增长",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "航材国产化+AI航检眼镜+三季报增长",
+   "written_by": "规则"
+  },
+  {
+   "code": "600278",
+   "name": "东方创业",
+   "boards": 1,
+   "first_time": "1004",
+   "industry": "贸易Ⅱ",
+   "stat": "1天1板",
+   "reason": "“东方”+贸易+现代物流+上海国企",
+   "confidence": "中",
+   "themes": [
+    "航运物流"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "东方创业、大东方、日出东方、东方新能、东方嘉盛等纷纷涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611063924644633.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "“东方”+贸易+现代物流+上海国企",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "航运物流：凤凰航运：涉嫌信息披露违法违规 被证监会立案",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2527654"
+    }
+   ],
+   "ths_reason": "“东方”+贸易+现代物流+上海国企",
+   "written_by": "规则"
+  },
+  {
+   "code": "002889",
+   "name": "东方嘉盛",
+   "boards": 1,
+   "first_time": "1022",
+   "industry": "物流",
+   "stat": "1天1板",
+   "reason": "“东方”+光刻机保税维修+智慧仓",
+   "confidence": "中",
+   "themes": [
+    "半导体",
+    "航运物流"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "半导体设备板块震荡回升 东方嘉盛涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2526989"
+    },
+    {
+     "kind": "盘面",
+     "text": "东方创业、大东方、日出东方、东方新能、东方嘉盛等纷纷涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611063924644633.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "“东方”+光刻机保税维修+智慧仓",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "“东方”+光刻机保税维修+智慧仓",
+   "written_by": "规则"
+  },
+  {
+   "code": "601595",
+   "name": "上海电影",
+   "boards": 1,
+   "first_time": "1027",
+   "industry": "影视院线",
+   "stat": "1天1板",
+   "reason": "AI影视+即梦合作+院线+IP",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "上海电影触及涨停",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103428825.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "AI漫剧浙文影业5连板，城市传媒、上海电影涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2527287"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI影视+即梦合作+院线+IP",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "AI影视+即梦合作+院线+IP",
+   "written_by": "规则"
+  },
+  {
+   "code": "001308",
+   "name": "康冠科技",
+   "boards": 1,
+   "first_time": "1041",
+   "industry": "光学光电",
+   "stat": "1天1板",
+   "reason": "端侧AI+AI眼镜+智能显示",
+   "confidence": "中",
+   "themes": [
+    "人工智能"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "端侧AI+AI眼镜+智能显示",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "端侧AI+AI眼镜+智能显示",
+   "written_by": "规则"
+  },
+  {
+   "code": "002712",
+   "name": "思美传媒",
+   "boards": 1,
+   "first_time": "1042",
+   "industry": "广告营销",
+   "stat": "1天1板",
+   "reason": "AI营销+AI漫剧+四川国资",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "文化传媒板块局部走高，思美传媒、城市传媒涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261106/c681541512.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "AI漫剧概念反复活跃，上海电影、思美传媒、浙文影业等涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3195565"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI营销+AI漫剧+四川国资",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "AI营销+AI漫剧+四川国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "600540",
+   "name": "新赛股份",
+   "boards": 1,
+   "first_time": "1058",
+   "industry": "种植业",
+   "stat": "1天1板",
+   "reason": "棉花全产业链+棉蛋白+三季报扭亏+新疆兵团国资",
+   "confidence": "中",
+   "themes": [
+    "农业"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "农业板块再度拉升 新赛股份涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2527044"
+    },
+    {
+     "kind": "盘面",
+     "text": "农业万向德农3天2板，新赛股份涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2527287"
+    },
+    {
+     "kind": "盘面",
+     "text": "农业股逆势走强，万向德农、新赛股份涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3195698"
+    },
+    {
+     "kind": "同花顺",
+     "text": "棉花全产业链+棉蛋白+三季报扭亏+新疆兵团国资",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "棉花全产业链+棉蛋白+三季报扭亏+新疆兵团国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "300686",
+   "name": "智动力",
+   "boards": 1,
+   "first_time": "1108",
+   "industry": "消费电子",
+   "stat": "1天1板",
+   "reason": "消费电子+固态电池+人形机器人+三季报亏损收窄（公司提示：股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "消费电子",
+    "机器人",
+    "锂电储能"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=300686&announcementId=1225662094&orgId=9900029630&announcementTime=2026-11-06"
+    },
+    {
+     "kind": "同花顺",
+     "text": "消费电子+固态电池+人形机器人+三季报亏损收窄",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "消费电子+固态电池+人形机器人+三季报亏损收窄",
+   "written_by": "规则"
+  },
+  {
+   "code": "002973",
+   "name": "侨银股份",
+   "boards": 1,
+   "first_time": "1311",
+   "industry": "环境治理",
+   "stat": "1天1板",
+   "reason": "人形机器人+算力服务+应收账款回款+城市服务",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+算力服务+应收账款回款+城市服务",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "人形机器人+算力服务+应收账款回款+城市服务",
+   "written_by": "规则"
+  },
+  {
+   "code": "600156",
+   "name": "华升股份",
+   "boards": 1,
+   "first_time": "1317",
+   "industry": "纺织制造",
+   "stat": "1天1板",
+   "reason": "算力租赁+重组推进+苎麻纺织",
+   "confidence": "中",
+   "themes": [
+    "算力"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "算力租赁+重组推进+苎麻纺织",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "算力租赁+重组推进+苎麻纺织",
+   "written_by": "规则"
+  },
+  {
+   "code": "300237",
+   "name": "美晨科技",
+   "boards": 1,
+   "first_time": "1320",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "摘帽+复牌+资产剥离+汽车零部件",
+   "confidence": "中",
+   "themes": [
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "停复牌：关于撤销其他风险警示暨股票停复牌的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=300237&announcementId=1225658367&orgId=9900019390&announcementTime=2026-11-05"
+    },
+    {
+     "kind": "公告",
+     "text": "停复牌：关于撤销其他风险警示暨股票停复牌的公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/300237/AN202611041831418741.html"
+    },
+    {
+     "kind": "公司",
+     "text": "停牌！ST美晨将摘掉“其他风险警示” 11月6日起复牌变回“美晨科技”",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611043922325445.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "摘帽+复牌+资产剥离+汽车零部件",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "汽车：商务部：自2026年11月6日起对原产于欧盟的进口对位芳纶长丝进行反倾销立案调查",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2527312"
+    }
+   ],
+   "ths_reason": "摘帽+复牌+资产剥离+汽车零部件",
+   "written_by": "规则"
+  },
+  {
+   "code": "000525",
+   "name": "红太阳",
+   "boards": 1,
+   "first_time": "1339",
+   "industry": "农化制品",
+   "stat": "6天3板",
+   "reason": "“羊”字辈+百草枯+农业无人机+三季报扭亏（公司提示：关于股票交易异常波动暨风险提示的公告）",
+   "confidence": "中",
+   "themes": [
+    "低空经济",
+    "农业"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：关于股票交易异常波动暨风险提示的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000525&announcementId=1225654186&orgId=gssz0000525&announcementTime=2026-11-03"
+    },
+    {
+     "kind": "同花顺",
+     "text": "“羊”字辈+百草枯+农业无人机+三季报扭亏",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "“羊”字辈+百草枯+农业无人机+三季报扭亏",
+   "written_by": "规则"
+  }
+ ]
+}
