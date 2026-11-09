@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-09T08:52:10+08:00",
+"updated": "2026-11-10T01:50:24+08:00",
 "source": "巨潮资讯股票清单+东方财富行业",
 "complete": true,
 "stocks": [
@@ -46821,12 +46821,14 @@
 },
 {
 "code": "600251",
-"name": "冠农股份",
+"name": "新疆冠农",
 "exchange": "SH",
 "org_id": "gssh0600251",
-"pinyin": "gngf",
+"pinyin": "xjgn",
 "industry": "农产品加工",
-"former": [],
+"former": [
+"冠农股份"
+],
 "st": false,
 "status": "listed",
 "hk": "",
@@ -82271,6 +82273,20 @@
 "former": [],
 "st": false,
 "status": "listed",
+"hk": "",
+"us": "",
+"aliases": []
+},
+{
+"code": "920067",
+"name": "华晟智能",
+"exchange": "BJ",
+"org_id": "gfbj0874236",
+"pinyin": "hszn",
+"industry": "",
+"former": [],
+"st": false,
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
