@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-08T08:34:27+08:00",
+"updated": "2026-11-09T08:52:10+08:00",
 "source": "巨潮资讯股票清单+东方财富行业",
 "complete": true,
 "stocks": [
@@ -72377,12 +72377,14 @@
 },
 {
 "code": "688225",
-"name": "亚信安全",
+"name": "亚信集团",
 "exchange": "SH",
 "org_id": "9900047311",
-"pinyin": "yxaq",
+"pinyin": "yxjt",
 "industry": "软件开发",
-"former": [],
+"former": [
+"亚信安全"
+],
 "st": false,
 "status": "listed",
 "hk": "",
