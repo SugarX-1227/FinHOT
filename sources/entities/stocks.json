@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-10T01:50:24+08:00",
+"updated": "2026-11-11T09:16:07+08:00",
 "source": "巨潮资讯股票清单+东方财富行业",
 "complete": true,
 "stocks": [
@@ -70237,13 +70237,13 @@
 },
 {
 "code": "688053",
-"name": "ST思科瑞",
+"name": "思科瑞",
 "exchange": "SH",
 "org_id": "9900046510",
-"pinyin": "stskr",
+"pinyin": "skr",
 "industry": "军工电子Ⅱ",
 "former": [],
-"st": true,
+"st": false,
 "status": "listed",
 "hk": "",
 "us": "",
@@ -82283,10 +82283,10 @@
 "exchange": "BJ",
 "org_id": "gfbj0874236",
 "pinyin": "hszn",
-"industry": "",
+"industry": "自动化设备",
 "former": [],
 "st": false,
-"status": "delisted",
+"status": "listed",
 "hk": "",
 "us": "",
 "aliases": []
