@@ -1,0 +1,1456 @@
+{
+ "trade_date": "2026-11-12",
+ "coverage": 100.0,
+ "announced": 12,
+ "stocks": [
+  {
+   "code": "603366",
+   "name": "日出东方",
+   "boards": 5,
+   "first_time": "0930",
+   "industry": "厨卫电器",
+   "stat": "5天5板",
+   "reason": "“东方系”+光伏+储能+空气能热泵（公司提示：控股股份有限公司股票交易异常波动的公…）",
+   "confidence": "中",
+   "themes": [
+    "锂电储能",
+    "光伏"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：控股股份有限公司股票交易异常波动的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603366&announcementId=1225667159&orgId=9900022648&announcementTime=2026-11-12"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：日出东方控股股份有限公司股票交易异常波动的公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603366/AN202611111831630560.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "光伏概念股日出东方（4板）高开5.29%、海源复材（6天3板）低开2.05%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2532193"
+    },
+    {
+     "kind": "盘面",
+     "text": "光伏概念股日出东方5连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2532627"
+    },
+    {
+     "kind": "同花顺",
+     "text": "“东方系”+光伏+储能+空气能热泵",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "“东方系”+光伏+储能+空气能热泵",
+   "written_by": "规则"
+  },
+  {
+   "code": "600327",
+   "name": "大东方",
+   "boards": 5,
+   "first_time": "1456",
+   "industry": "一般零售",
+   "stat": "8天6板",
+   "reason": "“东方系”+百货零售+儿科医疗（公司提示：股票交易异常波动暨风险提示公告）",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动暨风险提示公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600327&announcementId=1225666720&orgId=gssh0600327&announcementTime=2026-11-12"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：大东方股票交易异常波动暨风险提示公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/600327/AN202611111831628692.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "零售板块盘中异动拉升，广百股份直线涨停，宁波中百、大东方、国芳集团、东百集团、中兴商业等快速冲高",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2532233"
+    },
+    {
+     "kind": "盘面",
+     "text": "大消费板块大东方（7天5板）平开、惠发食品（2板）高开5.49%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2532193"
+    },
+    {
+     "kind": "同花顺",
+     "text": "“东方系”+百货零售+儿科医疗",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：零售板块异动拉升 广百股份直线涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2532233"
+    }
+   ],
+   "ths_reason": "“东方系”+百货零售+儿科医疗",
+   "written_by": "规则"
+  },
+  {
+   "code": "002623",
+   "name": "亚玛顿",
+   "boards": 4,
+   "first_time": "0925",
+   "industry": "光伏设备",
+   "stat": "8天5板",
+   "reason": "复牌+控制权变更+光伏玻璃+玻璃基板",
+   "confidence": "高",
+   "themes": [
+    "光伏"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "控制权变更：关于控股股东签署股份转让协议暨控制权拟发生变更的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002623&announcementId=1225664630&orgId=9900021501&announcementTime=2026-11-10"
+    },
+    {
+     "kind": "公告",
+     "text": "停复牌：关于筹划控制权变更事项进展暨复牌的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002623&announcementId=1225664631&orgId=9900021501&announcementTime=2026-11-10"
+    },
+    {
+     "kind": "公司",
+     "text": "A股光伏板块异动拉升，协鑫集成触及涨停，亚玛顿此前4连板，金辰股份2连板，迈为股份、金刚光伏、拉普拉斯跟涨",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3198761"
+    },
+    {
+     "kind": "公司",
+     "text": "亚玛顿：控股股东拟变更为骑形网络 股票11月10日复牌",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2529496"
+    },
+    {
+     "kind": "盘面",
+     "text": "光伏设备板块短线拉升，亚玛顿、金辰股份涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261112/c681733573.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "复牌+控制权变更+光伏玻璃+玻璃基板",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "复牌+控制权变更+光伏玻璃+玻璃基板",
+   "written_by": "规则"
+  },
+  {
+   "code": "603706",
+   "name": "东方环宇",
+   "boards": 4,
+   "first_time": "1100",
+   "industry": "燃气Ⅱ",
+   "stat": "4天4板",
+   "reason": "“东方系”+寒潮供暖+天然气+集中供热（公司提示：股票交易风险提示公告）",
+   "confidence": "中",
+   "themes": [
+    "油气"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易风险提示公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603706&announcementId=1225666543&orgId=9900035562&announcementTime=2026-11-12"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：东方环宇股票交易风险提示公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603706/AN202611111831626492.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "燃气板块反复活跃，东方环宇4连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2532604"
+    },
+    {
+     "kind": "盘面",
+     "text": "天然气板块东方环宇（3板）低开1.76%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2532193"
+    },
+    {
+     "kind": "同花顺",
+     "text": "“东方系”+寒潮供暖+天然气+集中供热",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "“东方系”+寒潮供暖+天然气+集中供热",
+   "written_by": "规则"
+  },
+  {
+   "code": "603536",
+   "name": "惠发食品",
+   "boards": 3,
+   "first_time": "0930",
+   "industry": "食品加工",
+   "stat": "3天3板",
+   "reason": "预制菜+速冻调理肉制品+股份回购（公司提示：股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603536&announcementId=1225667484&orgId=9900024760&announcementTime=2026-11-12"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：惠发食品股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603536/AN202611111831631971.html"
+    },
+    {
+     "kind": "公司",
+     "text": "食品加工制造板块短线拉升，惠发食品涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261112/c681744207.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "大消费板块大东方（7天5板）平开、惠发食品（2板）高开5.49%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2532193"
+    },
+    {
+     "kind": "盘面",
+     "text": "消费股表现活跃，好当家、广百股份、惠发食品等涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3198930"
+    },
+    {
+     "kind": "同花顺",
+     "text": "预制菜+速冻调理肉制品+股份回购",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“味蕾经济”概念（+0.11%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：零售板块异动拉升 广百股份直线涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2532233"
+    }
+   ],
+   "ths_reason": "预制菜+速冻调理肉制品+股份回购",
+   "written_by": "规则"
+  },
+  {
+   "code": "605255",
+   "name": "天普股份",
+   "boards": 3,
+   "first_time": "0941",
+   "industry": "汽车零部",
+   "stat": "3天3板",
+   "reason": "中昊芯英+实控人变更+汽车管路（公司提示：关于股票交易异常波动暨风险提示公告）",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "半导体",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：关于股票交易异常波动暨风险提示公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=605255&announcementId=1225667501&orgId=9900039799&announcementTime=2026-11-12"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：天普股份关于股票交易异常波动暨风险提示公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/605255/AN202611111831632094.html"
+    },
+    {
+     "kind": "公司",
+     "text": "算力芯片概念延续强势 天普股份触及涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2532220"
+    },
+    {
+     "kind": "公司",
+     "text": "算力芯片概念再度活跃 天普股份触及涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2531004"
+    },
+    {
+     "kind": "盘面",
+     "text": "算力芯片天普股份3连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2532604"
+    },
+    {
+     "kind": "盘面",
+     "text": "算力芯片板块涨幅居前，天普股份涨停",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261112114115371800"
+    },
+    {
+     "kind": "同花顺",
+     "text": "中昊芯英+实控人变更+汽车管路",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：英伟达股价在Tradegate平台较昨日收盘价下跌7.4%",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3198895"
+    }
+   ],
+   "ths_reason": "中昊芯英+实控人变更+汽车管路",
+   "written_by": "规则"
+  },
+  {
+   "code": "002148",
+   "name": "北纬科技",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "通信服务",
+   "stat": "2天2板",
+   "reason": "四足机器人+手机游戏+物联网",
+   "confidence": "中",
+   "themes": [
+    "消费电子",
+    "机器人",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "午后游戏板块拉升，电魂网络、北纬科技涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2531219"
+    },
+    {
+     "kind": "同花顺",
+     "text": "四足机器人+手机游戏+物联网",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "四足机器人+手机游戏+物联网",
+   "written_by": "规则"
+  },
+  {
+   "code": "603725",
+   "name": "天安新材",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "家居用品",
+   "stat": "2天2板",
+   "reason": "光通信+拟收购嘉万光+机器人皮肤",
+   "confidence": "高",
+   "themes": [
+    "算力",
+    "通信",
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "重大合同：关于签署股权收购意向协议暨对外投资的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603725&announcementId=1225662733&orgId=9900030420&announcementTime=2026-11-09"
+    },
+    {
+     "kind": "盘面",
+     "text": "人形机器人概念反复走强，锋龙股份走出4连板，日发精机、天安新材2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2532201"
+    },
+    {
+     "kind": "盘面",
+     "text": "CPO板块短线拉升，青山纸业、天洋新材、天安新材涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261112/c681733647.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "光通信+拟收购嘉万光+机器人皮肤",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：英伟达股价在Tradegate平台较昨日收盘价下跌7.4%",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3198895"
+    }
+   ],
+   "ths_reason": "光通信+拟收购嘉万光+机器人皮肤",
+   "written_by": "规则"
+  },
+  {
+   "code": "603396",
+   "name": "金辰股份",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "光伏设备",
+   "stat": "2天2板",
+   "reason": "光伏设备+半导体装备+玻璃基封装+股份回购",
+   "confidence": "中",
+   "themes": [
+    "半导体",
+    "光伏"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "A股光伏板块异动拉升，协鑫集成触及涨停，亚玛顿此前4连板，金辰股份2连板，迈为股份、金刚光伏、拉普拉斯跟涨",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3198761"
+    },
+    {
+     "kind": "盘面",
+     "text": "光伏设备板块短线拉升，亚玛顿、金辰股份涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261112/c681733573.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "光伏设备+半导体装备+玻璃基封装+股份回购",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "光伏设备+半导体装备+玻璃基封装+股份回购",
+   "written_by": "规则"
+  },
+  {
+   "code": "002593",
+   "name": "日上集团",
+   "boards": 2,
+   "first_time": "0930",
+   "industry": "专业工程",
+   "stat": "2天2板",
+   "reason": "机器人+车轮+钢结构+三季报增长",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "机器人+车轮+钢结构+三季报增长",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：A股开盘丨沪指跌0.21% 人形机器人板块调整",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103437397.html"
+    }
+   ],
+   "ths_reason": "机器人+车轮+钢结构+三季报增长",
+   "written_by": "规则"
+  },
+  {
+   "code": "603135",
+   "name": "中重科技",
+   "boards": 2,
+   "first_time": "1112",
+   "industry": "专用设备",
+   "stat": "2天2板",
+   "reason": "人形机器人+冶金装备+海外拓展",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "股东变动：关于持股5%以上股东权益变动触及1%刻度的提示性公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603135&announcementId=1225666840&orgId=9900052304&announcementTime=2026-11-12"
+    },
+    {
+     "kind": "公告",
+     "text": "股东变动：关于持股5%以上股东权益变动触及1%刻度的提示性公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603135/AN202611111831628894.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+冶金装备+海外拓展",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：A股开盘丨沪指跌0.21% 人形机器人板块调整",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103437397.html"
+    }
+   ],
+   "ths_reason": "人形机器人+冶金装备+海外拓展",
+   "written_by": "规则"
+  },
+  {
+   "code": "000573",
+   "name": "粤宏远Ａ",
+   "boards": 1,
+   "first_time": "0925",
+   "industry": "房地产开",
+   "stat": "1天1板",
+   "reason": "股权收购+精密传动+滚珠丝杠+房地产（公司提示：东莞宏远工业区股份有限公司拟现金购买…）",
+   "confidence": "中",
+   "themes": [
+    "房地产"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "重组并购：东莞宏远工业区股份有限公司拟现金购买股权所涉及的深圳市金旺达机电有限公司股东全部权益资产评估报告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000573&announcementId=1225667852&orgId=gssz0000573&announcementTime=2026-11-12"
+    },
+    {
+     "kind": "公告",
+     "text": "重组并购：粤宏远Ａ:东莞宏远工业区股份有限公司拟现金购买股权所涉及的深圳市金旺达机电有限公司股东全部权益资产评估报告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/000573/AN202611111831633948.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "股权收购+精密传动+滚珠丝杠+房地产",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "股权收购+精密传动+滚珠丝杠+房地产",
+   "written_by": "规则"
+  },
+  {
+   "code": "002086",
+   "name": "东方海洋",
+   "boards": 1,
+   "first_time": "0925",
+   "industry": "农产品加",
+   "stat": "17天9板",
+   "reason": "“羊”字辈+“东方系”+海洋养殖",
+   "confidence": "中",
+   "themes": [
+    "消费",
+    "农业"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "大消费板块东方海洋17天9板、大东方8天6板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2532627"
+    },
+    {
+     "kind": "同花顺",
+     "text": "“羊”字辈+“东方系”+海洋养殖",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：零售板块异动拉升 广百股份直线涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2532233"
+    }
+   ],
+   "ths_reason": "“羊”字辈+“东方系”+海洋养殖",
+   "written_by": "规则"
+  },
+  {
+   "code": "002696",
+   "name": "百洋股份",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "饲料",
+   "stat": "1天1板",
+   "reason": "“羊”字辈+水产加工+鱼粉鱼油",
+   "confidence": "中",
+   "themes": [
+    "传媒游戏",
+    "农业"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "其次分别是寒武纪（12.99亿元）、通富微电（9.50亿元）、源杰科技（8.13亿元）、吉视传媒（5.25亿元）、北方华创（4.79亿元）、百洋股份（4.65亿元）、澳洋健康（4.65亿元）、星网锐捷（4.56亿元）、景旺电子（4.19亿元",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261112141142005800"
+    },
+    {
+     "kind": "同花顺",
+     "text": "“羊”字辈+水产加工+鱼粉鱼油",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "传媒游戏：AI漫剧概念反复活跃 文投控股4连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2532212"
+    }
+   ],
+   "ths_reason": "“羊”字辈+水产加工+鱼粉鱼油",
+   "written_by": "规则"
+  },
+  {
+   "code": "600558",
+   "name": "大西洋",
+   "boards": 1,
+   "first_time": "0931",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "机器人焊接材料+可控核聚变+航空航天+“羊”字辈",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "商业航天",
+    "前沿科技"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "机器人焊接材料+可控核聚变+航空航天+“羊”字辈",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：A股开盘丨沪指跌0.21% 人形机器人板块调整",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103437397.html"
+    }
+   ],
+   "ths_reason": "机器人焊接材料+可控核聚变+航空航天+“羊”字辈",
+   "written_by": "规则"
+  },
+  {
+   "code": "002628",
+   "name": "成都路桥",
+   "boards": 1,
+   "first_time": "0932",
+   "industry": "基础建设",
+   "stat": "1天1板",
+   "reason": "机器人+萤石矿+基建施工",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "基建建材"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "机器人+萤石矿+基建施工",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：A股开盘丨沪指跌0.21% 人形机器人板块调整",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103437397.html"
+    }
+   ],
+   "ths_reason": "机器人+萤石矿+基建施工",
+   "written_by": "规则"
+  },
+  {
+   "code": "603175",
+   "name": "超颖电子",
+   "boards": 1,
+   "first_time": "0938",
+   "industry": "元件",
+   "stat": "1天1板",
+   "reason": "AI算力PCB+存储PCB+高阶PCB认证",
+   "confidence": "高",
+   "themes": [
+    "人工智能",
+    "算力",
+    "半导体"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "超颖电子：2026年10月合并营收同比增长91.17%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2529196"
+    },
+    {
+     "kind": "公司",
+     "text": "PCB概念震荡拉升 超颖电子涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2532218"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI算力PCB+存储PCB+高阶PCB认证",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "AI算力PCB+存储PCB+高阶PCB认证",
+   "written_by": "规则"
+  },
+  {
+   "code": "002172",
+   "name": "澳洋健康",
+   "boards": 1,
+   "first_time": "0942",
+   "industry": "医疗服务",
+   "stat": "12天6板",
+   "reason": "“羊”字辈+脑机接口+医疗服务+国资控股",
+   "confidence": "中",
+   "themes": [
+    "医药",
+    "传媒游戏",
+    "前沿科技"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "医疗服务板块短线拉升，澳洋健康涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261112/c681734108.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "医疗服务板块表现活跃，澳洋健康、贝瑞基因涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261112/c681739385.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "其次分别是寒武纪（12.99亿元）、通富微电（9.50亿元）、源杰科技（8.13亿元）、吉视传媒（5.25亿元）、北方华创（4.79亿元）、百洋股份（4.65亿元）、澳洋健康（4.65亿元）、星网锐捷（4.56亿元）、景旺电子（4.19亿元",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261112141142005800"
+    },
+    {
+     "kind": "同花顺",
+     "text": "“羊”字辈+脑机接口+医疗服务+国资控股",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "“羊”字辈+脑机接口+医疗服务+国资控股",
+   "written_by": "规则"
+  },
+  {
+   "code": "002205",
+   "name": "国统股份",
+   "boards": 1,
+   "first_time": "0945",
+   "industry": "水泥",
+   "stat": "1天1板",
+   "reason": "PCCP管道+风电混塔+央企控股",
+   "confidence": "中",
+   "themes": [
+    "风电",
+    "基建建材"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "PCCP管道+风电混塔+央企控股",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "PCCP管道+风电混塔+央企控股",
+   "written_by": "规则"
+  },
+  {
+   "code": "605169",
+   "name": "洪通燃气",
+   "boards": 1,
+   "first_time": "0947",
+   "industry": "燃气Ⅱ",
+   "stat": "1天1板",
+   "reason": "新疆燃气+LNG+三季报高增",
+   "confidence": "中",
+   "themes": [
+    "油气"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "燃气板块再度走强 洪通燃气涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2532226"
+    },
+    {
+     "kind": "公司",
+     "text": "燃气板块直线拉升，洪通燃气涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261112/c681734439.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "燃气板块反复活跃，东方环宇4连板，洪通燃气涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2532604"
+    },
+    {
+     "kind": "盘面",
+     "text": "洪通燃气涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3198930"
+    },
+    {
+     "kind": "同花顺",
+     "text": "新疆燃气+LNG+三季报高增",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "新疆燃气+LNG+三季报高增",
+   "written_by": "规则"
+  },
+  {
+   "code": "600853",
+   "name": "龙建股份",
+   "boards": 1,
+   "first_time": "0952",
+   "industry": "基础建设",
+   "stat": "4天2板",
+   "reason": "冰雪经济+海外基建+寒区施工+黑龙江国资",
+   "confidence": "中",
+   "themes": [
+    "基建建材"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "冰雪经济概念表现活跃 龙建股份涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2532231"
+    },
+    {
+     "kind": "同花顺",
+     "text": "冰雪经济+海外基建+寒区施工+黑龙江国资",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "基建建材：福建本地股异动拉升 福建水泥涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2532418"
+    }
+   ],
+   "ths_reason": "冰雪经济+海外基建+寒区施工+黑龙江国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "002187",
+   "name": "广百股份",
+   "boards": 1,
+   "first_time": "0955",
+   "industry": "一般零售",
+   "stat": "1天1板",
+   "reason": "百货零售+免税退税+广州国资",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "零售板块异动拉升 广百股份直线涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2532233"
+    },
+    {
+     "kind": "公司",
+     "text": "零售板块短线拉升，广百股份涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261112/c681734859.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "零售广百股份、宁波中百双双涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2532604"
+    },
+    {
+     "kind": "盘面",
+     "text": "消费股表现活跃，好当家、广百股份、惠发食品等涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3198930"
+    },
+    {
+     "kind": "同花顺",
+     "text": "百货零售+免税退税+广州国资",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“免税概念”（+0.20%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：零售板块异动拉升 广百股份直线涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2532233"
+    }
+   ],
+   "ths_reason": "百货零售+免税退税+广州国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "001358",
+   "name": "兴欣新材",
+   "boards": 1,
+   "first_time": "0955",
+   "industry": "化学制品",
+   "stat": "1天1板",
+   "reason": "光刻胶剥离液+电子化学品+股份回购",
+   "confidence": "中",
+   "themes": [
+    "半导体",
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "光刻胶剥离液+电子化学品+股份回购",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "光刻胶剥离液+电子化学品+股份回购",
+   "written_by": "规则"
+  },
+  {
+   "code": "600569",
+   "name": "安阳钢铁",
+   "boards": 1,
+   "first_time": "0957",
+   "industry": "普钢",
+   "stat": "1天1板",
+   "reason": "特钢转型+河南国资+定增过会+“羊”字辈（公司提示：股份有限公司关于向特定对象发行A股股…）",
+   "confidence": "中",
+   "themes": [
+    "钢铁"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "融资：股份有限公司关于向特定对象发行A股股票申请获得上海证券交易所审核通过的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600569&announcementId=1225664036&orgId=gssh0600569&announcementTime=2026-11-10"
+    },
+    {
+     "kind": "公告",
+     "text": "融资：安阳钢铁股份有限公司关于向特定对象发行A股股票申请获得上海证券交易所审核通过的公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/600569/AN202611091831557131.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "特钢转型+河南国资+定增过会+“羊”字辈",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "特钢转型+河南国资+定增过会+“羊”字辈",
+   "written_by": "规则"
+  },
+  {
+   "code": "600857",
+   "name": "宁波中百",
+   "boards": 1,
+   "first_time": "1001",
+   "industry": "一般零售",
+   "stat": "1天1板",
+   "reason": "商业零售+黄金珠宝+杭州金帝入主",
+   "confidence": "中",
+   "themes": [
+    "黄金",
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "股东变动：浙商证券关于宁波中百详式权益变动报告书之2026年第三季度持续督导意见",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600857&announcementId=1225663063&orgId=gssh0600857&announcementTime=2026-11-10"
+    },
+    {
+     "kind": "盘面",
+     "text": "零售板块盘中异动拉升，广百股份直线涨停，宁波中百、大东方、国芳集团、东百集团、中兴商业等快速冲高",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2532233"
+    },
+    {
+     "kind": "盘面",
+     "text": "零售广百股份、宁波中百双双涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2532604"
+    },
+    {
+     "kind": "同花顺",
+     "text": "商业零售+黄金珠宝+杭州金帝入主",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "黄金：ETF午评：半导体ETF领涨3.78%，黄金股ETF领跌3.68%",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261112/c681739387.shtml"
+    }
+   ],
+   "ths_reason": "商业零售+黄金珠宝+杭州金帝入主",
+   "written_by": "规则"
+  },
+  {
+   "code": "601929",
+   "name": "吉视传媒",
+   "boards": 1,
+   "first_time": "1009",
+   "industry": "电视广播",
+   "stat": "1天1板",
+   "reason": "AI微短剧+AI应用+智慧广电",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "其次分别是寒武纪（12.99亿元）、通富微电（9.50亿元）、源杰科技（8.13亿元）、吉视传媒（5.25亿元）、北方华创（4.79亿元）、百洋股份（4.65亿元）、澳洋健康（4.65亿元）、星网锐捷（4.56亿元）、景旺电子（4.19亿元",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261112141142005800"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI微短剧+AI应用+智慧广电",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "AI微短剧+AI应用+智慧广电",
+   "written_by": "规则"
+  },
+  {
+   "code": "601188",
+   "name": "龙江交通",
+   "boards": 1,
+   "first_time": "1038",
+   "industry": "铁路公路",
+   "stat": "11天6板",
+   "reason": "冰雪旅游保障+高速公路运营+黑龙江国资（公司提示：股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "文旅",
+    "基建建材"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601188&announcementId=1225664031&orgId=9900011628&announcementTime=2026-11-10"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：龙江交通股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/601188/AN202611091831557122.html"
+    },
+    {
+     "kind": "公司",
+     "text": "冰雪经济概念反复活跃 龙江交通9天5板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2529725"
+    },
+    {
+     "kind": "盘面",
+     "text": "冰雪经济概念表现活跃，龙建股份涨停，冰轮环境、龙江交通、晶雪节能、大连圣亚跟涨",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2532231"
+    },
+    {
+     "kind": "盘面",
+     "text": "冰雪经济概念股龙江交通11天6板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2532627"
+    },
+    {
+     "kind": "同花顺",
+     "text": "冰雪旅游保障+高速公路运营+黑龙江国资",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "冰雪旅游保障+高速公路运营+黑龙江国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "002693",
+   "name": "双成药业",
+   "boards": 1,
+   "first_time": "1049",
+   "industry": "化学制药",
+   "stat": "1天1板",
+   "reason": "GMP检查+多肽药+药品出海+三季报扭亏",
+   "confidence": "中",
+   "themes": [
+    "医药"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "GMP检查+多肽药+药品出海+三季报扭亏",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "GMP检查+多肽药+药品出海+三季报扭亏",
+   "written_by": "规则"
+  },
+  {
+   "code": "603958",
+   "name": "哈森股份",
+   "boards": 1,
+   "first_time": "1053",
+   "industry": "服装家纺",
+   "stat": "1天1板",
+   "reason": "苹果产业链+机器人+资产重组",
+   "confidence": "中",
+   "themes": [
+    "消费电子",
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "苹果产业链+机器人+资产重组",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "苹果产业链+机器人+资产重组",
+   "written_by": "规则"
+  },
+  {
+   "code": "002021",
+   "name": "中捷资源",
+   "boards": 1,
+   "first_time": "1111",
+   "industry": "专用设备",
+   "stat": "3天2板",
+   "reason": "机器人+工业缝纫机+海外市场",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "机器人+工业缝纫机+海外市场",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“猪肉概念”（+0.03%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：A股开盘丨沪指跌0.21% 人形机器人板块调整",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103437397.html"
+    }
+   ],
+   "ths_reason": "机器人+工业缝纫机+海外市场",
+   "written_by": "规则"
+  },
+  {
+   "code": "605222",
+   "name": "起帆电缆",
+   "boards": 1,
+   "first_time": "1120",
+   "industry": "电网设备",
+   "stat": "1天1板",
+   "reason": "机器人电缆+商业航天+海缆",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "商业航天",
+    "电力"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "机器人电缆+商业航天+海缆",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：A股开盘丨沪指跌0.21% 人形机器人板块调整",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103437397.html"
+    }
+   ],
+   "ths_reason": "机器人电缆+商业航天+海缆",
+   "written_by": "规则"
+  },
+  {
+   "code": "600467",
+   "name": "好当家",
+   "boards": 1,
+   "first_time": "1123",
+   "industry": "渔业",
+   "stat": "1天1板",
+   "reason": "海参+预制菜+海洋经济",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "消费股表现活跃，好当家、广百股份、惠发食品等涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3198930"
+    },
+    {
+     "kind": "同花顺",
+     "text": "海参+预制菜+海洋经济",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“白酒”概念（+0.40%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：零售板块异动拉升 广百股份直线涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2532233"
+    }
+   ],
+   "ths_reason": "海参+预制菜+海洋经济",
+   "written_by": "规则"
+  },
+  {
+   "code": "600802",
+   "name": "福建水泥",
+   "boards": 1,
+   "first_time": "1300",
+   "industry": "水泥",
+   "stat": "1天1板",
+   "reason": "福建国资+水泥熟料+重点工程",
+   "confidence": "中",
+   "themes": [
+    "基建建材"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "福建本地股异动拉升 福建水泥涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2532418"
+    },
+    {
+     "kind": "同花顺",
+     "text": "福建国资+水泥熟料+重点工程",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "基建建材：福建本地股异动拉升 福建水泥涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2532418"
+    }
+   ],
+   "ths_reason": "福建国资+水泥熟料+重点工程",
+   "written_by": "规则"
+  },
+  {
+   "code": "000995",
+   "name": "皇台酒业",
+   "boards": 1,
+   "first_time": "1307",
+   "industry": "白酒Ⅱ",
+   "stat": "10天5板",
+   "reason": "白酒+老窖池+董事会换届",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "白酒概念午后活跃 皇台酒业触及涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2532422"
+    },
+    {
+     "kind": "公司",
+     "text": "白酒板块逆势走高，皇台酒业触及涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261112/c681743801.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "白酒概念震荡调整，皇台酒业、古井贡酒、今世缘、金徽酒等纷纷下挫",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2531380"
+    },
+    {
+     "kind": "同花顺",
+     "text": "白酒+老窖池+董事会换届",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“酿酒概念”（+0.42%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：零售板块异动拉升 广百股份直线涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2532233"
+    }
+   ],
+   "ths_reason": "白酒+老窖池+董事会换届",
+   "written_by": "规则"
+  },
+  {
+   "code": "601091",
+   "name": "沈鼓集团",
+   "boards": 1,
+   "first_time": "1329",
+   "industry": "专用设备",
+   "stat": "1天1板",
+   "reason": "天然气压缩机+离心压缩机+煤化工装备+次新股",
+   "confidence": "中",
+   "themes": [
+    "油气",
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "近端次新股局部异动 沈鼓集团涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2532447"
+    },
+    {
+     "kind": "同花顺",
+     "text": "天然气压缩机+离心压缩机+煤化工装备+次新股",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "天然气压缩机+离心压缩机+煤化工装备+次新股",
+   "written_by": "规则"
+  },
+  {
+   "code": "601606",
+   "name": "长城军工",
+   "boards": 1,
+   "first_time": "1352",
+   "industry": "地面兵装",
+   "stat": "1天1板",
+   "reason": "弹药装备+兵装重组+央企",
+   "confidence": "中",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "军工板块再度拉升 长城军工逼近涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2532487"
+    },
+    {
+     "kind": "公司",
+     "text": "军工装备板块异动走高，长城军工涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261112/c681745472.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "弹药装备+兵装重组+央企",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "弹药装备+兵装重组+央企",
+   "written_by": "规则"
+  },
+  {
+   "code": "601566",
+   "name": "九牧王",
+   "boards": 1,
+   "first_time": "1430",
+   "industry": "服装家纺",
+   "stat": "1天1板",
+   "reason": "羊毛羊绒+男裤+太空裤+海峡两岸",
+   "confidence": "中",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "羊毛羊绒+男裤+太空裤+海峡两岸",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "羊毛羊绒+男裤+太空裤+海峡两岸",
+   "written_by": "规则"
+  }
+ ]
+}
