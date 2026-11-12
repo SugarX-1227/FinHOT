@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-11T09:16:07+08:00",
+"updated": "2026-11-12T10:17:12+08:00",
 "source": "巨潮资讯股票清单+东方财富行业",
 "complete": true,
 "stocks": [
@@ -35509,12 +35509,14 @@
 },
 {
 "code": "300901",
-"name": "中胤时尚",
+"name": "中胤科技",
 "exchange": "SZ",
 "org_id": "9900039768",
-"pinyin": "zyss",
+"pinyin": "zykj",
 "industry": "服装家纺",
-"former": [],
+"former": [
+"中胤时尚"
+],
 "st": false,
 "status": "listed",
 "hk": "",
@@ -37007,12 +37009,14 @@
 },
 {
 "code": "301015",
-"name": "百洋医药",
+"name": "百洋制药",
 "exchange": "SZ",
 "org_id": "9900036922",
-"pinyin": "byyy",
+"pinyin": "byzy",
 "industry": "医药商业",
-"former": [],
+"former": [
+"百洋医药"
+],
 "st": false,
 "status": "listed",
 "hk": "",
@@ -37417,7 +37421,7 @@
 "exchange": "SZ",
 "org_id": "9900036554",
 "pinyin": "nhkj",
-"industry": "专业工程",
+"industry": "电力",
 "former": [],
 "st": false,
 "status": "listed",
