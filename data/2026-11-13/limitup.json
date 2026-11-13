@@ -1,0 +1,760 @@
+{
+ "trade_date": "2026-11-13",
+ "coverage": 94.7,
+ "announced": 5,
+ "stocks": [
+  {
+   "code": "605255",
+   "name": "天普股份",
+   "boards": 4,
+   "first_time": "0930",
+   "industry": "汽车零部",
+   "stat": "4天4板",
+   "reason": "中昊芯英+汽车管路+外部流通盘小（公司提示：发布股票交易风险提示公告）",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "半导体",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：关于股票交易风险提示性公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=605255&announcementId=1225669088&orgId=9900039799&announcementTime=2026-11-13"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：天普股份关于股票交易风险提示性公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/605255/AN202611121831660616.html"
+    },
+    {
+     "kind": "公司",
+     "text": "天普股份：发布股票交易风险提示公告",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/2026-11-12/doc-iniynpnz1723912.shtml"
+    },
+    {
+     "kind": "公司",
+     "text": "算力芯片概念延续强势 天普股份触及涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2532220"
+    },
+    {
+     "kind": "盘面",
+     "text": "早盘算力芯片概念延续此前强势，华东重机一字涨停，旋极信息、大胜达、摩尔线程、天普股份、寒武纪涨超4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2533398"
+    },
+    {
+     "kind": "盘面",
+     "text": "算力芯片概念股天普股份（3板）高开4.78%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2533390"
+    },
+    {
+     "kind": "同花顺",
+     "text": "中昊芯英+汽车管路+外部流通盘小",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“反转股”概念（+1.63%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：英伟达股价收窄跌幅至5%以内 总市值重新触及4万亿美元",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2533166"
+    }
+   ],
+   "ths_reason": "中昊芯英+汽车管路+外部流通盘小",
+   "written_by": "规则"
+  },
+  {
+   "code": "002148",
+   "name": "北纬科技",
+   "boards": 3,
+   "first_time": "0930",
+   "industry": "通信服务",
+   "stat": "3天3板",
+   "reason": "四足机器人+手机游戏+物联网（公司提示：股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "消费电子",
+    "机器人",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002148&announcementId=1225669018&orgId=9900003401&announcementTime=2026-11-13"
+    },
+    {
+     "kind": "盘面",
+     "text": "午后游戏板块拉升，电魂网络、北纬科技涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2531219"
+    },
+    {
+     "kind": "同花顺",
+     "text": "四足机器人+手机游戏+物联网",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“数字经济”概念（+0.06%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费电子：苹果股价上涨1% 续刷纪录新高",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/2026-11-12/doc-iniynyar1091214.shtml"
+    }
+   ],
+   "ths_reason": "四足机器人+手机游戏+物联网",
+   "written_by": "规则"
+  },
+  {
+   "code": "603396",
+   "name": "金辰股份",
+   "boards": 3,
+   "first_time": "0930",
+   "industry": "光伏设备",
+   "stat": "3天3板",
+   "reason": "光伏设备+半导体装备+玻璃基封装（公司提示：营口金辰机械股份有限公司股票交易异常…）",
+   "confidence": "中",
+   "themes": [
+    "半导体",
+    "光伏"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：营口金辰机械股份有限公司股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603396&announcementId=1225669711&orgId=9900030574&announcementTime=2026-11-13"
+    },
+    {
+     "kind": "盘面",
+     "text": "光伏概念股日出东方（5板）低开3.04%、金辰股份（2板）高开8.91%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2533390"
+    },
+    {
+     "kind": "同花顺",
+     "text": "光伏设备+半导体装备+玻璃基封装",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "光伏设备+半导体装备+玻璃基封装",
+   "written_by": "规则"
+  },
+  {
+   "code": "001358",
+   "name": "兴欣新材",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "化学制品",
+   "stat": "2天2板",
+   "reason": "光刻胶剥离液+电子化学品+股份回购",
+   "confidence": "中",
+   "themes": [
+    "半导体",
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "光刻胶剥离液+电子化学品+股份回购",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“土壤修复”概念（+0.04%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "光刻胶剥离液+电子化学品+股份回购",
+   "written_by": "规则"
+  },
+  {
+   "code": "002187",
+   "name": "广百股份",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "一般零售",
+   "stat": "2天2板",
+   "reason": "消费走强",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "零售板块异动拉升 广百股份直线涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2532233"
+    },
+    {
+     "kind": "盘面",
+     "text": "零售广百股份、宁波中百双双涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2532604"
+    },
+    {
+     "kind": "盘面",
+     "text": "好当家、广百股份、惠发食品等涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3198930"
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“首发经济”概念（+0.27%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "600467",
+   "name": "好当家",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "渔业",
+   "stat": "2天2板",
+   "reason": "消费走强",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "好当家、广百股份、惠发食品等涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3198930"
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“中韩自贸区”概念（+0.97%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "002205",
+   "name": "国统股份",
+   "boards": 2,
+   "first_time": "0936",
+   "industry": "水泥",
+   "stat": "2天2板",
+   "reason": "基建建材题材",
+   "confidence": "低",
+   "themes": [
+    "基建建材"
+   ],
+   "evidence": [],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "002685",
+   "name": "华东重机",
+   "boards": 1,
+   "first_time": "0925",
+   "industry": "工程机械",
+   "stat": "1天1板",
+   "reason": "GPU芯片+港口装卸设备+三季报增长",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "半导体",
+    "航运物流"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "算力芯片概念延续强势 华东重机一字涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2533398"
+    },
+    {
+     "kind": "同花顺",
+     "text": "GPU芯片+港口装卸设备+三季报增长",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：英伟达股价收窄跌幅至5%以内 总市值重新触及4万亿美元",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2533166"
+    }
+   ],
+   "ths_reason": "GPU芯片+港口装卸设备+三季报增长",
+   "written_by": "规则"
+  },
+  {
+   "code": "002819",
+   "name": "东方中科",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "中科院+半导体测试+新能源汽车测试",
+   "confidence": "高",
+   "themes": [
+    "半导体",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "股东变动：关于业绩承诺补偿事项仲裁进展暨强制执行已完成、司法冻结股份解除冻结的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002819&announcementId=1225669346&orgId=9900024446&announcementTime=2026-11-13"
+    },
+    {
+     "kind": "公司",
+     "text": "东方中科：业绩承诺补偿仲裁强制执行完成，4279.73万股已司法扣划过户",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261112/c681764292.shtml"
+    },
+    {
+     "kind": "公司",
+     "text": "A股存储芯片板块高开，东方中科涨超近10%、伟测科技、东芯股份、华虹宏力、长川科技等纷纷上涨",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261113093112938800"
+    },
+    {
+     "kind": "同花顺",
+     "text": "中科院+半导体测试+新能源汽车测试",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“量子科技”概念（+0.01%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "中科院+半导体测试+新能源汽车测试",
+   "written_by": "规则"
+  },
+  {
+   "code": "603687",
+   "name": "大胜达",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "包装印刷",
+   "stat": "1天1板",
+   "reason": "GPU芯片+纸包装+钙钛矿设备",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "半导体",
+    "光伏"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "早盘算力芯片概念延续此前强势，华东重机一字涨停，旋极信息、大胜达、摩尔线程、天普股份、寒武纪涨超4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2533398"
+    },
+    {
+     "kind": "盘面",
+     "text": "早盘算力芯片概念再度活跃，天普股份触及涨停，大胜达、旋极信息、安凯微、翱捷科技、燧原科技、芯原股份等冲高",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2531004"
+    },
+    {
+     "kind": "同花顺",
+     "text": "GPU芯片+纸包装+钙钛矿设备",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“AIGC概念”（+0.19%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：英伟达股价收窄跌幅至5%以内 总市值重新触及4万亿美元",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2533166"
+    }
+   ],
+   "ths_reason": "GPU芯片+纸包装+钙钛矿设备",
+   "written_by": "规则"
+  },
+  {
+   "code": "600715",
+   "name": "文投控股",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "游戏Ⅱ",
+   "stat": "18天10板",
+   "reason": "AI漫剧+剧集发行+北京国资（公司提示：股份有限公司股票交易风险提示公告）",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股份有限公司股票交易风险提示公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600715&announcementId=1225667366&orgId=gssh0600715&announcementTime=2026-11-12"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：文投控股股份有限公司股票交易风险提示公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/600715/AN202611111831631483.html"
+    },
+    {
+     "kind": "公司",
+     "text": "AI漫剧概念震荡拉升 文投控股5天4板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2533402"
+    },
+    {
+     "kind": "公司",
+     "text": "影视院线板块直线拉升，文投控股涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261113/c681782173.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "华策影视跌超10%，文投控股炸板翻绿",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2532604"
+    },
+    {
+     "kind": "盘面",
+     "text": "市场焦点股文投控股（16天9板）高开6.69%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2532193"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI漫剧+剧集发行+北京国资",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“信托重仓”概念（+0.02%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "AI漫剧+剧集发行+北京国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "002905",
+   "name": "金逸影视",
+   "boards": 1,
+   "first_time": "0932",
+   "industry": "影视院线",
+   "stat": "4天2板",
+   "reason": "电影院线+影院+特色影厅",
+   "confidence": "中",
+   "themes": [
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "影视概念震荡走强 金逸影视、文投控股等多股涨停",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/"
+    },
+    {
+     "kind": "盘面",
+     "text": "华智数媒、欢瑞世纪、横店影视、中国电影、金逸影视跟涨",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261113/c681782173.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "电影院线+影院+特色影厅",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“文娱消费”概念（+0.59%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "传媒游戏：AI漫剧概念震荡拉升 文投控股5天4板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2533402"
+    }
+   ],
+   "ths_reason": "电影院线+影院+特色影厅",
+   "written_by": "规则"
+  },
+  {
+   "code": "603103",
+   "name": "横店影视",
+   "boards": 1,
+   "first_time": "0933",
+   "industry": "影视院线",
+   "stat": "1天1板",
+   "reason": "AI短剧+影视全产业链+IP运营",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "华智数媒、欢瑞世纪、横店影视、中国电影、金逸影视跟涨",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261113/c681782173.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "影视概念震荡走强，截至发稿，横店影视、金逸影视、文投控股等多股涨停",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI短剧+影视全产业链+IP运营",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“谷子经济”概念（+0.04%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "AI短剧+影视全产业链+IP运营",
+   "written_by": "规则"
+  },
+  {
+   "code": "603928",
+   "name": "兴业股份",
+   "boards": 1,
+   "first_time": "0933",
+   "industry": "塑料",
+   "stat": "1天1板",
+   "reason": "光刻胶树脂+合成树脂+三季报增长",
+   "confidence": "中",
+   "themes": [
+    "半导体"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "光刻胶概念持续走强，兴业股份涨停",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/2026-11-13/doc-iniypzqi1280322.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "光刻胶树脂+合成树脂+三季报增长",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“高铁”概念（+0.18%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "光刻胶树脂+合成树脂+三季报增长",
+   "written_by": "规则"
+  },
+  {
+   "code": "002425",
+   "name": "凯撒文化",
+   "boards": 1,
+   "first_time": "0935",
+   "industry": "游戏Ⅱ",
+   "stat": "4天3板",
+   "reason": "传媒走强",
+   "confidence": "中",
+   "themes": [
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "游戏板块短线拉升，凯撒文化涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261113/c681782580.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "传媒板块上海电影（8天4板）低开1.71%、凯撒文化（2板）竞价涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2532193"
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“元宇宙概念”（+0.43%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "传媒游戏：AI漫剧概念震荡拉升 文投控股5天4板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2533402"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "000665",
+   "name": "湖北广电",
+   "boards": 1,
+   "first_time": "0936",
+   "industry": "电视广播",
+   "stat": "1天1板",
+   "reason": "算力概念领涨",
+   "confidence": "中",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "文化传媒板块短线拉升，湖北广电直线涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261113/c681782537.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "湖北广电触及涨停",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/2026-11-13/doc-iniypzqk8060755.shtml"
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“算力概念”（+0.07%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "000802",
+   "name": "北京文化",
+   "boards": 1,
+   "first_time": "0938",
+   "industry": "影视院线",
+   "stat": "1天1板",
+   "reason": "保险重仓概念领涨",
+   "confidence": "中",
+   "themes": [
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "板块",
+     "text": "领涨“保险重仓”概念（+0.08%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "传媒游戏：AI漫剧概念震荡拉升 文投控股5天4板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2533402"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "603767",
+   "name": "中马传动",
+   "boards": 1,
+   "first_time": "0941",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "减速器概念领涨",
+   "confidence": "中",
+   "themes": [
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "板块",
+     "text": "领涨“减速器”概念（+0.24%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "汽车：报道：SpaceX与特斯拉创纪录合并谈判取得进展",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3199331"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "000766",
+   "name": "通化金马",
+   "boards": 1,
+   "first_time": "0943",
+   "industry": "化学制药",
+   "stat": "1天1板",
+   "reason": "工业大麻概念领涨",
+   "confidence": "中",
+   "themes": [
+    "医药"
+   ],
+   "evidence": [
+    {
+     "kind": "板块",
+     "text": "领涨“工业大麻”概念（+0.27%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  }
+ ]
+}
