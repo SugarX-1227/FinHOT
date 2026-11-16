@@ -1,0 +1,817 @@
+{
+ "trade_date": "2026-11-16",
+ "coverage": 43.2,
+ "announced": 10,
+ "stocks": [
+  {
+   "code": "605255",
+   "name": "天普股份",
+   "boards": 4,
+   "first_time": "0930",
+   "industry": "汽车零部",
+   "stat": "4天4板",
+   "reason": "汽车题材（同题材涨停 6 家）（公司提示：关于停牌核查的公告）",
+   "confidence": "低",
+   "themes": [
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "停复牌：关于停牌核查的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=605255&announcementId=1225671956&orgId=9900039799&announcementTime=2026-11-14"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：关于股票交易异常波动暨风险提示公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=605255&announcementId=1225671955&orgId=9900039799&announcementTime=2026-11-14"
+    },
+    {
+     "kind": "盘面",
+     "text": "8、4连板天普股份公告",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2534862"
+    },
+    {
+     "kind": "盘面",
+     "text": "1）4连板天普股份公告",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611163931566856.html"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "002148",
+   "name": "北纬科技",
+   "boards": 3,
+   "first_time": "0930",
+   "industry": "通信服务",
+   "stat": "3天3板",
+   "reason": "通信题材（公司提示：股票交易异常波动公告）",
+   "confidence": "低",
+   "themes": [
+    "通信"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002148&announcementId=1225669018&orgId=9900003401&announcementTime=2026-11-13"
+    },
+    {
+     "kind": "题材",
+     "text": "通信：天孚通信：11月13日回购40万股耗资5096万元 成交价124.19元/股-1",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2534663"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "603396",
+   "name": "金辰股份",
+   "boards": 3,
+   "first_time": "0930",
+   "industry": "光伏设备",
+   "stat": "3天3板",
+   "reason": "相关报道事项与公司和SINGULUS SOLAR（公司提示：事关SpaceX订单！金辰股份紧急澄…）",
+   "confidence": "中",
+   "themes": [
+    "光伏"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：营口金辰机械股份有限公司股票交易风险提示公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603396&announcementId=1225672373&orgId=9900030574&announcementTime=2026-11-16"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：营口金辰机械股份有限公司股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603396&announcementId=1225669711&orgId=9900030574&announcementTime=2026-11-13"
+    },
+    {
+     "kind": "公司",
+     "text": "事关SpaceX订单！金辰股份紧急澄清",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611153931486066.html"
+    },
+    {
+     "kind": "公司",
+     "text": "3连板金辰股份：相关报道事项与公司和SINGULUS SOLAR GmbH无关",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2534753"
+    },
+    {
+     "kind": "盘面",
+     "text": "2）3连板金辰股份表示相关报道事项与公司和SINGULUSSOLARGmbH无关",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611163931566856.html"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "001358",
+   "name": "兴欣新材",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "化学制品",
+   "stat": "2天2板",
+   "reason": "化工题材（公司提示：股票交易异常波动的公告）",
+   "confidence": "低",
+   "themes": [
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=001358&announcementId=1225670944&orgId=9900039470&announcementTime=2026-11-14"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "002187",
+   "name": "广百股份",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "一般零售",
+   "stat": "2天2板",
+   "reason": "消费题材（公司提示：股票交易异常波动公告）",
+   "confidence": "低",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002187&announcementId=1225671402&orgId=9900003881&announcementTime=2026-11-16"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "600467",
+   "name": "好当家",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "渔业",
+   "stat": "2天2板",
+   "reason": "保险重仓概念领涨（公司提示：关于股票交易异常波动的公告）",
+   "confidence": "中",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：关于股票交易异常波动的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600467&announcementId=1225671010&orgId=gssh0600467&announcementTime=2026-11-14"
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“保险重仓”概念（+1.06%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "002205",
+   "name": "国统股份",
+   "boards": 2,
+   "first_time": "0936",
+   "industry": "水泥",
+   "stat": "2天2板",
+   "reason": "基建建材题材（同题材涨停 3 家）（公司提示：新疆国统管道股份有限公司关于股票交易…）",
+   "confidence": "低",
+   "themes": [
+    "基建建材"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：新疆国统管道股份有限公司关于股票交易异常波动的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002205&announcementId=1225672163&orgId=9900004002&announcementTime=2026-11-14"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "002685",
+   "name": "华东重机",
+   "boards": 1,
+   "first_time": "0925",
+   "industry": "工程机械",
+   "stat": "1天1板",
+   "reason": "基建建材题材（同题材涨停 3 家）",
+   "confidence": "低",
+   "themes": [
+    "基建建材"
+   ],
+   "evidence": [],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "002819",
+   "name": "东方中科",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "通用设备",
+   "confidence": "低",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "股东变动：关于持股5%以上股东权益变动触及1%及5%整数倍的公告（万里锦程）",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002819&announcementId=1225671317&orgId=9900024446&announcementTime=2026-11-14"
+    },
+    {
+     "kind": "公告",
+     "text": "股东变动：简式权益变动报告书-万里锦程",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002819&announcementId=1225671316&orgId=9900024446&announcementTime=2026-11-14"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "600715",
+   "name": "文投控股",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "游戏Ⅱ",
+   "stat": "18天10板",
+   "reason": "传媒走强（公司提示：股份有限公司股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股份有限公司股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600715&announcementId=1225671580&orgId=gssh0600715&announcementTime=2026-11-14"
+    },
+    {
+     "kind": "盘面",
+     "text": "传媒板块在经历前一个交易日的短暂调整后，昨日再度走出独立行情，文投控股开盘秒涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611143931073412.html"
+    },
+    {
+     "kind": "题材",
+     "text": "传媒游戏：2026年度电影总票房破320亿",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2534728"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "002905",
+   "name": "金逸影视",
+   "boards": 1,
+   "first_time": "0932",
+   "industry": "影视院线",
+   "stat": "4天2板",
+   "reason": "传媒游戏走强",
+   "confidence": "中",
+   "themes": [
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "幸福蓝海、横店影视、凯撒文化、金逸影视等多只个股涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611143931073412.html"
+    },
+    {
+     "kind": "题材",
+     "text": "传媒游戏：2026年度电影总票房破320亿",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2534728"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "603103",
+   "name": "横店影视",
+   "boards": 1,
+   "first_time": "0933",
+   "industry": "影视院线",
+   "stat": "1天1板",
+   "reason": "传媒游戏走强",
+   "confidence": "中",
+   "themes": [
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "幸福蓝海、横店影视、凯撒文化、金逸影视等多只个股涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611143931073412.html"
+    },
+    {
+     "kind": "题材",
+     "text": "传媒游戏：2026年度电影总票房破320亿",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2534728"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "603928",
+   "name": "兴业股份",
+   "boards": 1,
+   "first_time": "0933",
+   "industry": "塑料",
+   "stat": "1天1板",
+   "reason": "塑料",
+   "confidence": "低",
+   "themes": [],
+   "evidence": [],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "002425",
+   "name": "凯撒文化",
+   "boards": 1,
+   "first_time": "0935",
+   "industry": "游戏Ⅱ",
+   "stat": "4天3板",
+   "reason": "传媒游戏走强",
+   "confidence": "中",
+   "themes": [
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "幸福蓝海、横店影视、凯撒文化、金逸影视等多只个股涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611143931073412.html"
+    },
+    {
+     "kind": "题材",
+     "text": "传媒游戏：2026年度电影总票房破320亿",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2534728"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "000665",
+   "name": "湖北广电",
+   "boards": 1,
+   "first_time": "0936",
+   "industry": "电视广播",
+   "stat": "1天1板",
+   "reason": "电视广播",
+   "confidence": "低",
+   "themes": [],
+   "evidence": [],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "603767",
+   "name": "中马传动",
+   "boards": 1,
+   "first_time": "0941",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "汽车题材（同题材涨停 6 家）",
+   "confidence": "低",
+   "themes": [
+    "汽车"
+   ],
+   "evidence": [],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "000766",
+   "name": "通化金马",
+   "boards": 1,
+   "first_time": "0943",
+   "industry": "化学制药",
+   "stat": "1天1板",
+   "reason": "琥珀酸安维吖啶片首次纳入国家医保目录",
+   "confidence": "中",
+   "themes": [
+    "医药"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "通化金马：琥珀酸安维吖啶片首次纳入国家医保目录",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103440996.html"
+    },
+    {
+     "kind": "公司",
+     "text": "通化金马：1类创新药琥珀酸安维吖啶片纳入国家医保目录 用于轻、中度阿尔茨海默病症状的治疗",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2534680"
+    },
+    {
+     "kind": "题材",
+     "text": "医药：中信证券：国家医保谈判持续支持创新药 关注2027年商业化增量",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2534848"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "600410",
+   "name": "华胜天成",
+   "boards": 1,
+   "first_time": "0950",
+   "industry": "IT服务Ⅱ",
+   "stat": "1天1板",
+   "reason": "国产软件概念领涨",
+   "confidence": "中",
+   "themes": [
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "板块",
+     "text": "领涨“国产软件”概念（+1.35%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "002853",
+   "name": "皮阿诺",
+   "boards": 1,
+   "first_time": "0956",
+   "industry": "家居用品",
+   "stat": "1天1板",
+   "reason": "家居用品",
+   "confidence": "低",
+   "themes": [],
+   "evidence": [],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "002042",
+   "name": "华孚时尚",
+   "boards": 1,
+   "first_time": "0956",
+   "industry": "纺织制造",
+   "stat": "1天1板",
+   "reason": "纺织制造",
+   "confidence": "低",
+   "themes": [],
+   "evidence": [],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "600977",
+   "name": "中国电影",
+   "boards": 1,
+   "first_time": "1008",
+   "industry": "影视院线",
+   "stat": "1天1板",
+   "reason": "传媒游戏题材（同题材涨停 7 家）",
+   "confidence": "低",
+   "themes": [
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "题材",
+     "text": "传媒游戏：2026年度电影总票房破320亿",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2534728"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "300528",
+   "name": "幸福蓝海",
+   "boards": 1,
+   "first_time": "1009",
+   "industry": "影视院线",
+   "stat": "1天1板",
+   "reason": "传媒游戏走强",
+   "confidence": "中",
+   "themes": [
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "幸福蓝海、横店影视、凯撒文化、金逸影视等多只个股涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611143931073412.html"
+    },
+    {
+     "kind": "题材",
+     "text": "传媒游戏：2026年度电影总票房破320亿",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2534728"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "002548",
+   "name": "金新农",
+   "boards": 1,
+   "first_time": "1017",
+   "industry": "饲料",
+   "stat": "1天1板",
+   "reason": "农业题材",
+   "confidence": "低",
+   "themes": [
+    "农业"
+   ],
+   "evidence": [],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "002124",
+   "name": "天邦食品",
+   "boards": 1,
+   "first_time": "1020",
+   "industry": "养殖业",
+   "stat": "1天1板",
+   "reason": "农业题材",
+   "confidence": "低",
+   "themes": [
+    "农业"
+   ],
+   "evidence": [],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "300237",
+   "name": "美晨科技",
+   "boards": 1,
+   "first_time": "1038",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "汽车题材（同题材涨停 6 家）",
+   "confidence": "低",
+   "themes": [
+    "汽车"
+   ],
+   "evidence": [],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "002739",
+   "name": "儒意电影",
+   "boards": 1,
+   "first_time": "1038",
+   "industry": "影视院线",
+   "stat": "1天1板",
+   "reason": "传媒游戏题材（同题材涨停 7 家）",
+   "confidence": "低",
+   "themes": [
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "题材",
+     "text": "传媒游戏：2026年度电影总票房破320亿",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2534728"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "600651",
+   "name": "飞乐音响",
+   "boards": 1,
+   "first_time": "1038",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "汽车题材（同题材涨停 6 家）",
+   "confidence": "低",
+   "themes": [
+    "汽车"
+   ],
+   "evidence": [],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "603166",
+   "name": "福达股份",
+   "boards": 1,
+   "first_time": "1048",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "汽车题材（同题材涨停 6 家）",
+   "confidence": "低",
+   "themes": [
+    "汽车"
+   ],
+   "evidence": [],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "002748",
+   "name": "世龙实业",
+   "boards": 1,
+   "first_time": "1052",
+   "industry": "化学原料",
+   "stat": "1天1板",
+   "reason": "化工题材",
+   "confidence": "低",
+   "themes": [
+    "化工"
+   ],
+   "evidence": [],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "603686",
+   "name": "福龙马",
+   "boards": 1,
+   "first_time": "1056",
+   "industry": "环境治理",
+   "stat": "1天1板",
+   "reason": "环境治理",
+   "confidence": "低",
+   "themes": [],
+   "evidence": [],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "001393",
+   "name": "维通利",
+   "boards": 1,
+   "first_time": "1104",
+   "industry": "电网设备",
+   "stat": "1天1板",
+   "reason": "电力题材",
+   "confidence": "低",
+   "themes": [
+    "电力"
+   ],
+   "evidence": [],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "605318",
+   "name": "法狮龙",
+   "boards": 1,
+   "first_time": "1106",
+   "industry": "装修建材",
+   "stat": "1天1板",
+   "reason": "基建建材题材（同题材涨停 3 家）",
+   "confidence": "低",
+   "themes": [
+    "基建建材"
+   ],
+   "evidence": [],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "000595",
+   "name": "新能股份",
+   "boards": 1,
+   "first_time": "1117",
+   "industry": "电力",
+   "stat": "1天1板",
+   "reason": "电力题材",
+   "confidence": "低",
+   "themes": [
+    "电力"
+   ],
+   "evidence": [],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "002520",
+   "name": "日发精机",
+   "boards": 1,
+   "first_time": "1121",
+   "industry": "通用设备",
+   "stat": "3天2板",
+   "reason": "通用设备",
+   "confidence": "低",
+   "themes": [],
+   "evidence": [],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "603286",
+   "name": "日盈电子",
+   "boards": 1,
+   "first_time": "1300",
+   "industry": "汽车零部",
+   "stat": "5天3板",
+   "reason": "汽车题材（同题材涨停 6 家）",
+   "confidence": "低",
+   "themes": [
+    "汽车"
+   ],
+   "evidence": [],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "603636",
+   "name": "南威软件",
+   "boards": 1,
+   "first_time": "1336",
+   "industry": "IT服务Ⅱ",
+   "stat": "1天1板",
+   "reason": "数字经济题材",
+   "confidence": "低",
+   "themes": [
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "股东变动：关于控股股东部分股份质押延期购回的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603636&announcementId=1225669341&orgId=9900023642&announcementTime=2026-11-13"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "000819",
+   "name": "岳阳兴长",
+   "boards": 1,
+   "first_time": "1419",
+   "industry": "炼化及贸",
+   "stat": "1天1板",
+   "reason": "油气题材",
+   "confidence": "低",
+   "themes": [
+    "油气"
+   ],
+   "evidence": [],
+   "ths_reason": "",
+   "written_by": "规则"
+  }
+ ]
+}
