@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-16T09:00:32+08:00",
+"updated": "2026-11-17T01:29:54+08:00",
 "source": "巨潮资讯股票清单",
 "complete": true,
 "stocks": [
@@ -84290,6 +84290,20 @@
 "org_id": "9900046762",
 "pinyin": "jlgf",
 "industry": "饮料乳品",
+"former": [],
+"st": false,
+"status": "listed",
+"hk": "",
+"us": "",
+"aliases": []
+},
+{
+"code": "920319",
+"name": "天广实",
+"exchange": "BJ",
+"org_id": "nssc1000840",
+"pinyin": "tgs",
+"industry": "",
 "former": [],
 "st": false,
 "status": "listed",
