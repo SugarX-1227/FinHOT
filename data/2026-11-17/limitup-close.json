@@ -1,0 +1,1435 @@
+{
+ "trade_date": "2026-11-17",
+ "coverage": 100.0,
+ "announced": 4,
+ "stocks": [
+  {
+   "code": "002685",
+   "name": "华东重机",
+   "boards": 3,
+   "first_time": "0925",
+   "industry": "工程机械",
+   "stat": "3天3板",
+   "reason": "GPU芯片+港口装卸设备+定增注册（公司提示：股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "半导体",
+    "航运物流"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002685&announcementId=1225673098&orgId=9900022782&announcementTime=2026-11-17"
+    },
+    {
+     "kind": "盘面",
+     "text": "算力芯片概念股华东重机3连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536520"
+    },
+    {
+     "kind": "盘面",
+     "text": "昨日11只连板股中仅华东重机晋级",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536572"
+    },
+    {
+     "kind": "同花顺",
+     "text": "GPU芯片+港口装卸设备+定增注册",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“反转股”概念（+4.09%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：外交部回应美国政府调查涉英伟达芯片一事",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536535"
+    }
+   ],
+   "ths_reason": "GPU芯片+港口装卸设备+定增注册",
+   "written_by": "规则"
+  },
+  {
+   "code": "000533",
+   "name": "顺钠股份",
+   "boards": 2,
+   "first_time": "0930",
+   "industry": "电网设备",
+   "stat": "2天2板",
+   "reason": "回购+员工持股计划+干式变压器",
+   "confidence": "高",
+   "themes": [
+    "半导体",
+    "电力"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "回购：关于回购公司股份方案的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000533&announcementId=1225674558&orgId=gssz0000533&announcementTime=2026-11-17"
+    },
+    {
+     "kind": "公司",
+     "text": "顺钠股份：拟以1.2亿元-2.4亿元回购公司股份",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103442456.html"
+    },
+    {
+     "kind": "公司",
+     "text": "电网设备概念表现活跃 顺钠股份、摩恩电气双双涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536171"
+    },
+    {
+     "kind": "盘面",
+     "text": "其次分别是华胜天成（6.27亿元）、寒武纪（4.46亿元）、阳光照明（3.96亿元）、中芯国际（3.45亿元）、华虹宏力（3.44亿元）、京东方A（2.55亿元）、东方海洋（1.88亿元）、顺钠股份（1.77亿元）、海立股份（1.60亿元）",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261117104345821800"
+    },
+    {
+     "kind": "盘面",
+     "text": "电网设备板块走高，中能电气涨超10%，摩恩电气、顺钠股份此前涨停",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/2026-11-17/doc-iniyyzyp7771321.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "回购+员工持股计划+干式变压器",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "回购+员工持股计划+干式变压器",
+   "written_by": "规则"
+  },
+  {
+   "code": "000521",
+   "name": "长虹美菱",
+   "boards": 2,
+   "first_time": "0932",
+   "industry": "白色家电",
+   "stat": "2天2板",
+   "reason": "家电+B股增持+四川国资",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "家电板块反复活跃，长虹美菱、小熊电器走出2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536498"
+    },
+    {
+     "kind": "盘面",
+     "text": "小家电概念股仍有局部异动，长虹美菱、小熊电器均晋级2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536572"
+    },
+    {
+     "kind": "同花顺",
+     "text": "家电+B股增持+四川国资",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“净水概念”（+0.07%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：银座股份：公司近日已获批岛内居民消费“零关税”进境商品经营资格",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/2026-11-17/doc-iniyzswf7584718.shtml"
+    }
+   ],
+   "ths_reason": "家电+B股增持+四川国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "600936",
+   "name": "北投科技",
+   "boards": 2,
+   "first_time": "0933",
+   "industry": "IT服务Ⅱ",
+   "stat": "2天2板",
+   "reason": "AI应用+平陆运河+广西国资",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "AI应用+平陆运河+广西国资",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：泰国央行称仍在评估美国人工智能芯片限制措施的整体影响",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536587"
+    }
+   ],
+   "ths_reason": "AI应用+平陆运河+广西国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "002861",
+   "name": "瀛通通讯",
+   "boards": 2,
+   "first_time": "0938",
+   "industry": "消费电子",
+   "stat": "6天4板",
+   "reason": "AI眼镜+智能声学+消费电子",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "消费电子",
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "AI眼镜概念异动拉升 瀛通通讯、芯瑞达双双涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536193"
+    },
+    {
+     "kind": "盘面",
+     "text": "端侧AI概念股瀛通通讯6天4板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536520"
+    },
+    {
+     "kind": "盘面",
+     "text": "消费电子板块盘中持续反弹，影石创新涨超10%，此前瀛通通讯2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536275"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI眼镜+智能声学+消费电子",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：泰国央行称仍在评估美国人工智能芯片限制措施的整体影响",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536587"
+    }
+   ],
+   "ths_reason": "AI眼镜+智能声学+消费电子",
+   "written_by": "规则"
+  },
+  {
+   "code": "002959",
+   "name": "小熊电器",
+   "boards": 2,
+   "first_time": "1049",
+   "industry": "小家电",
+   "stat": "2天2板",
+   "reason": "小家电+跨境电商+母婴产品",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "小家电板块表现活跃，九阳股份上演“地天板”，小熊电器触及涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261117/c681901328.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "家电板块反复活跃，长虹美菱、小熊电器走出2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536498"
+    },
+    {
+     "kind": "同花顺",
+     "text": "小家电+跨境电商+母婴产品",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：银座股份：公司近日已获批岛内居民消费“零关税”进境商品经营资格",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/2026-11-17/doc-iniyzswf7584718.shtml"
+    }
+   ],
+   "ths_reason": "小家电+跨境电商+母婴产品",
+   "written_by": "规则"
+  },
+  {
+   "code": "002451",
+   "name": "摩恩电气",
+   "boards": 1,
+   "first_time": "0925",
+   "industry": "电网设备",
+   "stat": "1天1板",
+   "reason": "电磁线+特种电缆+海外基地",
+   "confidence": "中",
+   "themes": [
+    "电力"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "电网设备概念表现活跃 顺钠股份、摩恩电气双双涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536171"
+    },
+    {
+     "kind": "盘面",
+     "text": "电网设备板块走高，中能电气涨超10%，摩恩电气、顺钠股份此前涨停",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/2026-11-17/doc-iniyyzyp7771321.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "电磁线+特种电缆+海外基地",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "电磁线+特种电缆+海外基地",
+   "written_by": "规则"
+  },
+  {
+   "code": "600881",
+   "name": "亚泰集团",
+   "boards": 1,
+   "first_time": "0925",
+   "industry": "综合Ⅱ",
+   "stat": "1天1板",
+   "reason": "重整投资协议+长发集团控股+预重整+建材医药（公司提示：吉林亚泰（集团）股份有限公司关于与重…）",
+   "confidence": "中",
+   "themes": [
+    "医药",
+    "基建建材"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "重大合同：吉林亚泰（集团）股份有限公司关于与重整投资人签署《重整投资协议》暨预重整进展的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600881&announcementId=1225674721&orgId=gssh0600881&announcementTime=2026-11-17"
+    },
+    {
+     "kind": "公司",
+     "text": "15.53亿元受让14.19亿转增股份 长春国资拟入主亚泰集团 两项退市风险警示仍悬顶",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611163932065289.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "重整投资协议+长发集团控股+预重整+建材医药",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "重整投资协议+长发集团控股+预重整+建材医药",
+   "written_by": "规则"
+  },
+  {
+   "code": "002535",
+   "name": "林州重机",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "专用设备",
+   "stat": "1天1板",
+   "reason": "机器人+煤矿机械+储能",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "锂电储能"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "机器人+煤矿机械+储能",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "机器人+煤矿机械+储能",
+   "written_by": "规则"
+  },
+  {
+   "code": "000707",
+   "name": "双环科技",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "化学原料",
+   "stat": "1天1板",
+   "reason": "氯化铵涨价+钠电池正极材料+湖北国资",
+   "confidence": "中",
+   "themes": [
+    "锂电储能",
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "氯化铵价格创新高 双环科技回应：产品价格上涨对公司是利好 具体情况以公司公告为准",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261117150911486800"
+    },
+    {
+     "kind": "公司",
+     "text": "氯化铵价格创新高，双环科技涨停，公司回应来了",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/2026-11-17/doc-iniyznqi2255589.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "氯化铵涨价+钠电池正极材料+湖北国资",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "氯化铵涨价+钠电池正极材料+湖北国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "600410",
+   "name": "华胜天成",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "IT服务Ⅱ",
+   "stat": "3天2板",
+   "reason": "AI算力+算力服务+华为鲲鹏",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "算力",
+    "半导体"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "华为算力概念局部异动 华胜天成、真视通双双涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536189"
+    },
+    {
+     "kind": "盘面",
+     "text": "华为算力华胜天成3天2板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536498"
+    },
+    {
+     "kind": "盘面",
+     "text": "寒武纪、中芯国际、华胜天成主力资金净流入居前",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536459"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI算力+算力服务+华为鲲鹏",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：泰国央行称仍在评估美国人工智能芯片限制措施的整体影响",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536587"
+    }
+   ],
+   "ths_reason": "AI算力+算力服务+华为鲲鹏",
+   "written_by": "规则"
+  },
+  {
+   "code": "002843",
+   "name": "泰嘉股份",
+   "boards": 1,
+   "first_time": "0931",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "服务器电源+锯切龙头+商业航天",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "商业航天"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "服务器电源+锯切龙头+商业航天",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：外交部回应美国政府调查涉英伟达芯片一事",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536535"
+    }
+   ],
+   "ths_reason": "服务器电源+锯切龙头+商业航天",
+   "written_by": "规则"
+  },
+  {
+   "code": "603206",
+   "name": "嘉环科技",
+   "boards": 1,
+   "first_time": "0932",
+   "industry": "通信服务",
+   "stat": "1天1板",
+   "reason": "AI算力+智能矿山+嘉链AI",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "算力",
+    "通信"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "华为算力华胜天成3天2板，真视通、嘉环科技涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536498"
+    },
+    {
+     "kind": "盘面",
+     "text": "午后华为算力概念持续走高，卡莱特20cm涨停，此前华胜天成、真视通、嘉环科技涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536384"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI算力+智能矿山+嘉链AI",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：泰国央行称仍在评估美国人工智能芯片限制措施的整体影响",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536587"
+    }
+   ],
+   "ths_reason": "AI算力+智能矿山+嘉链AI",
+   "written_by": "规则"
+  },
+  {
+   "code": "002771",
+   "name": "真视通",
+   "boards": 1,
+   "first_time": "0933",
+   "industry": "IT服务Ⅱ",
+   "stat": "1天1板",
+   "reason": "液冷算力+华为+AI应用",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "算力",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "华为算力概念局部异动 华胜天成、真视通双双涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536189"
+    },
+    {
+     "kind": "盘面",
+     "text": "华为算力华胜天成3天2板，真视通、嘉环科技涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536498"
+    },
+    {
+     "kind": "盘面",
+     "text": "午后华为算力概念持续走高，卡莱特20cm涨停，此前华胜天成、真视通、嘉环科技涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536384"
+    },
+    {
+     "kind": "同花顺",
+     "text": "液冷算力+华为+AI应用",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：泰国央行称仍在评估美国人工智能芯片限制措施的整体影响",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536587"
+    }
+   ],
+   "ths_reason": "液冷算力+华为+AI应用",
+   "written_by": "规则"
+  },
+  {
+   "code": "300786",
+   "name": "国林科技",
+   "boards": 1,
+   "first_time": "0934",
+   "industry": "环保设备",
+   "stat": "1天1板",
+   "reason": "半导体设备+臭氧设备+存储芯片",
+   "confidence": "中",
+   "themes": [
+    "半导体"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "半导体设备板块盘中涨势扩大，东方嘉盛直线涨停，此前国林科技、柏诚股份、盛剑科技、海立股份涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536282"
+    },
+    {
+     "kind": "盘面",
+     "text": "光刻胶板块冲高回落，联合化学、国林科技、江化微、格林达等股涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261117/c681901328.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "半导体设备+臭氧设备+存储芯片",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“先进封装”概念（+0.45%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "半导体设备+臭氧设备+存储芯片",
+   "written_by": "规则"
+  },
+  {
+   "code": "002584",
+   "name": "西陇科学",
+   "boards": 1,
+   "first_time": "0935",
+   "industry": "电子化学",
+   "stat": "1天1板",
+   "reason": "光刻胶配套试剂+电子化学品+化学试剂",
+   "confidence": "中",
+   "themes": [
+    "半导体"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "光刻胶板块直线拉升 西陇科学、盛剑科技涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611173932686698.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "芯片产业链表现活跃，东方嘉盛、西陇科学、国林科技、联合化学、有研新材涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536498"
+    },
+    {
+     "kind": "盘面",
+     "text": "芯片产业链早盘异动拉升，东方嘉盛、怡达股份、综艺股份、西陇科学、国林科技、联合化学、有研新材涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536305"
+    },
+    {
+     "kind": "同花顺",
+     "text": "光刻胶配套试剂+电子化学品+化学试剂",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“光刻胶”概念（+3.12%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "光刻胶配套试剂+电子化学品+化学试剂",
+   "written_by": "规则"
+  },
+  {
+   "code": "603324",
+   "name": "盛剑科技",
+   "boards": 1,
+   "first_time": "0935",
+   "industry": "环保设备",
+   "stat": "1天1板",
+   "reason": "半导体附属装备+电子化学品+半导体板块拉升",
+   "confidence": "中",
+   "themes": [
+    "半导体"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "光刻胶板块直线拉升 西陇科学、盛剑科技涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611173932686698.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "半导体设备板块盘中涨势扩大，东方嘉盛直线涨停，此前国林科技、柏诚股份、盛剑科技、海立股份涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536282"
+    },
+    {
+     "kind": "同花顺",
+     "text": "半导体附属装备+电子化学品+半导体板块拉升",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“中芯概念”（+1.90%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "半导体附属装备+电子化学品+半导体板块拉升",
+   "written_by": "规则"
+  },
+  {
+   "code": "002983",
+   "name": "芯瑞达",
+   "boards": 1,
+   "first_time": "0935",
+   "industry": "光学光电",
+   "stat": "1天1板",
+   "reason": "MicroLED+AI眼镜+像素车灯",
+   "confidence": "中",
+   "themes": [
+    "人工智能"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "AI眼镜概念异动拉升 瀛通通讯、芯瑞达双双涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536193"
+    },
+    {
+     "kind": "盘面",
+     "text": "光学光电子板块亦表现活跃，芯瑞达、阳光照明、永新光学、波长光电触及涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261117/c681893912.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "MicroLED+AI眼镜+像素车灯",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：泰国央行称仍在评估美国人工智能芯片限制措施的整体影响",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536587"
+    }
+   ],
+   "ths_reason": "MicroLED+AI眼镜+像素车灯",
+   "written_by": "规则"
+  },
+  {
+   "code": "002912",
+   "name": "中新赛克",
+   "boards": 1,
+   "first_time": "0936",
+   "industry": "计算机设",
+   "stat": "1天1板",
+   "reason": "AI安全+数据安全+深圳国资",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "网络安全概念盘中逆势活跃，永信至诚逼近20cm涨停，此前中新赛克涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536232"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI安全+数据安全+深圳国资",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：泰国央行称仍在评估美国人工智能芯片限制措施的整体影响",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536587"
+    }
+   ],
+   "ths_reason": "AI安全+数据安全+深圳国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "600202",
+   "name": "哈空调",
+   "boards": 1,
+   "first_time": "0945",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "空冷器+核电+控股股东增持",
+   "confidence": "中",
+   "themes": [
+    "电力"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "空冷器+核电+控股股东增持",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "空冷器+核电+控股股东增持",
+   "written_by": "规则"
+  },
+  {
+   "code": "600467",
+   "name": "好当家",
+   "boards": 1,
+   "first_time": "0945",
+   "industry": "渔业",
+   "stat": "4天3板",
+   "reason": "海参+水产养殖+白酒（公司提示：关于股票交易异常波动的公告）",
+   "confidence": "中",
+   "themes": [
+    "消费",
+    "农业"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：关于股票交易异常波动的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600467&announcementId=1225671010&orgId=gssh0600467&announcementTime=2026-11-14"
+    },
+    {
+     "kind": "同花顺",
+     "text": "海参+水产养殖+白酒",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“中韩自贸区”概念（+1.20%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：银座股份：公司近日已获批岛内居民消费“零关税”进境商品经营资格",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/2026-11-17/doc-iniyzswf7584718.shtml"
+    }
+   ],
+   "ths_reason": "海参+水产养殖+白酒",
+   "written_by": "规则"
+  },
+  {
+   "code": "600206",
+   "name": "有研新材",
+   "boards": 1,
+   "first_time": "0952",
+   "industry": "半导体",
+   "stat": "1天1板",
+   "reason": "半导体靶材+先进存储+靶材扩产+三季报增长",
+   "confidence": "中",
+   "themes": [
+    "半导体"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "芯片产业链表现活跃，东方嘉盛、西陇科学、国林科技、联合化学、有研新材涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536498"
+    },
+    {
+     "kind": "盘面",
+     "text": "有研新材资金净买入13.83亿元位居首位",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536459"
+    },
+    {
+     "kind": "同花顺",
+     "text": "半导体靶材+先进存储+靶材扩产+三季报增长",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "半导体靶材+先进存储+靶材扩产+三季报增长",
+   "written_by": "规则"
+  },
+  {
+   "code": "002242",
+   "name": "九阳股份",
+   "boards": 1,
+   "first_time": "0953",
+   "industry": "小家电",
+   "stat": "1天1板",
+   "reason": "地天板+“羊”字辈+厨房小家电+机器人投资",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "九阳股份上演“地天板”",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611173932722852.html"
+    },
+    {
+     "kind": "公司",
+     "text": "九阳股份盘中上演“地天板” 成交超32亿",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536257"
+    },
+    {
+     "kind": "盘面",
+     "text": "小家电板块表现活跃，九阳股份上演“地天板”",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261117/c681901328.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "家电股继续走强，小熊电器2连板，九阳股份上演地天板",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3201084"
+    },
+    {
+     "kind": "同花顺",
+     "text": "地天板+“羊”字辈+厨房小家电+机器人投资",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“消费风格”概念（+0.70%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "地天板+“羊”字辈+厨房小家电+机器人投资",
+   "written_by": "规则"
+  },
+  {
+   "code": "301209",
+   "name": "联合化学",
+   "boards": 1,
+   "first_time": "1000",
+   "industry": "化学制品",
+   "stat": "1天1板",
+   "reason": "光刻胶+光刻机+有机颜料",
+   "confidence": "中",
+   "themes": [
+    "半导体",
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "光刻胶板块冲高回落，联合化学、国林科技、江化微、格林达等股涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261117/c681901328.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "芯片产业链表现活跃，东方嘉盛、西陇科学、国林科技、联合化学、有研新材涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536498"
+    },
+    {
+     "kind": "同花顺",
+     "text": "光刻胶+光刻机+有机颜料",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“染料”概念（+0.30%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "光刻胶+光刻机+有机颜料",
+   "written_by": "规则"
+  },
+  {
+   "code": "301288",
+   "name": "清研环境",
+   "boards": 1,
+   "first_time": "1010",
+   "industry": "环保设备",
+   "stat": "1天1板",
+   "reason": "金属镍+固危废资源化+污水处理",
+   "confidence": "中",
+   "themes": [
+    "有色金属"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "金属镍+固危废资源化+污水处理",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“金属镍”概念（+0.50%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "金属镍+固危废资源化+污水处理",
+   "written_by": "规则"
+  },
+  {
+   "code": "600619",
+   "name": "海立股份",
+   "boards": 1,
+   "first_time": "1023",
+   "industry": "家电零部",
+   "stat": "1天1板",
+   "reason": "空调压缩机+光刻机冷却+上海国资",
+   "confidence": "中",
+   "themes": [
+    "半导体",
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "A股光刻机概念震荡反弹，海立股份涨停，波长光电涨超11%，茂莱光学、福晶科技、美埃科技、福光股份、永新光学等跟涨",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261117102424395800"
+    },
+    {
+     "kind": "盘面",
+     "text": "半导体设备板块盘中涨势扩大，东方嘉盛直线涨停，此前国林科技、柏诚股份、盛剑科技、海立股份涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536282"
+    },
+    {
+     "kind": "盘面",
+     "text": "光刻机、光刻胶方向领涨，联合化学、国林科技、海立股份、东方嘉盛等多股涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3201084"
+    },
+    {
+     "kind": "同花顺",
+     "text": "空调压缩机+光刻机冷却+上海国资",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "空调压缩机+光刻机冷却+上海国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "603078",
+   "name": "江化微",
+   "boards": 1,
+   "first_time": "1028",
+   "industry": "电子化学",
+   "stat": "1天1板",
+   "reason": "湿电子化学品+存储芯片+上海国资",
+   "confidence": "中",
+   "themes": [
+    "半导体"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "光刻胶板块冲高回落，联合化学、国林科技、江化微、格林达等股涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261117/c681901328.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "光刻胶板块低开高走表现强势，联合化学、怡达股份、西陇科学、江化微、格林达等多股触及涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261117/c681893912.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "湿电子化学品+存储芯片+上海国资",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“氟化工概念”（+0.23%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "湿电子化学品+存储芯片+上海国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "600261",
+   "name": "阳光照明",
+   "boards": 1,
+   "first_time": "1038",
+   "industry": "照明设备",
+   "stat": "14天8板",
+   "reason": "商业航天+激光通信+LED照明+“羊”字辈",
+   "confidence": "中",
+   "themes": [
+    "半导体",
+    "通信",
+    "商业航天"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "九阳股份、阳光照明双双涨停，继续引领“羊字辈”概念股",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3200978"
+    },
+    {
+     "kind": "盘面",
+     "text": "商业航天概念股阳光照明14天8板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536520"
+    },
+    {
+     "kind": "盘面",
+     "text": "其次分别是华胜天成（6.27亿元）、寒武纪（4.46亿元）、阳光照明（3.96亿元）、中芯国际（3.45亿元）、华虹宏力（3.44亿元）、京东方A（2.55亿元）、东方海洋（1.88亿元）、顺钠股份（1.77亿元）、海立股份（1.60亿元）",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261117104345821800"
+    },
+    {
+     "kind": "同花顺",
+     "text": "商业航天+激光通信+LED照明+“羊”字辈",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "商业航天+激光通信+LED照明+“羊”字辈",
+   "written_by": "规则"
+  },
+  {
+   "code": "603931",
+   "name": "格林达",
+   "boards": 1,
+   "first_time": "1059",
+   "industry": "电子化学",
+   "stat": "1天1板",
+   "reason": "湿电子化学品+先进封装+光刻胶",
+   "confidence": "中",
+   "themes": [
+    "半导体"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "光刻胶板块冲高回落，联合化学、国林科技、江化微、格林达等股涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261117/c681901328.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "光刻胶板块低开高走表现强势，联合化学、怡达股份、西陇科学、江化微、格林达等多股触及涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261117/c681893912.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "湿电子化学品+先进封装+光刻胶",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "湿电子化学品+先进封装+光刻胶",
+   "written_by": "规则"
+  },
+  {
+   "code": "002889",
+   "name": "东方嘉盛",
+   "boards": 1,
+   "first_time": "1100",
+   "industry": "物流",
+   "stat": "1天1板",
+   "reason": "光刻机保税维修+半导体供应链+智慧仓",
+   "confidence": "中",
+   "themes": [
+    "半导体",
+    "航运物流"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "半导体设备板块涨势扩大 东方嘉盛等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536282"
+    },
+    {
+     "kind": "盘面",
+     "text": "芯片产业链表现活跃，东方嘉盛、西陇科学、国林科技、联合化学、有研新材涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536498"
+    },
+    {
+     "kind": "盘面",
+     "text": "光刻机、光刻胶方向领涨，联合化学、国林科技、海立股份、东方嘉盛等多股涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3201084"
+    },
+    {
+     "kind": "同花顺",
+     "text": "光刻机保税维修+半导体供应链+智慧仓",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "光刻机保税维修+半导体供应链+智慧仓",
+   "written_by": "规则"
+  },
+  {
+   "code": "920489",
+   "name": "佳先股份",
+   "boards": 1,
+   "first_time": "1101",
+   "industry": "化学原料",
+   "stat": "1天1板",
+   "reason": "光刻机、光刻胶走强",
+   "confidence": "中",
+   "themes": [
+    "半导体",
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "光刻机、光刻胶方向领涨，北交所佳先股份30cm涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536572"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "002652",
+   "name": "扬子新材",
+   "boards": 1,
+   "first_time": "1103",
+   "industry": "装修建材",
+   "stat": "1天1板",
+   "reason": "半导体洁净室+有机涂层板+三季报减亏",
+   "confidence": "中",
+   "themes": [
+    "半导体",
+    "基建建材"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "半导体洁净室+有机涂层板+三季报减亏",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "半导体洁净室+有机涂层板+三季报减亏",
+   "written_by": "规则"
+  },
+  {
+   "code": "603297",
+   "name": "永新光学",
+   "boards": 1,
+   "first_time": "1103",
+   "industry": "光学光电",
+   "stat": "1天1板",
+   "reason": "光刻机+半导体光学+精密光学",
+   "confidence": "中",
+   "themes": [
+    "半导体"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "A股光刻机概念震荡反弹，海立股份涨停，波长光电涨超11%，茂莱光学、福晶科技、美埃科技、福光股份、永新光学等跟涨",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261117102424395800"
+    },
+    {
+     "kind": "盘面",
+     "text": "光学光电子板块亦表现活跃，芯瑞达、阳光照明、永新光学、波长光电触及涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261117/c681893912.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "光刻机+半导体光学+精密光学",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“显示技术”概念（+0.37%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "光刻机+半导体光学+精密光学",
+   "written_by": "规则"
+  },
+  {
+   "code": "002855",
+   "name": "捷荣技术",
+   "boards": 1,
+   "first_time": "1107",
+   "industry": "消费电子",
+   "stat": "1天1板",
+   "reason": "消费电子+精密结构件+折叠屏",
+   "confidence": "中",
+   "themes": [
+    "消费电子",
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "消费电子板块拉升，捷荣技术、赢通通讯等涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3201001"
+    },
+    {
+     "kind": "同花顺",
+     "text": "消费电子+精密结构件+折叠屏",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "消费电子+精密结构件+折叠屏",
+   "written_by": "规则"
+  },
+  {
+   "code": "301391",
+   "name": "卡莱特",
+   "boards": 1,
+   "first_time": "1308",
+   "industry": "计算机设",
+   "stat": "1天1板",
+   "reason": "华为昇腾+AI算力调度+股份回购",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "算力",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "华为算力概念持续走高 卡莱特20cm涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536384"
+    },
+    {
+     "kind": "同花顺",
+     "text": "华为昇腾+AI算力调度+股份回购",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“MicroLED”概念（+0.13%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：泰国央行称仍在评估美国人工智能芯片限制措施的整体影响",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536587"
+    }
+   ],
+   "ths_reason": "华为昇腾+AI算力调度+股份回购",
+   "written_by": "规则"
+  },
+  {
+   "code": "002226",
+   "name": "江南化工",
+   "boards": 1,
+   "first_time": "1313",
+   "industry": "化学制品",
+   "stat": "1天1板",
+   "reason": "民爆+资产注入+央企",
+   "confidence": "中",
+   "themes": [
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "民爆+资产注入+央企",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "民爆+资产注入+央企",
+   "written_by": "规则"
+  },
+  {
+   "code": "603030",
+   "name": "全筑股份",
+   "boards": 1,
+   "first_time": "1326",
+   "industry": "装修装饰",
+   "stat": "1天1板",
+   "reason": "边缘AI算力+智慧建筑+建筑装饰",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "算力",
+    "基建建材"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "边缘AI算力+智慧建筑+建筑装饰",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：泰国央行称仍在评估美国人工智能芯片限制措施的整体影响",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536587"
+    }
+   ],
+   "ths_reason": "边缘AI算力+智慧建筑+建筑装饰",
+   "written_by": "规则"
+  }
+ ]
+}
