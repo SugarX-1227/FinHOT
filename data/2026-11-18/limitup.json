@@ -1,0 +1,1152 @@
+{
+ "trade_date": "2026-11-18",
+ "coverage": 100.0,
+ "announced": 5,
+ "stocks": [
+  {
+   "code": "002685",
+   "name": "华东重机",
+   "boards": 4,
+   "first_time": "0925",
+   "industry": "工程机械",
+   "stat": "4天4板",
+   "reason": "GPU芯片+港口装卸设备+定增注册（公司提示：股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "半导体",
+    "航运物流"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002685&announcementId=1225673098&orgId=9900022782&announcementTime=2026-11-17"
+    },
+    {
+     "kind": "公司",
+     "text": "竞价看龙头：华东重机一字涨停晋级4连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537397"
+    },
+    {
+     "kind": "盘面",
+     "text": "算力芯片概念盘中震荡回升，旋极信息涨超10%，此前华东重机走出4连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537432"
+    },
+    {
+     "kind": "同花顺",
+     "text": "GPU芯片+港口装卸设备+定增注册",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "GPU芯片+港口装卸设备+定增注册",
+   "written_by": "规则"
+  },
+  {
+   "code": "000521",
+   "name": "长虹美菱",
+   "boards": 3,
+   "first_time": "0925",
+   "industry": "白色家电",
+   "stat": "3天3板",
+   "reason": "家电+B股增持+四川国资（公司提示：股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000521&announcementId=1225676756&orgId=gssz0000521&announcementTime=2026-11-18"
+    },
+    {
+     "kind": "公司",
+     "text": "家电板块延续强势 长虹美菱3连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537410"
+    },
+    {
+     "kind": "公司",
+     "text": "家用电器板块走强 四川长虹、澳柯玛、长虹美菱等多股涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611183933789141.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "家电股长虹美菱（2板）竞价涨停、小熊电器（2板）高开0.25%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537397"
+    },
+    {
+     "kind": "盘面",
+     "text": "家电板块反复活跃，长虹美菱、小熊电器走出2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536498"
+    },
+    {
+     "kind": "同花顺",
+     "text": "家电+B股增持+四川国资",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“空气能热泵”概念（+0.13%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "家电+B股增持+四川国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "603324",
+   "name": "盛剑科技",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "环保设备",
+   "stat": "2天2板",
+   "reason": "半导体附属装备+电子化学品+半导体板块拉升",
+   "confidence": "中",
+   "themes": [
+    "半导体"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "光刻胶板块高开 西陇科学、盛剑科技2连板",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611183933781380.html"
+    },
+    {
+     "kind": "公司",
+     "text": "半导体设备板块延续强势 盛剑科技、全筑股份2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537411"
+    },
+    {
+     "kind": "盘面",
+     "text": "光刻胶概念11月17日表现强势，板块中佳先股份、联合化学、西陇科学、江化微、格林达、盛剑科技涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611173932975089.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "半导体设备板块盘中涨势扩大，东方嘉盛直线涨停，此前国林科技、柏诚股份、盛剑科技、海立股份涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536282"
+    },
+    {
+     "kind": "同花顺",
+     "text": "半导体附属装备+电子化学品+半导体板块拉升",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "半导体附属装备+电子化学品+半导体板块拉升",
+   "written_by": "规则"
+  },
+  {
+   "code": "603030",
+   "name": "全筑股份",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "装修装饰",
+   "stat": "2天2板",
+   "reason": "边缘AI算力+智慧建筑+建筑装饰",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "算力",
+    "基建建材"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "半导体设备板块延续强势 盛剑科技、全筑股份2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537411"
+    },
+    {
+     "kind": "同花顺",
+     "text": "边缘AI算力+智慧建筑+建筑装饰",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：英伟达称云产业的未交订单目前达到2.5万亿美元，较仅三个月前的2万亿美元增加",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537271"
+    }
+   ],
+   "ths_reason": "边缘AI算力+智慧建筑+建筑装饰",
+   "written_by": "规则"
+  },
+  {
+   "code": "002771",
+   "name": "真视通",
+   "boards": 2,
+   "first_time": "0930",
+   "industry": "IT服务Ⅱ",
+   "stat": "2天2板",
+   "reason": "液冷算力+华为+AI应用",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "算力",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "华为算力概念再度走强 四川长虹、真视通双双涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537414"
+    },
+    {
+     "kind": "公司",
+     "text": "华为算力概念局部异动 华胜天成、真视通双双涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536189"
+    },
+    {
+     "kind": "盘面",
+     "text": "华为算力概念盘中持续走高，卡莱特走出20cm2连板，星华新材逼近20cm涨停，此前真视通、四川长虹、常山北明涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537467"
+    },
+    {
+     "kind": "盘面",
+     "text": "真视通、华胜天成此前封板",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103444672.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "液冷算力+华为+AI应用",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“智算中心（AIDC）”概念（+0.02%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：英伟达称云产业的未交订单目前达到2.5万亿美元，较仅三个月前的2万亿美元增加",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537271"
+    }
+   ],
+   "ths_reason": "液冷算力+华为+AI应用",
+   "written_by": "规则"
+  },
+  {
+   "code": "000707",
+   "name": "双环科技",
+   "boards": 2,
+   "first_time": "0942",
+   "industry": "化学原料",
+   "stat": "2天2板",
+   "reason": "氯化铵涨价+联碱+钠电池正极材料+湖北国资",
+   "confidence": "中",
+   "themes": [
+    "锂电储能",
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "氯化铵涨价+联碱+钠电池正极材料+湖北国资",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "氯化铵涨价+联碱+钠电池正极材料+湖北国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "002242",
+   "name": "九阳股份",
+   "boards": 2,
+   "first_time": "0949",
+   "industry": "小家电",
+   "stat": "2天2板",
+   "reason": "厨房小家电+“羊”字辈+机器人投资（公司提示：股票交易异常波动 与华为无战略合作关…）",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动暨风险提示公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002242&announcementId=1225675386&orgId=9900004732&announcementTime=2026-11-18"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：九阳股份股票交易异常波动暨风险提示公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002242/AN202611171831789485.html"
+    },
+    {
+     "kind": "公司",
+     "text": "九阳股份：股票交易异常波动 与华为无战略合作关系",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611173932924574.html"
+    },
+    {
+     "kind": "公司",
+     "text": "九阳股份：公司对深思考的投资持股比例较低",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261117/c681913923.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "家电板块延续强势，长虹美菱3连板，爱仕达直线涨停，小熊电器、美的集团、九阳股份、苏泊尔跟涨",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537410"
+    },
+    {
+     "kind": "盘面",
+     "text": "小熊电器、九阳股份、火星人、海信家电等跟涨",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611183933789141.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "厨房小家电+“羊”字辈+机器人投资",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“近期新高”概念（+0.28%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：《数字广东建设“十五五”规划》：加快打造新的万亿级数字产业集群 壮大集成电路制造",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536715"
+    }
+   ],
+   "ths_reason": "厨房小家电+“羊”字辈+机器人投资",
+   "written_by": "规则"
+  },
+  {
+   "code": "600410",
+   "name": "华胜天成",
+   "boards": 2,
+   "first_time": "0955",
+   "industry": "IT服务Ⅱ",
+   "stat": "4天3板",
+   "reason": "华为昇腾+AI算力+算力服务",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "算力",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "华为算力概念局部异动 华胜天成、真视通双双涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536189"
+    },
+    {
+     "kind": "盘面",
+     "text": "早盘华为算力概念再度走强，四川长虹涨停，此前真视通走出2连板，华胜天成、华丰科技、天源迪科、卡莱特、直真科技等跟涨",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537414"
+    },
+    {
+     "kind": "盘面",
+     "text": "华为概念股华胜天成（3天2板）高开4.58%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537397"
+    },
+    {
+     "kind": "同花顺",
+     "text": "华为昇腾+AI算力+算力服务",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“CPO概念”（+0.06%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：英伟达称云产业的未交订单目前达到2.5万亿美元，较仅三个月前的2万亿美元增加",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537271"
+    }
+   ],
+   "ths_reason": "华为昇腾+AI算力+算力服务",
+   "written_by": "规则"
+  },
+  {
+   "code": "301391",
+   "name": "卡莱特",
+   "boards": 2,
+   "first_time": "1015",
+   "industry": "计算机设",
+   "stat": "2天2板",
+   "reason": "华为昇腾+AI算力调度+LED显示控制",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "算力",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "华为算力概念持续走高 卡莱特20cm2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537467"
+    },
+    {
+     "kind": "公司",
+     "text": "华为算力概念持续走高 卡莱特20cm涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536384"
+    },
+    {
+     "kind": "盘面",
+     "text": "早盘华为算力概念再度走强，四川长虹涨停，此前真视通走出2连板，华胜天成、华丰科技、天源迪科、卡莱特、直真科技等跟涨",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537414"
+    },
+    {
+     "kind": "盘面",
+     "text": "卡莱特涨超10%",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103444672.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "华为昇腾+AI算力调度+LED显示控制",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：英伟达称云产业的未交订单目前达到2.5万亿美元，较仅三个月前的2万亿美元增加",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537271"
+    }
+   ],
+   "ths_reason": "华为昇腾+AI算力调度+LED显示控制",
+   "written_by": "规则"
+  },
+  {
+   "code": "002194",
+   "name": "武汉凡谷",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "通信设备",
+   "stat": "1天1板",
+   "reason": "6G预研+滤波器+卫星通信",
+   "confidence": "中",
+   "themes": [
+    "通信",
+    "商业航天"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "6G概念表现活跃 武汉凡谷涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537407"
+    },
+    {
+     "kind": "公司",
+     "text": "A股CPO板块短线拉升，武汉凡谷涨停，天孚通信涨超5%，剑桥科技、炬光科技、罗博特科跟涨",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261118093636959800"
+    },
+    {
+     "kind": "同花顺",
+     "text": "6G预研+滤波器+卫星通信",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“6G概念”（+0.07%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "通信：报道：美国国家安全局机密内部通信网络中断",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3201401"
+    }
+   ],
+   "ths_reason": "6G预研+滤波器+卫星通信",
+   "written_by": "规则"
+  },
+  {
+   "code": "002148",
+   "name": "北纬科技",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "通信服务",
+   "stat": "6天5板",
+   "reason": "四足机器人+物联网+手机游戏（公司提示：股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "消费电子",
+    "机器人",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002148&announcementId=1225673500&orgId=9900003401&announcementTime=2026-11-17"
+    },
+    {
+     "kind": "盘面",
+     "text": "机器人概念股北纬科技（4板）低开1.94%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536163"
+    },
+    {
+     "kind": "同花顺",
+     "text": "四足机器人+物联网+手机游戏",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "四足机器人+物联网+手机游戏",
+   "written_by": "规则"
+  },
+  {
+   "code": "603657",
+   "name": "春光科技",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "家电零部",
+   "stat": "1天1板",
+   "reason": "清洁电器代工+扫地机器人+家电出口",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "A股家电股继续走强，长虹美菱3连板，澳柯玛、春光科技涨停，四川长虹、海立股份、长虹华意跟涨",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3201633"
+    },
+    {
+     "kind": "公司",
+     "text": "家电概念盘初走强，长虹美菱、春光科技涨停",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/2026-11-18/doc-inizcmfi4867165.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "清洁电器代工+扫地机器人+家电出口",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：《数字广东建设“十五五”规划》：加快打造新的万亿级数字产业集群 壮大集成电路制造",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536715"
+    }
+   ],
+   "ths_reason": "清洁电器代工+扫地机器人+家电出口",
+   "written_by": "规则"
+  },
+  {
+   "code": "600336",
+   "name": "澳柯玛",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "白色家电",
+   "stat": "1天1板",
+   "reason": "冰雪经济+家用电器+青岛国资",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "冰雪产业板块短线拉升，澳柯玛涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261118/c681935235.shtml"
+    },
+    {
+     "kind": "公司",
+     "text": "家用电器板块走强 四川长虹、澳柯玛、长虹美菱等多股涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611183933789141.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "冰雪经济+家用电器+青岛国资",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "冰雪经济+家用电器+青岛国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "600405",
+   "name": "动力源",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "其他电源",
+   "stat": "1天1板",
+   "reason": "AI智算中心电源+数据中心+液冷超充",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "算力"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "AI智算中心电源+数据中心+液冷超充",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“东数西算”概念（+0.92%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：英伟达称云产业的未交订单目前达到2.5万亿美元，较仅三个月前的2万亿美元增加",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537271"
+    }
+   ],
+   "ths_reason": "AI智算中心电源+数据中心+液冷超充",
+   "written_by": "规则"
+  },
+  {
+   "code": "002403",
+   "name": "爱仕达",
+   "boards": 1,
+   "first_time": "0931",
+   "industry": "小家电",
+   "stat": "1天1板",
+   "reason": "人形机器人+智元合作+工业机器人",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "小家电板块短线拉升，爱仕达涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261118/c681935266.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "家电板块延续强势，长虹美菱3连板，爱仕达直线涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537410"
+    },
+    {
+     "kind": "盘面",
+     "text": "家电概念盘初走强，长虹美菱、春光科技涨停，国林科技、海立股份、九阳股份、爱仕达、鸿智科技等跟涨",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/2026-11-18/doc-inizcmfi4867165.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+智元合作+工业机器人",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：《数字广东建设“十五五”规划》：加快打造新的万亿级数字产业集群 壮大集成电路制造",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536715"
+    }
+   ],
+   "ths_reason": "人形机器人+智元合作+工业机器人",
+   "written_by": "规则"
+  },
+  {
+   "code": "600839",
+   "name": "四川长虹",
+   "boards": 1,
+   "first_time": "0935",
+   "industry": "黑色家电",
+   "stat": "1天1板",
+   "reason": "家电+出口+四川国资",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "华为算力概念再度走强 四川长虹、真视通双双涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537414"
+    },
+    {
+     "kind": "公司",
+     "text": "黑色家电板块再度拉升，四川长虹涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261118/c681935415.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "华为算力概念盘中持续走高，卡莱特走出20cm2连板，星华新材逼近20cm涨停，此前真视通、四川长虹、常山北明涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537467"
+    },
+    {
+     "kind": "盘面",
+     "text": "其次分别是寒武纪（5.41亿元）、沪电股份（4.52亿元）、工业富联（3.42亿元）、华虹宏力（3.24亿元）、旋极信息（3.16亿元）、龙江交通（2.92亿元）、四川长虹（2.71亿元）、美利云（2.69亿元）、云南锗业（2.58亿元）",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261118104131755800"
+    },
+    {
+     "kind": "同花顺",
+     "text": "家电+出口+四川国资",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "家电+出口+四川国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "601188",
+   "name": "龙江交通",
+   "boards": 1,
+   "first_time": "0935",
+   "industry": "铁路公路",
+   "stat": "15天8板",
+   "reason": "冰雪旅游保障+高速公路运营+黑龙江国资",
+   "confidence": "高",
+   "themes": [
+    "文旅",
+    "基建建材"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "分红送转：关于召开2026年三季度业绩暨现金分红说明会的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=601188&announcementId=1225673125&orgId=9900011628&announcementTime=2026-11-17"
+    },
+    {
+     "kind": "公告",
+     "text": "分红送转：龙江交通关于召开2026年三季度业绩暨现金分红说明会的公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/601188/AN202611161831753536.html"
+    },
+    {
+     "kind": "公司",
+     "text": "冰雪经济概念震荡走高 龙江交通15天8板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537413"
+    },
+    {
+     "kind": "盘面",
+     "text": "其次分别是寒武纪（5.41亿元）、沪电股份（4.52亿元）、工业富联（3.42亿元）、华虹宏力（3.24亿元）、旋极信息（3.16亿元）、龙江交通（2.92亿元）、四川长虹（2.71亿元）、美利云（2.69亿元）、云南锗业（2.58亿元）",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261118104131755800"
+    },
+    {
+     "kind": "盘面",
+     "text": "冰雪产业板块短线拉升，澳柯玛涨停，龙江交通、奥雅股份、通达创智、峨眉山A、龙建股份跟涨",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261118/c681935235.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "冰雪旅游保障+高速公路运营+黑龙江国资",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "冰雪旅游保障+高速公路运营+黑龙江国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "600408",
+   "name": "安泰集团",
+   "boards": 1,
+   "first_time": "0943",
+   "industry": "焦炭Ⅱ",
+   "stat": "1天1板",
+   "reason": "焦炉煤气制氢+煤炭+大型H型钢",
+   "confidence": "中",
+   "themes": [
+    "煤炭"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "煤炭板块表现活跃 安泰集团直线涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537418"
+    },
+    {
+     "kind": "公司",
+     "text": "煤炭开采加工板块短线拉升，安泰集团涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261118/c681935735.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "焦炉煤气制氢+煤炭+大型H型钢",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "焦炉煤气制氢+煤炭+大型H型钢",
+   "written_by": "规则"
+  },
+  {
+   "code": "300991",
+   "name": "创益通",
+   "boards": 1,
+   "first_time": "0945",
+   "industry": "其他电子",
+   "stat": "1天1板",
+   "reason": "高速连接器+存储互连",
+   "confidence": "中",
+   "themes": [
+    "半导体"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "高速连接器+存储互连",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "高速连接器+存储互连",
+   "written_by": "规则"
+  },
+  {
+   "code": "000889",
+   "name": "中嘉博创",
+   "boards": 1,
+   "first_time": "0945",
+   "industry": "通信服务",
+   "stat": "1天1板",
+   "reason": "算力销售+通信网络维护+业绩扭亏",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "通信"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "算力销售+通信网络维护+业绩扭亏",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "算力销售+通信网络维护+业绩扭亏",
+   "written_by": "规则"
+  },
+  {
+   "code": "000980",
+   "name": "众泰汽车",
+   "boards": 1,
+   "first_time": "0946",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "聘任会计师事务所+汽车整车+高管增持+A0车型海外",
+   "confidence": "中",
+   "themes": [
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "汽车整车板块震荡拉升 众泰汽车涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537422"
+    },
+    {
+     "kind": "盘面",
+     "text": "众泰汽车冲击涨停",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103444596.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "聘任会计师事务所+汽车整车+高管增持+A0车型海外",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“汽车整车”概念（+0.22%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "汽车：北京：到2030年力争培育建设100家北京市零碳工厂",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536889"
+    }
+   ],
+   "ths_reason": "聘任会计师事务所+汽车整车+高管增持+A0车型海外",
+   "written_by": "规则"
+  },
+  {
+   "code": "000410",
+   "name": "沈阳机床",
+   "boards": 1,
+   "first_time": "0949",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "工业母机+商业航天+央企",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "商业航天"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "工业母机+商业航天+央企",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：《数字广东建设“十五五”规划》：加快打造新的万亿级数字产业集群 壮大集成电路制造",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536715"
+    }
+   ],
+   "ths_reason": "工业母机+商业航天+央企",
+   "written_by": "规则"
+  },
+  {
+   "code": "000711",
+   "name": "京蓝科技",
+   "boards": 1,
+   "first_time": "0951",
+   "industry": "环境治理",
+   "stat": "1天1板",
+   "reason": "7N高纯铟+铟资源循环+资产出售",
+   "confidence": "中",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "7N高纯铟+铟资源循环+资产出售",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "7N高纯铟+铟资源循环+资产出售",
+   "written_by": "规则"
+  },
+  {
+   "code": "300324",
+   "name": "旋极信息",
+   "boards": 1,
+   "first_time": "0958",
+   "industry": "计算机设",
+   "stat": "1天1板",
+   "reason": "AI芯片+算力+商业航天",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "算力",
+    "半导体"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "算力芯片概念震荡回升 旋极信息涨超10%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537432"
+    },
+    {
+     "kind": "盘面",
+     "text": "其次分别是寒武纪（5.41亿元）、沪电股份（4.52亿元）、工业富联（3.42亿元）、华虹宏力（3.24亿元）、旋极信息（3.16亿元）、龙江交通（2.92亿元）、四川长虹（2.71亿元）、美利云（2.69亿元）、云南锗业（2.58亿元）",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261118104131755800"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI芯片+算力+商业航天",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“财税数字化”概念（+0.06%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：英伟达称云产业的未交订单目前达到2.5万亿美元，较仅三个月前的2万亿美元增加",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537271"
+    }
+   ],
+   "ths_reason": "AI芯片+算力+商业航天",
+   "written_by": "规则"
+  },
+  {
+   "code": "000158",
+   "name": "常山北明",
+   "boards": 1,
+   "first_time": "1002",
+   "industry": "IT服务Ⅱ",
+   "stat": "1天1板",
+   "reason": "华为昇腾+算力+AI应用",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "算力",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "华为算力概念盘中持续走高，卡莱特走出20cm2连板，星华新材逼近20cm涨停，此前真视通、四川长虹、常山北明涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537467"
+    },
+    {
+     "kind": "盘面",
+     "text": "常山北明、美利云双双涨停",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103444672.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "华为昇腾+算力+AI应用",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“华为昇腾”概念（+0.02%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：英伟达称云产业的未交订单目前达到2.5万亿美元，较仅三个月前的2万亿美元增加",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537271"
+    }
+   ],
+   "ths_reason": "华为昇腾+算力+AI应用",
+   "written_by": "规则"
+  },
+  {
+   "code": "000815",
+   "name": "美利云",
+   "boards": 1,
+   "first_time": "1005",
+   "industry": "IT服务Ⅱ",
+   "stat": "1天1板",
+   "reason": "数据中心+东数西算+央企",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "算力租赁概念表现活跃 美利云涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537450"
+    },
+    {
+     "kind": "盘面",
+     "text": "其次分别是寒武纪（5.41亿元）、沪电股份（4.52亿元）、工业富联（3.42亿元）、华虹宏力（3.24亿元）、旋极信息（3.16亿元）、龙江交通（2.92亿元）、四川长虹（2.71亿元）、美利云（2.69亿元）、云南锗业（2.58亿元）",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261118104131755800"
+    },
+    {
+     "kind": "盘面",
+     "text": "常山北明、美利云双双涨停",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103444672.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "数据中心+东数西算+央企",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "数据中心+东数西算+央企",
+   "written_by": "规则"
+  },
+  {
+   "code": "002197",
+   "name": "证通电子",
+   "boards": 1,
+   "first_time": "1012",
+   "industry": "计算机设",
+   "stat": "1天1板",
+   "reason": "算力+数据中心+金融科技",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "算力+数据中心+金融科技",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "算力+数据中心+金融科技",
+   "written_by": "规则"
+  }
+ ]
+}
