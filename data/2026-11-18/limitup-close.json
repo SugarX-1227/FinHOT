@@ -1,0 +1,1697 @@
+{
+ "trade_date": "2026-11-18",
+ "coverage": 100.0,
+ "announced": 5,
+ "stocks": [
+  {
+   "code": "002685",
+   "name": "华东重机",
+   "boards": 4,
+   "first_time": "0925",
+   "industry": "工程机械",
+   "stat": "4天4板",
+   "reason": "GPU芯片+港口装卸设备+定增注册（公司提示：股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "半导体",
+    "航运物流"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002685&announcementId=1225673098&orgId=9900022782&announcementTime=2026-11-17"
+    },
+    {
+     "kind": "盘面",
+     "text": "算力芯片华东重机走出4连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537775"
+    },
+    {
+     "kind": "盘面",
+     "text": "午后算力芯片概念再度拉升，艾布鲁20cm涨停，此前旋极信息20cm涨停，华东重机4连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537628"
+    },
+    {
+     "kind": "同花顺",
+     "text": "GPU芯片+港口装卸设备+定增注册",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“东方财富热股”概念（+0.03%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：英伟达停止向中国供应H200芯片 外交部回应",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537821"
+    }
+   ],
+   "ths_reason": "GPU芯片+港口装卸设备+定增注册",
+   "written_by": "规则"
+  },
+  {
+   "code": "603324",
+   "name": "盛剑科技",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "环保设备",
+   "stat": "2天2板",
+   "reason": "光刻胶+半导体附属装备+电子化学品",
+   "confidence": "中",
+   "themes": [
+    "半导体"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "光刻胶板块直线拉升 西陇科学、盛剑科技涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611173932686698.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "光刻机、光刻胶概念股盛剑科技、全筑股份均2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537835"
+    },
+    {
+     "kind": "盘面",
+     "text": "半导体设备板块盘中涨势扩大，东方嘉盛直线涨停，此前国林科技、柏诚股份、盛剑科技、海立股份涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536282"
+    },
+    {
+     "kind": "同花顺",
+     "text": "光刻胶+半导体附属装备+电子化学品",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“中芯概念”（+0.42%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "光刻胶+半导体附属装备+电子化学品",
+   "written_by": "规则"
+  },
+  {
+   "code": "603030",
+   "name": "全筑股份",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "装修装饰",
+   "stat": "2天2板",
+   "reason": "边缘AI算力+智慧建筑+建筑装饰",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "算力",
+    "半导体"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "光刻机、光刻胶概念股盛剑科技、全筑股份均2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537835"
+    },
+    {
+     "kind": "同花顺",
+     "text": "边缘AI算力+智慧建筑+建筑装饰",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“算力概念”（+1.96%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "边缘AI算力+智慧建筑+建筑装饰",
+   "written_by": "规则"
+  },
+  {
+   "code": "002771",
+   "name": "真视通",
+   "boards": 2,
+   "first_time": "0930",
+   "industry": "IT服务Ⅱ",
+   "stat": "2天2板",
+   "reason": "液冷算力+华为昇腾+多媒体视讯",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "华为算力概念再度走强 四川长虹、真视通双双涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537414"
+    },
+    {
+     "kind": "公司",
+     "text": "华为算力概念局部异动 华胜天成、真视通双双涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536189"
+    },
+    {
+     "kind": "盘面",
+     "text": "华为算力概念走强，华胜天成4天3板，卡莱特走出20CM二连板，真视通、四川长虹、常山北明涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537775"
+    },
+    {
+     "kind": "盘面",
+     "text": "算力租赁概念拉升，青云科技、真视通、恒润股份等多股涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3201755"
+    },
+    {
+     "kind": "同花顺",
+     "text": "液冷算力+华为昇腾+多媒体视讯",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“液冷服务器”概念（+0.39%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：英伟达停止向中国供应H200芯片 外交部回应",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537821"
+    }
+   ],
+   "ths_reason": "液冷算力+华为昇腾+多媒体视讯",
+   "written_by": "规则"
+  },
+  {
+   "code": "000707",
+   "name": "双环科技",
+   "boards": 2,
+   "first_time": "0942",
+   "industry": "化学原料",
+   "stat": "2天2板",
+   "reason": "氯化铵涨价+联碱+钠电池正极材料+湖北国资",
+   "confidence": "中",
+   "themes": [
+    "锂电储能",
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "氯化铵涨价+联碱+钠电池正极材料+湖北国资",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "锂电储能：通威发布置信光伏系统级解决方案 试点项目将于本月并网运行",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537607"
+    }
+   ],
+   "ths_reason": "氯化铵涨价+联碱+钠电池正极材料+湖北国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "600410",
+   "name": "华胜天成",
+   "boards": 2,
+   "first_time": "0955",
+   "industry": "IT服务Ⅱ",
+   "stat": "4天3板",
+   "reason": "华为昇腾+AI算力+算力服务",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "算力",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "华为算力概念局部异动 华胜天成、真视通双双涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536189"
+    },
+    {
+     "kind": "盘面",
+     "text": "华为算力概念走强，华胜天成4天3板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537775"
+    },
+    {
+     "kind": "盘面",
+     "text": "早盘华为算力概念再度走强，四川长虹涨停，此前真视通走出2连板，华胜天成、华丰科技、天源迪科、卡莱特、直真科技等跟涨",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537414"
+    },
+    {
+     "kind": "同花顺",
+     "text": "华为昇腾+AI算力+算力服务",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“阿里概念”（+0.22%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "华为昇腾+AI算力+算力服务",
+   "written_by": "规则"
+  },
+  {
+   "code": "301391",
+   "name": "卡莱特",
+   "boards": 2,
+   "first_time": "1015",
+   "industry": "计算机设",
+   "stat": "2天2板",
+   "reason": "华为昇腾+AI算力调度+LED显示控制",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "算力",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "华为算力概念持续走高 卡莱特20cm2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537467"
+    },
+    {
+     "kind": "公司",
+     "text": "华为算力概念持续走高 卡莱特20cm涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536384"
+    },
+    {
+     "kind": "盘面",
+     "text": "华为算力概念走强，华胜天成4天3板，卡莱特走出20CM二连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537775"
+    },
+    {
+     "kind": "盘面",
+     "text": "华为算力概念逆势走强，卡莱特走出20cm二连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537550"
+    },
+    {
+     "kind": "同花顺",
+     "text": "华为昇腾+AI算力调度+LED显示控制",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "华为昇腾+AI算力调度+LED显示控制",
+   "written_by": "规则"
+  },
+  {
+   "code": "002843",
+   "name": "泰嘉股份",
+   "boards": 2,
+   "first_time": "1327",
+   "industry": "通用设备",
+   "stat": "2天2板",
+   "reason": "服务器电源+锯切龙头+商业航天",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "商业航天"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "华为算力概念再度走强，华胜天成4天3板，卡莱特20cm2连板，真视通、泰嘉股份均晋级2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537835"
+    },
+    {
+     "kind": "同花顺",
+     "text": "服务器电源+锯切龙头+商业航天",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“AIPC”概念（+0.31%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：英伟达停止向中国供应H200芯片 外交部回应",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537821"
+    }
+   ],
+   "ths_reason": "服务器电源+锯切龙头+商业航天",
+   "written_by": "规则"
+  },
+  {
+   "code": "002194",
+   "name": "武汉凡谷",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "通信设备",
+   "stat": "1天1板",
+   "reason": "6G预研+滤波器+卫星通信",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "通信",
+    "商业航天"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "6G概念表现活跃 武汉凡谷涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537407"
+    },
+    {
+     "kind": "盘面",
+     "text": "CPO板块午后走高，武汉凡谷、胜科纳米等股涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261118/c681948678.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "6G预研+滤波器+卫星通信",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“通信技术”概念（+0.77%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：英伟达停止向中国供应H200芯片 外交部回应",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537821"
+    }
+   ],
+   "ths_reason": "6G预研+滤波器+卫星通信",
+   "written_by": "规则"
+  },
+  {
+   "code": "002148",
+   "name": "北纬科技",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "通信服务",
+   "stat": "6天5板",
+   "reason": "四足机器人+物联网+手机游戏（公司提示：股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "消费电子",
+    "机器人",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002148&announcementId=1225673500&orgId=9900003401&announcementTime=2026-11-17"
+    },
+    {
+     "kind": "盘面",
+     "text": "机器人概念股北纬科技（4板）低开1.94%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2536163"
+    },
+    {
+     "kind": "同花顺",
+     "text": "四足机器人+物联网+手机游戏",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费电子：龙旗科技：具身机器人数采设备已量产交付 收入占比不超1%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537578"
+    }
+   ],
+   "ths_reason": "四足机器人+物联网+手机游戏",
+   "written_by": "规则"
+  },
+  {
+   "code": "603657",
+   "name": "春光科技",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "家电零部",
+   "stat": "1天1板",
+   "reason": "清洁电器代工+扫地机器人+家电出口",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "家电板块延续涨势，长虹美菱3连板，澳柯玛、四川长虹、春光科技等涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3201685"
+    },
+    {
+     "kind": "同花顺",
+     "text": "清洁电器代工+扫地机器人+家电出口",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：艾芬达子公司浙江云芯获北美头部机器人企业订单",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537684"
+    }
+   ],
+   "ths_reason": "清洁电器代工+扫地机器人+家电出口",
+   "written_by": "规则"
+  },
+  {
+   "code": "600336",
+   "name": "澳柯玛",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "白色家电",
+   "stat": "1天1板",
+   "reason": "冰雪经济+家用电器+青岛国资",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "家电板块延续涨势，长虹美菱3连板，澳柯玛、四川长虹、春光科技等涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3201685"
+    },
+    {
+     "kind": "同花顺",
+     "text": "冰雪经济+家用电器+青岛国资",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "冰雪经济+家用电器+青岛国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "600405",
+   "name": "动力源",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "其他电源",
+   "stat": "1天1板",
+   "reason": "AI智算中心电源+数据中心+液冷超充",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "算力"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "AI智算中心电源+数据中心+液冷超充",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“东数西算”概念（+2.99%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "AI智算中心电源+数据中心+液冷超充",
+   "written_by": "规则"
+  },
+  {
+   "code": "002403",
+   "name": "爱仕达",
+   "boards": 1,
+   "first_time": "0931",
+   "industry": "小家电",
+   "stat": "1天1板",
+   "reason": "人形机器人+智元合作+工业机器人",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "家电长虹美菱3连板，爱仕达涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537550"
+    },
+    {
+     "kind": "盘面",
+     "text": "家电板块上涨，长虹美菱3连板，爱仕达涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611183933854416.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+智元合作+工业机器人",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：艾芬达子公司浙江云芯获北美头部机器人企业订单",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537684"
+    }
+   ],
+   "ths_reason": "人形机器人+智元合作+工业机器人",
+   "written_by": "规则"
+  },
+  {
+   "code": "600839",
+   "name": "四川长虹",
+   "boards": 1,
+   "first_time": "0935",
+   "industry": "黑色家电",
+   "stat": "1天1板",
+   "reason": "家电+出口+四川国资",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "华为算力概念再度走强 四川长虹、真视通双双涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537414"
+    },
+    {
+     "kind": "盘面",
+     "text": "华为算力概念走强，华胜天成4天3板，卡莱特走出20CM二连板，真视通、四川长虹、常山北明涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537775"
+    },
+    {
+     "kind": "盘面",
+     "text": "华为算力概念盘中持续走高，卡莱特走出20cm2连板，星华新材逼近20cm涨停，此前真视通、四川长虹、常山北明涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537467"
+    },
+    {
+     "kind": "同花顺",
+     "text": "家电+出口+四川国资",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“区块链”概念（+0.02%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：英伟达停止向中国供应H200芯片 外交部回应",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537821"
+    }
+   ],
+   "ths_reason": "家电+出口+四川国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "300991",
+   "name": "创益通",
+   "boards": 1,
+   "first_time": "0945",
+   "industry": "其他电子",
+   "stat": "1天1板",
+   "reason": "高速连接器+存储互连",
+   "confidence": "中",
+   "themes": [
+    "半导体"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "高速连接器+存储互连",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“铜缆高速连接”概念（+1.40%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "高速连接器+存储互连",
+   "written_by": "规则"
+  },
+  {
+   "code": "000889",
+   "name": "中嘉博创",
+   "boards": 1,
+   "first_time": "0945",
+   "industry": "通信服务",
+   "stat": "1天1板",
+   "reason": "算力销售+通信网络维护+业绩扭亏",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "通信"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "算力租赁美利云、润建股份、中嘉博创、利通电子、青云科技涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537775"
+    },
+    {
+     "kind": "盘面",
+     "text": "算力租赁概念盘中持续走高，润建股份、中贝通信、城地香江、美利云、中嘉博创等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537534"
+    },
+    {
+     "kind": "同花顺",
+     "text": "算力销售+通信网络维护+业绩扭亏",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：英伟达停止向中国供应H200芯片 外交部回应",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537821"
+    }
+   ],
+   "ths_reason": "算力销售+通信网络维护+业绩扭亏",
+   "written_by": "规则"
+  },
+  {
+   "code": "000980",
+   "name": "众泰汽车",
+   "boards": 1,
+   "first_time": "0946",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "聘任会计师事务所+汽车整车+高管增持+A0车型海外",
+   "confidence": "中",
+   "themes": [
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "汽车整车板块震荡拉升 众泰汽车涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537422"
+    },
+    {
+     "kind": "同花顺",
+     "text": "聘任会计师事务所+汽车整车+高管增持+A0车型海外",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“汽车整车”概念（+0.57%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "汽车：汽车整车板块震荡拉升 众泰汽车涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537422"
+    }
+   ],
+   "ths_reason": "聘任会计师事务所+汽车整车+高管增持+A0车型海外",
+   "written_by": "规则"
+  },
+  {
+   "code": "000410",
+   "name": "沈阳机床",
+   "boards": 1,
+   "first_time": "0949",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "工业母机+商业航天+央企",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "商业航天"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "工业母机+商业航天+央企",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：艾芬达子公司浙江云芯获北美头部机器人企业订单",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537684"
+    }
+   ],
+   "ths_reason": "工业母机+商业航天+央企",
+   "written_by": "规则"
+  },
+  {
+   "code": "000711",
+   "name": "京蓝科技",
+   "boards": 1,
+   "first_time": "0951",
+   "industry": "环境治理",
+   "stat": "1天1板",
+   "reason": "7N高纯铟+铟资源循环+资产出售",
+   "confidence": "中",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "7N高纯铟+铟资源循环+资产出售",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "7N高纯铟+铟资源循环+资产出售",
+   "written_by": "规则"
+  },
+  {
+   "code": "300324",
+   "name": "旋极信息",
+   "boards": 1,
+   "first_time": "0958",
+   "industry": "计算机设",
+   "stat": "1天1板",
+   "reason": "AI芯片+算力+商业航天",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "算力",
+    "半导体"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "算力芯片概念震荡回升 旋极信息涨超10%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537432"
+    },
+    {
+     "kind": "盘面",
+     "text": "算力芯片华东重机走出4连板，旋极信息20CM涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537775"
+    },
+    {
+     "kind": "盘面",
+     "text": "午后算力芯片概念再度拉升，艾布鲁20cm涨停，此前旋极信息20cm涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537628"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI芯片+算力+商业航天",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“AI芯片”概念（+0.84%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "AI芯片+算力+商业航天",
+   "written_by": "规则"
+  },
+  {
+   "code": "000158",
+   "name": "常山北明",
+   "boards": 1,
+   "first_time": "1002",
+   "industry": "IT服务Ⅱ",
+   "stat": "1天1板",
+   "reason": "华为昇腾+算力+AI应用",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "算力",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "华为算力概念走强，华胜天成4天3板，卡莱特走出20CM二连板，真视通、四川长虹、常山北明涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537775"
+    },
+    {
+     "kind": "盘面",
+     "text": "华为算力概念盘中持续走高，卡莱特走出20cm2连板，星华新材逼近20cm涨停，此前真视通、四川长虹、常山北明涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537467"
+    },
+    {
+     "kind": "同花顺",
+     "text": "华为昇腾+算力+AI应用",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“智谱AI概念”（+0.97%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "华为昇腾+算力+AI应用",
+   "written_by": "规则"
+  },
+  {
+   "code": "000815",
+   "name": "美利云",
+   "boards": 1,
+   "first_time": "1005",
+   "industry": "IT服务Ⅱ",
+   "stat": "1天1板",
+   "reason": "数据中心+东数西算+央企",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "通信",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "算力租赁概念表现活跃 美利云涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537450"
+    },
+    {
+     "kind": "盘面",
+     "text": "算力租赁美利云、润建股份、中嘉博创、利通电子、青云科技涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537775"
+    },
+    {
+     "kind": "盘面",
+     "text": "算力租赁概念盘中持续走高，润建股份、中贝通信、城地香江、美利云、中嘉博创等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537534"
+    },
+    {
+     "kind": "同花顺",
+     "text": "数据中心+东数西算+央企",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：英伟达停止向中国供应H200芯片 外交部回应",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537821"
+    }
+   ],
+   "ths_reason": "数据中心+东数西算+央企",
+   "written_by": "规则"
+  },
+  {
+   "code": "002197",
+   "name": "证通电子",
+   "boards": 1,
+   "first_time": "1012",
+   "industry": "计算机设",
+   "stat": "1天1板",
+   "reason": "算力+数据中心+金融科技",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "算力+数据中心+金融科技",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“智慧灯杆”概念（+0.20%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：英伟达停止向中国供应H200芯片 外交部回应",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537821"
+    }
+   ],
+   "ths_reason": "算力+数据中心+金融科技",
+   "written_by": "规则"
+  },
+  {
+   "code": "603887",
+   "name": "城地香江",
+   "boards": 1,
+   "first_time": "1014",
+   "industry": "IT服务Ⅱ",
+   "stat": "1天1板",
+   "reason": "算力+东数西算+三季报增长",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "通信",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "算力租赁概念盘中持续走高，润建股份、中贝通信、城地香江、美利云、中嘉博创等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537534"
+    },
+    {
+     "kind": "盘面",
+     "text": "算力租赁概念表现活跃，美利云涨停，城地香江、大位科技、首都在线、优刻得跟涨",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537450"
+    },
+    {
+     "kind": "同花顺",
+     "text": "算力+东数西算+三季报增长",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：英伟达停止向中国供应H200芯片 外交部回应",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537821"
+    }
+   ],
+   "ths_reason": "算力+东数西算+三季报增长",
+   "written_by": "规则"
+  },
+  {
+   "code": "600162",
+   "name": "香江控股",
+   "boards": 1,
+   "first_time": "1055",
+   "industry": "房地产开",
+   "stat": "1天1板",
+   "reason": "算力运维+家居商贸+城市发展",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "房地产"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "算力运维+家居商贸+城市发展",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“红利股”概念（+0.17%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：英伟达停止向中国供应H200芯片 外交部回应",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537821"
+    }
+   ],
+   "ths_reason": "算力运维+家居商贸+城市发展",
+   "written_by": "规则"
+  },
+  {
+   "code": "603220",
+   "name": "中贝通信",
+   "boards": 1,
+   "first_time": "1114",
+   "industry": "通信服务",
+   "stat": "1天1板",
+   "reason": "算力租赁+6G+光模块+回购",
+   "confidence": "高",
+   "themes": [
+    "算力",
+    "通信",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "回购：关于取得金融机构回购专项贷款承诺函的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603220&announcementId=1225673440&orgId=9900035549&announcementTime=2026-11-17"
+    },
+    {
+     "kind": "盘面",
+     "text": "算力租赁概念盘中持续走高，润建股份、中贝通信、城地香江、美利云、中嘉博创等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537534"
+    },
+    {
+     "kind": "盘面",
+     "text": "盛景微、先进数通、中贝通信、润和软件、亚康股份等跟涨",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537467"
+    },
+    {
+     "kind": "同花顺",
+     "text": "算力租赁+6G+光模块+回购",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“F5G概念”（+2.77%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：英伟达停止向中国供应H200芯片 外交部回应",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537821"
+    }
+   ],
+   "ths_reason": "算力租赁+6G+光模块+回购",
+   "written_by": "规则"
+  },
+  {
+   "code": "002929",
+   "name": "润建股份",
+   "boards": 1,
+   "first_time": "1114",
+   "industry": "通信服务",
+   "stat": "1天1板",
+   "reason": "词元出海+算力网络+算力租赁",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "通信"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "算力租赁概念持续走高 润建股份等近十股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537534"
+    },
+    {
+     "kind": "盘面",
+     "text": "算力租赁美利云、润建股份、中嘉博创、利通电子、青云科技涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537775"
+    },
+    {
+     "kind": "盘面",
+     "text": "算力租赁板块表现强势，宏景科技、青云科技、旋极信息、润建股份、中贝通信、利通电子等十余股涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261118/c681948678.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "词元出海+算力网络+算力租赁",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“虚拟机器人”概念（+0.41%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：英伟达停止向中国供应H200芯片 外交部回应",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537821"
+    }
+   ],
+   "ths_reason": "词元出海+算力网络+算力租赁",
+   "written_by": "规则"
+  },
+  {
+   "code": "600156",
+   "name": "华升股份",
+   "boards": 1,
+   "first_time": "1114",
+   "industry": "纺织制造",
+   "stat": "1天1板",
+   "reason": "算力租赁+重组推进+麻纺+湖南国资",
+   "confidence": "中",
+   "themes": [
+    "算力"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "算力租赁+重组推进+麻纺+湖南国资",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：英伟达停止向中国供应H200芯片 外交部回应",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537821"
+    }
+   ],
+   "ths_reason": "算力租赁+重组推进+麻纺+湖南国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "002042",
+   "name": "华孚时尚",
+   "boards": 1,
+   "first_time": "1118",
+   "industry": "纺织制造",
+   "stat": "4天2板",
+   "reason": "算力租赁+色纺纱+回购注销",
+   "confidence": "高",
+   "themes": [
+    "算力"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "回购：关于注销部分2024年期已回购股份暨通知债权人的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002042&announcementId=1225673790&orgId=gssz0002042&announcementTime=2026-11-17"
+    },
+    {
+     "kind": "同花顺",
+     "text": "算力租赁+色纺纱+回购注销",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：英伟达停止向中国供应H200芯片 外交部回应",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537821"
+    }
+   ],
+   "ths_reason": "算力租赁+色纺纱+回购注销",
+   "written_by": "规则"
+  },
+  {
+   "code": "002955",
+   "name": "鸿合科技",
+   "boards": 1,
+   "first_time": "1126",
+   "industry": "光学光电",
+   "stat": "1天1板",
+   "reason": "AI教育+智芯布局+智能交互显示",
+   "confidence": "中",
+   "themes": [
+    "人工智能"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "AI教育+智芯布局+智能交互显示",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“托育服务”概念（+0.28%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "AI教育+智芯布局+智能交互显示",
+   "written_by": "规则"
+  },
+  {
+   "code": "603629",
+   "name": "利通电子",
+   "boards": 1,
+   "first_time": "1126",
+   "industry": "消费电子",
+   "stat": "1天1板",
+   "reason": "算力租赁+英伟达概念+股份注销",
+   "confidence": "高",
+   "themes": [
+    "算力",
+    "通信",
+    "消费电子"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "回购：603629：利通电子关于变更回购股份用途并注销的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603629&announcementId=1225675966&orgId=9900035548&announcementTime=2026-11-18"
+    },
+    {
+     "kind": "公告",
+     "text": "回购：利通电子关于变更回购股份用途并注销的公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603629/AN202611171831790168.html"
+    },
+    {
+     "kind": "公司",
+     "text": "利通电子：公司算力资源均通过合法合规商业渠道获取",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611183933840892.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "算力租赁美利云、润建股份、中嘉博创、利通电子、青云科技涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537775"
+    },
+    {
+     "kind": "盘面",
+     "text": "算力租赁板块表现强势，宏景科技、青云科技、旋极信息、润建股份、中贝通信、利通电子等十余股涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261118/c681948678.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "算力租赁+英伟达概念+股份注销",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“英伟达概念”（+1.78%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：英伟达停止向中国供应H200芯片 外交部回应",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537821"
+    }
+   ],
+   "ths_reason": "算力租赁+英伟达概念+股份注销",
+   "written_by": "规则"
+  },
+  {
+   "code": "688316",
+   "name": "青云科技-U",
+   "boards": 1,
+   "first_time": "1317",
+   "industry": "IT服务Ⅱ",
+   "stat": "1天1板",
+   "reason": "算力租赁+Token工厂+AI算力云",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "算力",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "算力租赁+Token工厂+AI算力云",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "算力租赁+Token工厂+AI算力云",
+   "written_by": "规则"
+  },
+  {
+   "code": "920924",
+   "name": "广脉科技",
+   "boards": 1,
+   "first_time": "1318",
+   "industry": "通信服务",
+   "stat": "1天1板",
+   "reason": "算力租赁走强",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "通信"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "算力租赁概念盘中持续走高，润建股份、中贝通信、城地香江、美利云、中嘉博创等多股涨停，广脉科技一度逼近30cm涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537534"
+    },
+    {
+     "kind": "题材",
+     "text": "算力：英伟达停止向中国供应H200芯片 外交部回应",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537821"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "002916",
+   "name": "深南电路",
+   "boards": 1,
+   "first_time": "1319",
+   "industry": "元件",
+   "stat": "1天1板",
+   "reason": "AI算力PCB+封装基板+定增注册获批",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "算力",
+    "消费电子"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "A股PCB概念股快速拉升，深南电路、生益电子双双涨停，沪电股份、四会富仕、鹏鼎控股、景旺电子、南亚新材跟涨",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3201715"
+    },
+    {
+     "kind": "盘面",
+     "text": "深南电路、沪电股份涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537775"
+    },
+    {
+     "kind": "盘面",
+     "text": "PCB概念盘中持续回暖，生益电子涨超10%，四会富仕、沪电股份、深南电路、广合科技、胜宏科技、鹏鼎控股涨超4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537459"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI算力PCB+封装基板+定增注册获批",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“周期股”概念（+0.13%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "AI算力PCB+封装基板+定增注册获批",
+   "written_by": "规则"
+  },
+  {
+   "code": "688757",
+   "name": "胜科纳米",
+   "boards": 1,
+   "first_time": "1319",
+   "industry": "专业服务",
+   "stat": "1天1板",
+   "reason": "半导体检测+先进存储+光电子器件+CPO",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "半导体",
+    "消费电子"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "CPO板块午后走高，武汉凡谷、胜科纳米等股涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261118/c681948678.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "半导体检测+先进存储+光电子器件+CPO",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“先进封装”概念（+0.55%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：英伟达停止向中国供应H200芯片 外交部回应",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537821"
+    }
+   ],
+   "ths_reason": "半导体检测+先进存储+光电子器件+CPO",
+   "written_by": "规则"
+  },
+  {
+   "code": "603985",
+   "name": "恒润股份",
+   "boards": 1,
+   "first_time": "1321",
+   "industry": "风电设备",
+   "stat": "1天1板",
+   "reason": "算力租赁+风电轴承+国企改革",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "风电"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "算力租赁概念拉升，青云科技、真视通、恒润股份等多股涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3201755"
+    },
+    {
+     "kind": "同花顺",
+     "text": "算力租赁+风电轴承+国企改革",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：英伟达停止向中国供应H200芯片 外交部回应",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537821"
+    }
+   ],
+   "ths_reason": "算力租赁+风电轴承+国企改革",
+   "written_by": "规则"
+  },
+  {
+   "code": "600186",
+   "name": "莲花控股",
+   "boards": 1,
+   "first_time": "1327",
+   "industry": "调味发酵",
+   "stat": "1天1板",
+   "reason": "算力租赁+类ABF膜+调味品",
+   "confidence": "中",
+   "themes": [
+    "算力"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "算力租赁+类ABF膜+调味品",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：英伟达停止向中国供应H200芯片 外交部回应",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537821"
+    }
+   ],
+   "ths_reason": "算力租赁+类ABF膜+调味品",
+   "written_by": "规则"
+  },
+  {
+   "code": "301396",
+   "name": "宏景科技",
+   "boards": 1,
+   "first_time": "1330",
+   "industry": "IT服务Ⅱ",
+   "stat": "1天1板",
+   "reason": "算力租赁+推理算力+三季报增长",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "通信",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "算力租赁板块表现强势，宏景科技、青云科技、旋极信息、润建股份、中贝通信、利通电子等十余股涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261118/c681948678.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "算力租赁+推理算力+三季报增长",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：英伟达停止向中国供应H200芯片 外交部回应",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537821"
+    }
+   ],
+   "ths_reason": "算力租赁+推理算力+三季报增长",
+   "written_by": "规则"
+  },
+  {
+   "code": "002463",
+   "name": "沪电股份",
+   "boards": 1,
+   "first_time": "1330",
+   "industry": "元件",
+   "stat": "1天1板",
+   "reason": "PCB+高速交换机+回购增持",
+   "confidence": "中",
+   "themes": [
+    "消费电子"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "主力资金监控：沪电股份净买入超11亿",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537708"
+    },
+    {
+     "kind": "公司",
+     "text": "A股PCB概念股快速拉升，深南电路、生益电子双双涨停，沪电股份、四会富仕、鹏鼎控股、景旺电子、南亚新材跟涨",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3201715"
+    },
+    {
+     "kind": "盘面",
+     "text": "深南电路、沪电股份涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537775"
+    },
+    {
+     "kind": "盘面",
+     "text": "PCB概念盘中持续回暖，生益电子涨超10%，四会富仕、沪电股份、深南电路、广合科技、胜宏科技、鹏鼎控股涨超4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537459"
+    },
+    {
+     "kind": "同花顺",
+     "text": "PCB+高速交换机+回购增持",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“密集调研”概念（+0.19%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费电子：龙旗科技：具身机器人数采设备已量产交付 收入占比不超1%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537578"
+    }
+   ],
+   "ths_reason": "PCB+高速交换机+回购增持",
+   "written_by": "规则"
+  },
+  {
+   "code": "002272",
+   "name": "川润股份",
+   "boards": 1,
+   "first_time": "1331",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "液冷+定增扩产+风电润滑+华为概念",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "风电"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "华为算力概念再度走强，华胜天成4天3板，卡莱特20cm2连板，真视通、泰嘉股份均晋级2连板，四川长虹、常山北明、川润股份等人气股纷纷涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537835"
+    },
+    {
+     "kind": "同花顺",
+     "text": "液冷+定增扩产+风电润滑+华为概念",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“超超临界发电”概念（+0.41%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：英伟达停止向中国供应H200芯片 外交部回应",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537821"
+    }
+   ],
+   "ths_reason": "液冷+定增扩产+风电润滑+华为概念",
+   "written_by": "规则"
+  }
+ ]
+}
