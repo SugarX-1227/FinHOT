@@ -1,0 +1,1228 @@
+{
+ "trade_date": "2026-11-20",
+ "coverage": 100.0,
+ "announced": 7,
+ "stocks": [
+  {
+   "code": "603324",
+   "name": "盛剑科技",
+   "boards": 4,
+   "first_time": "0925",
+   "industry": "环保设备",
+   "stat": "4天4板",
+   "reason": "光刻胶配套+半导体附属装备+电子化学品（公司提示：关于股票交易风险提示公告）",
+   "confidence": "中",
+   "themes": [
+    "半导体"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：关于股票交易风险提示公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603324&announcementId=1225679705&orgId=9900041728&announcementTime=2026-11-20"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：盛剑科技关于股票交易风险提示公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603324/AN202611191831864759.html"
+    },
+    {
+     "kind": "公司",
+     "text": "光刻胶板块短线拉升，盛剑科技涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261120/c682029326.shtml"
+    },
+    {
+     "kind": "公司",
+     "text": "A股光刻机、光刻胶概念低开回升，盛剑科技4连板，光华科技涨停，晶赛科技、广立微涨超10%，格林达、鼎龙股份跟涨",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3202937"
+    },
+    {
+     "kind": "盘面",
+     "text": "光刻胶概念股盛剑科技（3板）竞价涨停、兴欣新材（6天3板）低开4.41%、江化微（3天2板）低开3.02%、格林达（3天2板）高开4.63%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2539663"
+    },
+    {
+     "kind": "盘面",
+     "text": "盛剑科技（603324）冲击“四连板”失败",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611203935965226.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "光刻胶配套+半导体附属装备+电子化学品",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "半导体：美国ITC发布对动态随机存取存储器（DRAM）设备及其下游产品和组件（III）的",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2539667"
+    }
+   ],
+   "ths_reason": "光刻胶配套+半导体附属装备+电子化学品",
+   "written_by": "规则"
+  },
+  {
+   "code": "002771",
+   "name": "真视通",
+   "boards": 4,
+   "first_time": "0930",
+   "industry": "IT服务Ⅱ",
+   "stat": "4天4板",
+   "reason": "液冷算力+华为算力+多媒体视讯（公司提示：股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002771&announcementId=1225678313&orgId=9900023511&announcementTime=2026-11-19"
+    },
+    {
+     "kind": "公司",
+     "text": "华为算力概念局部回暖 真视通4连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2539676"
+    },
+    {
+     "kind": "公司",
+     "text": "华为算力概念再度走强 四川长虹、真视通双双涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2537414"
+    },
+    {
+     "kind": "盘面",
+     "text": "市场焦点股真视通（3板）高开1.04%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2539663"
+    },
+    {
+     "kind": "盘面",
+     "text": "华为算力真视通4连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2540003"
+    },
+    {
+     "kind": "同花顺",
+     "text": "液冷算力+华为算力+多媒体视讯",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：报道：数据中心DayOne暂停美国IPO",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3203021"
+    }
+   ],
+   "ths_reason": "液冷算力+华为算力+多媒体视讯",
+   "written_by": "规则"
+  },
+  {
+   "code": "002579",
+   "name": "中京电子",
+   "boards": 2,
+   "first_time": "0936",
+   "industry": "元件",
+   "stat": "2天2板",
+   "reason": "高阶HDI+算力+存储",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "半导体",
+    "消费电子"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "PCB概念局部活跃 中京电子2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2539679"
+    },
+    {
+     "kind": "公司",
+     "text": "元件板块局部走高，中京电子涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261120/c682030237.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "元件板块冲高回落，满坤科技、骏亚科技、中京电子、东晶电子、澳弘电子、超声电子触及涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261120/c682042154.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "PCB概念盘中再度拉升，超声电子、澳弘电子涨停，此前中京电子、光华科技涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2539712"
+    },
+    {
+     "kind": "同花顺",
+     "text": "高阶HDI+算力+存储",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：报道：数据中心DayOne暂停美国IPO",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3203021"
+    }
+   ],
+   "ths_reason": "高阶HDI+算力+存储",
+   "written_by": "规则"
+  },
+  {
+   "code": "002642",
+   "name": "荣联科技",
+   "boards": 1,
+   "first_time": "0931",
+   "industry": "IT服务Ⅱ",
+   "stat": "1天1板",
+   "reason": "存储设备集采+8.49亿订单+算力服务+国企",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "半导体",
+    "医药"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "荣联科技：成为2026年存储设备集采项目01包、04包中选供应商 成交金额8.49亿元",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2539131"
+    },
+    {
+     "kind": "盘面",
+     "text": "早盘华为算力概念局部回暖，真视通4连板，荣联科技涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2539676"
+    },
+    {
+     "kind": "盘面",
+     "text": "华为算力真视通4连板，荣联科技涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2540003"
+    },
+    {
+     "kind": "同花顺",
+     "text": "存储设备集采+8.49亿订单+算力服务+国企",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：报道：数据中心DayOne暂停美国IPO",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3203021"
+    }
+   ],
+   "ths_reason": "存储设备集采+8.49亿订单+算力服务+国企",
+   "written_by": "规则"
+  },
+  {
+   "code": "600360",
+   "name": "华微电子",
+   "boards": 1,
+   "first_time": "0932",
+   "industry": "半导体",
+   "stat": "1天1板",
+   "reason": "功率半导体+车规IGBT+SiC模块",
+   "confidence": "中",
+   "themes": [
+    "半导体"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "先进封装概念逆势活跃 华微电子涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2539682"
+    },
+    {
+     "kind": "同花顺",
+     "text": "功率半导体+车规IGBT+SiC模块",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "半导体：美国ITC发布对动态随机存取存储器（DRAM）设备及其下游产品和组件（III）的",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2539667"
+    }
+   ],
+   "ths_reason": "功率半导体+车规IGBT+SiC模块",
+   "written_by": "规则"
+  },
+  {
+   "code": "002741",
+   "name": "光华科技",
+   "boards": 1,
+   "first_time": "0936",
+   "industry": "电子化学",
+   "stat": "1天1板",
+   "reason": "光刻胶+PCB化学品+硫化锂",
+   "confidence": "中",
+   "themes": [
+    "半导体"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "A股光刻机、光刻胶概念低开回升，盛剑科技4连板，光华科技涨停，晶赛科技、广立微涨超10%，格林达、鼎龙股份跟涨",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3202937"
+    },
+    {
+     "kind": "盘面",
+     "text": "PCB概念盘中再度拉升，超声电子、澳弘电子涨停，此前中京电子、光华科技涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2539712"
+    },
+    {
+     "kind": "盘面",
+     "text": "光刻胶板块短线拉升，盛剑科技涨停，光华科技、格林达、胜科纳米跟涨",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261120/c682029326.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "光刻胶+PCB化学品+硫化锂",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "半导体：美国ITC发布对动态随机存取存储器（DRAM）设备及其下游产品和组件（III）的",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2539667"
+    }
+   ],
+   "ths_reason": "光刻胶+PCB化学品+硫化锂",
+   "written_by": "规则"
+  },
+  {
+   "code": "603948",
+   "name": "建业股份",
+   "boards": 1,
+   "first_time": "0937",
+   "industry": "化学制品",
+   "stat": "1天1板",
+   "reason": "电子化学品+半导体客户+超纯氨",
+   "confidence": "中",
+   "themes": [
+    "半导体",
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "电子化学品+半导体客户+超纯氨",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "半导体：美国ITC发布对动态随机存取存储器（DRAM）设备及其下游产品和组件（III）的",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2539667"
+    }
+   ],
+   "ths_reason": "电子化学品+半导体客户+超纯氨",
+   "written_by": "规则"
+  },
+  {
+   "code": "002199",
+   "name": "东晶电子",
+   "boards": 1,
+   "first_time": "0940",
+   "industry": "元件",
+   "stat": "1天1板",
+   "reason": "石英晶体元器件+碳酸锂+元件板块走高",
+   "confidence": "中",
+   "themes": [
+    "消费电子",
+    "锂电储能"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "元件板块冲高回落，满坤科技、骏亚科技、中京电子、东晶电子、澳弘电子、超声电子触及涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261120/c682042154.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "元件板块低开高走，中京电子、东晶电子、澳弘电子、超声电子、满坤科技触及涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261120/c682036469.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "石英晶体元器件+碳酸锂+元件板块走高",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "石英晶体元器件+碳酸锂+元件板块走高",
+   "written_by": "规则"
+  },
+  {
+   "code": "002086",
+   "name": "东方海洋",
+   "boards": 1,
+   "first_time": "0942",
+   "industry": "农产品加",
+   "stat": "1天1板",
+   "reason": "海洋养殖+大健康+董事会换届",
+   "confidence": "中",
+   "themes": [
+    "农业"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "超声电子、东方海洋、华胜天成获主力资金净流入居前",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2539770"
+    },
+    {
+     "kind": "盘面",
+     "text": "冰山冷热、超声电子、东方海洋主力资金净流入居前",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2539950"
+    },
+    {
+     "kind": "同花顺",
+     "text": "海洋养殖+大健康+董事会换届",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "海洋养殖+大健康+董事会换届",
+   "written_by": "规则"
+  },
+  {
+   "code": "300812",
+   "name": "易天股份",
+   "boards": 1,
+   "first_time": "0942",
+   "industry": "消费电子",
+   "stat": "1天1板",
+   "reason": "硅基OLED+先进封装+光模块设备",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "半导体",
+    "消费电子"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "早盘先进封装概念逆势活跃，华微电子涨停，芯碁微装、易天股份、蓝箭电子、三佳科技、盛景微跟涨",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2539682"
+    },
+    {
+     "kind": "同花顺",
+     "text": "硅基OLED+先进封装+光模块设备",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：报道：数据中心DayOne暂停美国IPO",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3203021"
+    }
+   ],
+   "ths_reason": "硅基OLED+先进封装+光模块设备",
+   "written_by": "规则"
+  },
+  {
+   "code": "605577",
+   "name": "龙版传媒",
+   "boards": 1,
+   "first_time": "0947",
+   "industry": "出版",
+   "stat": "1天1板",
+   "reason": "AI漫剧+出版发行+黑龙江国资",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "文化传媒板块局部活跃，龙版传媒涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261120/c682030704.shtml"
+    },
+    {
+     "kind": "公司",
+     "text": "文化传媒板块短线拉升，龙版传媒触及涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261119/c681983784.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "AI漫剧概念盘中震荡回升，果麦文化涨超10%，此前龙版传媒涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2539787"
+    },
+    {
+     "kind": "盘面",
+     "text": "AI漫剧概念震荡回升，龙版传媒、华媒控股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2540003"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI漫剧+出版发行+黑龙江国资",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：报道：数据中心DayOne暂停美国IPO",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3203021"
+    }
+   ],
+   "ths_reason": "AI漫剧+出版发行+黑龙江国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "000823",
+   "name": "超声电子",
+   "boards": 1,
+   "first_time": "1000",
+   "industry": "元件",
+   "stat": "1天1板",
+   "reason": "印制电路板+覆铜板+商业航天+三季报增长",
+   "confidence": "中",
+   "themes": [
+    "消费电子",
+    "有色金属",
+    "商业航天"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "PCB概念再度拉升 超声电子、澳弘电子双双涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2539712"
+    },
+    {
+     "kind": "公司",
+     "text": "元件板块再度拉升，超声电子涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261120/c682031606.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "元件板块冲高回落，满坤科技、骏亚科技、中京电子、东晶电子、澳弘电子、超声电子触及涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261120/c682042154.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "超声电子、东方海洋、华胜天成获主力资金净流入居前",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2539770"
+    },
+    {
+     "kind": "同花顺",
+     "text": "印制电路板+覆铜板+商业航天+三季报增长",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "印制电路板+覆铜板+商业航天+三季报增长",
+   "written_by": "规则"
+  },
+  {
+   "code": "000530",
+   "name": "冰山冷热",
+   "boards": 1,
+   "first_time": "1000",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "冰雪工程+数据中心液冷+船舶制冷+股权受让（公司提示：股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "航运物流"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000530&announcementId=1225677391&orgId=gssz0000530&announcementTime=2026-11-19"
+    },
+    {
+     "kind": "公司",
+     "text": "冰雪经济概念局部活跃 冰山冷热触及涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2539710"
+    },
+    {
+     "kind": "公司",
+     "text": "冰雪经济概念集体调整 冰山冷热、龙江交通双双跌停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2538556"
+    },
+    {
+     "kind": "盘面",
+     "text": "冰山冷热主力资金净买入超7亿元位居首位",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2539770"
+    },
+    {
+     "kind": "盘面",
+     "text": "冰山冷热、超声电子、东方海洋主力资金净流入居前",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2539950"
+    },
+    {
+     "kind": "同花顺",
+     "text": "冰雪工程+数据中心液冷+船舶制冷+股权受让",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：报道：数据中心DayOne暂停美国IPO",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3203021"
+    }
+   ],
+   "ths_reason": "冰雪工程+数据中心液冷+船舶制冷+股权受让",
+   "written_by": "规则"
+  },
+  {
+   "code": "605058",
+   "name": "澳弘电子",
+   "boards": 1,
+   "first_time": "1004",
+   "industry": "元件",
+   "stat": "1天1板",
+   "reason": "AI算力电源PCB+高端PCB扩产+HDI板",
+   "confidence": "高",
+   "themes": [
+    "人工智能",
+    "算力",
+    "消费电子"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "融资：关于因2026年限制性股票激励计划首次授予登记完成调整可转债转股价格的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=605058&announcementId=1225675741&orgId=9900039836&announcementTime=2026-11-18"
+    },
+    {
+     "kind": "公告",
+     "text": "融资：澳弘电子关于因2026年限制性股票激励计划首次授予登记完成调整可转债转股价格的公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/605058/AN202611171831789631.html"
+    },
+    {
+     "kind": "公司",
+     "text": "PCB概念再度拉升 超声电子、澳弘电子双双涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2539712"
+    },
+    {
+     "kind": "盘面",
+     "text": "元件板块冲高回落，满坤科技、骏亚科技、中京电子、东晶电子、澳弘电子、超声电子触及涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261120/c682042154.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "PCB概念逆势活跃，中京电子2连板，澳弘电子、超声电子涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2540003"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI算力电源PCB+高端PCB扩产+HDI板",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：报道：数据中心DayOne暂停美国IPO",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3203021"
+    }
+   ],
+   "ths_reason": "AI算力电源PCB+高端PCB扩产+HDI板",
+   "written_by": "规则"
+  },
+  {
+   "code": "002749",
+   "name": "国光股份",
+   "boards": 1,
+   "first_time": "1009",
+   "industry": "农化制品",
+   "stat": "1天1板",
+   "reason": "农药+植物生长调节剂",
+   "confidence": "高",
+   "themes": [
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "分红送转：2026年前三季度权益分派实施公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002749&announcementId=1225675378&orgId=9900023788&announcementTime=2026-11-18"
+    },
+    {
+     "kind": "同花顺",
+     "text": "农药+植物生长调节剂",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "农药+植物生长调节剂",
+   "written_by": "规则"
+  },
+  {
+   "code": "605018",
+   "name": "长华集团",
+   "boards": 1,
+   "first_time": "1014",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "人形机器人+飞行汽车+汽车零部件",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车",
+    "低空经济"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "机器人概念盘中局部异动，克来机电直线涨停，此前长华集团涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2539740"
+    },
+    {
+     "kind": "盘面",
+     "text": "机器人概念盘中局部异动，克来机电、长华集团涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2540003"
+    },
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+飞行汽车+汽车零部件",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "人形机器人+飞行汽车+汽车零部件",
+   "written_by": "规则"
+  },
+  {
+   "code": "600371",
+   "name": "万向德农",
+   "boards": 1,
+   "first_time": "1017",
+   "industry": "种植业",
+   "stat": "1天1板",
+   "reason": "玉米种业+转基因玉米+种植业板块",
+   "confidence": "中",
+   "themes": [
+    "农业"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "农业板块震荡回升 万向德农涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2539719"
+    },
+    {
+     "kind": "公司",
+     "text": "A股农业股异动拉升，万向德农冲击涨停，秋乐种业、康农种业、花溪科技、神农种业、金健米业纷纷冲高",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3202952"
+    },
+    {
+     "kind": "盘面",
+     "text": "粮食概念板块局部活跃，万向德农涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261120/c682036469.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "农业股表现活跃，万向德农、金新农涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3202992"
+    },
+    {
+     "kind": "同花顺",
+     "text": "玉米种业+转基因玉米+种植业板块",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "玉米种业+转基因玉米+种植业板块",
+   "written_by": "规则"
+  },
+  {
+   "code": "603004",
+   "name": "鼎龙科技",
+   "boards": 1,
+   "first_time": "1030",
+   "industry": "化学制品",
+   "stat": "1天1板",
+   "reason": "光刻胶+PSPI单体+特种工程材料单体平台",
+   "confidence": "中",
+   "themes": [
+    "半导体",
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "光刻胶+PSPI单体+特种工程材料单体平台",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "半导体：美国ITC发布对动态随机存取存储器（DRAM）设备及其下游产品和组件（III）的",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2539667"
+    }
+   ],
+   "ths_reason": "光刻胶+PSPI单体+特种工程材料单体平台",
+   "written_by": "规则"
+  },
+  {
+   "code": "603960",
+   "name": "克来机电",
+   "boards": 1,
+   "first_time": "1034",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "工业机器人+柔性自动化装备+AI应用",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "机器人概念局部异动 克来机电直线涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2539740"
+    },
+    {
+     "kind": "盘面",
+     "text": "机器人概念盘中局部异动，克来机电、长华集团涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2540003"
+    },
+    {
+     "kind": "同花顺",
+     "text": "工业机器人+柔性自动化装备+AI应用",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：报道：数据中心DayOne暂停美国IPO",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3203021"
+    }
+   ],
+   "ths_reason": "工业机器人+柔性自动化装备+AI应用",
+   "written_by": "规则"
+  },
+  {
+   "code": "603466",
+   "name": "风语筑",
+   "boards": 1,
+   "first_time": "1044",
+   "industry": "数字媒体",
+   "stat": "1天1板",
+   "reason": "物理AI+具身智能+数字展示",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "物理AI概念盘中局部回暖，凡拓数创涨超10%，风语筑、索辰科技、福莱新材等冲高",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2539718"
+    },
+    {
+     "kind": "盘面",
+     "text": "机器人概念震荡回升，襄阳轴承涨停，拓普集团、兆威机电、风语筑、旭升集团、宇树科技跟涨",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2538567"
+    },
+    {
+     "kind": "同花顺",
+     "text": "物理AI+具身智能+数字展示",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：报道：数据中心DayOne暂停美国IPO",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3203021"
+    }
+   ],
+   "ths_reason": "物理AI+具身智能+数字展示",
+   "written_by": "规则"
+  },
+  {
+   "code": "301313",
+   "name": "凡拓数创",
+   "boards": 1,
+   "first_time": "1044",
+   "industry": "数字媒体",
+   "stat": "1天1板",
+   "reason": "物理AI数据基座+具身智能数据",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "机器人",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "物理AI概念局部回暖 凡拓数创涨超10%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2539718"
+    },
+    {
+     "kind": "盘面",
+     "text": "流金科技、果麦文化、凡拓数创、吉视传媒跟涨",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261120/c682030704.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "风语筑、凡拓数创、中信出版跟涨",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261119/c681983784.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "物理AI数据基座+具身智能数据",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：报道：数据中心DayOne暂停美国IPO",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3203021"
+    }
+   ],
+   "ths_reason": "物理AI数据基座+具身智能数据",
+   "written_by": "规则"
+  },
+  {
+   "code": "002548",
+   "name": "金新农",
+   "boards": 1,
+   "first_time": "1047",
+   "industry": "饲料",
+   "stat": "6天3板",
+   "reason": "生猪养殖+猪饲料+养殖机器人（公司提示：股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "农业"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002548&announcementId=1225674196&orgId=9900017829&announcementTime=2026-11-17"
+    },
+    {
+     "kind": "公司",
+     "text": "猪肉概念震荡回升 金新农6天3板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2539757"
+    },
+    {
+     "kind": "公司",
+     "text": "猪肉板块短线拉升，金新农涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261120/c682034089.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "猪肉板块表现活跃，金新农涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261120/c682042154.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "猪肉股反弹，金新农涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3203056"
+    },
+    {
+     "kind": "同花顺",
+     "text": "生猪养殖+猪饲料+养殖机器人",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "生猪养殖+猪饲料+养殖机器人",
+   "written_by": "规则"
+  },
+  {
+   "code": "603386",
+   "name": "骏亚科技",
+   "boards": 1,
+   "first_time": "1051",
+   "industry": "元件",
+   "stat": "1天1板",
+   "reason": "元件板块拉升+PCB+AI算力",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "算力",
+    "消费电子"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "元件板块冲高回落，满坤科技、骏亚科技、中京电子、东晶电子、澳弘电子、超声电子触及涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261120/c682042154.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "元件板块再度拉升，超声电子涨停，东晶电子、中京电子此前封板，满坤科技、晶赛科技涨超10%，澳弘电子、金禄电子、逸豪新材、骏亚科技、协和电子等跟涨",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261120/c682031606.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "元件板块拉升+PCB+AI算力",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：报道：数据中心DayOne暂停美国IPO",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3203021"
+    }
+   ],
+   "ths_reason": "元件板块拉升+PCB+AI算力",
+   "written_by": "规则"
+  },
+  {
+   "code": "600327",
+   "name": "大东方",
+   "boards": 1,
+   "first_time": "1112",
+   "industry": "一般零售",
+   "stat": "14天7板",
+   "reason": "百货零售+医疗服务+“东方系”（公司提示：股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "医药",
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600327&announcementId=1225676178&orgId=gssh0600327&announcementTime=2026-11-18"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：大东方股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/600327/AN202611171831790909.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "百货零售+医疗服务+“东方系”",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "百货零售+医疗服务+“东方系”",
+   "written_by": "规则"
+  },
+  {
+   "code": "000607",
+   "name": "华媒控股",
+   "boards": 1,
+   "first_time": "1117",
+   "industry": "广告营销",
+   "stat": "1天1板",
+   "reason": "AI漫剧+文化传媒+杭州国资",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "AI漫剧概念震荡回升，龙版传媒、华媒控股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2540003"
+    },
+    {
+     "kind": "盘面",
+     "text": "AI漫剧、传媒板块探底回升，华媒控股、风雨筑、龙版传媒涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3202992"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI漫剧+文化传媒+杭州国资",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：报道：数据中心DayOne暂停美国IPO",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3203021"
+    }
+   ],
+   "ths_reason": "AI漫剧+文化传媒+杭州国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "301132",
+   "name": "满坤科技",
+   "boards": 1,
+   "first_time": "1120",
+   "industry": "元件",
+   "stat": "1天1板",
+   "reason": "AI服务器电源PCB+供货台达+回购",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "算力",
+    "消费电子"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "元件板块冲高回落，满坤科技、骏亚科技、中京电子、东晶电子、澳弘电子、超声电子触及涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261120/c682042154.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "PCB概念盘中再度拉升，超声电子、澳弘电子涨停，此前中京电子、光华科技涨停，满坤科技涨超10%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2539712"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI服务器电源PCB+供货台达+回购",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：报道：数据中心DayOne暂停美国IPO",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3203021"
+    }
+   ],
+   "ths_reason": "AI服务器电源PCB+供货台达+回购",
+   "written_by": "规则"
+  },
+  {
+   "code": "600467",
+   "name": "好当家",
+   "boards": 1,
+   "first_time": "1126",
+   "industry": "渔业",
+   "stat": "7天4板",
+   "reason": "海参+水产养殖+预制菜",
+   "confidence": "中",
+   "themes": [
+    "农业"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "海参+水产养殖+预制菜",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "海参+水产养殖+预制菜",
+   "written_by": "规则"
+  },
+  {
+   "code": "000593",
+   "name": "德龙汇能",
+   "boards": 1,
+   "first_time": "1300",
+   "industry": "燃气Ⅱ",
+   "stat": "1天1板",
+   "reason": "天然气+氢能+参股半导体",
+   "confidence": "中",
+   "themes": [
+    "半导体",
+    "油气"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "天然气+氢能+参股半导体",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "半导体：美国ITC发布对动态随机存取存储器（DRAM）设备及其下游产品和组件（III）的",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2539667"
+    }
+   ],
+   "ths_reason": "天然气+氢能+参股半导体",
+   "written_by": "规则"
+  }
+ ]
+}
