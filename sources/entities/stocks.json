@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-22T09:16:24+08:00",
+"updated": "2026-11-23T09:40:53+08:00",
 "source": "巨潮资讯股票清单",
 "complete": true,
 "stocks": [
@@ -10525,13 +10525,15 @@
 },
 {
 "code": "002122",
-"name": "ST汇洲",
+"name": "汇洲智能",
 "exchange": "SZ",
 "org_id": "9900002421",
-"pinyin": "sthz",
+"pinyin": "hzzn",
 "industry": "通用设备",
-"former": [],
-"st": true,
+"former": [
+"ST汇洲"
+],
+"st": false,
 "status": "listed",
 "hk": "",
 "us": "",
@@ -27991,12 +27993,14 @@
 },
 {
 "code": "300351",
-"name": "永贵电器",
+"name": "永贵智能",
 "exchange": "SZ",
 "org_id": "9900022667",
-"pinyin": "ygdq",
+"pinyin": "ygzn",
 "industry": "轨交设备Ⅱ",
-"former": [],
+"former": [
+"永贵电器"
+],
 "st": false,
 "status": "listed",
 "hk": "",
@@ -67595,12 +67599,14 @@
 },
 {
 "code": "603955",
-"name": "大千生态",
+"name": "灵动股份",
 "exchange": "SH",
 "org_id": "9900023665",
-"pinyin": "dqst",
+"pinyin": "ldgf",
 "industry": "基础建设",
-"former": [],
+"former": [
+"大千生态"
+],
 "st": false,
 "status": "listed",
 "hk": "",

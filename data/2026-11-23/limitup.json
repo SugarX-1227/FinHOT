@@ -1,0 +1,431 @@
+{
+ "trade_date": "2026-11-23",
+ "coverage": 64.7,
+ "announced": 5,
+ "stocks": [
+  {
+   "code": "002771",
+   "name": "真视通",
+   "boards": 5,
+   "first_time": "0925",
+   "industry": "IT服务Ⅱ",
+   "stat": "5天5板",
+   "reason": "题材股概念领涨（公司提示：股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002771&announcementId=1225682066&orgId=9900023511&announcementTime=2026-11-21"
+    },
+    {
+     "kind": "公司",
+     "text": "竞价看龙头：真视通一字涨停晋级5连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541184"
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“题材股”概念（+1.48%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "002579",
+   "name": "中京电子",
+   "boards": 3,
+   "first_time": "0930",
+   "industry": "元件",
+   "stat": "3天3板",
+   "reason": "PCB走强（公司提示：股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "消费电子"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002579&announcementId=1225682134&orgId=9900019410&announcementTime=2026-11-21"
+    },
+    {
+     "kind": "公司",
+     "text": "PCB概念表现活跃 中京电子3连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541196"
+    },
+    {
+     "kind": "公司",
+     "text": "元件板块直线拉升，中京电子涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261123/c682085153.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "PCB概念股中京电子（2板）高开10.01%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541184"
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“光通信模块”概念（+0.16%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "000593",
+   "name": "德龙汇能",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "燃气Ⅱ",
+   "stat": "2天2板",
+   "reason": "东方财富热股概念领涨",
+   "confidence": "中",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "板块",
+     "text": "领涨“东方财富热股”概念（+0.37%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "603960",
+   "name": "克来机电",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "汽车零部",
+   "stat": "2天2板",
+   "reason": "汽车题材",
+   "confidence": "低",
+   "themes": [
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "题材",
+     "text": "汽车：美股科技股夜盘普遍反弹 SK海力士涨逾7%英伟达涨逾5%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541168"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "002642",
+   "name": "荣联科技",
+   "boards": 2,
+   "first_time": "0930",
+   "industry": "IT服务Ⅱ",
+   "stat": "2天2板",
+   "reason": "数字孪生概念领涨",
+   "confidence": "中",
+   "themes": [
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "板块",
+     "text": "领涨“数字孪生”概念（+0.06%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "002749",
+   "name": "国光股份",
+   "boards": 2,
+   "first_time": "0930",
+   "industry": "农化制品",
+   "stat": "2天2板",
+   "reason": "农化制品",
+   "confidence": "低",
+   "themes": [],
+   "evidence": [],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "002199",
+   "name": "东晶电子",
+   "boards": 2,
+   "first_time": "0938",
+   "industry": "元件",
+   "stat": "2天2板",
+   "reason": "被动元件概念领涨",
+   "confidence": "中",
+   "themes": [
+    "消费电子"
+   ],
+   "evidence": [
+    {
+     "kind": "板块",
+     "text": "领涨“被动元件概念”（+0.14%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "002036",
+   "name": "联创电子",
+   "boards": 1,
+   "first_time": "0925",
+   "industry": "光学光电",
+   "stat": "1天1板",
+   "reason": "混合现实概念领涨",
+   "confidence": "中",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "板块",
+     "text": "领涨“混合现实”概念（+0.03%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "001229",
+   "name": "魅视科技",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "计算机设",
+   "stat": "1天1板",
+   "reason": "关于公司收到中选通知书暨签订日常经营重大框架协议及备忘录的公…",
+   "confidence": "高",
+   "themes": [
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "重大合同：关于公司收到中选通知书暨签订日常经营重大框架协议及备忘录的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=001229&announcementId=1225682693&orgId=9900047621&announcementTime=2026-11-21"
+    },
+    {
+     "kind": "公司",
+     "text": "魅视科技：签署算力服务项目备忘录 最高金额11.64亿元",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2540486"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "002685",
+   "name": "华东重机",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "工程机械",
+   "stat": "7天5板",
+   "reason": "基建建材题材",
+   "confidence": "低",
+   "themes": [
+    "基建建材"
+   ],
+   "evidence": [],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "002164",
+   "name": "宁波东力",
+   "boards": 1,
+   "first_time": "0932",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "减速器概念领涨",
+   "confidence": "中",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "人形机器人概念震荡拉升 宁波东力涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541201"
+    },
+    {
+     "kind": "公司",
+     "text": "人形机器人板块短线拉升，宁波东力触及涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261123/c682085199.shtml"
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“减速器”概念（+0.16%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "002708",
+   "name": "光洋股份",
+   "boards": 1,
+   "first_time": "0933",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "汽车题材",
+   "confidence": "低",
+   "themes": [
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "题材",
+     "text": "汽车：美股科技股夜盘普遍反弹 SK海力士涨逾7%英伟达涨逾5%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541168"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "002983",
+   "name": "芯瑞达",
+   "boards": 1,
+   "first_time": "0933",
+   "industry": "光学光电",
+   "stat": "1天1板",
+   "reason": "光学光电",
+   "confidence": "低",
+   "themes": [],
+   "evidence": [],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "002931",
+   "name": "锋龙股份",
+   "boards": 1,
+   "first_time": "0933",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "人形机器人走强",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "人形机器人概念震荡拉升，宁波东力涨停，上纬新材、宇树科技、锋龙股份、奥比中光、斯菱智驱跟涨",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541201"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "002122",
+   "name": "汇洲智能",
+   "boards": 1,
+   "first_time": "0934",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "通用设备",
+   "confidence": "低",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "停复牌：关于撤销公司股票交易其他风险警示暨停复牌的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002122&announcementId=1225679977&orgId=9900002421&announcementTime=2026-11-20"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "301318",
+   "name": "维海德",
+   "boards": 1,
+   "first_time": "0936",
+   "industry": "计算机设",
+   "stat": "1天1板",
+   "reason": "数字经济题材（同题材涨停 4 家）",
+   "confidence": "低",
+   "themes": [
+    "数字经济"
+   ],
+   "evidence": [],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "002815",
+   "name": "崇达技术",
+   "boards": 1,
+   "first_time": "0936",
+   "industry": "元件",
+   "stat": "1天1板",
+   "reason": "董事会薪酬与考核委员会关于回购注销部分限制性股票的意见",
+   "confidence": "高",
+   "themes": [
+    "消费电子",
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "回购：董事会薪酬与考核委员会关于回购注销部分限制性股票的意见",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002815&announcementId=1225680641&orgId=9900023139&announcementTime=2026-11-21"
+    },
+    {
+     "kind": "公告",
+     "text": "回购：关于回购注销部分限制性股票的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002815&announcementId=1225680640&orgId=9900023139&announcementTime=2026-11-21"
+    },
+    {
+     "kind": "盘面",
+     "text": "人形机器人板块短线拉升，宁波东力触及涨停，上纬新材、安培龙、宇树科技、崇达技术纷纷上扬",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261123/c682085199.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "元件板块直线拉升，中京电子涨停，迅捷兴、崇达技术、逸豪新材、科翔股份、南亚新材跟涨",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261123/c682085153.shtml"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  }
+ ]
+}
