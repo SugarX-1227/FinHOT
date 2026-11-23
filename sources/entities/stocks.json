@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-23T09:40:53+08:00",
+"updated": "2026-11-24T03:31:53+08:00",
 "source": "巨潮资讯股票清单",
 "complete": true,
 "stocks": [
@@ -5908,7 +5908,7 @@
 "industry": "影视院线",
 "former": [],
 "st": false,
-"status": "listed",
+"status": "delisted",
 "hk": "",
 "us": "",
 "aliases": []
@@ -20879,13 +20879,15 @@
 },
 {
 "code": "002872",
-"name": "ST天圣",
+"name": "天圣制药",
 "exchange": "SZ",
 "org_id": "9900030826",
-"pinyin": "stts",
+"pinyin": "tszy",
 "industry": "化学制药",
-"former": [],
-"st": true,
+"former": [
+"ST天圣"
+],
+"st": false,
 "status": "listed",
 "hk": "",
 "us": "",
@@ -30067,13 +30069,15 @@
 },
 {
 "code": "300500",
-"name": "启迪设计",
+"name": "ST启设",
 "exchange": "SZ",
 "org_id": "9900024909",
-"pinyin": "qdsj",
+"pinyin": "stqs",
 "industry": "工程咨询服务Ⅱ",
-"former": [],
-"st": false,
+"former": [
+"启迪设计"
+],
+"st": true,
 "status": "listed",
 "hk": "",
 "us": "",

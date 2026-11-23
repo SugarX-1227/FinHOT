@@ -1,0 +1,5674 @@
+{
+ "trade_date": "2026-11-23",
+ "coverage": 100.0,
+ "announced": 32,
+ "stocks": [
+  {
+   "code": "002771",
+   "name": "真视通",
+   "boards": 5,
+   "first_time": "0925",
+   "industry": "IT服务Ⅱ",
+   "stat": "5天5板",
+   "reason": "液冷算力+华为算力+多媒体视讯（公司提示：股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002771&announcementId=1225682066&orgId=9900023511&announcementTime=2026-11-21"
+    },
+    {
+     "kind": "公司",
+     "text": "11月23日涨停复盘：151只股涨停 真视通5连板",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611233937343137.html"
+    },
+    {
+     "kind": "公司",
+     "text": "竞价看龙头：真视通一字涨停晋级5连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541184"
+    },
+    {
+     "kind": "盘面",
+     "text": "其中算力概念股真视通收获5连板、荣联科技2连板",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103450494.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "华为算力概念股真视通5连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541636"
+    },
+    {
+     "kind": "同花顺",
+     "text": "液冷算力+华为算力+多媒体视讯",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“钠离子电池”概念（+2.77%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：英伟达美股开盘跳涨33% 市值增加超1万亿美元",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542227"
+    }
+   ],
+   "ths_reason": "液冷算力+华为算力+多媒体视讯",
+   "written_by": "规则"
+  },
+  {
+   "code": "603324",
+   "name": "盛剑科技",
+   "boards": 5,
+   "first_time": "1303",
+   "industry": "环保设备",
+   "stat": "5天5板",
+   "reason": "光刻胶配套+电子化学品+半导体附属装备（公司提示：关于股票交易风险提示公告）",
+   "confidence": "中",
+   "themes": [
+    "半导体"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：关于股票交易风险提示公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603324&announcementId=1225684238&orgId=9900041728&announcementTime=2026-11-24"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：盛剑科技关于股票交易风险提示公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603324/AN202611231831960637.html"
+    },
+    {
+     "kind": "公司",
+     "text": "上交所向盛剑科技下发监管工作函",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541954"
+    },
+    {
+     "kind": "公司",
+     "text": "盛剑科技：股价短期涨幅较大存在非理性炒作风险，电子化学品材料业务占比较低",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261123/c682124864.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "芯片产业链的盛剑科技5连板、华东重机7天5板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541636"
+    },
+    {
+     "kind": "盘面",
+     "text": "芯片产业链的盛剑科技（4板）低开0.97%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541184"
+    },
+    {
+     "kind": "同花顺",
+     "text": "光刻胶配套+电子化学品+半导体附属装备",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“中芯概念”（+2.08%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "光刻胶配套+电子化学品+半导体附属装备",
+   "written_by": "规则"
+  },
+  {
+   "code": "002579",
+   "name": "中京电子",
+   "boards": 3,
+   "first_time": "0930",
+   "industry": "元件",
+   "stat": "3天3板",
+   "reason": "高阶HDI+算力+存储+人形机器人（公司提示：股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "半导体",
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002579&announcementId=1225682134&orgId=9900019410&announcementTime=2026-11-21"
+    },
+    {
+     "kind": "公司",
+     "text": "A股元件板块震荡走高，逸豪新材涨超13%，中京电子、崇达技术双双涨停，协和电子涨超9%，迅捷兴、贤丰控股、明阳电路、超声…",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261123094025474800"
+    },
+    {
+     "kind": "公司",
+     "text": "PCB概念表现活跃 中京电子3连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541196"
+    },
+    {
+     "kind": "盘面",
+     "text": "PCB中京电子3连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541599"
+    },
+    {
+     "kind": "盘面",
+     "text": "PCB概念股中京电子3连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541362"
+    },
+    {
+     "kind": "同花顺",
+     "text": "高阶HDI+算力+存储+人形机器人",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“存储芯片”概念（+2.85%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：英伟达美股开盘跳涨33% 市值增加超1万亿美元",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542227"
+    }
+   ],
+   "ths_reason": "高阶HDI+算力+存储+人形机器人",
+   "written_by": "规则"
+  },
+  {
+   "code": "000593",
+   "name": "德龙汇能",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "燃气Ⅱ",
+   "stat": "2天2板",
+   "reason": "天然气+参股半导体+氢能（公司提示：股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "半导体",
+    "油气"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000593&announcementId=1225684680&orgId=gssz0000593&announcementTime=2026-11-24"
+    },
+    {
+     "kind": "公司",
+     "text": "德龙汇能：仍聚焦天然气主业 无半导体业务",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611233937546971.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "天然气+参股半导体+氢能",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“天然气”概念（+0.90%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "天然气+参股半导体+氢能",
+   "written_by": "规则"
+  },
+  {
+   "code": "603960",
+   "name": "克来机电",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "汽车零部",
+   "stat": "2天2板",
+   "reason": "工业机器人+柔性自动化装备+AI应用（公司提示：公司目前不涉及人形机器人领域相关产品）",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603960&announcementId=1225684354&orgId=9900030536&announcementTime=2026-11-24"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：克来机电股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603960/AN202611231831961088.html"
+    },
+    {
+     "kind": "公司",
+     "text": "2连板克来机电：公司目前不涉及人形机器人领域相关产品",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541948"
+    },
+    {
+     "kind": "盘面",
+     "text": "人形机器人概念持续拉升，十余只成分股涨停，安培龙20CM涨停，此前克来机电、长华集团2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541240"
+    },
+    {
+     "kind": "盘面",
+     "text": "人形机器人概念爆发，上纬新材、宇树科技、汉威科技、安培龙20CM涨停，克来机电、长华集团2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541599"
+    },
+    {
+     "kind": "同花顺",
+     "text": "工业机器人+柔性自动化装备+AI应用",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“破增发价股”概念（+2.11%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：报道：亚马逊将斥资75亿美元收购人工智能初创公司Decart的技术",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3204327"
+    }
+   ],
+   "ths_reason": "工业机器人+柔性自动化装备+AI应用",
+   "written_by": "规则"
+  },
+  {
+   "code": "002642",
+   "name": "荣联科技",
+   "boards": 2,
+   "first_time": "0930",
+   "industry": "IT服务Ⅱ",
+   "stat": "2天2板",
+   "reason": "存储设备集采+算力服务+国企",
+   "confidence": "高",
+   "themes": [
+    "算力",
+    "半导体",
+    "医药"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002642&announcementId=1225684775&orgId=9900021847&announcementTime=2026-11-24"
+    },
+    {
+     "kind": "公司",
+     "text": "荣联科技：股价异动系收到8.49亿元存储设备集采项目成交通知函，尚未签署正式合同",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261123/c682119739.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "其中算力概念股真视通收获5连板、荣联科技2连板",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103450494.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "存储设备集采+算力服务+国企",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“碳交易”概念（+1.26%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：英伟达美股开盘跳涨33% 市值增加超1万亿美元",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542227"
+    }
+   ],
+   "ths_reason": "存储设备集采+算力服务+国企",
+   "written_by": "规则"
+  },
+  {
+   "code": "002086",
+   "name": "东方海洋",
+   "boards": 2,
+   "first_time": "0931",
+   "industry": "农产品加",
+   "stat": "18天9板",
+   "reason": "海洋养殖+大健康+董事会换届+“羊”字辈（公司提示：股票交易异常波动暨风险提示公告）",
+   "confidence": "中",
+   "themes": [
+    "消费",
+    "农业"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动暨风险提示公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002086&announcementId=1225684381&orgId=9900001344&announcementTime=2026-11-24"
+    },
+    {
+     "kind": "公司",
+     "text": "东方海洋：公司主营业务分为海洋板块和大健康板块，两大板块均处于亏损状态",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261123/c682117836.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "大消费板块东方海洋18天9板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541362"
+    },
+    {
+     "kind": "同花顺",
+     "text": "海洋养殖+大健康+董事会换届+“羊”字辈",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“预制菜概念”（+2.39%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "海洋养殖+大健康+董事会换届+“羊”字辈",
+   "written_by": "规则"
+  },
+  {
+   "code": "002199",
+   "name": "东晶电子",
+   "boards": 2,
+   "first_time": "0938",
+   "industry": "元件",
+   "stat": "2天2板",
+   "reason": "石英晶体元器件+碳酸锂（公司提示：股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "锂电储能",
+    "消费电子"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002199&announcementId=1225683808&orgId=9900003906&announcementTime=2026-11-24"
+    },
+    {
+     "kind": "同花顺",
+     "text": "石英晶体元器件+碳酸锂",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“被动元件概念”（+4.10%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "石英晶体元器件+碳酸锂",
+   "written_by": "规则"
+  },
+  {
+   "code": "605018",
+   "name": "长华集团",
+   "boards": 2,
+   "first_time": "0949",
+   "industry": "汽车零部",
+   "stat": "2天2板",
+   "reason": "人形机器人+行星滚柱丝杠+汽车零部件（公司提示：股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=605018&announcementId=1225684934&orgId=9900039843&announcementTime=2026-11-24"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：长华集团股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/605018/AN202611231831963622.html"
+    },
+    {
+     "kind": "公司",
+     "text": "2连板长华集团：不从事人形机器人整机业务 行星滚柱丝杠产品仍处于研发阶段",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542090"
+    },
+    {
+     "kind": "公司",
+     "text": "长华集团：控股股东一致行动人合计减持0.5%股份",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/2026-11-23/doc-iniztsaa0522047.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "人形机器人概念持续拉升，十余只成分股涨停，安培龙20CM涨停，此前克来机电、长华集团2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541240"
+    },
+    {
+     "kind": "盘面",
+     "text": "人形机器人概念爆发，上纬新材、宇树科技、汉威科技、安培龙20CM涨停，克来机电、长华集团2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541599"
+    },
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+行星滚柱丝杠+汽车零部件",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“汽车一体化压铸”概念（+3.36%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "人形机器人+行星滚柱丝杠+汽车零部件",
+   "written_by": "规则"
+  },
+  {
+   "code": "301313",
+   "name": "凡拓数创",
+   "boards": 2,
+   "first_time": "1103",
+   "industry": "数字媒体",
+   "stat": "2天2板",
+   "reason": "具身智能数据+物理AI数据基座+机器人训练场",
+   "confidence": "高",
+   "themes": [
+    "人工智能",
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：关于公司股票交易异常波动的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=301313&announcementId=1225684827&orgId=gfbj0833414&announcementTime=2026-11-23"
+    },
+    {
+     "kind": "公司",
+     "text": "20CM涨停两连板凡拓数创：数据采集业务暂未形成营收",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542069"
+    },
+    {
+     "kind": "公司",
+     "text": "物理AI概念持续走强 凡拓数创20cm2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541324"
+    },
+    {
+     "kind": "盘面",
+     "text": "物理AI概念大涨，汉威科技、凡拓数创、海天瑞声等20CM涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611233937403845.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "⑥20CM涨停两连板凡拓数创",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542187"
+    },
+    {
+     "kind": "同花顺",
+     "text": "具身智能数据+物理AI数据基座+机器人训练场",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“智慧政务”概念（+3.09%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：报道：亚马逊将斥资75亿美元收购人工智能初创公司Decart的技术",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3204327"
+    }
+   ],
+   "ths_reason": "具身智能数据+物理AI数据基座+机器人训练场",
+   "written_by": "规则"
+  },
+  {
+   "code": "603004",
+   "name": "鼎龙科技",
+   "boards": 2,
+   "first_time": "1129",
+   "industry": "化学制品",
+   "stat": "2天2板",
+   "reason": "光刻胶+特种工程材料单体+染发剂原料（公司提示：股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "半导体",
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603004&announcementId=1225684236&orgId=9900048374&announcementTime=2026-11-24"
+    },
+    {
+     "kind": "同花顺",
+     "text": "光刻胶+特种工程材料单体+染发剂原料",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“染料”概念（+3.02%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "光刻胶+特种工程材料单体+染发剂原料",
+   "written_by": "规则"
+  },
+  {
+   "code": "605577",
+   "name": "龙版传媒",
+   "boards": 2,
+   "first_time": "1319",
+   "industry": "出版",
+   "stat": "2天2板",
+   "reason": "AI漫剧+出版发行+黑龙江国资（公司提示：关于股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：关于股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=605577&announcementId=1225683976&orgId=nssc1000394&announcementTime=2026-11-24"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI漫剧+出版发行+黑龙江国资",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：报道：亚马逊将斥资75亿美元收购人工智能初创公司Decart的技术",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3204327"
+    }
+   ],
+   "ths_reason": "AI漫剧+出版发行+黑龙江国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "000530",
+   "name": "冰山冷热",
+   "boards": 2,
+   "first_time": "1359",
+   "industry": "通用设备",
+   "stat": "2天2板",
+   "reason": "冰雪工程+数据中心液冷+船舶制冷+股权受让（公司提示：股票交易异常波动暨风险提示公告）",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "航运物流"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动暨风险提示公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000530&announcementId=1225684265&orgId=gssz0000530&announcementTime=2026-11-24"
+    },
+    {
+     "kind": "公司",
+     "text": "冰山冷热：2026年截至目前冰雪场馆业务尚未确认收入，液冷相关业务主要处于研发试制、初步推广阶段",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261123/c682117500.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "冰雪经济概念表现活跃，龙江交通涨停，晶雪节能、冰山冷热、长白山、雪人集团跟涨",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541264"
+    },
+    {
+     "kind": "同花顺",
+     "text": "冰雪工程+数据中心液冷+船舶制冷+股权受让",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“IPO受益”概念（+1.36%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：英伟达美股开盘跳涨33% 市值增加超1万亿美元",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542227"
+    }
+   ],
+   "ths_reason": "冰雪工程+数据中心液冷+船舶制冷+股权受让",
+   "written_by": "规则"
+  },
+  {
+   "code": "600467",
+   "name": "好当家",
+   "boards": 2,
+   "first_time": "1434",
+   "industry": "渔业",
+   "stat": "8天5板",
+   "reason": "海参+水产养殖+预制菜（公司提示：关于股票交易异常波动的公告）",
+   "confidence": "中",
+   "themes": [
+    "消费",
+    "农业"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：关于股票交易异常波动的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600467&announcementId=1225684132&orgId=gssh0600467&announcementTime=2026-11-24"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：好当家关于股票交易异常波动的公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/600467/AN202611231831958963.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "大消费板块大东方（14天7板）低开2.28%、好当家（7天4板）高开2.80%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541184"
+    },
+    {
+     "kind": "同花顺",
+     "text": "海参+水产养殖+预制菜",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“中韩自贸区”概念（+1.18%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "海参+水产养殖+预制菜",
+   "written_by": "规则"
+  },
+  {
+   "code": "002548",
+   "name": "金新农",
+   "boards": 2,
+   "first_time": "1435",
+   "industry": "饲料",
+   "stat": "7天4板",
+   "reason": "生猪养殖+养殖机器人+猪饲料（公司提示：股票交易异常波动暨风险提示公告）",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "农业"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动暨风险提示公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002548&announcementId=1225684786&orgId=9900017829&announcementTime=2026-11-24"
+    },
+    {
+     "kind": "公司",
+     "text": "2连板金新农：现阶段以生猪饲料和养殖业务为主 生猪价格波动存在不确定性",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542109"
+    },
+    {
+     "kind": "公司",
+     "text": "猪肉概念异动拉升 金新农7天4板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541560"
+    },
+    {
+     "kind": "盘面",
+     "text": "猪肉产业链的金新农（6天3板）高开2.93%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541184"
+    },
+    {
+     "kind": "同花顺",
+     "text": "生猪养殖+养殖机器人+猪饲料",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“猪肉概念”（+2.95%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "生猪养殖+养殖机器人+猪饲料",
+   "written_by": "规则"
+  },
+  {
+   "code": "600327",
+   "name": "大东方",
+   "boards": 2,
+   "first_time": "1437",
+   "industry": "一般零售",
+   "stat": "15天8板",
+   "reason": "百货零售+医疗服务+股份注销（公司提示：股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "医药",
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600327&announcementId=1225684428&orgId=gssh0600327&announcementTime=2026-11-24"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：大东方股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/600327/AN202611231831961264.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "大消费板块大东方（14天7板）低开2.28%、好当家（7天4板）高开2.80%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541184"
+    },
+    {
+     "kind": "同花顺",
+     "text": "百货零售+医疗服务+股份注销",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“社区团购”概念（+2.30%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "医药：国家药监局推进真实世界研究工作",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541758"
+    }
+   ],
+   "ths_reason": "百货零售+医疗服务+股份注销",
+   "written_by": "规则"
+  },
+  {
+   "code": "002036",
+   "name": "联创电子",
+   "boards": 1,
+   "first_time": "0925",
+   "industry": "光学光电",
+   "stat": "1天1板",
+   "reason": "机器视觉+车载光学+光学器件送样",
+   "confidence": "中",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "机器视觉+车载光学+光学器件送样",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“创投”概念（+2.22%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "机器视觉+车载光学+光学器件送样",
+   "written_by": "规则"
+  },
+  {
+   "code": "001229",
+   "name": "魅视科技",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "计算机设",
+   "stat": "1天1板",
+   "reason": "算力服务+AI算力采购+专业视听",
+   "confidence": "高",
+   "themes": [
+    "人工智能",
+    "算力",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "重大合同：关于公司收到中选通知书暨签订日常经营重大框架协议及备忘录的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=001229&announcementId=1225682693&orgId=9900047621&announcementTime=2026-11-21"
+    },
+    {
+     "kind": "同花顺",
+     "text": "算力服务+AI算力采购+专业视听",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“2026中报预减”概念（+2.18%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：报道：亚马逊将斥资75亿美元收购人工智能初创公司Decart的技术",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3204327"
+    }
+   ],
+   "ths_reason": "算力服务+AI算力采购+专业视听",
+   "written_by": "规则"
+  },
+  {
+   "code": "002685",
+   "name": "华东重机",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "工程机械",
+   "stat": "7天5板",
+   "reason": "GPU芯片+港口装卸设备+定增注册",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "半导体",
+    "航运物流"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "芯片产业链的华东重机7天5板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541362"
+    },
+    {
+     "kind": "盘面",
+     "text": "芯片产业链的盛剑科技5连板、华东重机7天5板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541636"
+    },
+    {
+     "kind": "同花顺",
+     "text": "GPU芯片+港口装卸设备+定增注册",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“TOPCon电池”概念（+2.94%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：英伟达美股开盘跳涨33% 市值增加超1万亿美元",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542227"
+    }
+   ],
+   "ths_reason": "GPU芯片+港口装卸设备+定增注册",
+   "written_by": "规则"
+  },
+  {
+   "code": "002164",
+   "name": "宁波东力",
+   "boards": 1,
+   "first_time": "0932",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "人形机器人+精密减速器+尼得科合作",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "人形机器人概念震荡拉升 宁波东力涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541201"
+    },
+    {
+     "kind": "公司",
+     "text": "人形机器人板块短线拉升，宁波东力触及涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261123/c682085199.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "人形机器人概念持续拉升，十余只成分股涨停，安培龙20CM涨停，此前克来机电、长华集团2连板，宁波东力、锋龙股份、光洋股份、福莱新材涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541240"
+    },
+    {
+     "kind": "盘面",
+     "text": "人形机器人概念爆发，上纬新材、宇树科技、汉威科技、安培龙20CM涨停，克来机电、长华集团2连板，宁波东力、锋龙股份、光洋股份涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541599"
+    },
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+精密减速器+尼得科合作",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“增持计划”概念（+1.74%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "人形机器人+精密减速器+尼得科合作",
+   "written_by": "规则"
+  },
+  {
+   "code": "002708",
+   "name": "光洋股份",
+   "boards": 1,
+   "first_time": "0933",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "机器人关节+PCB+黄山国资+“羊”字辈",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "人形机器人概念持续拉升，十余只成分股涨停，安培龙20CM涨停，此前克来机电、长华集团2连板，宁波东力、锋龙股份、光洋股份、福莱新材涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541240"
+    },
+    {
+     "kind": "盘面",
+     "text": "人形机器人概念爆发，上纬新材、宇树科技、汉威科技、安培龙20CM涨停，克来机电、长华集团2连板，宁波东力、锋龙股份、光洋股份涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541599"
+    },
+    {
+     "kind": "同花顺",
+     "text": "机器人关节+PCB+黄山国资+“羊”字辈",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“股权转让”概念（+2.64%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "机器人关节+PCB+黄山国资+“羊”字辈",
+   "written_by": "规则"
+  },
+  {
+   "code": "002983",
+   "name": "芯瑞达",
+   "boards": 1,
+   "first_time": "0933",
+   "industry": "光学光电",
+   "stat": "1天1板",
+   "reason": "MicroLED+AI眼镜+像素车灯",
+   "confidence": "中",
+   "themes": [
+    "人工智能"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "MicroLED+AI眼镜+像素车灯",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“植物照明”概念（+1.95%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：报道：亚马逊将斥资75亿美元收购人工智能初创公司Decart的技术",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3204327"
+    }
+   ],
+   "ths_reason": "MicroLED+AI眼镜+像素车灯",
+   "written_by": "规则"
+  },
+  {
+   "code": "002931",
+   "name": "锋龙股份",
+   "boards": 1,
+   "first_time": "0933",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "机器人关节+优必选+机电组件",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "人形机器人概念持续拉升，十余只成分股涨停，安培龙20CM涨停，此前克来机电、长华集团2连板，宁波东力、锋龙股份、光洋股份、福莱新材涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541240"
+    },
+    {
+     "kind": "盘面",
+     "text": "人形机器人概念爆发，上纬新材、宇树科技、汉威科技、安培龙20CM涨停，克来机电、长华集团2连板，宁波东力、锋龙股份、光洋股份涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541599"
+    },
+    {
+     "kind": "同花顺",
+     "text": "机器人关节+优必选+机电组件",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "机器人关节+优必选+机电组件",
+   "written_by": "规则"
+  },
+  {
+   "code": "002122",
+   "name": "汇洲智能",
+   "boards": 1,
+   "first_time": "0934",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "摘帽复牌+人形机器人+物理AI+数据服务",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "江苏北人、汇洲智能等近百股亦涨停或涨超10%",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/2026-11-23/doc-iniztfna2313132.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "摘帽复牌+人形机器人+物理AI+数据服务",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“铁路基建”概念（+2.17%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：报道：亚马逊将斥资75亿美元收购人工智能初创公司Decart的技术",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3204327"
+    }
+   ],
+   "ths_reason": "摘帽复牌+人形机器人+物理AI+数据服务",
+   "written_by": "规则"
+  },
+  {
+   "code": "301318",
+   "name": "维海德",
+   "boards": 1,
+   "first_time": "0936",
+   "industry": "计算机设",
+   "stat": "1天1板",
+   "reason": "AI应用+云办公+音视频设备",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "AI应用+云办公+音视频设备",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“在线教育”概念（+3.66%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：报道：亚马逊将斥资75亿美元收购人工智能初创公司Decart的技术",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3204327"
+    }
+   ],
+   "ths_reason": "AI应用+云办公+音视频设备",
+   "written_by": "规则"
+  },
+  {
+   "code": "002815",
+   "name": "崇达技术",
+   "boards": 1,
+   "first_time": "0936",
+   "industry": "元件",
+   "stat": "1天1板",
+   "reason": "PCB+AI服务器+珠海二厂产能爬坡",
+   "confidence": "高",
+   "themes": [
+    "人工智能",
+    "算力",
+    "消费电子"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "回购：董事会薪酬与考核委员会关于回购注销部分限制性股票的意见",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002815&announcementId=1225680641&orgId=9900023139&announcementTime=2026-11-21"
+    },
+    {
+     "kind": "公告",
+     "text": "回购：关于回购注销部分限制性股票的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002815&announcementId=1225680640&orgId=9900023139&announcementTime=2026-11-21"
+    },
+    {
+     "kind": "公司",
+     "text": "A股元件板块震荡走高，逸豪新材涨超13%，中京电子、崇达技术双双涨停，协和电子涨超9%，迅捷兴、贤丰控股、明阳电路、超声…",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261123094025474800"
+    },
+    {
+     "kind": "盘面",
+     "text": "崇达技术、世运电路涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541599"
+    },
+    {
+     "kind": "盘面",
+     "text": "PCB等算力硬件股反弹，中京电子3连板，崇达技术、世运电路、奥士康等涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3203998"
+    },
+    {
+     "kind": "同花顺",
+     "text": "PCB+AI服务器+珠海二厂产能爬坡",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：报道：亚马逊将斥资75亿美元收购人工智能初创公司Decart的技术",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3204327"
+    }
+   ],
+   "ths_reason": "PCB+AI服务器+珠海二厂产能爬坡",
+   "written_by": "规则"
+  },
+  {
+   "code": "300829",
+   "name": "金丹科技",
+   "boards": 1,
+   "first_time": "0940",
+   "industry": "化学制品",
+   "stat": "1天1板",
+   "reason": "涨价+乳酸+聚乳酸+3D打印",
+   "confidence": "中",
+   "themes": [
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "涨价+乳酸+聚乳酸+3D打印",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“味蕾经济”概念（+1.77%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "涨价+乳酸+聚乳酸+3D打印",
+   "written_by": "规则"
+  },
+  {
+   "code": "603626",
+   "name": "科森科技",
+   "boards": 1,
+   "first_time": "0942",
+   "industry": "消费电子",
+   "stat": "1天1板",
+   "reason": "机器人结构件+消费电子结构件+苹果供应链+固态电池",
+   "confidence": "中",
+   "themes": [
+    "消费电子",
+    "机器人",
+    "锂电储能"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "机器人结构件+消费电子结构件+苹果供应链+固态电池",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“固态电池”概念（+3.74%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费电子：小米笔记本电脑今起涨价300元到500元？客服：随市场价格波动",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611233937290054.html"
+    }
+   ],
+   "ths_reason": "机器人结构件+消费电子结构件+苹果供应链+固态电池",
+   "written_by": "规则"
+  },
+  {
+   "code": "601599",
+   "name": "浙文影业",
+   "boards": 1,
+   "first_time": "0943",
+   "industry": "纺织制造",
+   "stat": "1天1板",
+   "reason": "影视业务+微短剧+国企改革",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "AI漫剧概念震荡走高 浙文影业涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541212"
+    },
+    {
+     "kind": "盘面",
+     "text": "AI漫剧概念走强，果麦文化、华是科技20CM涨停，浙文影业、横店影视、上海电影、新炬网络、德才股份涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541599"
+    },
+    {
+     "kind": "盘面",
+     "text": "午后AI漫剧概念再度拉升，果麦文化、华是科技触及20cm涨停，此前慈文传媒、浙文影业、引力传媒、德才股份、掌阅科技、上海电影等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541490"
+    },
+    {
+     "kind": "同花顺",
+     "text": "影视业务+微短剧+国企改革",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“一带一路”概念（+1.80%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：报道：亚马逊将斥资75亿美元收购人工智能初创公司Decart的技术",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3204327"
+    }
+   ],
+   "ths_reason": "影视业务+微短剧+国企改革",
+   "written_by": "规则"
+  },
+  {
+   "code": "301575",
+   "name": "艾芬达",
+   "boards": 1,
+   "first_time": "0943",
+   "industry": "家居用品",
+   "stat": "1天1板",
+   "reason": "机器人结构件+卫浴毛巾架+北美头部客户",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "机器人结构件+卫浴毛巾架+北美头部客户",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“跨境电商”概念（+2.71%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "机器人结构件+卫浴毛巾架+北美头部客户",
+   "written_by": "规则"
+  },
+  {
+   "code": "001278",
+   "name": "一彬科技",
+   "boards": 1,
+   "first_time": "0943",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "半导体掩模基板+激光除草机+汽车零部件",
+   "confidence": "中",
+   "themes": [
+    "半导体",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "半导体掩模基板+激光除草机+汽车零部件",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“新材料”概念（+3.33%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "半导体掩模基板+激光除草机+汽车零部件",
+   "written_by": "规则"
+  },
+  {
+   "code": "605488",
+   "name": "福莱新材",
+   "boards": 1,
+   "first_time": "0943",
+   "industry": "塑料",
+   "stat": "1天1板",
+   "reason": "柔性传感+数据采集手套+人形机器人",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "人形机器人概念持续拉升，十余只成分股涨停，安培龙20CM涨停，此前克来机电、长华集团2连板，宁波东力、锋龙股份、光洋股份、福莱新材涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541240"
+    },
+    {
+     "kind": "盘面",
+     "text": "物理AI概念盘中持续走强，凡拓数创走出20cm2连板，此前福莱新材回封涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541324"
+    },
+    {
+     "kind": "同花顺",
+     "text": "柔性传感+数据采集手套+人形机器人",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：报道：亚马逊将斥资75亿美元收购人工智能初创公司Decart的技术",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3204327"
+    }
+   ],
+   "ths_reason": "柔性传感+数据采集手套+人形机器人",
+   "written_by": "规则"
+  },
+  {
+   "code": "002242",
+   "name": "九阳股份",
+   "boards": 1,
+   "first_time": "0944",
+   "industry": "小家电",
+   "stat": "5天3板",
+   "reason": "厨房小家电+机器人投资+“羊”字辈",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "厨房小家电+机器人投资+“羊”字辈",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“消费风格”概念（+0.94%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "厨房小家电+机器人投资+“羊”字辈",
+   "written_by": "规则"
+  },
+  {
+   "code": "603666",
+   "name": "亿嘉和",
+   "boards": 1,
+   "first_time": "0945",
+   "industry": "自动化设",
+   "stat": "1天1板",
+   "reason": "人形机器人+华为云合作+电力机器人",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "电力"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "人形机器人板块午后拉升，宇树科技-W、华阳智能20%涨停，埃斯顿、亿嘉和等多股涨停",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/2026-11-23/doc-iniztrzu5445033.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+华为云合作+电力机器人",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“充电桩”概念（+2.38%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "人形机器人+华为云合作+电力机器人",
+   "written_by": "规则"
+  },
+  {
+   "code": "605398",
+   "name": "新炬网络",
+   "boards": 1,
+   "first_time": "0947",
+   "industry": "IT服务Ⅱ",
+   "stat": "1天1板",
+   "reason": "短剧营销+AI应用+智能运维",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "传媒游戏",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "AI漫剧概念走强，果麦文化、华是科技20CM涨停，浙文影业、横店影视、上海电影、新炬网络、德才股份涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541599"
+    },
+    {
+     "kind": "盘面",
+     "text": "AI漫剧概念震荡走高，浙文影业涨停，幸福蓝海、新炬网络、海看股份、果麦文化跟涨",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541212"
+    },
+    {
+     "kind": "同花顺",
+     "text": "短剧营销+AI应用+智能运维",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“MLOps概念”（+2.96%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：报道：亚马逊将斥资75亿美元收购人工智能初创公司Decart的技术",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3204327"
+    }
+   ],
+   "ths_reason": "短剧营销+AI应用+智能运维",
+   "written_by": "规则"
+  },
+  {
+   "code": "002703",
+   "name": "浙江世宝",
+   "boards": 1,
+   "first_time": "0949",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "无人驾驶+线控转向+汽车转向",
+   "confidence": "中",
+   "themes": [
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "智能驾驶概念短线走强，索菱股份涨停，浙江世宝、万集科技、大众交通跟涨",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541219"
+    },
+    {
+     "kind": "同花顺",
+     "text": "无人驾驶+线控转向+汽车转向",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "汽车：比亚迪：Ti7车型未侵犯捷豹路虎任何权利 将提起上诉",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541718"
+    }
+   ],
+   "ths_reason": "无人驾驶+线控转向+汽车转向",
+   "written_by": "规则"
+  },
+  {
+   "code": "603528",
+   "name": "多伦科技",
+   "boards": 1,
+   "first_time": "0954",
+   "industry": "软件开发",
+   "stat": "1天1板",
+   "reason": "交通机器人+具身智能+智慧交通+超跌修复",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "多伦科技触及涨停",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/2026-11-23/doc-inizszea5504315.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "交通机器人+具身智能+智慧交通+超跌修复",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“卫星导航”概念（+2.80%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "交通机器人+具身智能+智慧交通+超跌修复",
+   "written_by": "规则"
+  },
+  {
+   "code": "603103",
+   "name": "横店影视",
+   "boards": 1,
+   "first_time": "0955",
+   "industry": "影视院线",
+   "stat": "1天1板",
+   "reason": "AI短剧+影视全产业链+IP运营",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "AI漫剧概念走强，果麦文化、华是科技20CM涨停，浙文影业、横店影视、上海电影、新炬网络、德才股份涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541599"
+    },
+    {
+     "kind": "盘面",
+     "text": "AI漫剧概念盘中持续走高，上海电影涨停，此前横店影视、新炬网络、浙文影业涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541315"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI短剧+影视全产业链+IP运营",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“股权集中”概念（+1.55%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：报道：亚马逊将斥资75亿美元收购人工智能初创公司Decart的技术",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3204327"
+    }
+   ],
+   "ths_reason": "AI短剧+影视全产业链+IP运营",
+   "written_by": "规则"
+  },
+  {
+   "code": "688069",
+   "name": "德林海",
+   "boards": 1,
+   "first_time": "0958",
+   "industry": "环境治理",
+   "stat": "1天1板",
+   "reason": "蓝藻治理+湖泊生态医院+美人鱼AI平台",
+   "confidence": "中",
+   "themes": [
+    "人工智能"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "蓝藻治理+湖泊生态医院+美人鱼AI平台",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“水利建设”概念（+1.61%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：报道：亚马逊将斥资75亿美元收购人工智能初创公司Decart的技术",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3204327"
+    }
+   ],
+   "ths_reason": "蓝藻治理+湖泊生态医院+美人鱼AI平台",
+   "written_by": "规则"
+  },
+  {
+   "code": "301413",
+   "name": "安培龙",
+   "boards": 1,
+   "first_time": "0959",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "人形机器人+力传感器+压力传感器",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "午后人形机器人概念涨势扩大，捷众科技30cm涨停，上纬新材20cm涨停，此前安培龙、维宏股份、恒工精密、肇民科技、杭州柯林20cm涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541449"
+    },
+    {
+     "kind": "盘面",
+     "text": "人形机器人概念持续拉升，十余只成分股涨停，安培龙20CM涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541240"
+    },
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+力传感器+压力传感器",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "人形机器人+力传感器+压力传感器",
+   "written_by": "规则"
+  },
+  {
+   "code": "603516",
+   "name": "淳中科技",
+   "boards": 1,
+   "first_time": "1000",
+   "industry": "计算机设",
+   "stat": "1天1板",
+   "reason": "音视频芯片+显控系统+芯片概念",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "半导体",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "午后液冷服务器概念持续反弹，同星科技逼近20cm涨停，此前淳中科技涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541446"
+    },
+    {
+     "kind": "同花顺",
+     "text": "音视频芯片+显控系统+芯片概念",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“安防概念”（+3.20%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：英伟达美股开盘跳涨33% 市值增加超1万亿美元",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542227"
+    }
+   ],
+   "ths_reason": "音视频芯片+显控系统+芯片概念",
+   "written_by": "规则"
+  },
+  {
+   "code": "603179",
+   "name": "新泉股份",
+   "boards": 1,
+   "first_time": "1001",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "机器人零部件+汽车饰件+座椅业务",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "机器人零部件+汽车饰件+座椅业务",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“券商金股”概念（+2.10%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "机器人零部件+汽车饰件+座椅业务",
+   "written_by": "规则"
+  },
+  {
+   "code": "688667",
+   "name": "菱电电控",
+   "boards": 1,
+   "first_time": "1002",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "汽车电控+低空飞行+混动电控",
+   "confidence": "中",
+   "themes": [
+    "汽车",
+    "低空经济"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "汽车电控+低空飞行+混动电控",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "汽车：比亚迪：Ti7车型未侵犯捷豹路虎任何权利 将提起上诉",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541718"
+    }
+   ],
+   "ths_reason": "汽车电控+低空飞行+混动电控",
+   "written_by": "规则"
+  },
+  {
+   "code": "000026",
+   "name": "飞亚达",
+   "boards": 1,
+   "first_time": "1002",
+   "industry": "饰品",
+   "stat": "1天1板",
+   "reason": "人形机器人+精密减速器+中航系",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+精密减速器+中航系",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“AB股”概念（+1.30%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "人形机器人+精密减速器+中航系",
+   "written_by": "规则"
+  },
+  {
+   "code": "002009",
+   "name": "天奇股份",
+   "boards": 1,
+   "first_time": "1002",
+   "industry": "专用设备",
+   "stat": "1天1板",
+   "reason": "具身智能数据+人形机器人+智能装备",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "具身智能数据+人形机器人+智能装备",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“垃圾分类”概念（+1.43%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "具身智能数据+人形机器人+智能装备",
+   "written_by": "规则"
+  },
+  {
+   "code": "601188",
+   "name": "龙江交通",
+   "boards": 1,
+   "first_time": "1012",
+   "industry": "铁路公路",
+   "stat": "12天6板",
+   "reason": "冰雪旅游保障+高速公路运营+黑龙江国资",
+   "confidence": "中",
+   "themes": [
+    "文旅",
+    "基建建材"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "冰雪经济概念表现活跃 龙江交通涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541264"
+    },
+    {
+     "kind": "同花顺",
+     "text": "冰雪旅游保障+高速公路运营+黑龙江国资",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“绿色电力”概念（+0.93%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "冰雪旅游保障+高速公路运营+黑龙江国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "301000",
+   "name": "肇民科技",
+   "boards": 1,
+   "first_time": "1014",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "人形机器人+精密注塑+以塑代钢",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "午后人形机器人概念涨势扩大，捷众科技30cm涨停，上纬新材20cm涨停，此前安培龙、维宏股份、恒工精密、肇民科技、杭州柯林20cm涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541449"
+    },
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+精密注塑+以塑代钢",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“汽车热管理”概念（+4.41%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "人形机器人+精密注塑+以塑代钢",
+   "written_by": "规则"
+  },
+  {
+   "code": "002045",
+   "name": "国光电器",
+   "boards": 1,
+   "first_time": "1014",
+   "industry": "消费电子",
+   "stat": "1天1板",
+   "reason": "AI眼镜+智能音箱+声学模组",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "消费电子",
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "AI眼镜+智能音箱+声学模组",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“Web3.0”概念（+3.40%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：报道：亚马逊将斥资75亿美元收购人工智能初创公司Decart的技术",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3204327"
+    }
+   ],
+   "ths_reason": "AI眼镜+智能音箱+声学模组",
+   "written_by": "规则"
+  },
+  {
+   "code": "000819",
+   "name": "岳阳兴长",
+   "boards": 1,
+   "first_time": "1040",
+   "industry": "炼化及贸",
+   "stat": "1天1板",
+   "reason": "MOFs材料+茂金属聚烯烃+国企+“羊”字辈",
+   "confidence": "中",
+   "themes": [
+    "油气"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "MOFs材料+茂金属聚烯烃+国企+“羊”字辈",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "MOFs材料+茂金属聚烯烃+国企+“羊”字辈",
+   "written_by": "规则"
+  },
+  {
+   "code": "601595",
+   "name": "上海电影",
+   "boards": 1,
+   "first_time": "1052",
+   "industry": "影视院线",
+   "stat": "1天1板",
+   "reason": "AI影视+即梦合作+IP运营+院线",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "AI漫剧概念持续走高 上海电影等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541315"
+    },
+    {
+     "kind": "盘面",
+     "text": "AI漫剧概念走强，果麦文化、华是科技20CM涨停，浙文影业、横店影视、上海电影、新炬网络、德才股份涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541599"
+    },
+    {
+     "kind": "盘面",
+     "text": "午后AI漫剧概念再度拉升，果麦文化、华是科技触及20cm涨停，此前慈文传媒、浙文影业、引力传媒、德才股份、掌阅科技、上海电影等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541490"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI影视+即梦合作+IP运营+院线",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：报道：亚马逊将斥资75亿美元收购人工智能初创公司Decart的技术",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3204327"
+    }
+   ],
+   "ths_reason": "AI影视+即梦合作+IP运营+院线",
+   "written_by": "规则"
+  },
+  {
+   "code": "002172",
+   "name": "澳洋健康",
+   "boards": 1,
+   "first_time": "1057",
+   "industry": "医疗服务",
+   "stat": "1天1板",
+   "reason": "“羊”字辈+脑机接口+医疗服务+国资控股",
+   "confidence": "中",
+   "themes": [
+    "医药",
+    "前沿科技"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "“羊”字辈+脑机接口+医疗服务+国资控股",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“中药概念”（+1.78%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "医药：国家药监局推进真实世界研究工作",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541758"
+    }
+   ],
+   "ths_reason": "“羊”字辈+脑机接口+医疗服务+国资控股",
+   "written_by": "规则"
+  },
+  {
+   "code": "001283",
+   "name": "豪鹏科技",
+   "boards": 1,
+   "first_time": "1057",
+   "industry": "电池",
+   "stat": "1天1板",
+   "reason": "机器人电池+智能眼镜电池+固态电池+三季报增长",
+   "confidence": "高",
+   "themes": [
+    "消费电子",
+    "机器人",
+    "锂电储能"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "融资：关于2026年度向特定对象发行股票发行情况报告书披露的提示性公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=001283&announcementId=1225681198&orgId=9900048773&announcementTime=2026-11-21"
+    },
+    {
+     "kind": "公告",
+     "text": "融资：北京国枫律师事务所关于深圳市豪鹏科技股份有限公司2026年度向特定对象发行股票之发行过程及认购对象合规性的专项法律意见书",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=001283&announcementId=1225681201&orgId=9900048773&announcementTime=2026-11-21"
+    },
+    {
+     "kind": "同花顺",
+     "text": "机器人电池+智能眼镜电池+固态电池+三季报增长",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“智算中心（AIDC）”概念（+2.46%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费电子：小米笔记本电脑今起涨价300元到500元？客服：随市场价格波动",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611233937290054.html"
+    }
+   ],
+   "ths_reason": "机器人电池+智能眼镜电池+固态电池+三季报增长",
+   "written_by": "规则"
+  },
+  {
+   "code": "300508",
+   "name": "维宏股份",
+   "boards": 1,
+   "first_time": "1103",
+   "industry": "计算机设",
+   "stat": "1天1板",
+   "reason": "灵巧手电机+人形机器人+数控系统",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "午后人形机器人概念涨势扩大，捷众科技30cm涨停，上纬新材20cm涨停，此前安培龙、维宏股份、恒工精密、肇民科技、杭州柯林20cm涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541449"
+    },
+    {
+     "kind": "同花顺",
+     "text": "灵巧手电机+人形机器人+数控系统",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“工业互联网”概念（+3.36%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "灵巧手电机+人形机器人+数控系统",
+   "written_by": "规则"
+  },
+  {
+   "code": "603119",
+   "name": "浙江荣泰",
+   "boards": 1,
+   "first_time": "1103",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "人形机器人+精密结构件+云母绝缘",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+精密结构件+云母绝缘",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "人形机器人+精密结构件+云母绝缘",
+   "written_by": "规则"
+  },
+  {
+   "code": "603040",
+   "name": "XD新坐标",
+   "boards": 1,
+   "first_time": "1104",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "机器人丝杠+汽车零部件",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "机器人丝杠+汽车零部件",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“养老金”概念（+2.27%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "机器人丝杠+汽车零部件",
+   "written_by": "规则"
+  },
+  {
+   "code": "002414",
+   "name": "高德红外",
+   "boards": 1,
+   "first_time": "1106",
+   "industry": "军工电子",
+   "stat": "1天1板",
+   "reason": "机器人+红外芯片+军工",
+   "confidence": "中",
+   "themes": [
+    "半导体",
+    "机器人",
+    "军工"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "机器人+红外芯片+军工",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“先进制造风格”概念（+2.07%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "机器人+红外芯片+军工",
+   "written_by": "规则"
+  },
+  {
+   "code": "301261",
+   "name": "恒工精密",
+   "boards": 1,
+   "first_time": "1106",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "人形机器人+减速器+具身智能",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "午后人形机器人概念涨势扩大，捷众科技30cm涨停，上纬新材20cm涨停，此前安培龙、维宏股份、恒工精密、肇民科技、杭州柯林20cm涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541449"
+    },
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+减速器+具身智能",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "人形机器人+减速器+具身智能",
+   "written_by": "规则"
+  },
+  {
+   "code": "603893",
+   "name": "瑞芯微",
+   "boards": 1,
+   "first_time": "1107",
+   "industry": "半导体",
+   "stat": "1天1板",
+   "reason": "端侧AI+机器人芯片+协处理器",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "半导体",
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "A股半导体板块回升，炬芯科技涨超14%，恒玄科技涨超13%，瑞芯微、富瀚微、乐鑫科技、先导基电等个股跟涨",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261123110940655800"
+    },
+    {
+     "kind": "同花顺",
+     "text": "端侧AI+机器人芯片+协处理器",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“科技风格”概念（+2.10%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：报道：亚马逊将斥资75亿美元收购人工智能初创公司Decart的技术",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3204327"
+    }
+   ],
+   "ths_reason": "端侧AI+机器人芯片+协处理器",
+   "written_by": "规则"
+  },
+  {
+   "code": "688203",
+   "name": "海正生材",
+   "boards": 1,
+   "first_time": "1109",
+   "industry": "塑料",
+   "stat": "1天1板",
+   "reason": "聚乳酸+3D打印+产能投产",
+   "confidence": "中",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "3D打印概念震荡回升 海正生材20cm涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541337"
+    },
+    {
+     "kind": "同花顺",
+     "text": "聚乳酸+3D打印+产能投产",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“3D打印”概念（+4.75%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "聚乳酸+3D打印+产能投产",
+   "written_by": "规则"
+  },
+  {
+   "code": "002724",
+   "name": "海洋王",
+   "boards": 1,
+   "first_time": "1109",
+   "industry": "照明设备",
+   "stat": "1天1板",
+   "reason": "中国航展+军工+专业照明",
+   "confidence": "中",
+   "themes": [
+    "军工"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "解禁：关于2025年限制性股票激励计划第一个解除限售期解除限售股份上市流通的提示性公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002724&announcementId=1225683988&orgId=9900023121&announcementTime=2026-11-24"
+    },
+    {
+     "kind": "同花顺",
+     "text": "中国航展+军工+专业照明",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“新型城镇化”概念（+1.88%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "中国航展+军工+专业照明",
+   "written_by": "规则"
+  },
+  {
+   "code": "002655",
+   "name": "共达电声",
+   "boards": 1,
+   "first_time": "1109",
+   "industry": "消费电子",
+   "stat": "1天1板",
+   "reason": "消费电子+声学元器件+拟参投硅臻芯片+控股股东增持（公司提示：股份有限公司关于控股股东的一致行动人…）",
+   "confidence": "中",
+   "themes": [
+    "半导体",
+    "消费电子",
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "增持：股份有限公司关于控股股东的一致行动人增持公司股份权益变动触及1%整数倍暨增持计划进展情况的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002655&announcementId=1225683670&orgId=9900022079&announcementTime=2026-11-24"
+    },
+    {
+     "kind": "公告",
+     "text": "增持：共达电声股份有限公司关于控股股东的一致行动人增持公司股份权益变动触及1%整数倍暨增持计划进展情况的公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002655/AN202611231831957566.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "消费电子+声学元器件+拟参投硅臻芯片+控股股东增持",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“算力租赁”概念（+2.58%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "消费电子+声学元器件+拟参投硅臻芯片+控股股东增持",
+   "written_by": "规则"
+  },
+  {
+   "code": "605287",
+   "name": "德才股份",
+   "boards": 1,
+   "first_time": "1111",
+   "industry": "装修装饰",
+   "stat": "1天1板",
+   "reason": "AI漫剧+互动影游+智能体+建筑装饰",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "基建建材",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "AI漫剧概念走强，果麦文化、华是科技20CM涨停，浙文影业、横店影视、上海电影、新炬网络、德才股份涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541599"
+    },
+    {
+     "kind": "盘面",
+     "text": "午后AI漫剧概念再度拉升，果麦文化、华是科技触及20cm涨停，此前慈文传媒、浙文影业、引力传媒、德才股份、掌阅科技、上海电影等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541490"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI漫剧+互动影游+智能体+建筑装饰",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“算力概念”（+2.73%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：报道：亚马逊将斥资75亿美元收购人工智能初创公司Decart的技术",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3204327"
+    }
+   ],
+   "ths_reason": "AI漫剧+互动影游+智能体+建筑装饰",
+   "written_by": "规则"
+  },
+  {
+   "code": "000711",
+   "name": "京蓝科技",
+   "boards": 1,
+   "first_time": "1112",
+   "industry": "环境治理",
+   "stat": "4天3板",
+   "reason": "7N高纯铟+铟资源循环+资产出售（公司提示：股票交易风险提示公告）",
+   "confidence": "中",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易风险提示公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000711&announcementId=1225684202&orgId=gssz0000711&announcementTime=2026-11-24"
+    },
+    {
+     "kind": "同花顺",
+     "text": "7N高纯铟+铟资源循环+资产出售",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“稀缺资源”概念（+1.92%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "7N高纯铟+铟资源循环+资产出售",
+   "written_by": "规则"
+  },
+  {
+   "code": "603920",
+   "name": "世运电路",
+   "boards": 1,
+   "first_time": "1114",
+   "industry": "元件",
+   "stat": "1天1板",
+   "reason": "AI服务器PCB+人形机器人+回购",
+   "confidence": "高",
+   "themes": [
+    "人工智能",
+    "算力",
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "回购：关于2026年第二期以集中竞价交易方式回购公司股份的进展公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603920&announcementId=1225681092&orgId=9900030580&announcementTime=2026-11-21"
+    },
+    {
+     "kind": "盘面",
+     "text": "崇达技术、世运电路涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541599"
+    },
+    {
+     "kind": "盘面",
+     "text": "PCB等算力硬件股反弹，中京电子3连板，崇达技术、世运电路、奥士康等涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3203998"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI服务器PCB+人形机器人+回购",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：报道：亚马逊将斥资75亿美元收购人工智能初创公司Decart的技术",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3204327"
+    }
+   ],
+   "ths_reason": "AI服务器PCB+人形机器人+回购",
+   "written_by": "规则"
+  },
+  {
+   "code": "002289",
+   "name": "宇顺电子",
+   "boards": 1,
+   "first_time": "1117",
+   "industry": "光学光电",
+   "stat": "1天1板",
+   "reason": "算力租赁+IDC数据中心+三季报扭亏",
+   "confidence": "中",
+   "themes": [
+    "算力"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "算力租赁+IDC数据中心+三季报扭亏",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：英伟达美股开盘跳涨33% 市值增加超1万亿美元",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542227"
+    }
+   ],
+   "ths_reason": "算力租赁+IDC数据中心+三季报扭亏",
+   "written_by": "规则"
+  },
+  {
+   "code": "600103",
+   "name": "青山纸业",
+   "boards": 1,
+   "first_time": "1119",
+   "industry": "造纸",
+   "stat": "1天1板",
+   "reason": "光模块+竹浆纸+福建国资",
+   "confidence": "高",
+   "themes": [
+    "算力",
+    "通信"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "分红送转：2026年三季度权益分派实施公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600103&announcementId=1225681487&orgId=gssh0600103&announcementTime=2026-11-21"
+    },
+    {
+     "kind": "盘面",
+     "text": "天孚通信、蘅东光、腾景科技、长盈通均涨超10%，此前青山纸业涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541423"
+    },
+    {
+     "kind": "盘面",
+     "text": "CPO青山纸业涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541599"
+    },
+    {
+     "kind": "同花顺",
+     "text": "光模块+竹浆纸+福建国资",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“造纸印刷”概念（+1.44%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：英伟达美股开盘跳涨33% 市值增加超1万亿美元",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542227"
+    }
+   ],
+   "ths_reason": "光模块+竹浆纸+福建国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "002913",
+   "name": "奥士康",
+   "boards": 1,
+   "first_time": "1119",
+   "industry": "元件",
+   "stat": "1天1板",
+   "reason": "PCB+AI服务器+南通智算项目+三季报增长",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "算力",
+    "消费电子"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "PCB等算力硬件股反弹，中京电子3连板，崇达技术、世运电路、奥士康等涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3203998"
+    },
+    {
+     "kind": "同花顺",
+     "text": "PCB+AI服务器+南通智算项目+三季报增长",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：报道：亚马逊将斥资75亿美元收购人工智能初创公司Decart的技术",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3204327"
+    }
+   ],
+   "ths_reason": "PCB+AI服务器+南通智算项目+三季报增长",
+   "written_by": "规则"
+  },
+  {
+   "code": "001358",
+   "name": "兴欣新材",
+   "boards": 1,
+   "first_time": "1122",
+   "industry": "化学制品",
+   "stat": "8天4板",
+   "reason": "光刻胶剥离液+电子化学品项目+股份回购",
+   "confidence": "中",
+   "themes": [
+    "半导体",
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "光刻胶剥离液+电子化学品项目+股份回购",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“页岩气”概念（+1.11%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "光刻胶剥离液+电子化学品项目+股份回购",
+   "written_by": "规则"
+  },
+  {
+   "code": "300721",
+   "name": "怡达股份",
+   "boards": 1,
+   "first_time": "1129",
+   "industry": "化学制品",
+   "stat": "1天1板",
+   "reason": "湿电子化学品+光刻胶+醇醚",
+   "confidence": "中",
+   "themes": [
+    "半导体",
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "光刻胶概念午后活跃 怡达股份、西陇科学双双涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541426"
+    },
+    {
+     "kind": "同花顺",
+     "text": "湿电子化学品+光刻胶+醇醚",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“环氧丙烷”概念（+2.56%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "湿电子化学品+光刻胶+醇醚",
+   "written_by": "规则"
+  },
+  {
+   "code": "002584",
+   "name": "西陇科学",
+   "boards": 1,
+   "first_time": "1130",
+   "industry": "电子化学",
+   "stat": "1天1板",
+   "reason": "光刻胶配套试剂+电子化学品+化学试剂",
+   "confidence": "中",
+   "themes": [
+    "半导体"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "电子化学品板块拉升 西陇科学涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611233937152059.html"
+    },
+    {
+     "kind": "公司",
+     "text": "光刻胶概念午后活跃 怡达股份、西陇科学双双涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541426"
+    },
+    {
+     "kind": "同花顺",
+     "text": "光刻胶配套试剂+电子化学品+化学试剂",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“互联网金融”概念（+1.13%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "光刻胶配套试剂+电子化学品+化学试剂",
+   "written_by": "规则"
+  },
+  {
+   "code": "002148",
+   "name": "北纬科技",
+   "boards": 1,
+   "first_time": "1302",
+   "industry": "通信服务",
+   "stat": "9天6板",
+   "reason": "四足机器人+物联网+手机游戏（公司提示：股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "消费电子",
+    "机器人",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002148&announcementId=1225681622&orgId=9900003401&announcementTime=2026-11-21"
+    },
+    {
+     "kind": "盘面",
+     "text": "机器人概念股北纬科技9天6板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541636"
+    },
+    {
+     "kind": "同花顺",
+     "text": "四足机器人+物联网+手机游戏",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“游戏概念”（+4.19%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费电子：小米笔记本电脑今起涨价300元到500元？客服：随市场价格波动",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611233937290054.html"
+    }
+   ],
+   "ths_reason": "四足机器人+物联网+手机游戏",
+   "written_by": "规则"
+  },
+  {
+   "code": "003032",
+   "name": "传智教育",
+   "boards": 1,
+   "first_time": "1303",
+   "industry": "教育",
+   "stat": "1天1板",
+   "reason": "AI职业培训+AI具身智能+人形机器人",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "AI职业培训+AI具身智能+人形机器人",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“鸿蒙概念”（+2.83%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：报道：亚马逊将斥资75亿美元收购人工智能初创公司Decart的技术",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3204327"
+    }
+   ],
+   "ths_reason": "AI职业培训+AI具身智能+人形机器人",
+   "written_by": "规则"
+  },
+  {
+   "code": "603037",
+   "name": "凯众股份",
+   "boards": 1,
+   "first_time": "1304",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "机器人零部件+汽车减震+拟收购拓盛",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "机器人零部件+汽车减震+拟收购拓盛",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "机器人零部件+汽车减震+拟收购拓盛",
+   "written_by": "规则"
+  },
+  {
+   "code": "600980",
+   "name": "北矿科技",
+   "boards": 1,
+   "first_time": "1304",
+   "industry": "专用设备",
+   "stat": "1天1板",
+   "reason": "矿冶机器人+磁性材料",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "矿冶机器人+磁性材料",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“稀土永磁”概念（+4.02%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "矿冶机器人+磁性材料",
+   "written_by": "规则"
+  },
+  {
+   "code": "000700",
+   "name": "模塑科技",
+   "boards": 1,
+   "first_time": "1304",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "人形机器人+汽车外饰件+机器人外覆盖件",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+汽车外饰件+机器人外覆盖件",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "人形机器人+汽车外饰件+机器人外覆盖件",
+   "written_by": "规则"
+  },
+  {
+   "code": "603706",
+   "name": "东方环宇",
+   "boards": 1,
+   "first_time": "1306",
+   "industry": "燃气Ⅱ",
+   "stat": "1天1板",
+   "reason": "东方系+天然气+集中供热",
+   "confidence": "中",
+   "themes": [
+    "油气"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "东方系+天然气+集中供热",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "东方系+天然气+集中供热",
+   "written_by": "规则"
+  },
+  {
+   "code": "002623",
+   "name": "亚玛顿",
+   "boards": 1,
+   "first_time": "1307",
+   "industry": "光伏设备",
+   "stat": "1天1板",
+   "reason": "控制权变更+光伏玻璃+电子玻璃",
+   "confidence": "中",
+   "themes": [
+    "光伏"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "控制权变更+光伏玻璃+电子玻璃",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“反内卷概念”（+1.10%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "控制权变更+光伏玻璃+电子玻璃",
+   "written_by": "规则"
+  },
+  {
+   "code": "600838",
+   "name": "上海九百",
+   "boards": 1,
+   "first_time": "1311",
+   "industry": "一般零售",
+   "stat": "1天1板",
+   "reason": "商贸零售+商业地产+洗染服务+上海国资",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "零售概念震荡拉升 上海九百涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541439"
+    },
+    {
+     "kind": "同花顺",
+     "text": "商贸零售+商业地产+洗染服务+上海国资",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“参股券商”概念（+1.34%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "商贸零售+商业地产+洗染服务+上海国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "001360",
+   "name": "南矿集团",
+   "boards": 1,
+   "first_time": "1311",
+   "industry": "专用设备",
+   "stat": "1天1板",
+   "reason": "黄金+境外金矿收购+矿山装备",
+   "confidence": "中",
+   "themes": [
+    "黄金"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "黄金概念震荡反弹 南矿集团涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541438"
+    },
+    {
+     "kind": "同花顺",
+     "text": "黄金+境外金矿收购+矿山装备",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“中俄贸易概念”（+2.24%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "黄金：高盛表示，尽管投机性持仓下降，但预计美联储12月加息为推迟重建黄金多头提供了又一",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542092"
+    }
+   ],
+   "ths_reason": "黄金+境外金矿收购+矿山装备",
+   "written_by": "规则"
+  },
+  {
+   "code": "002343",
+   "name": "慈文传媒",
+   "boards": 1,
+   "first_time": "1312",
+   "industry": "影视院线",
+   "stat": "1天1板",
+   "reason": "AI影视+微短剧+江西国资",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "午后AI漫剧概念再度拉升，果麦文化、华是科技触及20cm涨停，此前慈文传媒、浙文影业、引力传媒、德才股份、掌阅科技、上海电影等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541490"
+    },
+    {
+     "kind": "盘面",
+     "text": "AI漫剧概念拉升，上海电影、横店影视、慈文传媒、博纳影业等涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3203998"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI影视+微短剧+江西国资",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：报道：亚马逊将斥资75亿美元收购人工智能初创公司Decart的技术",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3204327"
+    }
+   ],
+   "ths_reason": "AI影视+微短剧+江西国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "002696",
+   "name": "百洋股份",
+   "boards": 1,
+   "first_time": "1316",
+   "industry": "饲料",
+   "stat": "1天1板",
+   "reason": "“羊”字辈+水产加工+鱼粉鱼油+青岛国资",
+   "confidence": "中",
+   "themes": [
+    "农业"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "“羊”字辈+水产加工+鱼粉鱼油+青岛国资",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“零售概念”（+1.61%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "“羊”字辈+水产加工+鱼粉鱼油+青岛国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "603236",
+   "name": "移远通信",
+   "boards": 1,
+   "first_time": "1317",
+   "industry": "通信设备",
+   "stat": "1天1板",
+   "reason": "机器人+端侧AI+物联网模组",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "机器人",
+    "通信"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "机器人+端侧AI+物联网模组",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“移动支付”概念（+2.50%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：报道：亚马逊将斥资75亿美元收购人工智能初创公司Decart的技术",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3204327"
+    }
+   ],
+   "ths_reason": "机器人+端侧AI+物联网模组",
+   "written_by": "规则"
+  },
+  {
+   "code": "603278",
+   "name": "大业股份",
+   "boards": 1,
+   "first_time": "1317",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "人形机器人+胎圈钢丝+商业航天",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "商业航天"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+胎圈钢丝+商业航天",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "人形机器人+胎圈钢丝+商业航天",
+   "written_by": "规则"
+  },
+  {
+   "code": "603662",
+   "name": "柯力传感",
+   "boards": 1,
+   "first_time": "1318",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "六维力传感器+人形机器人+触觉传感器",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "六维力传感器+人形机器人+触觉传感器",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "六维力传感器+人形机器人+触觉传感器",
+   "written_by": "规则"
+  },
+  {
+   "code": "605288",
+   "name": "凯迪股份",
+   "boards": 1,
+   "first_time": "1318",
+   "industry": "自动化设",
+   "stat": "1天1板",
+   "reason": "具身机器人+线性驱动+汽车零部件",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "具身机器人+线性驱动+汽车零部件",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "具身机器人+线性驱动+汽车零部件",
+   "written_by": "规则"
+  },
+  {
+   "code": "300703",
+   "name": "创源股份",
+   "boards": 1,
+   "first_time": "1319",
+   "industry": "文娱用品",
+   "stat": "1天1板",
+   "reason": "AI玩具+IP文创+祈福文创+国企改革",
+   "confidence": "中",
+   "themes": [
+    "人工智能"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "AI玩具+IP文创+祈福文创+国企改革",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“宠物经济”概念（+2.47%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：报道：亚马逊将斥资75亿美元收购人工智能初创公司Decart的技术",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3204327"
+    }
+   ],
+   "ths_reason": "AI玩具+IP文创+祈福文创+国企改革",
+   "written_by": "规则"
+  },
+  {
+   "code": "002687",
+   "name": "乔治白",
+   "boards": 1,
+   "first_time": "1319",
+   "industry": "服装家纺",
+   "stat": "1天1板",
+   "reason": "职业装+校服+股东户数下降",
+   "confidence": "中",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "职业装+校服+股东户数下降",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "职业装+校服+股东户数下降",
+   "written_by": "规则"
+  },
+  {
+   "code": "920690",
+   "name": "捷众科技",
+   "boards": 1,
+   "first_time": "1320",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "人形机器人走强（公司提示：股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=920690&announcementId=1225684908&orgId=9900035089&announcementTime=2026-11-23"
+    },
+    {
+     "kind": "盘面",
+     "text": "捷众科技午后开盘快速30%涨停",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/2026-11-23/doc-iniztfna2313132.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "午后人形机器人概念涨势扩大，捷众科技30cm涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541449"
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“IGBT概念”（+2.78%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "",
+   "written_by": "规则"
+  },
+  {
+   "code": "688611",
+   "name": "杭州柯林",
+   "boards": 1,
+   "first_time": "1320",
+   "industry": "电网设备",
+   "stat": "1天1板",
+   "reason": "人形机器人+电网数字化+增持",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "电力"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "午后人形机器人概念涨势扩大，捷众科技30cm涨停，上纬新材20cm涨停，此前安培龙、维宏股份、恒工精密、肇民科技、杭州柯林20cm涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541449"
+    },
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+电网数字化+增持",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“特高压”概念（+2.53%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "人形机器人+电网数字化+增持",
+   "written_by": "规则"
+  },
+  {
+   "code": "600814",
+   "name": "杭州解百",
+   "boards": 1,
+   "first_time": "1320",
+   "industry": "一般零售",
+   "stat": "1天1板",
+   "reason": "百货零售+间接持股中科宇航+杭州国资",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "零售概念震荡拉升，上海九百涨停，宁波中百、国芳集团、新华百货、杭州解百、东百集团跟涨",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541439"
+    },
+    {
+     "kind": "同花顺",
+     "text": "百货零售+间接持股中科宇航+杭州国资",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“退税商店”概念（+2.43%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "百货零售+间接持股中科宇航+杭州国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "601689",
+   "name": "拓普集团",
+   "boards": 1,
+   "first_time": "1321",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "人形机器人+机器人执行器+汽车零部件",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+机器人执行器+汽车零部件",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“周期股”概念（+0.47%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "人形机器人+机器人执行器+汽车零部件",
+   "written_by": "规则"
+  },
+  {
+   "code": "603667",
+   "name": "五洲新春",
+   "boards": 1,
+   "first_time": "1321",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "人形机器人+丝杠+轴承",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+丝杠+轴承",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "人形机器人+丝杠+轴承",
+   "written_by": "规则"
+  },
+  {
+   "code": "301502",
+   "name": "华阳智能",
+   "boards": 1,
+   "first_time": "1322",
+   "industry": "电机Ⅱ",
+   "stat": "1天1板",
+   "reason": "机器人关节模组+无框电机+微特电机",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "人形机器人板块午后拉升，宇树科技-W、华阳智能20%涨停",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/2026-11-23/doc-iniztrzu5445033.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "机器人关节模组+无框电机+微特电机",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "机器人关节模组+无框电机+微特电机",
+   "written_by": "规则"
+  },
+  {
+   "code": "301252",
+   "name": "同星科技",
+   "boards": 1,
+   "first_time": "1322",
+   "industry": "家电零部",
+   "stat": "1天1板",
+   "reason": "人形机器人+数据中心液冷+换热器",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "机器人",
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "液冷服务器概念持续反弹 同星科技逼近20cm涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541446"
+    },
+    {
+     "kind": "盘面",
+     "text": "汉威科技、宇树科技、同星科技、华是科技等午后纷纷“20cm”封板",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/2026-11-23/doc-iniztfna2313132.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+数据中心液冷+换热器",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：英伟达美股开盘跳涨33% 市值增加超1万亿美元",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542227"
+    }
+   ],
+   "ths_reason": "人形机器人+数据中心液冷+换热器",
+   "written_by": "规则"
+  },
+  {
+   "code": "603286",
+   "name": "日盈电子",
+   "boards": 1,
+   "first_time": "1322",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "人形机器人+电子皮肤+汽车洗涤系统",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+电子皮肤+汽车洗涤系统",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "人形机器人+电子皮肤+汽车洗涤系统",
+   "written_by": "规则"
+  },
+  {
+   "code": "002173",
+   "name": "创新医疗",
+   "boards": 1,
+   "first_time": "1323",
+   "industry": "医疗服务",
+   "stat": "1天1板",
+   "reason": "脑机接口+医疗器械注册证+医疗服务",
+   "confidence": "中",
+   "themes": [
+    "医药",
+    "前沿科技"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "脑机接口+医疗器械注册证+医疗服务",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“民营医院”概念（+2.12%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "医药：国家药监局推进真实世界研究工作",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541758"
+    }
+   ],
+   "ths_reason": "脑机接口+医疗器械注册证+医疗服务",
+   "written_by": "规则"
+  },
+  {
+   "code": "688585",
+   "name": "上纬新材",
+   "boards": 1,
+   "first_time": "1323",
+   "industry": "塑料",
+   "stat": "1天1板",
+   "reason": "人形机器人+战略合作+智元入主+风电树脂",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "风电"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "人形机器人概念涨势扩大 上纬新材等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541449"
+    },
+    {
+     "kind": "盘面",
+     "text": "人形机器人概念持续拉升，十余只成分股涨停，安培龙20CM涨停，此前克来机电、长华集团2连板，宁波东力、锋龙股份、光洋股份、福莱新材涨停，上纬新材、汉威科技涨超10%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541240"
+    },
+    {
+     "kind": "盘面",
+     "text": "人形机器人概念爆发，上纬新材、宇树科技、汉威科技、安培龙20CM涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541599"
+    },
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+战略合作+智元入主+风电树脂",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“行业龙头”概念（+1.03%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "人形机器人+战略合作+智元入主+风电树脂",
+   "written_by": "规则"
+  },
+  {
+   "code": "003021",
+   "name": "兆威机电",
+   "boards": 1,
+   "first_time": "1325",
+   "industry": "电机Ⅱ",
+   "stat": "1天1板",
+   "reason": "人形机器人+灵巧手+微型传动",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+灵巧手+微型传动",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "人形机器人+灵巧手+微型传动",
+   "written_by": "规则"
+  },
+  {
+   "code": "002896",
+   "name": "中大力德",
+   "boards": 1,
+   "first_time": "1325",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "人形机器人+精密减速器+关节模组",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "机器人概念股集体爆发，宇树科技、上纬新材、中大力德、襄阳轴承等多股涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3203998"
+    },
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+精密减速器+关节模组",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "人形机器人+精密减速器+关节模组",
+   "written_by": "规则"
+  },
+  {
+   "code": "603533",
+   "name": "掌阅科技",
+   "boards": 1,
+   "first_time": "1325",
+   "industry": "数字媒体",
+   "stat": "1天1板",
+   "reason": "AI短剧+短剧出海",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "午后AI漫剧概念再度拉升，果麦文化、华是科技触及20cm涨停，此前慈文传媒、浙文影业、引力传媒、德才股份、掌阅科技、上海电影等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541490"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI短剧+短剧出海",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“数字阅读”概念（+3.34%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：报道：亚马逊将斥资75亿美元收购人工智能初创公司Decart的技术",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3204327"
+    }
+   ],
+   "ths_reason": "AI短剧+短剧出海",
+   "written_by": "规则"
+  },
+  {
+   "code": "603728",
+   "name": "鸣志电器",
+   "boards": 1,
+   "first_time": "1326",
+   "industry": "电机Ⅱ",
+   "stat": "1天1板",
+   "reason": "人形机器人+运动控制",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+运动控制",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“参股新三板”概念（+1.94%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "人形机器人+运动控制",
+   "written_by": "规则"
+  },
+  {
+   "code": "001330",
+   "name": "博纳影业",
+   "boards": 1,
+   "first_time": "1326",
+   "industry": "影视院线",
+   "stat": "1天1板",
+   "reason": "AI影视+AI短剧+院线影院+三季报减亏",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "AI漫剧概念拉升，上海电影、横店影视、慈文传媒、博纳影业等涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3203998"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI影视+AI短剧+院线影院+三季报减亏",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：报道：亚马逊将斥资75亿美元收购人工智能初创公司Decart的技术",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3204327"
+    }
+   ],
+   "ths_reason": "AI影视+AI短剧+院线影院+三季报减亏",
+   "written_by": "规则"
+  },
+  {
+   "code": "603598",
+   "name": "引力传媒",
+   "boards": 1,
+   "first_time": "1326",
+   "industry": "广告营销",
+   "stat": "1天1板",
+   "reason": "AI营销+AI短剧+广告营销",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "午后AI漫剧概念再度拉升，果麦文化、华是科技触及20cm涨停，此前慈文传媒、浙文影业、引力传媒、德才股份、掌阅科技、上海电影等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541490"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI营销+AI短剧+广告营销",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“网红经济”概念（+3.14%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：报道：亚马逊将斥资75亿美元收购人工智能初创公司Decart的技术",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3204327"
+    }
+   ],
+   "ths_reason": "AI营销+AI短剧+广告营销",
+   "written_by": "规则"
+  },
+  {
+   "code": "300006",
+   "name": "莱美药业",
+   "boards": 1,
+   "first_time": "1327",
+   "industry": "化学制药",
+   "stat": "1天1板",
+   "reason": "纳米炭铁+卡纳琳+创新药+三季报减亏",
+   "confidence": "中",
+   "themes": [
+    "医药"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "创新药概念局部活跃 莱美药业涨超14%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541261"
+    },
+    {
+     "kind": "同花顺",
+     "text": "纳米炭铁+卡纳琳+创新药+三季报减亏",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“单抗概念”（+2.57%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "医药：国家药监局推进真实世界研究工作",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541758"
+    }
+   ],
+   "ths_reason": "纳米炭铁+卡纳琳+创新药+三季报减亏",
+   "written_by": "规则"
+  },
+  {
+   "code": "001266",
+   "name": "宏英智能",
+   "boards": 1,
+   "first_time": "1328",
+   "industry": "自动化设",
+   "stat": "1天1板",
+   "reason": "电路板设计+智能控制+液冷储能+三季报增长",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "锂电储能"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "电路板设计+智能控制+液冷储能+三季报增长",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：英伟达美股开盘跳涨33% 市值增加超1万亿美元",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542227"
+    }
+   ],
+   "ths_reason": "电路板设计+智能控制+液冷储能+三季报增长",
+   "written_by": "规则"
+  },
+  {
+   "code": "002248",
+   "name": "华东数控",
+   "boards": 1,
+   "first_time": "1328",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "工业母机+谐波减速器+半导体订单",
+   "confidence": "中",
+   "themes": [
+    "半导体",
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "工业母机+谐波减速器+半导体订单",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "工业母机+谐波减速器+半导体订单",
+   "written_by": "规则"
+  },
+  {
+   "code": "603901",
+   "name": "永创智能",
+   "boards": 1,
+   "first_time": "1337",
+   "industry": "专用设备",
+   "stat": "1天1板",
+   "reason": "人形机器人+智能包装+三季报增长",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+智能包装+三季报增长",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "人形机器人+智能包装+三季报增长",
+   "written_by": "规则"
+  },
+  {
+   "code": "301265",
+   "name": "华新科技",
+   "boards": 1,
+   "first_time": "1338",
+   "industry": "环境治理",
+   "stat": "1天1板",
+   "reason": "存储芯片再制造+贵金属回收",
+   "confidence": "中",
+   "themes": [
+    "半导体",
+    "黄金"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "存储芯片再制造+贵金属回收",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“金属铜”概念（+2.58%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "存储芯片再制造+贵金属回收",
+   "written_by": "规则"
+  },
+  {
+   "code": "688004",
+   "name": "博汇科技",
+   "boards": 1,
+   "first_time": "1339",
+   "industry": "IT服务Ⅱ",
+   "stat": "1天1板",
+   "reason": "AI视听安全+传媒安全+视听大数据",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "传媒游戏",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "AI视听安全+传媒安全+视听大数据",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“数据安全”概念（+2.94%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：报道：亚马逊将斥资75亿美元收购人工智能初创公司Decart的技术",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3204327"
+    }
+   ],
+   "ths_reason": "AI视听安全+传媒安全+视听大数据",
+   "written_by": "规则"
+  },
+  {
+   "code": "603009",
+   "name": "北特科技",
+   "boards": 1,
+   "first_time": "1339",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "人形机器人丝杠+昆山基地投产+汽车零部件",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "人形机器人丝杠+昆山基地投产+汽车零部件",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“上海自贸”概念（+1.81%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "人形机器人丝杠+昆山基地投产+汽车零部件",
+   "written_by": "规则"
+  },
+  {
+   "code": "301529",
+   "name": "福赛科技",
+   "boards": 1,
+   "first_time": "1340",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "机器人零部件+汽车内饰+新能源三电嵌件",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "机器人零部件+汽车内饰+新能源三电嵌件",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "机器人零部件+汽车内饰+新能源三电嵌件",
+   "written_by": "规则"
+  },
+  {
+   "code": "603131",
+   "name": "上海沪工",
+   "boards": 1,
+   "first_time": "1340",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "焊接机器人+商业航天+三季报扭亏",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "商业航天"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "焊接机器人+商业航天+三季报扭亏",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "焊接机器人+商业航天+三季报扭亏",
+   "written_by": "规则"
+  },
+  {
+   "code": "000559",
+   "name": "万向钱潮",
+   "boards": 1,
+   "first_time": "1340",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "人形机器人+关节模组+汽车零部件",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+关节模组+汽车零部件",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "人形机器人+关节模组+汽车零部件",
+   "written_by": "规则"
+  },
+  {
+   "code": "001400",
+   "name": "江顺科技",
+   "boards": 1,
+   "first_time": "1342",
+   "industry": "专用设备",
+   "stat": "1天1板",
+   "reason": "3D打印+铝挤压模具",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "有色金属"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "午后液冷服务器概念持续反弹，同星科技逼近20cm涨停，此前淳中科技涨停，荣亿精密涨超15%，通源环境、江顺科技、中石科技、精研科技等冲高",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541446"
+    },
+    {
+     "kind": "同花顺",
+     "text": "3D打印+铝挤压模具",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“高铁”概念（+2.16%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：英伟达美股开盘跳涨33% 市值增加超1万亿美元",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542227"
+    }
+   ],
+   "ths_reason": "3D打印+铝挤压模具",
+   "written_by": "规则"
+  },
+  {
+   "code": "601177",
+   "name": "杭齿前进",
+   "boards": 1,
+   "first_time": "1343",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "人形机器人关节组件+船用齿轮箱",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "人形机器人关节组件+船用齿轮箱",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“化债(AMC)概念”（+1.25%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "人形机器人关节组件+船用齿轮箱",
+   "written_by": "规则"
+  },
+  {
+   "code": "603283",
+   "name": "赛腾股份",
+   "boards": 1,
+   "first_time": "1343",
+   "industry": "自动化设",
+   "stat": "1天1板",
+   "reason": "HBM检测+三星供货+电路板设备+三季报增长",
+   "confidence": "中",
+   "themes": [
+    "半导体"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "HBM检测+三星供货+电路板设备+三季报增长",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“高带宽内存”概念（+2.26%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "HBM检测+三星供货+电路板设备+三季报增长",
+   "written_by": "规则"
+  },
+  {
+   "code": "002747",
+   "name": "埃斯顿",
+   "boards": 1,
+   "first_time": "1344",
+   "industry": "自动化设",
+   "stat": "1天1板",
+   "reason": "人形机器人+工业机器人+控股股东增持",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "人形机器人板块午后拉升，宇树科技-W、华阳智能20%涨停，埃斯顿、亿嘉和等多股涨停",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/2026-11-23/doc-iniztrzu5445033.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+工业机器人+控股股东增持",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“密集调研”概念（+2.75%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "人形机器人+工业机器人+控股股东增持",
+   "written_by": "规则"
+  },
+  {
+   "code": "003028",
+   "name": "振邦智能",
+   "boards": 1,
+   "first_time": "1344",
+   "industry": "家电零部",
+   "stat": "1天1板",
+   "reason": "人形机器人+智能控制器+机器人零部件",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+智能控制器+机器人零部件",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "人形机器人+智能控制器+机器人零部件",
+   "written_by": "规则"
+  },
+  {
+   "code": "603337",
+   "name": "杰克科技",
+   "boards": 1,
+   "first_time": "1344",
+   "industry": "专用设备",
+   "stat": "1天1板",
+   "reason": "人形机器人+缝制机械+机器人测试",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+缝制机械+机器人测试",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "人形机器人+缝制机械+机器人测试",
+   "written_by": "规则"
+  },
+  {
+   "code": "001331",
+   "name": "胜通能源",
+   "boards": 1,
+   "first_time": "1344",
+   "industry": "燃气Ⅱ",
+   "stat": "1天1板",
+   "reason": "七腾机器人控股+机器人产业链+LNG运贸",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "油气"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "七腾机器人控股+机器人产业链+LNG运贸",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "七腾机器人控股+机器人产业链+LNG运贸",
+   "written_by": "规则"
+  },
+  {
+   "code": "002565",
+   "name": "顺灏股份",
+   "boards": 1,
+   "first_time": "1344",
+   "industry": "包装印刷",
+   "stat": "1天1板",
+   "reason": "太空算力+商业航天+特种防伪环保纸",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "商业航天"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "太空算力+商业航天+特种防伪环保纸",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“生态农业”概念（+1.63%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：英伟达美股开盘跳涨33% 市值增加超1万亿美元",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542227"
+    }
+   ],
+   "ths_reason": "太空算力+商业航天+特种防伪环保纸",
+   "written_by": "规则"
+  },
+  {
+   "code": "300007",
+   "name": "汉威科技",
+   "boards": 1,
+   "first_time": "1344",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "人形机器人+柔性触觉+气体传感器",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "物理AI概念大涨，汉威科技、凡拓数创、海天瑞声等20CM涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611233937403845.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "汉威科技、宇树科技、同星科技、华是科技等午后纷纷“20cm”封板",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/2026-11-23/doc-iniztfna2313132.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+柔性触觉+气体传感器",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“地下管网”概念（+1.17%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：报道：亚马逊将斥资75亿美元收购人工智能初创公司Decart的技术",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3204327"
+    }
+   ],
+   "ths_reason": "人形机器人+柔性触觉+气体传感器",
+   "written_by": "规则"
+  },
+  {
+   "code": "603051",
+   "name": "鹿山新材",
+   "boards": 1,
+   "first_time": "1344",
+   "industry": "化学制品",
+   "stat": "1天1板",
+   "reason": "电子皮肤+光伏胶膜+回购（公司提示：广州鹿山新材料股份有限公司关于以集中…）",
+   "confidence": "中",
+   "themes": [
+    "光伏",
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "回购：广州鹿山新材料股份有限公司关于以集中竞价交易方式回购公司股份的进展公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603051&announcementId=1225680802&orgId=9900022812&announcementTime=2026-11-21"
+    },
+    {
+     "kind": "同花顺",
+     "text": "电子皮肤+光伏胶膜+回购",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“HJT电池”概念（+2.79%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "电子皮肤+光伏胶膜+回购",
+   "written_by": "规则"
+  },
+  {
+   "code": "688836",
+   "name": "宇树科技-W",
+   "boards": 1,
+   "first_time": "1344",
+   "industry": "自动化设",
+   "stat": "1天1板",
+   "reason": "人形机器人+物理AI+具身智能",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "宇树科技-W大涨 股价重回到600元以上",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/2026-11-23/doc-inizsqqh5604669.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "人形机器人板块午后拉升，宇树科技-W、华阳智能20%涨停",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/2026-11-23/doc-iniztrzu5445033.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+物理AI+具身智能",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：报道：亚马逊将斥资75亿美元收购人工智能初创公司Decart的技术",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3204327"
+    }
+   ],
+   "ths_reason": "人形机器人+物理AI+具身智能",
+   "written_by": "规则"
+  },
+  {
+   "code": "002249",
+   "name": "大洋电机",
+   "boards": 1,
+   "first_time": "1344",
+   "industry": "电机Ⅱ",
+   "stat": "1天1板",
+   "reason": "机器人关节+散热风机+羊字辈",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "风电"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "机器人关节+散热风机+羊字辈",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“燃料电池概念”（+2.81%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "机器人关节+散热风机+羊字辈",
+   "written_by": "规则"
+  },
+  {
+   "code": "301052",
+   "name": "果麦文化",
+   "boards": 1,
+   "first_time": "1345",
+   "industry": "出版",
+   "stat": "1天1板",
+   "reason": "AI短剧+AI视频+图书出版（公司提示：关于公司股票交易异常波动的公告）",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：关于公司股票交易异常波动的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=301052&announcementId=1225683292&orgId=9900041880&announcementTime=2026-11-23"
+    },
+    {
+     "kind": "公司",
+     "text": "AI漫剧概念再度拉升 果麦文化、华是科技触及20cm涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541490"
+    },
+    {
+     "kind": "盘面",
+     "text": "AI漫剧概念走强，果麦文化、华是科技20CM涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541599"
+    },
+    {
+     "kind": "盘面",
+     "text": "AI漫剧概念震荡走高，浙文影业涨停，幸福蓝海、新炬网络、海看股份、果麦文化跟涨",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541212"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI短剧+AI视频+图书出版",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：报道：亚马逊将斥资75亿美元收购人工智能初创公司Decart的技术",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3204327"
+    }
+   ],
+   "ths_reason": "AI短剧+AI视频+图书出版",
+   "written_by": "规则"
+  },
+  {
+   "code": "603048",
+   "name": "浙江黎明",
+   "boards": 1,
+   "first_time": "1345",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "关注机器人行业+汽车零部件+股权转让",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "关注机器人行业+汽车零部件+股权转让",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "关注机器人行业+汽车零部件+股权转让",
+   "written_by": "规则"
+  },
+  {
+   "code": "603127",
+   "name": "昭衍新药",
+   "boards": 1,
+   "first_time": "1345",
+   "industry": "医疗服务",
+   "stat": "1天1板",
+   "reason": "创新药CRO+实验猴+在手订单增长",
+   "confidence": "中",
+   "themes": [
+    "医药"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "百普赛斯、义翘神州、昭衍新药、万邦医药跟涨",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541261"
+    },
+    {
+     "kind": "同花顺",
+     "text": "创新药CRO+实验猴+在手订单增长",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“生物疫苗”概念（+2.15%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "医药：国家药监局推进真实世界研究工作",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541758"
+    }
+   ],
+   "ths_reason": "创新药CRO+实验猴+在手订单增长",
+   "written_by": "规则"
+  },
+  {
+   "code": "000766",
+   "name": "通化金马",
+   "boards": 1,
+   "first_time": "1346",
+   "industry": "化学制药",
+   "stat": "1天1板",
+   "reason": "阿尔茨海默病新药+医保目录+董事长增持",
+   "confidence": "高",
+   "themes": [
+    "医药"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "增持：关于董事长兼总经理增持股份计划实施完成的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000766&announcementId=1225680816&orgId=gssz0000766&announcementTime=2026-11-21"
+    },
+    {
+     "kind": "同花顺",
+     "text": "阿尔茨海默病新药+医保目录+董事长增持",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“肝炎概念”（+2.56%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "医药：国家药监局推进真实世界研究工作",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541758"
+    }
+   ],
+   "ths_reason": "阿尔茨海默病新药+医保目录+董事长增持",
+   "written_by": "规则"
+  },
+  {
+   "code": "003033",
+   "name": "征和工业",
+   "boards": 1,
+   "first_time": "1346",
+   "industry": "摩托车及",
+   "stat": "1天1板",
+   "reason": "灵巧手+人形机器人+农机链",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "灵巧手+人形机器人+农机链",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "灵巧手+人形机器人+农机链",
+   "written_by": "规则"
+  },
+  {
+   "code": "603166",
+   "name": "福达股份",
+   "boards": 1,
+   "first_time": "1347",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "人形机器人+精密减速器+曲轴",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+精密减速器+曲轴",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "人形机器人+精密减速器+曲轴",
+   "written_by": "规则"
+  },
+  {
+   "code": "002046",
+   "name": "国机精工",
+   "boards": 1,
+   "first_time": "1348",
+   "industry": "通用设备",
+   "stat": "1天1板",
+   "reason": "机器人轴承+金刚石散热+航天轴承",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "商业航天"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "机器人轴承+金刚石散热+航天轴承",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“2026三季报预减”概念（+3.42%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "机器人轴承+金刚石散热+航天轴承",
+   "written_by": "规则"
+  },
+  {
+   "code": "603175",
+   "name": "超颖电子",
+   "boards": 1,
+   "first_time": "1348",
+   "industry": "元件",
+   "stat": "1天1板",
+   "reason": "AI算力PCB+存储PCB+高阶PCB认证",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "算力",
+    "半导体"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "AI算力PCB+存储PCB+高阶PCB认证",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：报道：亚马逊将斥资75亿美元收购人工智能初创公司Decart的技术",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3204327"
+    }
+   ],
+   "ths_reason": "AI算力PCB+存储PCB+高阶PCB认证",
+   "written_by": "规则"
+  },
+  {
+   "code": "001326",
+   "name": "联域股份",
+   "boards": 1,
+   "first_time": "1348",
+   "industry": "照明设备",
+   "stat": "1天1板",
+   "reason": "机器人+参股芯智华+植物照明+回购",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "机器人+参股芯智华+植物照明+回购",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "机器人+参股芯智华+植物照明+回购",
+   "written_by": "规则"
+  },
+  {
+   "code": "688286",
+   "name": "敏芯股份",
+   "boards": 1,
+   "first_time": "1351",
+   "industry": "半导体",
+   "stat": "1天1板",
+   "reason": "人形机器人+六维力传感器+MEMS+浦丹光电",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "半导体"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+六维力传感器+MEMS+浦丹光电",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "人形机器人+六维力传感器+MEMS+浦丹光电",
+   "written_by": "规则"
+  },
+  {
+   "code": "003041",
+   "name": "真爱美家",
+   "boards": 1,
+   "first_time": "1359",
+   "industry": "服装家纺",
+   "stat": "1天1板",
+   "reason": "回购+毛毯出口+探迹科技入主",
+   "confidence": "高",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "回购：关于2026年第二期回购股份事项前十大股东和前十大无限售条件股东持股情况的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=003041&announcementId=1225683397&orgId=9900030776&announcementTime=2026-11-24"
+    },
+    {
+     "kind": "公告",
+     "text": "回购：关于取得第二期回购专项贷款承诺函的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=003041&announcementId=1225682334&orgId=9900030776&announcementTime=2026-11-21"
+    },
+    {
+     "kind": "同花顺",
+     "text": "回购+毛毯出口+探迹科技入主",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "回购+毛毯出口+探迹科技入主",
+   "written_by": "规则"
+  },
+  {
+   "code": "002527",
+   "name": "新时达",
+   "boards": 1,
+   "first_time": "1400",
+   "industry": "专用设备",
+   "stat": "1天1板",
+   "reason": "人形机器人+具身智能+海尔定增",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+具身智能+海尔定增",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“同步磁阻电机”概念（+5.65%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "人形机器人+具身智能+海尔定增",
+   "written_by": "规则"
+  },
+  {
+   "code": "301218",
+   "name": "华是科技",
+   "boards": 1,
+   "first_time": "1403",
+   "industry": "IT服务Ⅱ",
+   "stat": "1天1板",
+   "reason": "AI短剧+机器人投资+智慧城市",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "机器人",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "AI漫剧概念再度拉升 果麦文化、华是科技触及20cm涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541490"
+    },
+    {
+     "kind": "盘面",
+     "text": "汉威科技、宇树科技、同星科技、华是科技等午后纷纷“20cm”封板",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/2026-11-23/doc-iniztfna2313132.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "AI漫剧概念走强，果麦文化、华是科技20CM涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541599"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI短剧+机器人投资+智慧城市",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "人工智能：报道：亚马逊将斥资75亿美元收购人工智能初创公司Decart的技术",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3204327"
+    }
+   ],
+   "ths_reason": "AI短剧+机器人投资+智慧城市",
+   "written_by": "规则"
+  },
+  {
+   "code": "603305",
+   "name": "旭升集团",
+   "boards": 1,
+   "first_time": "1407",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "人形机器人+汽车轻量化+特斯拉概念+商业航天",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车",
+    "商业航天"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+汽车轻量化+特斯拉概念+商业航天",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "人形机器人+汽车轻量化+特斯拉概念+商业航天",
+   "written_by": "规则"
+  },
+  {
+   "code": "000636",
+   "name": "风华高科",
+   "boards": 1,
+   "first_time": "1408",
+   "industry": "元件",
+   "stat": "1天1板",
+   "reason": "MLCC+商业航天+广东国资",
+   "confidence": "中",
+   "themes": [
+    "商业航天",
+    "消费电子"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "MLCC+商业航天+广东国资",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“超级电容”概念（+2.96%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "MLCC+商业航天+广东国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "301010",
+   "name": "晶雪节能",
+   "boards": 1,
+   "first_time": "1418",
+   "industry": "装修建材",
+   "stat": "1天1板",
+   "reason": "冰雪经济+数据中心+冷库围护",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "基建建材"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "冰雪经济概念表现活跃，龙江交通涨停，晶雪节能、冰山冷热、长白山、雪人集团跟涨",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541264"
+    },
+    {
+     "kind": "同花顺",
+     "text": "冰雪经济+数据中心+冷库围护",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“建筑节能”概念（+2.58%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：英伟达美股开盘跳涨33% 市值增加超1万亿美元",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542227"
+    }
+   ],
+   "ths_reason": "冰雪经济+数据中心+冷库围护",
+   "written_by": "规则"
+  },
+  {
+   "code": "300243",
+   "name": "瑞丰高材",
+   "boards": 1,
+   "first_time": "1425",
+   "industry": "塑料",
+   "stat": "1天1板",
+   "reason": "电子级环氧树脂+低介电树脂+覆铜板+PVC助剂",
+   "confidence": "中",
+   "themes": [
+    "有色金属",
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "电子级环氧树脂+低介电树脂+覆铜板+PVC助剂",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“合成生物”概念（+2.76%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "有色金属：兴业银锡：拟3亿元至5亿元回购股份",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541957"
+    }
+   ],
+   "ths_reason": "电子级环氧树脂+低介电树脂+覆铜板+PVC助剂",
+   "written_by": "规则"
+  },
+  {
+   "code": "000678",
+   "name": "襄阳轴承",
+   "boards": 1,
+   "first_time": "1430",
+   "industry": "汽车零部",
+   "stat": "3天2板",
+   "reason": "机器人轴承+湖北国资+“羊”字辈（公司提示：关于股票交易异常波动的公告）",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：关于股票交易异常波动的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000678&announcementId=1225683750&orgId=gssz0000678&announcementTime=2026-11-24"
+    },
+    {
+     "kind": "盘面",
+     "text": "机器人概念股集体爆发，宇树科技、上纬新材、中大力德、襄阳轴承等多股涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3203998"
+    },
+    {
+     "kind": "同花顺",
+     "text": "机器人轴承+湖北国资+“羊”字辈",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "机器人轴承+湖北国资+“羊”字辈",
+   "written_by": "规则"
+  },
+  {
+   "code": "603151",
+   "name": "邦基科技",
+   "boards": 1,
+   "first_time": "1444",
+   "industry": "饲料",
+   "stat": "1天1板",
+   "reason": "猪饲料+生猪养殖（公司提示：山东邦基科技股份有限公司股票交易异常…）",
+   "confidence": "中",
+   "themes": [
+    "消费",
+    "农业"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：山东邦基科技股份有限公司股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603151&announcementId=1225681108&orgId=9900052705&announcementTime=2026-11-21"
+    },
+    {
+     "kind": "盘面",
+     "text": "邦基科技、罗牛山、天邦食品、新五丰、东瑞股份涨幅靠前",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541560"
+    },
+    {
+     "kind": "同花顺",
+     "text": "猪饲料+生猪养殖",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "猪饲料+生猪养殖",
+   "written_by": "规则"
+  },
+  {
+   "code": "600156",
+   "name": "华升股份",
+   "boards": 1,
+   "first_time": "1446",
+   "industry": "纺织制造",
+   "stat": "4天3板",
+   "reason": "算力租赁+重组推进+湖南国资",
+   "confidence": "中",
+   "themes": [
+    "算力"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "算力租赁+重组推进+湖南国资",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "算力：英伟达美股开盘跳涨33% 市值增加超1万亿美元",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542227"
+    }
+   ],
+   "ths_reason": "算力租赁+重组推进+湖南国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "603926",
+   "name": "铁流股份",
+   "boards": 1,
+   "first_time": "1451",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "机器人零部件+电机轴+三季报净利增长",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "机器人零部件+电机轴+三季报净利增长",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "机器人：成都：1—10月全市规模以上工业增加值同比增长6.4%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542080"
+    }
+   ],
+   "ths_reason": "机器人零部件+电机轴+三季报净利增长",
+   "written_by": "规则"
+  }
+ ]
+}
