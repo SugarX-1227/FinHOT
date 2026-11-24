@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-24T03:31:53+08:00",
+"updated": "2026-11-25T03:08:51+08:00",
 "source": "巨潮资讯股票清单",
 "complete": true,
 "stocks": [
@@ -5901,14 +5901,16 @@
 },
 {
 "code": "000892",
-"name": "欢瑞世纪",
+"name": "ST欢瑞",
 "exchange": "SZ",
 "org_id": "gssz0000892",
-"pinyin": "hrsj",
+"pinyin": "sthr",
 "industry": "影视院线",
-"former": [],
-"st": false,
-"status": "delisted",
+"former": [
+"欢瑞世纪"
+],
+"st": true,
+"status": "listed",
 "hk": "",
 "us": "",
 "aliases": []
@@ -55501,12 +55503,14 @@
 },
 {
 "code": "600962",
-"name": "国投中鲁",
+"name": "国投电子",
 "exchange": "SH",
 "org_id": "gssh0600962",
-"pinyin": "gtzl",
+"pinyin": "gtdz",
 "industry": "农产品加工",
-"former": [],
+"former": [
+"国投中鲁"
+],
 "st": false,
 "status": "listed",
 "hk": "",
