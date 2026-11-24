@@ -1,0 +1,2309 @@
+{
+ "trade_date": "2026-11-24",
+ "coverage": 100.0,
+ "announced": 21,
+ "stocks": [
+  {
+   "code": "002579",
+   "name": "中京电子",
+   "boards": 4,
+   "first_time": "0925",
+   "industry": "元件",
+   "stat": "4天4板",
+   "reason": "高阶HDI+算力+光模块PCB+人形机器人（公司提示：股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "机器人",
+    "消费电子"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002579&announcementId=1225682134&orgId=9900019410&announcementTime=2026-11-21"
+    },
+    {
+     "kind": "公司",
+     "text": "A股元件板块震荡走高，逸豪新材涨超13%，中京电子、崇达技术双双涨停，协和电子涨超9%，迅捷兴、贤丰控股、明阳电路、超声…",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261123094025474800"
+    },
+    {
+     "kind": "公司",
+     "text": "PCB概念表现活跃 中京电子3连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541196"
+    },
+    {
+     "kind": "盘面",
+     "text": "PCB概念股中京电子（3板）竞价涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542509"
+    },
+    {
+     "kind": "盘面",
+     "text": "中京电子4连板",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103451484.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "高阶HDI+算力+光模块PCB+人形机器人",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“PCB”概念（+0.01%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "高阶HDI+算力+光模块PCB+人形机器人",
+   "written_by": "规则"
+  },
+  {
+   "code": "603960",
+   "name": "克来机电",
+   "boards": 3,
+   "first_time": "0925",
+   "industry": "汽车零部",
+   "stat": "3天3板",
+   "reason": "工业机器人+柔性自动化装备+AI应用（公司提示：股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603960&announcementId=1225684354&orgId=9900030536&announcementTime=2026-11-24"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：克来机电股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603960/AN202611231831961088.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "人形机器人概念走强，克来机电、长华集团走出3连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542660"
+    },
+    {
+     "kind": "盘面",
+     "text": "机器人概念股持续走强，锋龙股份、宁波东力、克来机电、福莱新材等多股涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3204751"
+    },
+    {
+     "kind": "同花顺",
+     "text": "工业机器人+柔性自动化装备+AI应用",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“华为汽车”概念（+1.00%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "工业机器人+柔性自动化装备+AI应用",
+   "written_by": "规则"
+  },
+  {
+   "code": "605018",
+   "name": "长华集团",
+   "boards": 3,
+   "first_time": "0925",
+   "industry": "汽车零部",
+   "stat": "3天3板",
+   "reason": "人形机器人+行星滚柱丝杠+汽车零部件（公司提示：股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=605018&announcementId=1225684934&orgId=9900039843&announcementTime=2026-11-24"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：长华集团股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/605018/AN202611231831963622.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "人形机器人概念走强，克来机电、长华集团走出3连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542660"
+    },
+    {
+     "kind": "盘面",
+     "text": "机器人概念持续爆发，克来机电、长华集团均3连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542893"
+    },
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+行星滚柱丝杠+汽车零部件",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“私募新进”概念（+0.22%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "人形机器人+行星滚柱丝杠+汽车零部件",
+   "written_by": "规则"
+  },
+  {
+   "code": "002548",
+   "name": "金新农",
+   "boards": 3,
+   "first_time": "0931",
+   "industry": "饲料",
+   "stat": "8天5板",
+   "reason": "生猪养殖+养殖机器人+猪饲料（公司提示：股票交易异常波动暨风险提示公告）",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "农业"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动暨风险提示公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002548&announcementId=1225684786&orgId=9900017829&announcementTime=2026-11-24"
+    },
+    {
+     "kind": "公司",
+     "text": "猪肉概念反复活跃 金新农8天5板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542524"
+    },
+    {
+     "kind": "公司",
+     "text": "猪肉概念异动拉升 金新农7天4板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541560"
+    },
+    {
+     "kind": "盘面",
+     "text": "猪肉产业的金新农8天5板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542843"
+    },
+    {
+     "kind": "盘面",
+     "text": "农产品加工板块短线拉升，金新农涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261124/c682134873.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "生猪养殖+养殖机器人+猪饲料",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“深圳特区”概念（+0.05%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "生猪养殖+养殖机器人+猪饲料",
+   "written_by": "规则"
+  },
+  {
+   "code": "002086",
+   "name": "东方海洋",
+   "boards": 3,
+   "first_time": "0945",
+   "industry": "农产品加",
+   "stat": "22天11板",
+   "reason": "海洋养殖+大健康+董事会换届+“羊”字辈（公司提示：股票交易异常波动暨风险提示公告）",
+   "confidence": "中",
+   "themes": [
+    "消费",
+    "农业"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动暨风险提示公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002086&announcementId=1225684381&orgId=9900001344&announcementTime=2026-11-24"
+    },
+    {
+     "kind": "盘面",
+     "text": "水产板块东方海洋（18天9板）高开6.78%、好当家（8天5板）低开5.08%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542509"
+    },
+    {
+     "kind": "盘面",
+     "text": "大消费板块东方海洋22天11板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542843"
+    },
+    {
+     "kind": "同花顺",
+     "text": "海洋养殖+大健康+董事会换届+“羊”字辈",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“水产概念”（+0.13%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：携程梁建章称未来五年2亿国际游客来中国 将带动上万亿元旅游消费",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611233937329465.html"
+    }
+   ],
+   "ths_reason": "海洋养殖+大健康+董事会换届+“羊”字辈",
+   "written_by": "规则"
+  },
+  {
+   "code": "001229",
+   "name": "魅视科技",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "计算机设",
+   "stat": "2天2板",
+   "reason": "算力服务+AI算力采购+专业视听",
+   "confidence": "高",
+   "themes": [
+    "人工智能",
+    "算力",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "重大合同：关于公司收到中选通知书暨签订日常经营重大框架协议及备忘录的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=001229&announcementId=1225682693&orgId=9900047621&announcementTime=2026-11-21"
+    },
+    {
+     "kind": "公司",
+     "text": "A股商业航天板块震荡走高，奥来德涨超14%，飞亚达、江顺科技、魅视科技等多股涨停，光库科技、东华测试、景旺电子、电科蓝天…",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261124095138069800"
+    },
+    {
+     "kind": "同花顺",
+     "text": "算力服务+AI算力采购+专业视听",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“人工智能”概念（+0.11%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "算力服务+AI算力采购+专业视听",
+   "written_by": "规则"
+  },
+  {
+   "code": "001278",
+   "name": "一彬科技",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "汽车零部",
+   "stat": "2天2板",
+   "reason": "半导体掩模基板+激光除草机+汽车零部件",
+   "confidence": "中",
+   "themes": [
+    "半导体",
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "机器人概念持续爆发，克来机电、长华集团均3连板，艾芬达、安培龙20cm2连板，一彬科技、宁波东力、科森科技、锋龙股份、铁流股份、亿嘉和、新坐标、福莱新材、柯力传感也纷纷晋级2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542893"
+    },
+    {
+     "kind": "同花顺",
+     "text": "半导体掩模基板+激光除草机+汽车零部件",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“连续亏损”概念（+0.11%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "半导体掩模基板+激光除草机+汽车零部件",
+   "written_by": "规则"
+  },
+  {
+   "code": "002036",
+   "name": "联创电子",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "光学光电",
+   "stat": "2天2板",
+   "reason": "机器视觉+车载光学+光模块光学器件",
+   "confidence": "高",
+   "themes": [
+    "算力"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "华域汽车：子公司完成摘牌收购联创电子10.9569%股权",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/2026-11-24/doc-inizvqtf2195258.shtml"
+    },
+    {
+     "kind": "公司",
+     "text": "光学元件板块持续走高，联创电子涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261124/c682135908.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "A股英伟达概念高开，联创电子、麦格米特、景旺电子、工业富联竞价涨停",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261124092644246800"
+    },
+    {
+     "kind": "盘面",
+     "text": "无线耳机概念活跃，科森科技、联创电子2连板",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611243938305047.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "机器视觉+车载光学+光模块光学器件",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“股权分散”概念（+0.24%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "机器视觉+车载光学+光模块光学器件",
+   "written_by": "规则"
+  },
+  {
+   "code": "002122",
+   "name": "汇洲智能",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "通用设备",
+   "stat": "2天2板",
+   "reason": "撤销风险警示+物理AI+数据服务",
+   "confidence": "中",
+   "themes": [
+    "人工智能"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "撤销风险警示+物理AI+数据服务",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“高端装备”概念（+0.22%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "撤销风险警示+物理AI+数据服务",
+   "written_by": "规则"
+  },
+  {
+   "code": "002164",
+   "name": "宁波东力",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "通用设备",
+   "stat": "2天2板",
+   "reason": "人形机器人+精密减速器+尼得科合作",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "A股人形机器人板块连日走强，宁波东力涨停，维宏股份涨超9%，征和工业、柯力传感、五洲新春、鸣志电器、万里扬等个股跟涨",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261124094201793800"
+    },
+    {
+     "kind": "公司",
+     "text": "午间涨跌停股分析：67只涨停股、5只跌停股，减速器概念走强，光洋股份、宁波东力等2连板",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611243938305047.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "午后人形机器人概念再度拉升，维宏股份走出20cm2连板，此前安培龙、星源卓镁、雷迪克、福莱新材、宁波东力、柯力传感等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542725"
+    },
+    {
+     "kind": "盘面",
+     "text": "人形机器人概念走强，克来机电、长华集团走出3连板，宁波东力、锋龙股份、福莱新材、安培龙2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542660"
+    },
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+精密减速器+尼得科合作",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“社保新进”概念（+0.21%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "人形机器人+精密减速器+尼得科合作",
+   "written_by": "规则"
+  },
+  {
+   "code": "002708",
+   "name": "光洋股份",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "汽车零部",
+   "stat": "2天2板",
+   "reason": "机器人关节+黄山国资",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "午间涨跌停股分析：67只涨停股、5只跌停股，减速器概念走强，光洋股份、宁波东力等2连板",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611243938305047.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "光洋股份、海洋王均2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542893"
+    },
+    {
+     "kind": "盘面",
+     "text": "减速器概念持续走强，中马传动、光洋股份、宁波东力涨停",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/2026-11-24/doc-inizuxvh1914928.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "机器人关节+黄山国资",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“基金增仓”概念（+0.03%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "机器人关节+黄山国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "002931",
+   "name": "锋龙股份",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "通用设备",
+   "stat": "2天2板",
+   "reason": "机器人关节+优必选+机电组件",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "人形机器人概念反复活跃 锋龙股份2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542519"
+    },
+    {
+     "kind": "盘面",
+     "text": "人形机器人概念走强，克来机电、长华集团走出3连板，宁波东力、锋龙股份、福莱新材、安培龙2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542660"
+    },
+    {
+     "kind": "盘面",
+     "text": "机器人概念股持续走强，锋龙股份、宁波东力、克来机电、福莱新材等多股涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3204751"
+    },
+    {
+     "kind": "同花顺",
+     "text": "机器人关节+优必选+机电组件",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“高市盈率”概念（+0.23%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "机器人关节+优必选+机电组件",
+   "written_by": "规则"
+  },
+  {
+   "code": "603516",
+   "name": "淳中科技",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "计算机设",
+   "stat": "2天2板",
+   "reason": "液冷服务器+音视频芯片+显控系统（公司提示：北京淳中科技股份有限公司股票交易异常…）",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "半导体",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：北京淳中科技股份有限公司股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603516/AN202611241831993665.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "午后液冷服务器概念持续反弹，同星科技逼近20cm涨停，此前淳中科技涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541446"
+    },
+    {
+     "kind": "同花顺",
+     "text": "液冷服务器+音视频芯片+显控系统",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“安防概念”（+0.33%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "液冷服务器+音视频芯片+显控系统",
+   "written_by": "规则"
+  },
+  {
+   "code": "300703",
+   "name": "创源股份",
+   "boards": 2,
+   "first_time": "0930",
+   "industry": "文娱用品",
+   "stat": "2天2板",
+   "reason": "AI玩具+IP文创+祈福文创+国企改革（公司提示：关于公司股票交易异常波动的公告）",
+   "confidence": "中",
+   "themes": [
+    "人工智能"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：关于公司股票交易异常波动的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=300703&announcementId=1225685870&orgId=9900031820&announcementTime=2026-11-24"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI玩具+IP文创+祈福文创+国企改革",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“婴童概念”（+0.01%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "AI玩具+IP文创+祈福文创+国企改革",
+   "written_by": "规则"
+  },
+  {
+   "code": "301575",
+   "name": "艾芬达",
+   "boards": 2,
+   "first_time": "0930",
+   "industry": "家居用品",
+   "stat": "2天2板",
+   "reason": "机器人结构件+北美头部机器人供应链+卫浴毛巾架",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "机器人概念持续爆发，克来机电、长华集团均3连板，艾芬达、安培龙20cm2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542893"
+    },
+    {
+     "kind": "同花顺",
+     "text": "机器人结构件+北美头部机器人供应链+卫浴毛巾架",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“石墨烯”概念（+0.02%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "机器人结构件+北美头部机器人供应链+卫浴毛巾架",
+   "written_by": "规则"
+  },
+  {
+   "code": "603626",
+   "name": "科森科技",
+   "boards": 2,
+   "first_time": "0930",
+   "industry": "消费电子",
+   "stat": "2天2板",
+   "reason": "机器人结构件+消费电子结构件+苹果供应链（公司提示：股票交易异常波动 无应披露未披露重大…）",
+   "confidence": "中",
+   "themes": [
+    "消费电子",
+    "机器人",
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603626/AN202611241831994281.html"
+    },
+    {
+     "kind": "公司",
+     "text": "科森科技：股票交易异常波动 无应披露未披露重大事项",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/2026-11-24/doc-inizvqtf2247359.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "共达电声、科森科技涨停",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103451501.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "机器人概念持续爆发，克来机电、长华集团均3连板，艾芬达、安培龙20cm2连板，一彬科技、宁波东力、科森科技、锋龙股份、铁流股份、亿嘉和、新坐标、福莱新材、柯力传感也纷纷晋级2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542893"
+    },
+    {
+     "kind": "同花顺",
+     "text": "机器人结构件+消费电子结构件+苹果供应链",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“苹果概念”（+1.34%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费电子：前三季度重点平台智能眼镜销售额同比增长1.1倍 具身智能机器人销售额同比增长22",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542620"
+    }
+   ],
+   "ths_reason": "机器人结构件+消费电子结构件+苹果供应链",
+   "written_by": "规则"
+  },
+  {
+   "code": "600814",
+   "name": "杭州解百",
+   "boards": 2,
+   "first_time": "0930",
+   "industry": "一般零售",
+   "stat": "2天2板",
+   "reason": "百货零售+间接持股中科宇航+杭州国资",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "零售概念表现活跃 杭州解百2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542529"
+    },
+    {
+     "kind": "盘面",
+     "text": "杭州解百涨停",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103451513.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "零售概念震荡拉升，上海九百涨停，宁波中百、国芳集团、新华百货、杭州解百、东百集团跟涨",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541439"
+    },
+    {
+     "kind": "同花顺",
+     "text": "百货零售+间接持股中科宇航+杭州国资",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“新零售”概念（+0.08%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：携程梁建章称未来五年2亿国际游客来中国 将带动上万亿元旅游消费",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611233937329465.html"
+    }
+   ],
+   "ths_reason": "百货零售+间接持股中科宇航+杭州国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "601599",
+   "name": "浙文影业",
+   "boards": 2,
+   "first_time": "0930",
+   "industry": "纺织制造",
+   "stat": "2天2板",
+   "reason": "影视业务+微短剧+国企改革（公司提示：股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/601599/AN202611241831993889.html"
+    },
+    {
+     "kind": "公司",
+     "text": "AI漫剧概念震荡走高 浙文影业涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541212"
+    },
+    {
+     "kind": "盘面",
+     "text": "带动AI应用端持续走高，值得买、遥望科技、新炬网络涨停，此前浙文影业、利欧股份、横店影视涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542611"
+    },
+    {
+     "kind": "盘面",
+     "text": "AI漫剧概念反复活跃，浙文影业、新炬网络、横店影视走出2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542660"
+    },
+    {
+     "kind": "同花顺",
+     "text": "影视业务+微短剧+国企改革",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“影视概念”（+0.36%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "影视业务+微短剧+国企改革",
+   "written_by": "规则"
+  },
+  {
+   "code": "603103",
+   "name": "横店影视",
+   "boards": 2,
+   "first_time": "0931",
+   "industry": "影视院线",
+   "stat": "2天2板",
+   "reason": "AI短剧+影视全产业链+IP运营（公司提示：横店影视股份有限公司股票交易异常波动…）",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：横店影视股份有限公司股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603103/AN202611241831994363.html"
+    },
+    {
+     "kind": "公司",
+     "text": "A股AI漫剧概念延续涨势，横店影视、上海电影均2连板，幸福蓝海、光线传媒、华智数媒、慈文传媒涨幅居前",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3204633"
+    },
+    {
+     "kind": "盘面",
+     "text": "带动AI应用端持续走高，值得买、遥望科技、新炬网络涨停，此前浙文影业、利欧股份、横店影视涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542611"
+    },
+    {
+     "kind": "盘面",
+     "text": "AI漫剧概念反复活跃，浙文影业、新炬网络、横店影视走出2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542660"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI短剧+影视全产业链+IP运营",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "AI短剧+影视全产业链+IP运营",
+   "written_by": "规则"
+  },
+  {
+   "code": "002242",
+   "name": "九阳股份",
+   "boards": 2,
+   "first_time": "0931",
+   "industry": "小家电",
+   "stat": "6天4板",
+   "reason": "厨房小家电+机器人投资+“羊”字辈",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "11月24日连板股分析：连板股晋级率近三成 九阳股份走出6天4板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542893"
+    },
+    {
+     "kind": "公司",
+     "text": "11月24日涨停复盘：64只股涨停 九阳股份6天4板",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611243938412875.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "家电股九阳股份（5天3板）高开7.66%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542509"
+    },
+    {
+     "kind": "盘面",
+     "text": "家电股九阳股份6天4板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542843"
+    },
+    {
+     "kind": "同花顺",
+     "text": "厨房小家电+机器人投资+“羊”字辈",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“趋势股”概念（+0.02%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "厨房小家电+机器人投资+“羊”字辈",
+   "written_by": "规则"
+  },
+  {
+   "code": "603926",
+   "name": "铁流股份",
+   "boards": 2,
+   "first_time": "0932",
+   "industry": "汽车零部",
+   "stat": "2天2板",
+   "reason": "机器人零部件+电机轴+三季报净利增长（公司提示：铁流股份股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：铁流股份股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603926/AN202611241831989149.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "机器人概念持续爆发，克来机电、长华集团均3连板，艾芬达、安培龙20cm2连板，一彬科技、宁波东力、科森科技、锋龙股份、铁流股份、亿嘉和、新坐标、福莱新材、柯力传感也纷纷晋级2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542893"
+    },
+    {
+     "kind": "同花顺",
+     "text": "机器人零部件+电机轴+三季报净利增长",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“农机”概念（+0.68%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "机器人零部件+电机轴+三季报净利增长",
+   "written_by": "规则"
+  },
+  {
+   "code": "603666",
+   "name": "亿嘉和",
+   "boards": 2,
+   "first_time": "0932",
+   "industry": "自动化设",
+   "stat": "2天2板",
+   "reason": "人形机器人+华为云合作+电力机器人",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "电力"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "机器人概念持续爆发，克来机电、长华集团均3连板，艾芬达、安培龙20cm2连板，一彬科技、宁波东力、科森科技、锋龙股份、铁流股份、亿嘉和、新坐标、福莱新材、柯力传感也纷纷晋级2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542893"
+    },
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+华为云合作+电力机器人",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“充电桩”概念（+0.11%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "人形机器人+华为云合作+电力机器人",
+   "written_by": "规则"
+  },
+  {
+   "code": "603040",
+   "name": "新坐标",
+   "boards": 2,
+   "first_time": "0933",
+   "industry": "汽车零部",
+   "stat": "2天2板",
+   "reason": "机器人丝杠+冷精密成形+汽车零部件（公司提示：新坐标股票交易异常波动的公告）",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：新坐标股票交易异常波动的公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603040/AN202611241831988983.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "机器人概念持续爆发，克来机电、长华集团均3连板，艾芬达、安培龙20cm2连板，一彬科技、宁波东力、科森科技、锋龙股份、铁流股份、亿嘉和、新坐标、福莱新材、柯力传感也纷纷晋级2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542893"
+    },
+    {
+     "kind": "同花顺",
+     "text": "机器人丝杠+冷精密成形+汽车零部件",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“汽车热管理”概念（+1.36%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "机器人丝杠+冷精密成形+汽车零部件",
+   "written_by": "规则"
+  },
+  {
+   "code": "605488",
+   "name": "福莱新材",
+   "boards": 2,
+   "first_time": "0933",
+   "industry": "塑料",
+   "stat": "2天2板",
+   "reason": "柔性传感+数据采集手套+人形机器人",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "午后人形机器人概念再度拉升，维宏股份走出20cm2连板，此前安培龙、星源卓镁、雷迪克、福莱新材、宁波东力、柯力传感等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542725"
+    },
+    {
+     "kind": "盘面",
+     "text": "人形机器人概念走强，克来机电、长华集团走出3连板，宁波东力、锋龙股份、福莱新材、安培龙2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542660"
+    },
+    {
+     "kind": "同花顺",
+     "text": "柔性传感+数据采集手套+人形机器人",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“降解塑料”概念（+0.13%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "柔性传感+数据采集手套+人形机器人",
+   "written_by": "规则"
+  },
+  {
+   "code": "603662",
+   "name": "柯力传感",
+   "boards": 2,
+   "first_time": "0942",
+   "industry": "通用设备",
+   "stat": "2天2板",
+   "reason": "六维力传感器+人形机器人+触觉传感器+战略投资知行机器人",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "A股人形机器人板块连日走强，宁波东力涨停，维宏股份涨超9%，征和工业、柯力传感、五洲新春、鸣志电器、万里扬等个股跟涨",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261124094201793800"
+    },
+    {
+     "kind": "盘面",
+     "text": "午后人形机器人概念再度拉升，维宏股份走出20cm2连板，此前安培龙、星源卓镁、雷迪克、福莱新材、宁波东力、柯力传感等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542725"
+    },
+    {
+     "kind": "盘面",
+     "text": "同星科技、安培龙、恒工精密、柯力传感、上纬新材、五洲新春跟涨",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103451573.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "六维力传感器+人形机器人+触觉传感器+战略投资知行机器人",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“边缘计算”概念（+0.45%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "六维力传感器+人形机器人+触觉传感器+战略投资知行机器人",
+   "written_by": "规则"
+  },
+  {
+   "code": "301252",
+   "name": "同星科技",
+   "boards": 2,
+   "first_time": "0946",
+   "industry": "家电零部",
+   "stat": "2天2板",
+   "reason": "液冷服务器+人形机器人+换热器",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "机器人",
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "液冷服务器概念持续反弹 同星科技逼近20cm涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541446"
+    },
+    {
+     "kind": "盘面",
+     "text": "同星科技、安培龙、恒工精密、柯力传感、上纬新材、五洲新春跟涨",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103451573.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "早盘液冷服务器概念震荡拉升，冰轮环境、飞龙股份、金富科技、豪尔赛等涨停，同星科技、同飞股份、申菱环境、强瑞技术涨超10%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542533"
+    },
+    {
+     "kind": "同花顺",
+     "text": "液冷服务器+人形机器人+换热器",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“液冷服务器”概念（+0.88%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "液冷服务器+人形机器人+换热器",
+   "written_by": "规则"
+  },
+  {
+   "code": "301413",
+   "name": "安培龙",
+   "boards": 2,
+   "first_time": "0953",
+   "industry": "通用设备",
+   "stat": "2天2板",
+   "reason": "人形机器人+力传感器+压力传感器",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "午后人形机器人概念再度拉升，维宏股份走出20cm2连板，此前安培龙、星源卓镁、雷迪克、福莱新材、宁波东力、柯力传感等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542725"
+    },
+    {
+     "kind": "盘面",
+     "text": "人形机器人概念走强，克来机电、长华集团走出3连板，宁波东力、锋龙股份、福莱新材、安培龙2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542660"
+    },
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+力传感器+压力传感器",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "人形机器人+力传感器+压力传感器",
+   "written_by": "规则"
+  },
+  {
+   "code": "002685",
+   "name": "华东重机",
+   "boards": 2,
+   "first_time": "1308",
+   "industry": "工程机械",
+   "stat": "8天6板",
+   "reason": "GPU芯片+港口装卸设备+定增注册",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "半导体",
+    "航运物流"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "算力芯片概念异动拉升 华东重机8天6板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542728"
+    },
+    {
+     "kind": "盘面",
+     "text": "芯片产业链的盛剑科技（5板）低开0.98%、华东重机（7天5板）高开3.56%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542509"
+    },
+    {
+     "kind": "盘面",
+     "text": "国产算力概念股华东重机8天6板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542843"
+    },
+    {
+     "kind": "同花顺",
+     "text": "GPU芯片+港口装卸设备+定增注册",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "GPU芯片+港口装卸设备+定增注册",
+   "written_by": "规则"
+  },
+  {
+   "code": "001358",
+   "name": "兴欣新材",
+   "boards": 2,
+   "first_time": "1311",
+   "industry": "化学制品",
+   "stat": "9天5板",
+   "reason": "光刻胶剥离液+电子化学品项目+股份回购",
+   "confidence": "中",
+   "themes": [
+    "半导体",
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "光刻胶概念股兴欣新材9天5板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542893"
+    },
+    {
+     "kind": "同花顺",
+     "text": "光刻胶剥离液+电子化学品项目+股份回购",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“光刻胶”概念（+0.74%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "光刻胶剥离液+电子化学品项目+股份回购",
+   "written_by": "规则"
+  },
+  {
+   "code": "002724",
+   "name": "海洋王",
+   "boards": 2,
+   "first_time": "1339",
+   "industry": "照明设备",
+   "stat": "2天2板",
+   "reason": "“羊”字辈+中国航展+军工+专业照明",
+   "confidence": "中",
+   "themes": [
+    "军工"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "解禁：关于2025年限制性股票激励计划第一个解除限售期解除限售股份上市流通的提示性公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002724&announcementId=1225683988&orgId=9900023121&announcementTime=2026-11-24"
+    },
+    {
+     "kind": "盘面",
+     "text": "军工板块表现活跃，利君股份、海洋王涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3204751"
+    },
+    {
+     "kind": "盘面",
+     "text": "光洋股份、海洋王均2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542893"
+    },
+    {
+     "kind": "同花顺",
+     "text": "“羊”字辈+中国航展+军工+专业照明",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“智慧灯杆”概念（+0.12%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "“羊”字辈+中国航展+军工+专业照明",
+   "written_by": "规则"
+  },
+  {
+   "code": "002872",
+   "name": "天圣制药",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "化学制药",
+   "stat": "1天1板",
+   "reason": "复牌+撤销风险警示+医药制造",
+   "confidence": "中",
+   "themes": [
+    "医药"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "停复牌：关于撤销其他风险警示暨股票停复牌的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002872&announcementId=1225682610&orgId=9900030826&announcementTime=2026-11-21"
+    },
+    {
+     "kind": "同花顺",
+     "text": "复牌+撤销风险警示+医药制造",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "医药：丽珠集团：子公司三价流感重组蛋白疫苗获临床试验批准",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2543070"
+    }
+   ],
+   "ths_reason": "复牌+撤销风险警示+医药制造",
+   "written_by": "规则"
+  },
+  {
+   "code": "603956",
+   "name": "威派格",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "专用设备",
+   "stat": "1天1板",
+   "reason": "PCB钻针+拟收购臻璟新材+智慧水务",
+   "confidence": "中",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "PCB钻针+拟收购臻璟新材+智慧水务",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“净水概念”（+1.70%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "PCB钻针+拟收购臻璟新材+智慧水务",
+   "written_by": "规则"
+  },
+  {
+   "code": "603001",
+   "name": "奥康国际",
+   "boards": 1,
+   "first_time": "0932",
+   "industry": "服装家纺",
+   "stat": "1天1板",
+   "reason": "皮鞋皮具+协议转让完成",
+   "confidence": "中",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "皮鞋皮具+协议转让完成",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“C2M概念”（+0.76%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "皮鞋皮具+协议转让完成",
+   "written_by": "规则"
+  },
+  {
+   "code": "603725",
+   "name": "天安新材",
+   "boards": 1,
+   "first_time": "0933",
+   "industry": "家居用品",
+   "stat": "1天1板",
+   "reason": "拟收购嘉万光+机器人皮肤",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "拟收购嘉万光+机器人皮肤",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "拟收购嘉万光+机器人皮肤",
+   "written_by": "规则"
+  },
+  {
+   "code": "301189",
+   "name": "奥尼电子",
+   "boards": 1,
+   "first_time": "0933",
+   "industry": "消费电子",
+   "stat": "1天1板",
+   "reason": "AI推理算力+英伟达概念+华为昇腾",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "算力",
+    "消费电子"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "算力租赁概念震荡反弹 奥尼电子20cm涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542531"
+    },
+    {
+     "kind": "盘面",
+     "text": "英伟达概念冲高回落，奥尼电子、阿尔特双双20cm涨停",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261124113435835800"
+    },
+    {
+     "kind": "盘面",
+     "text": "博硕科技、凯旺科技、奥尼电子涨超10%",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103451501.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI推理算力+英伟达概念+华为昇腾",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“车联网(车路云)”概念（+0.12%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "AI推理算力+英伟达概念+华为昇腾",
+   "written_by": "规则"
+  },
+  {
+   "code": "605222",
+   "name": "起帆电缆",
+   "boards": 1,
+   "first_time": "0935",
+   "industry": "电网设备",
+   "stat": "1天1板",
+   "reason": "机器人电缆+商业航天+电线电缆",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "商业航天",
+    "电力"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "机器人电缆+商业航天+电线电缆",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“柔性直流输电”概念（+0.20%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "机器人电缆+商业航天+电线电缆",
+   "written_by": "规则"
+  },
+  {
+   "code": "688078",
+   "name": "龙软科技",
+   "boards": 1,
+   "first_time": "0937",
+   "industry": "软件开发",
+   "stat": "1天1板",
+   "reason": "AI矿山+时空大模型+矿用机器人",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "机器人",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "软件开发板块走高，龙软科技涨超10%",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261124/c682135631.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "物理AI概念上涨，福莱新材、柯力传感2连板，龙软科技涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611243938305047.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI矿山+时空大模型+矿用机器人",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“数字孪生”概念（+0.27%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "AI矿山+时空大模型+矿用机器人",
+   "written_by": "规则"
+  },
+  {
+   "code": "300652",
+   "name": "雷迪克",
+   "boards": 1,
+   "first_time": "0948",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "人形机器人+微型丝杠+线性执行机构",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "午后人形机器人概念再度拉升，维宏股份走出20cm2连板，此前安培龙、星源卓镁、雷迪克、福莱新材、宁波东力、柯力传感等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542725"
+    },
+    {
+     "kind": "盘面",
+     "text": "人形机器人板块走强，安培龙、同星科技、雷迪克均20cm涨停",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261124150346112800"
+    },
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+微型丝杠+线性执行机构",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“脑机接口”概念（+0.79%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "人形机器人+微型丝杠+线性执行机构",
+   "written_by": "规则"
+  },
+  {
+   "code": "600189",
+   "name": "泉阳泉",
+   "boards": 1,
+   "first_time": "0948",
+   "industry": "饮料乳品",
+   "stat": "1天1板",
+   "reason": "矿泉水+拟收购饮品公司股权",
+   "confidence": "高",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "重组并购：关于变更部分募集资金投向用于收购控股子公司少数股权项目的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600189&announcementId=1225684986&orgId=gssh0600189&announcementTime=2026-11-24"
+    },
+    {
+     "kind": "公告",
+     "text": "重组并购：关于收购控股子公司少数股权的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600189&announcementId=1225684985&orgId=gssh0600189&announcementTime=2026-11-24"
+    },
+    {
+     "kind": "公司",
+     "text": "泉阳泉：拟4.13亿元收购控股子公司饮品公司18.1%少数股权",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542103"
+    },
+    {
+     "kind": "公司",
+     "text": "泉阳泉：拟收购饮品公司18.1023%的少数股东股权",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103450874.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "阳光照明、泉阳泉涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542893"
+    },
+    {
+     "kind": "同花顺",
+     "text": "矿泉水+拟收购饮品公司股权",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“白酒”概念（+0.02%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：携程梁建章称未来五年2亿国际游客来中国 将带动上万亿元旅游消费",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611233937329465.html"
+    }
+   ],
+   "ths_reason": "矿泉水+拟收购饮品公司股权",
+   "written_by": "规则"
+  },
+  {
+   "code": "002348",
+   "name": "高乐股份",
+   "boards": 1,
+   "first_time": "0950",
+   "industry": "文娱用品",
+   "stat": "1天1板",
+   "reason": "智慧教育款项回收+AI玩具+算力租赁",
+   "confidence": "高",
+   "themes": [
+    "人工智能",
+    "算力"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "重组并购：关于互联网+智慧教育项目款项全额回收完毕暨债务重组实施完成的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002348&announcementId=1225684559&orgId=9900010387&announcementTime=2026-11-24"
+    },
+    {
+     "kind": "同花顺",
+     "text": "智慧教育款项回收+AI玩具+算力租赁",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“盲盒经济”概念（+1.20%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "智慧教育款项回收+AI玩具+算力租赁",
+   "written_by": "规则"
+  },
+  {
+   "code": "300539",
+   "name": "横河精密",
+   "boards": 1,
+   "first_time": "0958",
+   "industry": "塑料",
+   "stat": "1天1板",
+   "reason": "机器人+减速器+精密模具",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "减速器概念走强，光洋股份、宁波东力等2连板，横河精密涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611243938305047.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "减速器概念持续走强，中马传动、光洋股份、宁波东力涨停，横河精密涨超19%",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/2026-11-24/doc-inizuxvh1914928.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "机器人+减速器+精密模具",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“PEEK材料概念”（+0.39%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "机器人+减速器+精密模具",
+   "written_by": "规则"
+  },
+  {
+   "code": "603813",
+   "name": "原尚股份",
+   "boards": 1,
+   "first_time": "1000",
+   "industry": "物流",
+   "stat": "4天2板",
+   "reason": "氢能物流+空港物流+跨境电商",
+   "confidence": "中",
+   "themes": [
+    "航运物流"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "氢能物流+空港物流+跨境电商",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“燃料电池概念”（+0.11%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "航运物流：澳大利亚延期发布对华铝制门窗双反终裁",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542650"
+    }
+   ],
+   "ths_reason": "氢能物流+空港物流+跨境电商",
+   "written_by": "规则"
+  },
+  {
+   "code": "603030",
+   "name": "全筑股份",
+   "boards": 1,
+   "first_time": "1001",
+   "industry": "装修装饰",
+   "stat": "6天4板",
+   "reason": "边缘AI算力+先进光源+智慧建筑",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "算力",
+    "半导体"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "半导体设备板块震荡走强 全筑股份6天4板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542579"
+    },
+    {
+     "kind": "盘面",
+     "text": "半导体设备板块盘中活跃，全筑股份6天4板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542660"
+    },
+    {
+     "kind": "盘面",
+     "text": "光刻机概念股全筑股份6天4板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542893"
+    },
+    {
+     "kind": "同花顺",
+     "text": "边缘AI算力+先进光源+智慧建筑",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“反转股”概念（+1.40%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "边缘AI算力+先进光源+智慧建筑",
+   "written_by": "规则"
+  },
+  {
+   "code": "603360",
+   "name": "百傲化学",
+   "boards": 1,
+   "first_time": "1003",
+   "industry": "农化制品",
+   "stat": "1天1板",
+   "reason": "回购+半导体设备+工业杀菌剂（公司提示：大连百傲化学股份有限公司关于控股股东…）",
+   "confidence": "中",
+   "themes": [
+    "半导体"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "股东变动：大连百傲化学股份有限公司关于控股股东股份补充质押的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603360&announcementId=1225683199&orgId=9900030005&announcementTime=2026-11-24"
+    },
+    {
+     "kind": "公告",
+     "text": "回购：大连百傲化学股份有限公司关于以集中竞价交易方式回购公司股份的方案",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603360&announcementId=1225683177&orgId=9900030005&announcementTime=2026-11-24"
+    },
+    {
+     "kind": "盘面",
+     "text": "半导体设备板块盘中活跃，全筑股份6天4板，百傲化学涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542660"
+    },
+    {
+     "kind": "盘面",
+     "text": "半导体设备板块盘中震荡走强，全筑股份6天4板，此前和林微纳、百傲化学涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542579"
+    },
+    {
+     "kind": "同花顺",
+     "text": "回购+半导体设备+工业杀菌剂",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“光刻机”概念（+0.83%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "回购+半导体设备+工业杀菌剂",
+   "written_by": "规则"
+  },
+  {
+   "code": "002651",
+   "name": "利君股份",
+   "boards": 1,
+   "first_time": "1015",
+   "industry": "航空装备",
+   "stat": "1天1板",
+   "reason": "航空军工+机器人概念+粉磨装备",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "军工"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "军工板块表现活跃，利君股份、海洋王涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3204751"
+    },
+    {
+     "kind": "同花顺",
+     "text": "航空军工+机器人概念+粉磨装备",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“2026三季报预减”概念（+0.08%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "航空军工+机器人概念+粉磨装备",
+   "written_by": "规则"
+  },
+  {
+   "code": "603206",
+   "name": "嘉环科技",
+   "boards": 1,
+   "first_time": "1027",
+   "industry": "通信服务",
+   "stat": "1天1板",
+   "reason": "AI算力+嘉链AI平台+算力租赁",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "算力",
+    "通信"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "AI算力+嘉链AI平台+算力租赁",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "AI算力+嘉链AI平台+算力租赁",
+   "written_by": "规则"
+  },
+  {
+   "code": "600400",
+   "name": "红豆股份",
+   "boards": 1,
+   "first_time": "1040",
+   "industry": "服装家纺",
+   "stat": "1天1板",
+   "reason": "机器人+养老机器人+男装",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "机器人+养老机器人+男装",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“网红经济”概念（+0.25%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "机器人+养老机器人+男装",
+   "written_by": "规则"
+  },
+  {
+   "code": "603608",
+   "name": "天创股份",
+   "boards": 1,
+   "first_time": "1041",
+   "industry": "服装家纺",
+   "stat": "1天1板",
+   "reason": "滚珠丝杠+人形机器人（公司提示：天创时尚股份有限公司详式权益变动报告…）",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "股东变动：天创时尚股份有限公司详式权益变动报告书（安徽先睿投资控股有限公司）（修订稿）",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603608&announcementId=1225681524&orgId=9900024757&announcementTime=2026-11-21"
+    },
+    {
+     "kind": "公告",
+     "text": "股东变动：关于《天创时尚股份有限公司详式权益变动报告书（安徽先睿投资控股有限公司）》修订说明的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603608&announcementId=1225681488&orgId=9900024757&announcementTime=2026-11-21"
+    },
+    {
+     "kind": "同花顺",
+     "text": "滚珠丝杠+人形机器人",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“抖音概念(字节概念)”概念（+0.40%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "滚珠丝杠+人形机器人",
+   "written_by": "规则"
+  },
+  {
+   "code": "002611",
+   "name": "东方精工",
+   "boards": 1,
+   "first_time": "1300",
+   "industry": "专用设备",
+   "stat": "1天1板",
+   "reason": "人形机器人+机器人数据训练+智能包装装备",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+机器人数据训练+智能包装装备",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“可控核聚变”概念（+0.12%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "人形机器人+机器人数据训练+智能包装装备",
+   "written_by": "规则"
+  },
+  {
+   "code": "002827",
+   "name": "高争民爆",
+   "boards": 1,
+   "first_time": "1303",
+   "industry": "化学制品",
+   "stat": "1天1板",
+   "reason": "民爆+铜锂矿注入+西藏国资",
+   "confidence": "中",
+   "themes": [
+    "锂电储能",
+    "有色金属",
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "民爆+铜锂矿注入+西藏国资",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "民爆+铜锂矿注入+西藏国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "603266",
+   "name": "天龙股份",
+   "boards": 1,
+   "first_time": "1347",
+   "industry": "汽车零部",
+   "stat": "1天1板",
+   "reason": "机器人+4D毫米波雷达+液冷水板+参股粤芯半导体",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "半导体",
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "机器人+4D毫米波雷达+液冷水板+参股粤芯半导体",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“IGBT概念”（+0.40%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "机器人+4D毫米波雷达+液冷水板+参股粤芯半导体",
+   "written_by": "规则"
+  },
+  {
+   "code": "600722",
+   "name": "金牛化工",
+   "boards": 1,
+   "first_time": "1426",
+   "industry": "化学原料",
+   "stat": "1天1板",
+   "reason": "甲醇+风电项目（公司提示：河北金牛化工股份有限公司关于关联方中…）",
+   "confidence": "中",
+   "themes": [
+    "风电",
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "重大合同：河北金牛化工股份有限公司关于关联方中标全资子公司工程项目暨关联交易的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600722&announcementId=1225681601&orgId=gssh0600722&announcementTime=2026-11-21"
+    },
+    {
+     "kind": "同花顺",
+     "text": "甲醇+风电项目",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "甲醇+风电项目",
+   "written_by": "规则"
+  },
+  {
+   "code": "002387",
+   "name": "维信诺",
+   "boards": 1,
+   "first_time": "1440",
+   "industry": "光学光电",
+   "stat": "1天1板",
+   "reason": "荣耀700+AMOLED+ViP技术+8.6代产线",
+   "confidence": "中",
+   "themes": [],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "荣耀700系列屏幕主供应商为维信诺",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3204022"
+    },
+    {
+     "kind": "同花顺",
+     "text": "荣耀700+AMOLED+ViP技术+8.6代产线",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“MicroLED”概念（+0.34%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "荣耀700+AMOLED+ViP技术+8.6代产线",
+   "written_by": "规则"
+  },
+  {
+   "code": "600261",
+   "name": "阳光照明",
+   "boards": 1,
+   "first_time": "1448",
+   "industry": "照明设备",
+   "stat": "1天1板",
+   "reason": "商业航天+激光通信+LED照明+“羊”字辈（公司提示：股票交易异常波动的公告）",
+   "confidence": "中",
+   "themes": [
+    "通信",
+    "商业航天"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600261&announcementId=1225680992&orgId=gssh0600261&announcementTime=2026-11-21"
+    },
+    {
+     "kind": "盘面",
+     "text": "阳光照明、泉阳泉涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542893"
+    },
+    {
+     "kind": "同花顺",
+     "text": "商业航天+激光通信+LED照明+“羊”字辈",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“LED概念”（+0.42%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "商业航天+激光通信+LED照明+“羊”字辈",
+   "written_by": "规则"
+  },
+  {
+   "code": "600715",
+   "name": "文投控股",
+   "boards": 1,
+   "first_time": "1454",
+   "industry": "游戏Ⅱ",
+   "stat": "21天11板",
+   "reason": "AI漫剧+剧集发行+北京国资",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "AI漫剧概念反复活跃，浙文影业、横店影视走出2连板，文投控股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542819"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI漫剧+剧集发行+北京国资",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "AI漫剧+剧集发行+北京国资",
+   "written_by": "规则"
+  }
+ ]
+}
