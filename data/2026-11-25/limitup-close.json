@@ -1,0 +1,2198 @@
+{
+ "trade_date": "2026-11-25",
+ "coverage": 100.0,
+ "announced": 14,
+ "stocks": [
+  {
+   "code": "002579",
+   "name": "中京电子",
+   "boards": 5,
+   "first_time": "1454",
+   "industry": "元件",
+   "stat": "5天5板",
+   "reason": "高阶HDI+算力+光模块PCB+人形机器人",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "机器人",
+    "商业航天"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "11月25日连板股分析：连板股晋级率30% 中京电子晋级5连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2544100"
+    },
+    {
+     "kind": "公司",
+     "text": "A股CPO概念股快速反弹，天孚通信涨超10%，致尚科技、罗博特科、杰普特、联讯仪器、中京电子涨超5%",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3205345"
+    },
+    {
+     "kind": "盘面",
+     "text": "PCB概念股中京电子（4板）高开3.40%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2543639"
+    },
+    {
+     "kind": "盘面",
+     "text": "A股商业航天板块走强，利君股份涨停，邵阳液压涨超7%，司南导航、久之洋、中京电子、春晖智控等个股跟涨",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261125093254809800"
+    },
+    {
+     "kind": "同花顺",
+     "text": "高阶HDI+算力+光模块PCB+人形机器人",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "高阶HDI+算力+光模块PCB+人形机器人",
+   "written_by": "规则"
+  },
+  {
+   "code": "002548",
+   "name": "金新农",
+   "boards": 4,
+   "first_time": "0925",
+   "industry": "饲料",
+   "stat": "9天6板",
+   "reason": "生猪养殖+猪饲料+生猪现货涨价（公司提示：股票交易异常波动暨风险提示公告）",
+   "confidence": "中",
+   "themes": [
+    "农业"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动暨风险提示公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002548&announcementId=1225684786&orgId=9900017829&announcementTime=2026-11-24"
+    },
+    {
+     "kind": "公司",
+     "text": "猪肉概念反复活跃 金新农4连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2543643"
+    },
+    {
+     "kind": "公司",
+     "text": "猪肉板块短线拉升，金新农4连板",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261125/c682183043.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "猪肉产业的金新农（8天5板）竞价涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2543639"
+    },
+    {
+     "kind": "盘面",
+     "text": "猪肉产业的金新农9天6板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2544033"
+    },
+    {
+     "kind": "同花顺",
+     "text": "生猪养殖+猪饲料+生猪现货涨价",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "生猪养殖+猪饲料+生猪现货涨价",
+   "written_by": "规则"
+  },
+  {
+   "code": "603960",
+   "name": "克来机电",
+   "boards": 4,
+   "first_time": "0925",
+   "industry": "汽车零部",
+   "stat": "4天4板",
+   "reason": "工业机器人+柔性自动化装备+汽车零部件（公司提示：关于股票交易的风险提示性公告）",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：关于股票交易的风险提示性公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603960&announcementId=1225686434&orgId=9900030536&announcementTime=2026-11-25"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：克来机电关于股票交易的风险提示性公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603960/AN202611241831996730.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "机器人概念股克来机电（3板）竞价涨停、长华集团（3板）高开3.70%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2543639"
+    },
+    {
+     "kind": "盘面",
+     "text": "机器人概念仍有局部活跃，克来机电4连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2544100"
+    },
+    {
+     "kind": "同花顺",
+     "text": "工业机器人+柔性自动化装备+汽车零部件",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "工业机器人+柔性自动化装备+汽车零部件",
+   "written_by": "规则"
+  },
+  {
+   "code": "002122",
+   "name": "汇洲智能",
+   "boards": 3,
+   "first_time": "0925",
+   "industry": "通用设备",
+   "stat": "3天3板",
+   "reason": "撤销风险警示+物理AI+数据服务",
+   "confidence": "中",
+   "themes": [
+    "人工智能"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "撤销风险警示+物理AI+数据服务",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "撤销风险警示+物理AI+数据服务",
+   "written_by": "规则"
+  },
+  {
+   "code": "600814",
+   "name": "杭州解百",
+   "boards": 3,
+   "first_time": "0930",
+   "industry": "一般零售",
+   "stat": "3天3板",
+   "reason": "百货零售+杭州国资（公司提示：集团股份有限公司股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：集团股份有限公司股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600814&announcementId=1225687172&orgId=gssh0600814&announcementTime=2026-11-25"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：杭州解百集团股份有限公司股票交易异常波动公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/600814/AN202611241832002329.html"
+    },
+    {
+     "kind": "公司",
+     "text": "零售板块短线拉升，杭州解百涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261125/c682183147.shtml"
+    },
+    {
+     "kind": "公司",
+     "text": "A股零售股集体拉升，中央商场、杭州解百双双涨停，茂业商业、上海九百、南宁百货、百大集团跟涨",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3205339"
+    },
+    {
+     "kind": "盘面",
+     "text": "零售概念表现活跃，杭州解百3连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2544007"
+    },
+    {
+     "kind": "盘面",
+     "text": "大消费板块东方海洋（22天11板）平开、杭州解百（2板）高开8.30%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2543639"
+    },
+    {
+     "kind": "同花顺",
+     "text": "百货零售+杭州国资",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：英伟达B300、GB300订单交期大幅拉长 或排挤消费性显卡供货",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611253939122956.html"
+    }
+   ],
+   "ths_reason": "百货零售+杭州国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "002164",
+   "name": "宁波东力",
+   "boards": 3,
+   "first_time": "0930",
+   "industry": "通用设备",
+   "stat": "3天3板",
+   "reason": "人形机器人+精密减速器+尼得科合作",
+   "confidence": "中",
+   "themes": [
+    "机器人"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "人形机器人概念震荡拉升 宁波东力涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541201"
+    },
+    {
+     "kind": "公司",
+     "text": "人形机器人板块短线拉升，宁波东力触及涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261123/c682085199.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "人形机器人概念反复活跃，长华集团4连板，宁波东力3连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2543649"
+    },
+    {
+     "kind": "盘面",
+     "text": "机器人概念仍有局部活跃，克来机电4连板，宁波东力、铁流股份均3连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2544100"
+    },
+    {
+     "kind": "同花顺",
+     "text": "人形机器人+精密减速器+尼得科合作",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "人形机器人+精密减速器+尼得科合作",
+   "written_by": "规则"
+  },
+  {
+   "code": "603926",
+   "name": "铁流股份",
+   "boards": 3,
+   "first_time": "0935",
+   "industry": "汽车零部",
+   "stat": "3天3板",
+   "reason": "机器人零部件+电机轴+三季报净利增长（公司提示：铁流股份股票交易风险提示性公告）",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：铁流股份股票交易风险提示性公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603926/AN202611251832026470.html"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603926&announcementId=1225685473&orgId=9900030777&announcementTime=2026-11-25"
+    },
+    {
+     "kind": "公司",
+     "text": "铁流股份：股票交易波动较大 提示投资风险",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/2026-11-25/doc-inizxtsf1832736.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "机器人概念仍有局部活跃，克来机电4连板，宁波东力、铁流股份均3连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2544100"
+    },
+    {
+     "kind": "同花顺",
+     "text": "机器人零部件+电机轴+三季报净利增长",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "机器人零部件+电机轴+三季报净利增长",
+   "written_by": "规则"
+  },
+  {
+   "code": "002242",
+   "name": "九阳股份",
+   "boards": 3,
+   "first_time": "0945",
+   "industry": "小家电",
+   "stat": "7天5板",
+   "reason": "机器人投资+厨房小家电+“羊”字辈",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "11月25日涨停复盘：57只股涨停 九阳股份7天5板",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611253939528913.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "市场焦点股九阳股份（6天4板）高开6.79%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2543639"
+    },
+    {
+     "kind": "盘面",
+     "text": "午后家电板块局部异动，北鼎股份涨超10%，此前九阳股份走出7天5板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2543905"
+    },
+    {
+     "kind": "同花顺",
+     "text": "机器人投资+厨房小家电+“羊”字辈",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "机器人投资+厨房小家电+“羊”字辈",
+   "written_by": "规则"
+  },
+  {
+   "code": "300703",
+   "name": "创源股份",
+   "boards": 3,
+   "first_time": "1015",
+   "industry": "文娱用品",
+   "stat": "3天3板",
+   "reason": "祈福文创+IP文创+AI玩具+国企改革（公司提示：关于公司股票交易异常波动的公告）",
+   "confidence": "中",
+   "themes": [
+    "人工智能"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：关于公司股票交易异常波动的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=300703&announcementId=1225685870&orgId=9900031820&announcementTime=2026-11-24"
+    },
+    {
+     "kind": "公司",
+     "text": "万得微盘股指数涨超2%，康芝药业、瀛通通讯、正虹科技涨停，创源股份涨超15%",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3205355"
+    },
+    {
+     "kind": "盘面",
+     "text": "端侧AI概念股创源股份20cm3连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2544033"
+    },
+    {
+     "kind": "同花顺",
+     "text": "祈福文创+IP文创+AI玩具+国企改革",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "祈福文创+IP文创+AI玩具+国企改革",
+   "written_by": "规则"
+  },
+  {
+   "code": "002872",
+   "name": "天圣制药",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "化学制药",
+   "stat": "2天2板",
+   "reason": "撤销风险警示+医药制造+中成药",
+   "confidence": "中",
+   "themes": [
+    "医药"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "化学制药板块大幅拉升，天圣制药2连板",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261125/c682183773.shtml"
+    },
+    {
+     "kind": "公司",
+     "text": "A股化学制药板块震荡走高，康芝药业、拓新药业等多股20cm涨停，双鹭药业、天圣制药、哈三联、津药药业等多股涨停，多瑞医药…",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261125100819117800"
+    },
+    {
+     "kind": "盘面",
+     "text": "医药商业板块盘中震荡走高，合富中国、一心堂、天圣制药、人民同泰涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2543733"
+    },
+    {
+     "kind": "盘面",
+     "text": "医药商业板块盘中震荡走高，一心堂、天圣制药、人民同泰涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2543787"
+    },
+    {
+     "kind": "同花顺",
+     "text": "撤销风险警示+医药制造+中成药",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "医药：医药商业板块震荡走高 合富中国等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2543733"
+    }
+   ],
+   "ths_reason": "撤销风险警示+医药制造+中成药",
+   "written_by": "规则"
+  },
+  {
+   "code": "603030",
+   "name": "全筑股份",
+   "boards": 2,
+   "first_time": "0925",
+   "industry": "装修装饰",
+   "stat": "7天5板",
+   "reason": "先进光源+边缘AI算力+智慧建筑",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "算力",
+    "半导体"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "半导体设备板块震荡走强 全筑股份6天4板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542579"
+    },
+    {
+     "kind": "盘面",
+     "text": "芯片产业链的盛剑科技7天6板、全筑股份7天5板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2544033"
+    },
+    {
+     "kind": "盘面",
+     "text": "A股算力概念活跃，全筑股份涨停",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261125093434488800"
+    },
+    {
+     "kind": "同花顺",
+     "text": "先进光源+边缘AI算力+智慧建筑",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "先进光源+边缘AI算力+智慧建筑",
+   "written_by": "规则"
+  },
+  {
+   "code": "002651",
+   "name": "利君股份",
+   "boards": 2,
+   "first_time": "0930",
+   "industry": "航空装备",
+   "stat": "2天2板",
+   "reason": "航空军工+机器人概念+粉磨装备",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "军工",
+    "商业航天"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "军工装备板块直线拉升，利君股份涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261125/c682183605.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "午后军工板块局部异动，国瑞科技涨超15%，此前利君股份走出2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2543861"
+    },
+    {
+     "kind": "盘面",
+     "text": "A股商业航天板块走强，利君股份涨停",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261125093254809800"
+    },
+    {
+     "kind": "同花顺",
+     "text": "航空军工+机器人概念+粉磨装备",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "航空军工+机器人概念+粉磨装备",
+   "written_by": "规则"
+  },
+  {
+   "code": "600722",
+   "name": "金牛化工",
+   "boards": 2,
+   "first_time": "1336",
+   "industry": "化学原料",
+   "stat": "2天2板",
+   "reason": "甲醇+风电项目",
+   "confidence": "中",
+   "themes": [
+    "风电",
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "甲醇+风电项目",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "甲醇+风电项目",
+   "written_by": "规则"
+  },
+  {
+   "code": "603360",
+   "name": "百傲化学",
+   "boards": 2,
+   "first_time": "1450",
+   "industry": "农化制品",
+   "stat": "2天2板",
+   "reason": "回购+半导体设备+工业杀菌剂（公司提示：大连百傲化学股份有限公司关于控股股东…）",
+   "confidence": "中",
+   "themes": [
+    "半导体",
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "股东变动：大连百傲化学股份有限公司关于控股股东股份补充质押的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603360&announcementId=1225683199&orgId=9900030005&announcementTime=2026-11-24"
+    },
+    {
+     "kind": "公告",
+     "text": "回购：大连百傲化学股份有限公司关于以集中竞价交易方式回购公司股份的方案",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603360&announcementId=1225683177&orgId=9900030005&announcementTime=2026-11-24"
+    },
+    {
+     "kind": "盘面",
+     "text": "泸天化、史丹利、六国化工、百傲化学、川金诺跟涨",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261125/c682183702.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "光刻胶、光刻机为代表的半导体本土替代方向同样有个股异动，盛剑科技反包涨停走出7天6板，全筑股份T字涨停录得7天5板，百傲化学2连板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2544100"
+    },
+    {
+     "kind": "同花顺",
+     "text": "回购+半导体设备+工业杀菌剂",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "回购+半导体设备+工业杀菌剂",
+   "written_by": "规则"
+  },
+  {
+   "code": "002145",
+   "name": "钛能化学",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "化学原料",
+   "stat": "1天1板",
+   "reason": "回购+钛白粉+磷酸铁",
+   "confidence": "高",
+   "themes": [
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "回购：关于回购公司股份方案的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002145&announcementId=1225685670&orgId=9900003342&announcementTime=2026-11-25"
+    },
+    {
+     "kind": "公告",
+     "text": "回购：关于回购公司股份方案的公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/002145/AN202611241831993141.html"
+    },
+    {
+     "kind": "公司",
+     "text": "钛能化学：拟以6亿至12亿元回购公司股份",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542987"
+    },
+    {
+     "kind": "公司",
+     "text": "钛能化学股价涨停，公司回应",
+     "source": "金十数据",
+     "url": "https://zzb.jddglobal.com/html/details/Information-details.html?infoId=139156&infoType=1"
+    },
+    {
+     "kind": "盘面",
+     "text": "5. 钛能化学股价涨停",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261125152726493800"
+    },
+    {
+     "kind": "同花顺",
+     "text": "回购+钛白粉+磷酸铁",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "回购+钛白粉+磷酸铁",
+   "written_by": "规则"
+  },
+  {
+   "code": "000593",
+   "name": "德龙汇能",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "燃气Ⅱ",
+   "stat": "4天3板",
+   "reason": "天然气+参股半导体+氢能（公司提示：股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "半导体",
+    "油气"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=000593&announcementId=1225684680&orgId=gssz0000593&announcementTime=2026-11-24"
+    },
+    {
+     "kind": "公司",
+     "text": "燃气概念表现活跃 德龙汇能涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2543659"
+    },
+    {
+     "kind": "公司",
+     "text": "燃气板块短线拉升，德龙汇能涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261125/c682183582.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "天然气+参股半导体+氢能",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "天然气+参股半导体+氢能",
+   "written_by": "规则"
+  },
+  {
+   "code": "000702",
+   "name": "正虹科技",
+   "boards": 1,
+   "first_time": "0930",
+   "industry": "饲料",
+   "stat": "1天1板",
+   "reason": "饲料主业+养殖业",
+   "confidence": "中",
+   "themes": [
+    "消费",
+    "农业"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "正虹科技等成立商贸公司 含食用农产品批发业务",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261125/c682198796.shtml"
+    },
+    {
+     "kind": "公司",
+     "text": "万得微盘股指数涨超2%，康芝药业、瀛通通讯、正虹科技涨停，创源股份涨超15%",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3205355"
+    },
+    {
+     "kind": "盘面",
+     "text": "正虹科技、大禹生物、天邦食品跟涨",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2543643"
+    },
+    {
+     "kind": "盘面",
+     "text": "猪肉板块短线拉升，金新农4连板，正虹科技涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261125/c682183043.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "饲料主业+养殖业",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：英伟达B300、GB300订单交期大幅拉长 或排挤消费性显卡供货",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611253939122956.html"
+    }
+   ],
+   "ths_reason": "饲料主业+养殖业",
+   "written_by": "规则"
+  },
+  {
+   "code": "002728",
+   "name": "特一药业",
+   "boards": 1,
+   "first_time": "0931",
+   "industry": "中药Ⅱ",
+   "stat": "1天1板",
+   "reason": "流感+止咳宝片",
+   "confidence": "中",
+   "themes": [
+    "医药"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "抗流感方向领涨，康芝药业、拓新药业、亨迪药业、双鹭药业、特一药业等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2544007"
+    },
+    {
+     "kind": "盘面",
+     "text": "医药股逆势拉升，桂林三金、盘龙药业、特一药业等涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3205486"
+    },
+    {
+     "kind": "同花顺",
+     "text": "流感+止咳宝片",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "医药：医药商业板块震荡走高 合富中国等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2543733"
+    }
+   ],
+   "ths_reason": "流感+止咳宝片",
+   "written_by": "规则"
+  },
+  {
+   "code": "600467",
+   "name": "好当家",
+   "boards": 1,
+   "first_time": "0931",
+   "industry": "渔业",
+   "stat": "10天6板",
+   "reason": "海参+水产养殖+预制菜（公司提示：关于股票交易异常波动的公告）",
+   "confidence": "中",
+   "themes": [
+    "通信",
+    "银行",
+    "农业"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：关于股票交易异常波动的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600467&announcementId=1225684132&orgId=gssh0600467&announcementTime=2026-11-24"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：好当家关于股票交易异常波动的公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/600467/AN202611231831958963.html"
+    },
+    {
+     "kind": "公司",
+     "text": "水产概念震荡反弹，獐子岛、好当家双双涨停",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/2026-11-25/doc-inizxiar4329691.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "其次分别是青山纸业（5.55亿元）、京东方A（3.85亿元）、好当家（2.48亿元）、贵州茅台（2.43亿元）、兴业银行（2.33亿元）、平安银行（1.83亿元）、荣联科技（1.80亿元）、成飞集成（1.55亿元）、盛剑科技（1.44亿元）",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261125141034974800"
+    },
+    {
+     "kind": "盘面",
+     "text": "天孚通信主力资金净流入10.74亿元居首位，青山纸业、京东方A、好当家、荣联科技获主力资金净流入居前",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261125152726493800"
+    },
+    {
+     "kind": "同花顺",
+     "text": "海参+水产养殖+预制菜",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“保险重仓”概念（+0.28%）",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "海参+水产养殖+预制菜",
+   "written_by": "规则"
+  },
+  {
+   "code": "605136",
+   "name": "丽人丽妆",
+   "boards": 1,
+   "first_time": "0932",
+   "industry": "互联网电",
+   "stat": "1天1板",
+   "reason": "AI应用+化妆品电商+零售",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "电商概念震荡走高 丽人丽妆涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2543669"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI应用+化妆品电商+零售",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "AI应用+化妆品电商+零售",
+   "written_by": "规则"
+  },
+  {
+   "code": "000908",
+   "name": "石药景峰",
+   "boards": 1,
+   "first_time": "0932",
+   "industry": "化学制药",
+   "stat": "1天1板",
+   "reason": "中药创新药+石药入主+三季报扭亏",
+   "confidence": "中",
+   "themes": [
+    "医药"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "化学制药板块大幅拉升，天圣制药2连板，海南海药、石药景峰、哈三联、津药药业、亨迪药业涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261125/c682183773.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "玻尿酸概念活跃，石药景峰、福瑞达等涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611253939394611.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "中药创新药+石药入主+三季报扭亏",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "医药：医药商业板块震荡走高 合富中国等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2543733"
+    }
+   ],
+   "ths_reason": "中药创新药+石药入主+三季报扭亏",
+   "written_by": "规则"
+  },
+  {
+   "code": "301211",
+   "name": "亨迪药业",
+   "boards": 1,
+   "first_time": "0933",
+   "industry": "化学制药",
+   "stat": "1天1板",
+   "reason": "流感+布洛芬+三季报增长",
+   "confidence": "中",
+   "themes": [
+    "医药"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "抗流感概念表现活跃 亨迪药业涨超13%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2543647"
+    },
+    {
+     "kind": "盘面",
+     "text": "抗流感方向领涨，康芝药业、拓新药业、亨迪药业、双鹭药业、特一药业等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2544007"
+    },
+    {
+     "kind": "盘面",
+     "text": "抗流感方向持续领涨，康芝药业、拓新药业、亨迪药业、双鹭药业、特一药业等十余股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2543695"
+    },
+    {
+     "kind": "同花顺",
+     "text": "流感+布洛芬+三季报增长",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "医药：医药商业板块震荡走高 合富中国等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2543733"
+    }
+   ],
+   "ths_reason": "流感+布洛芬+三季报增长",
+   "written_by": "规则"
+  },
+  {
+   "code": "600227",
+   "name": "赤天化",
+   "boards": 1,
+   "first_time": "0933",
+   "industry": "农化制品",
+   "stat": "1天1板",
+   "reason": "尿素+甲醇+煤化工",
+   "confidence": "中",
+   "themes": [
+    "煤炭",
+    "化工"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "农化制品板块拉升，赤天化、潞化科技涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261125/c682183702.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "煤炭概念股普涨，其中，*ST瑞茂“两连板”，赤天化开盘直线涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611253939393043.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "潞化科技、赤天化触及涨停",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/2026-11-25/doc-inizxauq8676610.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "尿素+甲醇+煤化工",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "尿素+甲醇+煤化工",
+   "written_by": "规则"
+  },
+  {
+   "code": "600223",
+   "name": "福瑞达",
+   "boards": 1,
+   "first_time": "0934",
+   "industry": "化妆品",
+   "stat": "1天1板",
+   "reason": "零售+重组胶原蛋白+合成生物+山东国资",
+   "confidence": "中",
+   "themes": [
+    "医药",
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "创新药板块表现活跃，康芝药业、双鹭药业、新华制药、哈三联、福瑞达等十余股涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261125/c682189552.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "福瑞达、家家悦、桂发祥、万事利、合富中国、人民同泰等个股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2544100"
+    },
+    {
+     "kind": "同花顺",
+     "text": "零售+重组胶原蛋白+合成生物+山东国资",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "医药：医药商业板块震荡走高 合富中国等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2543733"
+    }
+   ],
+   "ths_reason": "零售+重组胶原蛋白+合成生物+山东国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "603069",
+   "name": "海汽集团",
+   "boards": 1,
+   "first_time": "0935",
+   "industry": "铁路公路",
+   "stat": "1天1板",
+   "reason": "免税重组+海南国资+道路客运",
+   "confidence": "中",
+   "themes": [
+    "消费",
+    "基建建材"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "免税重组+海南国资+道路客运",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：英伟达B300、GB300订单交期大幅拉长 或排挤消费性显卡供货",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611253939122956.html"
+    }
+   ],
+   "ths_reason": "免税重组+海南国资+道路客运",
+   "written_by": "规则"
+  },
+  {
+   "code": "002861",
+   "name": "瀛通通讯",
+   "boards": 1,
+   "first_time": "0936",
+   "industry": "消费电子",
+   "stat": "1天1板",
+   "reason": "AI眼镜+智能声学+消费电子",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "消费电子",
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "AI眼镜概念逆势走强 瀛通通讯涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2543656"
+    },
+    {
+     "kind": "公司",
+     "text": "万得微盘股指数涨超2%，康芝药业、瀛通通讯、正虹科技涨停，创源股份涨超15%",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3205355"
+    },
+    {
+     "kind": "盘面",
+     "text": "AI眼镜概念盘中震荡走高，天键股份、明月镜片涨超10%，歌尔股份、奥莱德、龙旗科技、瀛通通讯、博士眼镜等多股涨超5%",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2542630"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI眼镜+智能声学+消费电子",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "AI眼镜+智能声学+消费电子",
+   "written_by": "规则"
+  },
+  {
+   "code": "002480",
+   "name": "新筑股份",
+   "boards": 1,
+   "first_time": "0937",
+   "industry": "电力",
+   "stat": "1天1板",
+   "reason": "重大资产重组+清洁能源+高管增持",
+   "confidence": "中",
+   "themes": [
+    "电力"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "重大资产重组+清洁能源+高管增持",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "电力：国家能源局：截至10月底全国累计发电装机容量41.6亿千瓦 同比增长10.9%",
+     "source": "第一财经",
+     "url": "https://www.yicai.com/brief/103453373.html"
+    }
+   ],
+   "ths_reason": "重大资产重组+清洁能源+高管增持",
+   "written_by": "规则"
+  },
+  {
+   "code": "002900",
+   "name": "哈三联",
+   "boards": 1,
+   "first_time": "0938",
+   "industry": "化学制药",
+   "stat": "1天1板",
+   "reason": "创新药+化学制药+三季报减亏",
+   "confidence": "中",
+   "themes": [
+    "医药"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "A股化学制药板块震荡走高，康芝药业、拓新药业等多股20cm涨停，双鹭药业、天圣制药、哈三联、津药药业等多股涨停，多瑞医药…",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261125100819117800"
+    },
+    {
+     "kind": "盘面",
+     "text": "创新药板块表现活跃，康芝药业、双鹭药业、新华制药、哈三联、福瑞达等十余股涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261125/c682189552.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "化学制药板块大幅拉升，天圣制药2连板，海南海药、石药景峰、哈三联、津药药业、亨迪药业涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261125/c682183773.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "创新药+化学制药+三季报减亏",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "医药：医药商业板块震荡走高 合富中国等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2543733"
+    }
+   ],
+   "ths_reason": "创新药+化学制药+三季报减亏",
+   "written_by": "规则"
+  },
+  {
+   "code": "002864",
+   "name": "盘龙药业",
+   "boards": 1,
+   "first_time": "0938",
+   "industry": "中药Ⅱ",
+   "stat": "1天1板",
+   "reason": "中药创新药+盘龙七片+回购",
+   "confidence": "高",
+   "themes": [
+    "医药"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "回购：关于回购公司股份进展情况的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002864&announcementId=1225686456&orgId=9900034531&announcementTime=2026-11-25"
+    },
+    {
+     "kind": "盘面",
+     "text": "医药股逆势拉升，桂林三金、盘龙药业、特一药业等涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3205486"
+    },
+    {
+     "kind": "盘面",
+     "text": "医药股逆势走强，葵花药业、桂林三金、盘龙药业、特一药业等多股涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3205396"
+    },
+    {
+     "kind": "同花顺",
+     "text": "中药创新药+盘龙七片+回购",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "医药：医药商业板块震荡走高 合富中国等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2543733"
+    }
+   ],
+   "ths_reason": "中药创新药+盘龙七片+回购",
+   "written_by": "规则"
+  },
+  {
+   "code": "301089",
+   "name": "拓新药业",
+   "boards": 1,
+   "first_time": "0939",
+   "industry": "化学制药",
+   "stat": "1天1板",
+   "reason": "流感+核苷原料药",
+   "confidence": "中",
+   "themes": [
+    "医药"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "A股化学制药板块震荡走高，康芝药业、拓新药业等多股20cm涨停，双鹭药业、天圣制药、哈三联、津药药业等多股涨停，多瑞医药…",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261125100819117800"
+    },
+    {
+     "kind": "公司",
+     "text": "化学制药板块持续走强 拓新药业等多股涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611253939342454.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "抗流感方向领涨，康芝药业、拓新药业、亨迪药业、双鹭药业、特一药业等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2544007"
+    },
+    {
+     "kind": "盘面",
+     "text": "抗流感方向持续领涨，康芝药业、拓新药业、亨迪药业、双鹭药业、特一药业等十余股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2543695"
+    },
+    {
+     "kind": "同花顺",
+     "text": "流感+核苷原料药",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "医药：医药商业板块震荡走高 合富中国等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2543733"
+    }
+   ],
+   "ths_reason": "流感+核苷原料药",
+   "written_by": "规则"
+  },
+  {
+   "code": "002038",
+   "name": "双鹭药业",
+   "boards": 1,
+   "first_time": "0940",
+   "industry": "化学制药",
+   "stat": "1天1板",
+   "reason": "创新药+GLP-1+国企",
+   "confidence": "中",
+   "themes": [
+    "医药"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "A股化学制药板块震荡走高，康芝药业、拓新药业等多股20cm涨停，双鹭药业、天圣制药、哈三联、津药药业等多股涨停，多瑞医药…",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261125100819117800"
+    },
+    {
+     "kind": "盘面",
+     "text": "抗流感方向领涨，康芝药业、拓新药业、亨迪药业、双鹭药业、特一药业等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2544007"
+    },
+    {
+     "kind": "盘面",
+     "text": "抗流感方向持续领涨，康芝药业、拓新药业、亨迪药业、双鹭药业、特一药业等十余股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2543695"
+    },
+    {
+     "kind": "同花顺",
+     "text": "创新药+GLP-1+国企",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "医药：医药商业板块震荡走高 合富中国等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2543733"
+    }
+   ],
+   "ths_reason": "创新药+GLP-1+国企",
+   "written_by": "规则"
+  },
+  {
+   "code": "600280",
+   "name": "中央商场",
+   "boards": 1,
+   "first_time": "0940",
+   "industry": "一般零售",
+   "stat": "1天1板",
+   "reason": "百货零售+罗森便利+破产剥离",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "零售概念再度走强 中央商场涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2543663"
+    },
+    {
+     "kind": "公司",
+     "text": "A股零售股集体拉升，中央商场、杭州解百双双涨停，茂业商业、上海九百、南宁百货、百大集团跟涨",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3205339"
+    },
+    {
+     "kind": "盘面",
+     "text": "零售概念表现活跃，杭州解百3连板，中央商场、国芳集团、家家悦涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2544007"
+    },
+    {
+     "kind": "盘面",
+     "text": "零售等消费股表现活跃，中央商场、国芳集团、杭州解百等涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3205486"
+    },
+    {
+     "kind": "同花顺",
+     "text": "百货零售+罗森便利+破产剥离",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“内贸规划”概念（+0.97%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：英伟达B300、GB300订单交期大幅拉长 或排挤消费性显卡供货",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611253939122956.html"
+    }
+   ],
+   "ths_reason": "百货零售+罗森便利+破产剥离",
+   "written_by": "规则"
+  },
+  {
+   "code": "002275",
+   "name": "桂林三金",
+   "boards": 1,
+   "first_time": "0940",
+   "industry": "中药Ⅱ",
+   "stat": "1天1板",
+   "reason": "流感+中成药",
+   "confidence": "中",
+   "themes": [
+    "医药"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "午间涨跌停股分析：68只涨停股、3只跌停股，抗流感概念走强，新华制药、桂林三金等涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611253939394611.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "医药股逆势拉升，桂林三金、盘龙药业、特一药业等涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3205486"
+    },
+    {
+     "kind": "盘面",
+     "text": "医药股逆势走强，葵花药业、桂林三金、盘龙药业、特一药业等多股涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3205396"
+    },
+    {
+     "kind": "同花顺",
+     "text": "流感+中成药",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "医药：医药商业板块震荡走高 合富中国等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2543733"
+    }
+   ],
+   "ths_reason": "流感+中成药",
+   "written_by": "规则"
+  },
+  {
+   "code": "600103",
+   "name": "青山纸业",
+   "boards": 1,
+   "first_time": "0955",
+   "industry": "造纸",
+   "stat": "3天2板",
+   "reason": "光模块+竹浆纸+福建国资",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "通信",
+    "银行"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "天孚通信涨超11%，罗博特科、新易盛、青山纸业、光迅科技、中际旭创跟涨",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2543671"
+    },
+    {
+     "kind": "盘面",
+     "text": "其次分别是青山纸业（5.55亿元）、京东方A（3.85亿元）、好当家（2.48亿元）、贵州茅台（2.43亿元）、兴业银行（2.33亿元）、平安银行（1.83亿元）、荣联科技（1.80亿元）、成飞集成（1.55亿元）、盛剑科技（1.44亿元）",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261125141034974800"
+    },
+    {
+     "kind": "同花顺",
+     "text": "光模块+竹浆纸+福建国资",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "光模块+竹浆纸+福建国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "002197",
+   "name": "证通电子",
+   "boards": 1,
+   "first_time": "0958",
+   "industry": "计算机设",
+   "stat": "1天1板",
+   "reason": "算力租赁+数据中心+股权激励",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "A股算力租赁概念异动拉升，城地香江、证通电子直线涨停，真视通、华胜天成、群兴玩具、青云科技跟涨",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3205354"
+    },
+    {
+     "kind": "盘面",
+     "text": "算力租赁概念震荡拉升，城地香江涨停，此前证通电子涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2543696"
+    },
+    {
+     "kind": "同花顺",
+     "text": "算力租赁+数据中心+股权激励",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "算力租赁+数据中心+股权激励",
+   "written_by": "规则"
+  },
+  {
+   "code": "603324",
+   "name": "盛剑科技",
+   "boards": 1,
+   "first_time": "0959",
+   "industry": "环保设备",
+   "stat": "7天6板",
+   "reason": "光刻胶配套+电子化学品+半导体附属装备（公司提示：关于股票交易风险提示公告）",
+   "confidence": "中",
+   "themes": [
+    "半导体",
+    "银行"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：关于股票交易风险提示公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=603324&announcementId=1225684238&orgId=9900041728&announcementTime=2026-11-24"
+    },
+    {
+     "kind": "公告",
+     "text": "澄清与异动：盛剑科技关于股票交易风险提示公告",
+     "source": "东方财富公告（备用）",
+     "url": "https://data.eastmoney.com/notices/detail/603324/AN202611231831960637.html"
+    },
+    {
+     "kind": "公司",
+     "text": "上交所向盛剑科技下发监管工作函",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2541954"
+    },
+    {
+     "kind": "盘面",
+     "text": "芯片产业链的盛剑科技7天6板、全筑股份7天5板",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2544033"
+    },
+    {
+     "kind": "盘面",
+     "text": "其次分别是青山纸业（5.55亿元）、京东方A（3.85亿元）、好当家（2.48亿元）、贵州茅台（2.43亿元）、兴业银行（2.33亿元）、平安银行（1.83亿元）、荣联科技（1.80亿元）、成飞集成（1.55亿元）、盛剑科技（1.44亿元）",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261125141034974800"
+    },
+    {
+     "kind": "同花顺",
+     "text": "光刻胶配套+电子化学品+半导体附属装备",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "光刻胶配套+电子化学品+半导体附属装备",
+   "written_by": "规则"
+  },
+  {
+   "code": "300086",
+   "name": "康芝药业",
+   "boards": 1,
+   "first_time": "0959",
+   "industry": "化学制药",
+   "stat": "1天1板",
+   "reason": "印尼血竭进口+中药材贸易+儿童药",
+   "confidence": "中",
+   "themes": [
+    "医药"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "医药板块涨势扩大 康芝药业等十余股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2543695"
+    },
+    {
+     "kind": "公司",
+     "text": "万得微盘股指数涨超2%，康芝药业、瀛通通讯、正虹科技涨停，创源股份涨超15%",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3205355"
+    },
+    {
+     "kind": "盘面",
+     "text": "抗流感方向领涨，康芝药业、拓新药业、亨迪药业、双鹭药业、特一药业等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2544007"
+    },
+    {
+     "kind": "盘面",
+     "text": "创新药板块表现活跃，康芝药业、双鹭药业、新华制药、哈三联、福瑞达等十余股涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261125/c682189552.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "印尼血竭进口+中药材贸易+儿童药",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "板块",
+     "text": "领涨“仿制药”概念（+0.48%）",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "医药：医药商业板块震荡走高 合富中国等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2543733"
+    }
+   ],
+   "ths_reason": "印尼血竭进口+中药材贸易+儿童药",
+   "written_by": "规则"
+  },
+  {
+   "code": "603887",
+   "name": "城地香江",
+   "boards": 1,
+   "first_time": "1003",
+   "industry": "IT服务Ⅱ",
+   "stat": "1天1板",
+   "reason": "东数西算+数据中心EPC",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "数字经济"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "算力租赁概念震荡拉升 城地香江涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2543696"
+    },
+    {
+     "kind": "公司",
+     "text": "A股算力租赁概念异动拉升，城地香江、证通电子直线涨停，真视通、华胜天成、群兴玩具、青云科技跟涨",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3205354"
+    },
+    {
+     "kind": "盘面",
+     "text": "A股算力概念活跃，全筑股份涨停，城地香江涨近6%",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261125093434488800"
+    },
+    {
+     "kind": "同花顺",
+     "text": "东数西算+数据中心EPC",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "东数西算+数据中心EPC",
+   "written_by": "规则"
+  },
+  {
+   "code": "603708",
+   "name": "家家悦",
+   "boards": 1,
+   "first_time": "1004",
+   "industry": "一般零售",
+   "stat": "1天1板",
+   "reason": "零售+连锁超市经营+生鲜食品+AI应用",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "零售概念表现活跃，杭州解百3连板，中央商场、国芳集团、家家悦涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2544007"
+    },
+    {
+     "kind": "盘面",
+     "text": "零售概念爆发，杭州解百3连板，中央商场、国芳集团、家家悦、中兴商业、茂业商业、百大集团涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2543787"
+    },
+    {
+     "kind": "同花顺",
+     "text": "零售+连锁超市经营+生鲜食品+AI应用",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "零售+连锁超市经营+生鲜食品+AI应用",
+   "written_by": "规则"
+  },
+  {
+   "code": "601086",
+   "name": "国芳集团",
+   "boards": 1,
+   "first_time": "1006",
+   "industry": "一般零售",
+   "stat": "1天1板",
+   "reason": "零售+三季报增长",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "零售概念表现活跃，杭州解百3连板，中央商场、国芳集团、家家悦涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2544007"
+    },
+    {
+     "kind": "盘面",
+     "text": "零售等消费股表现活跃，中央商场、国芳集团、杭州解百等涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3205486"
+    },
+    {
+     "kind": "同花顺",
+     "text": "零售+三季报增长",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：英伟达B300、GB300订单交期大幅拉长 或排挤消费性显卡供货",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611253939122956.html"
+    }
+   ],
+   "ths_reason": "零售+三季报增长",
+   "written_by": "规则"
+  },
+  {
+   "code": "301066",
+   "name": "万事利",
+   "boards": 1,
+   "first_time": "1007",
+   "industry": "纺织制造",
+   "stat": "1天1板",
+   "reason": "丝绸文创+AIGC+回购完毕",
+   "confidence": "高",
+   "themes": [
+    "人工智能"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "回购：关于回购公司股份实施完毕的公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=301066&announcementId=1225683255&orgId=9900041879&announcementTime=2026-11-24"
+    },
+    {
+     "kind": "公司",
+     "text": "A股退税商店板块拉升，杭州解百涨停，万事利涨超9%，茂业商业、南宁百货、百大集团、广百股份、供销大集等个股跟涨",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261125094246744800"
+    },
+    {
+     "kind": "盘面",
+     "text": "福瑞达、家家悦、桂发祥、万事利、合富中国、人民同泰等个股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2544100"
+    },
+    {
+     "kind": "同花顺",
+     "text": "丝绸文创+AIGC+回购完毕",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "丝绸文创+AIGC+回购完毕",
+   "written_by": "规则"
+  },
+  {
+   "code": "002642",
+   "name": "荣联科技",
+   "boards": 1,
+   "first_time": "1008",
+   "industry": "IT服务Ⅱ",
+   "stat": "4天3板",
+   "reason": "存储设备集采+算力服务+国企（公司提示：股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "算力",
+    "半导体",
+    "通信"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=002642&announcementId=1225684775&orgId=9900021847&announcementTime=2026-11-24"
+    },
+    {
+     "kind": "盘面",
+     "text": "其次分别是青山纸业（5.55亿元）、京东方A（3.85亿元）、好当家（2.48亿元）、贵州茅台（2.43亿元）、兴业银行（2.33亿元）、平安银行（1.83亿元）、荣联科技（1.80亿元）、成飞集成（1.55亿元）、盛剑科技（1.44亿元）",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261125141034974800"
+    },
+    {
+     "kind": "盘面",
+     "text": "天孚通信主力资金净流入10.74亿元居首位，青山纸业、京东方A、好当家、荣联科技获主力资金净流入居前",
+     "source": "金十数据",
+     "url": "https://flash.jin10.com/detail/20261125152726493800"
+    },
+    {
+     "kind": "同花顺",
+     "text": "存储设备集采+算力服务+国企",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "存储设备集采+算力服务+国企",
+   "written_by": "规则"
+  },
+  {
+   "code": "600829",
+   "name": "人民同泰",
+   "boards": 1,
+   "first_time": "1010",
+   "industry": "医药商业",
+   "stat": "1天1板",
+   "reason": "医药商业+流感+超跌反弹",
+   "confidence": "中",
+   "themes": [
+    "医药"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "医药商业板块盘中震荡走高，合富中国、一心堂、天圣制药、人民同泰涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2543733"
+    },
+    {
+     "kind": "盘面",
+     "text": "医药商业板块盘中震荡走高，一心堂、天圣制药、人民同泰涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2543787"
+    },
+    {
+     "kind": "同花顺",
+     "text": "医药商业+流感+超跌反弹",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "医药：医药商业板块震荡走高 合富中国等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2543733"
+    }
+   ],
+   "ths_reason": "医药商业+流感+超跌反弹",
+   "written_by": "规则"
+  },
+  {
+   "code": "002069",
+   "name": "獐子岛",
+   "boards": 1,
+   "first_time": "1014",
+   "industry": "渔业",
+   "stat": "1天1板",
+   "reason": "水产养殖+海洋牧场+国企改革",
+   "confidence": "中",
+   "themes": [
+    "农业"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "水产概念震荡反弹，獐子岛、好当家双双涨停",
+     "source": "新浪财经7x24",
+     "url": "https://finance.sina.com.cn/7x24/2026-11-25/doc-inizxiar4329691.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "农业股表现活跃，金新农、正虹科技、好当家、獐子岛等涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3205396"
+    },
+    {
+     "kind": "同花顺",
+     "text": "水产养殖+海洋牧场+国企改革",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "水产养殖+海洋牧场+国企改革",
+   "written_by": "规则"
+  },
+  {
+   "code": "000756",
+   "name": "新华制药",
+   "boards": 1,
+   "first_time": "1020",
+   "industry": "化学制药",
+   "stat": "1天1板",
+   "reason": "流感+阿尔茨海默病+解热镇痛",
+   "confidence": "中",
+   "themes": [
+    "医药"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "午间涨跌停股分析：68只涨停股、3只跌停股，抗流感概念走强，新华制药、桂林三金等涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611253939394611.html"
+    },
+    {
+     "kind": "盘面",
+     "text": "金石亚药、金迪克、华兰疫苗、新华制药涨幅靠前",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2543695"
+    },
+    {
+     "kind": "盘面",
+     "text": "创新药板块表现活跃，康芝药业、双鹭药业、新华制药、哈三联、福瑞达等十余股涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261125/c682189552.shtml"
+    },
+    {
+     "kind": "同花顺",
+     "text": "流感+阿尔茨海默病+解热镇痛",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "医药：医药商业板块震荡走高 合富中国等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2543733"
+    }
+   ],
+   "ths_reason": "流感+阿尔茨海默病+解热镇痛",
+   "written_by": "规则"
+  },
+  {
+   "code": "603122",
+   "name": "合富中国",
+   "boards": 1,
+   "first_time": "1036",
+   "industry": "医疗服务",
+   "stat": "1天1板",
+   "reason": "医药商业+两岸医疗+AI医疗",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "医药"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "医药商业板块震荡走高 合富中国等多股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2543733"
+    },
+    {
+     "kind": "盘面",
+     "text": "福瑞达、家家悦、桂发祥、万事利、合富中国、人民同泰等个股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2544100"
+    },
+    {
+     "kind": "同花顺",
+     "text": "医药商业+两岸医疗+AI医疗",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "医药商业+两岸医疗+AI医疗",
+   "written_by": "规则"
+  },
+  {
+   "code": "002820",
+   "name": "桂发祥",
+   "boards": 1,
+   "first_time": "1041",
+   "industry": "休闲食品",
+   "stat": "1天1板",
+   "reason": "休闲食品+非遗麻花+国企改革",
+   "confidence": "中",
+   "themes": [
+    "消费"
+   ],
+   "evidence": [
+    {
+     "kind": "公司",
+     "text": "A股食品加工板块震荡走强，桂发祥封涨停，欢乐家涨超10%，青岛食品、品渥食品、海欣食品、安记食品涨幅居前",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3205372"
+    },
+    {
+     "kind": "公司",
+     "text": "食品加工制造板块走高，桂发祥涨停",
+     "source": "同花顺快讯",
+     "url": "https://news.10jqka.com.cn/20261125/c682187197.shtml"
+    },
+    {
+     "kind": "盘面",
+     "text": "福瑞达、家家悦、桂发祥、万事利、合富中国、人民同泰等个股涨停",
+     "source": "财联社电报",
+     "url": "https://www.cls.cn/detail/2544100"
+    },
+    {
+     "kind": "盘面",
+     "text": "零售、食品等消费股拉升，中央商场、百大集团、国芳集团、桂发祥等涨停",
+     "source": "华尔街见闻",
+     "url": "https://wallstreetcn.com/livenews/3205396"
+    },
+    {
+     "kind": "同花顺",
+     "text": "休闲食品+非遗麻花+国企改革",
+     "source": "",
+     "url": ""
+    },
+    {
+     "kind": "题材",
+     "text": "消费：英伟达B300、GB300订单交期大幅拉长 或排挤消费性显卡供货",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611253939122956.html"
+    }
+   ],
+   "ths_reason": "休闲食品+非遗麻花+国企改革",
+   "written_by": "规则"
+  },
+  {
+   "code": "002144",
+   "name": "宏达高科",
+   "boards": 1,
+   "first_time": "1102",
+   "industry": "纺织制造",
+   "stat": "1天1板",
+   "reason": "汽车内饰+按摩机器人+超声诊断+碳纤维",
+   "confidence": "中",
+   "themes": [
+    "机器人",
+    "汽车"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "汽车内饰+按摩机器人+超声诊断+碳纤维",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "汽车内饰+按摩机器人+超声诊断+碳纤维",
+   "written_by": "规则"
+  },
+  {
+   "code": "600088",
+   "name": "中视传媒",
+   "boards": 1,
+   "first_time": "1124",
+   "industry": "影视院线",
+   "stat": "1天1板",
+   "reason": "短剧+AI应用+央企传媒",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "盘面",
+     "text": "离境退税概念上涨，茂业商业、中视传媒等涨停",
+     "source": "东方财富7x24",
+     "url": "https://finance.eastmoney.com/a/202611253939394611.html"
+    },
+    {
+     "kind": "同花顺",
+     "text": "短剧+AI应用+央企传媒",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "短剧+AI应用+央企传媒",
+   "written_by": "规则"
+  },
+  {
+   "code": "600229",
+   "name": "城市传媒",
+   "boards": 1,
+   "first_time": "1301",
+   "industry": "出版",
+   "stat": "1天1板",
+   "reason": "AIGC+IP运营+数字文化体验+青岛国资",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "同花顺",
+     "text": "AIGC+IP运营+数字文化体验+青岛国资",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "AIGC+IP运营+数字文化体验+青岛国资",
+   "written_by": "规则"
+  },
+  {
+   "code": "605577",
+   "name": "龙版传媒",
+   "boards": 1,
+   "first_time": "1423",
+   "industry": "出版",
+   "stat": "4天3板",
+   "reason": "AI漫剧+出版发行+黑龙江国资（公司提示：关于股票交易异常波动公告）",
+   "confidence": "中",
+   "themes": [
+    "人工智能",
+    "传媒游戏"
+   ],
+   "evidence": [
+    {
+     "kind": "公告",
+     "text": "澄清与异动：关于股票交易异常波动公告",
+     "source": "巨潮资讯公告",
+     "url": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=605577&announcementId=1225683976&orgId=nssc1000394&announcementTime=2026-11-24"
+    },
+    {
+     "kind": "同花顺",
+     "text": "AI漫剧+出版发行+黑龙江国资",
+     "source": "",
+     "url": ""
+    }
+   ],
+   "ths_reason": "AI漫剧+出版发行+黑龙江国资",
+   "written_by": "规则"
+  }
+ ]
+}
