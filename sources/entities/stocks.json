@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-25T03:08:51+08:00",
+"updated": "2026-11-26T02:13:04+08:00",
 "source": "巨潮资讯股票清单",
 "complete": true,
 "stocks": [
@@ -5257,13 +5257,15 @@
 },
 {
 "code": "000820",
-"name": "神雾节能",
+"name": "ST节能",
 "exchange": "SZ",
 "org_id": "gssz0000820",
-"pinyin": "swjn",
+"pinyin": "stjn",
 "industry": "环保设备Ⅱ",
-"former": [],
-"st": false,
+"former": [
+"神雾节能"
+],
+"st": true,
 "status": "listed",
 "hk": "",
 "us": "",
@@ -29959,12 +29961,14 @@
 },
 {
 "code": "300492",
-"name": "华图山鼎",
+"name": "华图科技",
 "exchange": "SZ",
 "org_id": "9900023365",
-"pinyin": "htsd",
+"pinyin": "htkj",
 "industry": "教育",
-"former": [],
+"former": [
+"华图山鼎"
+],
 "st": false,
 "status": "listed",
 "hk": "",
@@ -32397,13 +32401,15 @@
 },
 {
 "code": "300670",
-"name": "大烨智能",
+"name": "ST大烨",
 "exchange": "SZ",
 "org_id": "9900031478",
-"pinyin": "dyzn",
+"pinyin": "stdy",
 "industry": "电网设备",
-"former": [],
-"st": false,
+"former": [
+"大烨智能"
+],
+"st": true,
 "status": "listed",
 "hk": "",
 "us": "",
@@ -64847,13 +64853,15 @@
 },
 {
 "code": "603595",
-"name": "ST东尼",
+"name": "东尼电子",
 "exchange": "SH",
 "org_id": "9900032656",
-"pinyin": "stdn",
+"pinyin": "dndz",
 "industry": "消费电子",
-"former": [],
-"st": true,
+"former": [
+"ST东尼"
+],
+"st": false,
 "status": "listed",
 "hk": "",
 "us": "",
