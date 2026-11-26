@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T16:46:25.698801+08:00",
+ "generated": "2026-11-26T16:31:36.454406+08:00",
  "rows": [
   {
    "kind": "精选利好",
@@ -95,7 +95,7 @@
   },
   {
    "kind": "共振",
-   "n": 201,
+   "n": 211,
    "bullish": true,
    "reaction_1_n": 0,
    "reaction_1_mean": null,
@@ -118,7 +118,7 @@
   },
   {
    "kind": "资金先行",
-   "n": 96,
+   "n": 99,
    "bullish": null,
    "reaction_1_n": 0,
    "reaction_1_mean": null,
@@ -141,7 +141,7 @@
   },
   {
    "kind": "新闻热·资金冷",
-   "n": 309,
+   "n": 313,
    "bullish": false,
    "reaction_1_n": 0,
    "reaction_1_mean": null,
@@ -164,7 +164,7 @@
   },
   {
    "kind": "涨停主线",
-   "n": 181,
+   "n": 187,
    "bullish": true,
    "reaction_1_n": 0,
    "reaction_1_mean": null,
